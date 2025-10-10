@@ -21,7 +21,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const [pathname, setPathname] = useState('/')
 
   useEffect(() => {
-    setPathname(window.location.pathname)
+    // Remove the basePath from pathname for comparison
+    let path = window.location.pathname
+    if (path.startsWith('/CiliaMinerV2.01')) {
+      path = path.substring('/CiliaMinerV2.01'.length) || '/'
+    }
+    setPathname(path)
   }, [])
 
   return (

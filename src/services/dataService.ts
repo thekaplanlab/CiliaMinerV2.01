@@ -20,9 +20,23 @@ interface DataIndex {
   }
 }
 
+// Get the base path for data fetching (GitHub Pages support)
+function getBasePath(): string {
+  // Check if we're in production and deployed to a subdirectory
+  if (typeof window !== 'undefined') {
+    const path = window.location.pathname
+    // If the path starts with /CiliaMinerV2.01, use that as basePath
+    if (path.startsWith('/CiliaMinerV2.01')) {
+      return '/CiliaMinerV2.01'
+    }
+  }
+  return ''
+}
+
 class DataService {
   private dataIndex: DataIndex | null = null
   private dataCache: Map<string, any> = new Map()
+  private basePath: string = getBasePath()
 
   async loadDataIndex(): Promise<DataIndex> {
     if (this.dataIndex) return this.dataIndex
@@ -32,7 +46,7 @@ class DataService {
       const controller = new AbortController()
       const timeoutId = setTimeout(() => controller.abort(), 10000) // 10 second timeout
       
-      const response = await fetch('/data/data_index.json', {
+      const response = await fetch(`${this.basePath}/data/data_index.json`, {
         signal: controller.signal
       })
       
@@ -64,7 +78,7 @@ class DataService {
       const controller = new AbortController()
       const timeoutId = setTimeout(() => controller.abort(), 30000) // 30 second timeout for large files
       
-      const response = await fetch(`/data/${datasetName}.json`, {
+      const response = await fetch(`${this.basePath}/data/${datasetName}.json`, {
         signal: controller.signal
       })
       
