@@ -7,8 +7,8 @@ const nextConfig = {
   },
   // Configure for GitHub Pages deployment
   // Use basePath only in production (GitHub Pages)
-  basePath: process.env.GITHUB_ACTIONS === 'true' ? '/CiliaMinerV2.01' : '',
-  assetPrefix: process.env.GITHUB_ACTIONS === 'true' ? '/CiliaMinerV2.01/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/CiliaMinerV2.01' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/CiliaMinerV2.01' : '',
 }
 
 module.exports = nextConfig
