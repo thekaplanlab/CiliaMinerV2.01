@@ -1,0 +1,159 @@
+{
+  "gene_name": "CLCN4",
+  "ensembl_id": "ENSG00000073464",
+  "synonyms": [
+    "CLC-4",
+    "CLC4"
+  ],
+  "omim_id": "302910",
+  "description": "chloride voltage-gated channel 4 [Source:HGNC Symbol;Acc:HGNC:2022]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00571",
+    "PF00654"
+  ],
+  "domain_descriptions": [
+    "CBS domain",
+    "Chloride channel",
+    "Chloride channel ClC-4",
+    "Chloride channel",
+    "core",
+    "CBS domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "CBS domain",
+    "Chloride channel",
+    "Chloride channel ClC-4",
+    "Chloride channel",
+    "core",
+    "CBS domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00571",
+      "PF00654"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CBS domain",
+    "Chloride channel",
+    "Chloride channel ClC-4",
+    "Chloride channel",
+    "core",
+    "CBS domain superfamily"
+  ],
+  "ciliary_role": "Ion channel gene required for ciliogenesis.Mutations cause defects in cilia structure. Potential new candidate in human ciliopathies (26546361)",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CLCN4 is a ciliary gene encoding chloride voltage-gated channel 4 [source:hgnc symbol;acc:hgnc:2022]",
+    "functional_summary": "Ion channel gene required for ciliogenesis.Mutations cause defects in cilia structure. Potential new candidate in human ciliopathies (26546361)",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

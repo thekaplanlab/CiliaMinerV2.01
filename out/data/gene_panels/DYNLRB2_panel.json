@@ -1,0 +1,112 @@
+{
+  "gene_name": "DYNLRB2",
+  "ensembl_id": "ENSG00000168589",
+  "synonyms": [
+    "DNCL2B",
+    "DNLC2B",
+    "ROBLD2"
+  ],
+  "omim_id": "607168",
+  "description": "dynein light chain roadblock-type 2 [Source:HGNC Symbol;Acc:HGNC:15467]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03259"
+  ],
+  "domain_descriptions": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03259"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "ciliary_role": "Component of the WDR34 subcomplex (DYNLL1/DYNLL2 and DYNLRB1/DYNLRB2), crucial for dynein-2 function in retrograde ciliary protein trafficking (30649997, 32088381).",
+  "localization": [
+    "cilia",
+    "transition zone",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "transition zone",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNLRB2 is a ciliary gene encoding dynein light chain roadblock-type 2 [source:hgnc symbol;acc:hgnc:15467]",
+    "functional_summary": "Component of the WDR34 subcomplex (DYNLL1/DYNLL2 and DYNLRB1/DYNLRB2), crucial for dynein-2 function in retrograde ciliary protein trafficking (30649997, 32088381).",
+    "localization_summary": "Localizes to cilia , transition zone ,basal body",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

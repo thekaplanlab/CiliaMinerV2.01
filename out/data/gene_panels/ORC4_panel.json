@@ -1,0 +1,115 @@
+{
+  "gene_name": "ORC4",
+  "ensembl_id": "ENSG00000115947",
+  "synonyms": [
+    "HSORC4",
+    "ORC4L",
+    "ORC4P"
+  ],
+  "omim_id": "603056",
+  "description": "origin recognition complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:8490]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13191",
+    "PF14629",
+    "PF00004"
+  ],
+  "domain_descriptions": [
+    "AAA+ ATPase domain",
+    "Origin recognition complex subunit 4",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Origin recognition complex subunit 4",
+    "C-terminal",
+    "Orc1-like",
+    "AAA ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "AAA+ ATPase domain",
+    "Origin recognition complex subunit 4",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Origin recognition complex subunit 4",
+    "C-terminal",
+    "Orc1-like",
+    "AAA ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13191",
+      "PF14629",
+      "PF00004"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "AAA+ ATPase domain",
+    "Origin recognition complex subunit 4",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Origin recognition complex subunit 4",
+    "C-terminal",
+    "Orc1-like",
+    "AAA ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core"
+  ],
+  "ciliary_role": "Depletion of ORC1, ORC4, ORC6, CDT1 and CDC6 resulted in dramatically impaired cilia formation similar to ORC1-deficient patient cells ( 23516378).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ORC4 is a ciliary gene encoding origin recognition complex subunit 4 [source:hgnc symbol;acc:hgnc:8490]",
+    "functional_summary": "Depletion of ORC1, ORC4, ORC6, CDT1 and CDC6 resulted in dramatically impaired cilia formation similar to ORC1-deficient patient cells ( 23516378).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

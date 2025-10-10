@@ -1,0 +1,139 @@
+{
+  "gene_name": "AURKA",
+  "ensembl_id": "ENSG00000087586",
+  "synonyms": [
+    "AIK",
+    "ARK1",
+    "AURA",
+    "BTAK",
+    "PPP1R47",
+    "STK15",
+    "STK6",
+    "STK7"
+  ],
+  "omim_id": "603072",
+  "description": "aurora kinase A [Source:HGNC Symbol;Acc:HGNC:11393]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Aurora kinase A",
+    "Aurora kinase-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Aurora kinase A",
+    "Aurora kinase-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Aurora kinase A",
+    "Aurora kinase-like"
+  ],
+  "ciliary_role": "ki se at the basal body of cilia. Phosphorylates HDAC6 to promote cilia disassembly",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AURKA is a ciliary gene encoding aurora kinase a [source:hgnc symbol;acc:hgnc:11393]",
+    "functional_summary": "ki se at the basal body of cilia. Phosphorylates HDAC6 to promote cilia disassembly",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

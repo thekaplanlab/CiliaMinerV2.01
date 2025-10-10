@@ -1,0 +1,109 @@
+{
+  "gene_name": "CCDC40",
+  "ensembl_id": "ENSG00000291505; ENSG00000141519",
+  "synonyms": [
+    "CFAP172",
+    "CILD15",
+    "FAP172",
+    "FLJ20753",
+    "FLJ32021",
+    "KIAA1640"
+  ],
+  "omim_id": "613799",
+  "description": "coiled-coil domain 40 molecular ruler complex subunit [Source:HGNC Symbol;Acc:HGNC:26090]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "CCDC40 is required for assembly of motile cilia. It is responsible for CCDC39 axonemal recruitment. It is important for cytoplasmic pre- assembly, axonemal targeting, and/or transport of axonemal components CCDC39, GAS11 and D LI1. Necessary for assembly of inner dynein arms, the dynein regulatory complex and plays a role in the establishment of the left- right patterning (21131974)",
+  "localization": [
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCDC40 is a ciliary gene encoding coiled-coil domain 40 molecular ruler complex subunit [source:hgnc symbol;acc:hgnc:26090]",
+    "functional_summary": "CCDC40 is required for assembly of motile cilia. It is responsible for CCDC39 axonemal recruitment. It is important for cytoplasmic pre- assembly, axonemal targeting, and/or transport of axonemal comp...",
+    "localization_summary": "Localizes to cilia, Microtubules",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

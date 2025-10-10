@@ -1,0 +1,139 @@
+{
+  "gene_name": "KLC1",
+  "ensembl_id": "ENSG00000126214",
+  "synonyms": [
+    "HKLC1B",
+    "HKLC1G",
+    "HKLC1J",
+    "HKLC1N",
+    "HKLC1P",
+    "HKLC1R",
+    "HKLC1S",
+    "KLC",
+    "KNS2",
+    "KNS2A"
+  ],
+  "omim_id": "600025",
+  "description": "kinesin light chain 1 [Source:HGNC Symbol;Acc:HGNC:6387]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13424",
+    "PF13374"
+  ],
+  "domain_descriptions": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Kinesin light chain repeat",
+    "Tetratricopeptide repeat"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Kinesin light chain repeat",
+    "Tetratricopeptide repeat"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13424",
+      "PF13374"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Kinesin light chain repeat",
+    "Tetratricopeptide repeat"
+  ],
+  "ciliary_role": "Interacts with CCDC28B to regulate cilia length. Regulation the sub-cellular distribution of CCDC28B by loading CCDC28B onto KIF5B-based motors at the pericentriolar region (29445114).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KLC1 is a ciliary gene encoding kinesin light chain 1 [source:hgnc symbol;acc:hgnc:6387]",
+    "functional_summary": "Interacts with CCDC28B to regulate cilia length. Regulation the sub-cellular distribution of CCDC28B by loading CCDC28B onto KIF5B-based motors at the pericentriolar region (29445114).",
+    "localization_summary": "Localizes to cilia,  basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

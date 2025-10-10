@@ -1,0 +1,95 @@
+{
+  "gene_name": "ANKMY2",
+  "ensembl_id": "ENSG00000106524",
+  "synonyms": [
+    "DKFZP564O043",
+    "ZMYND20"
+  ],
+  "omim_id": "",
+  "description": "ankyrin repeat and MYND domain containing 2 [Source:HGNC Symbol;Acc:HGNC:25370]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12796",
+    "PF01753"
+  ],
+  "domain_descriptions": [
+    "Ankyrin repeat",
+    "Zinc finger",
+    "MYND-type",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin repeat and MYND domain-containing protein 2"
+  ],
+  "molecular_function": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "structural_features": [
+    "Ankyrin repeat",
+    "Zinc finger",
+    "MYND-type",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin repeat and MYND domain-containing protein 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12796",
+      "PF01753"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ankyrin repeat",
+    "Zinc finger",
+    "MYND-type",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin repeat and MYND domain-containing protein 2"
+  ],
+  "ciliary_role": "DAF-25(C. elegans ortholog of mammalian Ankmy2), which localizes to sensory cilia, is required for proper DAF-11 ciliary localization, mouse Ankmy2 interacts with guanylyl cyclase GC1 from ciliary photoreceptors, ciliary localization of DAF-25 itself is influenced in che-11 mutants (21124868)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ANKMY2 is a ciliary gene encoding ankyrin repeat and mynd domain containing 2 [source:hgnc symbol;acc:hgnc:25370]",
+    "functional_summary": "DAF-25(C. elegans ortholog of mammalian Ankmy2), which localizes to sensory cilia, is required for proper DAF-11 ciliary localization, mouse Ankmy2 interacts with guanylyl cyclase GC1 from ciliary pho...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

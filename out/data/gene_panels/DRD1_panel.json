@@ -1,0 +1,162 @@
+{
+  "gene_name": "DRD1",
+  "ensembl_id": "ENSG00000184845",
+  "synonyms": [
+    "D1R"
+  ],
+  "omim_id": "126449",
+  "description": "dopamine receptor D1 [Source:HGNC Symbol;Acc:HGNC:3020]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine receptor family",
+    "Dopamine D1 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine receptor family",
+    "Dopamine D1 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine receptor family",
+    "Dopamine D1 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "ciliary_role": "Role in motile ciliary beating in ependymal cells by regulation of catecholamines. Mediation of cellular responses to distinct endogenous catecholamines, which suggests that primary cilia play a fundamental role in enhancing the selectivity of integrated catecholamine sig ling (23936473)",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DRD1 is a ciliary gene encoding dopamine receptor d1 [source:hgnc symbol;acc:hgnc:3020]",
+    "functional_summary": "Role in motile ciliary beating in ependymal cells by regulation of catecholamines. Mediation of cellular responses to distinct endogenous catecholamines, which suggests that primary cilia play a funda...",
+    "localization_summary": "Localizes to cilia, basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

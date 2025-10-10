@@ -1,0 +1,171 @@
+{
+  "gene_name": "KCNC3",
+  "ensembl_id": "ENSG00000131398",
+  "synonyms": [
+    "KV3.3",
+    "SCA13"
+  ],
+  "omim_id": "176264",
+  "description": "potassium voltage-gated channel subfamily C member 3 [Source:HGNC Symbol;Acc:HGNC:6235]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02214",
+    "PF00520"
+  ],
+  "domain_descriptions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3.3",
+    "Ion transport domain",
+    "SKP1/BTB/POZ domain superfamily",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-gated potassium channel"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3.3",
+    "Ion transport domain",
+    "SKP1/BTB/POZ domain superfamily",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-gated potassium channel"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02214",
+      "PF00520"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3",
+    "Potassium channel",
+    "voltage dependent",
+    "Kv3.3",
+    "Ion transport domain",
+    "SKP1/BTB/POZ domain superfamily",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-gated potassium channel"
+  ],
+  "ciliary_role": "KCNC family members (KCNC1, KCNC2, KCNC3, KCNC4) may be involved in ciliated neuro l compartments, based on strong homology and functio l parallels with C. elegans EGL-36, which localizes to the periciliary region of ciliated sensory neurons (33688626).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KCNC3 is a ciliary gene encoding potassium voltage-gated channel subfamily c member 3 [source:hgnc symbol;acc:hgnc:6235]",
+    "functional_summary": "KCNC family members (KCNC1, KCNC2, KCNC3, KCNC4) may be involved in ciliated neuro l compartments, based on strong homology and functio l parallels with C. elegans EGL-36, which localizes to the peric...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,119 @@
+{
+  "gene_name": "GAP43",
+  "ensembl_id": "ENSG00000172020",
+  "synonyms": [
+    "B-50",
+    "GAP-43",
+    "PP46"
+  ],
+  "omim_id": "162060",
+  "description": "growth associated protein 43 [Source:HGNC Symbol;Acc:HGNC:4140]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10580",
+    "PF06614",
+    "PF00612"
+  ],
+  "domain_descriptions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Neuromodulin (GAP-43)",
+    "Neuromodulin (GAP-43)",
+    "C-terminal",
+    "Neuromodulin",
+    "palmitoylation site",
+    "Neuromodulin gap junction N-terminal",
+    "Neuromodulin",
+    "phosphorylation site"
+  ],
+  "molecular_function": [
+    "Axon guidance & growth",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Neuromodulin (GAP-43)",
+    "Neuromodulin (GAP-43)",
+    "C-terminal",
+    "Neuromodulin",
+    "palmitoylation site",
+    "Neuromodulin gap junction N-terminal",
+    "Neuromodulin",
+    "phosphorylation site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10580",
+      "PF06614",
+      "PF00612"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Neuromodulin (GAP-43)",
+    "Neuromodulin (GAP-43)",
+    "C-terminal",
+    "Neuromodulin",
+    "palmitoylation site",
+    "Neuromodulin gap junction N-terminal",
+    "Neuromodulin",
+    "phosphorylation site"
+  ],
+  "ciliary_role": "The B50/GAP43 protein is present throughout the receptor neuron, including the perikaryon, sy ptic projections of these neurons in the olfactory bulb, the proximal portion of the olfactory cilia, the dendritic process, and the axon(2918383).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axon guidance & growth",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axon guidance & growth",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GAP43 is a ciliary gene encoding growth associated protein 43 [source:hgnc symbol;acc:hgnc:4140]",
+    "functional_summary": "The B50/GAP43 protein is present throughout the receptor neuron, including the perikaryon, sy ptic projections of these neurons in the olfactory bulb, the proximal portion of the olfactory cilia, the ...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

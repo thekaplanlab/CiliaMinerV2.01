@@ -1,0 +1,163 @@
+{
+  "gene_name": "CNGB1",
+  "ensembl_id": "ENSG00000070729",
+  "synonyms": [
+    "CNCG2",
+    "CNCG3L",
+    "CNGB1B",
+    "GAR1",
+    "GARP",
+    "RCNC2",
+    "RCNCB",
+    "RP45"
+  ],
+  "omim_id": "600724",
+  "description": "cyclic nucleotide gated channel subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:2151]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00027"
+  ],
+  "domain_descriptions": [
+    "Cyclic nucleotide-binding domain",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding",
+    "conserved site",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Cyclic nucleotide-gated cation channel"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Cyclic nucleotide-binding domain",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding",
+    "conserved site",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Cyclic nucleotide-gated cation channel"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00027"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cyclic nucleotide-binding domain",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding",
+    "conserved site",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Cyclic nucleotide-gated cation channel"
+  ],
+  "ciliary_role": "It endows the olfactory CNG channel with a variety of biophysical properties tailored to the specific requirements of olfactory transduction and is required for ciliary targeting of the olfactory CNG channel. Cooperation in mediating feedback modulation by Ca2+-CaM (16980309). Key regulators of disk size by mediating a physical connection between disk rims and the OS plasma membrane Loss of Cngb1 disruptes links between the disk and plasma membranes (23178122)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CNGB1 is a ciliary gene encoding cyclic nucleotide gated channel subunit beta 1 [source:hgnc symbol;acc:hgnc:2151]",
+    "functional_summary": "It endows the olfactory CNG channel with a variety of biophysical properties tailored to the specific requirements of olfactory transduction and is required for ciliary targeting of the olfactory CNG ...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

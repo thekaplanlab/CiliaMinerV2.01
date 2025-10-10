@@ -1,0 +1,110 @@
+{
+  "gene_name": "STRN3",
+  "ensembl_id": "ENSG00000196792",
+  "synonyms": [
+    "PPP2R6B",
+    "S/G2NA",
+    "SG2NA"
+  ],
+  "omim_id": "614766",
+  "description": "striatin 3 [Source:HGNC Symbol;Acc:HGNC:15720]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08232",
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "Striatin",
+    "N-terminal",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing striatin"
+  ],
+  "molecular_function": [
+    "Small GTPases / Trafficking"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "Striatin",
+    "N-terminal",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing striatin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08232",
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "Striatin",
+    "N-terminal",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing striatin"
+  ],
+  "ciliary_role": "STRN3 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Small GTPases / Trafficking"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Small GTPases / Trafficking"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "STRN3 is a ciliary gene encoding striatin 3 [source:hgnc symbol;acc:hgnc:15720]",
+    "functional_summary": "STRN3 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

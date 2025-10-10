@@ -1,0 +1,113 @@
+{
+  "gene_name": "CCP110",
+  "ensembl_id": "ENSG00000103540",
+  "synonyms": [
+    "CP110",
+    "KIAA0419"
+  ],
+  "omim_id": "609544",
+  "description": "centriolar coiled-coil protein 110 [Source:HGNC Symbol;Acc:HGNC:24342]",
+  "protein_complexes": [
+    "CCP110-CEP290 complex",
+    "Distal appendage"
+  ],
+  "pfam_ids": [
+    "PF16025"
+  ],
+  "domain_descriptions": [
+    "Centriolar coiled-coil protein of 110kDa"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Centriolar coiled-coil protein of 110kDa"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16025"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centriolar coiled-coil protein of 110kDa"
+  ],
+  "ciliary_role": "Suppressor of ciliogenesis by acting simply as a passive physical barrier and by capping the growing ends of  to prevent their elongation. Regulation the assembly of subdistal appendages (SDA) core components. Has a role in regulating centrosome duplication and separation (26965371). Regulates the length of centrioles and prevents aberrant formation of primary cilia, components to a CP110 scaffold may be needed to facilitate depolymerization (21620453). Studies suggest that CP110 might control discrete functions in the centrosome cycle and constitutes a set of controls that govern the switch from centriolar to basal body function (17719545).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCP110 is a ciliary gene encoding centriolar coiled-coil protein 110 [source:hgnc symbol;acc:hgnc:24342]",
+    "functional_summary": "Suppressor of ciliogenesis by acting simply as a passive physical barrier and by capping the growing ends of  to prevent their elongation. Regulation the assembly of subdistal appendages (SDA) core co...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

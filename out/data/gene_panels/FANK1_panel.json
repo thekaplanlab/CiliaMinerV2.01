@@ -1,0 +1,104 @@
+{
+  "gene_name": "FANK1",
+  "ensembl_id": "ENSG00000203780",
+  "synonyms": [],
+  "omim_id": "611640",
+  "description": "fibronectin type III and ankyrin repeat domains 1 [Source:HGNC Symbol;Acc:HGNC:23527]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12796",
+    "PF00023",
+    "PF13637"
+  ],
+  "domain_descriptions": [
+    "Ankyrin repeat",
+    "Fibronectin type III",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Ankyrin repeat-containing domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Ankyrin repeat",
+    "Fibronectin type III",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Ankyrin repeat-containing domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12796",
+      "PF00023",
+      "PF13637"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ankyrin repeat",
+    "Fibronectin type III",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Ankyrin repeat-containing domain superfamily"
+  ],
+  "ciliary_role": "Regulator of multiciliated cell differentiation in the mouse airway epithelium.",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FANK1 is a ciliary gene encoding fibronectin type iii and ankyrin repeat domains 1 [source:hgnc symbol;acc:hgnc:23527]",
+    "functional_summary": "Regulator of multiciliated cell differentiation in the mouse airway epithelium.",
+    "localization_summary": "Localizes to basal body, transition zone, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

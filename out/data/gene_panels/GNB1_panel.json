@@ -1,0 +1,131 @@
+{
+  "gene_name": "GNB1",
+  "ensembl_id": "ENSG00000078369",
+  "synonyms": [],
+  "omim_id": "139380",
+  "description": "G protein subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:4396]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Guanine nucleotide-binding protein",
+    "beta subunit",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "G-protein",
+    "beta subunit"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Guanine nucleotide-binding protein",
+    "beta subunit",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "G-protein",
+    "beta subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Guanine nucleotide-binding protein",
+    "beta subunit",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "G-protein",
+    "beta subunit"
+  ],
+  "ciliary_role": "Subunit of transducin. Localises to photoreceptor outer segment. Requires RP2 for normal localisation",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GNB1 is a ciliary gene encoding g protein subunit beta 1 [source:hgnc symbol;acc:hgnc:4396]",
+    "functional_summary": "Subunit of transducin. Localises to photoreceptor outer segment. Requires RP2 for normal localisation",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Cone-Rod Dystrophy",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

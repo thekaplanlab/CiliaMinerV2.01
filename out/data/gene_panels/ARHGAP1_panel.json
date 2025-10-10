@@ -1,0 +1,113 @@
+{
+  "gene_name": "ARHGAP1",
+  "ensembl_id": "ENSG00000175220",
+  "synonyms": [
+    "CDC42GAP",
+    "P50RHOGAP",
+    "RHOGAP"
+  ],
+  "omim_id": "602732",
+  "description": "Rho GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:673]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13716",
+    "PF00620"
+  ],
+  "domain_descriptions": [
+    "Rho GTPase-activating protein domain",
+    "CRAL-TRIO lipid binding domain",
+    "Rho GTPase activation protein",
+    "CRAL-TRIO lipid binding domain superfamily",
+    "Rho GTPase-activating protein 1",
+    "RhoGAP domain"
+  ],
+  "molecular_function": [
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Rho GTPase-activating protein domain",
+    "CRAL-TRIO lipid binding domain",
+    "Rho GTPase activation protein",
+    "CRAL-TRIO lipid binding domain superfamily",
+    "Rho GTPase-activating protein 1",
+    "RhoGAP domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13716",
+      "PF00620"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rho GTPase-activating protein domain",
+    "CRAL-TRIO lipid binding domain",
+    "Rho GTPase activation protein",
+    "CRAL-TRIO lipid binding domain superfamily",
+    "Rho GTPase-activating protein 1",
+    "RhoGAP domain"
+  ],
+  "ciliary_role": "ARHGAP1 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARHGAP1 is a ciliary gene encoding rho gtpase activating protein 1 [source:hgnc symbol;acc:hgnc:673]",
+    "functional_summary": "ARHGAP1 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

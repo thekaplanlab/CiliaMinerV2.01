@@ -1,0 +1,80 @@
+{
+  "gene_name": "NSD1",
+  "ensembl_id": "ENSG00000165671",
+  "synonyms": [
+    "ARA267",
+    "FLJ22263",
+    "KMT3B",
+    "STO"
+  ],
+  "omim_id": "606681",
+  "description": "nuclear receptor binding SET domain protein 1 [Source:HGNC Symbol;Acc:HGNC:14234]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "In vitro pooled CRISPR interference screen to identify CHD genes disrupting NPC biology and identified 45 CHD genes. A cluster of ASD and CHD genes are enriched for ciliary biology, and perturbing any one of seven such genes (CEP290, CHD4, KMT2E, NSD1, OFD1, RFX3 and TAOK1) impairs primary cilia formation in vitro(PMID: 40552535). A case with Sotos syndrome described due to a de novo pathogenic variant in the NSD1 gene presenting with polycystic kidneys and hepatic fibrosis.",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NSD1 is a ciliary gene encoding nuclear receptor binding set domain protein 1 [source:hgnc symbol;acc:hgnc:14234]",
+    "functional_summary": "In vitro pooled CRISPR interference screen to identify CHD genes disrupting NPC biology and identified 45 CHD genes. A cluster of ASD and CHD genes are enriched for ciliary biology, and perturbing any...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

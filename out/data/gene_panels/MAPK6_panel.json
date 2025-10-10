@@ -1,0 +1,136 @@
+{
+  "gene_name": "MAPK6",
+  "ensembl_id": "ENSG00000069956",
+  "synonyms": [
+    "ERK3",
+    "HST17250",
+    "P97MAPK",
+    "PRKM6"
+  ],
+  "omim_id": "",
+  "description": "mitogen-activated protein kinase 6 [Source:HGNC Symbol;Acc:HGNC:6879]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Mitogen-activated protein (MAP) kinase",
+    "ERK3/4",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Mitogen-activated protein (MAP) kinase",
+    "ERK3/4",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Mitogen-activated protein (MAP) kinase",
+    "ERK3/4",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "ciliary_role": "MAPK6 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAPK6 is a ciliary gene encoding mitogen-activated protein kinase 6 [source:hgnc symbol;acc:hgnc:6879]",
+    "functional_summary": "MAPK6 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

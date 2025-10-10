@@ -1,0 +1,87 @@
+{
+  "gene_name": "SNAP23",
+  "ensembl_id": "ENSG00000092531",
+  "synonyms": [
+    "HST17016",
+    "SNAP23A",
+    "SNAP23B"
+  ],
+  "omim_id": "602534",
+  "description": "synaptosome associated protein 23 [Source:HGNC Symbol;Acc:HGNC:11131]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00835"
+  ],
+  "domain_descriptions": [
+    "Target SNARE coiled-coil homology domain",
+    "SNAP-25 domain"
+  ],
+  "molecular_function": [
+    "Non-motile cilium / Primary cilium"
+  ],
+  "structural_features": [
+    "Target SNARE coiled-coil homology domain",
+    "SNAP-25 domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00835"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Target SNARE coiled-coil homology domain",
+    "SNAP-25 domain"
+  ],
+  "ciliary_role": "S P23 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Non-motile cilium / Primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Non-motile cilium / Primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SNAP23 is a ciliary gene encoding synaptosome associated protein 23 [source:hgnc symbol;acc:hgnc:11131]",
+    "functional_summary": "S P23 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

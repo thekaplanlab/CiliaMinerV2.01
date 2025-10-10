@@ -1,0 +1,88 @@
+{
+  "gene_name": "RP1L1",
+  "ensembl_id": "ENSG00000292297; ENSG00000183638",
+  "synonyms": [
+    "DCDC4B"
+  ],
+  "omim_id": "608581",
+  "description": "RP1 like 1 [Source:HGNC Symbol;Acc:HGNC:15946]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Shares similar DCX tandem repeats and a 34 aa domain (RP1D) with Rp1. Plays essential and synergistic roles with Rp1 in affecting photosensitivity and OS morphogenesis of rod photoreceptors. Mutations in RP1L1 could underlie retinopathy or modify RP1 disease expression in humans (19657028). Mutations in RP1L1 have been associated with occult macular dystrophy and RP (20826268)",
+  "localization": [
+    "flagella",
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RP1L1 is a ciliary gene encoding rp1 like 1 [source:hgnc symbol;acc:hgnc:15946]",
+    "functional_summary": "Shares similar DCX tandem repeats and a 34 aa domain (RP1D) with Rp1. Plays essential and synergistic roles with Rp1 in affecting photosensitivity and OS morphogenesis of rod photoreceptors. Mutations...",
+    "localization_summary": "Localizes to flagella, basal body , cilia",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,105 @@
+{
+  "gene_name": "TMEM107",
+  "ensembl_id": "ENSG00000179029",
+  "synonyms": [
+    "JBTS29",
+    "MGC10744",
+    "MKS13"
+  ],
+  "omim_id": "616183",
+  "description": "transmembrane protein 107 [Source:HGNC Symbol;Acc:HGNC:28128]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14995"
+  ],
+  "domain_descriptions": [
+    "Transmembrane protein 107"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Transmembrane protein 107"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14995"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Transmembrane protein 107"
+  ],
+  "ciliary_role": "Critical regulator of cilia formation and morphology (26518474). Controls ciliary proteincomposition. Functions redundantly with NPHP4 to regulate cilium integrity, transition zone docking and assembly of membrane to microtubule Y- link connectors. Recruits ciliopathy proteins MKS1, TMEM231 and TMEM237. Mutated in OFD and JBTS patients (26595381). In mice, mutations decrease cilia number and disrupt Hh sig ling. Essential for craniofacial development (28954202). Acts synergistically with Gli2 as a positive mediator of Shh and ciliogenesis (22698544). Loss of Tmem107 results in disruption in early L- R patterning events at the node (31887266).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome",
+    "Meckel–Gruber Syndrome",
+    "Orofaciodigital Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome, Meckel–Gruber Syndrome, Orofaciodigital Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TMEM107 is a ciliary gene encoding transmembrane protein 107 [source:hgnc symbol;acc:hgnc:28128]",
+    "functional_summary": "Critical regulator of cilia formation and morphology (26518474). Controls ciliary proteincomposition. Functions redundantly with NPHP4 to regulate cilium integrity, transition zone docking and assembl...",
+    "localization_summary": "Localizes to basal body, cilia, Lysosomes",
+    "disease_summary": "Associated with Joubert Syndrome, Meckel–Gruber Syndrome, Orofaciodigital Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome, Meckel–Gruber Syndrome, Orofaciodigital Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

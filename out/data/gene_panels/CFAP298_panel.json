@@ -1,0 +1,113 @@
+{
+  "gene_name": "CFAP298",
+  "ensembl_id": "ENSG00000159079",
+  "synonyms": [
+    "C21ORF48",
+    "C21ORF59",
+    "CILD26",
+    "DNAAF16",
+    "FBB18",
+    "FLJ20467",
+    "KUR"
+  ],
+  "omim_id": "615494",
+  "description": "cilia and flagella associated protein 298 [Source:HGNC Symbol;Acc:HGNC:1301]",
+  "protein_complexes": [
+    "ZMYND10 complex",
+    "cytoplasmic"
+  ],
+  "pfam_ids": [
+    "PF11069"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 298"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 298"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF11069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 298"
+  ],
+  "ciliary_role": "Also known as C21orf59 or kur) Mutated in primary ciliary diskinesia and regulates dynein arm assembly required for motile cilia function (24094744). Involved in cilia- associated developmental processes, recruitment of outer dynein arms required for initiating cilia motility. Studies suggest it has a role in the establishment of cilia polarity (26904945)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "transition zone"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP298 is a ciliary gene encoding cilia and flagella associated protein 298 [source:hgnc symbol;acc:hgnc:1301]",
+    "functional_summary": "Also known as C21orf59 or kur) Mutated in primary ciliary diskinesia and regulates dynein arm assembly required for motile cilia function (24094744). Involved in cilia- associated developmental proces...",
+    "localization_summary": "Localizes to basal body, cilia , transition zone",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

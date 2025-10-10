@@ -1,0 +1,129 @@
+{
+  "gene_name": "MYH13",
+  "ensembl_id": "ENSG00000006788",
+  "synonyms": [
+    "MYHC-EO"
+  ],
+  "omim_id": "603487",
+  "description": "myosin heavy chain 13 [Source:HGNC Symbol;Acc:HGNC:7571]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01576",
+    "PF00063",
+    "PF02736"
+  ],
+  "domain_descriptions": [
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "DNA repair protein XRCC4-like",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Myosin-13",
+    "motor domain"
+  ],
+  "molecular_function": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "DNA repair protein XRCC4-like",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Myosin-13",
+    "motor domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01576",
+      "PF00063",
+      "PF02736"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "DNA repair protein XRCC4-like",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Myosin-13",
+    "motor domain"
+  ],
+  "ciliary_role": "Immunocytochemistry for proteins encoded by PRKD1, MYO7A, AK9, CWH43, OTOG, NOTCH1, HAVCR1, SPG11, MYH13, and RXFP2 showed increased expression in the ciliated choroid plexus and ventricular ependyma ( 38100419).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MYH13 is a ciliary gene encoding myosin heavy chain 13 [source:hgnc symbol;acc:hgnc:7571]",
+    "functional_summary": "Immunocytochemistry for proteins encoded by PRKD1, MYO7A, AK9, CWH43, OTOG, NOTCH1, HAVCR1, SPG11, MYH13, and RXFP2 showed increased expression in the ciliated choroid plexus and ventricular ependyma ...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,132 @@
+{
+  "gene_name": "USP4",
+  "ensembl_id": "ENSG00000114316",
+  "synonyms": [
+    "UNP",
+    "UNPH"
+  ],
+  "omim_id": "603486",
+  "description": "ubiquitin specific peptidase 4 [Source:HGNC Symbol;Acc:HGNC:12627]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06337",
+    "PF14836",
+    "PF00443"
+  ],
+  "domain_descriptions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin-like domain",
+    "USP-type",
+    "Ubiquitin specific protease domain",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase",
+    "SSNA1 family"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin-like domain",
+    "USP-type",
+    "Ubiquitin specific protease domain",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase",
+    "SSNA1 family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06337",
+      "PF14836",
+      "PF00443"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin-like domain",
+    "USP-type",
+    "Ubiquitin specific protease domain",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase",
+    "SSNA1 family"
+  ],
+  "ciliary_role": "USP4 has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP4 is a ciliary gene encoding ubiquitin specific peptidase 4 [source:hgnc symbol;acc:hgnc:12627]",
+    "functional_summary": "USP4 has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

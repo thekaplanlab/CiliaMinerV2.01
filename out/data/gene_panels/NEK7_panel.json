@@ -1,0 +1,109 @@
+{
+  "gene_name": "NEK7",
+  "ensembl_id": "ENSG00000151414",
+  "synonyms": [],
+  "omim_id": "606848",
+  "description": "NIMA related kinase 7 [Source:HGNC Symbol;Acc:HGNC:13386]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site"
+  ],
+  "ciliary_role": "Nek7 deficiency does not affect centrosome duplication but leads to disturbed frequency of primary cilia ( 20473324).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEK7 is a ciliary gene encoding nima related kinase 7 [source:hgnc symbol;acc:hgnc:13386]",
+    "functional_summary": "Nek7 deficiency does not affect centrosome duplication but leads to disturbed frequency of primary cilia ( 20473324).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

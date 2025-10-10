@@ -1,0 +1,16 @@
+{
+  "gene_name": "ABCA13",
+  "ensembl_id": "ENSG00000179869",
+  "description": "ATP binding cassette subfamily A member 13 [Source:HGNC Symbol;Acc:HGNC:14638]",
+  "omim_id": "607807",
+  "localization": "cilia",
+  "functional_summary": "ABCA13 has localized in cilia.",
+  "ciliopathy": NaN,
+  "functional_category": "Trafficking (BBSome, small GTPases, vesicular transport, ATPases)",
+  "ai_summary": {
+    "basic_summary": "ABCA13 is a ciliary gene",
+    "functional_summary": "ABCA13 has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "clinical_relevance": NaN
+  }
+}

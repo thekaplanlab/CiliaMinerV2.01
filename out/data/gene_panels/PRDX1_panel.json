@@ -1,0 +1,124 @@
+{
+  "gene_name": "PRDX1",
+  "ensembl_id": "ENSG00000117450",
+  "synonyms": [
+    "NKEFA",
+    "PAGA"
+  ],
+  "omim_id": "176763",
+  "description": "peroxiredoxin 1 [Source:HGNC Symbol;Acc:HGNC:9352]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10417",
+    "PF00578"
+  ],
+  "domain_descriptions": [
+    "Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant",
+    "Thioredoxin domain",
+    "Peroxiredoxin",
+    "C-terminal",
+    "Peroxiredoxin",
+    "AhpC-type",
+    "Thioredoxin-like superfamily",
+    "Thiol-specific antioxidant peroxiredoxin"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant",
+    "Thioredoxin domain",
+    "Peroxiredoxin",
+    "C-terminal",
+    "Peroxiredoxin",
+    "AhpC-type",
+    "Thioredoxin-like superfamily",
+    "Thiol-specific antioxidant peroxiredoxin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10417",
+      "PF00578"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant",
+    "Thioredoxin domain",
+    "Peroxiredoxin",
+    "C-terminal",
+    "Peroxiredoxin",
+    "AhpC-type",
+    "Thioredoxin-like superfamily",
+    "Thiol-specific antioxidant peroxiredoxin"
+  ],
+  "ciliary_role": "Antioxidant protein, involved in in the regulation of cilium disassembly ( 24480440) and decreases the activity of Aurora A, through the regulation of the critical NEDD9-Aurora A-HDAC6 sig l axis ( 32357862).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Microbody",
+    "Nucleus",
+    "Peroxisome"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Microbody",
+    "Nucleus",
+    "Peroxisome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRDX1 is a ciliary gene encoding peroxiredoxin 1 [source:hgnc symbol;acc:hgnc:9352]",
+    "functional_summary": "Antioxidant protein, involved in in the regulation of cilium disassembly ( 24480440) and decreases the activity of Aurora A, through the regulation of the critical NEDD9-Aurora A-HDAC6 sig l axis ( 32...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Microbody, Nucleus, Peroxisome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

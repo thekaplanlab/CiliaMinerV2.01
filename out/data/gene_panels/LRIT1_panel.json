@@ -1,0 +1,129 @@
+{
+  "gene_name": "LRIT1",
+  "ensembl_id": "ENSG00000148602",
+  "synonyms": [
+    "DKFZP434K091",
+    "FIGLER9",
+    "LRRC21",
+    "PAL"
+  ],
+  "omim_id": "616103",
+  "description": "leucine rich repeat, Ig-like and transmembrane domains 1 [Source:HGNC Symbol;Acc:HGNC:23404]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13855",
+    "PF07679"
+  ],
+  "domain_descriptions": [
+    "Cysteine-rich flanking region",
+    "C-terminal",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Leucine-rich repeat domain superfamily",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Leucine-rich repeat and fibronectin type-III domain-containing"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Cysteine-rich flanking region",
+    "C-terminal",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Leucine-rich repeat domain superfamily",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Leucine-rich repeat and fibronectin type-III domain-containing"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13855",
+      "PF07679"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cysteine-rich flanking region",
+    "C-terminal",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Leucine-rich repeat domain superfamily",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Leucine-rich repeat and fibronectin type-III domain-containing"
+  ],
+  "ciliary_role": "LRIT1 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRIT1 is a ciliary gene encoding leucine rich repeat, ig-like and transmembrane domains 1 [source:hgnc symbol;acc:hgnc:23404]",
+    "functional_summary": "LRIT1 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,110 @@
+{
+  "gene_name": "CEP250",
+  "ensembl_id": "ENSG00000126001",
+  "synonyms": [
+    "C-NAP1",
+    "CEP2"
+  ],
+  "omim_id": "609689",
+  "description": "centrosomal protein 250 [Source:HGNC Symbol;Acc:HGNC:1859]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15035"
+  ],
+  "domain_descriptions": [
+    "Rootletin-like",
+    "coiled-coil"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Rootletin-like",
+    "coiled-coil"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15035"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rootletin-like",
+    "coiled-coil"
+  ],
+  "ciliary_role": "Interact with proteins implicated in rhodopsin trafficking (NEK2 and NINL). Rrecruitment of several proteins to centriole proximal ends, including Girdin (Girders of actin filaments) and proteins that associate with the distal region of the mother centriole (NEK2, ninein, CEP170, p150glued and KIF2A) (30421101). C- P1 anchores rootletin filaments that hold duplicated centrosomes together(28100636). Mutations are associated to Usher Syndrome and retinitis pigmentosa (28005958).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Usher Syndrome"
+  ],
+  "ciliopathy_type": "Usher Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP250 is a ciliary gene encoding centrosomal protein 250 [source:hgnc symbol;acc:hgnc:1859]",
+    "functional_summary": "Interact with proteins implicated in rhodopsin trafficking (NEK2 and NINL). Rrecruitment of several proteins to centriole proximal ends, including Girdin (Girders of actin filaments) and proteins that...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "Associated with Usher Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Usher Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

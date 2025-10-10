@@ -1,0 +1,107 @@
+{
+  "gene_name": "HIF1AN",
+  "ensembl_id": "ENSG00000166135",
+  "synonyms": [
+    "DKFZP762F1811",
+    "FIH1",
+    "FLJ20615",
+    "FLJ22027"
+  ],
+  "omim_id": "606615",
+  "description": "hypoxia inducible factor 1 subunit alpha inhibitor [Source:HGNC Symbol;Acc:HGNC:17113]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13621"
+  ],
+  "domain_descriptions": [
+    "JmjC domain",
+    "RmlC-like jelly roll fold",
+    "Cupin-like domain 8",
+    "Hypoxia-inducible factor 1-alpha inhibitor",
+    "domain II"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "JmjC domain",
+    "RmlC-like jelly roll fold",
+    "Cupin-like domain 8",
+    "Hypoxia-inducible factor 1-alpha inhibitor",
+    "domain II"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13621"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "JmjC domain",
+    "RmlC-like jelly roll fold",
+    "Cupin-like domain 8",
+    "Hypoxia-inducible factor 1-alpha inhibitor",
+    "domain II"
+  ],
+  "ciliary_role": "HIF1AN is not localized to cilia, but it is functio lly related to ciliary processes through interactions with proteins like ANKS3 and NPHPs ( 25671767).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HIF1AN is a ciliary gene encoding hypoxia inducible factor 1 subunit alpha inhibitor [source:hgnc symbol;acc:hgnc:17113]",
+    "functional_summary": "HIF1AN is not localized to cilia, but it is functio lly related to ciliary processes through interactions with proteins like ANKS3 and NPHPs ( 25671767).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

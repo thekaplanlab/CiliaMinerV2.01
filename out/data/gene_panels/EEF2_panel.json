@@ -1,0 +1,161 @@
+{
+  "gene_name": "EEF2",
+  "ensembl_id": "ENSG00000167658",
+  "synonyms": [
+    "EEF-2",
+    "EF2"
+  ],
+  "omim_id": "130610",
+  "description": "eukaryotic translation elongation factor 2 [Source:HGNC Symbol;Acc:HGNC:3214]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14492",
+    "PF03144",
+    "PF00679",
+    "PF03764",
+    "PF00009"
+  ],
+  "domain_descriptions": [
+    "Elongation factor EFG",
+    "domain V-like",
+    "Translational (tr)-type GTP-binding domain",
+    "Translation elongation factor EFTu-like",
+    "domain 2",
+    "Small GTP-binding domain",
+    "Translation elongation factor EFG/EF2",
+    "domain IV",
+    "Translation protein",
+    "beta-barrel domain superfamily",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Tr-type G domain",
+    "conserved site",
+    "EF-G domain III/V-like",
+    "Elongation Factor G",
+    "domain II"
+  ],
+  "molecular_function": [
+    "Translation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Elongation factor EFG",
+    "domain V-like",
+    "Translational (tr)-type GTP-binding domain",
+    "Translation elongation factor EFTu-like",
+    "domain 2",
+    "Small GTP-binding domain",
+    "Translation elongation factor EFG/EF2",
+    "domain IV",
+    "Translation protein",
+    "beta-barrel domain superfamily",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Tr-type G domain",
+    "conserved site",
+    "EF-G domain III/V-like",
+    "Elongation Factor G",
+    "domain II"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14492",
+      "PF03144",
+      "PF00679",
+      "PF03764",
+      "PF00009"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Elongation factor EFG",
+    "domain V-like",
+    "Translational (tr)-type GTP-binding domain",
+    "Translation elongation factor EFTu-like",
+    "domain 2",
+    "Small GTP-binding domain",
+    "Translation elongation factor EFG/EF2",
+    "domain IV",
+    "Translation protein",
+    "beta-barrel domain superfamily",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Tr-type G domain",
+    "conserved site",
+    "EF-G domain III/V-like",
+    "Elongation Factor G",
+    "domain II"
+  ],
+  "ciliary_role": "Multiple components of translation machinery are present in the cilia of RG, including ribosome components, RPS23 and RPL19, and translation factors, EIF3C, EEF2 and EEF0G.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Translation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Translation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EEF2 is a ciliary gene encoding eukaryotic translation elongation factor 2 [source:hgnc symbol;acc:hgnc:3214]",
+    "functional_summary": "Multiple components of translation machinery are present in the cilia of RG, including ribosome components, RPS23 and RPL19, and translation factors, EIF3C, EEF2 and EEF0G.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

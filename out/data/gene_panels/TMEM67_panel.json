@@ -1,0 +1,152 @@
+{
+  "gene_name": "TMEM67",
+  "ensembl_id": "ENSG00000164953",
+  "synonyms": [
+    "JBTS6",
+    "MGC26979",
+    "MKS3",
+    "NPHP11"
+  ],
+  "omim_id": "609884",
+  "description": "transmembrane protein 67 [Source:HGNC Symbol;Acc:HGNC:28396]",
+  "protein_complexes": [
+    "MKS1-TMEM67 complex",
+    "SYNE2-TMEM67 complex"
+  ],
+  "pfam_ids": [
+    "PF09773"
+  ],
+  "domain_descriptions": [
+    "Meckelin",
+    "Growth factor receptor cysteine-rich domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Meckelin",
+    "Growth factor receptor cysteine-rich domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF09773"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Meckelin",
+    "Growth factor receptor cysteine-rich domain superfamily"
+  ],
+  "ciliary_role": "Also known as Meckelin or MKS3. Component of the MKS-JBTS module at the transition zone. Essential for phosphorylation of the non- canonical Wnt receptor ROR2. Negative regulator of Shh sig lling. Required for centriolar migration to the apical membrane during cell polarisation, regulation of actin cytoskeleton remodelling and RhoA activity (26035863). Required for the elongation and mainte nce of the outer segments in reti . It may play a role in photoreceptor intraciliary transport (22247471). Mutations are a major cause of MKS, JBTS and NPHP (23393159). MKS function is required for ciliary structure and function, plays a role in regulating cilia length and number through modulating centrosome duplication (19515853). In complex with other TZ proteins, it contributes to an early ciliogenic event and establish basal body/TZ membrane attachments (21422230).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "COACH Syndrome",
+    "Joubert Syndrome",
+    "Meckel–Gruber Syndrome",
+    "Nephronophthisis",
+    "RHYNS  Syndrome"
+  ],
+  "ciliopathy_type": "COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis, RHYNS  Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TMEM67 is a ciliary gene encoding transmembrane protein 67 [source:hgnc symbol;acc:hgnc:28396]",
+    "functional_summary": "Also known as Meckelin or MKS3. Component of the MKS-JBTS module at the transition zone. Essential for phosphorylation of the non- canonical Wnt receptor ROR2. Negative regulator of Shh sig lling. Req...",
+    "localization_summary": "Localizes to cilia,  basal body, Centrosome, Lysosomes",
+    "disease_summary": "Associated with COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis, RHYNS  Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis, RHYNS  Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

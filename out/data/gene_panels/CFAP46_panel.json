@@ -1,0 +1,105 @@
+{
+  "gene_name": "CFAP46",
+  "ensembl_id": "ENSG00000171811",
+  "synonyms": [
+    "BA288G11.4",
+    "BA288G11.5",
+    "BB137A17.2",
+    "BB137A17.3",
+    "C10ORF123",
+    "C10ORF124",
+    "C10ORF92",
+    "C10ORF93",
+    "DKFZP434A1721",
+    "FLJ25954",
+    "TTC40"
+  ],
+  "omim_id": "618543",
+  "description": "cilia and flagella associated protein 46 [Source:HGNC Symbol;Acc:HGNC:25247]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03568"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 46"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 46"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03568"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 46"
+  ],
+  "ciliary_role": "Pathogenic variants in CFAP46, CFAP54, CFAP74 and CFAP221 cause C1d-defective PCD with normal body laterality,  sal NO production, ciliary ultrastructure and ciliary beating (39362668).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP46 is a ciliary gene encoding cilia and flagella associated protein 46 [source:hgnc symbol;acc:hgnc:25247]",
+    "functional_summary": "Pathogenic variants in CFAP46, CFAP54, CFAP74 and CFAP221 cause C1d-defective PCD with normal body laterality,  sal NO production, ciliary ultrastructure and ciliary beating (39362668).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

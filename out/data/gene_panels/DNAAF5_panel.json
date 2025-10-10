@@ -1,0 +1,124 @@
+{
+  "gene_name": "DNAAF5",
+  "ensembl_id": "ENSG00000164818",
+  "synonyms": [
+    "CILD18",
+    "FLJ20397",
+    "FLJ25564",
+    "FLJ31671",
+    "FLJ39381",
+    "HEATR2"
+  ],
+  "omim_id": "614864",
+  "description": "dynein axonemal assembly factor 5 [Source:HGNC Symbol;Acc:HGNC:26013]",
+  "protein_complexes": [
+    "D AF2-HEATR2-SPAG1 complex"
+  ],
+  "pfam_ids": [
+    "PF24573",
+    "PF02985"
+  ],
+  "domain_descriptions": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "TOG domain",
+    "Dynein axonemal assembly factor 5",
+    "Dynein axonemal assembly factor 5",
+    "HEAT-repeat domain"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "TOG domain",
+    "Dynein axonemal assembly factor 5",
+    "Dynein axonemal assembly factor 5",
+    "HEAT-repeat domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF24573",
+      "PF02985"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "TOG domain",
+    "Dynein axonemal assembly factor 5",
+    "Dynein axonemal assembly factor 5",
+    "HEAT-repeat domain"
+  ],
+  "ciliary_role": "Preassembly and/or stability of both outer and inner axonemal dynein arms, required for ciliary motility. Interacts with D I2 in the initial step of outer dynein arms assembly ( 25232951)",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAAF5 is a ciliary gene encoding dynein axonemal assembly factor 5 [source:hgnc symbol;acc:hgnc:26013]",
+    "functional_summary": "Preassembly and/or stability of both outer and inner axonemal dynein arms, required for ciliary motility. Interacts with D I2 in the initial step of outer dynein arms assembly ( 25232951)",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

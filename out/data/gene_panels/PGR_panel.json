@@ -1,0 +1,133 @@
+{
+  "gene_name": "PGR",
+  "ensembl_id": "ENSG00000082175",
+  "synonyms": [
+    "NR3C3",
+    "PR"
+  ],
+  "omim_id": "607311",
+  "description": "progesterone receptor [Source:HGNC Symbol;Acc:HGNC:8910]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00105",
+    "PF00104",
+    "PF02161"
+  ],
+  "domain_descriptions": [
+    "Progesterone receptor",
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Nuclear hormone receptor family NR3 subfamily"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Progesterone receptor",
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Nuclear hormone receptor family NR3 subfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00105",
+      "PF00104",
+      "PF02161"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Progesterone receptor",
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Nuclear hormone receptor family NR3 subfamily"
+  ],
+  "ciliary_role": "PR in ciliated epithelial cells localizes to the lower half of the cilia and not to microvilli, which are positioned at the base between individual cilia (17170211).",
+  "localization": [
+    "cilia",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PGR is a ciliary gene encoding progesterone receptor [source:hgnc symbol;acc:hgnc:8910]",
+    "functional_summary": "PR in ciliated epithelial cells localizes to the lower half of the cilia and not to microvilli, which are positioned at the base between individual cilia (17170211).",
+    "localization_summary": "Localizes to cilia, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

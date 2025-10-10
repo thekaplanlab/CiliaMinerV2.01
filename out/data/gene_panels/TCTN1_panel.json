@@ -1,0 +1,98 @@
+{
+  "gene_name": "TCTN1",
+  "ensembl_id": "ENSG00000204852",
+  "synonyms": [
+    "FLJ21127",
+    "JBTS13",
+    "TECT1"
+  ],
+  "omim_id": "609863",
+  "description": "tectonic family member 1 [Source:HGNC Symbol;Acc:HGNC:26113]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07773"
+  ],
+  "domain_descriptions": [
+    "Tectonic domain",
+    "Tectonic"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Tectonic domain",
+    "Tectonic"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07773"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tectonic domain",
+    "Tectonic"
+  ],
+  "ciliary_role": "Required for cilium-dependent Hh sig l transduction, for transition zone localisation of interacting proteins. Form a complex with Tctn3, Mks1, Tmem216, Tmem67, Cep290, Cc2d2a, B9d1 and Tctn2, which regulates ciliogenesis and ciliary membrane composition. Mutations have been identified to cause JBTS (21725307). Mutations disrupts ciliogenesis and Hh",
+  "localization": [
+    "transition zone",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TCTN1 is a ciliary gene encoding tectonic family member 1 [source:hgnc symbol;acc:hgnc:26113]",
+    "functional_summary": "Required for cilium-dependent Hh sig l transduction, for transition zone localisation of interacting proteins. Form a complex with Tctn3, Mks1, Tmem216, Tmem67, Cep290, Cc2d2a, B9d1 and Tctn2, which r...",
+    "localization_summary": "Localizes to transition zone, Lysosomes",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

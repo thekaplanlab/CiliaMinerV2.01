@@ -1,0 +1,97 @@
+{
+  "gene_name": "IFTAP",
+  "ensembl_id": "ENSG00000166352",
+  "synonyms": [
+    "C11ORF74",
+    "FLJ38678",
+    "HEPIS",
+    "NWC"
+  ],
+  "omim_id": "619270",
+  "description": "intraflagellar transport associated protein [Source:HGNC Symbol;Acc:HGNC:25142]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17722"
+  ],
+  "domain_descriptions": [
+    "Intraflagellar transport-associated protein"
+  ],
+  "molecular_function": [
+    "Intraflagellar transport",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm"
+  ],
+  "structural_features": [
+    "Intraflagellar transport-associated protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17722"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Intraflagellar transport-associated protein"
+  ],
+  "ciliary_role": "C11ORF74, interacts with the IFT-A complex via the IFT122 subunit and is accumulated at the distal tip in the absence of an IFT-A subunit IFT139, suggesting that at least a fraction of C11ORF74 molecules can be transported towards the ciliary tip by associating with the IFT-A complex, although its majority might be out of cilia at steady state (30476139).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Intraflagellar transport",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Intraflagellar transport",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IFTAP is a ciliary gene encoding intraflagellar transport associated protein [source:hgnc symbol;acc:hgnc:25142]",
+    "functional_summary": "C11ORF74, interacts with the IFT-A complex via the IFT122 subunit and is accumulated at the distal tip in the absence of an IFT-A subunit IFT139, suggesting that at least a fraction of C11ORF74 molecu...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,100 @@
+{
+  "gene_name": "EHBP1L1",
+  "ensembl_id": "ENSG00000173442",
+  "synonyms": [
+    "DKFZP762C186",
+    "TANGERIN"
+  ],
+  "omim_id": "619583",
+  "description": "EH domain binding protein 1 like 1 [Source:HGNC Symbol;Acc:HGNC:30682]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00307",
+    "PF10358",
+    "PF12130"
+  ],
+  "domain_descriptions": [
+    "Calponin homology domain",
+    "NT-type C2 domain",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical",
+    "bMERB domain"
+  ],
+  "molecular_function": [
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calponin homology domain",
+    "NT-type C2 domain",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical",
+    "bMERB domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00307",
+      "PF10358",
+      "PF12130"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calponin homology domain",
+    "NT-type C2 domain",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical",
+    "bMERB domain"
+  ],
+  "ciliary_role": "EHBP1L1 and binding proteins CD2AP and CIN85 localize to the ciliary sheath membrane, which is a subdomain of the CV, and negatively regulate ciliary length. Depletion of EHBP1L1 and CD2P/CIN85 causes actin nucleation and branching defects around the basal body, suggesting that actin network formation is crucial for maintaining an appropriate length of primary cilia(36754282).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EHBP1L1 is a ciliary gene encoding eh domain binding protein 1 like 1 [source:hgnc symbol;acc:hgnc:30682]",
+    "functional_summary": "EHBP1L1 and binding proteins CD2AP and CIN85 localize to the ciliary sheath membrane, which is a subdomain of the CV, and negatively regulate ciliary length. Depletion of EHBP1L1 and CD2P/CIN85 causes...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

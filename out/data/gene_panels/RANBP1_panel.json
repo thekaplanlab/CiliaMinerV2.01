@@ -1,0 +1,113 @@
+{
+  "gene_name": "RANBP1",
+  "ensembl_id": "ENSG00000099901",
+  "synonyms": [
+    "HTF9A"
+  ],
+  "omim_id": "601180",
+  "description": "RAN binding protein 1 [Source:HGNC Symbol;Acc:HGNC:9847]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00638"
+  ],
+  "domain_descriptions": [
+    "Ran binding domain",
+    "PH-like domain superfamily",
+    "Ran binding protein RanBP1-like",
+    "Ran-specific GTPase-activating protein 1",
+    "Ran-binding domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Ran binding domain",
+    "PH-like domain superfamily",
+    "Ran binding protein RanBP1-like",
+    "Ran-specific GTPase-activating protein 1",
+    "Ran-binding domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00638"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ran binding domain",
+    "PH-like domain superfamily",
+    "Ran binding protein RanBP1-like",
+    "Ran-specific GTPase-activating protein 1",
+    "Ran-binding domain"
+  ],
+  "ciliary_role": "Negative regulator of Ran GTP, as it stimulates Ran GTP to GDP conversion. RanBP1 Knockdown results in an increased concentration of Ran GTP at basal bodies, leading to ciliogenesis. Overexpression antagonizes primary cilia formation.",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RANBP1 is a ciliary gene encoding ran binding protein 1 [source:hgnc symbol;acc:hgnc:9847]",
+    "functional_summary": "Negative regulator of Ran GTP, as it stimulates Ran GTP to GDP conversion. RanBP1 Knockdown results in an increased concentration of Ran GTP at basal bodies, leading to ciliogenesis. Overexpression an...",
+    "localization_summary": "Localizes to basal body, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

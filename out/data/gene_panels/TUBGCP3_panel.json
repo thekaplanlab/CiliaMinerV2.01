@@ -1,0 +1,95 @@
+{
+  "gene_name": "TUBGCP3",
+  "ensembl_id": "ENSG00000126216; ENSG00000282003",
+  "synonyms": [
+    "GCP3",
+    "SPBC98",
+    "SPC98P"
+  ],
+  "omim_id": "617818",
+  "description": "tubulin gamma complex component 3 [Source:HGNC Symbol;Acc:HGNC:18598]",
+  "protein_complexes": [
+    "Gamma-tubulin complex"
+  ],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Also known as GCP3. Gamma tubulin complex protein. These type of complexes of gamma-tubulin are used as templates for the longitudi l association with 伪/尾-tubulin dimers during the nucleation process (29514869). Component of gamma- tubulin small complexes that then associate with associate with GCP4, GCP5 and GCP6 to form ring complexes (21725292).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TUBGCP3 is a ciliary gene encoding tubulin gamma complex component 3 [source:hgnc symbol;acc:hgnc:18598]",
+    "functional_summary": "Also known as GCP3. Gamma tubulin complex protein. These type of complexes of gamma-tubulin are used as templates for the longitudi l association with 伪/尾-tubulin dimers during the nucleation process ...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

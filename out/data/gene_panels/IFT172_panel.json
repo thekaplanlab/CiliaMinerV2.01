@@ -1,0 +1,151 @@
+{
+  "gene_name": "IFT172",
+  "ensembl_id": "ENSG00000138002",
+  "synonyms": [
+    "BBS20",
+    "NPHP17",
+    "OSM-1",
+    "SLB",
+    "WIM"
+  ],
+  "omim_id": "607386",
+  "description": "intraflagellar transport 172 [Source:HGNC Symbol;Acc:HGNC:30391]",
+  "protein_complexes": [
+    "Intraflagellar transport complex B",
+    "Intraflagellar transport complex B peripheral subcomplex"
+  ],
+  "pfam_ids": [
+    "PF23387",
+    "PF24762",
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "IFT80/172/WDR35",
+    "TPR domain",
+    "IF140/IFT172/WDR19",
+    "TPR domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "IFT80/172/WDR35",
+    "TPR domain",
+    "IF140/IFT172/WDR19",
+    "TPR domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23387",
+      "PF24762",
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "IFT80/172/WDR35",
+    "TPR domain",
+    "IF140/IFT172/WDR19",
+    "TPR domain"
+  ],
+  "ciliary_role": "Component of IFT complex B. Involved in the switching between the anterograde and retrograde transport (29659833). Essential for ciliary growth and mainte nce, and morphogenesis of the cerebral cortex. Mutation cause alterations in multiple intracellular sig ling pathways (31850339, 18930042). Mutations are associated with severe skeleto-re l disorders with reti l involvement (25168386).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome",
+    "Retinitis Pigmentosa",
+    "Short-rib Thoracic Dysplasia"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome, Retinitis Pigmentosa, Short-rib Thoracic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IFT172 is a ciliary gene encoding intraflagellar transport 172 [source:hgnc symbol;acc:hgnc:30391]",
+    "functional_summary": "Component of IFT complex B. Involved in the switching between the anterograde and retrograde transport (29659833). Essential for ciliary growth and mainte nce, and morphogenesis of the cerebral cortex...",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome, Retinitis Pigmentosa, Short-rib Thoracic Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome, Retinitis Pigmentosa, Short-rib Thoracic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

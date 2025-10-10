@@ -1,0 +1,101 @@
+{
+  "gene_name": "MTMR11",
+  "ensembl_id": "ENSG00000014914",
+  "synonyms": [
+    "CRA"
+  ],
+  "omim_id": "",
+  "description": "myotubularin related protein 11 [Source:HGNC Symbol;Acc:HGNC:24307]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06602",
+    "PF12578"
+  ],
+  "domain_descriptions": [
+    "Myotubularin-like",
+    "phosphatase domain",
+    "Myotubularin-related 12-like C-terminal domain",
+    "Protein-tyrosine phosphatase-like",
+    "Myotubularin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Myotubularin-like",
+    "phosphatase domain",
+    "Myotubularin-related 12-like C-terminal domain",
+    "Protein-tyrosine phosphatase-like",
+    "Myotubularin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06602",
+      "PF12578"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Myotubularin-like",
+    "phosphatase domain",
+    "Myotubularin-related 12-like C-terminal domain",
+    "Protein-tyrosine phosphatase-like",
+    "Myotubularin"
+  ],
+  "ciliary_role": "Mtmr11 and Ankrd45 are similarly uncharacterized and were found specifically at basal bodies(29180514).",
+  "localization": [
+    "basal body",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MTMR11 is a ciliary gene encoding myotubularin related protein 11 [source:hgnc symbol;acc:hgnc:24307]",
+    "functional_summary": "Mtmr11 and Ankrd45 are similarly uncharacterized and were found specifically at basal bodies(29180514).",
+    "localization_summary": "Localizes to basal body, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,139 @@
+{
+  "gene_name": "OTOG",
+  "ensembl_id": "ENSG00000188162",
+  "synonyms": [
+    "FLJ46346",
+    "MLEMP",
+    "OTGN"
+  ],
+  "omim_id": "604487",
+  "description": "otogelin [Source:HGNC Symbol;Acc:HGNC:8516]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05270",
+    "PF01826",
+    "PF08742",
+    "PF23244",
+    "PF00094"
+  ],
+  "domain_descriptions": [
+    "EGF-like domain",
+    "VWFC domain",
+    "von Willebrand factor",
+    "type D domain",
+    "Trypsin Inhibitor-like",
+    "cysteine rich domain",
+    "Cystine knot",
+    "C-terminal",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain",
+    "VWF/SSPO/Zonadhesin-like",
+    "cysteine-rich domain",
+    "Serine protease inhibitor-like superfamily",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain superfamily",
+    "Mucin/von Willebrand/Thrombospondin superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "EGF-like domain",
+    "VWFC domain",
+    "von Willebrand factor",
+    "type D domain",
+    "Trypsin Inhibitor-like",
+    "cysteine rich domain",
+    "Cystine knot",
+    "C-terminal",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain",
+    "VWF/SSPO/Zonadhesin-like",
+    "cysteine-rich domain",
+    "Serine protease inhibitor-like superfamily",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain superfamily",
+    "Mucin/von Willebrand/Thrombospondin superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05270",
+      "PF01826",
+      "PF08742",
+      "PF23244",
+      "PF00094"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EGF-like domain",
+    "VWFC domain",
+    "von Willebrand factor",
+    "type D domain",
+    "Trypsin Inhibitor-like",
+    "cysteine rich domain",
+    "Cystine knot",
+    "C-terminal",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain",
+    "VWF/SSPO/Zonadhesin-like",
+    "cysteine-rich domain",
+    "Serine protease inhibitor-like superfamily",
+    "Alpha-L-arabinofuranosidase B",
+    "arabinose-binding domain superfamily",
+    "Mucin/von Willebrand/Thrombospondin superfamily"
+  ],
+  "ciliary_role": "Otogelin, otogelin-like, and stereocilin form links connecting outer hair cell stereocilia to each other and the tectorial membrane (31776257)",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "OTOG is a ciliary gene encoding otogelin [source:hgnc symbol;acc:hgnc:8516]",
+    "functional_summary": "Otogelin, otogelin-like, and stereocilin form links connecting outer hair cell stereocilia to each other and the tectorial membrane (31776257)",
+    "localization_summary": "Localizes to cilia, Cytosol, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

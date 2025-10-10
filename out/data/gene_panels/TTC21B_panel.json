@@ -1,0 +1,178 @@
+{
+  "gene_name": "TTC21B",
+  "ensembl_id": "ENSG00000123607",
+  "synonyms": [
+    "CFAP60",
+    "FAP60",
+    "FLA17",
+    "FLJ11457",
+    "IFT139",
+    "IFT139B",
+    "JBTS11",
+    "NPHP12",
+    "THM1"
+  ],
+  "omim_id": "612014",
+  "description": "tetratricopeptide repeat domain 21B [Source:HGNC Symbol;Acc:HGNC:25660]",
+  "protein_complexes": [
+    "Intraflagellar transport complex A"
+  ],
+  "pfam_ids": [
+    "PF25068",
+    "PF13181",
+    "PF25062",
+    "PF25063",
+    "PF25060",
+    "PF25058",
+    "PF25064"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "second ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "N-terminal ARM repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "C-terminal ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fifth ARM repeats domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fourth ARM domain"
+  ],
+  "molecular_function": [
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "second ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "N-terminal ARM repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "C-terminal ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fifth ARM repeats domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fourth ARM domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF25068",
+      "PF13181",
+      "PF25062",
+      "PF25063",
+      "PF25060",
+      "PF25058",
+      "PF25064"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "second ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "N-terminal ARM repeat",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "C-terminal ARM domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fifth ARM repeats domain",
+    "Tetratricopeptide repeat protein 21A/21B",
+    "fourth ARM domain"
+  ],
+  "ciliary_role": "Encodes a retrograde intraflagellar transport-A complex, associates with the motor protein dynein2 to regulate retrograde trafficking in the primary cilium. Knockdown induces microtubule anchoring defects (24876116). Mutated in nephronophthisis, syndromic Jeune Asphyxiating Thoracic Dystrophy (21258341), Focal Segmental glomerulosclerosis (24876116) and Joubert Syndrome (29615573).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome",
+    "Bilateral Polycystic Kidney Disease",
+    "Joubert Syndrome",
+    "Nephronophthisis",
+    "Retinal Dystrophy",
+    "Short-rib Thoracic Dysplasia",
+    "Visceral Heterotaxy"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome, Bilateral Polycystic Kidney Disease, Joubert Syndrome, Nephronophthisis, Retinal Dystrophy, Short-rib Thoracic Dysplasia, Visceral Heterotaxy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTC21B is a ciliary gene encoding tetratricopeptide repeat domain 21b [source:hgnc symbol;acc:hgnc:25660]",
+    "functional_summary": "Encodes a retrograde intraflagellar transport-A complex, associates with the motor protein dynein2 to regulate retrograde trafficking in the primary cilium. Knockdown induces microtubule anchoring def...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome, Bilateral Polycystic Kidney Disease, Joubert Syndrome, Nephronophthisis, Retinal Dystrophy, Short-rib Thoracic Dysplasia, Visceral Heterotaxy",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome, Bilateral Polycystic Kidney Disease, Joubert Syndrome, Nephronophthisis, Retinal Dystrophy, Short-rib Thoracic Dysplasia, Visceral Heterotaxy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,162 @@
+{
+  "gene_name": "ANXA2",
+  "ensembl_id": "ENSG00000182718",
+  "synonyms": [
+    "ANX2",
+    "ANX2L4",
+    "CAL1H",
+    "LIP2",
+    "LPC2D"
+  ],
+  "omim_id": "151740",
+  "description": "annexin A2 [Source:HGNC Symbol;Acc:HGNC:537]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00191"
+  ],
+  "domain_descriptions": [
+    "Annexin",
+    "Annexin A2",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A5"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Annexin",
+    "Annexin A2",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A5"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00191"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Annexin",
+    "Annexin A2",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A5"
+  ],
+  "ciliary_role": "ANXA2 together with S100A10 protein interacts with  + (12050667) , K+ (12198146), and Ca2+ channels (12660155) to regulate their translocation and function. In frog olfactory epithelia, ANXA isoforms 1, 2, and 5 bind to dicalcin in a Ca2+-dependent manner(17714509). ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 in the cilia of mouse OSNs (24748648).",
+  "localization": [
+    "cilia",
+    "Endosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Endosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ANXA2 is a ciliary gene encoding annexin a2 [source:hgnc symbol;acc:hgnc:537]",
+    "functional_summary": "ANXA2 together with S100A10 protein interacts with  + (12050667) , K+ (12198146), and Ca2+ channels (12660155) to regulate their translocation and function. In frog olfactory epithelia, ANXA isoforms ...",
+    "localization_summary": "Localizes to cilia, Endosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

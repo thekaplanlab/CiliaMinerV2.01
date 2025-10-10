@@ -1,0 +1,148 @@
+{
+  "gene_name": "ELMO1",
+  "ensembl_id": "ENSG00000155849",
+  "synonyms": [
+    "CED-12",
+    "CED12",
+    "ELMO-1",
+    "KIAA0281"
+  ],
+  "omim_id": "606420",
+  "description": "engulfment and cell motility 1 [Source:HGNC Symbol;Acc:HGNC:16286]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16457",
+    "PF11841",
+    "PF04727"
+  ],
+  "domain_descriptions": [
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "ELMO domain",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "ELMO",
+    "armadillo-like helical domain",
+    "Engulfment and cell motility domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Periciliary region / EV release",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "ELMO domain",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "ELMO",
+    "armadillo-like helical domain",
+    "Engulfment and cell motility domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16457",
+      "PF11841",
+      "PF04727"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "ELMO domain",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "ELMO",
+    "armadillo-like helical domain",
+    "Engulfment and cell motility domain-containing protein"
+  ],
+  "ciliary_role": "Ezrin, ELMO-DOCK1 and its downstream effector Rac1 cooperate and function as a module during the highly coordi ted processes of ciliary basal body targeting and docking to the apical membrane. Co-immunostainings with Cep164 confirmed that DOCK1 localised to both mother and daughter centrioles.(25516973). loss of WDR-31 together with RP-2 and ELMD-1 (the sole ortholog ELMOD1-3) results in ciliary accumulations of IFT Complex B components and KIF17 kinesin, with fewer IFT/BBSome particles traveling along cilia in both anterograde and retrograde directions, suggesting that the IFT/BBSome entry into the cilia and exit from the cilia are impacted , WDR31-RP-2-ELMD-1 as IFT and BBSome trafficking regulators(37208194).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Periciliary region / EV release",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Periciliary region / EV release",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ELMO1 is a ciliary gene encoding engulfment and cell motility 1 [source:hgnc symbol;acc:hgnc:16286]",
+    "functional_summary": "Ezrin, ELMO-DOCK1 and its downstream effector Rac1 cooperate and function as a module during the highly coordi ted processes of ciliary basal body targeting and docking to the apical membrane. Co-immu...",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

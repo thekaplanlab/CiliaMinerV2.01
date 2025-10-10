@@ -1,0 +1,87 @@
+{
+  "gene_name": "IZUMO4",
+  "ensembl_id": "ENSG00000099840",
+  "synonyms": [
+    "C19ORF36"
+  ],
+  "omim_id": "618897",
+  "description": "IZUMO family member 4 [Source:HGNC Symbol;Acc:HGNC:26950]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15005"
+  ],
+  "domain_descriptions": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion"
+  ],
+  "molecular_function": [
+    "Reproduction & sperm"
+  ],
+  "structural_features": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15005"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion"
+  ],
+  "ciliary_role": "IZUMO4 localized to connecting piece, flagella (25613900).",
+  "localization": [
+    "flagella",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Reproduction & sperm"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Reproduction & sperm"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IZUMO4 is a ciliary gene encoding izumo family member 4 [source:hgnc symbol;acc:hgnc:26950]",
+    "functional_summary": "IZUMO4 localized to connecting piece, flagella (25613900).",
+    "localization_summary": "Localizes to flagella, Nucleus, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,109 @@
+{
+  "gene_name": "NEK3",
+  "ensembl_id": "ENSG00000136098",
+  "synonyms": [
+    "HSPK36",
+    "MGC29949"
+  ],
+  "omim_id": "604044",
+  "description": "NIMA related kinase 3 [Source:HGNC Symbol;Acc:HGNC:7746]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Rootlets / ciliary pocket"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine-threonine/tyrosine-protein kinase",
+    "catalytic domain"
+  ],
+  "ciliary_role": "Biallelic loss of function NEK3 mutations were found in 2 families with abnormal cardiac left-right patterning. NEK3 depeletion was associated with deacetylation of 伪-tubulin and downregulation of NUP205, NUP188, and NUP155 and defective ciliary ultrastructure (33230144)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Rootlets / ciliary pocket"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Rootlets / ciliary pocket"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEK3 is a ciliary gene encoding nima related kinase 3 [source:hgnc symbol;acc:hgnc:7746]",
+    "functional_summary": "Biallelic loss of function NEK3 mutations were found in 2 families with abnormal cardiac left-right patterning. NEK3 depeletion was associated with deacetylation of 伪-tubulin and downregulation of NUP...",
+    "localization_summary": "Localizes to basal body,cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

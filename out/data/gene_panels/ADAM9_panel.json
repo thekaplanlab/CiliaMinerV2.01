@@ -1,0 +1,99 @@
+{
+  "gene_name": "ADAM9",
+  "ensembl_id": "ENSG00000282230; ENSG00000168615",
+  "synonyms": [
+    "CORD9",
+    "KIAA0021",
+    "MCMP",
+    "MDC9",
+    "MLTNG"
+  ],
+  "omim_id": "602713",
+  "description": "ADAM metallopeptidase domain 9 [Source:HGNC Symbol;Acc:HGNC:216]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Two disintegrin and metalloprotei se domain-containing proteins, ADAM9 and ADAM22, localized in cilia membranes(24748648).",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADAM9 is a ciliary gene encoding adam metallopeptidase domain 9 [source:hgnc symbol;acc:hgnc:216]",
+    "functional_summary": "Two disintegrin and metalloprotei se domain-containing proteins, ADAM9 and ADAM22, localized in cilia membranes(24748648).",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "Associated with Cone-Rod Dystrophy",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

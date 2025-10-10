@@ -1,0 +1,70 @@
+{
+  "gene_name": "PROM2",
+  "ensembl_id": "ENSG00000155066; ENSG00000292084",
+  "synonyms": [],
+  "omim_id": "617160",
+  "description": "prominin 2 [Source:HGNC Symbol;Acc:HGNC:20685]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "prominin-2-GFP, like prominin-1 , was also found in cilia (revealed with anti-acetylated tubulin antibody) essentially at the bulging tip (17109118).",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PROM2 is a ciliary gene encoding prominin 2 [source:hgnc symbol;acc:hgnc:20685]",
+    "functional_summary": "prominin-2-GFP, like prominin-1 , was also found in cilia (revealed with anti-acetylated tubulin antibody) essentially at the bulging tip (17109118).",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

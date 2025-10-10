@@ -1,0 +1,138 @@
+{
+  "gene_name": "IFT20",
+  "ensembl_id": "ENSG00000109083",
+  "synonyms": [],
+  "omim_id": "614394",
+  "description": "intraflagellar transport 20 [Source:HGNC Symbol;Acc:HGNC:30989]",
+  "protein_complexes": [
+    "Intraflagellar transport complex B",
+    "Intraflagellar transport complex B peripheral subcomplex",
+    "Pericentrin complex"
+  ],
+  "pfam_ids": [
+    "PF14931"
+  ],
+  "domain_descriptions": [
+    "Intraflagellar transport protein 20"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Intraflagellar transport protein 20"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14931"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Intraflagellar transport protein 20"
+  ],
+  "ciliary_role": "Component of IFT complex B that functions as a link between IFT complex and kinesin II, binding to both IFT57 and KIF3B, making it essential for anterograde transport in cilia and flagella (12821668). Required for ciliary assembly and localisation of polycystin-2 and opsin to cilia (16775004). Essential for spermiogenesis and male fertility (27682589).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IFT20 is a ciliary gene encoding intraflagellar transport 20 [source:hgnc symbol;acc:hgnc:30989]",
+    "functional_summary": "Component of IFT complex B that functions as a link between IFT complex and kinesin II, binding to both IFT57 and KIF3B, making it essential for anterograde transport in cilia and flagella (12821668)....",
+    "localization_summary": "Localizes to cilia, basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

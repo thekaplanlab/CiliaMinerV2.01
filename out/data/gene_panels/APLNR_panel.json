@@ -1,0 +1,119 @@
+{
+  "gene_name": "APLNR",
+  "ensembl_id": "ENSG00000134817",
+  "synonyms": [
+    "AGTRL1",
+    "APJ",
+    "APJR",
+    "FLJ90771"
+  ],
+  "omim_id": "600052",
+  "description": "apelin receptor [Source:HGNC Symbol;Acc:HGNC:339]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Apelin receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "C-C chemokine receptor type 1-9-like"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Apelin receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "C-C chemokine receptor type 1-9-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Apelin receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "C-C chemokine receptor type 1-9-like"
+  ],
+  "ciliary_role": "During gastrulation and early somitogenesis, aplnra/b loss of function results in heart and liver LR asymmetry defects, accompanied by disturbed KV/cilia morphogenesis and disrupted left-sided Nodal/spaw expression in the LPM. In this process, only aplnra loss of function results in KV/cilia morphogenesis defect ( 31223282).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "APLNR is a ciliary gene encoding apelin receptor [source:hgnc symbol;acc:hgnc:339]",
+    "functional_summary": "During gastrulation and early somitogenesis, aplnra/b loss of function results in heart and liver LR asymmetry defects, accompanied by disturbed KV/cilia morphogenesis and disrupted left-sided Nodal/s...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

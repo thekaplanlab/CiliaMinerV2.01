@@ -1,0 +1,124 @@
+{
+  "gene_name": "MARCHF7",
+  "ensembl_id": "ENSG00000136536",
+  "synonyms": [
+    "AXOT",
+    "MARCH-VII",
+    "MARCH7",
+    "RNF177"
+  ],
+  "omim_id": "613334",
+  "description": "membrane associated ring-CH-type finger 7 [Source:HGNC Symbol;Acc:HGNC:17393]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12906"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "RING-CH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "RING-CH-type E3 ubiquitin-protein ligase",
+    "Zinc finger",
+    "RING-type"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "RING-CH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "RING-CH-type E3 ubiquitin-protein ligase",
+    "Zinc finger",
+    "RING-type"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12906"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "RING-CH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "RING-CH-type E3 ubiquitin-protein ligase",
+    "Zinc finger",
+    "RING-type"
+  ],
+  "ciliary_role": "E3 ubiquitin ligase, works with USP9X to ubiquiti te NPHP5 and regulate ciliogenesis (28498859).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MARCHF7 is a ciliary gene encoding membrane associated ring-ch-type finger 7 [source:hgnc symbol;acc:hgnc:17393]",
+    "functional_summary": "E3 ubiquitin ligase, works with USP9X to ubiquiti te NPHP5 and regulate ciliogenesis (28498859).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

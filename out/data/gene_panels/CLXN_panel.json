@@ -1,0 +1,126 @@
+{
+  "gene_name": "CLXN",
+  "ensembl_id": "ENSG00000034239",
+  "synonyms": [
+    "EFCAB1",
+    "FLJ11767",
+    "ODAD5"
+  ],
+  "omim_id": "619564",
+  "description": "calaxin [Source:HGNC Symbol;Acc:HGNC:25678]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13499"
+  ],
+  "domain_descriptions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Recoverin family"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Recoverin family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13499"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Recoverin family"
+  ],
+  "ciliary_role": "Mice with a null mutation in Efcab1, which encodes calaxin, display typical phenotypes of primary ciliary dyskinesia, including hydrocephalus, situs inversus, and abnormal motility of trachea cilia and sperm flagella. The 9 + 2 axonemal structures of epithelial multicilia and sperm flagella are normal, but the formation of 9 + 0 nodal cilia is significantly disrupted. Knockout of calaxin in zebrafish also causes situs inversus due to the irregular ciliary beating of Kupffer鈥檚 vesicle cilia, although the 9 + 2 axonemal structure appears to remain normal(31240264)., CLXN is an outer dynein arm-docking complex鈥揳ssociated component. CLXN functions as an ODA-DC subunit in human respiratory cilia especially involved in the docking of distal type 2 ODAs(36727596).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CLXN is a ciliary gene encoding calaxin [source:hgnc symbol;acc:hgnc:25678]",
+    "functional_summary": "Mice with a null mutation in Efcab1, which encodes calaxin, display typical phenotypes of primary ciliary dyskinesia, including hydrocephalus, situs inversus, and abnormal motility of trachea cilia an...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

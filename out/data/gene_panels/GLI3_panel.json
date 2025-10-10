@@ -1,0 +1,178 @@
+{
+  "gene_name": "GLI3",
+  "ensembl_id": "ENSG00000106571",
+  "synonyms": [
+    "ACLS",
+    "GCPS",
+    "PAP-A",
+    "PAPA",
+    "PAPA1",
+    "PAPB",
+    "PHS",
+    "PPDIV"
+  ],
+  "omim_id": "165240",
+  "description": "GLI family zinc finger 3 [Source:HGNC Symbol;Acc:HGNC:4319]",
+  "protein_complexes": [
+    "DZIP1-GLI3 complex",
+    "EMX1-GLI3-WDR11 complex"
+  ],
+  "pfam_ids": [
+    "PF23561",
+    "PF00096"
+  ],
+  "domain_descriptions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23561",
+      "PF00096"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "ciliary_role": "Hedgehog sig ling pathway effector. Loss of Polaris results in inefficient Gli3 processing. Inhibit Gli1- mediated transcription.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Greig Cephalopolysyndactyly Syndrome",
+    "Pallister-Hall Syndrome"
+  ],
+  "ciliopathy_type": "Greig Cephalopolysyndactyly Syndrome, Pallister-Hall Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GLI3 is a ciliary gene encoding gli family zinc finger 3 [source:hgnc symbol;acc:hgnc:4319]",
+    "functional_summary": "Hedgehog sig ling pathway effector. Loss of Polaris results in inefficient Gli3 processing. Inhibit Gli1- mediated transcription.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "Associated with Greig Cephalopolysyndactyly Syndrome, Pallister-Hall Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Greig Cephalopolysyndactyly Syndrome, Pallister-Hall Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

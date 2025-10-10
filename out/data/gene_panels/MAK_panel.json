@@ -1,0 +1,128 @@
+{
+  "gene_name": "MAK",
+  "ensembl_id": "ENSG00000111837",
+  "synonyms": [
+    "DJ417M14.2",
+    "RP62"
+  ],
+  "omim_id": "154235",
+  "description": "male germ cell associated kinase [Source:HGNC Symbol;Acc:HGNC:6816]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Mitogen-activated protein kinase"
+  ],
+  "ciliary_role": "Involved in the regulation of photoreceptor connecting cilium length. Mutations cause autosomal domi nt Retinitis Pigmentosa (22110072). Essential for the regulation of ciliary length, preventing excessive elongation of the cilia and is required for the long-term survival of photoreceptors (21148103). Forms a complex with DYF-5 to regulate cilia morphology ikely via modulation of microtubule stability (30955935).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAK is a ciliary gene encoding male germ cell associated kinase [source:hgnc symbol;acc:hgnc:6816]",
+    "functional_summary": "Involved in the regulation of photoreceptor connecting cilium length. Mutations cause autosomal domi nt Retinitis Pigmentosa (22110072). Essential for the regulation of ciliary length, preventing exce...",
+    "localization_summary": "Localizes to cilia, basal body, Centrosome, Nucleus",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

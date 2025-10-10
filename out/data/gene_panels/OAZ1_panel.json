@@ -1,0 +1,96 @@
+{
+  "gene_name": "OAZ1",
+  "ensembl_id": "ENSG00000104904",
+  "synonyms": [
+    "AZ1",
+    "AZI",
+    "MGC138338",
+    "OAZ"
+  ],
+  "omim_id": "601579",
+  "description": "ornithine decarboxylase antizyme 1 [Source:HGNC Symbol;Acc:HGNC:8095]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02100"
+  ],
+  "domain_descriptions": [
+    "Ornithine decarboxylase antizyme",
+    "Acyl-CoA N-acyltransferase",
+    "Ornithine decarboxylase antizyme superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Ornithine decarboxylase antizyme",
+    "Acyl-CoA N-acyltransferase",
+    "Ornithine decarboxylase antizyme superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02100"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ornithine decarboxylase antizyme",
+    "Acyl-CoA N-acyltransferase",
+    "Ornithine decarboxylase antizyme superfamily"
+  ],
+  "ciliary_role": "OAZ1 stained satellites concentrated around centrosomes in A‐431 cells,a more defined localization to basal bodies was apparent from the staining of motile cilia in ciliated tissues and primary cilia and basal body in hTERT‐RPE1 cells (21399614).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "OAZ1 is a ciliary gene encoding ornithine decarboxylase antizyme 1 [source:hgnc symbol;acc:hgnc:8095]",
+    "functional_summary": "OAZ1 stained satellites concentrated around centrosomes in A‐431 cells,a more defined localization to basal bodies was apparent from the staining of motile cilia in ciliated tissues and primary cilia ...",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

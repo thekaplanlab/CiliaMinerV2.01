@@ -1,0 +1,145 @@
+{
+  "gene_name": "ROBO1",
+  "ensembl_id": "ENSG00000169855",
+  "synonyms": [
+    "DUTT1",
+    "FLJ21882",
+    "SAX3"
+  ],
+  "omim_id": "602430",
+  "description": "roundabout guidance receptor 1 [Source:HGNC Symbol;Acc:HGNC:10249]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13927",
+    "PF07679",
+    "PF00041"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin V-set domain",
+    "Immunoglobulin-like fold",
+    "Roundabout homologue 1",
+    "immunoglobulin-like domain 3",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein",
+    "Striated Muscle Structural and Regulatory Protein"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin V-set domain",
+    "Immunoglobulin-like fold",
+    "Roundabout homologue 1",
+    "immunoglobulin-like domain 3",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein",
+    "Striated Muscle Structural and Regulatory Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13927",
+      "PF07679",
+      "PF00041"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin V-set domain",
+    "Immunoglobulin-like fold",
+    "Roundabout homologue 1",
+    "immunoglobulin-like domain 3",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein",
+    "Striated Muscle Structural and Regulatory Protein"
+  ],
+  "ciliary_role": "ROBO1 has localized in primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ROBO1 is a ciliary gene encoding roundabout guidance receptor 1 [source:hgnc symbol;acc:hgnc:10249]",
+    "functional_summary": "ROBO1 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

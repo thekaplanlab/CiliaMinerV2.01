@@ -1,0 +1,90 @@
+{
+  "gene_name": "RSPH3",
+  "ensembl_id": "ENSG00000130363",
+  "synonyms": [
+    "DJ111C20.1",
+    "RSHL2",
+    "RSP3"
+  ],
+  "omim_id": "615876",
+  "description": "radial spoke head 3 [Source:HGNC Symbol;Acc:HGNC:21054]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06098"
+  ],
+  "domain_descriptions": [
+    "Radial spoke 3"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Radial spoke 3"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06098"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Radial spoke 3"
+  ],
+  "ciliary_role": "Protein ki se A-anchoring protein that scaffolds the cAMP-dependent protein ki se holoenzyme (19684019). Mutations are associated with PCD, with CC/RS defects like abnormal axoneme configuration and absence of RS. Required for proper building of RSs and the CC in humans (26073779). Mutations in RSPH3 in Chlamydomo s reinhardtii lead to paralyzed flagella due to loss of the entire radial spoke structure (29475374).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RSPH3 is a ciliary gene encoding radial spoke head 3 [source:hgnc symbol;acc:hgnc:21054]",
+    "functional_summary": "Protein ki se A-anchoring protein that scaffolds the cAMP-dependent protein ki se holoenzyme (19684019). Mutations are associated with PCD, with CC/RS defects like abnormal axoneme configuration and a...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

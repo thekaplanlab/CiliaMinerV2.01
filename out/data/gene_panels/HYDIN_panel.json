@@ -1,0 +1,129 @@
+{
+  "gene_name": "HYDIN",
+  "ensembl_id": "ENSG00000157423",
+  "synonyms": [
+    "CILD5",
+    "DKFZP434D0513",
+    "KIAA1864",
+    "PPP1R31"
+  ],
+  "omim_id": "610812",
+  "description": "HYDIN axonemal central pair apparatus protein [Source:HGNC Symbol;Acc:HGNC:19368]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF22544",
+    "PF24816",
+    "PF24507",
+    "PF17213",
+    "PF14874"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin-like fold",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Hydrocephalus-inducing-like",
+    "Hydin adenylate kinase-like domain",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "PapD-like superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Immunoglobulin-like fold",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Hydrocephalus-inducing-like",
+    "Hydin adenylate kinase-like domain",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "PapD-like superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF22544",
+      "PF24816",
+      "PF24507",
+      "PF17213",
+      "PF14874"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin-like fold",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Hydrocephalus-inducing-like",
+    "Hydin adenylate kinase-like domain",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "PapD-like superfamily"
+  ],
+  "ciliary_role": "Candidate for hydrocephalus in humans and primary ciliary dyskinesia (23022101). Interacts with the central pair proteins CPC1 and kinesin- like protein 1 (KLP1). Required for flagellar motility. Regulation of contact with the radial spokes dynein arm activity (17296796). Lack of Hydin causes deficiency on ciliary orientation and reduced alignment of neighboring cilia, as it is involved in regulating the dynein arms during the transitions between effective and recovery strokes (18250199).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HYDIN is a ciliary gene encoding hydin axonemal central pair apparatus protein [source:hgnc symbol;acc:hgnc:19368]",
+    "functional_summary": "Candidate for hydrocephalus in humans and primary ciliary dyskinesia (23022101). Interacts with the central pair proteins CPC1 and kinesin- like protein 1 (KLP1). Required for flagellar motility. Regu...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

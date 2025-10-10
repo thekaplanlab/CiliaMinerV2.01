@@ -1,0 +1,98 @@
+{
+  "gene_name": "FGF4",
+  "ensembl_id": "ENSG00000075388",
+  "synonyms": [
+    "HBGF-4",
+    "HST",
+    "HST-1",
+    "HSTF1",
+    "K-FGF",
+    "KFGF"
+  ],
+  "omim_id": "164980",
+  "description": "fibroblast growth factor 4 [Source:HGNC Symbol;Acc:HGNC:3682]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00167"
+  ],
+  "domain_descriptions": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00167"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "ciliary_role": "Fgf4 was required for the formation of cilia in Kupffer's vesicle, indicating that the role of Fgf4 in the LR patterning is quite distinct from that of Fgf8. Fgf4 plays a unique role in the LR patterning of visceral organs in zebrafish ( 19481538).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FGF4 is a ciliary gene encoding fibroblast growth factor 4 [source:hgnc symbol;acc:hgnc:3682]",
+    "functional_summary": "Fgf4 was required for the formation of cilia in Kupffer's vesicle, indicating that the role of Fgf4 in the LR patterning is quite distinct from that of Fgf8. Fgf4 plays a unique role in the LR pattern...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,128 @@
+{
+  "gene_name": "CD44",
+  "ensembl_id": "ENSG00000026508",
+  "synonyms": [
+    "CD44R",
+    "CDW44",
+    "CSPG8",
+    "ECM-III",
+    "H-CAM",
+    "HCELL",
+    "HERMES-1",
+    "HUTCH-1",
+    "HUTCH-I",
+    "IN",
+    "MC56",
+    "MDU2",
+    "MDU3",
+    "MIC4",
+    "PGP-1",
+    "PGP1"
+  ],
+  "omim_id": "107269",
+  "description": "CD44 molecule (IN blood group) [Source:HGNC Symbol;Acc:HGNC:1681]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00193"
+  ],
+  "domain_descriptions": [
+    "Link domain",
+    "CD44 antigen",
+    "C-type lectin-like/link domain superfamily",
+    "C-type lectin fold",
+    "CD44 antigen-like"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Link domain",
+    "CD44 antigen",
+    "C-type lectin-like/link domain superfamily",
+    "C-type lectin fold",
+    "CD44 antigen-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00193"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Link domain",
+    "CD44 antigen",
+    "C-type lectin-like/link domain superfamily",
+    "C-type lectin fold",
+    "CD44 antigen-like"
+  ],
+  "ciliary_role": "The primary cilium is linked to OPN sig ling pathway and actin cytoskeleton pathway via CD44 and Cdc42. The primary cilium acts as an FAK regulation unit consisting of CD44 and ciliary integrin尾1 in MSCs(32339903).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CD44 is a ciliary gene encoding cd44 molecule (in blood group) [source:hgnc symbol;acc:hgnc:1681]",
+    "functional_summary": "The primary cilium is linked to OPN sig ling pathway and actin cytoskeleton pathway via CD44 and Cdc42. The primary cilium acts as an FAK regulation unit consisting of CD44 and ciliary integrin尾1 in M...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

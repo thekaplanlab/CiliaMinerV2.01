@@ -1,0 +1,157 @@
+{
+  "gene_name": "CASP8",
+  "ensembl_id": "ENSG00000064012",
+  "synonyms": [
+    "CASP-8",
+    "FLICE",
+    "MACH",
+    "MCH5"
+  ],
+  "omim_id": "601763",
+  "description": "caspase 8 [Source:HGNC Symbol;Acc:HGNC:1509]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00656",
+    "PF01335"
+  ],
+  "domain_descriptions": [
+    "Peptidase C14",
+    "p20 domain",
+    "Death effector domain",
+    "Peptidase C14",
+    "caspase non-catalytic subunit p10",
+    "Death-like domain superfamily",
+    "Peptidase C14",
+    "caspase domain",
+    "Peptidase C14A",
+    "caspase catalytic domain",
+    "Peptidase family C14A",
+    "His active site",
+    "Caspase-like domain superfamily",
+    "Peptidase family C14A",
+    "cysteine active site",
+    "Caspase-8",
+    "death effector domain 1"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Peptidase C14",
+    "p20 domain",
+    "Death effector domain",
+    "Peptidase C14",
+    "caspase non-catalytic subunit p10",
+    "Death-like domain superfamily",
+    "Peptidase C14",
+    "caspase domain",
+    "Peptidase C14A",
+    "caspase catalytic domain",
+    "Peptidase family C14A",
+    "His active site",
+    "Caspase-like domain superfamily",
+    "Peptidase family C14A",
+    "cysteine active site",
+    "Caspase-8",
+    "death effector domain 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00656",
+      "PF01335"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peptidase C14",
+    "p20 domain",
+    "Death effector domain",
+    "Peptidase C14",
+    "caspase non-catalytic subunit p10",
+    "Death-like domain superfamily",
+    "Peptidase C14",
+    "caspase domain",
+    "Peptidase C14A",
+    "caspase catalytic domain",
+    "Peptidase family C14A",
+    "His active site",
+    "Caspase-like domain superfamily",
+    "Peptidase family C14A",
+    "cysteine active site",
+    "Caspase-8",
+    "death effector domain 1"
+  ],
+  "ciliary_role": "CASP8 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Autophagosomes",
+    "Cytosol",
+    "Endosome",
+    "Microtubules",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Autophagosomes",
+    "Cytosol",
+    "Endosome",
+    "Microtubules",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CASP8 is a ciliary gene encoding caspase 8 [source:hgnc symbol;acc:hgnc:1509]",
+    "functional_summary": "CASP8 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Autophagosomes, Cytosol, Endosome, Microtubules, Nucleus, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

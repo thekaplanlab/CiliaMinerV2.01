@@ -1,0 +1,125 @@
+{
+  "gene_name": "SLC12A2",
+  "ensembl_id": "ENSG00000064651",
+  "synonyms": [
+    "BSC-2",
+    "BSC2",
+    "CCC1",
+    "NKCC1",
+    "PPP1R141"
+  ],
+  "omim_id": "600840",
+  "description": "solute carrier family 12 member 2 [Source:HGNC Symbol;Acc:HGNC:10911]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08403",
+    "PF00324",
+    "PF03522"
+  ],
+  "domain_descriptions": [
+    "Solute carrier family 12 member 1/2",
+    "Solute carrier family 12 member 2",
+    "Amino acid permease/ SLC12A domain",
+    "SLC12A transporter family",
+    "Amino acid permease",
+    "N-terminal",
+    "SLC12A transporter",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Solute carrier family 12 member 1/2",
+    "Solute carrier family 12 member 2",
+    "Amino acid permease/ SLC12A domain",
+    "SLC12A transporter family",
+    "Amino acid permease",
+    "N-terminal",
+    "SLC12A transporter",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08403",
+      "PF00324",
+      "PF03522"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Solute carrier family 12 member 1/2",
+    "Solute carrier family 12 member 2",
+    "Amino acid permease/ SLC12A domain",
+    "SLC12A transporter family",
+    "Amino acid permease",
+    "N-terminal",
+    "SLC12A transporter",
+    "C-terminal"
+  ],
+  "ciliary_role": "SLC12A2 has localized in basal body, transition zone.",
+  "localization": [
+    "basal body",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SLC12A2 is a ciliary gene encoding solute carrier family 12 member 2 [source:hgnc symbol;acc:hgnc:10911]",
+    "functional_summary": "SLC12A2 has localized in basal body, transition zone.",
+    "localization_summary": "Localizes to basal body, transition zone",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,92 @@
+{
+  "gene_name": "FAM161B",
+  "ensembl_id": "ENSG00000156050",
+  "synonyms": [
+    "C14ORF44",
+    "FLJ31697"
+  ],
+  "omim_id": "",
+  "description": "FAM161 centrosomal protein B [Source:HGNC Symbol;Acc:HGNC:19854]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10595"
+  ],
+  "domain_descriptions": [
+    "Protein FAM161A/B",
+    "FAM161"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein FAM161A/B",
+    "FAM161"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10595"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein FAM161A/B",
+    "FAM161"
+  ],
+  "ciliary_role": "The retinitis pigmentosa 28 protein FAM161A is ciliary protein involved in intermolecular protein interaction and microtubule association(22791751) and associated with retinitis pigmentosa, is a component of the cilia-basal body complex and interacts with proteins involved in ciliopathies(22940612).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FAM161B is a ciliary gene encoding fam161 centrosomal protein b [source:hgnc symbol;acc:hgnc:19854]",
+    "functional_summary": "The retinitis pigmentosa 28 protein FAM161A is ciliary protein involved in intermolecular protein interaction and microtubule association(22791751) and associated with retinitis pigmentosa, is a compo...",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

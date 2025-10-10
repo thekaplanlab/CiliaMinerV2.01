@@ -1,0 +1,125 @@
+{
+  "gene_name": "NGFR",
+  "ensembl_id": "ENSG00000064300",
+  "synonyms": [
+    "CD271",
+    "P75NTR",
+    "TNFRSF16"
+  ],
+  "omim_id": "162010",
+  "description": "nerve growth factor receptor [Source:HGNC Symbol;Acc:HGNC:7809]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF18422",
+    "PF00531",
+    "PF00020"
+  ],
+  "domain_descriptions": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 16",
+    "Tumor necrosis factor receptor 16",
+    "N-terminal",
+    "Tumor necrosis factor receptor member 16",
+    "transmembrane domain",
+    "Neurotrophin receptor-related death domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases"
+  ],
+  "structural_features": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 16",
+    "Tumor necrosis factor receptor 16",
+    "N-terminal",
+    "Tumor necrosis factor receptor member 16",
+    "transmembrane domain",
+    "Neurotrophin receptor-related death domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF18422",
+      "PF00531",
+      "PF00020"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 16",
+    "Tumor necrosis factor receptor 16",
+    "N-terminal",
+    "Tumor necrosis factor receptor member 16",
+    "transmembrane domain",
+    "Neurotrophin receptor-related death domain-containing protein"
+  ],
+  "ciliary_role": "Likely to provide sig ls to drive granule cell progenitor proliferation (22995307). It may be involved in neurogenesis and memory- encoding functions in dentate gyral granule cells (20875398).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NGFR is a ciliary gene encoding nerve growth factor receptor [source:hgnc symbol;acc:hgnc:7809]",
+    "functional_summary": "Likely to provide sig ls to drive granule cell progenitor proliferation (22995307). It may be involved in neurogenesis and memory- encoding functions in dentate gyral granule cells (20875398).",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

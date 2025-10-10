@@ -1,0 +1,105 @@
+{
+  "gene_name": "CIP2A",
+  "ensembl_id": "ENSG00000163507",
+  "synonyms": [
+    "KIAA1524"
+  ],
+  "omim_id": "610643",
+  "description": "cellular inhibitor of PP2A [Source:HGNC Symbol;Acc:HGNC:29302]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21044"
+  ],
+  "domain_descriptions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Protein CIP2A",
+    "CIP2A",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Protein CIP2A",
+    "CIP2A",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21044"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Protein CIP2A",
+    "CIP2A",
+    "N-terminal"
+  ],
+  "ciliary_role": "Promotes primary cilia disassembly through the activation of Aurora A ki se. Depletion increases ciliated cells and cilia length in reti l pigment epithelium cells. CIP2A enhances NEK2 ki se activity to facilitate centrosome separation. It plays a role in c-MYC stabilization and metabolic reprogramming toward the glycolytic pathway (PMID 29491003)",
+  "localization": [
+    "transition zone",
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CIP2A is a ciliary gene encoding cellular inhibitor of pp2a [source:hgnc symbol;acc:hgnc:29302]",
+    "functional_summary": "Promotes primary cilia disassembly through the activation of Aurora A ki se. Depletion increases ciliated cells and cilia length in reti l pigment epithelium cells. CIP2A enhances NEK2 ki se activity ...",
+    "localization_summary": "Localizes to transition zone , cilia,basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

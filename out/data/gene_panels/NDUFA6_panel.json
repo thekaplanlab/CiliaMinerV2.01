@@ -1,0 +1,83 @@
+{
+  "gene_name": "NDUFA6",
+  "ensembl_id": "ENSG00000281013; ENSG00000184983; ENSG00000272765; ENSG00000273397; ENSG00000277365",
+  "synonyms": [
+    "B14",
+    "CI-B14",
+    "LYRM6",
+    "NADHB14"
+  ],
+  "omim_id": "602138",
+  "description": "NADH:ubiquinone oxidoreductase subunit A6 [Source:HGNC Symbol;Acc:HGNC:7690]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "NDUFA6 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NDUFA6 is a ciliary gene encoding nadh:ubiquinone oxidoreductase subunit a6 [source:hgnc symbol;acc:hgnc:7690]",
+    "functional_summary": "NDUFA6 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

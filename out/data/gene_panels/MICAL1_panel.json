@@ -1,0 +1,133 @@
+{
+  "gene_name": "MICAL1",
+  "ensembl_id": "ENSG00000135596",
+  "synonyms": [
+    "DKFZP434B1517",
+    "FLJ11937",
+    "FLJ21739",
+    "MICAL",
+    "NICAL"
+  ],
+  "omim_id": "607129",
+  "description": "microtubule associated monooxygenase, calponin and LIM domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20619]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00412",
+    "PF00307",
+    "PF01494",
+    "PF12130"
+  ],
+  "domain_descriptions": [
+    "Calponin homology domain",
+    "Zinc finger",
+    "LIM-type",
+    "FAD-binding domain",
+    "bMERB domain",
+    "FAD/NAD(P)-binding domain superfamily",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calponin homology domain",
+    "Zinc finger",
+    "LIM-type",
+    "FAD-binding domain",
+    "bMERB domain",
+    "FAD/NAD(P)-binding domain superfamily",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00412",
+      "PF00307",
+      "PF01494",
+      "PF12130"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calponin homology domain",
+    "Zinc finger",
+    "LIM-type",
+    "FAD-binding domain",
+    "bMERB domain",
+    "FAD/NAD(P)-binding domain superfamily",
+    "CH domain superfamily",
+    "F-actin Monooxygenase Mical"
+  ],
+  "ciliary_role": "MICAL1 has localized in basal body.",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MICAL1 is a ciliary gene encoding microtubule associated monooxygenase, calponin and lim domain containing 1 [source:hgnc symbol;acc:hgnc:20619]",
+    "functional_summary": "MICAL1 has localized in basal body.",
+    "localization_summary": "Localizes to cilia,basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

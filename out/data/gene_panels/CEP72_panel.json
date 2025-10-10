@@ -1,0 +1,101 @@
+{
+  "gene_name": "CEP72",
+  "ensembl_id": "ENSG00000112877; ENSG00000280688",
+  "synonyms": [
+    "FLJ10565",
+    "KIAA1519"
+  ],
+  "omim_id": "616475",
+  "description": "centrosomal protein 72 [Source:HGNC Symbol;Acc:HGNC:25547]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Regulation of the centrosomal localisation of γ-tubulin complex components, CG- P, and Kiz. Cep72 provides centrosomal microtubule-nucleation activity and has critical roles in spindle-pole formation, whichis needed for proper tension generation between sister chromatids during mitosis (19536135). Recruitment of Cep290 to centriolar satellites by interaction with PCM1. Regulates ciliary recruitment and relocalisation of BBS4 from centriolar satellites to primary cilia during ciliogenesis, which affects assembly and recruitment of the BBSome (22767577).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP72 is a ciliary gene encoding centrosomal protein 72 [source:hgnc symbol;acc:hgnc:25547]",
+    "functional_summary": "Regulation of the centrosomal localisation of γ-tubulin complex components, CG- P, and Kiz. Cep72 provides centrosomal microtubule-nucleation activity and has critical roles in spindle-pole formation,...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

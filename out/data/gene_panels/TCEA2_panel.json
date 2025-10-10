@@ -1,0 +1,142 @@
+{
+  "gene_name": "TCEA2",
+  "ensembl_id": "ENSG00000171703",
+  "synonyms": [
+    "TFIIS"
+  ],
+  "omim_id": "604784",
+  "description": "transcription elongation factor A2 [Source:HGNC Symbol;Acc:HGNC:11614]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08711",
+    "PF07500",
+    "PF01096"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "TFIIS-type",
+    "Transcription elongation factor",
+    "TFIIS/CRSP70",
+    "N-terminal",
+    "sub-type",
+    "Transcription elongation factor S-II",
+    "central domain",
+    "Transcription elongation factor",
+    "TFIIS",
+    "Transcription factor IIS",
+    "N-terminal",
+    "Transcription elongation factor",
+    "IIS-type",
+    "TFIIS/LEDGF domain superfamily",
+    "Transcription elongation factor S-II",
+    "central domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "TFIIS-type",
+    "Transcription elongation factor",
+    "TFIIS/CRSP70",
+    "N-terminal",
+    "sub-type",
+    "Transcription elongation factor S-II",
+    "central domain",
+    "Transcription elongation factor",
+    "TFIIS",
+    "Transcription factor IIS",
+    "N-terminal",
+    "Transcription elongation factor",
+    "IIS-type",
+    "TFIIS/LEDGF domain superfamily",
+    "Transcription elongation factor S-II",
+    "central domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08711",
+      "PF07500",
+      "PF01096"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "TFIIS-type",
+    "Transcription elongation factor",
+    "TFIIS/CRSP70",
+    "N-terminal",
+    "sub-type",
+    "Transcription elongation factor S-II",
+    "central domain",
+    "Transcription elongation factor",
+    "TFIIS",
+    "Transcription factor IIS",
+    "N-terminal",
+    "Transcription elongation factor",
+    "IIS-type",
+    "TFIIS/LEDGF domain superfamily",
+    "Transcription elongation factor S-II",
+    "central domain superfamily"
+  ],
+  "ciliary_role": "TCEA2 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TCEA2 is a ciliary gene encoding transcription elongation factor a2 [source:hgnc symbol;acc:hgnc:11614]",
+    "functional_summary": "TCEA2 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

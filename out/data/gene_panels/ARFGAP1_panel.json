@@ -1,0 +1,90 @@
+{
+  "gene_name": "ARFGAP1",
+  "ensembl_id": "ENSG00000101199",
+  "synonyms": [
+    "ARF1GAP",
+    "BA261N11.3",
+    "FLJ10767"
+  ],
+  "omim_id": "608377",
+  "description": "ARF GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:15852]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01412"
+  ],
+  "domain_descriptions": [
+    "Arf GTPase activating protein",
+    "ARFGAP/RecO-like zinc finger",
+    "ArfGAP domain superfamily"
+  ],
+  "molecular_function": [
+    "Small GTPases / Trafficking"
+  ],
+  "structural_features": [
+    "Arf GTPase activating protein",
+    "ARFGAP/RecO-like zinc finger",
+    "ArfGAP domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01412"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Arf GTPase activating protein",
+    "ARFGAP/RecO-like zinc finger",
+    "ArfGAP domain superfamily"
+  ],
+  "ciliary_role": "ARFGAP1 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Small GTPases / Trafficking"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Small GTPases / Trafficking"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARFGAP1 is a ciliary gene encoding arf gtpase activating protein 1 [source:hgnc symbol;acc:hgnc:15852]",
+    "functional_summary": "ARFGAP1 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

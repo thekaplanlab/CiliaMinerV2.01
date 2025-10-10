@@ -1,0 +1,84 @@
+{
+  "gene_name": "GUCA1A",
+  "ensembl_id": "ENSG00000048545",
+  "synonyms": [
+    "C6ORF131",
+    "COD3",
+    "CORD14",
+    "DJ139D8.6",
+    "GCAP",
+    "GCAP-1",
+    "GCAP-I",
+    "GCAP1",
+    "GUCA",
+    "GUCA1"
+  ],
+  "omim_id": "600364",
+  "description": "guanylate cyclase activator 1A [Source:HGNC Symbol;Acc:HGNC:4678]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the GUCA1A gene cause Cone-Rod Dystrophy (PMID: 15953638, PMID:15790869).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GUCA1A is a ciliary gene encoding guanylate cyclase activator 1a [source:hgnc symbol;acc:hgnc:4678]",
+    "functional_summary": "Mutations in the GUCA1A gene cause Cone-Rod Dystrophy (PMID: 15953638, PMID:15790869).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Cone-Rod Dystrophy",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,107 @@
+{
+  "gene_name": "CFAP206",
+  "ensembl_id": "ENSG00000272514",
+  "synonyms": [
+    "C6ORF165",
+    "DJ382I10.1",
+    "FLJ25974"
+  ],
+  "omim_id": "",
+  "description": "cilia and flagella associated protein 206 [Source:HGNC Symbol;Acc:HGNC:21405]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12018"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 206"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 206"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 206"
+  ],
+  "ciliary_role": "CFAP206 localises to the ciliary axoneme and basal body. The FOXJ1 target Cfap206 is required for sperm motility, mucociliary clearance of the airways and brain development(32376681).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP206 is a ciliary gene encoding cilia and flagella associated protein 206 [source:hgnc symbol;acc:hgnc:21405]",
+    "functional_summary": "CFAP206 localises to the ciliary axoneme and basal body. The FOXJ1 target Cfap206 is required for sperm motility, mucociliary clearance of the airways and brain development(32376681).",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

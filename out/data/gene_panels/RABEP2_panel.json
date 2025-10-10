@@ -1,0 +1,109 @@
+{
+  "gene_name": "RABEP2",
+  "ensembl_id": "ENSG00000177548",
+  "synonyms": [
+    "FLJ23282",
+    "FRA"
+  ],
+  "omim_id": "611869",
+  "description": "rabaptin, RAB GTPase binding effector protein 2 [Source:HGNC Symbol;Acc:HGNC:24817]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03528",
+    "PF09311"
+  ],
+  "domain_descriptions": [
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain",
+    "Rabaptin coiled-coil domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain",
+    "Rabaptin coiled-coil domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03528",
+      "PF09311"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain",
+    "Rabaptin coiled-coil domain"
+  ],
+  "ciliary_role": "RABEP2 localization at the centrosome is regulated by SDCCAG8. As a component of cilium, it may be a component of the intraciliary transport mechanism. siR  mediated knockdown in hTERT-RPE1 cells abolished cilia formation, indicating a critical role in ciliogenesis (27224062).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RABEP2 is a ciliary gene encoding rabaptin, rab gtpase binding effector protein 2 [source:hgnc symbol;acc:hgnc:24817]",
+    "functional_summary": "RABEP2 localization at the centrosome is regulated by SDCCAG8. As a component of cilium, it may be a component of the intraciliary transport mechanism. siR  mediated knockdown in hTERT-RPE1 cells abol...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

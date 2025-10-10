@@ -1,0 +1,154 @@
+{
+  "gene_name": "RAPGEF3",
+  "ensembl_id": "ENSG00000079337",
+  "synonyms": [
+    "BCM910",
+    "CAMP-GEFI",
+    "EPAC"
+  ],
+  "omim_id": "606057",
+  "description": "Rap guanine nucleotide exchange factor 3 [Source:HGNC Symbol;Acc:HGNC:16629]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00618",
+    "PF00610",
+    "PF00027",
+    "PF00617"
+  ],
+  "domain_descriptions": [
+    "DEP domain",
+    "Cyclic nucleotide-binding domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ubiquitin-like domain superfamily",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "DEP domain",
+    "Cyclic nucleotide-binding domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ubiquitin-like domain superfamily",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00618",
+      "PF00610",
+      "PF00027",
+      "PF00617"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DEP domain",
+    "Cyclic nucleotide-binding domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "RmlC-like jelly roll fold",
+    "Cyclic nucleotide-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ubiquitin-like domain superfamily",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "ciliary_role": "Microtubule-associated proteins (MAPs) regulate cAMP sig lling through exchange protein directly activated by cAMP (EPAC) and P2Y12 and components of the EPAC 1 - 2 (one of the AKAP sig ling complex) are expressed in cholangiocyte cilia(18687752).",
+  "localization": [
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAPGEF3 is a ciliary gene encoding rap guanine nucleotide exchange factor 3 [source:hgnc symbol;acc:hgnc:16629]",
+    "functional_summary": "Microtubule-associated proteins (MAPs) regulate cAMP sig lling through exchange protein directly activated by cAMP (EPAC) and P2Y12 and components of the EPAC 1 - 2 (one of the AKAP sig ling complex) ...",
+    "localization_summary": "Localizes to cilia, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

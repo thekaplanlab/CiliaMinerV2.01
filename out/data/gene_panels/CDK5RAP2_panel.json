@@ -1,0 +1,115 @@
+{
+  "gene_name": "CDK5RAP2",
+  "ensembl_id": "ENSG00000136861",
+  "synonyms": [
+    "C48",
+    "CEP215",
+    "FLJ10867",
+    "MCPH3"
+  ],
+  "omim_id": "608201",
+  "description": "CDK5 regulatory subunit associated protein 2 [Source:HGNC Symbol;Acc:HGNC:18672]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07989",
+    "PF23246"
+  ],
+  "domain_descriptions": [
+    "Centrosomin",
+    "N-terminal motif 1",
+    "CDK5 regulatory subunit-associated protein 2",
+    "CDK5 regulatory subunit-associated protein 2/Myomegalin",
+    "coiled coil"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Centrosomin",
+    "N-terminal motif 1",
+    "CDK5 regulatory subunit-associated protein 2",
+    "CDK5 regulatory subunit-associated protein 2/Myomegalin",
+    "coiled coil"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07989",
+      "PF23246"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centrosomin",
+    "N-terminal motif 1",
+    "CDK5 regulatory subunit-associated protein 2",
+    "CDK5 regulatory subunit-associated protein 2/Myomegalin",
+    "coiled coil"
+  ],
+  "ciliary_role": "SPD-5, the functio l homologue of CDK5RAP2, is essential for embryonic mitosis and SPD-5 is the primary driver of MTOC function at the PCM and endogenous SPD-5 localized to the ciliary base (CB) of all ciliated sensory neurons(33798428)",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CDK5RAP2 is a ciliary gene encoding cdk5 regulatory subunit associated protein 2 [source:hgnc symbol;acc:hgnc:18672]",
+    "functional_summary": "SPD-5, the functio l homologue of CDK5RAP2, is essential for embryonic mitosis and SPD-5 is the primary driver of MTOC function at the PCM and endogenous SPD-5 localized to the ciliary base (CB) of al...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

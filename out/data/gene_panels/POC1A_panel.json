@@ -1,0 +1,112 @@
+{
+  "gene_name": "POC1A",
+  "ensembl_id": "ENSG00000164087",
+  "synonyms": [
+    "DKFZP434C245",
+    "WDR51A"
+  ],
+  "omim_id": "614783",
+  "description": "POC1 centriolar protein A [Source:HGNC Symbol;Acc:HGNC:24488]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing protein WDR55/POC1"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing protein WDR55/POC1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "WD repeat-containing protein WDR55/POC1"
+  ],
+  "ciliary_role": "Stable component of centrioles that and plays a role in their formation and mainte nce. Mutations cause ciliogenesis defects and impared mitosis, as well as primordial dwarfism (26336158, 23015594, 22840364).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Short Stature",
+    "Onychodysplasia",
+    "Facial Dysmorphism",
+    "and Hypotrichosis"
+  ],
+  "ciliopathy_type": "Short Stature, Onychodysplasia, Facial Dysmorphism, and Hypotrichosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "POC1A is a ciliary gene encoding poc1 centriolar protein a [source:hgnc symbol;acc:hgnc:24488]",
+    "functional_summary": "Stable component of centrioles that and plays a role in their formation and mainte nce. Mutations cause ciliogenesis defects and impared mitosis, as well as primordial dwarfism (26336158, 23015594, 22...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "Associated with Short Stature, Onychodysplasia, Facial Dysmorphism, and Hypotrichosis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Short Stature, Onychodysplasia, Facial Dysmorphism, and Hypotrichosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

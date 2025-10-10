@@ -1,0 +1,117 @@
+{
+  "gene_name": "ARHGAP36",
+  "ensembl_id": "ENSG00000147256",
+  "synonyms": [
+    "FLJ30058"
+  ],
+  "omim_id": "300937",
+  "description": "Rho GTPase activating protein 36 [Source:HGNC Symbol;Acc:HGNC:26388]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00620"
+  ],
+  "domain_descriptions": [
+    "Rho GTPase-activating protein domain",
+    "Rho GTPase activation protein",
+    "Rho GTPase-activating protein 6/36",
+    "ARHGAP6/36",
+    "RhoGAP domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "structural_features": [
+    "Rho GTPase-activating protein domain",
+    "Rho GTPase activation protein",
+    "Rho GTPase-activating protein 6/36",
+    "ARHGAP6/36",
+    "RhoGAP domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00620"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rho GTPase-activating protein domain",
+    "Rho GTPase activation protein",
+    "Rho GTPase-activating protein 6/36",
+    "ARHGAP6/36",
+    "RhoGAP domain"
+  ],
+  "ciliary_role": "Patched1-ArhGAP36-PKA- Inversin axis determines the ciliary translocation of Smoothened for Sonic Hedgehog pathway activation.",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARHGAP36 is a ciliary gene encoding rho gtpase activating protein 36 [source:hgnc symbol;acc:hgnc:26388]",
+    "functional_summary": "Patched1-ArhGAP36-PKA- Inversin axis determines the ciliary translocation of Smoothened for Sonic Hedgehog pathway activation.",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

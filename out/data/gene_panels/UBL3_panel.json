@@ -1,0 +1,121 @@
+{
+  "gene_name": "UBL3",
+  "ensembl_id": "ENSG00000122042",
+  "synonyms": [
+    "DKFZP434K151",
+    "FLJ32018",
+    "HCG-1",
+    "PNSC1"
+  ],
+  "omim_id": "604711",
+  "description": "ubiquitin like 3 [Source:HGNC Symbol;Acc:HGNC:12504]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13881"
+  ],
+  "domain_descriptions": [
+    "Ubiquitin-like domain",
+    "Membrane-anchored ubiquitin-fold protein",
+    "Ubiquitin-like domain superfamily",
+    "UBL3-like",
+    "ubiquitin domain",
+    "UBL3-like",
+    "UBL3-like",
+    "ubiquitin-like domain",
+    "metazoan"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Ubiquitin-like domain",
+    "Membrane-anchored ubiquitin-fold protein",
+    "Ubiquitin-like domain superfamily",
+    "UBL3-like",
+    "ubiquitin domain",
+    "UBL3-like",
+    "UBL3-like",
+    "ubiquitin-like domain",
+    "metazoan"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13881"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ubiquitin-like domain",
+    "Membrane-anchored ubiquitin-fold protein",
+    "Ubiquitin-like domain superfamily",
+    "UBL3-like",
+    "ubiquitin domain",
+    "UBL3-like",
+    "UBL3-like",
+    "ubiquitin-like domain",
+    "metazoan"
+  ],
+  "ciliary_role": "NIM1K and UBL3 localize inside the cilium in a prenylation-dependent manner and UBL3 also localizes in vesicle-like structures around the base of the cilium. Through affinity proteomics of UBL3, it confirmed its strong interaction with PDE6D and its association with proteins that regulate small extracellular vesicles (sEVs) and ciliogenesis (36672247).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "UBL3 is a ciliary gene encoding ubiquitin like 3 [source:hgnc symbol;acc:hgnc:12504]",
+    "functional_summary": "NIM1K and UBL3 localize inside the cilium in a prenylation-dependent manner and UBL3 also localizes in vesicle-like structures around the base of the cilium. Through affinity proteomics of UBL3, it co...",
+    "localization_summary": "Localizes to basal body , cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

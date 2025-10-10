@@ -1,0 +1,141 @@
+{
+  "gene_name": "MC4R",
+  "ensembl_id": "ENSG00000166603",
+  "synonyms": [],
+  "omim_id": "155541",
+  "description": "melanocortin 4 receptor [Source:HGNC Symbol;Acc:HGNC:6932]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "Melanocortin 4 receptor",
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Melanocortin/ACTH receptor",
+    "Melanocortin receptor 3-5",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Melanocortin 4 receptor",
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Melanocortin/ACTH receptor",
+    "Melanocortin receptor 3-5",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Melanocortin 4 receptor",
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Melanocortin/ACTH receptor",
+    "Melanocortin receptor 3-5",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "ciliary_role": "The melanocortin 4 receptor (MC4R) is a Gs-coupled GPCR that transduces anorexigenic sig ls in the long-term regulation of energy homeostasis (26814590). Heterozygous mutations in MC4R in humans and deletion of MC4R in mice are the most common monogenic cause of severe obesity , and individuals with homozygous null mutations display severe early-onset obesity (10903341, 9019399). In ciliated cells, MC4R localized to primary cilia (29311635).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MC4R is a ciliary gene encoding melanocortin 4 receptor [source:hgnc symbol;acc:hgnc:6932]",
+    "functional_summary": "The melanocortin 4 receptor (MC4R) is a Gs-coupled GPCR that transduces anorexigenic sig ls in the long-term regulation of energy homeostasis (26814590). Heterozygous mutations in MC4R in humans and d...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

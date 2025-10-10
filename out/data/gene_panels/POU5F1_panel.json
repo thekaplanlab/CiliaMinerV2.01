@@ -1,0 +1,91 @@
+{
+  "gene_name": "POU5F1",
+  "ensembl_id": "ENSG00000235068; ENSG00000230336; ENSG00000229094; ENSG00000204531; ENSG00000206454; ENSG00000233911; ENSG00000237582",
+  "synonyms": [
+    "MGC22487",
+    "OCT-4",
+    "OCT3",
+    "OCT3/4",
+    "OCT4",
+    "OTF3"
+  ],
+  "omim_id": "164177",
+  "description": "POU class 5 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:9221]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Oct4 colocalized with alpha-tubulin to the eye of a 8-week human embryo(26255818).",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "POU5F1 is a ciliary gene encoding pou class 5 homeobox 1 [source:hgnc symbol;acc:hgnc:9221]",
+    "functional_summary": "Oct4 colocalized with alpha-tubulin to the eye of a 8-week human embryo(26255818).",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

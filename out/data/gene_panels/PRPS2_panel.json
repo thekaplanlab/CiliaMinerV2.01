@@ -1,0 +1,106 @@
+{
+  "gene_name": "PRPS2",
+  "ensembl_id": "ENSG00000101911",
+  "synonyms": [],
+  "omim_id": "311860",
+  "description": "phosphoribosyl pyrophosphate synthetase 2 [Source:HGNC Symbol;Acc:HGNC:9465]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13793",
+    "PF14572"
+  ],
+  "domain_descriptions": [
+    "Ribose-phosphate pyrophosphokinase",
+    "Phosphoribosyltransferase-like",
+    "Ribose-phosphate pyrophosphokinase",
+    "N-terminal domain",
+    "Phosphoribosyltransferase domain",
+    "Phosphoribosyl pyrophosphate synthetase",
+    "conserved site",
+    "Ribose-phosphate pyrophosphokinase",
+    "bacterial-type"
+  ],
+  "molecular_function": [
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Ribose-phosphate pyrophosphokinase",
+    "Phosphoribosyltransferase-like",
+    "Ribose-phosphate pyrophosphokinase",
+    "N-terminal domain",
+    "Phosphoribosyltransferase domain",
+    "Phosphoribosyl pyrophosphate synthetase",
+    "conserved site",
+    "Ribose-phosphate pyrophosphokinase",
+    "bacterial-type"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13793",
+      "PF14572"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ribose-phosphate pyrophosphokinase",
+    "Phosphoribosyltransferase-like",
+    "Ribose-phosphate pyrophosphokinase",
+    "N-terminal domain",
+    "Phosphoribosyltransferase domain",
+    "Phosphoribosyl pyrophosphate synthetase",
+    "conserved site",
+    "Ribose-phosphate pyrophosphokinase",
+    "bacterial-type"
+  ],
+  "ciliary_role": "PRPS2 has localized in cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRPS2 is a ciliary gene encoding phosphoribosyl pyrophosphate synthetase 2 [source:hgnc symbol;acc:hgnc:9465]",
+    "functional_summary": "PRPS2 has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

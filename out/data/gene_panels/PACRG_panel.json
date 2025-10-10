@@ -1,0 +1,117 @@
+{
+  "gene_name": "PACRG",
+  "ensembl_id": "ENSG00000112530",
+  "synonyms": [
+    "BUG21",
+    "FLJ32724",
+    "GLUP",
+    "HAK005771",
+    "PARK2CRG",
+    "PF12"
+  ],
+  "omim_id": "608427",
+  "description": "parkin coregulated [Source:HGNC Symbol;Acc:HGNC:19152]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10274"
+  ],
+  "domain_descriptions": [
+    "Parkin co-regulated protein"
+  ],
+  "molecular_function": [
+    "Ciliary membrane",
+    "Rootlets / ciliary pocket",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Parkin co-regulated protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10274"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Parkin co-regulated protein"
+  ],
+  "ciliary_role": "Interacts with Rib72, FAP252, and FAP20 to regulate ciliary motility (27770595). Required for proper activation of dynein-driven microtubule sliding and for the assembly of regulatory components. Mutations lead to reduced assembly of inner-arm dynein IDA b, the beak-MIP structures and cause severe motility defects (31116684).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary membrane",
+    "Rootlets / ciliary pocket",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary membrane",
+    "Rootlets / ciliary pocket",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PACRG is a ciliary gene encoding parkin coregulated [source:hgnc symbol;acc:hgnc:19152]",
+    "functional_summary": "Interacts with Rib72, FAP252, and FAP20 to regulate ciliary motility (27770595). Required for proper activation of dynein-driven microtubule sliding and for the assembly of regulatory components. Muta...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

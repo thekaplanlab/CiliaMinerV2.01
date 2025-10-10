@@ -1,0 +1,162 @@
+{
+  "gene_name": "CC2D2A",
+  "ensembl_id": "ENSG00000048342",
+  "synonyms": [
+    "JBTS9",
+    "KIAA1345",
+    "MKS6"
+  ],
+  "omim_id": "612013",
+  "description": "coiled-coil and C2 domain containing 2A [Source:HGNC Symbol;Acc:HGNC:29253]",
+  "protein_complexes": [
+    "CC2D2A-CEP290 complex"
+  ],
+  "pfam_ids": [
+    "PF17661",
+    "PF15625",
+    "PF24656",
+    "PF24652"
+  ],
+  "domain_descriptions": [
+    "Domain of unknown function DUF5523",
+    "Tectonic-like complex component protein",
+    "C2 domain",
+    "CC2D2A",
+    "N-terminal",
+    "C2 domain",
+    "C2 domain superfamily",
+    "Centrosomal protein of 76 kDa",
+    "C-terminal",
+    "CEP76/DRC7",
+    "peptidase-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Domain of unknown function DUF5523",
+    "Tectonic-like complex component protein",
+    "C2 domain",
+    "CC2D2A",
+    "N-terminal",
+    "C2 domain",
+    "C2 domain superfamily",
+    "Centrosomal protein of 76 kDa",
+    "C-terminal",
+    "CEP76/DRC7",
+    "peptidase-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17661",
+      "PF15625",
+      "PF24656",
+      "PF24652"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Domain of unknown function DUF5523",
+    "Tectonic-like complex component protein",
+    "C2 domain",
+    "CC2D2A",
+    "N-terminal",
+    "C2 domain",
+    "C2 domain superfamily",
+    "Centrosomal protein of 76 kDa",
+    "C-terminal",
+    "CEP76/DRC7",
+    "peptidase-like domain"
+  ],
+  "ciliary_role": "It is essential for the assembly of subdistal appendages. Protein is required for cilia formation and predicted to be involved in calcium- dependent membrane targeting. (PMID 24947469). Interacts with CEP290 in the basal body (PMID 24947469, 18950740). CC2D2A associates with NINL to provide a docking point for incoming transport vesicles at the entrance of ciliary compartments (26485645). Required for vesicle fusion (29281629). Play a role in Ca2+ regulated sig lling pathways (18513680)",
+  "localization": [
+    "transition zone",
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "COACH Syndrome",
+    "Joubert Syndrome",
+    "Meckel–Gruber Syndrome",
+    "Nephronophthisis"
+  ],
+  "ciliopathy_type": "COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CC2D2A is a ciliary gene encoding coiled-coil and c2 domain containing 2a [source:hgnc symbol;acc:hgnc:29253]",
+    "functional_summary": "It is essential for the assembly of subdistal appendages. Protein is required for cilia formation and predicted to be involved in calcium- dependent membrane targeting. (PMID 24947469). Interacts with...",
+    "localization_summary": "Localizes to transition zone, basal body , cilia",
+    "disease_summary": "Associated with COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with COACH Syndrome, Joubert Syndrome, Meckel–Gruber Syndrome, Nephronophthisis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

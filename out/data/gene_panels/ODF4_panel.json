@@ -1,0 +1,71 @@
+{
+  "gene_name": "ODF4",
+  "ensembl_id": "ENSG00000184650",
+  "synonyms": [
+    "CT136",
+    "OPPO1"
+  ],
+  "omim_id": "610097",
+  "description": "outer dense fiber of sperm tails 4 [Source:HGNC Symbol;Acc:HGNC:19056]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cilia / Reproduction"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "ODF4 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Cilia / Reproduction"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia / Reproduction"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ODF4 is a ciliary gene encoding outer dense fiber of sperm tails 4 [source:hgnc symbol;acc:hgnc:19056]",
+    "functional_summary": "ODF4 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

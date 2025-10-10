@@ -1,0 +1,150 @@
+{
+  "gene_name": "NEK8",
+  "ensembl_id": "ENSG00000160602",
+  "synonyms": [
+    "NPHP9"
+  ],
+  "omim_id": "609799",
+  "description": "NIMA related kinase 8 [Source:HGNC Symbol;Acc:HGNC:13387]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069",
+    "PF00415"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Serine/threonine-protein kinase NEK",
+    "Regulator of chromosome condensation",
+    "RCC1",
+    "Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II",
+    "Protein kinase",
+    "ATP binding site",
+    "Nek8",
+    "catalytic domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Serine/threonine-protein kinase NEK",
+    "Regulator of chromosome condensation",
+    "RCC1",
+    "Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II",
+    "Protein kinase",
+    "ATP binding site",
+    "Nek8",
+    "catalytic domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069",
+      "PF00415"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Serine/threonine-protein kinase NEK",
+    "Regulator of chromosome condensation",
+    "RCC1",
+    "Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II",
+    "Protein kinase",
+    "ATP binding site",
+    "Nek8",
+    "catalytic domain"
+  ],
+  "ciliary_role": "Mutations cause nephronophthisis (NPHP9), it can be transported into cilia by Inv (20169535). Controls or modulates the ciliary localization of PC1 and PC2, as well as ciliary length (18235101). It is speculated that Nek8 activity may be required to initiate ciliogenesis, and degradation may be required to prevent it (22106379). Component of the PC2 channel complex required to mediate nodal calcium flux, indispensable for the establishment of left-right asymmetry (23274954).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Autosomal Dominant Polycystic Kidney Disease",
+    "Nephronophthisis",
+    "Renal-hepatic-pancreatic Dysplasia"
+  ],
+  "ciliopathy_type": "Autosomal Dominant Polycystic Kidney Disease, Nephronophthisis, Renal-hepatic-pancreatic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEK8 is a ciliary gene encoding nima related kinase 8 [source:hgnc symbol;acc:hgnc:13387]",
+    "functional_summary": "Mutations cause nephronophthisis (NPHP9), it can be transported into cilia by Inv (20169535). Controls or modulates the ciliary localization of PC1 and PC2, as well as ciliary length (18235101). It is...",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "Associated with Autosomal Dominant Polycystic Kidney Disease, Nephronophthisis, Renal-hepatic-pancreatic Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Autosomal Dominant Polycystic Kidney Disease, Nephronophthisis, Renal-hepatic-pancreatic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

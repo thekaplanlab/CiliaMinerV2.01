@@ -1,0 +1,78 @@
+{
+  "gene_name": "MPHOSPH9",
+  "ensembl_id": "ENSG00000051825",
+  "synonyms": [
+    "MPP9"
+  ],
+  "omim_id": "605501",
+  "description": "M-phase phosphoprotein 9 [Source:HGNC Symbol;Acc:HGNC:7215]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Forms a ring-like structure and regulates ciliogenesis by modulating CP110-CEP97 complex recruitment and localization at the mother centriole, by directly binding CEP97, which blocks cilia assembly in cycling cells able to form cilia. degradation of MPP9 facilitates the removal of the CP110-CEP97 complex from basal bodies and promotes cilia formation (30375385).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MPHOSPH9 is a ciliary gene encoding m-phase phosphoprotein 9 [source:hgnc symbol;acc:hgnc:7215]",
+    "functional_summary": "Forms a ring-like structure and regulates ciliogenesis by modulating CP110-CEP97 complex recruitment and localization at the mother centriole, by directly binding CEP97, which blocks cilia assembly in...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,110 @@
+{
+  "gene_name": "MAPRE3",
+  "ensembl_id": "ENSG00000084764",
+  "synonyms": [
+    "EB3",
+    "RP3"
+  ],
+  "omim_id": "605788",
+  "description": "microtubule associated protein RP/EB family member 3 [Source:HGNC Symbol;Acc:HGNC:6892]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00307",
+    "PF03271"
+  ],
+  "domain_descriptions": [
+    "Calponin homology domain",
+    "EB1",
+    "C-terminal",
+    "Microtubule-associated protein RP/EB",
+    "EB1",
+    "C-terminal domain superfamily",
+    "CH domain superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calponin homology domain",
+    "EB1",
+    "C-terminal",
+    "Microtubule-associated protein RP/EB",
+    "EB1",
+    "C-terminal domain superfamily",
+    "CH domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00307",
+      "PF03271"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calponin homology domain",
+    "EB1",
+    "C-terminal",
+    "Microtubule-associated protein RP/EB",
+    "EB1",
+    "C-terminal domain superfamily",
+    "CH domain superfamily"
+  ],
+  "ciliary_role": "AIPL1 and the EB proteins, EB1 and EB3, localize at the connecting cilia of reti l photoreceptor cells, but do not co-localize in the cellular microtubule network or in cilia in non-reti l cells (25799540).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAPRE3 is a ciliary gene encoding microtubule associated protein rp/eb family member 3 [source:hgnc symbol;acc:hgnc:6892]",
+    "functional_summary": "AIPL1 and the EB proteins, EB1 and EB3, localize at the connecting cilia of reti l photoreceptor cells, but do not co-localize in the cellular microtubule network or in cilia in non-reti l cells (2579...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,71 @@
+{
+  "gene_name": "AJM1",
+  "ensembl_id": "ENSG00000232434",
+  "synonyms": [
+    "AJM-1",
+    "C9ORF172"
+  ],
+  "omim_id": "",
+  "description": "apical junction component 1 homolog [Source:HGNC Symbol;Acc:HGNC:37284]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "AJM-1::CFP apical junction and the DYF-19::RFP BB fusion proteins localized to adjacent zones in the head when expressed in ciliated sensory neurons and localization of the AJM-1::CFP fusion protein was restricted to a  rrow band in the distal AWC dendrite(27623382).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AJM1 is a ciliary gene encoding apical junction component 1 homolog [source:hgnc symbol;acc:hgnc:37284]",
+    "functional_summary": "AJM-1::CFP apical junction and the DYF-19::RFP BB fusion proteins localized to adjacent zones in the head when expressed in ciliated sensory neurons and localization of the AJM-1::CFP fusion protein w...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

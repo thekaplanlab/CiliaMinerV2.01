@@ -1,0 +1,95 @@
+{
+  "gene_name": "NDUFB4",
+  "ensembl_id": "ENSG00000065518",
+  "synonyms": [
+    "B15"
+  ],
+  "omim_id": "603840",
+  "description": "NADH:ubiquinone oxidoreductase subunit B4 [Source:HGNC Symbol;Acc:HGNC:7699]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07225"
+  ],
+  "domain_descriptions": [
+    "NADH:ubiquinone oxidoreductase",
+    "subunit NDUFB4"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "NADH:ubiquinone oxidoreductase",
+    "subunit NDUFB4"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "NADH:ubiquinone oxidoreductase",
+    "subunit NDUFB4"
+  ],
+  "ciliary_role": "NDUFB4 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NDUFB4 is a ciliary gene encoding nadh:ubiquinone oxidoreductase subunit b4 [source:hgnc symbol;acc:hgnc:7699]",
+    "functional_summary": "NDUFB4 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Nucleus, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,102 @@
+{
+  "gene_name": "KIF12",
+  "ensembl_id": "ENSG00000136883",
+  "synonyms": [],
+  "omim_id": "611278",
+  "description": "kinesin family member 12 [Source:HGNC Symbol;Acc:HGNC:21495]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "The Mpkd2 locus-associated gene Kif12 encodes a primary cilium-associated protein (26295839).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF12 is a ciliary gene encoding kinesin family member 12 [source:hgnc symbol;acc:hgnc:21495]",
+    "functional_summary": "The Mpkd2 locus-associated gene Kif12 encodes a primary cilium-associated protein (26295839).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

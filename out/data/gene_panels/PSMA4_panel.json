@@ -1,0 +1,157 @@
+{
+  "gene_name": "PSMA4",
+  "ensembl_id": "ENSG00000041357",
+  "synonyms": [
+    "HC9",
+    "HST17706"
+  ],
+  "omim_id": "176846",
+  "description": "proteasome 20S subunit alpha 4 [Source:HGNC Symbol;Acc:HGNC:9533]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00227",
+    "PF10584"
+  ],
+  "domain_descriptions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain",
+    "Proteasome beta-type subunit",
+    "conserved site"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain",
+    "Proteasome beta-type subunit",
+    "conserved site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00227",
+      "PF10584"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain",
+    "Proteasome beta-type subunit",
+    "conserved site"
+  ],
+  "ciliary_role": "PSMA4 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PSMA4 is a ciliary gene encoding proteasome 20s subunit alpha 4 [source:hgnc symbol;acc:hgnc:9533]",
+    "functional_summary": "PSMA4 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Cytosol, Nucleus, P-body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

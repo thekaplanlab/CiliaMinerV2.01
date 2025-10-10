@@ -1,0 +1,83 @@
+{
+  "gene_name": "TMEM252",
+  "ensembl_id": "ENSG00000181778",
+  "synonyms": [
+    "C9ORF71",
+    "MGC34760"
+  ],
+  "omim_id": "",
+  "description": "transmembrane protein 252 [Source:HGNC Symbol;Acc:HGNC:28537]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15664"
+  ],
+  "domain_descriptions": [
+    "Transmembrane protein 252"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Transmembrane protein 252"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15664"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Transmembrane protein 252"
+  ],
+  "ciliary_role": "TMEM252 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TMEM252 is a ciliary gene encoding transmembrane protein 252 [source:hgnc symbol;acc:hgnc:28537]",
+    "functional_summary": "TMEM252 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

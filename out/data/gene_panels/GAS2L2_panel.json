@@ -1,0 +1,123 @@
+{
+  "gene_name": "GAS2L2",
+  "ensembl_id": "ENSG00000270765",
+  "synonyms": [
+    "GAR17"
+  ],
+  "omim_id": "611398",
+  "description": "growth arrest specific 2 like 2 [Source:HGNC Symbol;Acc:HGNC:24846]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00307",
+    "PF02187"
+  ],
+  "domain_descriptions": [
+    "Calponin homology domain",
+    "GAR domain",
+    "GAR domain superfamily",
+    "CH domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calponin homology domain",
+    "GAR domain",
+    "GAR domain superfamily",
+    "CH domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00307",
+      "PF02187"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calponin homology domain",
+    "GAR domain",
+    "GAR domain superfamily",
+    "CH domain superfamily"
+  ],
+  "ciliary_role": "Alignment of basal bodies. Mediation of the crosstalk between , actin filaments, and the basal body. Mutations cause poorly aligned cilia, hyperkinetic ciliary beat, and primary ciliary dyskinesia.",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GAS2L2 is a ciliary gene encoding growth arrest specific 2 like 2 [source:hgnc symbol;acc:hgnc:24846]",
+    "functional_summary": "Alignment of basal bodies. Mediation of the crosstalk between , actin filaments, and the basal body. Mutations cause poorly aligned cilia, hyperkinetic ciliary beat, and primary ciliary dyskinesia.",
+    "localization_summary": "Localizes to basal body , cilia,, Microtubules",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

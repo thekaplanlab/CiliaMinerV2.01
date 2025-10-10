@@ -1,0 +1,99 @@
+{
+  "gene_name": "NDRG1",
+  "ensembl_id": "ENSG00000104419",
+  "synonyms": [
+    "CAP43",
+    "DRG1",
+    "NDR1",
+    "RTP",
+    "TDD5"
+  ],
+  "omim_id": "605262",
+  "description": "N-myc downstream regulated 1 [Source:HGNC Symbol;Acc:HGNC:7679]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03096"
+  ],
+  "domain_descriptions": [
+    "NDRG",
+    "Alpha/Beta hydrolase fold"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Peripheral nervous system",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "NDRG",
+    "Alpha/Beta hydrolase fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03096"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "NDRG",
+    "Alpha/Beta hydrolase fold"
+  ],
+  "ciliary_role": "NDRG1 localized to flagella (25613900)",
+  "localization": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Peripheral nervous system",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Peripheral nervous system",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NDRG1 is a ciliary gene encoding n-myc downstream regulated 1 [source:hgnc symbol;acc:hgnc:7679]",
+    "functional_summary": "NDRG1 localized to flagella (25613900)",
+    "localization_summary": "Localizes to flagella, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

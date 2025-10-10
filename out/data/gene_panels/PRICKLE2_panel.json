@@ -1,0 +1,117 @@
+{
+  "gene_name": "PRICKLE2",
+  "ensembl_id": "ENSG00000163637",
+  "synonyms": [
+    "DKFZP686D143"
+  ],
+  "omim_id": "608501",
+  "description": "prickle planar cell polarity protein 2 [Source:HGNC Symbol;Acc:HGNC:20340]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06297",
+    "PF00412"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "LIM-type",
+    "PET domain",
+    "PET prickle",
+    "LIM1 prickle",
+    "LIM2 prickle",
+    "LIM3 prickle",
+    "Prickle/Espinas/Testin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "LIM-type",
+    "PET domain",
+    "PET prickle",
+    "LIM1 prickle",
+    "LIM2 prickle",
+    "LIM3 prickle",
+    "Prickle/Espinas/Testin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06297",
+      "PF00412"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "LIM-type",
+    "PET domain",
+    "PET prickle",
+    "LIM1 prickle",
+    "LIM2 prickle",
+    "LIM3 prickle",
+    "Prickle/Espinas/Testin"
+  ],
+  "ciliary_role": "Also known as PK2. Pla r cell polarity core component involved in the development and function of motile cilia (24708399). Role in anterograde transport. Required for basal body and cilia orientation (24938409).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRICKLE2 is a ciliary gene encoding prickle planar cell polarity protein 2 [source:hgnc symbol;acc:hgnc:20340]",
+    "functional_summary": "Also known as PK2. Pla r cell polarity core component involved in the development and function of motile cilia (24708399). Role in anterograde transport. Required for basal body and cilia orientation ...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

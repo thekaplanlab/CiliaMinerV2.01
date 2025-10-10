@@ -1,0 +1,116 @@
+{
+  "gene_name": "DIS3L",
+  "ensembl_id": "ENSG00000166938",
+  "synonyms": [
+    "DIS3L1",
+    "FLJ38088",
+    "KIAA1955",
+    "MGC4562"
+  ],
+  "omim_id": "614183",
+  "description": "DIS3 like exosome 3'-5' exoribonuclease [Source:HGNC Symbol;Acc:HGNC:28698]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17849",
+    "PF17215",
+    "PF17216",
+    "PF00773"
+  ],
+  "domain_descriptions": [
+    "Ribonuclease II/R",
+    "Nucleic acid-binding",
+    "OB-fold",
+    "Ribonuclease II/R",
+    "conserved site",
+    "Exosome complex exonuclease RRP44",
+    "S1 domain",
+    "Rrp44-like cold shock domain",
+    "Dis3-like cold-shock domain 2",
+    "RNR Ribonuclease"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Ribonuclease II/R",
+    "Nucleic acid-binding",
+    "OB-fold",
+    "Ribonuclease II/R",
+    "conserved site",
+    "Exosome complex exonuclease RRP44",
+    "S1 domain",
+    "Rrp44-like cold shock domain",
+    "Dis3-like cold-shock domain 2",
+    "RNR Ribonuclease"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17849",
+      "PF17215",
+      "PF17216",
+      "PF00773"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ribonuclease II/R",
+    "Nucleic acid-binding",
+    "OB-fold",
+    "Ribonuclease II/R",
+    "conserved site",
+    "Exosome complex exonuclease RRP44",
+    "S1 domain",
+    "Rrp44-like cold shock domain",
+    "Dis3-like cold-shock domain 2",
+    "RNR Ribonuclease"
+  ],
+  "ciliary_role": "DIS3L has localized in cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DIS3L is a ciliary gene encoding dis3 like exosome 3'-5' exoribonuclease [source:hgnc symbol;acc:hgnc:28698]",
+    "functional_summary": "DIS3L has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

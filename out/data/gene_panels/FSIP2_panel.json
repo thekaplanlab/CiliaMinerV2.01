@@ -1,0 +1,112 @@
+{
+  "gene_name": "FSIP2",
+  "ensembl_id": "ENSG00000188738",
+  "synonyms": [
+    "FLJ34780"
+  ],
+  "omim_id": "615796",
+  "description": "fibrous sheath interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:21675]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15783"
+  ],
+  "domain_descriptions": [
+    "Fibrous sheath-interacting protein 2",
+    "C-terminal",
+    "Fibrous sheath-interacting protein 2"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Fibrous sheath-interacting protein 2",
+    "C-terminal",
+    "Fibrous sheath-interacting protein 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15783"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fibrous sheath-interacting protein 2",
+    "C-terminal",
+    "Fibrous sheath-interacting protein 2"
+  ],
+  "ciliary_role": "Major structural protein of the fibrous sheath (FS) shown to bind to AKAP4, required for FS assembly. Regulaties PKA anchoring to AKAP4. Involved in the control of sperm flagellum elasticity and sig ling pathways that regulate sperm motility. Mutations in FSIP2 are a recurrent cause of multiple morphological abnormalities of the sperm flagella.",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FSIP2 is a ciliary gene encoding fibrous sheath interacting protein 2 [source:hgnc symbol;acc:hgnc:21675]",
+    "functional_summary": "Major structural protein of the fibrous sheath (FS) shown to bind to AKAP4, required for FS assembly. Regulaties PKA anchoring to AKAP4. Involved in the control of sperm flagellum elasticity and sig l...",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

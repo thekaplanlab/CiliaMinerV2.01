@@ -1,0 +1,120 @@
+{
+  "gene_name": "CDC20B",
+  "ensembl_id": "ENSG00000164287",
+  "synonyms": [
+    "FLJ37927"
+  ],
+  "omim_id": "620335",
+  "description": "cell division cycle 20B [Source:HGNC Symbol;Acc:HGNC:24222]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF24807",
+    "PF00400",
+    "PF12894"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "WD repeat Cdc20/Fizzy",
+    "WD40-repeat-containing domain superfamily",
+    "CDC20/Fizzy",
+    "WD40 domain",
+    "Anaphase-promoting complex subunit 4-like",
+    "WD40 domain"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "WD repeat Cdc20/Fizzy",
+    "WD40-repeat-containing domain superfamily",
+    "CDC20/Fizzy",
+    "WD40 domain",
+    "Anaphase-promoting complex subunit 4-like",
+    "WD40 domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF24807",
+      "PF00400",
+      "PF12894"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "WD repeat Cdc20/Fizzy",
+    "WD40-repeat-containing domain superfamily",
+    "CDC20/Fizzy",
+    "WD40 domain",
+    "Anaphase-promoting complex subunit 4-like",
+    "WD40 domain"
+  ],
+  "ciliary_role": "Specifically expressed in maturing multiciliated cells during the phase of centriole multiplication, it has been established the corresponding CDC20B protein as an essential regulator of centriole-deuterosome disengagement. Plays an essential and conserved role of in vertebrate multiciliogenesis. Function of promoting deuterosome assembly and/or activity, may contribute to activation of Separase. Involved in the production of centrioles (30405130).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CDC20B is a ciliary gene encoding cell division cycle 20b [source:hgnc symbol;acc:hgnc:24222]",
+    "functional_summary": "Specifically expressed in maturing multiciliated cells during the phase of centriole multiplication, it has been established the corresponding CDC20B protein as an essential regulator of centriole-deu...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

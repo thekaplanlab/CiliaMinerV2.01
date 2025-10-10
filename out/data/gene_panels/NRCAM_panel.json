@@ -1,0 +1,153 @@
+{
+  "gene_name": "NRCAM",
+  "ensembl_id": "ENSG00000091129",
+  "synonyms": [
+    "BRAVO",
+    "KIAA0343"
+  ],
+  "omim_id": "601581",
+  "description": "neuronal cell adhesion molecule [Source:HGNC Symbol;Acc:HGNC:7994]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00041",
+    "PF13927",
+    "PF07679",
+    "PF13882"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin/major histocompatibility complex",
+    "conserved site",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Neurofascin/L1/NrCAM",
+    "C-terminal domain",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Immunoglobulin/major histocompatibility complex",
+    "conserved site",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Neurofascin/L1/NrCAM",
+    "C-terminal domain",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00041",
+      "PF13927",
+      "PF07679",
+      "PF13882"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin/major histocompatibility complex",
+    "conserved site",
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Neurofascin/L1/NrCAM",
+    "C-terminal domain",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Neural and epithelial cell adhesion domain-containing protein"
+  ],
+  "ciliary_role": "The cell adhesion molecule NRCAM, which is involved in cell-cell contacts and axon outgrowth in the peripheral- and central nervous system (22182708) localized at cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NRCAM is a ciliary gene encoding neuronal cell adhesion molecule [source:hgnc symbol;acc:hgnc:7994]",
+    "functional_summary": "The cell adhesion molecule NRCAM, which is involved in cell-cell contacts and axon outgrowth in the peripheral- and central nervous system (22182708) localized at cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,140 @@
+{
+  "gene_name": "MAGI2",
+  "ensembl_id": "ENSG00000187391",
+  "synonyms": [
+    "ACVRIP1",
+    "AIP1",
+    "ARIP1",
+    "KIAA0705",
+    "MAGI-2"
+  ],
+  "omim_id": "606382",
+  "description": "membrane associated guanylate kinase, WW and PDZ domain containing 2 [Source:HGNC Symbol;Acc:HGNC:18957]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00397",
+    "PF16663",
+    "PF00625",
+    "PF00595"
+  ],
+  "domain_descriptions": [
+    "WW domain",
+    "PDZ domain",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "Guanylate kinase",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "WW domain superfamily",
+    "PDZ superfamily"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "WW domain",
+    "PDZ domain",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "Guanylate kinase",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "WW domain superfamily",
+    "PDZ superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00397",
+      "PF16663",
+      "PF00625",
+      "PF00595"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WW domain",
+    "PDZ domain",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "Guanylate kinase",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "WW domain superfamily",
+    "PDZ superfamily"
+  ],
+  "ciliary_role": "SANS-Magi2 complex mediates endocytosis and regulates aspects of ciliogenesis and/or mainte nce of primary cilia (24608321).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAGI2 is a ciliary gene encoding membrane associated guanylate kinase, ww and pdz domain containing 2 [source:hgnc symbol;acc:hgnc:18957]",
+    "functional_summary": "SANS-Magi2 complex mediates endocytosis and regulates aspects of ciliogenesis and/or mainte nce of primary cilia (24608321).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,118 @@
+{
+  "gene_name": "CLNS1A",
+  "ensembl_id": "ENSG00000074201",
+  "synonyms": [
+    "CLCI",
+    "ICLN"
+  ],
+  "omim_id": "602158",
+  "description": "chloride nucleotide-sensitive channel 1A [Source:HGNC Symbol;Acc:HGNC:2080]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03517"
+  ],
+  "domain_descriptions": [
+    "ICln",
+    "PH-like domain superfamily",
+    "Protein ICln/Lot5/Saf5"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "ICln",
+    "PH-like domain superfamily",
+    "Protein ICln/Lot5/Saf5"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03517"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ICln",
+    "PH-like domain superfamily",
+    "Protein ICln/Lot5/Saf5"
+  ],
+  "ciliary_role": "CLNS1A has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CLNS1A is a ciliary gene encoding chloride nucleotide-sensitive channel 1a [source:hgnc symbol;acc:hgnc:2080]",
+    "functional_summary": "CLNS1A has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

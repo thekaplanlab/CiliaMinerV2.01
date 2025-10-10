@@ -1,0 +1,89 @@
+{
+  "gene_name": "CKAP2L",
+  "ensembl_id": "ENSG00000169607",
+  "synonyms": [
+    "FLJ40629",
+    "RADMIS"
+  ],
+  "omim_id": "616174",
+  "description": "cytoskeleton associated protein 2 like [Source:HGNC Symbol;Acc:HGNC:26877]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15297"
+  ],
+  "domain_descriptions": [
+    "Cytoskeleton-associated protein 2",
+    "C-terminal",
+    "Cytoskeleton-associated protein 2-like"
+  ],
+  "molecular_function": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "structural_features": [
+    "Cytoskeleton-associated protein 2",
+    "C-terminal",
+    "Cytoskeleton-associated protein 2-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15297"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cytoskeleton-associated protein 2",
+    "C-terminal",
+    "Cytoskeleton-associated protein 2-like"
+  ],
+  "ciliary_role": "The reciprocal ciliary localization patterns of CKAP2L and DHX56 highlighting region-specific variations in ciliary composition between the dorsal and ventral brain regions., CKAP2L has localized in cilia (PMID: 40654709).",
+  "localization": [
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton / Cell junction"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CKAP2L is a ciliary gene encoding cytoskeleton associated protein 2 like [source:hgnc symbol;acc:hgnc:26877]",
+    "functional_summary": "The reciprocal ciliary localization patterns of CKAP2L and DHX56 highlighting region-specific variations in ciliary composition between the dorsal and ventral brain regions., CKAP2L has localized in c...",
+    "localization_summary": "Localizes to cilia, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

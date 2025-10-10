@@ -1,0 +1,105 @@
+{
+  "gene_name": "EFHB",
+  "ensembl_id": "ENSG00000163576",
+  "synonyms": [
+    "CFAP21",
+    "FLJ25200"
+  ],
+  "omim_id": "",
+  "description": "EF-hand domain family member B [Source:HGNC Symbol;Acc:HGNC:26330]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13499"
+  ],
+  "domain_descriptions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "EF-hand domain-containing protein EFHC1/EFHC2/EFHB"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "EF-hand domain-containing protein EFHC1/EFHC2/EFHB"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13499"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "EF-hand domain-containing protein EFHC1/EFHC2/EFHB"
+  ],
+  "ciliary_role": "EFHB has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EFHB is a ciliary gene encoding ef-hand domain family member b [source:hgnc symbol;acc:hgnc:26330]",
+    "functional_summary": "EFHB has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

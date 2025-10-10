@@ -1,0 +1,159 @@
+{
+  "gene_name": "ATP5F1D",
+  "ensembl_id": "ENSG00000099624",
+  "synonyms": [
+    "ATP5D"
+  ],
+  "omim_id": "603150",
+  "description": "ATP synthase F1 subunit delta [Source:HGNC Symbol;Acc:HGNC:837]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02823",
+    "PF21335"
+  ],
+  "domain_descriptions": [
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "N-terminal",
+    "F0F1 ATP synthase delta/epsilon subunit",
+    "N-terminal",
+    "ATP synthase delta/epsilon subunit",
+    "C-terminal domain superfamily",
+    "F1F0-ATP synthase delta subunit",
+    "C-terminal domain",
+    "metazoan"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "N-terminal",
+    "F0F1 ATP synthase delta/epsilon subunit",
+    "N-terminal",
+    "ATP synthase delta/epsilon subunit",
+    "C-terminal domain superfamily",
+    "F1F0-ATP synthase delta subunit",
+    "C-terminal domain",
+    "metazoan"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02823",
+      "PF21335"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "ATP synthase",
+    "F1 complex",
+    "delta/epsilon subunit",
+    "N-terminal",
+    "F0F1 ATP synthase delta/epsilon subunit",
+    "N-terminal",
+    "ATP synthase delta/epsilon subunit",
+    "C-terminal domain superfamily",
+    "F1F0-ATP synthase delta subunit",
+    "C-terminal domain",
+    "metazoan"
+  ],
+  "ciliary_role": "ATP5F1D has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ATP5F1D is a ciliary gene encoding atp synthase f1 subunit delta [source:hgnc symbol;acc:hgnc:837]",
+    "functional_summary": "ATP5F1D has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

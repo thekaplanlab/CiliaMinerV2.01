@@ -1,0 +1,140 @@
+{
+  "gene_name": "USH2A",
+  "ensembl_id": "ENSG00000042781",
+  "synonyms": [
+    "RP39",
+    "USH2"
+  ],
+  "omim_id": "608400",
+  "description": "usherin [Source:HGNC Symbol;Acc:HGNC:12601]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00053",
+    "PF13385",
+    "PF02210",
+    "PF00041",
+    "PF00055"
+  ],
+  "domain_descriptions": [
+    "Laminin G domain",
+    "Laminin-type EGF domain",
+    "Fibronectin type III",
+    "LamG-like jellyroll fold",
+    "Laminin",
+    "N-terminal",
+    "Concanavalin A-like lectin/glucanase domain superfamily",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Receptor-type Tyrosine-protein Phosphatases/Ushers",
+    "Laminin/Netrin Extracellular Matrix"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Laminin G domain",
+    "Laminin-type EGF domain",
+    "Fibronectin type III",
+    "LamG-like jellyroll fold",
+    "Laminin",
+    "N-terminal",
+    "Concanavalin A-like lectin/glucanase domain superfamily",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Receptor-type Tyrosine-protein Phosphatases/Ushers",
+    "Laminin/Netrin Extracellular Matrix"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00053",
+      "PF13385",
+      "PF02210",
+      "PF00041",
+      "PF00055"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Laminin G domain",
+    "Laminin-type EGF domain",
+    "Fibronectin type III",
+    "LamG-like jellyroll fold",
+    "Laminin",
+    "N-terminal",
+    "Concanavalin A-like lectin/glucanase domain superfamily",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Receptor-type Tyrosine-protein Phosphatases/Ushers",
+    "Laminin/Netrin Extracellular Matrix"
+  ],
+  "ciliary_role": "MIM: 608400 (10738000) Required for the long-term mainte nce of reti l photoreceptors (17360538). Interacts and colocalises with Nlp and lebercilin at the centrosome (18826961). Interacts with SPAG5 and NINL to regulate microtubule-based cytoplasmic trafficking of proteins required for ciliogenesis, mainte nce and/or function, to the apical inner segment and basal body of photoreceptor. Mutations are associated withnon- syndromic retinitis pigmentosa and Usher syndrome (23351521).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa",
+    "Usher Syndrome"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa, Usher Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USH2A is a ciliary gene encoding usherin [source:hgnc symbol;acc:hgnc:12601]",
+    "functional_summary": "MIM: 608400 (10738000) Required for the long-term mainte nce of reti l photoreceptors (17360538). Interacts and colocalises with Nlp and lebercilin at the centrosome (18826961). Interacts with SPAG5 a...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Retinitis Pigmentosa, Usher Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa, Usher Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

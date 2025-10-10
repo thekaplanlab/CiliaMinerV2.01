@@ -1,0 +1,138 @@
+{
+  "gene_name": "FNBP1L",
+  "ensembl_id": "ENSG00000137942",
+  "synonyms": [
+    "C1ORF39",
+    "FLJ20275",
+    "TOCA1"
+  ],
+  "omim_id": "608848",
+  "description": "formin binding protein 1 like [Source:HGNC Symbol;Acc:HGNC:20851]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00611",
+    "PF00018"
+  ],
+  "domain_descriptions": [
+    "FCH domain",
+    "SH3 domain",
+    "HR1 rho-binding domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "FNBP1L",
+    "SH3 domain",
+    "FNBP1L",
+    "F-BAR domain",
+    "SH3-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "FCH domain",
+    "SH3 domain",
+    "HR1 rho-binding domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "FNBP1L",
+    "SH3 domain",
+    "FNBP1L",
+    "F-BAR domain",
+    "SH3-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00611",
+      "PF00018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "FCH domain",
+    "SH3 domain",
+    "HR1 rho-binding domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "FNBP1L",
+    "SH3 domain",
+    "FNBP1L",
+    "F-BAR domain",
+    "SH3-like domain superfamily"
+  ],
+  "ciliary_role": "TOCA1. Target of miR-129-3p in ciliation-related actin dy mics, which induces ciliation in proliferating cells and also promoted cilia elongation (22684256). Binds to Cdc42, leading to actin rearrangements, which are thought to be involved in processes such as endocytosis (27129201).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FNBP1L is a ciliary gene encoding formin binding protein 1 like [source:hgnc symbol;acc:hgnc:20851]",
+    "functional_summary": "TOCA1. Target of miR-129-3p in ciliation-related actin dy mics, which induces ciliation in proliferating cells and also promoted cilia elongation (22684256). Binds to Cdc42, leading to actin rearrange...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

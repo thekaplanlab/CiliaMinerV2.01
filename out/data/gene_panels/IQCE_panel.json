@@ -1,0 +1,103 @@
+{
+  "gene_name": "IQCE",
+  "ensembl_id": "ENSG00000106012",
+  "synonyms": [
+    "KIAA1023"
+  ],
+  "omim_id": "617631",
+  "description": "IQ motif containing E [Source:HGNC Symbol;Acc:HGNC:29171]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00612"
+  ],
+  "domain_descriptions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cell Division and Developmental Signaling Domain-Containing Protein"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "IQ motif",
+    "EF-hand binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cell Division and Developmental Signaling Domain-Containing Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00612"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cell Division and Developmental Signaling Domain-Containing Protein"
+  ],
+  "ciliary_role": "Form a complex with EFCAB7. It anchors the EVC- EVC2 complex to positively regulate the Hh pathway (24582806)",
+  "localization": [
+    "flagella",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IQCE is a ciliary gene encoding iq motif containing e [source:hgnc symbol;acc:hgnc:29171]",
+    "functional_summary": "Form a complex with EFCAB7. It anchors the EVC- EVC2 complex to positively regulate the Hh pathway (24582806)",
+    "localization_summary": "Localizes to flagella, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

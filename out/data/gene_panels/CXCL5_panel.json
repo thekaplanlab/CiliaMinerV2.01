@@ -1,0 +1,115 @@
+{
+  "gene_name": "CXCL5",
+  "ensembl_id": "ENSG00000163735",
+  "synonyms": [
+    "ENA-78",
+    "SCYB5"
+  ],
+  "omim_id": "600324",
+  "description": "C-X-C motif chemokine ligand 5 [Source:HGNC Symbol;Acc:HGNC:10642]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00048"
+  ],
+  "domain_descriptions": [
+    "CXC chemokine",
+    "Chemokine interleukin-8-like domain",
+    "CXC chemokine",
+    "conserved site",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "CXC chemokine",
+    "Chemokine interleukin-8-like domain",
+    "CXC chemokine",
+    "conserved site",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00048"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CXC chemokine",
+    "Chemokine interleukin-8-like domain",
+    "CXC chemokine",
+    "conserved site",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "ciliary_role": "Mechanical stimulation inhibits osteoclast recruitment and differentiation through CXCL5, while PTH1R activation regulate these processes via IL-6 ( 35933642).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Small GTPases",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CXCL5 is a ciliary gene encoding c-x-c motif chemokine ligand 5 [source:hgnc symbol;acc:hgnc:10642]",
+    "functional_summary": "Mechanical stimulation inhibits osteoclast recruitment and differentiation through CXCL5, while PTH1R activation regulate these processes via IL-6 ( 35933642).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

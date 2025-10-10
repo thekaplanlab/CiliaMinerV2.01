@@ -1,0 +1,121 @@
+{
+  "gene_name": "CFAP47",
+  "ensembl_id": "ENSG00000165164",
+  "synonyms": [
+    "CHDC2",
+    "CXORF22",
+    "CXORF30",
+    "CXORF59",
+    "FLJ36601",
+    "MGC34831",
+    "RP13-11B7.1"
+  ],
+  "omim_id": "301057",
+  "description": "cilia and flagella associated protein 47 [Source:HGNC Symbol;Acc:HGNC:26708]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF22544",
+    "PF24529"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin-like fold",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "Calponin homology domain",
+    "CH domain superfamily",
+    "Cilia- and flagella-associated protein 47 domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Immunoglobulin-like fold",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "Calponin homology domain",
+    "CH domain superfamily",
+    "Cilia- and flagella-associated protein 47 domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF22544",
+      "PF24529"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin-like fold",
+    "HYDIN/VesB/CFA65-like",
+    "Ig-like domain",
+    "Calponin homology domain",
+    "CH domain superfamily",
+    "Cilia- and flagella-associated protein 47 domain"
+  ],
+  "ciliary_role": "Hemizygous mutations in CFAP47 can induce X-linked multiple morphological abnormalities of the flagella and asthenoteratozoospermia in humans and mice. Expressed in spermatozoa, but exact localisation not known (33472045)",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Polycystic Kidney Disease",
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Polycystic Kidney Disease, Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP47 is a ciliary gene encoding cilia and flagella associated protein 47 [source:hgnc symbol;acc:hgnc:26708]",
+    "functional_summary": "Hemizygous mutations in CFAP47 can induce X-linked multiple morphological abnormalities of the flagella and asthenoteratozoospermia in humans and mice. Expressed in spermatozoa, but exact localisation...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "Associated with Polycystic Kidney Disease, Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Polycystic Kidney Disease, Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

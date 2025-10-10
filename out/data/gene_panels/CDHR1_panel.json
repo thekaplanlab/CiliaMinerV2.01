@@ -1,0 +1,107 @@
+{
+  "gene_name": "CDHR1",
+  "ensembl_id": "ENSG00000148600",
+  "synonyms": [
+    "CORD15",
+    "KIAA1775",
+    "PCDH21",
+    "RP65"
+  ],
+  "omim_id": "609502",
+  "description": "cadherin related family member 1 [Source:HGNC Symbol;Acc:HGNC:14550]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00028"
+  ],
+  "domain_descriptions": [
+    "Cadherin-like",
+    "Cadherin-like superfamily",
+    "Cadherin conserved site",
+    "Cadherin",
+    "Cadherin domain-containing protein"
+  ],
+  "molecular_function": [
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cadherin-like",
+    "Cadherin-like superfamily",
+    "Cadherin conserved site",
+    "Cadherin",
+    "Cadherin domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00028"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cadherin-like",
+    "Cadherin-like superfamily",
+    "Cadherin conserved site",
+    "Cadherin",
+    "Cadherin domain-containing protein"
+  ],
+  "ciliary_role": "siah1 and cdhr1a co-expression as well as protein localization in the reti l outer nuclear layer (ONL), and more precisely in the connecting cilium of rods and cones between 3–5 days post fertilization (dpf)(33330480).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CDHR1 is a ciliary gene encoding cadherin related family member 1 [source:hgnc symbol;acc:hgnc:14550]",
+    "functional_summary": "siah1 and cdhr1a co-expression as well as protein localization in the reti l outer nuclear layer (ONL), and more precisely in the connecting cilium of rods and cones between 3–5 days post fertilizatio...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

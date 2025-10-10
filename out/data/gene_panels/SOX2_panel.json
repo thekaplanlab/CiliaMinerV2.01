@@ -1,0 +1,122 @@
+{
+  "gene_name": "SOX2",
+  "ensembl_id": "ENSG00000181449",
+  "synonyms": [],
+  "omim_id": "184429",
+  "description": "SRY-box transcription factor 2 [Source:HGNC Symbol;Acc:HGNC:11195]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00505",
+    "PF12336"
+  ],
+  "domain_descriptions": [
+    "High mobility group box domain",
+    "Transcription factor SOX",
+    "High mobility group box domain superfamily",
+    "SRY-related HMG-box transcription factor-like"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "High mobility group box domain",
+    "Transcription factor SOX",
+    "High mobility group box domain superfamily",
+    "SRY-related HMG-box transcription factor-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00505",
+      "PF12336"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "High mobility group box domain",
+    "Transcription factor SOX",
+    "High mobility group box domain superfamily",
+    "SRY-related HMG-box transcription factor-like"
+  ],
+  "ciliary_role": "Sox2 activated promoter-luciferase reporter constructs for differentiation markers characteristic of Clara, ciliated, and goblet cells, Scgb1a1, FoxJ1, and Agr2, respectively ( 20011520).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SOX2 is a ciliary gene encoding sry-box transcription factor 2 [source:hgnc symbol;acc:hgnc:11195]",
+    "functional_summary": "Sox2 activated promoter-luciferase reporter constructs for differentiation markers characteristic of Clara, ciliated, and goblet cells, Scgb1a1, FoxJ1, and Agr2, respectively ( 20011520).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

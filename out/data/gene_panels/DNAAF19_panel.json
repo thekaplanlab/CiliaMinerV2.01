@@ -1,0 +1,124 @@
+{
+  "gene_name": "DNAAF19",
+  "ensembl_id": "ENSG00000167131",
+  "synonyms": [
+    "CCDC103",
+    "CILD17",
+    "FLJ13094",
+    "FLJ34211",
+    "PR46B"
+  ],
+  "omim_id": "614677",
+  "description": "dynein axonemal assembly factor 19 [Source:HGNC Symbol;Acc:HGNC:32700]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15867",
+    "PF13877"
+  ],
+  "domain_descriptions": [
+    "Dynein attachment factor",
+    "N-terminal",
+    "Coiled-coil domain-containing protein 103",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein attachment factor",
+    "N-terminal",
+    "Coiled-coil domain-containing protein 103",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15867",
+      "PF13877"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein attachment factor",
+    "N-terminal",
+    "Coiled-coil domain-containing protein 103",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain"
+  ],
+  "ciliary_role": "Participates in microtubule stabilization that facilitates dynein arm attachment and ciliary motility (28790179). Contributes to axonemal stability. A potential role, is to modify the doublet microtubule to provide a high affinity binding site for the docking complex and needed for dynein attachment (25572396) Binds  and stabilises them against cold depolymerization. It is also an outer dynein arm assembly factor (31858719, 22581229)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAAF19 is a ciliary gene encoding dynein axonemal assembly factor 19 [source:hgnc symbol;acc:hgnc:32700]",
+    "functional_summary": "Participates in microtubule stabilization that facilitates dynein arm attachment and ciliary motility (28790179). Contributes to axonemal stability. A potential role, is to modify the doublet microtub...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

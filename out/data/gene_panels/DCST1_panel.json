@@ -1,0 +1,110 @@
+{
+  "gene_name": "DCST1",
+  "ensembl_id": "ENSG00000163357",
+  "synonyms": [
+    "FLJ32785"
+  ],
+  "omim_id": "619860",
+  "description": "DC-STAMP domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26539]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07782"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "RING-type",
+    "Dendritic cell-specific transmembrane protein-like",
+    "Cell Surface Receptor and E3 Ligase Protein"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "RING-type",
+    "Dendritic cell-specific transmembrane protein-like",
+    "Cell Surface Receptor and E3 Ligase Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07782"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "RING-type",
+    "Dendritic cell-specific transmembrane protein-like",
+    "Cell Surface Receptor and E3 Ligase Protein"
+  ],
+  "ciliary_role": "DCST1 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DCST1 is a ciliary gene encoding dc-stamp domain containing 1 [source:hgnc symbol;acc:hgnc:26539]",
+    "functional_summary": "DCST1 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,74 @@
+{
+  "gene_name": "HDAC8",
+  "ensembl_id": "ENSG00000147099",
+  "synonyms": [
+    "HDACL1",
+    "KDAC8",
+    "MRXS6",
+    "RPD3",
+    "WTS"
+  ],
+  "omim_id": "300269",
+  "description": "histone deacetylase 8 [Source:HGNC Symbol;Acc:HGNC:13315]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the HDAC8 gene cause Cornelia de Lange Syndrome (PMID: 22885700).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cornelia de Lange Syndrome"
+  ],
+  "ciliopathy_type": "Cornelia de Lange Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HDAC8 is a ciliary gene encoding histone deacetylase 8 [source:hgnc symbol;acc:hgnc:13315]",
+    "functional_summary": "Mutations in the HDAC8 gene cause Cornelia de Lange Syndrome (PMID: 22885700).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "Associated with Cornelia de Lange Syndrome",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cornelia de Lange Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

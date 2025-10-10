@@ -1,0 +1,97 @@
+{
+  "gene_name": "LRRC45",
+  "ensembl_id": "ENSG00000169683",
+  "synonyms": [
+    "MGC20806"
+  ],
+  "omim_id": "",
+  "description": "leucine rich repeat containing 45 [Source:HGNC Symbol;Acc:HGNC:28302]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13516"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Centrosome and Cilium Assembly Protein"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Centrosome and Cilium Assembly Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13516"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Centrosome and Cilium Assembly Protein"
+  ],
+  "ciliary_role": "Recruits the keratin-binding protein FBF1. Promotes cilia biogenesis in CP110- uncapped centrioles by organising centriolar satellites. It is required for centrosome cohesion at the proximal end of centrioles. Establishes the transition zone, recruitment of Rab8 and satellites to centrosomes, and promotes the docking of Rab8 GTPase-positive vesicles to the mother centriole (30131441).",
+  "localization": [
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRRC45 is a ciliary gene encoding leucine rich repeat containing 45 [source:hgnc symbol;acc:hgnc:28302]",
+    "functional_summary": "Recruits the keratin-binding protein FBF1. Promotes cilia biogenesis in CP110- uncapped centrioles by organising centriolar satellites. It is required for centrosome cohesion at the proximal end of ce...",
+    "localization_summary": "Localizes to cilia, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

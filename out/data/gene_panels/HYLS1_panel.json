@@ -1,0 +1,109 @@
+{
+  "gene_name": "HYLS1",
+  "ensembl_id": "ENSG00000198331",
+  "synonyms": [
+    "FLJ32915"
+  ],
+  "omim_id": "",
+  "description": "HYLS1 centriolar and ciliogenesis associated [Source:HGNC Symbol;Acc:HGNC:26558]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15311"
+  ],
+  "domain_descriptions": [
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "C-terminal domain",
+    "Centriolar and ciliogenesis-associated protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "C-terminal domain",
+    "Centriolar and ciliogenesis-associated protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15311"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "Centriolar and ciliogenesis-associated protein HYLS1",
+    "C-terminal domain",
+    "Centriolar and ciliogenesis-associated protein"
+  ],
+  "ciliary_role": "Required for intraflagellar transport trafficking and for centrioles to form cilia. Loss of HYLS-1 results in severe defects in axoneme assembly and transition zone organisation, due to impaired entry of IFT machinery to the cilia via DYF-19 (28411189). Ciliogenesis mediation by regulating the formation of the ciliary gate, minor role in transition zone assembly. Required for distal centriole elongation and recruiting distal centriole proteins (32509774). Essential for the apical targeting and/or anchoring of centrioles/basal body at the plasma membrane, contributin to basal body organisation (19656802).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Hydrolethalus Syndrome"
+  ],
+  "ciliopathy_type": "Hydrolethalus Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HYLS1 is a ciliary gene encoding hyls1 centriolar and ciliogenesis associated [source:hgnc symbol;acc:hgnc:26558]",
+    "functional_summary": "Required for intraflagellar transport trafficking and for centrioles to form cilia. Loss of HYLS-1 results in severe defects in axoneme assembly and transition zone organisation, due to impaired entry...",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome, Nucleus",
+    "disease_summary": "Associated with Hydrolethalus Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Hydrolethalus Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

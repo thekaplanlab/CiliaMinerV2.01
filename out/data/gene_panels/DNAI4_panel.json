@@ -1,0 +1,94 @@
+{
+  "gene_name": "DNAI4",
+  "ensembl_id": "ENSG00000152763",
+  "synonyms": [
+    "DIC4",
+    "FLJ23129",
+    "WDR78"
+  ],
+  "omim_id": "619156",
+  "description": "dynein axonemal intermediate chain 4 [Source:HGNC Symbol;Acc:HGNC:26252]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "ciliary_role": "Identified as a putative cilia gene by proteomics and comparative genomics (15937072), characterised as a cilia protein via siR  knockdown of Wdr78 in 3 different mouse cell lines and high content imaging which showed perturbed receptor transport to the ciliary membrane and HH sig lling (21289087). Vertebrate orthologue of Chlamydomo s inner dynein arm protein IC138. Associates with inner dynein arm subunits such as D h2 (a heavy chain) and Wdr63 (Chlamydomo s IC140 orthologue) in mice. Localises specifically to motile cilia in mice and knockdown leads to immotility of ependymal cilia with failure of heavy chains and intermediate chains of inner dynein arms to localise to motile cilia 30060180 . Zebrafish Wdr78 morphants have ciliopathy- type phenotypes (30060180).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAI4 is a ciliary gene encoding dynein axonemal intermediate chain 4 [source:hgnc symbol;acc:hgnc:26252]",
+    "functional_summary": "Identified as a putative cilia gene by proteomics and comparative genomics (15937072), characterised as a cilia protein via siR  knockdown of Wdr78 in 3 different mouse cell lines and high content ima...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

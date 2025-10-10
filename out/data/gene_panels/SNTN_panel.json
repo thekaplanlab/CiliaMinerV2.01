@@ -1,0 +1,73 @@
+{
+  "gene_name": "SNTN",
+  "ensembl_id": "ENSG00000188817",
+  "synonyms": [
+    "FLJ44379",
+    "S100AL"
+  ],
+  "omim_id": "617832",
+  "description": "sentan, cilia apical structure protein [Source:HGNC Symbol;Acc:HGNC:33706]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "SNTN was localized at the tips of multiple cilia(26724905).",
+  "localization": [
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SNTN is a ciliary gene encoding sentan, cilia apical structure protein [source:hgnc symbol;acc:hgnc:33706]",
+    "functional_summary": "SNTN was localized at the tips of multiple cilia(26724905).",
+    "localization_summary": "Localizes to cilia, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

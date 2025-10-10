@@ -1,0 +1,140 @@
+{
+  "gene_name": "TSC1",
+  "ensembl_id": "ENSG00000165699",
+  "synonyms": [
+    "HAMARTIN",
+    "KIAA0243",
+    "LAM",
+    "TSC"
+  ],
+  "omim_id": "605284",
+  "description": "TSC complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:12362]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04388"
+  ],
+  "domain_descriptions": [
+    "Hamartin",
+    "Armadillo-type fold"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Hamartin",
+    "Armadillo-type fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04388"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Hamartin",
+    "Armadillo-type fold"
+  ],
+  "ciliary_role": "Regulates the length of cilia. Form a complex with TSC2 that negatively regulates the nTOR pathway and, in turn, cell growth, proliferation and survival (19008302). Mutations have been associated with Tuberous sclerosis complex and polycystic kidney disease. Loss of Tsc1 or Tsc2 enhances ciliary formation and elongation (18845692). Required for activation of canonical TGF-尾 sig ling. Regulates Smoothened (SMO)- dependent HH sig ling in cilia (29396625). Role in maintaining cell polarity (19321600).",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TSC1 is a ciliary gene encoding tsc complex subunit 1 [source:hgnc symbol;acc:hgnc:12362]",
+    "functional_summary": "Regulates the length of cilia. Form a complex with TSC2 that negatively regulates the nTOR pathway and, in turn, cell growth, proliferation and survival (19008302). Mutations have been associated with...",
+    "localization_summary": "Localizes to basal body, transition zone, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

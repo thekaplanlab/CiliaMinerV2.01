@@ -1,0 +1,119 @@
+{
+  "gene_name": "SSX2IP",
+  "ensembl_id": "ENSG00000117155",
+  "synonyms": [
+    "HMSD1"
+  ],
+  "omim_id": "608690",
+  "description": "SSX family member 2 interacting protein [Source:HGNC Symbol;Acc:HGNC:16509]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF11559"
+  ],
+  "domain_descriptions": [
+    "Afadin/alpha-actinin-binding",
+    "Adhesion and Centrosome-associated Protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Afadin/alpha-actinin-binding",
+    "Adhesion and Centrosome-associated Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF11559"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Afadin/alpha-actinin-binding",
+    "Adhesion and Centrosome-associated Protein"
+  ],
+  "ciliary_role": "Centriolar satellite and microtubule anchoring protein. Interacts with PCM-1. Essential for the assembly of primary cilia and the recruitment of Cep290 to both satellites and the basal body, it also promotes the ciliary entry of the entire BBSome. Knockdown limits targeting of somatostatin receptor 3, and significantly reduces axoneme length. Possible novel cooperator of Rab8 (24356449). Binds the microtubule-nucleator gamma- tubulin complex. Knockdown of its orthologue in zebrafish, results in ciliary defects and disturbs left-right asymmetry. Microtubule anchoring role to the basal body is required for primary cilia formation (24397932).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SSX2IP is a ciliary gene encoding ssx family member 2 interacting protein [source:hgnc symbol;acc:hgnc:16509]",
+    "functional_summary": "Centriolar satellite and microtubule anchoring protein. Interacts with PCM-1. Essential for the assembly of primary cilia and the recruitment of Cep290 to both satellites and the basal body, it also p...",
+    "localization_summary": "Localizes to basal body, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

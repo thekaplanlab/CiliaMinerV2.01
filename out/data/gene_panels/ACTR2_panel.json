@@ -1,0 +1,121 @@
+{
+  "gene_name": "ACTR2",
+  "ensembl_id": "ENSG00000138071",
+  "synonyms": [
+    "ARP2"
+  ],
+  "omim_id": "604221",
+  "description": "actin related protein 2 [Source:HGNC Symbol;Acc:HGNC:169]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00022"
+  ],
+  "domain_descriptions": [
+    "Actin family",
+    "Actin/actin-like conserved site",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Actin family",
+    "Actin/actin-like conserved site",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00022"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Actin family",
+    "Actin/actin-like conserved site",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "ciliary_role": "ACE2 receptor protein robustly localizes within the membrane of the motile cilia of airway epithelial cells, which likely represents the initial or early subcellular site of SARS-CoV-2 viral entry during host respiratory transmission (33116139).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ACTR2 is a ciliary gene encoding actin related protein 2 [source:hgnc symbol;acc:hgnc:169]",
+    "functional_summary": "ACE2 receptor protein robustly localizes within the membrane of the motile cilia of airway epithelial cells, which likely represents the initial or early subcellular site of SARS-CoV-2 viral entry dur...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

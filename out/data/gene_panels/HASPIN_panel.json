@@ -1,0 +1,98 @@
+{
+  "gene_name": "HASPIN",
+  "ensembl_id": "ENSG00000177602",
+  "synonyms": [
+    "GSG2"
+  ],
+  "omim_id": "609240",
+  "description": "histone H3 associated protein kinase [Source:HGNC Symbol;Acc:HGNC:19682]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12330"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine/threonine-protein kinase haspin",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine/threonine-protein kinase haspin",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12330"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Serine/threonine-protein kinase haspin",
+    "C-terminal"
+  ],
+  "ciliary_role": "Haspin is active in quiescent cells, where it phosphorylates threonine 3 of histone H3, a known mitotic Haspin substrate. Forcing Dido3 detachment from the chromatin prevents Haspin inhibition from impacting cilia dy mics, suggesting that Haspin activity is required for the relocalization of Dido3–HDAC6 to the basal body ( 34299370).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HASPIN is a ciliary gene encoding histone h3 associated protein kinase [source:hgnc symbol;acc:hgnc:19682]",
+    "functional_summary": "Haspin is active in quiescent cells, where it phosphorylates threonine 3 of histone H3, a known mitotic Haspin substrate. Forcing Dido3 detachment from the chromatin prevents Haspin inhibition from im...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

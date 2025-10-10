@@ -1,0 +1,117 @@
+{
+  "gene_name": "AIDA",
+  "ensembl_id": "ENSG00000186063",
+  "synonyms": [
+    "C1ORF80",
+    "FLJ12806"
+  ],
+  "omim_id": "612375",
+  "description": "axin interactor, dorsalization associated [Source:HGNC Symbol;Acc:HGNC:25761]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08910",
+    "PF14186"
+  ],
+  "domain_descriptions": [
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal",
+    "Axin interactor dorsalization-associated protein",
+    "C-terminal",
+    "C2 domain superfamily",
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal",
+    "Axin interactor dorsalization-associated protein",
+    "C-terminal",
+    "C2 domain superfamily",
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08910",
+      "PF14186"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal",
+    "Axin interactor dorsalization-associated protein",
+    "C-terminal",
+    "C2 domain superfamily",
+    "Axin interactor",
+    "dorsalization-associated protein",
+    "N-terminal domain superfamily"
+  ],
+  "ciliary_role": "AIDA has localized in basal body , primary cilia.",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AIDA is a ciliary gene encoding axin interactor, dorsalization associated [source:hgnc symbol;acc:hgnc:25761]",
+    "functional_summary": "AIDA has localized in basal body , primary cilia.",
+    "localization_summary": "Localizes to basal body ,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

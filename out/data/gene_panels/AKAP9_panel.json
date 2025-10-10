@@ -1,0 +1,156 @@
+{
+  "gene_name": "AKAP9",
+  "ensembl_id": "ENSG00000127914",
+  "synonyms": [
+    "AKAP350",
+    "AKAP450",
+    "CG-NAP",
+    "HYPERION",
+    "KIAA0803",
+    "LQT11",
+    "MU-RMS-40.16A",
+    "PPP1R45",
+    "PRKA9",
+    "YOTIAO"
+  ],
+  "omim_id": "604001",
+  "description": "A-kinase anchoring protein 9 [Source:HGNC Symbol;Acc:HGNC:379]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10495"
+  ],
+  "domain_descriptions": [
+    "ELK domain",
+    "Pericentrin/AKAP-450 centrosomal targeting domain",
+    "A-kinase anchor protein 9/Pericentrin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "ELK domain",
+    "Pericentrin/AKAP-450 centrosomal targeting domain",
+    "A-kinase anchor protein 9/Pericentrin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10495"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ELK domain",
+    "Pericentrin/AKAP-450 centrosomal targeting domain",
+    "A-kinase anchor protein 9/Pericentrin"
+  ],
+  "ciliary_role": "PKARII尾 was colocalized with AKAP9 to centrosome-Golgi in all the wild type cells examined (PKA-mediated Gli2 and Gli3 phosphorylation is inhibited by Hedgehog sig ling in cilia and reduced in Talpid3 mutant).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AKAP9 is a ciliary gene encoding a-kinase anchoring protein 9 [source:hgnc symbol;acc:hgnc:379]",
+    "functional_summary": "PKARII尾 was colocalized with AKAP9 to centrosome-Golgi in all the wild type cells examined (PKA-mediated Gli2 and Gli3 phosphorylation is inhibited by Hedgehog sig ling in cilia and reduced in Talpid3...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,142 @@
+{
+  "gene_name": "PLA2G3",
+  "ensembl_id": "ENSG00000100078",
+  "synonyms": [
+    "GIII-SPLA2"
+  ],
+  "omim_id": "611651",
+  "description": "phospholipase A2 group III [Source:HGNC Symbol;Acc:HGNC:17934]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05826"
+  ],
+  "domain_descriptions": [
+    "Phospholipase A2 domain",
+    "Phospholipase A2",
+    "histidine active site",
+    "Phospholipase A2 domain superfamily"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Phospholipase A2 domain",
+    "Phospholipase A2",
+    "histidine active site",
+    "Phospholipase A2 domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05826"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Phospholipase A2 domain",
+    "Phospholipase A2",
+    "histidine active site",
+    "Phospholipase A2 domain superfamily"
+  ],
+  "ciliary_role": "Negative ciliogenesis regulator. Depletion of PLA2G3 facilitates cilium extension and induces ciliogenesis independent of serum starvation (20393563). Mediator of SREBP1c-induced cilium repression by distorting vesicular trafficking (25904332).",
+  "localization": [
+    "transition zone",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PLA2G3 is a ciliary gene encoding phospholipase a2 group iii [source:hgnc symbol;acc:hgnc:17934]",
+    "functional_summary": "Negative ciliogenesis regulator. Depletion of PLA2G3 facilitates cilium extension and induces ciliogenesis independent of serum starvation (20393563). Mediator of SREBP1c-induced cilium repression by ...",
+    "localization_summary": "Localizes to transition zone, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

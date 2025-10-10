@@ -1,0 +1,122 @@
+{
+  "gene_name": "BCS1L",
+  "ensembl_id": "ENSG00000074582",
+  "synonyms": [
+    "BCS",
+    "BJS",
+    "H-BCS",
+    "HS.6719"
+  ],
+  "omim_id": "603647",
+  "description": "BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone [Source:HGNC Symbol;Acc:HGNC:1020]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08740",
+    "PF00004"
+  ],
+  "domain_descriptions": [
+    "BCS1",
+    "N-terminal",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Mitochondrial chaperone BCS1 subfamily",
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "conserved site"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "BCS1",
+    "N-terminal",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Mitochondrial chaperone BCS1 subfamily",
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "conserved site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08740",
+      "PF00004"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BCS1",
+    "N-terminal",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Mitochondrial chaperone BCS1 subfamily",
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "conserved site"
+  ],
+  "ciliary_role": "BCS1L has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BCS1L is a ciliary gene encoding bcs1 homolog, ubiquinol-cytochrome c reductase complex chaperone [source:hgnc symbol;acc:hgnc:1020]",
+    "functional_summary": "BCS1L has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

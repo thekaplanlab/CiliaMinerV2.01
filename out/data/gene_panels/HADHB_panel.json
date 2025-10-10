@@ -1,0 +1,122 @@
+{
+  "gene_name": "HADHB",
+  "ensembl_id": "ENSG00000138029",
+  "synonyms": [
+    "MTPB"
+  ],
+  "omim_id": "143450",
+  "description": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit beta [Source:HGNC Symbol;Acc:HGNC:4803]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00108",
+    "PF02803"
+  ],
+  "domain_descriptions": [
+    "Thiolase-like",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Thiolase-like",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00108",
+      "PF02803"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Thiolase-like",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "ciliary_role": "HADHB has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HADHB is a ciliary gene encoding hydroxyacyl-coa dehydrogenase trifunctional multienzyme complex subunit beta [source:hgnc symbol;acc:hgnc:4803]",
+    "functional_summary": "HADHB has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

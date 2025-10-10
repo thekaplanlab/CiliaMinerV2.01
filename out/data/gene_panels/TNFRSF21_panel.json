@@ -1,0 +1,122 @@
+{
+  "gene_name": "TNFRSF21",
+  "ensembl_id": "ENSG00000146072",
+  "synonyms": [
+    "CD358",
+    "DR6"
+  ],
+  "omim_id": "605732",
+  "description": "TNF receptor superfamily member 21 [Source:HGNC Symbol;Acc:HGNC:13469]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00531",
+    "PF00020"
+  ],
+  "domain_descriptions": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 21",
+    "Tumor necrosis factor receptor 21",
+    "N-terminal",
+    "Tumor necrosis factor receptor 21",
+    "death domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 21",
+    "Tumor necrosis factor receptor 21",
+    "N-terminal",
+    "Tumor necrosis factor receptor 21",
+    "death domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00531",
+      "PF00020"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Death domain",
+    "TNFR/NGFR cysteine-rich region",
+    "Death-like domain superfamily",
+    "Tumour necrosis factor receptor 21",
+    "Tumor necrosis factor receptor 21",
+    "N-terminal",
+    "Tumor necrosis factor receptor 21",
+    "death domain"
+  ],
+  "ciliary_role": "Tnfrsf21 localized in an atypical ring-shaped pattern at the distal cilium (PMID: 40623838).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TNFRSF21 is a ciliary gene encoding tnf receptor superfamily member 21 [source:hgnc symbol;acc:hgnc:13469]",
+    "functional_summary": "Tnfrsf21 localized in an atypical ring-shaped pattern at the distal cilium (PMID: 40623838).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

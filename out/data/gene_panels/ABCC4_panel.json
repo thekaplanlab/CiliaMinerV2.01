@@ -1,0 +1,16 @@
+{
+  "gene_name": "ABCC4",
+  "ensembl_id": "ENSG00000125257",
+  "description": "ATP binding cassette subfamily C member 4 (PEL blood group) [Source:HGNC Symbol;Acc:HGNC:55]",
+  "omim_id": "605250",
+  "localization": "Ciliary associated gene",
+  "functional_summary": "Also known as leakytail. ATP- binding cassette transporter which transports prostaglandin E2 and other molecules across cellular membranes. Mutations in ABCC4 cause ciliogenesis defects. ABCC4-mediated PGE2 sig lling acts through a ciliary G-protein-coupled receptor, EP4, to upregulate cAMP synthesis and increase anterograde IFT, thereby promoting ciliogenesis ( 25173977). Zebrafish abcc4 mutants exhibited loss of connecting cilia and outer segment in photoreceptor cells, leading to mislocalization of opsins in the cell bodies of photoreceptors ( 30685088). Specific missense associated with polydactyly in pigs ( 32228435)",
+  "ciliopathy": NaN,
+  "functional_category": "Ciliary assembly/disassembly, Metabolism, Trafficking (BBSome, small GTPases, vesicular transport, ATPases), Ciliary assembly/disassembly, Cytoskeleton/adhesion links",
+  "ai_summary": {
+    "basic_summary": "ABCC4 is a ciliary gene",
+    "functional_summary": "Also known as leakytail. ATP- binding cassette transporter which transports prostaglandin E2 and other molecules across cellular membranes. Mutations in ABCC4 cause ciliogenesis defects. ABCC4-mediate",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "clinical_relevance": NaN
+  }
+}

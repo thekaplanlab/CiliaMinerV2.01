@@ -1,0 +1,107 @@
+{
+  "gene_name": "MTHFR",
+  "ensembl_id": "ENSG00000177000",
+  "synonyms": [],
+  "omim_id": "607093",
+  "description": "methylenetetrahydrofolate reductase [Source:HGNC Symbol;Acc:HGNC:7436]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21895",
+    "PF02219"
+  ],
+  "domain_descriptions": [
+    "Methylenetetrahydrofolate reductase-like",
+    "Eukaryotic-type methylenetetrahydrofolate reductase",
+    "FAD-linked oxidoreductase-like",
+    "MTHFR",
+    "SAM-binding regulatory domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Methylenetetrahydrofolate reductase-like",
+    "Eukaryotic-type methylenetetrahydrofolate reductase",
+    "FAD-linked oxidoreductase-like",
+    "MTHFR",
+    "SAM-binding regulatory domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21895",
+      "PF02219"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Methylenetetrahydrofolate reductase-like",
+    "Eukaryotic-type methylenetetrahydrofolate reductase",
+    "FAD-linked oxidoreductase-like",
+    "MTHFR",
+    "SAM-binding regulatory domain"
+  ],
+  "ciliary_role": "MTHFR has localized in basal body, transition zone.",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MTHFR is a ciliary gene encoding methylenetetrahydrofolate reductase [source:hgnc symbol;acc:hgnc:7436]",
+    "functional_summary": "MTHFR has localized in basal body, transition zone.",
+    "localization_summary": "Localizes to basal body, transition zone, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

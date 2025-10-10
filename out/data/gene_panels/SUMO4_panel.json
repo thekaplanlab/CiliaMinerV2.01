@@ -1,0 +1,97 @@
+{
+  "gene_name": "SUMO4",
+  "ensembl_id": "ENSG00000177688",
+  "synonyms": [
+    "DJ281H8.4",
+    "IDDM5",
+    "SMT3H4"
+  ],
+  "omim_id": "608829",
+  "description": "small ubiquitin like modifier 4 [Source:HGNC Symbol;Acc:HGNC:21181]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF11976"
+  ],
+  "domain_descriptions": [
+    "Ubiquitin-like domain",
+    "Rad60/SUMO-like domain",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Ubiquitin-like domain",
+    "Rad60/SUMO-like domain",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF11976"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ubiquitin-like domain",
+    "Rad60/SUMO-like domain",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "ciliary_role": "SUMO4 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SUMO4 is a ciliary gene encoding small ubiquitin like modifier 4 [source:hgnc symbol;acc:hgnc:21181]",
+    "functional_summary": "SUMO4 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

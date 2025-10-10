@@ -1,0 +1,112 @@
+{
+  "gene_name": "PRKAB1",
+  "ensembl_id": "ENSG00000111725",
+  "synonyms": [],
+  "omim_id": "602740",
+  "description": "protein kinase AMP-activated non-catalytic subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:9378]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16561",
+    "PF04739"
+  ],
+  "domain_descriptions": [
+    "Association with the SNF1 complex (ASC) domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "AMP-activated protein kinase",
+    "glycogen-binding domain",
+    "ASC domain superfamily",
+    "CRP1/MDG1 DNA-binding & kinase subunit"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Association with the SNF1 complex (ASC) domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "AMP-activated protein kinase",
+    "glycogen-binding domain",
+    "ASC domain superfamily",
+    "CRP1/MDG1 DNA-binding & kinase subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16561",
+      "PF04739"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Association with the SNF1 complex (ASC) domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "AMP-activated protein kinase",
+    "glycogen-binding domain",
+    "ASC domain superfamily",
+    "CRP1/MDG1 DNA-binding & kinase subunit"
+  ],
+  "ciliary_role": "PRKAB1 has localized in transition zone.",
+  "localization": [
+    "cilia",
+    "transition zone",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "transition zone",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRKAB1 is a ciliary gene encoding protein kinase amp-activated non-catalytic subunit beta 1 [source:hgnc symbol;acc:hgnc:9378]",
+    "functional_summary": "PRKAB1 has localized in transition zone.",
+    "localization_summary": "Localizes to cilia,transition zone, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

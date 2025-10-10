@@ -1,0 +1,121 @@
+{
+  "gene_name": "FOXF1",
+  "ensembl_id": "ENSG00000103241",
+  "synonyms": [
+    "FKHL5",
+    "FREAC1"
+  ],
+  "omim_id": "601089",
+  "description": "forkhead box F1 [Source:HGNC Symbol;Acc:HGNC:3809]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00250"
+  ],
+  "domain_descriptions": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box transcription regulator"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box transcription regulator"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00250"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box transcription regulator"
+  ],
+  "ciliary_role": "FoxF1 is required for ciliogenesis in vitro and in vivo and for the proper localization of Shh sig ling components in cilium ( 30950350).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FOXF1 is a ciliary gene encoding forkhead box f1 [source:hgnc symbol;acc:hgnc:3809]",
+    "functional_summary": "FoxF1 is required for ciliogenesis in vitro and in vivo and for the proper localization of Shh sig ling components in cilium ( 30950350).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

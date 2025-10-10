@@ -1,0 +1,129 @@
+{
+  "gene_name": "RANGAP1",
+  "ensembl_id": "ENSG00000100401",
+  "synonyms": [
+    "FUG1",
+    "KIAA1835",
+    "SD"
+  ],
+  "omim_id": "602362",
+  "description": "Ran GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:9854]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13516",
+    "PF07834"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Ran-GTPase activating protein 1",
+    "C-terminal",
+    "Ran GTPase-activating protein",
+    "Leucine-rich repeat domain superfamily",
+    "Ran-GTPase activating protein 1",
+    "C-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Ran-GTPase activating protein 1",
+    "C-terminal",
+    "Ran GTPase-activating protein",
+    "Leucine-rich repeat domain superfamily",
+    "Ran-GTPase activating protein 1",
+    "C-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13516",
+      "PF07834"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Ran-GTPase activating protein 1",
+    "C-terminal",
+    "Ran GTPase-activating protein",
+    "Leucine-rich repeat domain superfamily",
+    "Ran-GTPase activating protein 1",
+    "C-terminal domain superfamily"
+  ],
+  "ciliary_role": "RANGAP1 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RANGAP1 is a ciliary gene encoding ran gtpase activating protein 1 [source:hgnc symbol;acc:hgnc:9854]",
+    "functional_summary": "RANGAP1 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

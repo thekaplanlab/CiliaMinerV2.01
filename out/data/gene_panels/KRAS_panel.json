@@ -1,0 +1,145 @@
+{
+  "gene_name": "KRAS",
+  "ensembl_id": "ENSG00000133703",
+  "synonyms": [
+    "K-RAS4B",
+    "KRAS1",
+    "KRAS2"
+  ],
+  "omim_id": "190070",
+  "description": "KRAS proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:6407]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "Inhibition of Kras effector pathways restored ciliogenesis in a mouse pancreatic cancer cell line, raising the possibility that ciliogenesis may be actively repressed by oncogenic Kras ( 19147554).",
+  "localization": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KRAS is a ciliary gene encoding kras proto-oncogene, gtpase [source:hgnc symbol;acc:hgnc:6407]",
+    "functional_summary": "Inhibition of Kras effector pathways restored ciliogenesis in a mouse pancreatic cancer cell line, raising the possibility that ciliogenesis may be actively repressed by oncogenic Kras ( 19147554).",
+    "localization_summary": "Localizes to Ciliary associated gene, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,121 @@
+{
+  "gene_name": "FKBP1B",
+  "ensembl_id": "ENSG00000119782",
+  "synonyms": [
+    "FKBP12.6",
+    "FKBP1L",
+    "FKBP9",
+    "OTK4",
+    "PPIASE"
+  ],
+  "omim_id": "600620",
+  "description": "FKBP prolyl isomerase 1B [Source:HGNC Symbol;Acc:HGNC:3712]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00254"
+  ],
+  "domain_descriptions": [
+    "FKBP-type peptidyl-prolyl cis-trans isomerase domain",
+    "Peptidyl-prolyl cis-trans isomerase domain superfamily",
+    "FKBP-type Peptidyl-prolyl cis-trans Isomerase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "FKBP-type peptidyl-prolyl cis-trans isomerase domain",
+    "Peptidyl-prolyl cis-trans isomerase domain superfamily",
+    "FKBP-type Peptidyl-prolyl cis-trans Isomerase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00254"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "FKBP-type peptidyl-prolyl cis-trans isomerase domain",
+    "Peptidyl-prolyl cis-trans isomerase domain superfamily",
+    "FKBP-type Peptidyl-prolyl cis-trans Isomerase"
+  ],
+  "ciliary_role": "FKBP1B has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Hormone & insulin signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FKBP1B is a ciliary gene encoding fkbp prolyl isomerase 1b [source:hgnc symbol;acc:hgnc:3712]",
+    "functional_summary": "FKBP1B has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

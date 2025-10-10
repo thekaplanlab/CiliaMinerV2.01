@@ -1,0 +1,133 @@
+{
+  "gene_name": "PLD1",
+  "ensembl_id": "ENSG00000075651",
+  "synonyms": [],
+  "omim_id": "602382",
+  "description": "phospholipase D1 [Source:HGNC Symbol;Acc:HGNC:9067]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00169",
+    "PF00787",
+    "PF00614",
+    "PF13091"
+  ],
+  "domain_descriptions": [
+    "Phox homology",
+    "Phospholipase D/Transphosphatidylase",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Phospholipase D family",
+    "Phospholipase D",
+    "eukaryotic type",
+    "Phospholipase D-like domain",
+    "PX domain superfamily"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Phox homology",
+    "Phospholipase D/Transphosphatidylase",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Phospholipase D family",
+    "Phospholipase D",
+    "eukaryotic type",
+    "Phospholipase D-like domain",
+    "PX domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00169",
+      "PF00787",
+      "PF00614",
+      "PF13091"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Phox homology",
+    "Phospholipase D/Transphosphatidylase",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Phospholipase D family",
+    "Phospholipase D",
+    "eukaryotic type",
+    "Phospholipase D-like domain",
+    "PX domain superfamily"
+  ],
+  "ciliary_role": "PLD1 mediated rescue of ciliogenesis by EphA2 depletion was blocked by BafA1, placing autophagy between EphA2 sig ling and regulation of ciliogenesis ( 34119713).",
+  "localization": [
+    "Ciliary associated gene",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Endosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PLD1 is a ciliary gene encoding phospholipase d1 [source:hgnc symbol;acc:hgnc:9067]",
+    "functional_summary": "PLD1 mediated rescue of ciliogenesis by EphA2 depletion was blocked by BafA1, placing autophagy between EphA2 sig ling and regulation of ciliogenesis ( 34119713).",
+    "localization_summary": "Localizes to Ciliary associated gene, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

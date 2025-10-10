@@ -1,0 +1,149 @@
+{
+  "gene_name": "UBR4",
+  "ensembl_id": "ENSG00000127481",
+  "synonyms": [
+    "KIAA0462",
+    "KIAA1307",
+    "P600",
+    "RBAF600",
+    "ZUBR1"
+  ],
+  "omim_id": "609890",
+  "description": "ubiquitin protein ligase E3 component n-recognin 4 [Source:HGNC Symbol;Acc:HGNC:30313]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13764",
+    "PF19423",
+    "PF24079",
+    "PF02207"
+  ],
+  "domain_descriptions": [
+    "E3 ubiquitin ligase UBR4",
+    "C-terminal",
+    "E3 ubiquitin ligase UBR4-like",
+    "Zinc finger",
+    "UBR-type",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "E3 ubiquitin-protein ligase UBR4",
+    "N-terminal",
+    "E3 ubiquitin-protein ligase UBR4-like",
+    "UBR-box",
+    "E3 ubiquitin-protein ligase UBR4-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "E3 ubiquitin ligase UBR4",
+    "C-terminal",
+    "E3 ubiquitin ligase UBR4-like",
+    "Zinc finger",
+    "UBR-type",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "E3 ubiquitin-protein ligase UBR4",
+    "N-terminal",
+    "E3 ubiquitin-protein ligase UBR4-like",
+    "UBR-box",
+    "E3 ubiquitin-protein ligase UBR4-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13764",
+      "PF19423",
+      "PF24079",
+      "PF02207"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "E3 ubiquitin ligase UBR4",
+    "C-terminal",
+    "E3 ubiquitin ligase UBR4-like",
+    "Zinc finger",
+    "UBR-type",
+    "Armadillo-type fold",
+    "WD40-repeat-containing domain superfamily",
+    "E3 ubiquitin-protein ligase UBR4",
+    "N-terminal",
+    "E3 ubiquitin-protein ligase UBR4-like",
+    "UBR-box",
+    "E3 ubiquitin-protein ligase UBR4-like domain"
+  ],
+  "ciliary_role": "UBR4 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "UBR4 is a ciliary gene encoding ubiquitin protein ligase e3 component n-recognin 4 [source:hgnc symbol;acc:hgnc:30313]",
+    "functional_summary": "UBR4 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

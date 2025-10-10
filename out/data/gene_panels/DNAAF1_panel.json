@@ -1,0 +1,109 @@
+{
+  "gene_name": "DNAAF1",
+  "ensembl_id": "ENSG00000154099",
+  "synonyms": [
+    "CILD13",
+    "DAU1",
+    "FLJ25330",
+    "LRRC50",
+    "ODA7",
+    "SWT"
+  ],
+  "omim_id": "613190",
+  "description": "dynein axonemal assembly factor 1 [Source:HGNC Symbol;Acc:HGNC:30539]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14580"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14580"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "ciliary_role": "Dynein heavy chain assembly factor. Interacts with the intraflagellar transport protein IFT88, mediating the delivery of dynein arm components directly to the intraflagellar transport complexes (29228333). Required for the stability of the ciliary architecture, cytoplasmic preassembly of dynein-arm complexes, including outer and inner dynein arms (27543293, 19944405). Important or cilia beat generation. Loss of LRRC50 affects the assembly of proximally and distally located ODA complexes. Candidate for human cystic kidney disease (19944400)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAAF1 is a ciliary gene encoding dynein axonemal assembly factor 1 [source:hgnc symbol;acc:hgnc:30539]",
+    "functional_summary": "Dynein heavy chain assembly factor. Interacts with the intraflagellar transport protein IFT88, mediating the delivery of dynein arm components directly to the intraflagellar transport complexes (29228...",
+    "localization_summary": "Localizes to basal body, cilia, Nucleus",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

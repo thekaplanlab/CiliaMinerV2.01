@@ -1,0 +1,95 @@
+{
+  "gene_name": "GRHL3",
+  "ensembl_id": "ENSG00000158055",
+  "synonyms": [
+    "SOM",
+    "TFCP2L4"
+  ],
+  "omim_id": "608317",
+  "description": "grainyhead like transcription factor 3 [Source:HGNC Symbol;Acc:HGNC:25839]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04516"
+  ],
+  "domain_descriptions": [
+    "CP2 transcription factor",
+    "Transcription factor CP2-like"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "CP2 transcription factor",
+    "Transcription factor CP2-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04516"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CP2 transcription factor",
+    "Transcription factor CP2-like"
+  ],
+  "ciliary_role": "GRHL3 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GRHL3 is a ciliary gene encoding grainyhead like transcription factor 3 [source:hgnc symbol;acc:hgnc:25839]",
+    "functional_summary": "GRHL3 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

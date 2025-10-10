@@ -1,0 +1,112 @@
+{
+  "gene_name": "CFAP69",
+  "ensembl_id": "ENSG00000105792",
+  "synonyms": [
+    "C7ORF63",
+    "FAP69",
+    "FLJ21062"
+  ],
+  "omim_id": "617949",
+  "description": "cilia and flagella associated protein 69 [Source:HGNC Symbol;Acc:HGNC:26107]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21049"
+  ],
+  "domain_descriptions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Cilia- and flagella-associated protein 69",
+    "Cilia- and flagella-associated protein 69",
+    "ARM repeats domain"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Cilia- and flagella-associated protein 69",
+    "Cilia- and flagella-associated protein 69",
+    "ARM repeats domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21049"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Cilia- and flagella-associated protein 69",
+    "Cilia- and flagella-associated protein 69",
+    "ARM repeats domain"
+  ],
+  "ciliary_role": "CFAP69 is necessary for flagellum assembly/stability. Mutations cause multiple morphological abnormalities of the flagella and primary male infertility (29606301). Regulates olfactory transduction kinetics in the olfactory sensory neurons of mice (28495971)",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP69 is a ciliary gene encoding cilia and flagella associated protein 69 [source:hgnc symbol;acc:hgnc:26107]",
+    "functional_summary": "CFAP69 is necessary for flagellum assembly/stability. Mutations cause multiple morphological abnormalities of the flagella and primary male infertility (29606301). Regulates olfactory transduction kin...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

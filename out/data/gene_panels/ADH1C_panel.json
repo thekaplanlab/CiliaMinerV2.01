@@ -1,0 +1,125 @@
+{
+  "gene_name": "ADH1C",
+  "ensembl_id": "ENSG00000248144",
+  "synonyms": [
+    "ADH3"
+  ],
+  "omim_id": "103730",
+  "description": "alcohol dehydrogenase 1C (class I), gamma polypeptide [Source:HGNC Symbol;Acc:HGNC:251]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08240",
+    "PF00107"
+  ],
+  "domain_descriptions": [
+    "Alcohol dehydrogenase",
+    "zinc-type",
+    "conserved site",
+    "GroES-like superfamily",
+    "Alcohol dehydrogenase-like",
+    "C-terminal",
+    "Alcohol dehydrogenase-like",
+    "N-terminal",
+    "Polyketide synthase",
+    "enoylreductase domain",
+    "NAD(P)-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Alcohol dehydrogenase",
+    "zinc-type",
+    "conserved site",
+    "GroES-like superfamily",
+    "Alcohol dehydrogenase-like",
+    "C-terminal",
+    "Alcohol dehydrogenase-like",
+    "N-terminal",
+    "Polyketide synthase",
+    "enoylreductase domain",
+    "NAD(P)-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08240",
+      "PF00107"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Alcohol dehydrogenase",
+    "zinc-type",
+    "conserved site",
+    "GroES-like superfamily",
+    "Alcohol dehydrogenase-like",
+    "C-terminal",
+    "Alcohol dehydrogenase-like",
+    "N-terminal",
+    "Polyketide synthase",
+    "enoylreductase domain",
+    "NAD(P)-binding domain superfamily"
+  ],
+  "ciliary_role": "ADH1C has localized in transition zone, primary cilia.",
+  "localization": [
+    "transition zone",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADH1C is a ciliary gene encoding alcohol dehydrogenase 1c (class i), gamma polypeptide [source:hgnc symbol;acc:hgnc:251]",
+    "functional_summary": "ADH1C has localized in transition zone, primary cilia.",
+    "localization_summary": "Localizes to transition zone, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

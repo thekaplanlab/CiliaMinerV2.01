@@ -1,0 +1,87 @@
+{
+  "gene_name": "MAL",
+  "ensembl_id": "ENSG00000172005",
+  "synonyms": [
+    "MVP17",
+    "VIP17"
+  ],
+  "omim_id": "188860",
+  "description": "mal, T cell differentiation protein [Source:HGNC Symbol;Acc:HGNC:6817]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01284"
+  ],
+  "domain_descriptions": [
+    "Marvel domain",
+    "Myelin and lymphocyte (MAL) protein",
+    "MARVEL domain-containing and chemokine-like factor proteins"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Marvel domain",
+    "Myelin and lymphocyte (MAL) protein",
+    "MARVEL domain-containing and chemokine-like factor proteins"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01284"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Marvel domain",
+    "Myelin and lymphocyte (MAL) protein",
+    "MARVEL domain-containing and chemokine-like factor proteins"
+  ],
+  "ciliary_role": "MAL overexpression is associated with shortened or absent cilia, abnormal cilium and cyst development. MAL may facilitate the organisation of apical cargo into microdomains to facilitate their targeting and trafficking (22895261). Involved in the proper condensation of membranes at the ciliary base, required for efficient primary cilium extension (25967552).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAL is a ciliary gene encoding mal, t cell differentiation protein [source:hgnc symbol;acc:hgnc:6817]",
+    "functional_summary": "MAL overexpression is associated with shortened or absent cilia, abnormal cilium and cyst development. MAL may facilitate the organisation of apical cargo into microdomains to facilitate their targeti...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

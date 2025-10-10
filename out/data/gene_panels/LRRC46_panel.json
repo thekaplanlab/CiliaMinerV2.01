@@ -1,0 +1,97 @@
+{
+  "gene_name": "LRRC46",
+  "ensembl_id": "ENSG00000141294",
+  "synonyms": [
+    "MGC16309"
+  ],
+  "omim_id": "620927",
+  "description": "leucine rich repeat containing 46 [Source:HGNC Symbol;Acc:HGNC:25047]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13855",
+    "PF12799"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein",
+    "Leucine rich repeat 4"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein",
+    "Leucine rich repeat 4"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13855",
+      "PF12799"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein",
+    "Leucine rich repeat 4"
+  ],
+  "ciliary_role": "Leucine-rich repeat containing 46 (LRRC46) is one of the the multiple morphological abnormalities of the flagella (MMAF)-related protein and specifically expressed in the testes of adult mice, and show that LRRC46 is essential for sperm flagellum biogenesis. The mutation of Lrrc6, an important paralog of Lrrc46, causes 10.6% primary ciliary dyskinesia by the absence of dynein arm components (23527195 , 23122589). Knockout of Lrrc46 in mice resulted in typical MMAF phenotypes, including sperm with short, coiled, and irregular flagella(35955660).",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRRC46 is a ciliary gene encoding leucine rich repeat containing 46 [source:hgnc symbol;acc:hgnc:25047]",
+    "functional_summary": "Leucine-rich repeat containing 46 (LRRC46) is one of the the multiple morphological abnormalities of the flagella (MMAF)-related protein and specifically expressed in the testes of adult mice, and sho...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

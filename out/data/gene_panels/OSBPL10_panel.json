@@ -1,0 +1,103 @@
+{
+  "gene_name": "OSBPL10",
+  "ensembl_id": "ENSG00000144645",
+  "synonyms": [],
+  "omim_id": "606738",
+  "description": "oxysterol binding protein like 10 [Source:HGNC Symbol;Acc:HGNC:16395]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01237",
+    "PF15409"
+  ],
+  "domain_descriptions": [
+    "Oxysterol-binding protein",
+    "Oxysterol-binding protein",
+    "conserved site",
+    "Oxysterol-binding protein superfamily",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Pleckstrin homology domain 8"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Oxysterol-binding protein",
+    "Oxysterol-binding protein",
+    "conserved site",
+    "Oxysterol-binding protein superfamily",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Pleckstrin homology domain 8"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01237",
+      "PF15409"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Oxysterol-binding protein",
+    "Oxysterol-binding protein",
+    "conserved site",
+    "Oxysterol-binding protein superfamily",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Pleckstrin homology domain 8"
+  ],
+  "ciliary_role": "Myoferlin (MYOF) and Oxysterol Binding Protein Like 10 (OSBPL10) were detected at the basal body and that NRP1 was localised along the ciliary shaft.",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "OSBPL10 is a ciliary gene encoding oxysterol binding protein like 10 [source:hgnc symbol;acc:hgnc:16395]",
+    "functional_summary": "Myoferlin (MYOF) and Oxysterol Binding Protein Like 10 (OSBPL10) were detected at the basal body and that NRP1 was localised along the ciliary shaft.",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

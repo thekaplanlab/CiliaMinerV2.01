@@ -1,0 +1,139 @@
+{
+  "gene_name": "TUBE1",
+  "ensembl_id": "ENSG00000074935",
+  "synonyms": [
+    "DJ142L7.2",
+    "FLJ22589",
+    "TUBE"
+  ],
+  "omim_id": "607345",
+  "description": "tubulin epsilon 1 [Source:HGNC Symbol;Acc:HGNC:20775]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03953",
+    "PF00091"
+  ],
+  "domain_descriptions": [
+    "Tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Epsilon tubulin",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Epsilon tubulin",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03953",
+      "PF00091"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Epsilon tubulin",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily"
+  ],
+  "ciliary_role": "Interacts with delta-tubulin to form the triplet  or to stabilize them against depolymerization (28906251). Function in the centriole lumen and on the cytoplasmic side is essential for the centriole-to- centrosome conversion. Depletion of TUBE1 affects  biogenesis and reduces CEP44 recruitment to centrioles (11148142).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TUBE1 is a ciliary gene encoding tubulin epsilon 1 [source:hgnc symbol;acc:hgnc:20775]",
+    "functional_summary": "Interacts with delta-tubulin to form the triplet  or to stabilize them against depolymerization (28906251). Function in the centriole lumen and on the cytoplasmic side is essential for the centriole-t...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

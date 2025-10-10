@@ -1,0 +1,124 @@
+{
+  "gene_name": "USP38",
+  "ensembl_id": "ENSG00000170185",
+  "synonyms": [
+    "HP43.8KD",
+    "KIAA1891"
+  ],
+  "omim_id": "618322",
+  "description": "ubiquitin specific peptidase 38 [Source:HGNC Symbol;Acc:HGNC:20067]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21246",
+    "PF00443"
+  ],
+  "domain_descriptions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-specific peptidase 38",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 38-like",
+    "N-terminal domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Immune regulation",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-specific peptidase 38",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 38-like",
+    "N-terminal domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21246",
+      "PF00443"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-specific peptidase 38",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 38-like",
+    "N-terminal domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "ciliary_role": "USP35 (and its orthologue USP38) showed that suppression or ablation in vivo rescued a host of ciliopathy-associated a tomical pathologies, with concomitant rescue of the overabundance of key sig ling molecules ( 31723061).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Immune regulation",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Immune regulation",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP38 is a ciliary gene encoding ubiquitin specific peptidase 38 [source:hgnc symbol;acc:hgnc:20067]",
+    "functional_summary": "USP35 (and its orthologue USP38) showed that suppression or ablation in vivo rescued a host of ciliopathy-associated a tomical pathologies, with concomitant rescue of the overabundance of key sig ling...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

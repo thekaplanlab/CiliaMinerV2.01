@@ -1,0 +1,90 @@
+{
+  "gene_name": "NANOGP8",
+  "ensembl_id": "ENSG00000255192",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "Nanog homeobox retrogene P8 [Source:HGNC Symbol;Acc:HGNC:23106]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00046"
+  ],
+  "domain_descriptions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Distal-less homeobox transcription factors"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Distal-less homeobox transcription factors"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00046"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Distal-less homeobox transcription factors"
+  ],
+  "ciliary_role": "Along with the finding that the centrosomal localization of  NOG/ NOGP8 was detected in various tumor and non-tumor cell types, these results provide the first evidence suggesting a common centrosome-specific role of  NOG(32168958).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NANOGP8 is a ciliary gene encoding nanog homeobox retrogene p8 [source:hgnc symbol;acc:hgnc:23106]",
+    "functional_summary": "Along with the finding that the centrosomal localization of  NOG/ NOGP8 was detected in various tumor and non-tumor cell types, these results provide the first evidence suggesting a common centrosome-...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,133 @@
+{
+  "gene_name": "KIF24",
+  "ensembl_id": "ENSG00000186638",
+  "synonyms": [
+    "BA571F15.4",
+    "C9ORF48",
+    "FLJ10933",
+    "FLJ43884"
+  ],
+  "omim_id": "613747",
+  "description": "kinesin family member 24 [Source:HGNC Symbol;Acc:HGNC:19916]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225",
+    "PF00536"
+  ],
+  "domain_descriptions": [
+    "Sterile alpha motif domain",
+    "Kinesin motor domain",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Sterile alpha motif domain",
+    "Kinesin motor domain",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225",
+      "PF00536"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sterile alpha motif domain",
+    "Kinesin motor domain",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "Physiological substrate of Nek2. It prevents the outgrowth of cilia in proliferating cells. Ensure the disassembly of a ciliary axoneme in the later stages of the cell cycle (26290419). Interacts with CP110 and Cep97. Regulates ciliogenesis by dy mically controlling microtubule polymerisation (21620453). Controls the formation of primary cilia by restricting the nucleation of cilia at centrioles, it regulates CP110 localisation at mother centrioles (21663786).",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Centrosome",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Centrosome",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF24 is a ciliary gene encoding kinesin family member 24 [source:hgnc symbol;acc:hgnc:19916]",
+    "functional_summary": "Physiological substrate of Nek2. It prevents the outgrowth of cilia in proliferating cells. Ensure the disassembly of a ciliary axoneme in the later stages of the cell cycle (26290419). Interacts with...",
+    "localization_summary": "Localizes to basal body, transition zone, Centrosome, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

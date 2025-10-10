@@ -1,0 +1,145 @@
+{
+  "gene_name": "SPTAN1",
+  "ensembl_id": "ENSG00000197694",
+  "synonyms": [],
+  "omim_id": "182810",
+  "description": "spectrin alpha, non-erythrocytic 1 [Source:HGNC Symbol;Acc:HGNC:11273]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13499",
+    "PF08726",
+    "PF00018",
+    "PF00435"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "Spectrin repeat",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-hand",
+    "Ca insensitive",
+    "Spectrin/alpha-actinin",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Alpha Spectrin",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "molecular_function": [
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "Spectrin repeat",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-hand",
+    "Ca insensitive",
+    "Spectrin/alpha-actinin",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Alpha Spectrin",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13499",
+      "PF08726",
+      "PF00018",
+      "PF00435"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "Spectrin repeat",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-hand",
+    "Ca insensitive",
+    "Spectrin/alpha-actinin",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "Alpha Spectrin",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "ciliary_role": "Strong SPTAN1 expression was observed around the rootlets of stereocilia, but not in the stereocilia (34708331).",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPTAN1 is a ciliary gene encoding spectrin alpha, non-erythrocytic 1 [source:hgnc symbol;acc:hgnc:11273]",
+    "functional_summary": "Strong SPTAN1 expression was observed around the rootlets of stereocilia, but not in the stereocilia (34708331).",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

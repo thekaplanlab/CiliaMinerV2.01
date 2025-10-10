@@ -1,0 +1,97 @@
+{
+  "gene_name": "HSD3B2",
+  "ensembl_id": "ENSG00000203859",
+  "synonyms": [
+    "SDR11E2"
+  ],
+  "omim_id": "613890",
+  "description": "hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [Source:HGNC Symbol;Acc:HGNC:5218]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01073"
+  ],
+  "domain_descriptions": [
+    "3-beta hydroxysteroid dehydrogenase/isomerase",
+    "NAD(P)-binding domain superfamily",
+    "Bifunctional lipid A modification and metabolic enzymes"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "3-beta hydroxysteroid dehydrogenase/isomerase",
+    "NAD(P)-binding domain superfamily",
+    "Bifunctional lipid A modification and metabolic enzymes"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01073"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "3-beta hydroxysteroid dehydrogenase/isomerase",
+    "NAD(P)-binding domain superfamily",
+    "Bifunctional lipid A modification and metabolic enzymes"
+  ],
+  "ciliary_role": "An enzyme that is part of sterol synthesis, HSD3B1/HSD3B2 also found in several enzymes in cilia",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HSD3B2 is a ciliary gene encoding hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [source:hgnc symbol;acc:hgnc:5218]",
+    "functional_summary": "An enzyme that is part of sterol synthesis, HSD3B1/HSD3B2 also found in several enzymes in cilia",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

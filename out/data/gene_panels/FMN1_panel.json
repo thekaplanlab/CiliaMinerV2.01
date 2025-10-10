@@ -1,0 +1,134 @@
+{
+  "gene_name": "FMN1",
+  "ensembl_id": "ENSG00000248905",
+  "synonyms": [
+    "DKFZP686C2281",
+    "FLJ45135",
+    "FMN",
+    "LD",
+    "MGC125288",
+    "MGC125289"
+  ],
+  "omim_id": "136535",
+  "description": "formin 1 [Source:HGNC Symbol;Acc:HGNC:3768]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02181"
+  ],
+  "domain_descriptions": [
+    "Formin homology family",
+    "Cappuccino subfamily",
+    "Formin",
+    "FH2 domain",
+    "Formin",
+    "FH2 domain superfamily"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Formin homology family",
+    "Cappuccino subfamily",
+    "Formin",
+    "FH2 domain",
+    "Formin",
+    "FH2 domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02181"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Formin homology family",
+    "Cappuccino subfamily",
+    "Formin",
+    "FH2 domain",
+    "Formin",
+    "FH2 domain superfamily"
+  ],
+  "ciliary_role": "RhoA works in concert with Fmn1 to control assembly of the specialized apical actin network in multiciliated epithelial cells ( 28089989).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FMN1 is a ciliary gene encoding formin 1 [source:hgnc symbol;acc:hgnc:3768]",
+    "functional_summary": "RhoA works in concert with Fmn1 to control assembly of the specialized apical actin network in multiciliated epithelial cells ( 28089989).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

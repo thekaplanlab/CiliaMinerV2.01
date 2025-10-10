@@ -1,0 +1,140 @@
+{
+  "gene_name": "USP48",
+  "ensembl_id": "ENSG00000090686",
+  "synonyms": [
+    "FLJ11328",
+    "FLJ20103",
+    "FLJ23054",
+    "FLJ23277",
+    "MGC14879",
+    "USP31"
+  ],
+  "omim_id": "617445",
+  "description": "ubiquitin specific peptidase 48 [Source:HGNC Symbol;Acc:HGNC:18533]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06337",
+    "PF00443"
+  ],
+  "domain_descriptions": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Ubiquitin-specific peptidase 48",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin-specific-processing protease 48",
+    "Ubl domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Ubiquitin-specific peptidase 48",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin-specific-processing protease 48",
+    "Ubl domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06337",
+      "PF00443"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Peptidase C19",
+    "ubiquitin-specific peptidase",
+    "DUSP domain",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Ubiquitin-specific peptidase 48",
+    "DUSP-like superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin-specific-processing protease 48",
+    "Ubl domain",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "ciliary_role": "Endogenous USP48 localises to the basal body in reti l cells and provide data that supports the function of USP48 in the photoreceptor cilium. USP48 interacts with the IRD-associated proteins ARL3 and UNC119a, and stabilise their protein levels using different mechanisms.",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP48 is a ciliary gene encoding ubiquitin specific peptidase 48 [source:hgnc symbol;acc:hgnc:18533]",
+    "functional_summary": "Endogenous USP48 localises to the basal body in reti l cells and provide data that supports the function of USP48 in the photoreceptor cilium. USP48 interacts with the IRD-associated proteins ARL3 and...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

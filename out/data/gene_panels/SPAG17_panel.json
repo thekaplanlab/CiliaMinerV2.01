@@ -1,0 +1,122 @@
+{
+  "gene_name": "SPAG17",
+  "ensembl_id": "ENSG00000155761",
+  "synonyms": [
+    "CT143",
+    "FLJ34497",
+    "PF6",
+    "RP4-776P7.2"
+  ],
+  "omim_id": "616554",
+  "description": "sperm associated antigen 17 [Source:HGNC Symbol;Acc:HGNC:26620]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14874"
+  ],
+  "domain_descriptions": [
+    "Sperm-associated antigen 17"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Axoneme",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Sperm-associated antigen 17"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14874"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sperm-associated antigen 17"
+  ],
+  "ciliary_role": "Encodes a central pair protein present motile cilia or flagella with a 鈥",
+  "localization": [
+    "cilia",
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Axoneme",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Transition zone",
+    "Axoneme",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPAG17 is a ciliary gene encoding sperm associated antigen 17 [source:hgnc symbol;acc:hgnc:26620]",
+    "functional_summary": "Encodes a central pair protein present motile cilia or flagella with a 鈥",
+    "localization_summary": "Localizes to cilia ,  transition zone, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

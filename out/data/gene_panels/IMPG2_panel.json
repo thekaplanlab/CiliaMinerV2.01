@@ -1,0 +1,99 @@
+{
+  "gene_name": "IMPG2",
+  "ensembl_id": "ENSG00000081148",
+  "synonyms": [
+    "IPM200",
+    "RP56",
+    "SPACRCAN"
+  ],
+  "omim_id": "607056",
+  "description": "interphotoreceptor matrix proteoglycan 2 [Source:HGNC Symbol;Acc:HGNC:18362]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01390"
+  ],
+  "domain_descriptions": [
+    "SEA domain",
+    "EGF-like domain",
+    "SEA domain superfamily",
+    "Interphotoreceptor matrix proteoglycan"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "ECM & connective tissue"
+  ],
+  "structural_features": [
+    "SEA domain",
+    "EGF-like domain",
+    "SEA domain superfamily",
+    "Interphotoreceptor matrix proteoglycan"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01390"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SEA domain",
+    "EGF-like domain",
+    "SEA domain superfamily",
+    "Interphotoreceptor matrix proteoglycan"
+  ],
+  "ciliary_role": "Mutations in IMPG2 are associated with retinitis pigmentosa and vitelliform macular dystrophy (20673862). When probed with an antibody raised to its C-termi l intracellular domain, IMPG2 immunoreactivity was mostly found within the ellipsoid and myoid zones of the inner segment in normal photoreceptors. In normal photoreceptors, CEP290 allows entry of outer segment-bound proteins while blocking that of inner segment proteins such as STX3, STXBP1, S P25, and IMPG2. In Cep290fl/fl,Cre+ reti s, however, a significant amount of IMPG2 immunoreactivity was detected in outer segments in addition to inner segments (31694913).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "ECM & connective tissue"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "ECM & connective tissue"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IMPG2 is a ciliary gene encoding interphotoreceptor matrix proteoglycan 2 [source:hgnc symbol;acc:hgnc:18362]",
+    "functional_summary": "Mutations in IMPG2 are associated with retinitis pigmentosa and vitelliform macular dystrophy (20673862). When probed with an antibody raised to its C-termi l intracellular domain, IMPG2 immunoreactiv...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

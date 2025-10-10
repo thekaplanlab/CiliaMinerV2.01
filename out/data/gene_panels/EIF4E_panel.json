@@ -1,0 +1,103 @@
+{
+  "gene_name": "EIF4E",
+  "ensembl_id": "ENSG00000151247",
+  "synonyms": [
+    "EIF4E1",
+    "EIF4EL1",
+    "EIF4F"
+  ],
+  "omim_id": "133440",
+  "description": "eukaryotic translation initiation factor 4E [Source:HGNC Symbol;Acc:HGNC:3287]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01652"
+  ],
+  "domain_descriptions": [
+    "Translation Initiation factor eIF- 4e",
+    "Eukaryotic translation initiation factor 4E (eIF-4E)",
+    "conserved site",
+    "Translation Initiation factor eIF- 4e-like"
+  ],
+  "molecular_function": [
+    "Translation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Translation Initiation factor eIF- 4e",
+    "Eukaryotic translation initiation factor 4E (eIF-4E)",
+    "conserved site",
+    "Translation Initiation factor eIF- 4e-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01652"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Translation Initiation factor eIF- 4e",
+    "Eukaryotic translation initiation factor 4E (eIF-4E)",
+    "conserved site",
+    "Translation Initiation factor eIF- 4e-like"
+  ],
+  "ciliary_role": "Ependymal multicilia contain ribosomes, eIFs, and R (34848703).",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "P-body"
+  ],
+  "ciliary_process": [
+    "Translation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "P-body"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Translation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EIF4E is a ciliary gene encoding eukaryotic translation initiation factor 4e [source:hgnc symbol;acc:hgnc:3287]",
+    "functional_summary": "Ependymal multicilia contain ribosomes, eIFs, and R (34848703).",
+    "localization_summary": "Localizes to cilia, Cytosol, P-body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

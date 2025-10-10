@@ -1,0 +1,107 @@
+{
+  "gene_name": "DBN1",
+  "ensembl_id": "ENSG00000113758",
+  "synonyms": [
+    "D0S117E"
+  ],
+  "omim_id": "126660",
+  "description": "drebrin 1 [Source:HGNC Symbol;Acc:HGNC:2695]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00241"
+  ],
+  "domain_descriptions": [
+    "Actin-depolymerising factor homology domain",
+    "ADF-H/Gelsolin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Cilia length regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Actin-depolymerising factor homology domain",
+    "ADF-H/Gelsolin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00241"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Actin-depolymerising factor homology domain",
+    "ADF-H/Gelsolin-like domain superfamily"
+  ],
+  "ciliary_role": "DBN1 and hCDC14A contribute to cilia length control by regulating the actin nucleator Arp2 at the basal body. hCDC14A has additio l, DBN1 independent functions in endocytosis and transport of myosin Va marked vesicles to the basal body(30467237).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cilia length regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia length regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DBN1 is a ciliary gene encoding drebrin 1 [source:hgnc symbol;acc:hgnc:2695]",
+    "functional_summary": "DBN1 and hCDC14A contribute to cilia length control by regulating the actin nucleator Arp2 at the basal body. hCDC14A has additio l, DBN1 independent functions in endocytosis and transport of myosin V...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

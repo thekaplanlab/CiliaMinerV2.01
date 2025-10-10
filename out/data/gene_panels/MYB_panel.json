@@ -1,0 +1,121 @@
+{
+  "gene_name": "MYB",
+  "ensembl_id": "ENSG00000118513",
+  "synonyms": [
+    "C-MYB"
+  ],
+  "omim_id": "189990",
+  "description": "MYB proto-oncogene, transcription factor [Source:HGNC Symbol;Acc:HGNC:7545]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07988",
+    "PF00249",
+    "PF09316"
+  ],
+  "domain_descriptions": [
+    "SANT/Myb domain",
+    "Homedomain-like superfamily",
+    "Transcription regulator Wos2-domain",
+    "C-myb",
+    "C-terminal",
+    "Myb domain",
+    "Transcription factors Myb-like"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "SANT/Myb domain",
+    "Homedomain-like superfamily",
+    "Transcription regulator Wos2-domain",
+    "C-myb",
+    "C-terminal",
+    "Myb domain",
+    "Transcription factors Myb-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07988",
+      "PF00249",
+      "PF09316"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SANT/Myb domain",
+    "Homedomain-like superfamily",
+    "Transcription regulator Wos2-domain",
+    "C-myb",
+    "C-terminal",
+    "Myb domain",
+    "Transcription factors Myb-like"
+  ],
+  "ciliary_role": "Activates endogenous Foxj1 expression, stimulates a cotransfected Foxj1 reporter in heterologous cells and regulates centriole amplification, which in turn activates centriole docking and the assembly of a motile cilium, so it drives a complete multiciliogenesis program (24048590).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MYB is a ciliary gene encoding myb proto-oncogene, transcription factor [source:hgnc symbol;acc:hgnc:7545]",
+    "functional_summary": "Activates endogenous Foxj1 expression, stimulates a cotransfected Foxj1 reporter in heterologous cells and regulates centriole amplification, which in turn activates centriole docking and the assembly...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

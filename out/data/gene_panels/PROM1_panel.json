@@ -1,0 +1,102 @@
+{
+  "gene_name": "PROM1",
+  "ensembl_id": "ENSG00000007062",
+  "synonyms": [
+    "AC133",
+    "CD133",
+    "CORD12",
+    "MCDR2",
+    "PROML1",
+    "RP41",
+    "STGD4"
+  ],
+  "omim_id": "604365",
+  "description": "prominin 1 [Source:HGNC Symbol;Acc:HGNC:9454]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05478"
+  ],
+  "domain_descriptions": [
+    "Prominin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Prominin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05478"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Prominin"
+  ],
+  "ciliary_role": "Controls recruitment of ciliary membrane components, histone deacetylase, and transcription factors in stem cells. Mutations cause various human reti l disorders by",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PROM1 is a ciliary gene encoding prominin 1 [source:hgnc symbol;acc:hgnc:9454]",
+    "functional_summary": "Controls recruitment of ciliary membrane components, histone deacetylase, and transcription factors in stem cells. Mutations cause various human reti l disorders by",
+    "localization_summary": "Localizes to basal body, cilia, Lysosomes",
+    "disease_summary": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

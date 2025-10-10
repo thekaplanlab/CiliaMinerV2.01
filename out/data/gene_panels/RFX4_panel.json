@@ -1,0 +1,98 @@
+{
+  "gene_name": "RFX4",
+  "ensembl_id": "ENSG00000111783",
+  "synonyms": [],
+  "omim_id": "603958",
+  "description": "regulatory factor X4 [Source:HGNC Symbol;Acc:HGNC:9985]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02257"
+  ],
+  "domain_descriptions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "DNA-binding RFX-type winged-helix domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02257"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "ciliary_role": "Modulates Shh sig ling and and Gli3 processing by regio l control of ciliogenesis and function of primary cilia. Rfx4 nuclear translocation and/or transcriptio l activity, may be regulated by phosphorylation. Required for ciliogenesis in the neural tube ( 19887680). It appears to regulate different genes than RFX3, as Rfx4 KO embryos exhibite different phenotypes from those with Rfx3 and Foxj1 mutations ( 29298325). RFX4 expression is controlled positively by RFX7 or negatively by Foxj1 during neural tube closure ( 24530844).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RFX4 is a ciliary gene encoding regulatory factor x4 [source:hgnc symbol;acc:hgnc:9985]",
+    "functional_summary": "Modulates Shh sig ling and and Gli3 processing by regio l control of ciliogenesis and function of primary cilia. Rfx4 nuclear translocation and/or transcriptio l activity, may be regulated by phosphor...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

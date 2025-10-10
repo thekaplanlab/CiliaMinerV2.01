@@ -1,0 +1,117 @@
+{
+  "gene_name": "PLSCR1",
+  "ensembl_id": "ENSG00000188313",
+  "synonyms": [
+    "MMTRA1B"
+  ],
+  "omim_id": "604170",
+  "description": "phospholipid scramblase 1 [Source:HGNC Symbol;Acc:HGNC:9092]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03803"
+  ],
+  "domain_descriptions": [
+    "Scramblase",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "T cell biology",
+    "Immune regulation",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Scramblase",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03803"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Scramblase",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "ciliary_role": "si:ch211-71m22.1 (PLSCR1 in human) and slc43a3a are required for the function of all motile cilia, except for those in the otic vesicle, whereas two genes encoding putative guanine nucleotide exchange factors, arhgef18b and ect2l, are needed for the function of motile cilia in just the developing ear and KV ( 25139857).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "T cell biology",
+    "Immune regulation",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "T cell biology",
+    "Immune regulation",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PLSCR1 is a ciliary gene encoding phospholipid scramblase 1 [source:hgnc symbol;acc:hgnc:9092]",
+    "functional_summary": "si:ch211-71m22.1 (PLSCR1 in human) and slc43a3a are required for the function of all motile cilia, except for those in the otic vesicle, whereas two genes encoding putative guanine nucleotide exchange...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

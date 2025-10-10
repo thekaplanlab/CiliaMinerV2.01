@@ -1,0 +1,147 @@
+{
+  "gene_name": "KIF11",
+  "ensembl_id": "ENSG00000138160",
+  "synonyms": [
+    "EG5",
+    "HKSP",
+    "KNSL1",
+    "TRIP5"
+  ],
+  "omim_id": "148760",
+  "description": "kinesin family member 11 [Source:HGNC Symbol;Acc:HGNC:6388]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225",
+    "PF13931"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "Kinesin-associated microtubule-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF11-like",
+    "Kinesin-like protein KIF11-like",
+    "kinesin motor domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "Kinesin-associated microtubule-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF11-like",
+    "Kinesin-like protein KIF11-like",
+    "kinesin motor domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225",
+      "PF13931"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "Kinesin-associated microtubule-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF11-like",
+    "Kinesin-like protein KIF11-like",
+    "kinesin motor domain"
+  ],
+  "ciliary_role": "KIF11 has been demonstrated to have microtubule polymerase activity, as well as to control axon growth(26437877, 17846176). It has also been shown to mediate centrosome migration after mitosis and move Golgi material(9701554 , 23857769). An interphase pool of KIF11 localizes at the basal bodies of primary cilia and a reduction in KIF11 expression alters cilia dy mics(32811879).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Cytosol",
+    "Microtubules",
+    "Ribosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Cytosol",
+    "Microtubules",
+    "Ribosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF11 is a ciliary gene encoding kinesin family member 11 [source:hgnc symbol;acc:hgnc:6388]",
+    "functional_summary": "KIF11 has been demonstrated to have microtubule polymerase activity, as well as to control axon growth(26437877, 17846176). It has also been shown to mediate centrosome migration after mitosis and mov...",
+    "localization_summary": "Localizes to cilia, basal body, Cytosol, Microtubules, Ribosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

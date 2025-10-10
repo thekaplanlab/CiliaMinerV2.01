@@ -1,0 +1,99 @@
+{
+  "gene_name": "ENSG00000285880",
+  "ensembl_id": "ENSG00000285880",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "ADRB3-GOT1L1 readthrough",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Beta 3 adrenoceptor",
+    "Pyridoxal phosphate-dependent transferase",
+    "small domain",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Beta 3 adrenoceptor",
+    "Pyridoxal phosphate-dependent transferase",
+    "small domain",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Beta 3 adrenoceptor",
+    "Pyridoxal phosphate-dependent transferase",
+    "small domain",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "ciliary_role": "ENSG00000285880 has localized in basal body.",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ENSG00000285880 is a ciliary gene encoding adrb3-got1l1 readthrough",
+    "functional_summary": "ENSG00000285880 has localized in basal body.",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

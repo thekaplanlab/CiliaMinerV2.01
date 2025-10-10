@@ -1,0 +1,127 @@
+{
+  "gene_name": "CEP164",
+  "ensembl_id": "ENSG00000110274",
+  "synonyms": [
+    "KIAA1052",
+    "NPHP15"
+  ],
+  "omim_id": "614848",
+  "description": "centrosomal protein 164 [Source:HGNC Symbol;Acc:HGNC:29182]",
+  "protein_complexes": [
+    "CEP164-TTBK2 complex",
+    "CCDC92-CEP164 complex",
+    "CEP164-DZIP1 complex",
+    "Distal appendage"
+  ],
+  "pfam_ids": [
+    "PF00397"
+  ],
+  "domain_descriptions": [
+    "WW domain",
+    "WW domain superfamily",
+    "Plasmodium ABRA-related",
+    "Microtubule and Golgi organization protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "WW domain",
+    "WW domain superfamily",
+    "Plasmodium ABRA-related",
+    "Microtubule and Golgi organization protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00397"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WW domain",
+    "WW domain superfamily",
+    "Plasmodium ABRA-related",
+    "Microtubule and Golgi organization protein"
+  ],
+  "ciliary_role": "Assembly of primary cilia and promotes vesicular docking and trafficking that initiates cilia membrane biogenesis (17954613, 23253480). CEP164 promotes accumulation of GTP-Rab8 at the centrosome, providing a molecular link connecting the M-centriole to components of the machinery that initiate ciliary membrane biogenesis (23253480). Recruitment of active tau tubulin ki se 2 (TTBK2) to centrioles, leading to removal of CP110 and recruitment of intraflagellar transport proteins (24982133). Mutations in CEP164 are related to nephronophthisis and Joubert syndrome, it may may facilitate the docking of the INPP5E鈥揚DE6D complex to the centrosomal distal appendage/transition fiber (23150559). Mutations also reported in a BBS/PCD case (32367404).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Nephronophthisis",
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Nephronophthisis, Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP164 is a ciliary gene encoding centrosomal protein 164 [source:hgnc symbol;acc:hgnc:29182]",
+    "functional_summary": "Assembly of primary cilia and promotes vesicular docking and trafficking that initiates cilia membrane biogenesis (17954613, 23253480). CEP164 promotes accumulation of GTP-Rab8 at the centrosome, prov...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "Associated with Nephronophthisis, Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Nephronophthisis, Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

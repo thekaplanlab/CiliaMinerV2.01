@@ -1,0 +1,153 @@
+{
+  "gene_name": "NR1H4",
+  "ensembl_id": "ENSG00000012504",
+  "synonyms": [
+    "FXR",
+    "HRR-1",
+    "HRR1",
+    "RIP14"
+  ],
+  "omim_id": "603826",
+  "description": "nuclear receptor subfamily 1 group H member 4 [Source:HGNC Symbol;Acc:HGNC:7967]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00104",
+    "PF00105"
+  ],
+  "domain_descriptions": [
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Thyroid hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Bile acid receptor",
+    "ligand binding domain",
+    "Nuclear hormone receptor family NR1 subfamily",
+    "Liver X receptor"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Thyroid hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Bile acid receptor",
+    "ligand binding domain",
+    "Nuclear hormone receptor family NR1 subfamily",
+    "Liver X receptor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00104",
+      "PF00105"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Nuclear hormone receptor",
+    "ligand-binding domain",
+    "Zinc finger",
+    "nuclear hormone receptor-type",
+    "Nuclear hormone receptor",
+    "Thyroid hormone receptor",
+    "Zinc finger",
+    "NHR/GATA-type",
+    "Nuclear hormone receptor-like domain superfamily",
+    "Bile acid receptor",
+    "ligand binding domain",
+    "Nuclear hormone receptor family NR1 subfamily",
+    "Liver X receptor"
+  ],
+  "ciliary_role": "Regulates autophagy by controlling transcription of genes involved in autophagic pathways. It negatively regulares ciliogenesis by inhibiting autophagy (29771182)..",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NR1H4 is a ciliary gene encoding nuclear receptor subfamily 1 group h member 4 [source:hgnc symbol;acc:hgnc:7967]",
+    "functional_summary": "Regulates autophagy by controlling transcription of genes involved in autophagic pathways. It negatively regulares ciliogenesis by inhibiting autophagy (29771182)..",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

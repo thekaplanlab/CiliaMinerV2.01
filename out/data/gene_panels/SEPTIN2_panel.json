@@ -1,0 +1,127 @@
+{
+  "gene_name": "SEPTIN2",
+  "ensembl_id": "ENSG00000168385",
+  "synonyms": [
+    "DIFF6",
+    "HNEDD5",
+    "KIAA0158",
+    "NEDD5",
+    "PNUTL3",
+    "SEPT2",
+    "SEPTIN-2"
+  ],
+  "omim_id": "601506",
+  "description": "septin 2 [Source:HGNC Symbol;Acc:HGNC:7729]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00735"
+  ],
+  "domain_descriptions": [
+    "Septin 2",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Septin 2",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00735"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Septin 2",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "ciliary_role": "Component of a diffusion barrier at the ciliary base, essential for retaining receptor-sig ling pathways in the primary cilium, and is required for cilium-dependent Shh sig l transduction. Depletion inhibits ciliogenesis (20558667). Ciliary localisation of SEPT2, suggest that it is involved in organization of the axonemal microtubular structure, controling ciliogenesis and ciliary length (24317785). Forms a complex with SEPT7 and SEPT9 to positively control ciliogenesis and the length of cilia (23572511).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SEPTIN2 is a ciliary gene encoding septin 2 [source:hgnc symbol;acc:hgnc:7729]",
+    "functional_summary": "Component of a diffusion barrier at the ciliary base, essential for retaining receptor-sig ling pathways in the primary cilium, and is required for cilium-dependent Shh sig l transduction. Depletion i...",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

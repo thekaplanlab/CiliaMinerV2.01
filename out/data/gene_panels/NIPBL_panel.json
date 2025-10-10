@@ -1,0 +1,74 @@
+{
+  "gene_name": "NIPBL",
+  "ensembl_id": "ENSG00000164190",
+  "synonyms": [
+    "DKFZP434L1319",
+    "FLJ11203",
+    "FLJ12597",
+    "FLJ13354",
+    "FLJ13648",
+    "IDN3",
+    "SCC2"
+  ],
+  "omim_id": "608667",
+  "description": "NIPBL cohesin loading factor [Source:HGNC Symbol;Acc:HGNC:28862]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the NIPBL gene cause Cornelia de Lange Syndrome (PMID: 15146185, PMID:15146186).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cornelia de Lange Syndrome"
+  ],
+  "ciliopathy_type": "Cornelia de Lange Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NIPBL is a ciliary gene encoding nipbl cohesin loading factor [source:hgnc symbol;acc:hgnc:28862]",
+    "functional_summary": "Mutations in the NIPBL gene cause Cornelia de Lange Syndrome (PMID: 15146185, PMID:15146186).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "Associated with Cornelia de Lange Syndrome",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cornelia de Lange Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

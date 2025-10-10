@@ -1,0 +1,151 @@
+{
+  "gene_name": "DIAPH1",
+  "ensembl_id": "ENSG00000131504",
+  "synonyms": [
+    "DFNA1",
+    "HDIA1",
+    "LFHL1",
+    "MDIA1"
+  ],
+  "omim_id": "602121",
+  "description": "diaphanous related formin 1 [Source:HGNC Symbol;Acc:HGNC:2876]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02181",
+    "PF06371",
+    "PF06367",
+    "PF06346"
+  ],
+  "domain_descriptions": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Diaphanous",
+    "GTPase-binding domain superfamily",
+    "Formin Homology Diaphanous subfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Diaphanous",
+    "GTPase-binding domain superfamily",
+    "Formin Homology Diaphanous subfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02181",
+      "PF06371",
+      "PF06367",
+      "PF06346"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Diaphanous",
+    "GTPase-binding domain superfamily",
+    "Formin Homology Diaphanous subfamily"
+  ],
+  "ciliary_role": "Promotes both actin polymerization and EB1- dependent microtubule (MT) stability, both actin nucleating and microtubule-stabilizing properties of DIAPH1 are important for their cilia functions. Depletion of DIAPH1 decreased ciliogenesis, cilia length, and reduced trafficking within cilia. Conversely, targeting of DIAPH1 specifically to the basal body causes an increase in cilia length and increased trafficking within cilia. Thought to regulate cilia mainte nce in part by regulating vesicular trafficking to the base of the primary cilia (33124112)",
+  "localization": [
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DIAPH1 is a ciliary gene encoding diaphanous related formin 1 [source:hgnc symbol;acc:hgnc:2876]",
+    "functional_summary": "Promotes both actin polymerization and EB1- dependent microtubule (MT) stability, both actin nucleating and microtubule-stabilizing properties of DIAPH1 are important for their cilia functions. Deplet...",
+    "localization_summary": "Localizes to cilia, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

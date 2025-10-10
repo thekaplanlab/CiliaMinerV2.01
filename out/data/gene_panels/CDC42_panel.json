@@ -1,0 +1,162 @@
+{
+  "gene_name": "CDC42",
+  "ensembl_id": "ENSG00000070831",
+  "synonyms": [
+    "CDC42HS",
+    "G25K"
+  ],
+  "omim_id": "116952",
+  "description": "cell division cycle 42 [Source:HGNC Symbol;Acc:HGNC:1736]",
+  "protein_complexes": [
+    "CDC42-PARD3-PARD6A-PRKCZ complex"
+  ],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cdc42"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cdc42"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Cdc42"
+  ],
+  "ciliary_role": "The primary cilium is linked to OPN sig ling pathway and actin cytoskeleton pathway via CD44 and Cdc42(32339903).",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CDC42 is a ciliary gene encoding cell division cycle 42 [source:hgnc symbol;acc:hgnc:1736]",
+    "functional_summary": "The primary cilium is linked to OPN sig ling pathway and actin cytoskeleton pathway via CD44 and Cdc42(32339903).",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

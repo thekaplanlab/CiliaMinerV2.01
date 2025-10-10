@@ -1,0 +1,99 @@
+{
+  "gene_name": "CFAP119",
+  "ensembl_id": "ENSG00000196118",
+  "synonyms": [
+    "C16ORF93",
+    "CCDC189",
+    "MGC104706"
+  ],
+  "omim_id": "618318",
+  "description": "cilia and flagella associated protein 119 [Source:HGNC Symbol;Acc:HGNC:28078]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14769"
+  ],
+  "domain_descriptions": [
+    "Flagellar C1a complex subunit C1a-32"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Flagellar C1a complex subunit C1a-32"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14769"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Flagellar C1a complex subunit C1a-32"
+  ],
+  "ciliary_role": "CFAP119 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP119 is a ciliary gene encoding cilia and flagella associated protein 119 [source:hgnc symbol;acc:hgnc:28078]",
+    "functional_summary": "CFAP119 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

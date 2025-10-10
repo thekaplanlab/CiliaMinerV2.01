@@ -1,0 +1,123 @@
+{
+  "gene_name": "EXOC3",
+  "ensembl_id": "ENSG00000180104",
+  "synonyms": [
+    "SEC6",
+    "SEC6L1"
+  ],
+  "omim_id": "608186",
+  "description": "exocyst complex component 3 [Source:HGNC Symbol;Acc:HGNC:30378]",
+  "protein_complexes": [
+    "Exocyst complex"
+  ],
+  "pfam_ids": [
+    "PF06046"
+  ],
+  "domain_descriptions": [
+    "Exocyst complex component EXOC3/Sec6",
+    "Exocyst complex component EXOC3/Sec6",
+    "C-terminal domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Exocyst complex component EXOC3/Sec6",
+    "Exocyst complex component EXOC3/Sec6",
+    "C-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06046"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Exocyst complex component EXOC3/Sec6",
+    "Exocyst complex component EXOC3/Sec6",
+    "C-terminal domain"
+  ],
+  "ciliary_role": "Also known as SEC6. Inhibition of ciliary shedding, blocks deciliation-associated down-regulation of claudin-2 and gp135 (PMID:19005211). Sec6/8 complex cooperates with cooperate with syntaxin 3 and S P-25, ceing a candidate effector for Rab8 at the rhodopsin transport carriers (RTC) docking site (19454479)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EXOC3 is a ciliary gene encoding exocyst complex component 3 [source:hgnc symbol;acc:hgnc:30378]",
+    "functional_summary": "Also known as SEC6. Inhibition of ciliary shedding, blocks deciliation-associated down-regulation of claudin-2 and gp135 (PMID:19005211). Sec6/8 complex cooperates with cooperate with syntaxin 3 and S...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

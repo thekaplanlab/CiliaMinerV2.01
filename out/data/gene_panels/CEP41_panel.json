@@ -1,0 +1,112 @@
+{
+  "gene_name": "CEP41",
+  "ensembl_id": "ENSG00000106477",
+  "synonyms": [
+    "DKFZP762H1311",
+    "FLJ22445",
+    "JBTS15",
+    "TSGA14"
+  ],
+  "omim_id": "610523",
+  "description": "centrosomal protein 41 [Source:HGNC Symbol;Acc:HGNC:12370]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00581"
+  ],
+  "domain_descriptions": [
+    "Rhodanese-like domain",
+    "Rhodanese-like domain superfamily",
+    "Centrosomal protein 41"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Rhodanese-like domain",
+    "Rhodanese-like domain superfamily",
+    "Centrosomal protein 41"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00581"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rhodanese-like domain",
+    "Rhodanese-like domain superfamily",
+    "Centrosomal protein 41"
+  ],
+  "ciliary_role": "Regulation of tubulin glutamyl posttranslatio l modifications by mediating ciliary transport of TTLL6 between the basal body and cilium, therefore, it is also required for localising TTLL6 to the cilium. CEP41 is also involved in ciliary structural formation and motility through glutamylation and its loss of CEP41 has been identified as a cause of Joubert syndrome (22246503). CEP41 regulates cilia disassembly and angiogenesis through AURKA activation by modulating axonemal tubulin glutamylation (31885126)",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP41 is a ciliary gene encoding centrosomal protein 41 [source:hgnc symbol;acc:hgnc:12370]",
+    "functional_summary": "Regulation of tubulin glutamyl posttranslatio l modifications by mediating ciliary transport of TTLL6 between the basal body and cilium, therefore, it is also required for localising TTLL6 to the cili...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

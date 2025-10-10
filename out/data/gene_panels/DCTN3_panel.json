@@ -1,0 +1,96 @@
+{
+  "gene_name": "DCTN3",
+  "ensembl_id": "ENSG00000137100",
+  "synonyms": [
+    "DCTN-22"
+  ],
+  "omim_id": "607387",
+  "description": "dynactin subunit 3 [Source:HGNC Symbol;Acc:HGNC:2713]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07426"
+  ],
+  "domain_descriptions": [
+    "Dynactin subunit 3"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynactin subunit 3"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07426"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynactin subunit 3"
+  ],
+  "ciliary_role": "DCTN3 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DCTN3 is a ciliary gene encoding dynactin subunit 3 [source:hgnc symbol;acc:hgnc:2713]",
+    "functional_summary": "DCTN3 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Centrosome, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

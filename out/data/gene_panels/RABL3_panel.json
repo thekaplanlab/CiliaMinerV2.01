@@ -1,0 +1,95 @@
+{
+  "gene_name": "RABL3",
+  "ensembl_id": "ENSG00000144840",
+  "synonyms": [
+    "MGC23920"
+  ],
+  "omim_id": "618542",
+  "description": "RAB, member of RAS oncogene family like 3 [Source:HGNC Symbol;Acc:HGNC:18072]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08477"
+  ],
+  "domain_descriptions": [
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "structural_features": [
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08477"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "Atypical small GTPase RAB-like 3 (RABL3) plays an important role, in cooperation with RAB11, in CV formation during early ciliogenesis(36052645).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RABL3 is a ciliary gene encoding rab, member of ras oncogene family like 3 [source:hgnc symbol;acc:hgnc:18072]",
+    "functional_summary": "Atypical small GTPase RAB-like 3 (RABL3) plays an important role, in cooperation with RAB11, in CV formation during early ciliogenesis(36052645).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

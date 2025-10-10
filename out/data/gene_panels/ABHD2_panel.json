@@ -1,0 +1,16 @@
+{
+  "gene_name": "ABHD2",
+  "ensembl_id": "ENSG00000140526",
+  "description": "abhydrolase domain containing 2, acylglycerol lipase [Source:HGNC Symbol;Acc:HGNC:18717]",
+  "omim_id": "612196",
+  "localization": "flagella",
+  "functional_summary": "ABHD2 localized in the flagella of human sperm and found that this enzyme also follows CatSper distribution (30184496).",
+  "ciliopathy": NaN,
+  "functional_category": "Cardiac & muscle development, Metabolism, Motile cilium, Reproduction & sperm, Trafficking (BBSome, small GTPases, vesicular transport, ATPases)",
+  "ai_summary": {
+    "basic_summary": "ABHD2 is a ciliary gene",
+    "functional_summary": "ABHD2 localized in the flagella of human sperm and found that this enzyme also follows CatSper distribution (30184496).",
+    "localization_summary": "Localizes to flagella",
+    "clinical_relevance": NaN
+  }
+}

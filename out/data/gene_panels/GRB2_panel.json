@@ -1,0 +1,151 @@
+{
+  "gene_name": "GRB2",
+  "ensembl_id": "ENSG00000177885",
+  "synonyms": [
+    "NCKAP2"
+  ],
+  "omim_id": "108355",
+  "description": "growth factor receptor bound protein 2 [Source:HGNC Symbol;Acc:HGNC:4566]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00018",
+    "PF00017",
+    "PF14604"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "GRB2",
+    "C-terminal SH3 domain",
+    "SH3-like domain superfamily",
+    "SH2 domain superfamily",
+    "Grb2-like",
+    "SH2 domain",
+    "GRB2",
+    "N-terminal SH3 domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Peripheral nervous system",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "GRB2",
+    "C-terminal SH3 domain",
+    "SH3-like domain superfamily",
+    "SH2 domain superfamily",
+    "Grb2-like",
+    "SH2 domain",
+    "GRB2",
+    "N-terminal SH3 domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00018",
+      "PF00017",
+      "PF14604"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "GRB2",
+    "C-terminal SH3 domain",
+    "SH3-like domain superfamily",
+    "SH2 domain superfamily",
+    "Grb2-like",
+    "SH2 domain",
+    "GRB2",
+    "N-terminal SH3 domain"
+  ],
+  "ciliary_role": "GRB2 has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Peripheral nervous system",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Peripheral nervous system",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GRB2 is a ciliary gene encoding growth factor receptor bound protein 2 [source:hgnc symbol;acc:hgnc:4566]",
+    "functional_summary": "GRB2 has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

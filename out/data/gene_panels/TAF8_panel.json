@@ -1,0 +1,107 @@
+{
+  "gene_name": "TAF8",
+  "ensembl_id": "ENSG00000137413",
+  "synonyms": [
+    "FLJ32821",
+    "TAF(II)43",
+    "TBN"
+  ],
+  "omim_id": "609514",
+  "description": "TATA-box binding protein associated factor 8 [Source:HGNC Symbol;Acc:HGNC:17300]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10406",
+    "PF07524"
+  ],
+  "domain_descriptions": [
+    "Bromodomain associated domain",
+    "Histone-fold",
+    "Transcription factor TFIID",
+    "subunit 8",
+    "C-terminal",
+    "Transcription initiation factor TFIID subunit 8"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Bromodomain associated domain",
+    "Histone-fold",
+    "Transcription factor TFIID",
+    "subunit 8",
+    "C-terminal",
+    "Transcription initiation factor TFIID subunit 8"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10406",
+      "PF07524"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Bromodomain associated domain",
+    "Histone-fold",
+    "Transcription factor TFIID",
+    "subunit 8",
+    "C-terminal",
+    "Transcription initiation factor TFIID subunit 8"
+  ],
+  "ciliary_role": "TAF8 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TAF8 is a ciliary gene encoding tata-box binding protein associated factor 8 [source:hgnc symbol;acc:hgnc:17300]",
+    "functional_summary": "TAF8 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

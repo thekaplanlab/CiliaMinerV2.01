@@ -1,0 +1,129 @@
+{
+  "gene_name": "HSPA2",
+  "ensembl_id": "ENSG00000126803",
+  "synonyms": [],
+  "omim_id": "140560",
+  "description": "heat shock protein family A (Hsp70) member 2 [Source:HGNC Symbol;Acc:HGNC:5235]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00012"
+  ],
+  "domain_descriptions": [
+    "Heat shock protein 70 family",
+    "Heat shock protein 70",
+    "conserved site",
+    "Heat shock protein 70kD",
+    "peptide-binding domain superfamily",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Heat shock protein 70 family",
+    "Heat shock protein 70",
+    "conserved site",
+    "Heat shock protein 70kD",
+    "peptide-binding domain superfamily",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00012"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Heat shock protein 70 family",
+    "Heat shock protein 70",
+    "conserved site",
+    "Heat shock protein 70kD",
+    "peptide-binding domain superfamily",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "ATPase",
+    "nucleotide binding domain"
+  ],
+  "ciliary_role": "HSPA2 localized to flagella (25613900)",
+  "localization": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Metabolism",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HSPA2 is a ciliary gene encoding heat shock protein family a (hsp70) member 2 [source:hgnc symbol;acc:hgnc:5235]",
+    "functional_summary": "HSPA2 localized to flagella (25613900)",
+    "localization_summary": "Localizes to flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

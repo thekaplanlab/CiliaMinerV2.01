@@ -1,0 +1,104 @@
+{
+  "gene_name": "CFAP58",
+  "ensembl_id": "ENSG00000120051",
+  "synonyms": [
+    "BA554P13.1",
+    "C10ORF80",
+    "CCDC147",
+    "FLJ35908"
+  ],
+  "omim_id": "619129",
+  "description": "cilia and flagella associated protein 58 [Source:HGNC Symbol;Acc:HGNC:26676]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21771"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 58",
+    "central coiled coil"
+  ],
+  "molecular_function": [
+    "Cilia length regulation",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 58",
+    "central coiled coil"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21771"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 58",
+    "central coiled coil"
+  ],
+  "ciliary_role": "Bi-allelic Loss-of-function variants cause flagellar axoneme and mitochondrial sheath defects and asthenoteratozoospermia in humans and mice (32791035). Exhibits similar localization to Odf2/Cenexin proteins and is required for the elongation of the primary cilium and sperm midpiece via modulation of the Notch sig ling pathway. (31904090)",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Cilia length regulation",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia length regulation",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP58 is a ciliary gene encoding cilia and flagella associated protein 58 [source:hgnc symbol;acc:hgnc:26676]",
+    "functional_summary": "Bi-allelic Loss-of-function variants cause flagellar axoneme and mitochondrial sheath defects and asthenoteratozoospermia in humans and mice (32791035). Exhibits similar localization to Odf2/Cenexin p...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,159 @@
+{
+  "gene_name": "ADCY8",
+  "ensembl_id": "ENSG00000155897",
+  "synonyms": [
+    "AC8",
+    "ADCY3",
+    "HBAC1"
+  ],
+  "omim_id": "103070",
+  "description": "adenylate cyclase 8 [Source:HGNC Symbol;Acc:HGNC:239]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16214",
+    "PF00211",
+    "PF06327"
+  ],
+  "domain_descriptions": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16214",
+      "PF00211",
+      "PF06327"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "ciliary_role": "P2Y12 purinergic receptor, adenylyl cyclases (i.e., AC4, AC6, and AC8), and protein ki se A (i.e., PKA RI-尾 and PKA RII-伪 regulatory subunits), exchange protein directly activated by cAMP (EPAC) isoform 2, and A-ki se anchoring proteins (i.e., AKAP150) are expressed in cholangiocyte cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADCY8 is a ciliary gene encoding adenylate cyclase 8 [source:hgnc symbol;acc:hgnc:239]",
+    "functional_summary": "P2Y12 purinergic receptor, adenylyl cyclases (i.e., AC4, AC6, and AC8), and protein ki se A (i.e., PKA RI-尾 and PKA RII-伪 regulatory subunits), exchange protein directly activated by cAMP (EPAC) isofo...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

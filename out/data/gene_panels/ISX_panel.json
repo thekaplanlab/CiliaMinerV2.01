@@ -1,0 +1,94 @@
+{
+  "gene_name": "ISX",
+  "ensembl_id": "ENSG00000175329",
+  "synonyms": [
+    "RAXLX"
+  ],
+  "omim_id": "612019",
+  "description": "intestine specific homeobox [Source:HGNC Symbol;Acc:HGNC:28084]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00046"
+  ],
+  "domain_descriptions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Paired Homeobox Transcription Factors"
+  ],
+  "molecular_function": [
+    "Transcription / DNA binding"
+  ],
+  "structural_features": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Paired Homeobox Transcription Factors"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00046"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Paired Homeobox Transcription Factors"
+  ],
+  "ciliary_role": "ISX-like knockdown did not simply prevent the formation of the apical tuft cilia, but rather led to a loss of the apical tuft cell identity, i.e. the expression of the larva-specific ring neuron markers NVE8226 and NVE14902, as well as the expression of the upstream aboral regulator Six3/6, expanded into the spot domain ( 36000354).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transcription / DNA binding"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transcription / DNA binding"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ISX is a ciliary gene encoding intestine specific homeobox [source:hgnc symbol;acc:hgnc:28084]",
+    "functional_summary": "ISX-like knockdown did not simply prevent the formation of the apical tuft cilia, but rather led to a loss of the apical tuft cell identity, i.e. the expression of the larva-specific ring neuron marke...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

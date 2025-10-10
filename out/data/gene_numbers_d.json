@@ -1,0 +1,14 @@
+[
+  {
+    "Disease": "Primary Ciliopathies",
+    "Gene_numbers": 202
+  },
+  {
+    "Disease": "Secondary Ciliopathies",
+    "Gene_numbers": 210
+  },
+  {
+    "Disease": "Atypical Ciliopathies",
+    "Gene_numbers": 42
+  }
+]

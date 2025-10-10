@@ -1,0 +1,144 @@
+{
+  "gene_name": "RAB11FIP5",
+  "ensembl_id": "ENSG00000135631",
+  "synonyms": [
+    "GAF1",
+    "KIAA0857",
+    "PP75",
+    "RIP11"
+  ],
+  "omim_id": "605536",
+  "description": "RAB11 family interacting protein 5 [Source:HGNC Symbol;Acc:HGNC:24845]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00168",
+    "PF09457"
+  ],
+  "domain_descriptions": [
+    "C2 domain",
+    "Rab-binding domain FIP-RBD",
+    "C2 domain superfamily",
+    "FIP-RBD",
+    "C-terminal domain superfamily",
+    "Rab11-family interacting protein class I"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "C2 domain",
+    "Rab-binding domain FIP-RBD",
+    "C2 domain superfamily",
+    "FIP-RBD",
+    "C-terminal domain superfamily",
+    "Rab11-family interacting protein class I"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00168",
+      "PF09457"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "C2 domain",
+    "Rab-binding domain FIP-RBD",
+    "C2 domain superfamily",
+    "FIP-RBD",
+    "C-terminal domain superfamily",
+    "Rab11-family interacting protein class I"
+  ],
+  "ciliary_role": "ARL13B- RAB11FIP5 interacted in the early stage of ciliogenesis(30120249).",
+  "localization": [
+    "basal body",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Endosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Hormone & insulin signaling",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAB11FIP5 is a ciliary gene encoding rab11 family interacting protein 5 [source:hgnc symbol;acc:hgnc:24845]",
+    "functional_summary": "ARL13B- RAB11FIP5 interacted in the early stage of ciliogenesis(30120249).",
+    "localization_summary": "Localizes to basal body, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

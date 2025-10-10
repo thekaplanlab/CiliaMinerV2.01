@@ -1,0 +1,136 @@
+{
+  "gene_name": "MROH2B",
+  "ensembl_id": "ENSG00000171495",
+  "synonyms": [
+    "DKFZP781F0822",
+    "FLJ40243",
+    "HEATR7B2",
+    "SPIF"
+  ],
+  "omim_id": "620930",
+  "description": "maestro heat like repeat family member 2B [Source:HGNC Symbol;Acc:HGNC:26857]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21047",
+    "PF23227",
+    "PF23221",
+    "PF23210"
+  ],
+  "domain_descriptions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Maestro heat-like repeat-containing protein",
+    "Maestro-like",
+    "HEAT-repeats domain",
+    "Maestro/Maestro-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "N-terminal HEAT-repeats domain"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Maestro heat-like repeat-containing protein",
+    "Maestro-like",
+    "HEAT-repeats domain",
+    "Maestro/Maestro-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "N-terminal HEAT-repeats domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21047",
+      "PF23227",
+      "PF23221",
+      "PF23210"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Maestro heat-like repeat-containing protein",
+    "Maestro-like",
+    "HEAT-repeats domain",
+    "Maestro/Maestro-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "HEAT-repeats domain",
+    "MROH2B-like",
+    "N-terminal HEAT-repeats domain"
+  ],
+  "ciliary_role": "MROH2B has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MROH2B is a ciliary gene encoding maestro heat like repeat family member 2b [source:hgnc symbol;acc:hgnc:26857]",
+    "functional_summary": "MROH2B has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

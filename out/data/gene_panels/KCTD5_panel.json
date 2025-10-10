@@ -1,0 +1,113 @@
+{
+  "gene_name": "KCTD5",
+  "ensembl_id": "ENSG00000167977",
+  "synonyms": [
+    "FLJ20040"
+  ],
+  "omim_id": "611285",
+  "description": "potassium channel tetramerization domain containing 5 [Source:HGNC Symbol;Acc:HGNC:21423]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02214"
+  ],
+  "domain_descriptions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02214"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "ciliary_role": "18 genes identified whose loss reduced both basal Hedgehog sig ling and sig ling in response to SAG treatment (positive regulators), 20 genes whose loss activated the pathway without need for ligand (negative regulators), and two genes, Kctd5 and Ube2l3, that increased basal expression but reduced expression driven by SAG ( 34161574)",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KCTD5 is a ciliary gene encoding potassium channel tetramerization domain containing 5 [source:hgnc symbol;acc:hgnc:21423]",
+    "functional_summary": "18 genes identified whose loss reduced both basal Hedgehog sig ling and sig ling in response to SAG treatment (positive regulators), 20 genes whose loss activated the pathway without need for ligand (...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

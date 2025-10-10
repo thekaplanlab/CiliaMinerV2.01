@@ -1,0 +1,97 @@
+{
+  "gene_name": "UFSP2",
+  "ensembl_id": "ENSG00000109775",
+  "synonyms": [
+    "C4ORF20",
+    "FLJ11200"
+  ],
+  "omim_id": "611482",
+  "description": "UFM1 specific peptidase 2 [Source:HGNC Symbol;Acc:HGNC:25640]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07910",
+    "PF20908"
+  ],
+  "domain_descriptions": [
+    "UfSP1/2/DUB",
+    "catalytic domain",
+    "Ubiquitin-fold modifier 1 specific protease 2-like",
+    "N-terminal",
+    "Papain-like cysteine peptidase superfamily"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "UfSP1/2/DUB",
+    "catalytic domain",
+    "Ubiquitin-fold modifier 1 specific protease 2-like",
+    "N-terminal",
+    "Papain-like cysteine peptidase superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07910",
+      "PF20908"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "UfSP1/2/DUB",
+    "catalytic domain",
+    "Ubiquitin-fold modifier 1 specific protease 2-like",
+    "N-terminal",
+    "Papain-like cysteine peptidase superfamily"
+  ],
+  "ciliary_role": "A subset of these receptors, such as ODR-10, requires the odr-4 and odr-8 genes to be appropriately localized to sensory cilia (24603482)",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "UFSP2 is a ciliary gene encoding ufm1 specific peptidase 2 [source:hgnc symbol;acc:hgnc:25640]",
+    "functional_summary": "A subset of these receptors, such as ODR-10, requires the odr-4 and odr-8 genes to be appropriately localized to sensory cilia (24603482)",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

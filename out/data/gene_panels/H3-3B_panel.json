@@ -1,0 +1,129 @@
+{
+  "gene_name": "H3-3B",
+  "ensembl_id": "ENSG00000132475",
+  "synonyms": [
+    "H3.3B",
+    "H3F3B"
+  ],
+  "omim_id": "601058",
+  "description": "H3.3 histone B [Source:HGNC Symbol;Acc:HGNC:4765]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00125"
+  ],
+  "domain_descriptions": [
+    "Histone H3/CENP-A",
+    "Histone H2A/H2B/H3",
+    "Histone-fold"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Histone H3/CENP-A",
+    "Histone H2A/H2B/H3",
+    "Histone-fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00125"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Histone H3/CENP-A",
+    "Histone H2A/H2B/H3",
+    "Histone-fold"
+  ],
+  "ciliary_role": "H3-3B has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "H3-3B is a ciliary gene encoding h3.3 histone b [source:hgnc symbol;acc:hgnc:4765]",
+    "functional_summary": "H3-3B has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

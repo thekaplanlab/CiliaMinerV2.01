@@ -1,0 +1,151 @@
+{
+  "gene_name": "TULP3",
+  "ensembl_id": "ENSG00000078246",
+  "synonyms": [
+    "TUBL3"
+  ],
+  "omim_id": "604730",
+  "description": "TUB like protein 3 [Source:HGNC Symbol;Acc:HGNC:12425]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01167",
+    "PF16322"
+  ],
+  "domain_descriptions": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal",
+    "Tubby",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal",
+    "Tubby",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01167",
+      "PF16322"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal",
+    "Tubby",
+    "N-terminal"
+  ],
+  "ciliary_role": "Role in intracellular transport, cell differentiation, sig ling, and motility (33187986). Associates with IFT-A in a complex to regulate trafficking and localisation of G protein-coupled receptors into cilia. Negative regulator of Hedgehog sig ling (20889716). Adapter for ciliary trafficking of membrane cargo, regulates PC1/2 complex trafficking (28154160). Required for proper Shh-dependent limb patterning, as it inhibits Gli2 activity (19286674). Essential for trafficking of Arl13b and INPP5E into cilia. Loss of function causes ciliopathy-associated polycystic kidney disease, downregulates the formation of cilia and their length (30799240, 30583862).",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TULP3 is a ciliary gene encoding tub like protein 3 [source:hgnc symbol;acc:hgnc:12425]",
+    "functional_summary": "Role in intracellular transport, cell differentiation, sig ling, and motility (33187986). Associates with IFT-A in a complex to regulate trafficking and localisation of G protein-coupled receptors int...",
+    "localization_summary": "Localizes to basal body, transition zone, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

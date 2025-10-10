@@ -1,0 +1,78 @@
+{
+  "gene_name": "C7orf57",
+  "ensembl_id": "ENSG00000164746",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "chromosome 7 open reading frame 57 [Source:HGNC Symbol;Acc:HGNC:22247]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17662"
+  ],
+  "domain_descriptions": [
+    "Protein of unknown function DUF5524"
+  ],
+  "molecular_function": [
+    "Novel / Unknown"
+  ],
+  "structural_features": [
+    "Protein of unknown function DUF5524"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17662"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein of unknown function DUF5524"
+  ],
+  "ciliary_role": "C7orf57 has localized in cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Novel / Unknown"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Novel / Unknown"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "C7orf57 is a ciliary gene encoding chromosome 7 open reading frame 57 [source:hgnc symbol;acc:hgnc:22247]",
+    "functional_summary": "C7orf57 has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

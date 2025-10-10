@@ -1,0 +1,82 @@
+{
+  "gene_name": "CRB3",
+  "ensembl_id": "ENSG00000130545",
+  "synonyms": [
+    "MGC17303"
+  ],
+  "omim_id": "609737",
+  "description": "crumbs cell polarity complex component 3 [Source:HGNC Symbol;Acc:HGNC:20237]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Epithelial polarity, tight junction formation and ciliogenesis. CRB3-CLPI isoform interacts with importin β-1 to be delivered to spindle poles during cell division and ciliogenesis, and this delivery may be important for centrosomemainte nce (17646395). It modulates intraflagellar transport and cilia elongation together with Par3/Par6/aPKC polarity complex (28882989, 15324661)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CRB3 is a ciliary gene encoding crumbs cell polarity complex component 3 [source:hgnc symbol;acc:hgnc:20237]",
+    "functional_summary": "Epithelial polarity, tight junction formation and ciliogenesis. CRB3-CLPI isoform interacts with importin β-1 to be delivered to spindle poles during cell division and ciliogenesis, and this delivery ...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

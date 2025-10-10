@@ -1,0 +1,145 @@
+{
+  "gene_name": "LGR4",
+  "ensembl_id": "ENSG00000205213",
+  "synonyms": [
+    "GPR48"
+  ],
+  "omim_id": "606666",
+  "description": "leucine rich repeat containing G protein-coupled receptor 4 [Source:HGNC Symbol;Acc:HGNC:13299]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13855",
+    "PF00560",
+    "PF01462",
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Leucine-rich repeat N-terminal domain",
+    "Leucine-rich repeat",
+    "Glycoprotein hormone receptor family",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat and transmembrane domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Leucine-rich repeat N-terminal domain",
+    "Leucine-rich repeat",
+    "Glycoprotein hormone receptor family",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat and transmembrane domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13855",
+      "PF00560",
+      "PF01462",
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Leucine-rich repeat N-terminal domain",
+    "Leucine-rich repeat",
+    "Glycoprotein hormone receptor family",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat and transmembrane domain-containing protein"
+  ],
+  "ciliary_role": "LGR4 has localized in basal body.",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LGR4 is a ciliary gene encoding leucine rich repeat containing g protein-coupled receptor 4 [source:hgnc symbol;acc:hgnc:13299]",
+    "functional_summary": "LGR4 has localized in basal body.",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

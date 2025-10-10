@@ -1,0 +1,104 @@
+{
+  "gene_name": "DNAJC5",
+  "ensembl_id": "ENSG00000101152",
+  "synonyms": [
+    "CLN4",
+    "DNAJC5A",
+    "FLJ00118",
+    "FLJ13070"
+  ],
+  "omim_id": "611203",
+  "description": "DnaJ heat shock protein family (Hsp40) member C5 [Source:HGNC Symbol;Acc:HGNC:16235]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00226"
+  ],
+  "domain_descriptions": [
+    "DnaJ domain",
+    "DnaJ domain",
+    "conserved site",
+    "Chaperone J-domain superfamily",
+    "DnaJ homolog subfamily C member 5"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "DnaJ domain",
+    "DnaJ domain",
+    "conserved site",
+    "Chaperone J-domain superfamily",
+    "DnaJ homolog subfamily C member 5"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00226"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DnaJ domain",
+    "DnaJ domain",
+    "conserved site",
+    "Chaperone J-domain superfamily",
+    "DnaJ homolog subfamily C member 5"
+  ],
+  "ciliary_role": "D JC5 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAJC5 is a ciliary gene encoding dnaj heat shock protein family (hsp40) member c5 [source:hgnc symbol;acc:hgnc:16235]",
+    "functional_summary": "D JC5 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,114 @@
+{
+  "gene_name": "IDO1",
+  "ensembl_id": "ENSG00000131203",
+  "synonyms": [
+    "IDO",
+    "INDO"
+  ],
+  "omim_id": "147435",
+  "description": "indoleamine 2,3-dioxygenase 1 [Source:HGNC Symbol;Acc:HGNC:6059]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01231"
+  ],
+  "domain_descriptions": [
+    "Indoleamine 2",
+    "3-dioxygenase",
+    "Tryptophan/Indoleamine 2",
+    "3-dioxygenase-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Indoleamine 2",
+    "3-dioxygenase",
+    "Tryptophan/Indoleamine 2",
+    "3-dioxygenase-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01231"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Indoleamine 2",
+    "3-dioxygenase",
+    "Tryptophan/Indoleamine 2",
+    "3-dioxygenase-like"
+  ],
+  "ciliary_role": "IDO1 has localized in ciliary tip, primary cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IDO1 is a ciliary gene encoding indoleamine 2,3-dioxygenase 1 [source:hgnc symbol;acc:hgnc:6059]",
+    "functional_summary": "IDO1 has localized in ciliary tip, primary cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

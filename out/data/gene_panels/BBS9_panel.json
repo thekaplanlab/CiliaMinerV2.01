@@ -1,0 +1,147 @@
+{
+  "gene_name": "BBS9",
+  "ensembl_id": "ENSG00000122507",
+  "synonyms": [
+    "B1",
+    "PTHB1"
+  ],
+  "omim_id": "607968",
+  "description": "Bardet-Biedl syndrome 9 [Source:HGNC Symbol;Acc:HGNC:30000]",
+  "protein_complexes": [
+    "BBSome"
+  ],
+  "pfam_ids": [
+    "PF14728",
+    "PF23338",
+    "PF23337",
+    "PF23339",
+    "PF14727"
+  ],
+  "domain_descriptions": [
+    "Parathyroid hormone-responsive B1",
+    "PTHB1",
+    "N-terminal domain",
+    "PTHB1",
+    "GAE domain",
+    "PTHB1",
+    "platform domain",
+    "PTHB1",
+    "hairpin domain",
+    "PTHB1",
+    "C-terminal helix bundle domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Parathyroid hormone-responsive B1",
+    "PTHB1",
+    "N-terminal domain",
+    "PTHB1",
+    "GAE domain",
+    "PTHB1",
+    "platform domain",
+    "PTHB1",
+    "hairpin domain",
+    "PTHB1",
+    "C-terminal helix bundle domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14728",
+      "PF23338",
+      "PF23337",
+      "PF23339",
+      "PF14727"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Parathyroid hormone-responsive B1",
+    "PTHB1",
+    "N-terminal domain",
+    "PTHB1",
+    "GAE domain",
+    "PTHB1",
+    "platform domain",
+    "PTHB1",
+    "hairpin domain",
+    "PTHB1",
+    "C-terminal helix bundle domain"
+  ],
+  "ciliary_role": "Mutated in Bardet-Biedl syndrome (type 7) OMIM 607968 PMID:16380913. Forms part of BBSome, important for RAB8-mediated membrane protein trafficking. Complex-organizing subunit of BBSome. 20603001, PMID:17574030, PMID:22072986",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BBS9 is a ciliary gene encoding bardet-biedl syndrome 9 [source:hgnc symbol;acc:hgnc:30000]",
+    "functional_summary": "Mutated in Bardet-Biedl syndrome (type 7) OMIM 607968 PMID:16380913. Forms part of BBSome, important for RAB8-mediated membrane protein trafficking. Complex-organizing subunit of BBSome. 20603001, PMI...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,112 @@
+{
+  "gene_name": "COX6A1",
+  "ensembl_id": "ENSG00000111775",
+  "synonyms": [
+    "COX6A",
+    "COX6AL"
+  ],
+  "omim_id": "602072",
+  "description": "cytochrome c oxidase subunit 6A1 [Source:HGNC Symbol;Acc:HGNC:2277]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02046"
+  ],
+  "domain_descriptions": [
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "conserved site",
+    "Cytochrome c oxidase",
+    "subunit VIa superfamily"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "conserved site",
+    "Cytochrome c oxidase",
+    "subunit VIa superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02046"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "Cytochrome c oxidase",
+    "subunit VIa",
+    "conserved site",
+    "Cytochrome c oxidase",
+    "subunit VIa superfamily"
+  ],
+  "ciliary_role": "COX6A1 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "COX6A1 is a ciliary gene encoding cytochrome c oxidase subunit 6a1 [source:hgnc symbol;acc:hgnc:2277]",
+    "functional_summary": "COX6A1 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,125 @@
+{
+  "gene_name": "CEP19",
+  "ensembl_id": "ENSG00000174007",
+  "synonyms": [
+    "C3ORF34",
+    "MGC14126"
+  ],
+  "omim_id": "615586",
+  "description": "centrosomal protein 19 [Source:HGNC Symbol;Acc:HGNC:28209]",
+  "protein_complexes": [
+    "CEP19-CEP350-CEP43-RABL2B complex"
+  ],
+  "pfam_ids": [
+    "PF14933"
+  ],
+  "domain_descriptions": [
+    "Centrosomal protein of 19kDa"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Centrosomal protein of 19kDa"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14933"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centrosomal protein of 19kDa"
+  ],
+  "ciliary_role": "Recruitment of ciliary vesicles to the centrioles during early ciliogenesis, which suggest it is a regulator for membrane trafficking pathways . CEP19 recruits and associates with RABL2 to the basal body, promoting cilia assembly via its interactions with the FT-B complex (28659385). CEP19-RABL2B complex plays a critical role as a regulator to initiate intraflagellar transport (28625565, 28428259).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Morbid Obesity and Spermatogenic Failure"
+  ],
+  "ciliopathy_type": "Morbid Obesity and Spermatogenic Failure",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP19 is a ciliary gene encoding centrosomal protein 19 [source:hgnc symbol;acc:hgnc:28209]",
+    "functional_summary": "Recruitment of ciliary vesicles to the centrioles during early ciliogenesis, which suggest it is a regulator for membrane trafficking pathways . CEP19 recruits and associates with RABL2 to the basal b...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "Associated with Morbid Obesity and Spermatogenic Failure",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Morbid Obesity and Spermatogenic Failure",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

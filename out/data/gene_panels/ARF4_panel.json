@@ -1,0 +1,129 @@
+{
+  "gene_name": "ARF4",
+  "ensembl_id": "ENSG00000168374",
+  "synonyms": [
+    "ARF2"
+  ],
+  "omim_id": "601177",
+  "description": "ARF GTPase 4 [Source:HGNC Symbol;Acc:HGNC:655]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00025"
+  ],
+  "domain_descriptions": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "Small GTPase superfamily",
+    "ARF type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor 1-5"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "Small GTPase superfamily",
+    "ARF type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor 1-5"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00025"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "Small GTPase superfamily",
+    "ARF type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor 1-5"
+  ],
+  "ciliary_role": "Involved in ciliary targeting of rhodopsin and other proteins with VxPx motif. 19153612. Targets proteins to cilia in association with ASAP1, RAB11 and RAB8 22983554. Dispensable for ciliogenesis",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Endosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARF4 is a ciliary gene encoding arf gtpase 4 [source:hgnc symbol;acc:hgnc:655]",
+    "functional_summary": "Involved in ciliary targeting of rhodopsin and other proteins with VxPx motif. 19153612. Targets proteins to cilia in association with ASAP1, RAB11 and RAB8 22983554. Dispensable for ciliogenesis",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

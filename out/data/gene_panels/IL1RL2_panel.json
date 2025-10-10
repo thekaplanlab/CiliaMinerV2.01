@@ -1,0 +1,114 @@
+{
+  "gene_name": "IL1RL2",
+  "ensembl_id": "ENSG00000115598",
+  "synonyms": [
+    "IL-36R",
+    "IL1R-RP2",
+    "IL1RRP2"
+  ],
+  "omim_id": "604512",
+  "description": "interleukin 1 receptor like 2 [Source:HGNC Symbol;Acc:HGNC:5999]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01582",
+    "PF13895"
+  ],
+  "domain_descriptions": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "Interleukin-1 receptor type I/II",
+    "Immunoglobulin-like fold",
+    "Interleukin-1 receptor family",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin domain subtype",
+    "Interleukin-1 receptor type 1",
+    "Immunoglobulin-like domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "Interleukin-1 receptor type I/II",
+    "Immunoglobulin-like fold",
+    "Interleukin-1 receptor family",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin domain subtype",
+    "Interleukin-1 receptor type 1",
+    "Immunoglobulin-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01582",
+      "PF13895"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "Interleukin-1 receptor type I/II",
+    "Immunoglobulin-like fold",
+    "Interleukin-1 receptor family",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin domain subtype",
+    "Interleukin-1 receptor type 1",
+    "Immunoglobulin-like domain"
+  ],
+  "ciliary_role": "IL-1RL2 localization was clear at expanded cilia of distal tubules epithelial cells after unilateral ureter obstruction (29109726).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IL1RL2 is a ciliary gene encoding interleukin 1 receptor like 2 [source:hgnc symbol;acc:hgnc:5999]",
+    "functional_summary": "IL-1RL2 localization was clear at expanded cilia of distal tubules epithelial cells after unilateral ureter obstruction (29109726).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

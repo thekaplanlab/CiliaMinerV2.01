@@ -1,0 +1,80 @@
+{
+  "gene_name": "CEP68",
+  "ensembl_id": "ENSG00000011523",
+  "synonyms": [
+    "KIAA0582"
+  ],
+  "omim_id": "616889",
+  "description": "centrosomal protein 68 [Source:HGNC Symbol;Acc:HGNC:29076]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Connection of the two centrosomes of a cell during interphase, required for cilia and mitotic spingle formation. Rootletin binds CEP68 modulating the thickness of rootletin filaments and promoting rootletin filament formation. Rootletin and CEP68 rings are the anchoring point of filaments that radiate into the cytoplasm (29463719). CEP68, C- P1 and Rootletin, cooperate in centrosome cohesion (18042621). Interacts with CEP215 to retain it on the peripheral pericentriolar material, inhibiting centriole separation following disengagement (25503564)",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP68 is a ciliary gene encoding centrosomal protein 68 [source:hgnc symbol;acc:hgnc:29076]",
+    "functional_summary": "Connection of the two centrosomes of a cell during interphase, required for cilia and mitotic spingle formation. Rootletin binds CEP68 modulating the thickness of rootletin filaments and promoting roo...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

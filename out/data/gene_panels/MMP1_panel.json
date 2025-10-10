@@ -1,0 +1,146 @@
+{
+  "gene_name": "MMP1",
+  "ensembl_id": "ENSG00000196611",
+  "synonyms": [
+    "CLG"
+  ],
+  "omim_id": "120353",
+  "description": "matrix metallopeptidase 1 [Source:HGNC Symbol;Acc:HGNC:7155]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01471",
+    "PF00413",
+    "PF00045"
+  ],
+  "domain_descriptions": [
+    "Hemopexin-like domain",
+    "Peptidase M10",
+    "metallopeptidase",
+    "Peptidoglycan binding-like",
+    "Peptidase",
+    "metallopeptidase",
+    "Hemopexin",
+    "conserved site",
+    "Hemopexin-like repeats",
+    "Peptidase M10A",
+    "cysteine switch",
+    "zinc binding site",
+    "Peptidase M10A",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "Peptidase M10A",
+    "catalytic domain",
+    "PGBD-like superfamily",
+    "Hemopexin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "ECM & connective tissue",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Hemopexin-like domain",
+    "Peptidase M10",
+    "metallopeptidase",
+    "Peptidoglycan binding-like",
+    "Peptidase",
+    "metallopeptidase",
+    "Hemopexin",
+    "conserved site",
+    "Hemopexin-like repeats",
+    "Peptidase M10A",
+    "cysteine switch",
+    "zinc binding site",
+    "Peptidase M10A",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "Peptidase M10A",
+    "catalytic domain",
+    "PGBD-like superfamily",
+    "Hemopexin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01471",
+      "PF00413",
+      "PF00045"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Hemopexin-like domain",
+    "Peptidase M10",
+    "metallopeptidase",
+    "Peptidoglycan binding-like",
+    "Peptidase",
+    "metallopeptidase",
+    "Hemopexin",
+    "conserved site",
+    "Hemopexin-like repeats",
+    "Peptidase M10A",
+    "cysteine switch",
+    "zinc binding site",
+    "Peptidase M10A",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "Peptidase M10A",
+    "catalytic domain",
+    "PGBD-like superfamily",
+    "Hemopexin-like domain superfamily"
+  ],
+  "ciliary_role": "MMP1 is significantly related to inflammatory effects and cilia function in human bronchial epithelial cells cultured at the air-liquid interface (ALI) ( 36442527).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "ECM & connective tissue",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MMP1 is a ciliary gene encoding matrix metallopeptidase 1 [source:hgnc symbol;acc:hgnc:7155]",
+    "functional_summary": "MMP1 is significantly related to inflammatory effects and cilia function in human bronchial epithelial cells cultured at the air-liquid interface (ALI) ( 36442527).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

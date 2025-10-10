@@ -1,0 +1,117 @@
+{
+  "gene_name": "BDNF",
+  "ensembl_id": "ENSG00000176697",
+  "synonyms": [],
+  "omim_id": "113505",
+  "description": "brain derived neurotrophic factor [Source:HGNC Symbol;Acc:HGNC:1033]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00243"
+  ],
+  "domain_descriptions": [
+    "Nerve growth factor-related",
+    "Nerve growth factor conserved site",
+    "Nerve growth factor-like",
+    "Brain-derived neurotrophic factor",
+    "Cystine-knot cytokine"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Nerve growth factor-related",
+    "Nerve growth factor conserved site",
+    "Nerve growth factor-like",
+    "Brain-derived neurotrophic factor",
+    "Cystine-knot cytokine"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00243"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Nerve growth factor-related",
+    "Nerve growth factor conserved site",
+    "Nerve growth factor-like",
+    "Brain-derived neurotrophic factor",
+    "Cystine-knot cytokine"
+  ],
+  "ciliary_role": "TrkB is localized to the axonemes or basal bodies of cilia only in the presence of BDNF ( 24867303).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BDNF is a ciliary gene encoding brain derived neurotrophic factor [source:hgnc symbol;acc:hgnc:1033]",
+    "functional_summary": "TrkB is localized to the axonemes or basal bodies of cilia only in the presence of BDNF ( 24867303).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

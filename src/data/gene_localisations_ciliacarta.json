@@ -1,0 +1,3026 @@
+[
+  {
+    "Human Gene Name": "5-HT6R",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ACTRT1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ADAMTS9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ADCY3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AGBL2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "AGBL4",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "AHI1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AK1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AK8",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AKAP14",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AKAP4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AKT1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ALDH1A1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ALMS1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "AMBRA1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ANKMY2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ANKS6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ANO2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ANXA1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "APP",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ARL13B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ARL2BP",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ARL3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ARL6",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ARMC3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ARMC4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ATAT1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ATG14",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ATG16L1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ATG5",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ATG7",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ATXN10",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "AURKA",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "AZI1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "B9D1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "B9D2",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "BBIP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS10",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "BBS12",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "BBS2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS4",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS5",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS7",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BBS9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BEST2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "BRWD1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C10orf107",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C11orf63",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C11orf70",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C11orf88",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C1orf114",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C1orf173",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C20orf26",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C20orf85",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C21orf2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C2CD3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C2orf71",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C4orf22",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C5orf30",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C5orf42",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C5orf49",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C6orf165",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C7orf63",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C8orf37",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C9orf116",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C9orf117",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "C9orf171",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "C9orf24",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CABYR",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CASK",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CBY1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CC2D2A",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CCDC103",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC104",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC113",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC114",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC13",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CCDC135",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC146",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC147",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CCDC151",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC164",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC17",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC170",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC173",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC176",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC33",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC37",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC39",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC40",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC41",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC65",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCDC88A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CCL15-CCL14",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CCSAP",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CCT2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CDH23",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CDHR1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CDHR3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CDKL1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CENPF",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CEP104",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CEP120",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CEP164",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CEP19",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CEP290",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CEP41",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CEP83",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CEP97",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CERKL",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CETN2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CETN3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "Cfap206",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CFAP221",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CFAP57",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Cfap58",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CFAP74",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CIB2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CLDN2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CLUAP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CNGA2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CNGB1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CRB3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CROCC",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CSNK1D",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CTD-2373H9.6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CTD-3148I10.1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CTNNB1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "CYB5D1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "CYS1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DAAM1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DCDC2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DDAH1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DFNB31",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DIAPH1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DIAPH2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DIAPH3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DISC1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DLG5",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DMD",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAAF1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DNAH1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAH10",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DNAH11",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAH5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAH9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAI2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNAJB13",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DNALI1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DPYSL2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DRD1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DSTN",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DYDC1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DYNC2LI1",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DYNLL1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DYNLT1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DYRK2",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DYX1C1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DZANK1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "DZIP1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "DZIP1L",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "EFCAB7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EFHC1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EFHC2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EHD1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ELMOD2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ELMOD3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ENAH",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ENKD1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ENKUR",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ERICH3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EVC",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EVC2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EXOC3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EXOC4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EXOC5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EXOC6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "EZR",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FAM154A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FAM154B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FAM161A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FAM179B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FAM65B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FAM92A1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FAM92B",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FANK1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FBF1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FLCN",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "FLNA",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FOPNL",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "FOXJ1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GABARAP",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GALR3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GAS8",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GLI1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GLI2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GLI3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GLIS2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GNA11",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GNAQ",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GNAS",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GNAT1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "GPR157",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GPR161",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GPR83",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GPR98",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "GRK1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GRXCR1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GSTA1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GSTA2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GSTM3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GUCA1A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GUCA1C",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "GUCY2D",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HDAC6",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "HIPK1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HSP90AA1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HSP90AB1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HTR6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HYAL3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HYDIN",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "HYLS1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ICK",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT122",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT140",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT172",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT20",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "IFT27",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "IFT43",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "IFT46",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "IFT52",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "IFT57",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT74",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT80",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT81",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IFT88",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IGF1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "INPP5E",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "INTU",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "INVS",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IPO5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "IQCB1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "KATNAL2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIAA0586",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "KIAA1377",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF17",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF19",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF24",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "KIF27",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF3A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF3B",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF5B",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "KIF7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIF9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KIFAP3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KLC3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "KLF2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "KNCN",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LAMA5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LCA5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LF4A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LKB1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRBA",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRP2BP",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRRC23",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRRC34",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRRC46",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRRC48",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LRRC6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "LUZP1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "LZTFL1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MAGI2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MAK",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MAP4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MAP9",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "MAPRE3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MARK4",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "MC4R",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MCHR1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MDM1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MKKS",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "MKS1",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "MLF1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MNS1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MOK",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MYO15A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MYO5A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MYO7A",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "MYOC",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NBEA",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NDE1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NEDD1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NEK1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NEK2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NEK4",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NEK8",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NGFR",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NINL",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NME7",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NME8",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NOTCH1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NPHP1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NPHP3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NPHP4",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NPY2R",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NUBP1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUBP2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUDC",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "NUP214",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUP35",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUP37",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUP62",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "NUP93",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "OCRL",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "ODF1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ODF2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "OFD1",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "OPN3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "OSCP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "OXCT2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PACRG",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PAFAH1B1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PAM",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PARD3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PARD6A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PCARE",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PCDH15",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PCDP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PCNT",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PDC",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PDE1C",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PDE4C",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PDE6D",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PDZD7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PEX6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PHF17",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PIK3C3",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PIK3R4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PIN1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKD1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKD1L1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKD2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKD2L1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKHD1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PKHD1L1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PLCB4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PLK1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "POC1B",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "POR",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PPP5C",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PRKACA",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PRKAR1A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PROM1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PROM2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PRPH2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PSEN1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PSEN2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "PTCH1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PTH1R",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "PTPN23",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RAB10",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB11A",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RAB23",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB27A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB28",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Rab34",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB35",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RAB8A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RABL2A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RABL2B",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RALGAPA1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RANBP1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RHO",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RIBC2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RILPL1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RILPL2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ROM1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ROPN1L",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RP11-77K12.7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RP2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RPGR",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RPGRIP1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RPGRIP1L",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RRP7A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSG1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "RSPH1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSPH10B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSPH10B2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSPH3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSPH4A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RSPH9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RTDR1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "RTTN",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "SCAPER",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SCNN1A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SDCCAG8",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "Sep-02",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Sep-04",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Sep-06",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Sep-07",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "Sep-09",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SHANK2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SHH",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SLC47A2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SMO",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SNAP25",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SNAP29",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SNTN",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SNX10",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPA17",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPAG16",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPAG4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPAG6",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPATA7",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPEF1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SPTBN5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SRGAP3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SSNA1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "SSTR3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SSX2IP",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "STK36",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "STOML3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "STRC",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SUFU",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "SYNE1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TAPT1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TAS2R4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TAS2R43",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TAS2R46",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TBC1D31",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TCTEX1D2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TCTEX1D4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TCTN1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TCTN2",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TCTN3",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TEKT1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TEKT2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TEKT3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TEKT4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TEKT5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TEX9",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TMEM107",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM138",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TMEM17",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM216",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TMEM218",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM231",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM237",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM67",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TMEM80",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TNPO1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TOPORS",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TPPP3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TRAF3IP1",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TRPV4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TSGA10",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTBK2",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTC18",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTC21B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTC25",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTC26",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTC29",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTC8",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTLL1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTLL11",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTLL3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTLL4",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTLL5",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TTLL6",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTLL7",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TTLL9",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TUBA4A",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TUBB3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TUBE1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TUBG1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TUBGCP2",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TUBGCP3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TUBGCP4",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "TULP1",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "TULP3",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "UBXN10",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "UMOD",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "UNC119B",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "USH1G",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "USH2A",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "VANGL2",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "VDAC1",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "VHL",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "VPS35",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WASF3",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "WDPCP",
+    "Basal Body": 0,
+    "Transition Zone": 1,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "WDR11",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR16",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 0
+  },
+  {
+    "Human Gene Name": "WDR19",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR31",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR34",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR35",
+    "Basal Body": 1,
+    "Transition Zone": 1,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR5",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR60",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "WDR78",
+    "Basal Body": 0,
+    "Transition Zone": 0,
+    "Cilia": 1
+  },
+  {
+    "Human Gene Name": "ZMYND10",
+    "Basal Body": 1,
+    "Transition Zone": 0,
+    "Cilia": 1
+  }
+]

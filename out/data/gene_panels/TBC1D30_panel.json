@@ -1,0 +1,103 @@
+{
+  "gene_name": "TBC1D30",
+  "ensembl_id": "ENSG00000111490",
+  "synonyms": [
+    "KIAA0984"
+  ],
+  "omim_id": "615077",
+  "description": "TBC1 domain family member 30 [Source:HGNC Symbol;Acc:HGNC:29164]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00566",
+    "PF15733"
+  ],
+  "domain_descriptions": [
+    "Rab-GAP-TBC domain",
+    "TBC1 domain family member 30",
+    "C-terminal",
+    "Rab-GAP-TBC domain superfamily"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Rab-GAP-TBC domain",
+    "TBC1 domain family member 30",
+    "C-terminal",
+    "Rab-GAP-TBC domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00566",
+      "PF15733"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rab-GAP-TBC domain",
+    "TBC1 domain family member 30",
+    "C-terminal",
+    "Rab-GAP-TBC domain superfamily"
+  ],
+  "ciliary_role": "PMID:17646400 involved in membrane trafficking, necessary for ciliogenesis (17646400). GAP protein that regulates activity of specific Rab GTPases including RAB3A22 and RAB8A (23263489).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TBC1D30 is a ciliary gene encoding tbc1 domain family member 30 [source:hgnc symbol;acc:hgnc:29164]",
+    "functional_summary": "PMID:17646400 involved in membrane trafficking, necessary for ciliogenesis (17646400). GAP protein that regulates activity of specific Rab GTPases including RAB3A22 and RAB8A (23263489).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

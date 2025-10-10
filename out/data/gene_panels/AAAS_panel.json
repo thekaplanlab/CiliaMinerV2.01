@@ -1,0 +1,16 @@
+{
+  "gene_name": "AAAS",
+  "ensembl_id": "ENSG00000291836; ENSG00000094914",
+  "description": "aladin WD repeat nucleoporin [Source:HGNC Symbol;Acc:HGNC:13666]",
+  "omim_id": "605378",
+  "localization": "flagella, Centrosome, Nucleus",
+  "functional_summary": "AAAS has localized in flagella.",
+  "ciliopathy": NaN,
+  "functional_category": "T cell biology, Immune regulation, Small GTPases, Metabolism, Viral interactions, Actin & cytoskeleton regulation, Reproduction & sperm, Ciliary assembly/disassembly, Cytoskeleton/adhesion links",
+  "ai_summary": {
+    "basic_summary": "AAAS is a ciliary gene",
+    "functional_summary": "AAAS has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Centrosome, Nucleus",
+    "clinical_relevance": NaN
+  }
+}

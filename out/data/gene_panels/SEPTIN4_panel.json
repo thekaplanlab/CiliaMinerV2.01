@@ -1,0 +1,133 @@
+{
+  "gene_name": "SEPTIN4",
+  "ensembl_id": "ENSG00000108387",
+  "synonyms": [
+    "ARTS",
+    "C17ORF47",
+    "CE5B3",
+    "FLJ40121",
+    "H5",
+    "HCDCREL-2",
+    "HUCEP-7",
+    "MART",
+    "PNUTL2",
+    "SEPT4",
+    "SEPTIN-4"
+  ],
+  "omim_id": "603696",
+  "description": "septin 4 [Source:HGNC Symbol;Acc:HGNC:9165]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00735",
+    "PF15548"
+  ],
+  "domain_descriptions": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain",
+    "Protein of unknown function DUF4655"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Neurogenesis & migration",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain",
+    "Protein of unknown function DUF4655"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00735",
+      "PF15548"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain",
+    "Protein of unknown function DUF4655"
+  ],
+  "ciliary_role": "Septins are either enriched at the apical cell cortex including the ciliary bases (septin-2, -4, -6, and -7), or show axonemal staining (septin-2, -7, -9 and -11) or specifically localize to ciliary sub-compartments (septin-8 and -9)(24317785).",
+  "localization": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Neurogenesis & migration",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Neurogenesis & migration",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SEPTIN4 is a ciliary gene encoding septin 4 [source:hgnc symbol;acc:hgnc:9165]",
+    "functional_summary": "Septins are either enriched at the apical cell cortex including the ciliary bases (septin-2, -4, -6, and -7), or show axonemal staining (septin-2, -7, -9 and -11) or specifically localize to ciliary s...",
+    "localization_summary": "Localizes to basal body, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

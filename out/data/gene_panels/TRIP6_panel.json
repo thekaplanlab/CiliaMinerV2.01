@@ -1,0 +1,106 @@
+{
+  "gene_name": "TRIP6",
+  "ensembl_id": "ENSG00000087077",
+  "synonyms": [
+    "MGC10556",
+    "MGC10558",
+    "MGC29959",
+    "MGC3837",
+    "MGC4423",
+    "OIP1",
+    "ZRP-1"
+  ],
+  "omim_id": "602933",
+  "description": "thyroid hormone receptor interactor 6 [Source:HGNC Symbol;Acc:HGNC:12311]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00412"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "LIM-type"
+  ],
+  "molecular_function": [
+    "Transport",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "LIM-type"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00412"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "LIM-type"
+  ],
+  "ciliary_role": "The requirement for homodimerization which doubles its interaction sites, its punctate localization along the axoneme, and its co-localization with other cilia components suggest a scaffold/co-transporter function for TRIP6 in cilia(34620853).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transport",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transport",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TRIP6 is a ciliary gene encoding thyroid hormone receptor interactor 6 [source:hgnc symbol;acc:hgnc:12311]",
+    "functional_summary": "The requirement for homodimerization which doubles its interaction sites, its punctate localization along the axoneme, and its co-localization with other cilia components suggest a scaffold/co-transpo...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

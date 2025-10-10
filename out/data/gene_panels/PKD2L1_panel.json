@@ -1,0 +1,148 @@
+{
+  "gene_name": "PKD2L1",
+  "ensembl_id": "ENSG00000107593",
+  "synonyms": [
+    "PCL",
+    "PKD2L",
+    "PKDL",
+    "TRPP3"
+  ],
+  "omim_id": "604532",
+  "description": "polycystin 2 like 1, transient receptor potential cation channel [Source:HGNC Symbol;Acc:HGNC:9011]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF20519",
+    "PF08016",
+    "PF18109"
+  ],
+  "domain_descriptions": [
+    "Polycystic kidney disease type 2 protein",
+    "Polycystin cation channel",
+    "PKD1/PKD2",
+    "Voltage-dependent channel domain superfamily",
+    "Polycystin domain",
+    "Polycystin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Polycystic kidney disease type 2 protein",
+    "Polycystin cation channel",
+    "PKD1/PKD2",
+    "Voltage-dependent channel domain superfamily",
+    "Polycystin domain",
+    "Polycystin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF20519",
+      "PF08016",
+      "PF18109"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Polycystic kidney disease type 2 protein",
+    "Polycystin cation channel",
+    "PKD1/PKD2",
+    "Voltage-dependent channel domain superfamily",
+    "Polycystin domain",
+    "Polycystin"
+  ],
+  "ciliary_role": "PKD1L1-PKD2L1 acts as a ciliary calcium channel controlling ciliary calcium concentration and thereby modifying SMO-activated GLI2 translocation and GLI1 expression (24336288). Plays a role in localization with 尾2- adrenergic receptor (尾2AR) on the neuro l primary cilia (29230552).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PKD2L1 is a ciliary gene encoding polycystin 2 like 1, transient receptor potential cation channel [source:hgnc symbol;acc:hgnc:9011]",
+    "functional_summary": "PKD1L1-PKD2L1 acts as a ciliary calcium channel controlling ciliary calcium concentration and thereby modifying SMO-activated GLI2 translocation and GLI1 expression (24336288). Plays a role in localiz...",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,155 @@
+{
+  "gene_name": "CCN2",
+  "ensembl_id": "ENSG00000118523",
+  "synonyms": [
+    "CTGF",
+    "IGFBP8"
+  ],
+  "omim_id": "121009",
+  "description": "cellular communication network factor 2 [Source:HGNC Symbol;Acc:HGNC:2500]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00219",
+    "PF00007",
+    "PF19035",
+    "PF00093"
+  ],
+  "domain_descriptions": [
+    "Insulin-like growth factor-binding protein",
+    "IGFBP",
+    "Thrombospondin type-1 (TSP1) repeat",
+    "VWFC domain",
+    "Cystine knot",
+    "C-terminal",
+    "Glycoprotein hormone subunit beta",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "IGFBP-related",
+    "CNN",
+    "Insulin-like growth factor binding protein",
+    "N-terminal",
+    "Cys-rich conserved site",
+    "Thrombospondin type-1 (TSP1) repeat superfamily",
+    "CCN",
+    "TSP1 domain",
+    "Cellular Communication Network Factor"
+  ],
+  "molecular_function": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Insulin-like growth factor-binding protein",
+    "IGFBP",
+    "Thrombospondin type-1 (TSP1) repeat",
+    "VWFC domain",
+    "Cystine knot",
+    "C-terminal",
+    "Glycoprotein hormone subunit beta",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "IGFBP-related",
+    "CNN",
+    "Insulin-like growth factor binding protein",
+    "N-terminal",
+    "Cys-rich conserved site",
+    "Thrombospondin type-1 (TSP1) repeat superfamily",
+    "CCN",
+    "TSP1 domain",
+    "Cellular Communication Network Factor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00219",
+      "PF00007",
+      "PF19035",
+      "PF00093"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Insulin-like growth factor-binding protein",
+    "IGFBP",
+    "Thrombospondin type-1 (TSP1) repeat",
+    "VWFC domain",
+    "Cystine knot",
+    "C-terminal",
+    "Glycoprotein hormone subunit beta",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "IGFBP-related",
+    "CNN",
+    "Insulin-like growth factor binding protein",
+    "N-terminal",
+    "Cys-rich conserved site",
+    "Thrombospondin type-1 (TSP1) repeat superfamily",
+    "CCN",
+    "TSP1 domain",
+    "Cellular Communication Network Factor"
+  ],
+  "ciliary_role": "PTH1R localized to the primary cilium and this ciliary localization enhances parathyroid hormone (PTH) sig ling, leading to the transcription of integrin αvβ6. Subsequently, this activates the transforming growth factor-beta (TGF-β) pathway, which induces CCN2 expression. CCN2 then contributes to extracellular matrix production, aiding in disc homeostasis and regeneration ( 30038820).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "ECM & connective tissue",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCN2 is a ciliary gene encoding cellular communication network factor 2 [source:hgnc symbol;acc:hgnc:2500]",
+    "functional_summary": "PTH1R localized to the primary cilium and this ciliary localization enhances parathyroid hormone (PTH) sig ling, leading to the transcription of integrin αvβ6. Subsequently, this activates the transfo...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

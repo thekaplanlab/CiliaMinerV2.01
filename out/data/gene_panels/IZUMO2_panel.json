@@ -1,0 +1,87 @@
+{
+  "gene_name": "IZUMO2",
+  "ensembl_id": "ENSG00000161652",
+  "synonyms": [
+    "C19ORF41",
+    "MGC33947",
+    "SCRL"
+  ],
+  "omim_id": "618895",
+  "description": "IZUMO family member 2 [Source:HGNC Symbol;Acc:HGNC:28518]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15005"
+  ],
+  "domain_descriptions": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion protein 2"
+  ],
+  "molecular_function": [
+    "Reproduction & sperm"
+  ],
+  "structural_features": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion protein 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15005"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Izumo sperm-egg fusion protein",
+    "Izumo sperm-egg fusion protein 2"
+  ],
+  "ciliary_role": "IZUMO2 localized to mid piece, flagella (25613900).",
+  "localization": [
+    "flagella",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Reproduction & sperm"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Reproduction & sperm"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IZUMO2 is a ciliary gene encoding izumo family member 2 [source:hgnc symbol;acc:hgnc:28518]",
+    "functional_summary": "IZUMO2 localized to mid piece, flagella (25613900).",
+    "localization_summary": "Localizes to flagella, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

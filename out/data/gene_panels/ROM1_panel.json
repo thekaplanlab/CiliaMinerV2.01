@@ -1,0 +1,109 @@
+{
+  "gene_name": "ROM1",
+  "ensembl_id": "ENSG00000149489",
+  "synonyms": [
+    "ROM",
+    "TSPAN23"
+  ],
+  "omim_id": "180721",
+  "description": "retinal outer segment membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:10254]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00335"
+  ],
+  "domain_descriptions": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "molecular_function": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00335"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "ciliary_role": "Outer segment protein. Its localisation depends on AHI1 (20592197). Non- covalently linked PRPH2/ROM1 complex can initiate OS formation, whilst covalent oligomerisation is required for proper OS maturation (32716032, 29961824). Creates and maintains the rim region of rod discs and cone lamellae and help to regulate disc size and alignment (29961824). Homozygous frameshift mutation has been recently associated with pattern dystrophy (30630813).",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ROM1 is a ciliary gene encoding retinal outer segment membrane protein 1 [source:hgnc symbol;acc:hgnc:10254]",
+    "functional_summary": "Outer segment protein. Its localisation depends on AHI1 (20592197). Non- covalently linked PRPH2/ROM1 complex can initiate OS formation, whilst covalent oligomerisation is required for proper OS matur...",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,114 @@
+{
+  "gene_name": "SUGT1",
+  "ensembl_id": "ENSG00000165416",
+  "synonyms": [
+    "SGT1"
+  ],
+  "omim_id": "604098",
+  "description": "SGT1 homolog, MIS12 kinetochore complex assembly cochaperone [Source:HGNC Symbol;Acc:HGNC:16987]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04969",
+    "PF13432",
+    "PF05002"
+  ],
+  "domain_descriptions": [
+    "CS domain",
+    "SGS domain",
+    "HSP20-like chaperone",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Protein Sgt1-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "CS domain",
+    "SGS domain",
+    "HSP20-like chaperone",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Protein Sgt1-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04969",
+      "PF13432",
+      "PF05002"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CS domain",
+    "SGS domain",
+    "HSP20-like chaperone",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Protein Sgt1-like"
+  ],
+  "ciliary_role": "SUGT1 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SUGT1 is a ciliary gene encoding sgt1 homolog, mis12 kinetochore complex assembly cochaperone [source:hgnc symbol;acc:hgnc:16987]",
+    "functional_summary": "SUGT1 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

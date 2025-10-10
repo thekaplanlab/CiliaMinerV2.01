@@ -1,0 +1,133 @@
+{
+  "gene_name": "UBE2B",
+  "ensembl_id": "ENSG00000119048",
+  "synonyms": [
+    "HHR6B",
+    "RAD6B",
+    "UBC2"
+  ],
+  "omim_id": "179095",
+  "description": "ubiquitin conjugating enzyme E2 B [Source:HGNC Symbol;Acc:HGNC:12473]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00179"
+  ],
+  "domain_descriptions": [
+    "Ubiquitin-conjugating enzyme E2",
+    "catalytic core domain",
+    "Ubiquitin-conjugating enzyme/RWD-like",
+    "Ubiquitin-conjugating enzyme",
+    "Ubiquitin-conjugating enzyme",
+    "active site"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Ubiquitin-conjugating enzyme E2",
+    "catalytic core domain",
+    "Ubiquitin-conjugating enzyme/RWD-like",
+    "Ubiquitin-conjugating enzyme",
+    "Ubiquitin-conjugating enzyme",
+    "active site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00179"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ubiquitin-conjugating enzyme E2",
+    "catalytic core domain",
+    "Ubiquitin-conjugating enzyme/RWD-like",
+    "Ubiquitin-conjugating enzyme",
+    "Ubiquitin-conjugating enzyme",
+    "active site"
+  ],
+  "ciliary_role": "UBE2B localized to flagella (25613900)",
+  "localization": [
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "UBE2B is a ciliary gene encoding ubiquitin conjugating enzyme e2 b [source:hgnc symbol;acc:hgnc:12473]",
+    "functional_summary": "UBE2B localized to flagella (25613900)",
+    "localization_summary": "Localizes to flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

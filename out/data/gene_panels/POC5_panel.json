@@ -1,0 +1,83 @@
+{
+  "gene_name": "POC5",
+  "ensembl_id": "ENSG00000152359",
+  "synonyms": [
+    "C5ORF37",
+    "FLJ35779",
+    "HPOC5",
+    "MGC120442",
+    "MGC120443",
+    "MGC120444"
+  ],
+  "omim_id": "617880",
+  "description": "POC5 centriolar protein [Source:HGNC Symbol;Acc:HGNC:26658]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Essential for assembling the distal half of the centriole and the elongation of the centrioles. Mutations of POC5 alter its subcellular localization and induce ciliary retraction (19349582), in addition, impair cell cycle, cilia length and centrosome protein interactions (30845169 ).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "POC5 is a ciliary gene encoding poc5 centriolar protein [source:hgnc symbol;acc:hgnc:26658]",
+    "functional_summary": "Essential for assembling the distal half of the centriole and the elongation of the centrioles. Mutations of POC5 alter its subcellular localization and induce ciliary retraction (19349582), in additi...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

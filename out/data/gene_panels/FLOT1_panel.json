@@ -1,0 +1,103 @@
+{
+  "gene_name": "FLOT1",
+  "ensembl_id": "ENSG00000137312; ENSG00000206379; ENSG00000230143; ENSG00000232280; ENSG00000223654; ENSG00000236271; ENSG00000224740; ENSG00000206480",
+  "synonyms": [],
+  "omim_id": "606998",
+  "description": "flotillin 1 [Source:HGNC Symbol;Acc:HGNC:3757]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "FLOT1 have interactions of with BBS proteins and FLOT1 localize , at least partially, with g-tubulin within centrosomes (18000879). ,",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FLOT1 is a ciliary gene encoding flotillin 1 [source:hgnc symbol;acc:hgnc:3757]",
+    "functional_summary": "FLOT1 have interactions of with BBS proteins and FLOT1 localize , at least partially, with g-tubulin within centrosomes (18000879). ,",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

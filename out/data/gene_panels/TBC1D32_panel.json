@@ -1,0 +1,132 @@
+{
+  "gene_name": "TBC1D32",
+  "ensembl_id": "ENSG00000146350",
+  "synonyms": [
+    "BA57L9.1",
+    "BROMI",
+    "C6ORF170",
+    "C6ORF171",
+    "DJ310J6.1",
+    "FLJ30899",
+    "FLJ34235"
+  ],
+  "omim_id": "615867",
+  "description": "TBC1 domain family member 32 [Source:HGNC Symbol;Acc:HGNC:21485]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14961",
+    "PF23440",
+    "PF23431"
+  ],
+  "domain_descriptions": [
+    "BROMI",
+    "middle region",
+    "Rab-GAP-TBC domain superfamily",
+    "PHAF1/Protein broad-minded",
+    "BROMI",
+    "N-terminal domain",
+    "BROMI",
+    "C-terminal Rab TBC-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "BROMI",
+    "middle region",
+    "Rab-GAP-TBC domain superfamily",
+    "PHAF1/Protein broad-minded",
+    "BROMI",
+    "N-terminal domain",
+    "BROMI",
+    "C-terminal Rab TBC-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14961",
+      "PF23440",
+      "PF23431"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BROMI",
+    "middle region",
+    "Rab-GAP-TBC domain superfamily",
+    "PHAF1/Protein broad-minded",
+    "BROMI",
+    "N-terminal domain",
+    "BROMI",
+    "C-terminal Rab TBC-like domain"
+  ],
+  "ciliary_role": "Mutations have been found in patients with a severe ciliopathy phenotype, including autosomal recessive OFD (24285566, 32573025). Interacts with Dzip1l to regulate neural tube patterning and ciliogenesis before the docking of ciliary vesicle to the basal body (29487109). Ciliary gene implicated in SHH sig ling, controls ciliary morphology and Gli2 localisation within the cilium. Required for proper association between the ciliary membrane and axoneme and axonemal shape (20159594).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TBC1D32 is a ciliary gene encoding tbc1 domain family member 32 [source:hgnc symbol;acc:hgnc:21485]",
+    "functional_summary": "Mutations have been found in patients with a severe ciliopathy phenotype, including autosomal recessive OFD (24285566, 32573025). Interacts with Dzip1l to regulate neural tube patterning and ciliogene...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

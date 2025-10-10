@@ -1,0 +1,156 @@
+{
+  "gene_name": "PSMA6",
+  "ensembl_id": "ENSG00000100902",
+  "synonyms": [
+    "IOTA",
+    "MGC22756",
+    "MGC2333",
+    "MGC23846",
+    "P27K",
+    "PROS27"
+  ],
+  "omim_id": "602855",
+  "description": "proteasome 20S subunit alpha 6 [Source:HGNC Symbol;Acc:HGNC:9535]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00227",
+    "PF10584"
+  ],
+  "domain_descriptions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha6",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha6",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00227",
+      "PF10584"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome alpha-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Proteasome subunit alpha6",
+    "Proteasome subunit alpha",
+    "Proteasome alpha-subunit",
+    "N-terminal domain"
+  ],
+  "ciliary_role": "PSMA6 localized at cilia",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PSMA6 is a ciliary gene encoding proteasome 20s subunit alpha 6 [source:hgnc symbol;acc:hgnc:9535]",
+    "functional_summary": "PSMA6 localized at cilia",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus, P-body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,125 @@
+{
+  "gene_name": "PTCH2",
+  "ensembl_id": "ENSG00000117425",
+  "synonyms": [
+    "SLC65B2"
+  ],
+  "omim_id": "603673",
+  "description": "patched 2 [Source:HGNC Symbol;Acc:HGNC:9586]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12349"
+  ],
+  "domain_descriptions": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12349"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "ciliary_role": "Although HHIP1 functions semi-redundantly with PTCH1 to restrict HH sig ling in the developing nervous system, a role for PTCH2 remains unresolved. PTCH2 has a ciliary localization as a HH pathway antagonist (23900540).",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Medulloblastoma"
+  ],
+  "ciliopathy_type": "Medulloblastoma",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PTCH2 is a ciliary gene encoding patched 2 [source:hgnc symbol;acc:hgnc:9586]",
+    "functional_summary": "Although HHIP1 functions semi-redundantly with PTCH1 to restrict HH sig ling in the developing nervous system, a role for PTCH2 remains unresolved. PTCH2 has a ciliary localization as a HH pathway ant...",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "Associated with Medulloblastoma",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Medulloblastoma",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

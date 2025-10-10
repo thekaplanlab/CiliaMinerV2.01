@@ -1,0 +1,152 @@
+{
+  "gene_name": "PSME3",
+  "ensembl_id": "ENSG00000131467",
+  "synonyms": [
+    "KI",
+    "PA28-GAMMA",
+    "PA28G",
+    "REG-GAMMA"
+  ],
+  "omim_id": "605129",
+  "description": "proteasome activator subunit 3 [Source:HGNC Symbol;Acc:HGNC:9570]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02252",
+    "PF02251"
+  ],
+  "domain_descriptions": [
+    "Proteasome activator PA28",
+    "C-terminal domain",
+    "Proteasome activator PA28",
+    "Proteasome activator superfamily",
+    "Proteasome activator PA28",
+    "C-terminal domain superfamily",
+    "Proteasome activator PA28",
+    "N-terminal domain",
+    "Proteasome activator PA28",
+    "N-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Proteasome activator PA28",
+    "C-terminal domain",
+    "Proteasome activator PA28",
+    "Proteasome activator superfamily",
+    "Proteasome activator PA28",
+    "C-terminal domain superfamily",
+    "Proteasome activator PA28",
+    "N-terminal domain",
+    "Proteasome activator PA28",
+    "N-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02252",
+      "PF02251"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Proteasome activator PA28",
+    "C-terminal domain",
+    "Proteasome activator PA28",
+    "Proteasome activator superfamily",
+    "Proteasome activator PA28",
+    "C-terminal domain superfamily",
+    "Proteasome activator PA28",
+    "N-terminal domain",
+    "Proteasome activator PA28",
+    "N-terminal domain superfamily"
+  ],
+  "ciliary_role": "PSME3 localized at cilia",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PSME3 is a ciliary gene encoding proteasome activator subunit 3 [source:hgnc symbol;acc:hgnc:9570]",
+    "functional_summary": "PSME3 localized at cilia",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

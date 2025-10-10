@@ -1,0 +1,102 @@
+{
+  "gene_name": "PDZD7",
+  "ensembl_id": "ENSG00000186862",
+  "synonyms": [
+    "BA108L7.8",
+    "DFNB57",
+    "FLJ23209",
+    "PDZK7"
+  ],
+  "omim_id": "612971",
+  "description": "PDZ domain containing 7 [Source:HGNC Symbol;Acc:HGNC:26257]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00595"
+  ],
+  "domain_descriptions": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "PDZD7",
+    "Harmonin N-like domain",
+    "Sensory Perception USH2 Complex Protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "PDZD7",
+    "Harmonin N-like domain",
+    "Sensory Perception USH2 Complex Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00595"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "PDZD7",
+    "Harmonin N-like domain",
+    "Sensory Perception USH2 Complex Protein"
+  ],
+  "ciliary_role": "Reti l disease modifier in patients with digenic Usher syndrome. Homolog of whirlin (USH2D) and harmonin (USH1C). Part of the Usher protein complex (20440071). It positions and stabilises GPR98 (23055499).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Usher Syndrome"
+  ],
+  "ciliopathy_type": "Usher Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PDZD7 is a ciliary gene encoding pdz domain containing 7 [source:hgnc symbol;acc:hgnc:26257]",
+    "functional_summary": "Reti l disease modifier in patients with digenic Usher syndrome. Homolog of whirlin (USH2D) and harmonin (USH1C). Part of the Usher protein complex (20440071). It positions and stabilises GPR98 (23055...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "Associated with Usher Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Usher Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,158 @@
+{
+  "gene_name": "USP9X",
+  "ensembl_id": "ENSG00000124486",
+  "synonyms": [
+    "DFFRX",
+    "FAF",
+    "FAF-X",
+    "MRX99"
+  ],
+  "omim_id": "300072",
+  "description": "ubiquitin specific peptidase 9 X-linked [Source:HGNC Symbol;Acc:HGNC:12632]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF25010",
+    "PF22900",
+    "PF00443",
+    "PF12030"
+  ],
+  "domain_descriptions": [
+    "Armadillo-type fold",
+    "UBP24/USP9X/USP9Y",
+    "ubiquitin-like domain",
+    "UBP34/UBP24/USP9X/USP9Y-like",
+    "ARM repeat region",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin C-terminal hydrolase-like",
+    "DUF3517",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Armadillo-type fold",
+    "UBP24/USP9X/USP9Y",
+    "ubiquitin-like domain",
+    "UBP34/UBP24/USP9X/USP9Y-like",
+    "ARM repeat region",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin C-terminal hydrolase-like",
+    "DUF3517",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF25010",
+      "PF22900",
+      "PF00443",
+      "PF12030"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo-type fold",
+    "UBP24/USP9X/USP9Y",
+    "ubiquitin-like domain",
+    "UBP34/UBP24/USP9X/USP9Y-like",
+    "ARM repeat region",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin C-terminal hydrolase-like",
+    "DUF3517",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolases"
+  ],
+  "ciliary_role": "Deubiquiti ting enzyme localised to centrosome, involved in context-dependent ciliogenesis. Regulates level of ubiquiti tion of NPHP5 to control ciliogenesis. In the G0/G1/S phase, USP9X is recruited to the centrosome by NPHP5, and later protects NPHP5 from ubiquiti tion, promoting cilia assembly. In the G2/M phase, USP9X dissociates from the centrosome allowing BBS11 to K63 ubiquiti te NPHP5, triggering loss of cilia. Works with two E3 ubiquitin ligases BBS11/TRIM32 and MARCHF7 (28498859). Binds and stabilises PCM1 to prevent its degradation and regulate centriolar satellite integrity. Regulates centrosome duplication (30584065). During Serum- Starvation-Induced Ciliogenesis, it is recruited by SNX17 to antagonize MIB1- Mediated Ubiquiti tion and Degradation of PCM1 (31671755).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP9X is a ciliary gene encoding ubiquitin specific peptidase 9 x-linked [source:hgnc symbol;acc:hgnc:12632]",
+    "functional_summary": "Deubiquiti ting enzyme localised to centrosome, involved in context-dependent ciliogenesis. Regulates level of ubiquiti tion of NPHP5 to control ciliogenesis. In the G0/G1/S phase, USP9X is recruited ...",
+    "localization_summary": "Localizes to basal body, cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,95 @@
+{
+  "gene_name": "TXNDC15",
+  "ensembl_id": "ENSG00000113621",
+  "synonyms": [
+    "2310047H23RIK",
+    "C5ORF14",
+    "FLJ22625",
+    "TMX5"
+  ],
+  "omim_id": "617778",
+  "description": "thioredoxin domain containing 15 [Source:HGNC Symbol;Acc:HGNC:20652]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00085"
+  ],
+  "domain_descriptions": [
+    "Thioredoxin domain",
+    "Thioredoxin-like superfamily",
+    "Thioredoxin domain-containing protein 15"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Thioredoxin domain",
+    "Thioredoxin-like superfamily",
+    "Thioredoxin domain-containing protein 15"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00085"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Thioredoxin domain",
+    "Thioredoxin-like superfamily",
+    "Thioredoxin domain-containing protein 15"
+  ],
+  "ciliary_role": "Mutated in patients with Meckel-Gruber syndrome (27894351, 30851085, 31411728). Loss of TXNDC15 prevented correct localization of the TMEM67 ciliary receptor to the transition zone (27894351).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome",
+    "Meckel–Gruber Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome, Meckel–Gruber Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TXNDC15 is a ciliary gene encoding thioredoxin domain containing 15 [source:hgnc symbol;acc:hgnc:20652]",
+    "functional_summary": "Mutated in patients with Meckel-Gruber syndrome (27894351, 30851085, 31411728). Loss of TXNDC15 prevented correct localization of the TMEM67 ciliary receptor to the transition zone (27894351).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Joubert Syndrome, Meckel–Gruber Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome, Meckel–Gruber Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

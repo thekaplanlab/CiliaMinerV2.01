@@ -1,0 +1,112 @@
+{
+  "gene_name": "FRS2",
+  "ensembl_id": "ENSG00000166225",
+  "synonyms": [
+    "FRS2A",
+    "FRS2ALPHA",
+    "SNT-1",
+    "SNT1"
+  ],
+  "omim_id": "",
+  "description": "fibroblast growth factor receptor substrate 2 [Source:HGNC Symbol;Acc:HGNC:16971]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02174"
+  ],
+  "domain_descriptions": [
+    "IRS-type PTB domain",
+    "PH-like domain superfamily",
+    "FRS2",
+    "PTB domain",
+    "Docking Protein Family (DOK)"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling"
+  ],
+  "structural_features": [
+    "IRS-type PTB domain",
+    "PH-like domain superfamily",
+    "FRS2",
+    "PTB domain",
+    "Docking Protein Family (DOK)"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02174"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "IRS-type PTB domain",
+    "PH-like domain superfamily",
+    "FRS2",
+    "PTB domain",
+    "Docking Protein Family (DOK)"
+  ],
+  "ciliary_role": "Upon FGF10 stimulation, the activated FGFR2 initiates the downstream sig ling by phosphorylation (p) of FRS2, MEK1, ERK1/2, and p38(MAPK14 ) within the cilium, which results in transcription of the target genes(40257378).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FRS2 is a ciliary gene encoding fibroblast growth factor receptor substrate 2 [source:hgnc symbol;acc:hgnc:16971]",
+    "functional_summary": "Upon FGF10 stimulation, the activated FGFR2 initiates the downstream sig ling by phosphorylation (p) of FRS2, MEK1, ERK1/2, and p38(MAPK14 ) within the cilium, which results in transcription of the ta...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

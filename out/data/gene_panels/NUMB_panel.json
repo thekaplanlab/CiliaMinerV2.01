@@ -1,0 +1,149 @@
+{
+  "gene_name": "NUMB",
+  "ensembl_id": "ENSG00000133961",
+  "synonyms": [
+    "C14ORF41"
+  ],
+  "omim_id": "603728",
+  "description": "NUMB endocytic adaptor protein [Source:HGNC Symbol;Acc:HGNC:8060]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00640",
+    "PF06311"
+  ],
+  "domain_descriptions": [
+    "PTB/PI domain",
+    "NUMB domain",
+    "PH-like domain superfamily",
+    "Numb/numb-like"
+  ],
+  "molecular_function": [
+    "Rootlets / ciliary pocket",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "PTB/PI domain",
+    "NUMB domain",
+    "PH-like domain superfamily",
+    "Numb/numb-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00640",
+      "PF06311"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PTB/PI domain",
+    "NUMB domain",
+    "PH-like domain superfamily",
+    "Numb/numb-like"
+  ],
+  "ciliary_role": "Potential role in regulation of protein trafficking and polarised delivery of Cng channels to photoreceptor cilia, through recycling endosomes for delivery to OS plasma membrane (25319694 ).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Rootlets / ciliary pocket",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Rootlets / ciliary pocket",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NUMB is a ciliary gene encoding numb endocytic adaptor protein [source:hgnc symbol;acc:hgnc:8060]",
+    "functional_summary": "Potential role in regulation of protein trafficking and polarised delivery of Cng channels to photoreceptor cilia, through recycling endosomes for delivery to OS plasma membrane (25319694 ).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

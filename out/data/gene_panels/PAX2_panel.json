@@ -1,0 +1,124 @@
+{
+  "gene_name": "PAX2",
+  "ensembl_id": "ENSG00000075891",
+  "synonyms": [
+    "PAX-2"
+  ],
+  "omim_id": "167409",
+  "description": "paired box 2 [Source:HGNC Symbol;Acc:HGNC:8616]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00292",
+    "PF12403"
+  ],
+  "domain_descriptions": [
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Paired-box protein 2 C-terminal",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Paired DNA-binding domain",
+    "PAX family"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Paired-box protein 2 C-terminal",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Paired DNA-binding domain",
+    "PAX family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00292",
+      "PF12403"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Paired-box protein 2 C-terminal",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Paired DNA-binding domain",
+    "PAX family"
+  ],
+  "ciliary_role": "PAX2 have interactions of with BBS proteins and PAX2 localize , at least partially, with g-tubulin within centrosomes (18000879). ,",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PAX2 is a ciliary gene encoding paired box 2 [source:hgnc symbol;acc:hgnc:8616]",
+    "functional_summary": "PAX2 have interactions of with BBS proteins and PAX2 localize , at least partially, with g-tubulin within centrosomes (18000879). ,",
+    "localization_summary": "Localizes to basal body, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

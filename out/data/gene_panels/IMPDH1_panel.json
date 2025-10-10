@@ -1,0 +1,81 @@
+{
+  "gene_name": "IMPDH1",
+  "ensembl_id": "ENSG00000106348",
+  "synonyms": [
+    "LCA11",
+    "RP10",
+    "SWSS2608"
+  ],
+  "omim_id": "146690",
+  "description": "inosine monophosphate dehydrogenase 1 [Source:HGNC Symbol;Acc:HGNC:6052]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the IMPDH1 gene cause Retinitis Pigmentosa and Leber Congenital Amaurosis (PMID: 11875050, 16384941).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Leber Congenital Amaurosis",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Leber Congenital Amaurosis, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IMPDH1 is a ciliary gene encoding inosine monophosphate dehydrogenase 1 [source:hgnc symbol;acc:hgnc:6052]",
+    "functional_summary": "Mutations in the IMPDH1 gene cause Retinitis Pigmentosa and Leber Congenital Amaurosis (PMID: 11875050, 16384941).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "Associated with Leber Congenital Amaurosis, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Leber Congenital Amaurosis, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

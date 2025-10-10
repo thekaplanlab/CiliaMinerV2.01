@@ -1,0 +1,165 @@
+{
+  "gene_name": "PTCH1",
+  "ensembl_id": "ENSG00000185920",
+  "synonyms": [
+    "BCNS",
+    "NBCCS",
+    "PTCH",
+    "SLC65B1"
+  ],
+  "omim_id": "601309",
+  "description": "patched 1 [Source:HGNC Symbol;Acc:HGNC:9585]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12349"
+  ],
+  "domain_descriptions": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12349"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sterol-sensing domain",
+    "Transmembrane receptor",
+    "patched",
+    "HMGCR/SNAP/NPC1-like",
+    "sterol-sensing domain"
+  ],
+  "ciliary_role": "Also known as PTC1. Transcriptio l target of Hh sig ling that inhibites Smo by preventing its accumulation within cilia and activation. Shh binds and i ctivates Ptc1, allowing activation of Smo (17641202, 32435793).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Holoprosencephaly"
+  ],
+  "ciliopathy_type": "Holoprosencephaly",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PTCH1 is a ciliary gene encoding patched 1 [source:hgnc symbol;acc:hgnc:9585]",
+    "functional_summary": "Also known as PTC1. Transcriptio l target of Hh sig ling that inhibites Smo by preventing its accumulation within cilia and activation. Shh binds and i ctivates Ptc1, allowing activation of Smo (17641...",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Holoprosencephaly",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Holoprosencephaly",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

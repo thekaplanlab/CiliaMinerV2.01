@@ -1,0 +1,89 @@
+{
+  "gene_name": "ADCY4",
+  "ensembl_id": "ENSG00000129467; ENSG00000284814",
+  "synonyms": [
+    "AC4"
+  ],
+  "omim_id": "600292",
+  "description": "adenylate cyclase 4 [Source:HGNC Symbol;Acc:HGNC:235]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "P2Y12 purinergic receptor, adenylyl cyclases (i.e., AC4, AC6, and AC8), and protein ki se A (i.e., PKA RI-尾 and PKA RII-伪 regulatory subunits), exchange protein directly activated by cAMP (EPAC) isoform 2, and A-ki se anchoring proteins (i.e., AKAP150) are expressed in cholangiocyte cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADCY4 is a ciliary gene encoding adenylate cyclase 4 [source:hgnc symbol;acc:hgnc:235]",
+    "functional_summary": "P2Y12 purinergic receptor, adenylyl cyclases (i.e., AC4, AC6, and AC8), and protein ki se A (i.e., PKA RI-尾 and PKA RII-伪 regulatory subunits), exchange protein directly activated by cAMP (EPAC) isofo...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

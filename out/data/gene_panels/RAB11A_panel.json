@@ -1,0 +1,131 @@
+{
+  "gene_name": "RAB11A",
+  "ensembl_id": "ENSG00000103769",
+  "synonyms": [
+    "YL8"
+  ],
+  "omim_id": "605570",
+  "description": "RAB11A, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9760]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "ciliary_role": "Regulator of the endocytic recycling compartment (ERC), binds to Rabin8 and transport it to the centrosome where it activates Rab8 to assemble the ciliary membrane from the ciliary vesicle (20308558, 31204173, 22718902). Rabin8- Rab11a interaction and preciliary trafficking are promoted by PI3K and Akt inhibitors (31204173).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Endosome"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAB11A is a ciliary gene encoding rab11a, member ras oncogene family [source:hgnc symbol;acc:hgnc:9760]",
+    "functional_summary": "Regulator of the endocytic recycling compartment (ERC), binds to Rabin8 and transport it to the centrosome where it activates Rab8 to assemble the ciliary membrane from the ciliary vesicle (20308558, ...",
+    "localization_summary": "Localizes to cilia, basal body, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

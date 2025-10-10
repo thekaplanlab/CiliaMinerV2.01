@@ -1,0 +1,89 @@
+{
+  "gene_name": "CEP95",
+  "ensembl_id": "ENSG00000258890",
+  "synonyms": [
+    "CCDC45",
+    "DKFZP667E1824"
+  ],
+  "omim_id": "",
+  "description": "centrosomal protein 95 [Source:HGNC Symbol;Acc:HGNC:25141]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF19016"
+  ],
+  "domain_descriptions": [
+    "Centrosomal protein of 95kDa",
+    "Domain of unknown function DUF5745",
+    "CH domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Centrosomal protein of 95kDa",
+    "Domain of unknown function DUF5745",
+    "CH domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF19016"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centrosomal protein of 95kDa",
+    "Domain of unknown function DUF5745",
+    "CH domain superfamily"
+  ],
+  "ciliary_role": "CCDC45 localized to centrosome().",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP95 is a ciliary gene encoding centrosomal protein 95 [source:hgnc symbol;acc:hgnc:25141]",
+    "functional_summary": "CCDC45 localized to centrosome().",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

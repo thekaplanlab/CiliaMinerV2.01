@@ -1,0 +1,102 @@
+{
+  "gene_name": "TTLL8",
+  "ensembl_id": "ENSG00000138892",
+  "synonyms": [],
+  "omim_id": "619193",
+  "description": "tubulin tyrosine ligase like 8 [Source:HGNC Symbol;Acc:HGNC:34000]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03133"
+  ],
+  "domain_descriptions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "molecular_function": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03133"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "ciliary_role": "It may function in initiating glygylation modification by attaching the first glycine to tubulin. Interacts with TTLL10 and is required for TTLL10 efficient tubulin glycylation function (19427864). Redundant function with TTLL3, as both are unique monoglycylating enzymes in mammals. Required for stability and mainte nce of motile ependymal cilia. Absence of TTL3 leads to absence of glycylation on axonemes, destabilising motile ependymal cilia and resulting in ciliary disassembly (23897886, 25180231).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTLL8 is a ciliary gene encoding tubulin tyrosine ligase like 8 [source:hgnc symbol;acc:hgnc:34000]",
+    "functional_summary": "It may function in initiating glygylation modification by attaching the first glycine to tubulin. Interacts with TTLL10 and is required for TTLL10 efficient tubulin glycylation function (19427864). Re...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

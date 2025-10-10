@@ -1,0 +1,119 @@
+{
+  "gene_name": "IFT56",
+  "ensembl_id": "ENSG00000105948",
+  "synonyms": [
+    "DYF-13",
+    "DYF13",
+    "FLJ12571",
+    "TTC26"
+  ],
+  "omim_id": "617453",
+  "description": "intraflagellar transport 56 [Source:HGNC Symbol;Acc:HGNC:21882]",
+  "protein_complexes": [
+    "Intraflagellar transport complex B"
+  ],
+  "pfam_ids": [
+    "PF12895"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 26"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 26"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12895"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Tetratricopeptide repeat protein 26"
+  ],
+  "ciliary_role": "Also known as IFT56. Regulates normal levels and distribution of IFTB proteins in the cilia. Required for the accumulation of Gli2 and Gli3 at the distal tips of cilia, essential for normal microtubule architecture within the ciliary axoneme and trafficking of Shh sig ling proteins. IFT56 associates with motility factors, function results in impaired motility (28264835). Required for normal development and differentiation in reti  and pronephros (22718903). Role in transporting ciliary cargoes related to ciliary motility and for assembling cilia of full length (24596149). Forms a dimer with IFT46, responsible for the interaction of IFT-B with ARL13B (27927754).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Biliary",
+    "Renal",
+    "Neurologic",
+    "and Skeletal Syndrome"
+  ],
+  "ciliopathy_type": "Biliary, Renal, Neurologic, and Skeletal Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IFT56 is a ciliary gene encoding intraflagellar transport 56 [source:hgnc symbol;acc:hgnc:21882]",
+    "functional_summary": "Also known as IFT56. Regulates normal levels and distribution of IFTB proteins in the cilia. Required for the accumulation of Gli2 and Gli3 at the distal tips of cilia, essential for normal microtubul...",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Biliary, Renal, Neurologic, and Skeletal Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Biliary, Renal, Neurologic, and Skeletal Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

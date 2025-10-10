@@ -1,0 +1,107 @@
+{
+  "gene_name": "PPID",
+  "ensembl_id": "ENSG00000171497",
+  "synonyms": [
+    "CYP-40",
+    "CYPD"
+  ],
+  "omim_id": "601753",
+  "description": "peptidylprolyl isomerase D [Source:HGNC Symbol;Acc:HGNC:9257]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00160"
+  ],
+  "domain_descriptions": [
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase",
+    "conserved site",
+    "Cyclophilin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase",
+    "conserved site",
+    "Cyclophilin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00160"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cyclophilin-type peptidyl-prolyl cis-trans isomerase",
+    "conserved site",
+    "Cyclophilin-like domain superfamily"
+  ],
+  "ciliary_role": "PPID has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Viral interactions",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PPID is a ciliary gene encoding peptidylprolyl isomerase d [source:hgnc symbol;acc:hgnc:9257]",
+    "functional_summary": "PPID has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

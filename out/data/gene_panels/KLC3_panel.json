@@ -1,0 +1,125 @@
+{
+  "gene_name": "KLC3",
+  "ensembl_id": "ENSG00000104892",
+  "synonyms": [
+    "KLC2L",
+    "KLCT",
+    "KNS2B"
+  ],
+  "omim_id": "601334",
+  "description": "kinesin light chain 3 [Source:HGNC Symbol;Acc:HGNC:20717]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13424",
+    "PF13374"
+  ],
+  "domain_descriptions": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13424",
+      "PF13374"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin light chain",
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat"
+  ],
+  "ciliary_role": "CILK1 deficiency in a mouse model leads to polycystic kidney disease (PKD) with abnormal ciliary trafficking and that kinesin light chain鈥",
+  "localization": [
+    "basal body",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KLC3 is a ciliary gene encoding kinesin light chain 3 [source:hgnc symbol;acc:hgnc:20717]",
+    "functional_summary": "CILK1 deficiency in a mouse model leads to polycystic kidney disease (PKD) with abnormal ciliary trafficking and that kinesin light chain鈥",
+    "localization_summary": "Localizes to basal body, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

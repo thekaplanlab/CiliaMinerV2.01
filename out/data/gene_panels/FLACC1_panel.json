@@ -1,0 +1,70 @@
+{
+  "gene_name": "FLACC1",
+  "ensembl_id": "ENSG00000155749",
+  "synonyms": [
+    "ALS2CR12"
+  ],
+  "omim_id": "619796",
+  "description": "flagellum associated containing coiled-coil domains 1 [Source:HGNC Symbol;Acc:HGNC:14439]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Motile cilium"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "ALS2CR12 protein is associated with the fibrous sheath in the sperm flagellum (21402173).",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FLACC1 is a ciliary gene encoding flagellum associated containing coiled-coil domains 1 [source:hgnc symbol;acc:hgnc:14439]",
+    "functional_summary": "ALS2CR12 protein is associated with the fibrous sheath in the sperm flagellum (21402173).",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

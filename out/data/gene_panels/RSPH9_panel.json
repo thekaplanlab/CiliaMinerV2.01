@@ -1,0 +1,113 @@
+{
+  "gene_name": "RSPH9",
+  "ensembl_id": "ENSG00000172426",
+  "synonyms": [
+    "C6ORF206",
+    "CILD12",
+    "FLJ30845",
+    "MRPS18AL1"
+  ],
+  "omim_id": "612648",
+  "description": "radial spoke head component 9 [Source:HGNC Symbol;Acc:HGNC:21057]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04712"
+  ],
+  "domain_descriptions": [
+    "Radial spokehead-like protein",
+    "Radial spoke head protein 9 homolog"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Radial spokehead-like protein",
+    "Radial spoke head protein 9 homolog"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04712"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Radial spokehead-like protein",
+    "Radial spoke head protein 9 homolog"
+  ],
+  "ciliary_role": "Component of the axonemal radial spoke head. Mutations cause PCD with defects of the central microtubular pair, where altered function of the radial spoke heads causes 9+2 cilia motility to resemble the rotary 9+0 cilia movement (19200523). Essential for ciliary structure and motility in mouse ependymal cilia, deletion causes hydrocephalus. Dysfunction of RSPH9 changes the motion pattern of motile cilia. (32709945). Required for RS head assembly and centrail pair mainte nce in mammalian ependimal cilia (30383886).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RSPH9 is a ciliary gene encoding radial spoke head component 9 [source:hgnc symbol;acc:hgnc:21057]",
+    "functional_summary": "Component of the axonemal radial spoke head. Mutations cause PCD with defects of the central microtubular pair, where altered function of the radial spoke heads causes 9+2 cilia motility to resemble t...",
+    "localization_summary": "Localizes to basal body, cilia, Lysosomes",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

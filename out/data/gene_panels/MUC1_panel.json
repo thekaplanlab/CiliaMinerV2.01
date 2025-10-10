@@ -1,0 +1,110 @@
+{
+  "gene_name": "MUC1",
+  "ensembl_id": "ENSG00000185499",
+  "synonyms": [
+    "ADMCKD",
+    "ADMCKD1",
+    "CA15-3",
+    "CD227",
+    "EMA",
+    "KL-6",
+    "MCD",
+    "MCKD",
+    "MCKD1",
+    "PEM",
+    "PUM"
+  ],
+  "omim_id": "158340",
+  "description": "mucin 1, cell surface associated [Source:HGNC Symbol;Acc:HGNC:7508]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01390"
+  ],
+  "domain_descriptions": [
+    "SEA domain",
+    "SEA domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SEA domain",
+    "SEA domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01390"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SEA domain",
+    "SEA domain superfamily"
+  ],
+  "ciliary_role": "MUC1 and MUC4 together in the same preparation showed spatial co-localization in the cell surface regions corresponding to the microvilli of ciliated cells at the base of the cilia (22929560).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MUC1 is a ciliary gene encoding mucin 1, cell surface associated [source:hgnc symbol;acc:hgnc:7508]",
+    "functional_summary": "MUC1 and MUC4 together in the same preparation showed spatial co-localization in the cell surface regions corresponding to the microvilli of ciliated cells at the base of the cilia (22929560).",
+    "localization_summary": "Localizes to cilia, basal body, Nucleus, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

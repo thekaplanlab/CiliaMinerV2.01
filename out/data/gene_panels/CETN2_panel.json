@@ -1,0 +1,102 @@
+{
+  "gene_name": "CETN2",
+  "ensembl_id": "ENSG00000147400; ENSG00000292191",
+  "synonyms": [
+    "CALT",
+    "CEN2"
+  ],
+  "omim_id": "300006",
+  "description": "centrin 2 [Source:HGNC Symbol;Acc:HGNC:1867]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Synthesis and accumulation of CETN2 is required for centriole duplication (12176356). Regulation of primary ciliogenesis through controlling CP110 levels and localisation (25753040). Stabilisation of connecting cilium axoneme structure. CETN2 is required for photoreceptor survival by regulating SPATA7 CC localization, distal connecting cilium/axoneme microtubule stability, and outer segment disc orientation (30647131)",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CETN2 is a ciliary gene encoding centrin 2 [source:hgnc symbol;acc:hgnc:1867]",
+    "functional_summary": "Synthesis and accumulation of CETN2 is required for centriole duplication (12176356). Regulation of primary ciliogenesis through controlling CP110 levels and localisation (25753040). Stabilisation of ...",
+    "localization_summary": "Localizes to basal body, flagella, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

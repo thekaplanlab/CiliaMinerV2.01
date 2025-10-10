@@ -1,0 +1,121 @@
+{
+  "gene_name": "GDI2",
+  "ensembl_id": "ENSG00000057608",
+  "synonyms": [
+    "RABGDIB"
+  ],
+  "omim_id": "600767",
+  "description": "GDP dissociation inhibitor 2 [Source:HGNC Symbol;Acc:HGNC:4227]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00996"
+  ],
+  "domain_descriptions": [
+    "Rab GDI protein",
+    "GDP dissociation inhibitor",
+    "FAD/NAD(P)-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Rab GDI protein",
+    "GDP dissociation inhibitor",
+    "FAD/NAD(P)-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00996"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rab GDI protein",
+    "GDP dissociation inhibitor",
+    "FAD/NAD(P)-binding domain superfamily"
+  ],
+  "ciliary_role": "zip1 was phosphorylated by GSK3尾 at S520 in G0 phase, which increased its binding to GDI2 to promote the release of Rab8GDP at the cilium base(25860027).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GDI2 is a ciliary gene encoding gdp dissociation inhibitor 2 [source:hgnc symbol;acc:hgnc:4227]",
+    "functional_summary": "zip1 was phosphorylated by GSK3尾 at S520 in G0 phase, which increased its binding to GDI2 to promote the release of Rab8GDP at the cilium base(25860027).",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

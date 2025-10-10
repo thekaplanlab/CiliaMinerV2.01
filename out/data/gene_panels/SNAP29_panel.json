@@ -1,0 +1,89 @@
+{
+  "gene_name": "SNAP29",
+  "ensembl_id": "ENSG00000099940",
+  "synonyms": [
+    "CEDNIK",
+    "SNAP-29"
+  ],
+  "omim_id": "604202",
+  "description": "synaptosome associated protein 29 [Source:HGNC Symbol;Acc:HGNC:11133]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "S RE membrane fusion regulator that binds to EHD1 and EHD3. This interaction is required for assembly of ciliary vesicle from small distal appendage vesicles (25686250). Role in Golgi trafficking and vesicle fusion. Mutations cause CEDNIK syndrome (15968592, 21073448).",
+  "localization": [
+    "basal body",
+    "Autophagosomes",
+    "Centrosome",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Autophagosomes",
+    "Centrosome",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SNAP29 is a ciliary gene encoding synaptosome associated protein 29 [source:hgnc symbol;acc:hgnc:11133]",
+    "functional_summary": "S RE membrane fusion regulator that binds to EHD1 and EHD3. This interaction is required for assembly of ciliary vesicle from small distal appendage vesicles (25686250). Role in Golgi trafficking and ...",
+    "localization_summary": "Localizes to basal body, Autophagosomes, Centrosome, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

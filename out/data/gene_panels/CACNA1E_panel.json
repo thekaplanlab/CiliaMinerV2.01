@@ -1,0 +1,146 @@
+{
+  "gene_name": "CACNA1E",
+  "ensembl_id": "ENSG00000198216",
+  "synonyms": [
+    "BII",
+    "CACH6",
+    "CACNL1A6",
+    "CAV2.3"
+  ],
+  "omim_id": "601013",
+  "description": "calcium voltage-gated channel subunit alpha1 E [Source:HGNC Symbol;Acc:HGNC:1392]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00520",
+    "PF16905",
+    "PF08763"
+  ],
+  "domain_descriptions": [
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "Voltage-dependent calcium channel",
+    "R-type",
+    "alpha-1 subunit",
+    "Ion transport domain",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-dependent calcium channel alpha-1 subunit",
+    "EF-hand domain",
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "IQ domain",
+    "Voltage-dependent L-type calcium channel",
+    "IQ-associated domain"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "structural_features": [
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "Voltage-dependent calcium channel",
+    "R-type",
+    "alpha-1 subunit",
+    "Ion transport domain",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-dependent calcium channel alpha-1 subunit",
+    "EF-hand domain",
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "IQ domain",
+    "Voltage-dependent L-type calcium channel",
+    "IQ-associated domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00520",
+      "PF16905",
+      "PF08763"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "Voltage-dependent calcium channel",
+    "R-type",
+    "alpha-1 subunit",
+    "Ion transport domain",
+    "Voltage-dependent channel domain superfamily",
+    "Voltage-dependent calcium channel alpha-1 subunit",
+    "EF-hand domain",
+    "Voltage-dependent calcium channel",
+    "alpha-1 subunit",
+    "IQ domain",
+    "Voltage-dependent L-type calcium channel",
+    "IQ-associated domain"
+  ],
+  "ciliary_role": "Ca(v)2.3 channel plays some roles in Ca2+ transients and the control of flagellar movement (11959138).",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CACNA1E is a ciliary gene encoding calcium voltage-gated channel subunit alpha1 e [source:hgnc symbol;acc:hgnc:1392]",
+    "functional_summary": "Ca(v)2.3 channel plays some roles in Ca2+ transients and the control of flagellar movement (11959138).",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

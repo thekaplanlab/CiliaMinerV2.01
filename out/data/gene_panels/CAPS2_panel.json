@@ -1,0 +1,86 @@
+{
+  "gene_name": "CAPS2",
+  "ensembl_id": "ENSG00000180881",
+  "synonyms": [],
+  "omim_id": "607724",
+  "description": "calcyphosine 2 [Source:HGNC Symbol;Acc:HGNC:16471]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13499"
+  ],
+  "domain_descriptions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "Calcium-Binding Signaling"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "Calcium-Binding Signaling"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13499"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "Calcium-Binding Signaling"
+  ],
+  "ciliary_role": "Endogenous CAPS2 accumulates prominently at the ciliary base in RPE1 cells and , firmly embedded in the centrosome compartment. CAPS2 was enriched at the basal bodies of motile cilia and CAPS2 is likely to also localize along the length of human fallopian tube cilia, indicating that CAPS2 is universally localized to centrosomes or cilia in the human body(38538594).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CAPS2 is a ciliary gene encoding calcyphosine 2 [source:hgnc symbol;acc:hgnc:16471]",
+    "functional_summary": "Endogenous CAPS2 accumulates prominently at the ciliary base in RPE1 cells and , firmly embedded in the centrosome compartment. CAPS2 was enriched at the basal bodies of motile cilia and CAPS2 is like...",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,95 @@
+{
+  "gene_name": "TRAPPC12",
+  "ensembl_id": "ENSG00000171853; ENSG00000274891",
+  "synonyms": [
+    "CGI-87",
+    "TTC-15",
+    "TTC15"
+  ],
+  "omim_id": "614139",
+  "description": "trafficking protein particle complex subunit 12 [Source:HGNC Symbol;Acc:HGNC:24284]",
+  "protein_complexes": [
+    "TRAPP complex oligomer"
+  ],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "TRAPPIII components, TRAPPC8 and TRAPPC12, are in the cilium formation, and TRAPPIII regulates ciliogenesis via its interaction with a ciliopathy protein, OFD1. Depletion causes increased ciliary length because TRAPPC12 is required for the disassembly of primary cilia (32258032).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TRAPPC12 is a ciliary gene encoding trafficking protein particle complex subunit 12 [source:hgnc symbol;acc:hgnc:24284]",
+    "functional_summary": "TRAPPIII components, TRAPPC8 and TRAPPC12, are in the cilium formation, and TRAPPIII regulates ciliogenesis via its interaction with a ciliopathy protein, OFD1. Depletion causes increased ciliary leng...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

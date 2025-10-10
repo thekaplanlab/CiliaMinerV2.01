@@ -1,0 +1,90 @@
+{
+  "gene_name": "SOX5",
+  "ensembl_id": "ENSG00000134532",
+  "synonyms": [
+    "L-SOX5",
+    "MGC35153"
+  ],
+  "omim_id": "604975",
+  "description": "SRY-box transcription factor 5 [Source:HGNC Symbol;Acc:HGNC:11201]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00505"
+  ],
+  "domain_descriptions": [
+    "High mobility group box domain",
+    "High mobility group box domain superfamily",
+    "SOX/SOX-like transcription factors"
+  ],
+  "molecular_function": [
+    "ECM & connective tissue",
+    "Neurogenesis & migration"
+  ],
+  "structural_features": [
+    "High mobility group box domain",
+    "High mobility group box domain superfamily",
+    "SOX/SOX-like transcription factors"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00505"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "High mobility group box domain",
+    "High mobility group box domain superfamily",
+    "SOX/SOX-like transcription factors"
+  ],
+  "ciliary_role": "SPAG6 is a S-SOX5 target gene, indicating a key role for S-SOX5 in the formation and function of motile cilia ( 20668334).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue",
+    "Neurogenesis & migration"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "ECM & connective tissue",
+    "Neurogenesis & migration"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SOX5 is a ciliary gene encoding sry-box transcription factor 5 [source:hgnc symbol;acc:hgnc:11201]",
+    "functional_summary": "SPAG6 is a S-SOX5 target gene, indicating a key role for S-SOX5 in the formation and function of motile cilia ( 20668334).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

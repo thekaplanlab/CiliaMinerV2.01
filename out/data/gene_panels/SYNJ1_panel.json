@@ -1,0 +1,145 @@
+{
+  "gene_name": "SYNJ1",
+  "ensembl_id": "ENSG00000159082",
+  "synonyms": [
+    "INPP5G",
+    "PARK20"
+  ],
+  "omim_id": "604297",
+  "description": "synaptojanin 1 [Source:HGNC Symbol;Acc:HGNC:11503]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08952",
+    "PF02383",
+    "PF22669"
+  ],
+  "domain_descriptions": [
+    "Inositol polyphosphate-related phosphatase",
+    "RNA recognition motif domain",
+    "SAC domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Synaptojanin-1/2",
+    "RNA recognition motif",
+    "Synaptojanin-1",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily",
+    "Endonuclease/exonuclease/phosphatase superfamily",
+    "Inositol 5-phosphatase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Inositol polyphosphate-related phosphatase",
+    "RNA recognition motif domain",
+    "SAC domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Synaptojanin-1/2",
+    "RNA recognition motif",
+    "Synaptojanin-1",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily",
+    "Endonuclease/exonuclease/phosphatase superfamily",
+    "Inositol 5-phosphatase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08952",
+      "PF02383",
+      "PF22669"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Inositol polyphosphate-related phosphatase",
+    "RNA recognition motif domain",
+    "SAC domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Synaptojanin-1/2",
+    "RNA recognition motif",
+    "Synaptojanin-1",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily",
+    "Endonuclease/exonuclease/phosphatase superfamily",
+    "Inositol 5-phosphatase"
+  ],
+  "ciliary_role": "SYNJ1, (Sy ptojanin-1 (SJ1)) may contribute to the control of ciliary protein dy mics in dopaminergic neurons, with implications on cilia-mediated sig ling (38635628).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Endosome"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SYNJ1 is a ciliary gene encoding synaptojanin 1 [source:hgnc symbol;acc:hgnc:11503]",
+    "functional_summary": "SYNJ1, (Sy ptojanin-1 (SJ1)) may contribute to the control of ciliary protein dy mics in dopaminergic neurons, with implications on cilia-mediated sig ling (38635628).",
+    "localization_summary": "Localizes to basal body, Cytosol, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

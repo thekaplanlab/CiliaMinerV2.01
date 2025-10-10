@@ -1,0 +1,97 @@
+{
+  "gene_name": "CFAP300",
+  "ensembl_id": "ENSG00000137691",
+  "synonyms": [
+    "C11ORF70",
+    "DNAAF17",
+    "FBB5",
+    "MGC13040"
+  ],
+  "omim_id": "618058",
+  "description": "cilia and flagella associated protein 300 [Source:HGNC Symbol;Acc:HGNC:28188]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14926"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 300"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 300"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14926"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 300"
+  ],
+  "ciliary_role": "(c11orf70) Involved in the cytoplasmic assembly, maturation, intraflagellar transport (IFT)-dependant assembly of axonemal dyneins required for cilia motility in multiciliated cells. Plays a role within protein folding and trafficking pathways required for the cytoplasmic preassembly of dynein arm motors and subsequent import into the motile ciliary axoneme (29727692, 29727693)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP300 is a ciliary gene encoding cilia and flagella associated protein 300 [source:hgnc symbol;acc:hgnc:28188]",
+    "functional_summary": "(c11orf70) Involved in the cytoplasmic assembly, maturation, intraflagellar transport (IFT)-dependant assembly of axonemal dyneins required for cilia motility in multiciliated cells. Plays a role with...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

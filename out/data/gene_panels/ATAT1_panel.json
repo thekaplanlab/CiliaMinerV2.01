@@ -1,0 +1,98 @@
+{
+  "gene_name": "ATAT1",
+  "ensembl_id": "ENSG00000231257; ENSG00000206488; ENSG00000229061; ENSG00000223752; ENSG00000234549; ENSG00000235658; ENSG00000137343",
+  "synonyms": [
+    "C6ORF134",
+    "EM:AB023049.7",
+    "FLJ13158",
+    "MEC17"
+  ],
+  "omim_id": "615556",
+  "description": "alpha tubulin acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:21186]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Major alpha-tubulin K40 acetyltransferase alphaTAT1. Promotes rapid ciliogenesis and efficient mechanosensation.",
+  "localization": [
+    "cilia",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ATAT1 is a ciliary gene encoding alpha tubulin acetyltransferase 1 [source:hgnc symbol;acc:hgnc:21186]",
+    "functional_summary": "Major alpha-tubulin K40 acetyltransferase alphaTAT1. Promotes rapid ciliogenesis and efficient mechanosensation.",
+    "localization_summary": "Localizes to cilia, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

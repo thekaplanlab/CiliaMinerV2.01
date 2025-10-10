@@ -1,0 +1,93 @@
+{
+  "gene_name": "ANKRD45",
+  "ensembl_id": "ENSG00000183831",
+  "synonyms": [
+    "CT117",
+    "FLJ45235"
+  ],
+  "omim_id": "618712",
+  "description": "ankyrin repeat domain 45 [Source:HGNC Symbol;Acc:HGNC:24786]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12796"
+  ],
+  "domain_descriptions": [
+    "Ankyrin repeat",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin Repeat and Cyclin-Dependent Kinase Inhibitor"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Ankyrin repeat",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin Repeat and Cyclin-Dependent Kinase Inhibitor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12796"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ankyrin repeat",
+    "Heat shock protein 70kD",
+    "C-terminal domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "Ankyrin Repeat and Cyclin-Dependent Kinase Inhibitor"
+  ],
+  "ciliary_role": "The expression pattern of ankrd45 in early zebrafish embryos was tissue specific with high enrichment in ciliated organs, suggesting that Ankrd45 possibly plays a role during cilia development (31208154). Mtmr11 and Ankrd45 are similarly uncharacterized and were found specifically at basal bodies(29180514).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ANKRD45 is a ciliary gene encoding ankyrin repeat domain 45 [source:hgnc symbol;acc:hgnc:24786]",
+    "functional_summary": "The expression pattern of ankrd45 in early zebrafish embryos was tissue specific with high enrichment in ciliated organs, suggesting that Ankrd45 possibly plays a role during cilia development (312081...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

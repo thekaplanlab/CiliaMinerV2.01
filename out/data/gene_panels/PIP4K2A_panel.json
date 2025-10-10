@@ -1,0 +1,139 @@
+{
+  "gene_name": "PIP4K2A",
+  "ensembl_id": "ENSG00000150867",
+  "synonyms": [
+    "PIP5K2A",
+    "PIP5KIIA",
+    "PIP5KIIALPHA"
+  ],
+  "omim_id": "603140",
+  "description": "phosphatidylinositol-5-phosphate 4-kinase type 2 alpha [Source:HGNC Symbol;Acc:HGNC:8997]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01504"
+  ],
+  "domain_descriptions": [
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "core",
+    "Phosphatidylinositol-4/5-phosphate 5/4-kinase",
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "C-terminal domain superfamily",
+    "Phosphatidylinositol-4-phosphate 5-kinase",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "core",
+    "Phosphatidylinositol-4/5-phosphate 5/4-kinase",
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "C-terminal domain superfamily",
+    "Phosphatidylinositol-4-phosphate 5-kinase",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01504"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "core",
+    "Phosphatidylinositol-4/5-phosphate 5/4-kinase",
+    "Phosphatidylinositol-4-phosphate 4/5-kinase",
+    "C-terminal domain superfamily",
+    "Phosphatidylinositol-4-phosphate 5-kinase",
+    "N-terminal"
+  ],
+  "ciliary_role": "Phosphorylation of MIF by PIP4K2a is necessary for cilia biogenesis ( 38052787).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PIP4K2A is a ciliary gene encoding phosphatidylinositol-5-phosphate 4-kinase type 2 alpha [source:hgnc symbol;acc:hgnc:8997]",
+    "functional_summary": "Phosphorylation of MIF by PIP4K2a is necessary for cilia biogenesis ( 38052787).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

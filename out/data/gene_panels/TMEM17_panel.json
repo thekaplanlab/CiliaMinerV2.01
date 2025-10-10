@@ -1,0 +1,100 @@
+{
+  "gene_name": "TMEM17",
+  "ensembl_id": "ENSG00000186889",
+  "synonyms": [
+    "FLJ34583"
+  ],
+  "omim_id": "614950",
+  "description": "transmembrane protein 17 [Source:HGNC Symbol;Acc:HGNC:26623]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF09799"
+  ],
+  "domain_descriptions": [
+    "Uncharacterised protein family",
+    "transmembrane-17"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Uncharacterised protein family",
+    "transmembrane-17"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF09799"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Uncharacterised protein family",
+    "transmembrane-17"
+  ],
+  "ciliary_role": "CEP-290-dependent transition zone protein that facilitates cilium formation, being necessary for ciliogenesis, mutated in OFD6 (26982032).",
+  "localization": [
+    "basal body",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TMEM17 is a ciliary gene encoding transmembrane protein 17 [source:hgnc symbol;acc:hgnc:26623]",
+    "functional_summary": "CEP-290-dependent transition zone protein that facilitates cilium formation, being necessary for ciliogenesis, mutated in OFD6 (26982032).",
+    "localization_summary": "Localizes to basal body, transition zone",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

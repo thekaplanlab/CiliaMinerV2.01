@@ -1,0 +1,151 @@
+{
+  "gene_name": "DRD5",
+  "ensembl_id": "ENSG00000169676",
+  "synonyms": [
+    "DRD1B",
+    "DRD1L2"
+  ],
+  "omim_id": "126453",
+  "description": "dopamine receptor D5 [Source:HGNC Symbol;Acc:HGNC:3026]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine D5 receptor",
+    "Dopamine receptor family",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine D5 receptor",
+    "Dopamine receptor family",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Dopamine D5 receptor",
+    "Dopamine receptor family",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM"
+  ],
+  "ciliary_role": "Ciliary mechanosensory protein in vascular endothelial cells. DR5 activation increases cilia length in a concentration-dependent manner and restores cilia function in the mutant cells (21709211)",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DRD5 is a ciliary gene encoding dopamine receptor d5 [source:hgnc symbol;acc:hgnc:3026]",
+    "functional_summary": "Ciliary mechanosensory protein in vascular endothelial cells. DR5 activation increases cilia length in a concentration-dependent manner and restores cilia function in the mutant cells (21709211)",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

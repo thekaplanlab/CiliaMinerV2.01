@@ -1,0 +1,130 @@
+{
+  "gene_name": "MSH4",
+  "ensembl_id": "ENSG00000057468",
+  "synonyms": [],
+  "omim_id": "602105",
+  "description": "mutS homolog 4 [Source:HGNC Symbol;Acc:HGNC:7327]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05190",
+    "PF00488",
+    "PF05188",
+    "PF05192"
+  ],
+  "domain_descriptions": [
+    "DNA mismatch repair protein MutS",
+    "C-terminal",
+    "DNA mismatch repair protein MutS",
+    "core",
+    "DNA mismatch repair protein MutS",
+    "connector domain",
+    "DNA mismatch repair protein MutS",
+    "clamp",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "DNA mismatch repair protein MutS",
+    "core domain superfamily",
+    "MutS",
+    "connector domain superfamily",
+    "DNA mismatch repair MutS"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "DNA mismatch repair protein MutS",
+    "C-terminal",
+    "DNA mismatch repair protein MutS",
+    "core",
+    "DNA mismatch repair protein MutS",
+    "connector domain",
+    "DNA mismatch repair protein MutS",
+    "clamp",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "DNA mismatch repair protein MutS",
+    "core domain superfamily",
+    "MutS",
+    "connector domain superfamily",
+    "DNA mismatch repair MutS"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05190",
+      "PF00488",
+      "PF05188",
+      "PF05192"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA mismatch repair protein MutS",
+    "C-terminal",
+    "DNA mismatch repair protein MutS",
+    "core",
+    "DNA mismatch repair protein MutS",
+    "connector domain",
+    "DNA mismatch repair protein MutS",
+    "clamp",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "DNA mismatch repair protein MutS",
+    "core domain superfamily",
+    "MutS",
+    "connector domain superfamily",
+    "DNA mismatch repair MutS"
+  ],
+  "ciliary_role": "MSH4 has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MSH4 is a ciliary gene encoding muts homolog 4 [source:hgnc symbol;acc:hgnc:7327]",
+    "functional_summary": "MSH4 has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

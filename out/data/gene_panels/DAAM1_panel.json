@@ -1,0 +1,160 @@
+{
+  "gene_name": "DAAM1",
+  "ensembl_id": "ENSG00000100592",
+  "synonyms": [
+    "KIAA0666"
+  ],
+  "omim_id": "606626",
+  "description": "dishevelled associated activator of morphogenesis 1 [Source:HGNC Symbol;Acc:HGNC:18142]",
+  "protein_complexes": [
+    "DAAM1-INTU-NPHP4 complex"
+  ],
+  "pfam_ids": [
+    "PF06371",
+    "PF02181",
+    "PF06367"
+  ],
+  "domain_descriptions": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Formin Homology"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Formin Homology"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06371",
+      "PF02181",
+      "PF06367"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Formin",
+    "FH3 domain",
+    "Formin",
+    "GTPase-binding domain",
+    "Armadillo-like helical",
+    "Diaphanous autoregulatory (DAD) domain",
+    "Rho GTPase-binding/formin homology 3 (GBD/FH3) domain",
+    "Formin",
+    "FH2 domain",
+    "Armadillo-type fold",
+    "Formin",
+    "FH2 domain superfamily",
+    "Formin Homology"
+  ],
+  "ciliary_role": "DAAM1 is present within the the actin-rich base of multiciliated epidermal cells of the X. laevis skin where it regulates the actin network that stabilizes cilia. Loss of Daam1 in motile cilia results in their loss of polarity(26644512). Loss of the PCP component Daam1 negatively regulates ciliogenesis in MDCKII and IMCD3 cells. Daam1 knockdown within these mammalian kidney epithelial cells result in the formation of fewer cilia. Ciliogenesis in MDCKII cells depends on the formin activity of Daam1. In MDCKII and IMCD3 cells Daam1 localizes to vesicles that carry ciliary components(31469868).",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DAAM1 is a ciliary gene encoding dishevelled associated activator of morphogenesis 1 [source:hgnc symbol;acc:hgnc:18142]",
+    "functional_summary": "DAAM1 is present within the the actin-rich base of multiciliated epidermal cells of the X. laevis skin where it regulates the actin network that stabilizes cilia. Loss of Daam1 in motile cilia results...",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

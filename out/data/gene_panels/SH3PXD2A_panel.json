@@ -1,0 +1,142 @@
+{
+  "gene_name": "SH3PXD2A",
+  "ensembl_id": "ENSG00000107957",
+  "synonyms": [
+    "FISH",
+    "KIAA0418",
+    "SH3MD1"
+  ],
+  "omim_id": "619455",
+  "description": "SH3 and PX domains 2A [Source:HGNC Symbol;Acc:HGNC:23664]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00787",
+    "PF07653",
+    "PF00018"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "Phox homology",
+    "SH3PXD2A",
+    "SH3 domain 3",
+    "SH3PXD2A",
+    "SH3 domain 1",
+    "SH3PXD2A",
+    "SH3 domain 2",
+    "SH3PXD2A",
+    "SH3 domain 4",
+    "SH3PXD2A",
+    "SH3 domain 5",
+    "SH3-like domain superfamily",
+    "PX domain superfamily",
+    "SH3PXD2",
+    "PX domain",
+    "NADPH Oxidase and PX Domain-Containing"
+  ],
+  "molecular_function": [
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "Phox homology",
+    "SH3PXD2A",
+    "SH3 domain 3",
+    "SH3PXD2A",
+    "SH3 domain 1",
+    "SH3PXD2A",
+    "SH3 domain 2",
+    "SH3PXD2A",
+    "SH3 domain 4",
+    "SH3PXD2A",
+    "SH3 domain 5",
+    "SH3-like domain superfamily",
+    "PX domain superfamily",
+    "SH3PXD2",
+    "PX domain",
+    "NADPH Oxidase and PX Domain-Containing"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00787",
+      "PF07653",
+      "PF00018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "Phox homology",
+    "SH3PXD2A",
+    "SH3 domain 3",
+    "SH3PXD2A",
+    "SH3 domain 1",
+    "SH3PXD2A",
+    "SH3 domain 2",
+    "SH3PXD2A",
+    "SH3 domain 4",
+    "SH3PXD2A",
+    "SH3 domain 5",
+    "SH3-like domain superfamily",
+    "PX domain superfamily",
+    "SH3PXD2",
+    "PX domain",
+    "NADPH Oxidase and PX Domain-Containing"
+  ],
+  "ciliary_role": "SH3PXD2A has localized in ciliary tip, primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SH3PXD2A is a ciliary gene encoding sh3 and px domains 2a [source:hgnc symbol;acc:hgnc:23664]",
+    "functional_summary": "SH3PXD2A has localized in ciliary tip, primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

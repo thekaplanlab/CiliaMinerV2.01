@@ -1,0 +1,93 @@
+{
+  "gene_name": "RCAN2",
+  "ensembl_id": "ENSG00000172348",
+  "synonyms": [
+    "DSCR1L1",
+    "ZAKI-4"
+  ],
+  "omim_id": "604876",
+  "description": "regulator of calcineurin 2 [Source:HGNC Symbol;Acc:HGNC:3041]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04847"
+  ],
+  "domain_descriptions": [
+    "Calcipressin",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Calcipressin-2",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Cilia length regulation"
+  ],
+  "structural_features": [
+    "Calcipressin",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Calcipressin-2",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04847"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calcipressin",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Calcipressin-2",
+    "RNA recognition motif",
+    "RNA-binding domain superfamily"
+  ],
+  "ciliary_role": "Negative regulator of calcineurin and modulates Ca2+ dependent sig lling. Required to maintain normal cilia length. Depletion in WT RPE-1 cells results in shorter cilia, whilst in giantin KO cells induces longer cilia (29643119).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cilia length regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia length regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RCAN2 is a ciliary gene encoding regulator of calcineurin 2 [source:hgnc symbol;acc:hgnc:3041]",
+    "functional_summary": "Negative regulator of calcineurin and modulates Ca2+ dependent sig lling. Required to maintain normal cilia length. Depletion in WT RPE-1 cells results in shorter cilia, whilst in giantin KO cells ind...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

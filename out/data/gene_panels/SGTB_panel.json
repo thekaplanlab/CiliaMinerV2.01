@@ -1,0 +1,97 @@
+{
+  "gene_name": "SGTB",
+  "ensembl_id": "ENSG00000197860",
+  "synonyms": [
+    "FLJ39002",
+    "SGT2"
+  ],
+  "omim_id": "620526",
+  "description": "small glutamine rich tetratricopeptide repeat co-chaperone beta [Source:HGNC Symbol;Acc:HGNC:23567]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16546",
+    "PF00515",
+    "PF13414"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "SGTA",
+    "homodimerisation domain",
+    "SGT"
+  ],
+  "molecular_function": [
+    "Protein folding / Processing"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "SGTA",
+    "homodimerisation domain",
+    "SGT"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16546",
+      "PF00515",
+      "PF13414"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "SGTA",
+    "homodimerisation domain",
+    "SGT"
+  ],
+  "ciliary_role": "SGTB has localized in primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Protein folding / Processing"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Protein folding / Processing"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SGTB is a ciliary gene encoding small glutamine rich tetratricopeptide repeat co-chaperone beta [source:hgnc symbol;acc:hgnc:23567]",
+    "functional_summary": "SGTB has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

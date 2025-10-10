@@ -1,0 +1,72 @@
+{
+  "gene_name": "NEURL4",
+  "ensembl_id": "ENSG00000288301; ENSG00000215041",
+  "synonyms": [
+    "KIAA1787"
+  ],
+  "omim_id": "615865",
+  "description": "neuralized E3 ubiquitin protein ligase 4 [Source:HGNC Symbol;Acc:HGNC:34410]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Controls CP110 levels at mother centriole. It transiently traslocates to mother centriole to remove CP110 and facilitate proximily between both centrioles and and promote axoneme formation (28385950). Promotes ubiquitylation of CP110 to maintain centrosome homeostasis and prevent the formation of ectopic microtubular organizing centres (22441691).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEURL4 is a ciliary gene encoding neuralized e3 ubiquitin protein ligase 4 [source:hgnc symbol;acc:hgnc:34410]",
+    "functional_summary": "Controls CP110 levels at mother centriole. It transiently traslocates to mother centriole to remove CP110 and facilitate proximily between both centrioles and and promote axoneme formation (28385950)....",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

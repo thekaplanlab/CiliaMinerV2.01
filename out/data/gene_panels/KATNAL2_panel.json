@@ -1,0 +1,143 @@
+{
+  "gene_name": "KATNAL2",
+  "ensembl_id": "ENSG00000167216",
+  "synonyms": [
+    "DKFZP667C165",
+    "MGC33211"
+  ],
+  "omim_id": "614697",
+  "description": "katanin catalytic subunit A1 like 2 [Source:HGNC Symbol;Acc:HGNC:25387]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00004",
+    "PF08513",
+    "PF17862"
+  ],
+  "domain_descriptions": [
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Microtubule-severing AAA ATPase",
+    "LIS1 homology motif",
+    "AAA+ ATPase domain",
+    "Katanin p60 ATPase-containing subunit A-like 2",
+    "AAA ATPase",
+    "AAA+ lid domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Microtubule-severing AAA ATPase",
+    "LIS1 homology motif",
+    "AAA+ ATPase domain",
+    "Katanin p60 ATPase-containing subunit A-like 2",
+    "AAA ATPase",
+    "AAA+ lid domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00004",
+      "PF08513",
+      "PF17862"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ATPase",
+    "AAA-type",
+    "core",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Microtubule-severing AAA ATPase",
+    "LIS1 homology motif",
+    "AAA+ ATPase domain",
+    "Katanin p60 ATPase-containing subunit A-like 2",
+    "AAA ATPase",
+    "AAA+ lid domain"
+  ],
+  "ciliary_role": "Required for dy mic regulation of  during axoneme formation and mainte nce, it may have the ability to remodel  at different cellular locations. Role during the regulation of Wnt/pla r cell polarity (PCP)-dependent processes. Required for ciliogenesis, organogenesis and brain size control (30096282). Interacts with Nubp1 and Nubp2 AAA proteins, which act as negative regulators of ciliogenesis (26153462).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KATNAL2 is a ciliary gene encoding katanin catalytic subunit a1 like 2 [source:hgnc symbol;acc:hgnc:25387]",
+    "functional_summary": "Required for dy mic regulation of  during axoneme formation and mainte nce, it may have the ability to remodel  at different cellular locations. Role during the regulation of Wnt/pla r cell polarity (...",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

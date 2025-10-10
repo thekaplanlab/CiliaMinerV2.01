@@ -1,0 +1,122 @@
+{
+  "gene_name": "BRWD1",
+  "ensembl_id": "ENSG00000185658",
+  "synonyms": [
+    "C21ORF107",
+    "DCAF19",
+    "FLJ11315",
+    "N143",
+    "WDR9"
+  ],
+  "omim_id": "617824",
+  "description": "bromodomain and WD repeat domain containing 1 [Source:HGNC Symbol;Acc:HGNC:12760]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400",
+    "PF00439"
+  ],
+  "domain_descriptions": [
+    "Bromodomain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Bromodomain",
+    "conserved site",
+    "WD40 repeat",
+    "conserved site",
+    "WD40-repeat-containing domain superfamily",
+    "Bromodomain-like superfamily",
+    "Bromodomain and WD repeat-containing"
+  ],
+  "molecular_function": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Bromodomain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Bromodomain",
+    "conserved site",
+    "WD40 repeat",
+    "conserved site",
+    "WD40-repeat-containing domain superfamily",
+    "Bromodomain-like superfamily",
+    "Bromodomain and WD repeat-containing"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400",
+      "PF00439"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Bromodomain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Bromodomain",
+    "conserved site",
+    "WD40 repeat",
+    "conserved site",
+    "WD40-repeat-containing domain superfamily",
+    "Bromodomain-like superfamily",
+    "Bromodomain and WD repeat-containing"
+  ],
+  "ciliary_role": "BRWD1 staining was detected in the whole flagella and respiratory cilia of normal controls but was absent in BRWD1-mutated individuals. (33389130).",
+  "localization": [
+    "flagella",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BRWD1 is a ciliary gene encoding bromodomain and wd repeat domain containing 1 [source:hgnc symbol;acc:hgnc:12760]",
+    "functional_summary": "BRWD1 staining was detected in the whole flagella and respiratory cilia of normal controls but was absent in BRWD1-mutated individuals. (33389130).",
+    "localization_summary": "Localizes to flagella ,  cilia, Nucleus",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

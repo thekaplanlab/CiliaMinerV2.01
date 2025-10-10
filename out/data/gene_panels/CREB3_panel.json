@@ -1,0 +1,106 @@
+{
+  "gene_name": "CREB3",
+  "ensembl_id": "ENSG00000107175",
+  "synonyms": [
+    "LUMAN",
+    "LZIP",
+    "SLZIP"
+  ],
+  "omim_id": "606443",
+  "description": "cAMP responsive element binding protein 3 [Source:HGNC Symbol;Acc:HGNC:2347]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00170"
+  ],
+  "domain_descriptions": [
+    "Basic-leucine zipper domain",
+    "Basic-leucine zipper domain superfamily",
+    "cAMP-responsive element-binding ATF subfamily",
+    "Transcription factor",
+    "Skn-1-like",
+    "DNA-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Basic-leucine zipper domain",
+    "Basic-leucine zipper domain superfamily",
+    "cAMP-responsive element-binding ATF subfamily",
+    "Transcription factor",
+    "Skn-1-like",
+    "DNA-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00170"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Basic-leucine zipper domain",
+    "Basic-leucine zipper domain superfamily",
+    "cAMP-responsive element-binding ATF subfamily",
+    "Transcription factor",
+    "Skn-1-like",
+    "DNA-binding domain superfamily"
+  ],
+  "ciliary_role": "CREB3 has localized in ciliary tip, primary cilia.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CREB3 is a ciliary gene encoding camp responsive element binding protein 3 [source:hgnc symbol;acc:hgnc:2347]",
+    "functional_summary": "CREB3 has localized in ciliary tip, primary cilia.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

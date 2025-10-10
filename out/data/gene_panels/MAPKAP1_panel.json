@@ -1,0 +1,116 @@
+{
+  "gene_name": "MAPKAP1",
+  "ensembl_id": "ENSG00000119487",
+  "synonyms": [
+    "MGC2745",
+    "MIP1",
+    "SIN1"
+  ],
+  "omim_id": "610558",
+  "description": "MAPK associated protein 1 [Source:HGNC Symbol;Acc:HGNC:18752]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05422",
+    "PF16978",
+    "PF16979"
+  ],
+  "domain_descriptions": [
+    "TORC2 component Sin1/Avo1",
+    "PH-like domain superfamily",
+    "SAPK-interacting protein 1",
+    "Pleckstrin-homology domain",
+    "Sin1",
+    "middle CRIM domain",
+    "Sin1",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "TORC2 component Sin1/Avo1",
+    "PH-like domain superfamily",
+    "SAPK-interacting protein 1",
+    "Pleckstrin-homology domain",
+    "Sin1",
+    "middle CRIM domain",
+    "Sin1",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05422",
+      "PF16978",
+      "PF16979"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "TORC2 component Sin1/Avo1",
+    "PH-like domain superfamily",
+    "SAPK-interacting protein 1",
+    "Pleckstrin-homology domain",
+    "Sin1",
+    "middle CRIM domain",
+    "Sin1",
+    "N-terminal"
+  ],
+  "ciliary_role": "Also known as SIN1. Component of the mTOR complex 2. Interacts with CCDC28B to regulate cilia length and inhibits MEKK2, which activates different MAPKs that have been implicated in the regulation of IFT and ciliogenesis (23727834, 26263164).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAPKAP1 is a ciliary gene encoding mapk associated protein 1 [source:hgnc symbol;acc:hgnc:18752]",
+    "functional_summary": "Also known as SIN1. Component of the mTOR complex 2. Interacts with CCDC28B to regulate cilia length and inhibits MEKK2, which activates different MAPKs that have been implicated in the regulation of ...",
+    "localization_summary": "Localizes to basal body ,cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

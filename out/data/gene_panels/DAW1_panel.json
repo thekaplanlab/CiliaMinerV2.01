@@ -1,0 +1,132 @@
+{
+  "gene_name": "DAW1",
+  "ensembl_id": "ENSG00000123977",
+  "synonyms": [
+    "DNAAF18",
+    "FLJ25955",
+    "ODA16",
+    "WDR69"
+  ],
+  "omim_id": "620279",
+  "description": "dynein assembly factor with WD repeats 1 [Source:HGNC Symbol;Acc:HGNC:26383]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily"
+  ],
+  "ciliary_role": "Also known as ODA16. Adaptor between intraflagellar transport proteins and outer arm dynein during ciliary assembly, needed for efficient dynein transport from the cytoplasm to the flagellar compartment. (20568242, 18852297, 28298440)",
+  "localization": [
+    "flagella",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DAW1 is a ciliary gene encoding dynein assembly factor with wd repeats 1 [source:hgnc symbol;acc:hgnc:26383]",
+    "functional_summary": "Also known as ODA16. Adaptor between intraflagellar transport proteins and outer arm dynein during ciliary assembly, needed for efficient dynein transport from the cytoplasm to the flagellar compartme...",
+    "localization_summary": "Localizes to flagella, basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

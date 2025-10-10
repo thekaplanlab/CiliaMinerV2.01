@@ -1,0 +1,151 @@
+{
+  "gene_name": "TP73",
+  "ensembl_id": "ENSG00000078900",
+  "synonyms": [
+    "P73"
+  ],
+  "omim_id": "601990",
+  "description": "tumor protein p73 [Source:HGNC Symbol;Acc:HGNC:12003]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07710",
+    "PF00870",
+    "PF07647"
+  ],
+  "domain_descriptions": [
+    "Sterile alpha motif domain",
+    "p53 tumour suppressor family",
+    "p53-like transcription factor",
+    "DNA-binding domain superfamily",
+    "p53",
+    "tetramerisation domain",
+    "p53",
+    "DNA-binding domain",
+    "p53/RUNT-type transcription factor",
+    "DNA-binding domain superfamily",
+    "Sterile alpha motif/pointed domain superfamily",
+    "p53-like tetramerisation domain superfamily",
+    "Tumour protein p73",
+    "SAM domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Sterile alpha motif domain",
+    "p53 tumour suppressor family",
+    "p53-like transcription factor",
+    "DNA-binding domain superfamily",
+    "p53",
+    "tetramerisation domain",
+    "p53",
+    "DNA-binding domain",
+    "p53/RUNT-type transcription factor",
+    "DNA-binding domain superfamily",
+    "Sterile alpha motif/pointed domain superfamily",
+    "p53-like tetramerisation domain superfamily",
+    "Tumour protein p73",
+    "SAM domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07710",
+      "PF00870",
+      "PF07647"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sterile alpha motif domain",
+    "p53 tumour suppressor family",
+    "p53-like transcription factor",
+    "DNA-binding domain superfamily",
+    "p53",
+    "tetramerisation domain",
+    "p53",
+    "DNA-binding domain",
+    "p53/RUNT-type transcription factor",
+    "DNA-binding domain superfamily",
+    "Sterile alpha motif/pointed domain superfamily",
+    "p53-like tetramerisation domain superfamily",
+    "Tumour protein p73",
+    "SAM domain"
+  ],
+  "ciliary_role": "Also called P73. Might be critical for the initiation of cilia assembly by indirectly promoting the multiplication of centrosomes (25201258). Transcription factor critical to multiciliogenesis. Required for multiciliated cells differentiation, function and for the direct regulation of transcriptio l modulators of multiciliogenesis, including Foxj1, Rfx2 and Rfx3 (31028178, 27257214, 26947080). Required for basal body docking, axonemal extension and motility (27257214).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TP73 is a ciliary gene encoding tumor protein p73 [source:hgnc symbol;acc:hgnc:12003]",
+    "functional_summary": "Also called P73. Might be critical for the initiation of cilia assembly by indirectly promoting the multiplication of centrosomes (25201258). Transcription factor critical to multiciliogenesis. Requir...",
+    "localization_summary": "Localizes to basal body , cilia, Cytosol, Nucleus",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,95 @@
+{
+  "gene_name": "DLG5",
+  "ensembl_id": "ENSG00000151208; ENSG00000274429",
+  "synonyms": [
+    "KIAA0583",
+    "P-DLG"
+  ],
+  "omim_id": "604090",
+  "description": "discs large MAGUK scaffold protein 5 [Source:HGNC Symbol;Acc:HGNC:2904]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Dlg5 interaction with Smo is specifically required for the activation of Gli but not for Smo-induced ciliary exit of Gpr161 and consequent suppression of Gli repressor formation. Smo activity thus bifurcates, with Dlg5 function restricted to the arm of the pathway that functions to activate Gli(PMID: 25644602).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DLG5 is a ciliary gene encoding discs large maguk scaffold protein 5 [source:hgnc symbol;acc:hgnc:2904]",
+    "functional_summary": "Dlg5 interaction with Smo is specifically required for the activation of Gli but not for Smo-induced ciliary exit of Gpr161 and consequent suppression of Gli repressor formation. Smo activity thus bif...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,105 @@
+{
+  "gene_name": "CFAP70",
+  "ensembl_id": "ENSG00000156042",
+  "synonyms": [
+    "FLJ25765",
+    "TTC18"
+  ],
+  "omim_id": "618661",
+  "description": "cilia and flagella associated protein 70 [Source:HGNC Symbol;Acc:HGNC:30726]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13181"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cilia- and flagella-associated protein 70"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cilia- and flagella-associated protein 70"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13181"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Cilia- and flagella-associated protein 70"
+  ],
+  "ciliary_role": "Regulator component of the outer dynein arm in motile cilia and flagella, regulating ciliary motility and length (30158508)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP70 is a ciliary gene encoding cilia and flagella associated protein 70 [source:hgnc symbol;acc:hgnc:30726]",
+    "functional_summary": "Regulator component of the outer dynein arm in motile cilia and flagella, regulating ciliary motility and length (30158508)",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

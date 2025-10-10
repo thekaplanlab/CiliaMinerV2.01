@@ -1,0 +1,153 @@
+{
+  "gene_name": "NHERF1",
+  "ensembl_id": "ENSG00000109062",
+  "synonyms": [
+    "EBP50",
+    "NHE-RF",
+    "NHERF",
+    "NHERF-1",
+    "SLC9A3R1"
+  ],
+  "omim_id": "604990",
+  "description": "NHERF family PDZ scaffold protein 1 [Source:HGNC Symbol;Acc:HGNC:11075]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF09007",
+    "PF00595"
+  ],
+  "domain_descriptions": [
+    "PDZ domain",
+    "EBP50",
+    "C-terminal",
+    "Na(+)/H(+) exchange regulatory cofactor NHERF-1/2",
+    "PDZ superfamily",
+    "Na+/H+ exchange regulatory cofactor"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "PDZ domain",
+    "EBP50",
+    "C-terminal",
+    "Na(+)/H(+) exchange regulatory cofactor NHERF-1/2",
+    "PDZ superfamily",
+    "Na+/H+ exchange regulatory cofactor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF09007",
+      "PF00595"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PDZ domain",
+    "EBP50",
+    "C-terminal",
+    "Na(+)/H(+) exchange regulatory cofactor NHERF-1/2",
+    "PDZ superfamily",
+    "Na+/H+ exchange regulatory cofactor"
+  ],
+  "ciliary_role": "Also known as EBP50 or NHERF1. Regulates Wnt and PCP sig ling PCP sig ling and the development of functio l motile cilia via binding the pla r cell polarity genes Frizzled (Fzd) and Vangl. Knockdown in zebrafish embryos causes severe hydrocephalus. Ablation causes reduced number and altered orientation of the cilia but does not change the structural organization of the cilium (27055101).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NHERF1 is a ciliary gene encoding nherf family pdz scaffold protein 1 [source:hgnc symbol;acc:hgnc:11075]",
+    "functional_summary": "Also known as EBP50 or NHERF1. Regulates Wnt and PCP sig ling PCP sig ling and the development of functio l motile cilia via binding the pla r cell polarity genes Frizzled (Fzd) and Vangl. Knockdown i...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,106 @@
+{
+  "gene_name": "RSPH4A",
+  "ensembl_id": "ENSG00000111834",
+  "synonyms": [
+    "CILD11",
+    "DJ412I7.1",
+    "FLJ37974",
+    "RSHL3",
+    "RSPH6B"
+  ],
+  "omim_id": "612647",
+  "description": "radial spoke head component 4A [Source:HGNC Symbol;Acc:HGNC:21558]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04712"
+  ],
+  "domain_descriptions": [
+    "Radial spokehead-like protein"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Radial spokehead-like protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04712"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Radial spokehead-like protein"
+  ],
+  "ciliary_role": "Component of spoke heads. Plays a central role in the assembly of all the three- types of RS. Contributes to the generation of the pla r beating of motile cilia by building the distal architecture of radial spokes, regulating the motion pattern of the mouse motile cilia. Mutations lead to most severe phenotype of PCD with central complex defects and near absence of radial spokes (26073779, 25789548) Essential for the triplet radial spoke head assembly of the mouse motile cilia (32203505).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RSPH4A is a ciliary gene encoding radial spoke head component 4a [source:hgnc symbol;acc:hgnc:21558]",
+    "functional_summary": "Component of spoke heads. Plays a central role in the assembly of all the three- types of RS. Contributes to the generation of the pla r beating of motile cilia by building the distal architecture of ...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

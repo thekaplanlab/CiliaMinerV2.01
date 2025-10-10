@@ -1,0 +1,112 @@
+{
+  "gene_name": "CSNK2B",
+  "ensembl_id": "ENSG00000224398; ENSG00000206406; ENSG00000224774; ENSG00000232960; ENSG00000228875; ENSG00000230700; ENSG00000204435",
+  "synonyms": [
+    "CKB1",
+    "CKB2"
+  ],
+  "omim_id": "115441",
+  "description": "casein kinase 2 beta [Source:HGNC Symbol;Acc:HGNC:2460]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "CSNK2B has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CSNK2B is a ciliary gene encoding casein kinase 2 beta [source:hgnc symbol;acc:hgnc:2460]",
+    "functional_summary": "CSNK2B has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

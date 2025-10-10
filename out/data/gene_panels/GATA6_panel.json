@@ -1,0 +1,78 @@
+{
+  "gene_name": "GATA6",
+  "ensembl_id": "ENSG00000141448",
+  "synonyms": [],
+  "omim_id": "601656",
+  "description": "GATA binding protein 6 [Source:HGNC Symbol;Acc:HGNC:4174]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "Motile cilium & axoneme"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the GATA6 gene cause Congenital Heart Disease (PMID: 22158542, 22962692).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "Motile cilium & axoneme"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "Motile cilium & axoneme"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Congenital Heart Disease"
+  ],
+  "ciliopathy_type": "Congenital Heart Disease",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GATA6 is a ciliary gene encoding gata binding protein 6 [source:hgnc symbol;acc:hgnc:4174]",
+    "functional_summary": "Mutations in the GATA6 gene cause Congenital Heart Disease (PMID: 22158542, 22962692).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "Associated with Congenital Heart Disease",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Congenital Heart Disease",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

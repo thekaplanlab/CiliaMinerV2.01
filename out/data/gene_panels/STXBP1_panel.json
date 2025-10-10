@@ -1,0 +1,140 @@
+{
+  "gene_name": "STXBP1",
+  "ensembl_id": "ENSG00000136854",
+  "synonyms": [
+    "HUNC18",
+    "MUNC18-1",
+    "NSEC1",
+    "RBSEC1",
+    "UNC18"
+  ],
+  "omim_id": "602926",
+  "description": "syntaxin binding protein 1 [Source:HGNC Symbol;Acc:HGNC:11444]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00995"
+  ],
+  "domain_descriptions": [
+    "Sec1-like protein",
+    "Sec1-like",
+    "domain 2",
+    "Sec1-like superfamily",
+    "Sec1-like",
+    "domain 3a",
+    "Sec1-like",
+    "domain 1"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Sec1-like protein",
+    "Sec1-like",
+    "domain 2",
+    "Sec1-like superfamily",
+    "Sec1-like",
+    "domain 3a",
+    "Sec1-like",
+    "domain 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00995"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sec1-like protein",
+    "Sec1-like",
+    "domain 2",
+    "Sec1-like superfamily",
+    "Sec1-like",
+    "domain 3a",
+    "Sec1-like",
+    "domain 1"
+  ],
+  "ciliary_role": "accumulation of Stx3 and Stxbp1/Munc18-1 and loss of polarized localization of Prom1 within the Lztfl1 and Bbs1 mutant outer segment (26216965).",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "STXBP1 is a ciliary gene encoding syntaxin binding protein 1 [source:hgnc symbol;acc:hgnc:11444]",
+    "functional_summary": "accumulation of Stx3 and Stxbp1/Munc18-1 and loss of polarized localization of Prom1 within the Lztfl1 and Bbs1 mutant outer segment (26216965).",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

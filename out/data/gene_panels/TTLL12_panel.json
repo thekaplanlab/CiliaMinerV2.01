@@ -1,0 +1,96 @@
+{
+  "gene_name": "TTLL12",
+  "ensembl_id": "ENSG00000100304",
+  "synonyms": [
+    "KIAA0153"
+  ],
+  "omim_id": "619410",
+  "description": "tubulin tyrosine ligase like 12 [Source:HGNC Symbol;Acc:HGNC:28974]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03133"
+  ],
+  "domain_descriptions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase-like protein 12"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation"
+  ],
+  "structural_features": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase-like protein 12"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03133"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase-like protein 12"
+  ],
+  "ciliary_role": "TTLL12 localizes to the base of primary cilia and is required for cilia formation in polarized re l epithelial cells. TTLL12 directly binds to the 伪/尾-tubulin heterodimer in vitro and regulates microtubule dy mics, stability, and post-translatio l modifications (PTMs)(37546873).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTLL12 is a ciliary gene encoding tubulin tyrosine ligase like 12 [source:hgnc symbol;acc:hgnc:28974]",
+    "functional_summary": "TTLL12 localizes to the base of primary cilia and is required for cilia formation in polarized re l epithelial cells. TTLL12 directly binds to the 伪/尾-tubulin heterodimer in vitro and regulates microt...",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

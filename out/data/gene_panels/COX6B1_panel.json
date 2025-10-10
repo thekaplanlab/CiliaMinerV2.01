@@ -1,0 +1,109 @@
+{
+  "gene_name": "COX6B1",
+  "ensembl_id": "ENSG00000126267",
+  "synonyms": [
+    "COX6B",
+    "COXG"
+  ],
+  "omim_id": "124089",
+  "description": "cytochrome c oxidase subunit 6B1 [Source:HGNC Symbol;Acc:HGNC:2280]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02297"
+  ],
+  "domain_descriptions": [
+    "Cytochrome c oxidase",
+    "subunit VIb",
+    "Cytochrome c oxidase subunit 6B/Cytochrome c oxidase assembly factor 6-like superfamily",
+    "Cytochrome oxidase c subunit VIb-like"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cytochrome c oxidase",
+    "subunit VIb",
+    "Cytochrome c oxidase subunit 6B/Cytochrome c oxidase assembly factor 6-like superfamily",
+    "Cytochrome oxidase c subunit VIb-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02297"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cytochrome c oxidase",
+    "subunit VIb",
+    "Cytochrome c oxidase subunit 6B/Cytochrome c oxidase assembly factor 6-like superfamily",
+    "Cytochrome oxidase c subunit VIb-like"
+  ],
+  "ciliary_role": "COX6B1 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "COX6B1 is a ciliary gene encoding cytochrome c oxidase subunit 6b1 [source:hgnc symbol;acc:hgnc:2280]",
+    "functional_summary": "COX6B1 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

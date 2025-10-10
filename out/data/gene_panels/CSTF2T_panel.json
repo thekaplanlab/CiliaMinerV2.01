@@ -1,0 +1,113 @@
+{
+  "gene_name": "CSTF2T",
+  "ensembl_id": "ENSG00000177613",
+  "synonyms": [
+    "CSTF-64T",
+    "DKFZP434C1013",
+    "KIAA0689",
+    "TAUCSTF-64"
+  ],
+  "omim_id": "611968",
+  "description": "cleavage stimulation factor subunit 2 tau variant [Source:HGNC Symbol;Acc:HGNC:17086]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00076",
+    "PF14304",
+    "PF14327"
+  ],
+  "domain_descriptions": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Cleavage stimulation factor subunit 2",
+    "hinge domain",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain",
+    "RNA-binding domain superfamily",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Cleavage stimulation factor subunit 2",
+    "hinge domain",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain",
+    "RNA-binding domain superfamily",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00076",
+      "PF14304",
+      "PF14327"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Cleavage stimulation factor subunit 2",
+    "hinge domain",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain",
+    "RNA-binding domain superfamily",
+    "Transcription termination and cleavage factor",
+    "C-terminal domain superfamily"
+  ],
+  "ciliary_role": "CSTF2T has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CSTF2T is a ciliary gene encoding cleavage stimulation factor subunit 2 tau variant [source:hgnc symbol;acc:hgnc:17086]",
+    "functional_summary": "CSTF2T has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

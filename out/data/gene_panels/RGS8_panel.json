@@ -1,0 +1,103 @@
+{
+  "gene_name": "RGS8",
+  "ensembl_id": "ENSG00000135824",
+  "synonyms": [
+    "MGC119067",
+    "MGC119068",
+    "MGC119069"
+  ],
+  "omim_id": "607189",
+  "description": "regulator of G protein signaling 8 [Source:HGNC Symbol;Acc:HGNC:16810]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00615"
+  ],
+  "domain_descriptions": [
+    "RGS domain",
+    "RGS",
+    "subdomain 1/3",
+    "Regulator of G-protein signalling 8",
+    "RGS domain",
+    "RGS domain superfamily",
+    "RGS",
+    "subdomain 2"
+  ],
+  "molecular_function": [
+    "Small GTPases / Trafficking"
+  ],
+  "structural_features": [
+    "RGS domain",
+    "RGS",
+    "subdomain 1/3",
+    "Regulator of G-protein signalling 8",
+    "RGS domain",
+    "RGS domain superfamily",
+    "RGS",
+    "subdomain 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00615"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "RGS domain",
+    "RGS",
+    "subdomain 1/3",
+    "Regulator of G-protein signalling 8",
+    "RGS domain",
+    "RGS domain superfamily",
+    "RGS",
+    "subdomain 2"
+  ],
+  "ciliary_role": "MCHR1-positive primary cilia are significantly elongated in the CA1 of RGS8tg, compared with that in wild mice. Depression-like behavior in RGS8tg might result through RGS8-ciliary MCHR1 interaction in the CA1 region ( 29758252).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Small GTPases / Trafficking"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Small GTPases / Trafficking"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RGS8 is a ciliary gene encoding regulator of g protein signaling 8 [source:hgnc symbol;acc:hgnc:16810]",
+    "functional_summary": "MCHR1-positive primary cilia are significantly elongated in the CA1 of RGS8tg, compared with that in wild mice. Depression-like behavior in RGS8tg might result through RGS8-ciliary MCHR1 interaction i...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

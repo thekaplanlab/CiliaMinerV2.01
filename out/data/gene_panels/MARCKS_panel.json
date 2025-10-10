@@ -1,0 +1,103 @@
+{
+  "gene_name": "MARCKS",
+  "ensembl_id": "ENSG00000277443",
+  "synonyms": [
+    "80K-L",
+    "MACS",
+    "PKCSL"
+  ],
+  "omim_id": "177061",
+  "description": "myristoylated alanine rich protein kinase C substrate [Source:HGNC Symbol;Acc:HGNC:6759]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02063"
+  ],
+  "domain_descriptions": [
+    "Myristoylated alanine-rich C-kinase substrate MARCKS"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Myristoylated alanine-rich C-kinase substrate MARCKS"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02063"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Myristoylated alanine-rich C-kinase substrate MARCKS"
+  ],
+  "ciliary_role": "Loss of Marcks blocks the targeting of CDC42 to ciliogenesis sites, thereby impairing the vesicular transport essential for cilium assembly. As a result, cells exhibit either absent or shortened cilia., MARCKS has localized in primary cilia.",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MARCKS is a ciliary gene encoding myristoylated alanine rich protein kinase c substrate [source:hgnc symbol;acc:hgnc:6759]",
+    "functional_summary": "Loss of Marcks blocks the targeting of CDC42 to ciliogenesis sites, thereby impairing the vesicular transport essential for cilium assembly. As a result, cells exhibit either absent or shortened cilia...",
+    "localization_summary": "Localizes to cilia, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

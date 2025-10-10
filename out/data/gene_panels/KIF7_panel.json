@@ -1,0 +1,144 @@
+{
+  "gene_name": "KIF7",
+  "ensembl_id": "ENSG00000166813",
+  "synonyms": [
+    "JBTS12"
+  ],
+  "omim_id": "611254",
+  "description": "kinesin family member 7 [Source:HGNC Symbol;Acc:HGNC:30497]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "Negative regulator of Hedgehog sig lling at cilia in mammals by controlling the activity of Gli and Sufu. Controls the localization of Hh sig ling complexes through its ability to regulate the dy mics of microtubule plus- ends. It inhibits microtubule growth to regulate the length of axonemal  at the ciliary tip and control cilia structure (24981634, 24952464, 19592253). A conserved non- motile kinesin, Kif7 defines a cilium-tip compartment by localizing to the distal ends of axonemal , preferentially binds GTP- tubulin at microtubule ends over GDP-tubulin in the mature microtubule lattice (31031197)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Acrocallosal Syndrome",
+    "Al-Gazali-Bakalinova Syndrome",
+    "Hydrolethalus Syndrome",
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Acrocallosal Syndrome, Al-Gazali-Bakalinova Syndrome, Hydrolethalus Syndrome, Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF7 is a ciliary gene encoding kinesin family member 7 [source:hgnc symbol;acc:hgnc:30497]",
+    "functional_summary": "Negative regulator of Hedgehog sig lling at cilia in mammals by controlling the activity of Gli and Sufu. Controls the localization of Hh sig ling complexes through its ability to regulate the dy mics...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Acrocallosal Syndrome, Al-Gazali-Bakalinova Syndrome, Hydrolethalus Syndrome, Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Acrocallosal Syndrome, Al-Gazali-Bakalinova Syndrome, Hydrolethalus Syndrome, Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,125 @@
+{
+  "gene_name": "TAC1",
+  "ensembl_id": "ENSG00000006128",
+  "synonyms": [
+    "NKNA",
+    "NPK",
+    "TAC2"
+  ],
+  "omim_id": "162320",
+  "description": "tachykinin precursor 1 [Source:HGNC Symbol;Acc:HGNC:11517]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02202"
+  ],
+  "domain_descriptions": [
+    "Tachykinin domain",
+    "Tachykinin family",
+    "Tachykinin/Neurokinin-like",
+    "conserved site"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tachykinin domain",
+    "Tachykinin family",
+    "Tachykinin/Neurokinin-like",
+    "conserved site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02202"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tachykinin domain",
+    "Tachykinin family",
+    "Tachykinin/Neurokinin-like",
+    "conserved site"
+  ],
+  "ciliary_role": "SGO-1 likely participates in constraining TAC-1 to the basal body by influencing the function of the transition zone 鈥榗iliary gate鈥",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TAC1 is a ciliary gene encoding tachykinin precursor 1 [source:hgnc symbol;acc:hgnc:11517]",
+    "functional_summary": "SGO-1 likely participates in constraining TAC-1 to the basal body by influencing the function of the transition zone 鈥榗iliary gate鈥",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

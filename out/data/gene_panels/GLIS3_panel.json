@@ -1,0 +1,100 @@
+{
+  "gene_name": "GLIS3",
+  "ensembl_id": "ENSG00000107249",
+  "synonyms": [
+    "MGC33662",
+    "ZNF515"
+  ],
+  "omim_id": "610192",
+  "description": "GLIS family zinc finger 3 [Source:HGNC Symbol;Acc:HGNC:28510]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF23561",
+    "PF00096"
+  ],
+  "domain_descriptions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23561",
+      "PF00096"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "C2H2-type zinc-finger protein GLI-like",
+    "ZIC1-5/GLI1-3like",
+    "C2H2 zinc finger"
+  ],
+  "ciliary_role": "Loss of Glis2 function in mice and mutations in GLIS2 have been associated with nephronophthisis (17618285), while genetic alterations in the GLIS3 gene have been linked to a syndrome characterized by neo tal diabetes and congenital hypothyroidism (NDH) (16715098). Dysfunction of Glis3 leads to the development of cystic re l disease, suggesting that Glis3 plays a critical role in maintaining normal re l functions. Glis3 sig ling pathway have localization to the primary cilium and interaction with Wwtr1(19273592).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GLIS3 is a ciliary gene encoding glis family zinc finger 3 [source:hgnc symbol;acc:hgnc:28510]",
+    "functional_summary": "Loss of Glis2 function in mice and mutations in GLIS2 have been associated with nephronophthisis (17618285), while genetic alterations in the GLIS3 gene have been linked to a syndrome characterized by...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

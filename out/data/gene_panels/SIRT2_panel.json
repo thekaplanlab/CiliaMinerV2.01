@@ -1,0 +1,111 @@
+{
+  "gene_name": "SIRT2",
+  "ensembl_id": "ENSG00000283100; ENSG00000068903",
+  "synonyms": [
+    "SIR2L"
+  ],
+  "omim_id": "604480",
+  "description": "sirtuin 2 [Source:HGNC Symbol;Acc:HGNC:10886]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Regulates cell cycle progression at mitosis, replication and G1/S transition. SIRT2 acts as a sensor that links growth factor-dependent sig l transduction and primary cilia formation by regulating the cell cycle under nutrient- present conditions. Suppression leads to a cell cycle arrest and promotes formation of primary cilia, by inhibiting mTOR sig ling mainly via mTORC1 (32213867). Functions as a tubulin deacetylase. Regulates ciliogenesis and centrosome amplification. Inhibition of SIRT2 induces hyperacetylation of 伪-tubulin and blocks cilia dissaembly. SIRT2 could also be responsible for aberrant centrosome amplification and polyploidy in polycystic kidney disease (24203696).",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SIRT2 is a ciliary gene encoding sirtuin 2 [source:hgnc symbol;acc:hgnc:10886]",
+    "functional_summary": "Regulates cell cycle progression at mitosis, replication and G1/S transition. SIRT2 acts as a sensor that links growth factor-dependent sig l transduction and primary cilia formation by regulating the...",
+    "localization_summary": "Localizes to cilia, Centrosome, Cytosol, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

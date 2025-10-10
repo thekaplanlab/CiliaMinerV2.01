@@ -1,0 +1,119 @@
+{
+  "gene_name": "USH1G",
+  "ensembl_id": "ENSG00000182040",
+  "synonyms": [
+    "ANKS4A",
+    "FLJ33924",
+    "SANS"
+  ],
+  "omim_id": "607696",
+  "description": "USH1 protein network component sans [Source:HGNC Symbol;Acc:HGNC:16356]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12796",
+    "PF00536"
+  ],
+  "domain_descriptions": [
+    "Sterile alpha motif domain",
+    "Ankyrin repeat",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "USH1G",
+    "SAM domain"
+  ],
+  "molecular_function": [
+    "Ciliary membrane",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Sterile alpha motif domain",
+    "Ankyrin repeat",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "USH1G",
+    "SAM domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12796",
+      "PF00536"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sterile alpha motif domain",
+    "Ankyrin repeat",
+    "Sterile alpha motif/pointed domain superfamily",
+    "Ankyrin repeat-containing domain superfamily",
+    "USH1G",
+    "SAM domain"
+  ],
+  "ciliary_role": "Ciliopathy gene OMIM: 607696. Mutation are associated with Usher syndrome type 1g. Associates with harmonin and is involved in the functio l network formed through it (12588794). Required for outer segment differentiation, formation and mainte nce of reti  and photoreceptor cell polarity. Scaffold protein in the USH network during ciliogenesis, as dysfunction leads to reti l degeneration (17923142). Form a complex with myomegalin, cooperating in the vesicle transport towards the ciliary base of photoreceptor cells (21767579). Interacts directly with IFT-B proteins, IFT20, IFT52, IFT57, and IFT74, ISHG1 may control the transport of these molecules to the ciliary base (31637240).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary membrane",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary membrane",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Usher Syndrome"
+  ],
+  "ciliopathy_type": "Usher Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USH1G is a ciliary gene encoding ush1 protein network component sans [source:hgnc symbol;acc:hgnc:16356]",
+    "functional_summary": "Ciliopathy gene OMIM: 607696. Mutation are associated with Usher syndrome type 1g. Associates with harmonin and is involved in the functio l network formed through it (12588794). Required for outer se...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Usher Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Usher Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

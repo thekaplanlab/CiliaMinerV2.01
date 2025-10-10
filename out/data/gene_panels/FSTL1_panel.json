@@ -1,0 +1,120 @@
+{
+  "gene_name": "FSTL1",
+  "ensembl_id": "ENSG00000163430",
+  "synonyms": [
+    "FRP",
+    "FSL1",
+    "OCC-1",
+    "OCC1",
+    "TSC36"
+  ],
+  "omim_id": "605547",
+  "description": "follistatin like 1 [Source:HGNC Symbol;Acc:HGNC:3972]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF23564",
+    "PF09289",
+    "PF07648",
+    "PF23244"
+  ],
+  "domain_descriptions": [
+    "EF-hand domain",
+    "Kazal domain",
+    "Follistatin-like",
+    "N-terminal",
+    "EF-hand domain pair",
+    "Follistatin/Osteonectin EGF domain",
+    "Kazal domain superfamily",
+    "Protease Inhibitors and Growth Factor Antagonists",
+    "Follistatin-related protein 1",
+    "EF-hand domain pair"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "structural_features": [
+    "EF-hand domain",
+    "Kazal domain",
+    "Follistatin-like",
+    "N-terminal",
+    "EF-hand domain pair",
+    "Follistatin/Osteonectin EGF domain",
+    "Kazal domain superfamily",
+    "Protease Inhibitors and Growth Factor Antagonists",
+    "Follistatin-related protein 1",
+    "EF-hand domain pair"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23564",
+      "PF09289",
+      "PF07648",
+      "PF23244"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EF-hand domain",
+    "Kazal domain",
+    "Follistatin-like",
+    "N-terminal",
+    "EF-hand domain pair",
+    "Follistatin/Osteonectin EGF domain",
+    "Kazal domain superfamily",
+    "Protease Inhibitors and Growth Factor Antagonists",
+    "Follistatin-related protein 1",
+    "EF-hand domain pair"
+  ],
+  "ciliary_role": "Novel regulator of ciliogenesis in a non-cell autonomous manner due to its activity as a BMP4 inhibitor. BBS4 regulates the cellular trafficking of FSTL1.",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FSTL1 is a ciliary gene encoding follistatin like 1 [source:hgnc symbol;acc:hgnc:3972]",
+    "functional_summary": "Novel regulator of ciliogenesis in a non-cell autonomous manner due to its activity as a BMP4 inhibitor. BBS4 regulates the cellular trafficking of FSTL1.",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

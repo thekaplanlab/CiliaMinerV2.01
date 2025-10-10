@@ -1,0 +1,119 @@
+{
+  "gene_name": "GPR19",
+  "ensembl_id": "ENSG00000183150",
+  "synonyms": [],
+  "omim_id": "602927",
+  "description": "G protein-coupled receptor 19 [Source:HGNC Symbol;Acc:HGNC:4473]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "G protein-coupled receptor 19",
+    "7TM"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "G protein-coupled receptor 19",
+    "7TM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "G protein-coupled receptor 19",
+    "7TM"
+  ],
+  "ciliary_role": "Gpr19 is an orphan GPCR that also localizes to cilia on hippocampal neurons (28154160) and Gpr19 accumulate in cilia on Bbs1 knockout neurons(36699005).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GPR19 is a ciliary gene encoding g protein-coupled receptor 19 [source:hgnc symbol;acc:hgnc:4473]",
+    "functional_summary": "Gpr19 is an orphan GPCR that also localizes to cilia on hippocampal neurons (28154160) and Gpr19 accumulate in cilia on Bbs1 knockout neurons(36699005).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

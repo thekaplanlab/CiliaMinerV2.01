@@ -1,0 +1,148 @@
+{
+  "gene_name": "EPB41L2",
+  "ensembl_id": "ENSG00000079819",
+  "synonyms": [
+    "4.1-G",
+    "4.1G"
+  ],
+  "omim_id": "603237",
+  "description": "erythrocyte membrane protein band 4.1 like 2 [Source:HGNC Symbol;Acc:HGNC:3379]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05902",
+    "PF00373",
+    "PF09380",
+    "PF08736",
+    "PF09379",
+    "PF04382"
+  ],
+  "domain_descriptions": [
+    "Band 4.1",
+    "C-terminal",
+    "FERM domain",
+    "Ezrin/radixin/moesin-like",
+    "PH-like domain superfamily",
+    "FERM/acyl-CoA-binding protein superfamily",
+    "FERM adjacent",
+    "FERM",
+    "N-terminal",
+    "FERM",
+    "C-terminal PH-like domain",
+    "FERM conserved site",
+    "FERM central domain",
+    "Band 4.1 domain",
+    "Ubiquitin-like domain superfamily",
+    "FERM superfamily",
+    "second domain",
+    "SAB domain"
+  ],
+  "molecular_function": [
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Band 4.1",
+    "C-terminal",
+    "FERM domain",
+    "Ezrin/radixin/moesin-like",
+    "PH-like domain superfamily",
+    "FERM/acyl-CoA-binding protein superfamily",
+    "FERM adjacent",
+    "FERM",
+    "N-terminal",
+    "FERM",
+    "C-terminal PH-like domain",
+    "FERM conserved site",
+    "FERM central domain",
+    "Band 4.1 domain",
+    "Ubiquitin-like domain superfamily",
+    "FERM superfamily",
+    "second domain",
+    "SAB domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05902",
+      "PF00373",
+      "PF09380",
+      "PF08736",
+      "PF09379",
+      "PF04382"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Band 4.1",
+    "C-terminal",
+    "FERM domain",
+    "Ezrin/radixin/moesin-like",
+    "PH-like domain superfamily",
+    "FERM/acyl-CoA-binding protein superfamily",
+    "FERM adjacent",
+    "FERM",
+    "N-terminal",
+    "FERM",
+    "C-terminal PH-like domain",
+    "FERM conserved site",
+    "FERM central domain",
+    "Band 4.1 domain",
+    "Ubiquitin-like domain superfamily",
+    "FERM superfamily",
+    "second domain",
+    "SAB domain"
+  ],
+  "ciliary_role": "EPB41L2, erythrocyte membrane protein band 4.1 like 2, localised to cilia(36776558) .",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EPB41L2 is a ciliary gene encoding erythrocyte membrane protein band 4.1 like 2 [source:hgnc symbol;acc:hgnc:3379]",
+    "functional_summary": "EPB41L2, erythrocyte membrane protein band 4.1 like 2, localised to cilia(36776558) .",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

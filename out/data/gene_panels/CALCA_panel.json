@@ -1,0 +1,96 @@
+{
+  "gene_name": "CALCA",
+  "ensembl_id": "ENSG00000110680",
+  "synonyms": [
+    "CALC1",
+    "CGRP",
+    "CGRP-ALPHA"
+  ],
+  "omim_id": "114130",
+  "description": "calcitonin related polypeptide alpha [Source:HGNC Symbol;Acc:HGNC:1437]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00214"
+  ],
+  "domain_descriptions": [
+    "Calcitonin peptide-like",
+    "Calcitonin gene-related peptide",
+    "Calcitonin",
+    "conserved site",
+    "Calcitonin/adrenomedullin",
+    "Calcitonin-like",
+    "Calcitonin"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "Calcitonin peptide-like",
+    "Calcitonin gene-related peptide",
+    "Calcitonin",
+    "conserved site",
+    "Calcitonin/adrenomedullin",
+    "Calcitonin-like",
+    "Calcitonin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00214"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calcitonin peptide-like",
+    "Calcitonin gene-related peptide",
+    "Calcitonin",
+    "conserved site",
+    "Calcitonin/adrenomedullin",
+    "Calcitonin-like",
+    "Calcitonin"
+  ],
+  "ciliary_role": "The vertebrate/human-type vasoactive molecule adrenomedullin (ADM) and its close relative compounds (PAMP and CGRP) have ligand-specific, diverse effects on the migratory behaviour of the eukaryotic ciliate Tetrahyme  piriformis ( 26481478).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CALCA is a ciliary gene encoding calcitonin related polypeptide alpha [source:hgnc symbol;acc:hgnc:1437]",
+    "functional_summary": "The vertebrate/human-type vasoactive molecule adrenomedullin (ADM) and its close relative compounds (PAMP and CGRP) have ligand-specific, diverse effects on the migratory behaviour of the eukaryotic c...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

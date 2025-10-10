@@ -1,0 +1,87 @@
+{
+  "gene_name": "CCDC34",
+  "ensembl_id": "ENSG00000109881",
+  "synonyms": [
+    "L15",
+    "NY-REN-41",
+    "RAMA3"
+  ],
+  "omim_id": "612324",
+  "description": "coiled-coil domain containing 34 [Source:HGNC Symbol;Acc:HGNC:25079]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13904"
+  ],
+  "domain_descriptions": [
+    "Coiled-coil domain-containing protein 34/181",
+    "Coiled-coil domain-containing protein 34"
+  ],
+  "molecular_function": [
+    "Motile cilium"
+  ],
+  "structural_features": [
+    "Coiled-coil domain-containing protein 34/181",
+    "Coiled-coil domain-containing protein 34"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13904"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Coiled-coil domain-containing protein 34/181",
+    "Coiled-coil domain-containing protein 34"
+  ],
+  "ciliary_role": "CCDC34 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCDC34 is a ciliary gene encoding coiled-coil domain containing 34 [source:hgnc symbol;acc:hgnc:25079]",
+    "functional_summary": "CCDC34 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

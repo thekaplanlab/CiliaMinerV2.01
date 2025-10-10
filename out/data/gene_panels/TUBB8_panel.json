@@ -1,0 +1,159 @@
+{
+  "gene_name": "TUBB8",
+  "ensembl_id": "ENSG00000261456",
+  "synonyms": [
+    "BA631M21.2"
+  ],
+  "omim_id": "616768",
+  "description": "tubulin beta 8 class VIII [Source:HGNC Symbol;Acc:HGNC:20773]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00091",
+    "PF03953"
+  ],
+  "domain_descriptions": [
+    "Tubulin",
+    "Beta tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Beta tubulin",
+    "autoregulation binding site",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily",
+    "Tubulin/FtsZ-like",
+    "C-terminal domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin",
+    "Beta tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Beta tubulin",
+    "autoregulation binding site",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily",
+    "Tubulin/FtsZ-like",
+    "C-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00091",
+      "PF03953"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin",
+    "Beta tubulin",
+    "Tubulin/FtsZ",
+    "GTPase domain",
+    "Tubulin/FtsZ",
+    "C-terminal",
+    "Beta tubulin",
+    "autoregulation binding site",
+    "Tubulin",
+    "conserved site",
+    "Tubulin/FtsZ",
+    "2-layer sandwich domain",
+    "Tubulin",
+    "C-terminal",
+    "Tubulin/FtsZ",
+    "GTPase domain superfamily",
+    "Tubulin/FtsZ-like",
+    "C-terminal domain"
+  ],
+  "ciliary_role": "TUBB8 has localized in basal body.",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Immune regulation",
+    "Small GTPases",
+    "Metabolism",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TUBB8 is a ciliary gene encoding tubulin beta 8 class viii [source:hgnc symbol;acc:hgnc:20773]",
+    "functional_summary": "TUBB8 has localized in basal body.",
+    "localization_summary": "Localizes to cilia,basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,116 @@
+{
+  "gene_name": "RCSD1",
+  "ensembl_id": "ENSG00000198771",
+  "synonyms": [
+    "CAPZIP",
+    "MGC21854",
+    "MK2S4"
+  ],
+  "omim_id": "610579",
+  "description": "RCSD domain containing 1 [Source:HGNC Symbol;Acc:HGNC:28310]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05177",
+    "PF15255"
+  ],
+  "domain_descriptions": [
+    "RCSD",
+    "FAM21/CAPZIP domain"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "RCSD",
+    "FAM21/CAPZIP domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05177",
+      "PF15255"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "RCSD",
+    "FAM21/CAPZIP domain"
+  ],
+  "ciliary_role": "Also known as CAPZIP. Ortholog duboraya (dub), has been reported to be essential for actin organization in the cells lining Kupffer's vesicle, regulates ciliogenesis in a phosphorylation-dependent manner as well as left-right patterning in zebrafish ( 17013396). Phosphorylated by ERK7. Ciliogenesis regulations through CapZIP, requires Dvl binding to both ERK7 and CapZIP ( 25823377).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RCSD1 is a ciliary gene encoding rcsd domain containing 1 [source:hgnc symbol;acc:hgnc:28310]",
+    "functional_summary": "Also known as CAPZIP. Ortholog duboraya (dub), has been reported to be essential for actin organization in the cells lining Kupffer's vesicle, regulates ciliogenesis in a phosphorylation-dependent man...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

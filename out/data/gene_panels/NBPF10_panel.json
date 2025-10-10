@@ -1,0 +1,77 @@
+{
+  "gene_name": "NBPF10",
+  "ensembl_id": "ENSG00000271425",
+  "synonyms": [
+    "AG1"
+  ],
+  "omim_id": "614000",
+  "description": "NBPF member 10 [Source:HGNC Symbol;Acc:HGNC:31992]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06758"
+  ],
+  "domain_descriptions": [
+    "Olduvai domain",
+    "NBPF"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "Olduvai domain",
+    "NBPF"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06758"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Olduvai domain",
+    "NBPF"
+  ],
+  "ciliary_role": "NBPF10 has localized in cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NBPF10 is a ciliary gene encoding nbpf member 10 [source:hgnc symbol;acc:hgnc:31992]",
+    "functional_summary": "NBPF10 has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,92 @@
+{
+  "gene_name": "CFAP276",
+  "ensembl_id": "ENSG00000179902",
+  "synonyms": [
+    "C1ORF194"
+  ],
+  "omim_id": "618682",
+  "description": "cilia and flagella associated protein 276 [Source:HGNC Symbol;Acc:HGNC:32331]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12494"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 276"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 276"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12494"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 276"
+  ],
+  "ciliary_role": "CFAP276 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP276 is a ciliary gene encoding cilia and flagella associated protein 276 [source:hgnc symbol;acc:hgnc:32331]",
+    "functional_summary": "CFAP276 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

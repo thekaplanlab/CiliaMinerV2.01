@@ -1,0 +1,137 @@
+{
+  "gene_name": "KIF2C",
+  "ensembl_id": "ENSG00000142945",
+  "synonyms": [
+    "CT139",
+    "KNSL6",
+    "MCAK"
+  ],
+  "omim_id": "604538",
+  "description": "kinesin family member 2C [Source:HGNC Symbol;Acc:HGNC:6393]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225",
+    "PF22923"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF2A-like",
+    "N-terminal",
+    "Kinesin motor domain",
+    "conserved site"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF2A-like",
+    "N-terminal",
+    "Kinesin motor domain",
+    "conserved site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225",
+      "PF22923"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein KIF2A-like",
+    "N-terminal",
+    "Kinesin motor domain",
+    "conserved site"
+  ],
+  "ciliary_role": "Exogenous KIF2A, KIF2B, and KIF2C all localized to the basal bodys, and KIF2A and KIF2C, but not KIF2B, reduced ciliated cells to around 10%–20% compared with the control AcGFP1 (25660017).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF2C is a ciliary gene encoding kinesin family member 2c [source:hgnc symbol;acc:hgnc:6393]",
+    "functional_summary": "Exogenous KIF2A, KIF2B, and KIF2C all localized to the basal bodys, and KIF2A and KIF2C, but not KIF2B, reduced ciliated cells to around 10%–20% compared with the control AcGFP1 (25660017).",
+    "localization_summary": "Localizes to basal body, Cytosol, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

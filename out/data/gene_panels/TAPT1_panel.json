@@ -1,0 +1,97 @@
+{
+  "gene_name": "TAPT1",
+  "ensembl_id": "ENSG00000169762",
+  "synonyms": [
+    "FLJ90013"
+  ],
+  "omim_id": "612758",
+  "description": "transmembrane anterior posterior transformation 1 [Source:HGNC Symbol;Acc:HGNC:26887]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05346"
+  ],
+  "domain_descriptions": [
+    "Tapt1 family"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "ECM & connective tissue",
+    "Neurogenesis & migration",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Tapt1 family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05346"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tapt1 family"
+  ],
+  "ciliary_role": "Regulates intracellular protein trafficking and organisation of cellular organelles, it could also play a role in ciliary assembly and sig ling. Defective TAPT1 mislocalises to the cytoplasm, disrupts Golgi morphology, trafficking and normal ciliogenesis. Knockdown of tapt1b in zebrafish induces severe malformations of the craniofacial skeleton (26365339).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "ECM & connective tissue",
+    "Neurogenesis & migration",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "ECM & connective tissue",
+    "Neurogenesis & migration",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Complex Lethal Osteochondrodysplasia"
+  ],
+  "ciliopathy_type": "Complex Lethal Osteochondrodysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TAPT1 is a ciliary gene encoding transmembrane anterior posterior transformation 1 [source:hgnc symbol;acc:hgnc:26887]",
+    "functional_summary": "Regulates intracellular protein trafficking and organisation of cellular organelles, it could also play a role in ciliary assembly and sig ling. Defective TAPT1 mislocalises to the cytoplasm, disrupts...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Complex Lethal Osteochondrodysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Complex Lethal Osteochondrodysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

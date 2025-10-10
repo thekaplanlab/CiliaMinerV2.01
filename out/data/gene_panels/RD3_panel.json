@@ -1,0 +1,81 @@
+{
+  "gene_name": "RD3",
+  "ensembl_id": "ENSG00000198570",
+  "synonyms": [
+    "C1ORF36",
+    "LCA12"
+  ],
+  "omim_id": "180040",
+  "description": "RD3 regulator of GUCY2D [Source:HGNC Symbol;Acc:HGNC:19689]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the RD3 gene cause Leber Congenital Amaurosis (PMID: 17186464).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium & axoneme",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Leber Congenital Amaurosis"
+  ],
+  "ciliopathy_type": "Leber Congenital Amaurosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RD3 is a ciliary gene encoding rd3 regulator of gucy2d [source:hgnc symbol;acc:hgnc:19689]",
+    "functional_summary": "Mutations in the RD3 gene cause Leber Congenital Amaurosis (PMID: 17186464).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Leber Congenital Amaurosis",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Leber Congenital Amaurosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

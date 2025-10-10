@@ -1,0 +1,115 @@
+{
+  "gene_name": "PSD3",
+  "ensembl_id": "ENSG00000156011",
+  "synonyms": [
+    "DKFZP761K1423",
+    "EFA6D",
+    "EFA6R",
+    "HCA67",
+    "KIAA0942"
+  ],
+  "omim_id": "614440",
+  "description": "pleckstrin and Sec7 domain containing 3 [Source:HGNC Symbol;Acc:HGNC:19093]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01369",
+    "PF15410"
+  ],
+  "domain_descriptions": [
+    "Sec7 domain",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Sec7",
+    "C-terminal domain superfamily",
+    "Sec7 domain superfamily",
+    "Pleckstrin homology domain 9",
+    "Pleckstrin homology domain",
+    "spectrin-type"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation"
+  ],
+  "structural_features": [
+    "Sec7 domain",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Sec7",
+    "C-terminal domain superfamily",
+    "Sec7 domain superfamily",
+    "Pleckstrin homology domain 9",
+    "Pleckstrin homology domain",
+    "spectrin-type"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01369",
+      "PF15410"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sec7 domain",
+    "Pleckstrin homology domain",
+    "PH-like domain superfamily",
+    "Sec7",
+    "C-terminal domain superfamily",
+    "Sec7 domain superfamily",
+    "Pleckstrin homology domain 9",
+    "Pleckstrin homology domain",
+    "spectrin-type"
+  ],
+  "ciliary_role": "PSD3 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PSD3 is a ciliary gene encoding pleckstrin and sec7 domain containing 3 [source:hgnc symbol;acc:hgnc:19093]",
+    "functional_summary": "PSD3 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

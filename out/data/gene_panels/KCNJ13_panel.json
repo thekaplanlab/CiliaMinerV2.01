@@ -1,0 +1,166 @@
+{
+  "gene_name": "KCNJ13",
+  "ensembl_id": "ENSG00000115474",
+  "synonyms": [
+    "KIR1.4",
+    "KIR7.1",
+    "LCA16"
+  ],
+  "omim_id": "603208",
+  "description": "potassium inwardly rectifying channel subfamily J member 13 [Source:HGNC Symbol;Acc:HGNC:6259]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17655",
+    "PF01007"
+  ],
+  "domain_descriptions": [
+    "Inward rectifier potassium channel 13",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "cytoplasmic",
+    "Immunoglobulin E-set",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "Potassium channel",
+    "inwardly rectifying",
+    "transmembrane domain",
+    "Inward rectifier potassium channel",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Inward rectifier potassium channel 13",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "cytoplasmic",
+    "Immunoglobulin E-set",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "Potassium channel",
+    "inwardly rectifying",
+    "transmembrane domain",
+    "Inward rectifier potassium channel",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17655",
+      "PF01007"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Inward rectifier potassium channel 13",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "cytoplasmic",
+    "Immunoglobulin E-set",
+    "Potassium channel",
+    "inwardly rectifying",
+    "Kir",
+    "Potassium channel",
+    "inwardly rectifying",
+    "transmembrane domain",
+    "Inward rectifier potassium channel",
+    "C-terminal"
+  ],
+  "ciliary_role": "Mutations are associated with the human reti l dystrophies LCA and Snowflake Vitreoreti l Degeneration (30009826).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Leber Congenital Amaurosis"
+  ],
+  "ciliopathy_type": "Leber Congenital Amaurosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KCNJ13 is a ciliary gene encoding potassium inwardly rectifying channel subfamily j member 13 [source:hgnc symbol;acc:hgnc:6259]",
+    "functional_summary": "Mutations are associated with the human reti l dystrophies LCA and Snowflake Vitreoreti l Degeneration (30009826).",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "Associated with Leber Congenital Amaurosis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Leber Congenital Amaurosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

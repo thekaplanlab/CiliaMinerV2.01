@@ -1,0 +1,151 @@
+{
+  "gene_name": "CDON",
+  "ensembl_id": "ENSG00000064309",
+  "synonyms": [
+    "CDO",
+    "CDON1",
+    "IHOG",
+    "ORCAM"
+  ],
+  "omim_id": "608707",
+  "description": "cell adhesion associated, oncogene regulated [Source:HGNC Symbol;Acc:HGNC:17104]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07679",
+    "PF13927",
+    "PF00041"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07679",
+      "PF13927",
+      "PF00041"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin subtype 2",
+    "Immunoglobulin domain subtype",
+    "Fibronectin type III",
+    "Immunoglobulin-like domain",
+    "Immunoglobulin I-set",
+    "Immunoglobulin-like fold",
+    "Fibronectin type III superfamily",
+    "Immunoglobulin-like domain superfamily"
+  ],
+  "ciliary_role": "At the far periphery, ciliary margin (CM) markers Otx1 and Cdon together with Wnt3a and Fzd1 were ectopically upregulated, whereas neuroreti l progenitor markers Sox2, Notch1, and Otx2 were absent or reduced ( 30485816).",
+  "localization": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "RTK/FGF signaling",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Holoprosencephaly"
+  ],
+  "ciliopathy_type": "Holoprosencephaly",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CDON is a ciliary gene encoding cell adhesion associated, oncogene regulated [source:hgnc symbol;acc:hgnc:17104]",
+    "functional_summary": "At the far periphery, ciliary margin (CM) markers Otx1 and Cdon together with Wnt3a and Fzd1 were ectopically upregulated, whereas neuroreti l progenitor markers Sox2, Notch1, and Otx2 were absent or ...",
+    "localization_summary": "Localizes to Ciliary associated gene, Lysosomes",
+    "disease_summary": "Associated with Holoprosencephaly",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Holoprosencephaly",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

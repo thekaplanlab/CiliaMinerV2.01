@@ -1,0 +1,155 @@
+{
+  "gene_name": "EZH2",
+  "ensembl_id": "ENSG00000106462",
+  "synonyms": [
+    "ENX-1",
+    "EZH1",
+    "KMT6",
+    "KMT6A"
+  ],
+  "omim_id": "601573",
+  "description": "enhancer of zeste 2 polycomb repressive complex 2 subunit [Source:HGNC Symbol;Acc:HGNC:3527]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF18264",
+    "PF18118",
+    "PF00856",
+    "PF11616",
+    "PF21358"
+  ],
+  "domain_descriptions": [
+    "SANT/Myb domain",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/EZH2",
+    "CXC domain",
+    "Tesmin/TSO1-like CXC domain",
+    "Polycomb repressive complex 2 subunit EZH1/EZH2",
+    "tri-helical domain",
+    "Pre-SET CXC domain",
+    "EZH2",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/2-like",
+    "SET domain superfamily",
+    "EZH1/2",
+    "MCSS domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "SANT/Myb domain",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/EZH2",
+    "CXC domain",
+    "Tesmin/TSO1-like CXC domain",
+    "Polycomb repressive complex 2 subunit EZH1/EZH2",
+    "tri-helical domain",
+    "Pre-SET CXC domain",
+    "EZH2",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/2-like",
+    "SET domain superfamily",
+    "EZH1/2",
+    "MCSS domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF18264",
+      "PF18118",
+      "PF00856",
+      "PF11616",
+      "PF21358"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SANT/Myb domain",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/EZH2",
+    "CXC domain",
+    "Tesmin/TSO1-like CXC domain",
+    "Polycomb repressive complex 2 subunit EZH1/EZH2",
+    "tri-helical domain",
+    "Pre-SET CXC domain",
+    "EZH2",
+    "SET domain",
+    "Histone-lysine N-methyltransferase EZH1/2-like",
+    "SET domain superfamily",
+    "EZH1/2",
+    "MCSS domain"
+  ],
+  "ciliary_role": "Methyltransferase unit of PRC2. EZH2 suppresses genes functio lly connected to the primary cilium, promoting loss of primay cilia, inhibition induces primary cilium formation in most melanoma cell. Loss of cilia",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EZH2 is a ciliary gene encoding enhancer of zeste 2 polycomb repressive complex 2 subunit [source:hgnc symbol;acc:hgnc:3527]",
+    "functional_summary": "Methyltransferase unit of PRC2. EZH2 suppresses genes functio lly connected to the primary cilium, promoting loss of primay cilia, inhibition induces primary cilium formation in most melanoma cell. Lo...",
+    "localization_summary": "Localizes to basal body,cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

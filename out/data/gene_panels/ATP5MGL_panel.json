@@ -1,0 +1,110 @@
+{
+  "gene_name": "ATP5MGL",
+  "ensembl_id": "ENSG00000249222",
+  "synonyms": [
+    "ATP5K2",
+    "ATP5L2",
+    "DJ222E13.5"
+  ],
+  "omim_id": "",
+  "description": "ATP synthase membrane subunit g like [Source:HGNC Symbol;Acc:HGNC:13213]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04718"
+  ],
+  "domain_descriptions": [
+    "ATP synthase",
+    "F0 complex",
+    "subunit G",
+    "mitochondrial",
+    "Mitochondrial ATP synthase subunit g",
+    "animal"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "ATP synthase",
+    "F0 complex",
+    "subunit G",
+    "mitochondrial",
+    "Mitochondrial ATP synthase subunit g",
+    "animal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04718"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ATP synthase",
+    "F0 complex",
+    "subunit G",
+    "mitochondrial",
+    "Mitochondrial ATP synthase subunit g",
+    "animal"
+  ],
+  "ciliary_role": "ATP5MGL has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ATP5MGL is a ciliary gene encoding atp synthase membrane subunit g like [source:hgnc symbol;acc:hgnc:13213]",
+    "functional_summary": "ATP5MGL has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

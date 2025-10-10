@@ -1,0 +1,113 @@
+{
+  "gene_name": "CFAP45",
+  "ensembl_id": "ENSG00000213085",
+  "synonyms": [
+    "CCDC19",
+    "NESG1"
+  ],
+  "omim_id": "605152",
+  "description": "cilia and flagella associated protein 45 [Source:HGNC Symbol;Acc:HGNC:17229]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13868"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 45",
+    "Trichohyalin-plectin-homology domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 45",
+    "Trichohyalin-plectin-homology domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13868"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 45",
+    "Trichohyalin-plectin-homology domain"
+  ],
+  "ciliary_role": "CFAP45 has localized in basal body, transition zone.",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Visceral Heterotaxy"
+  ],
+  "ciliopathy_type": "Visceral Heterotaxy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP45 is a ciliary gene encoding cilia and flagella associated protein 45 [source:hgnc symbol;acc:hgnc:17229]",
+    "functional_summary": "CFAP45 has localized in basal body, transition zone.",
+    "localization_summary": "Localizes to basal body, transition zone, Nucleus",
+    "disease_summary": "Associated with Visceral Heterotaxy",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Visceral Heterotaxy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

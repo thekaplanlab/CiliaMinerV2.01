@@ -1,0 +1,128 @@
+{
+  "gene_name": "HTR7",
+  "ensembl_id": "ENSG00000148680",
+  "synonyms": [
+    "5-HT7"
+  ],
+  "omim_id": "182137",
+  "description": "5-hydroxytryptamine receptor 7 [Source:HGNC Symbol;Acc:HGNC:5302]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "5-Hydroxytryptamine 7 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "5-hydroxytryptamine receptor family"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "5-Hydroxytryptamine 7 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "5-hydroxytryptamine receptor family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "5-Hydroxytryptamine 7 receptor",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "5-hydroxytryptamine receptor family"
+  ],
+  "ciliary_role": "A chimeric HTR7 containing the N-termi l portion of the i3 loop from HTR6 was successfully targeted to cilia (18256283).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HTR7 is a ciliary gene encoding 5-hydroxytryptamine receptor 7 [source:hgnc symbol;acc:hgnc:5302]",
+    "functional_summary": "A chimeric HTR7 containing the N-termi l portion of the i3 loop from HTR6 was successfully targeted to cilia (18256283).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

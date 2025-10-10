@@ -1,0 +1,137 @@
+{
+  "gene_name": "CLUAP1",
+  "ensembl_id": "ENSG00000103351",
+  "synonyms": [
+    "CFAP22",
+    "FAP22",
+    "FLJ13297",
+    "IFT38",
+    "KIAA0643"
+  ],
+  "omim_id": "616787",
+  "description": "clusterin associated protein 1 [Source:HGNC Symbol;Acc:HGNC:19009]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10234"
+  ],
+  "domain_descriptions": [
+    "Clusterin-associated protein-1"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Intraflagellar transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Clusterin-associated protein-1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10234"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Clusterin-associated protein-1"
+  ],
+  "ciliary_role": "Cilia protein required for cilia formation. Key regulator of hedgehog sig ling and as an intraflagellar transport B complex protein involved in anterograde and retrograde cilia transport. Deletion of Cluap1 causes a total loss of cilia within the developing embryo in mice (23351563, 31554018, 23742838). Role in cilia assembly and mainte nce, intracellular transport processes and cytoskeletal rearrangement by its interactions with TRIP6, which is suggested to be an actin and migration- modulating factor (29615496 )",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Intraflagellar transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Intraflagellar transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CLUAP1 is a ciliary gene encoding clusterin associated protein 1 [source:hgnc symbol;acc:hgnc:19009]",
+    "functional_summary": "Cilia protein required for cilia formation. Key regulator of hedgehog sig ling and as an intraflagellar transport B complex protein involved in anterograde and retrograde cilia transport. Deletion of ...",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

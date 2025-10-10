@@ -1,0 +1,108 @@
+{
+  "gene_name": "LRPPRC",
+  "ensembl_id": "ENSG00000138095",
+  "synonyms": [
+    "GP130",
+    "LRP130",
+    "LSFC"
+  ],
+  "omim_id": "607544",
+  "description": "leucine rich pentatricopeptide repeat containing [Source:HGNC Symbol;Acc:HGNC:15714]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17177",
+    "PF13812",
+    "PF01535"
+  ],
+  "domain_descriptions": [
+    "Pentatricopeptide repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PROP1-like",
+    "PPR domain",
+    "Leucine-rich PPR motif-containing protein",
+    "Armadillo-type fold"
+  ],
+  "molecular_function": [
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Pentatricopeptide repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PROP1-like",
+    "PPR domain",
+    "Leucine-rich PPR motif-containing protein",
+    "Armadillo-type fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17177",
+      "PF13812",
+      "PF01535"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Pentatricopeptide repeat",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PROP1-like",
+    "PPR domain",
+    "Leucine-rich PPR motif-containing protein",
+    "Armadillo-type fold"
+  ],
+  "ciliary_role": "LRPPRC has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRPPRC is a ciliary gene encoding leucine rich pentatricopeptide repeat containing [source:hgnc symbol;acc:hgnc:15714]",
+    "functional_summary": "LRPPRC has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Nucleus, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

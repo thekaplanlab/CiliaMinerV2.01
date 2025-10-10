@@ -1,0 +1,124 @@
+{
+  "gene_name": "ARMC9",
+  "ensembl_id": "ENSG00000135931",
+  "synonyms": [
+    "ARM",
+    "FLJ12584",
+    "KIAA1868",
+    "KU-MEL-1"
+  ],
+  "omim_id": "617612",
+  "description": "armadillo repeat containing 9 [Source:HGNC Symbol;Acc:HGNC:20730]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21050",
+    "PF23138",
+    "PF21051"
+  ],
+  "domain_descriptions": [
+    "LIS1 homology motif",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "LisH domain-containing protein ARMC9",
+    "ARMC9",
+    "LIS1 homology motif",
+    "LisH domain-containing protein ARMC9",
+    "ARM repeat domain",
+    "ARMC9",
+    "CTLH-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "LIS1 homology motif",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "LisH domain-containing protein ARMC9",
+    "ARMC9",
+    "LIS1 homology motif",
+    "LisH domain-containing protein ARMC9",
+    "ARM repeat domain",
+    "ARMC9",
+    "CTLH-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21050",
+      "PF23138",
+      "PF21051"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "LIS1 homology motif",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "LisH domain-containing protein ARMC9",
+    "ARMC9",
+    "LIS1 homology motif",
+    "LisH domain-containing protein ARMC9",
+    "ARM repeat domain",
+    "ARMC9",
+    "CTLH-like domain"
+  ],
+  "ciliary_role": "Ciliopathy gene JBTS30 PMID:28625504. Interacts with coiled-coil domain containing 66 (CCDC66) and TOG array regulator of axonemal  1 (TOGARAM1) 32453716. Regulator of b- tubule length 30217954",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARMC9 is a ciliary gene encoding armadillo repeat containing 9 [source:hgnc symbol;acc:hgnc:20730]",
+    "functional_summary": "Ciliopathy gene JBTS30 PMID:28625504. Interacts with coiled-coil domain containing 66 (CCDC66) and TOG array regulator of axonemal  1 (TOGARAM1) 32453716. Regulator of b- tubule length 30217954",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

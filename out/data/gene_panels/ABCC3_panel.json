@@ -1,0 +1,16 @@
+{
+  "gene_name": "ABCC3",
+  "ensembl_id": "ENSG00000108846",
+  "description": "ATP binding cassette subfamily C member 3 [Source:HGNC Symbol;Acc:HGNC:54]",
+  "omim_id": "604323",
+  "localization": "basal body",
+  "functional_summary": "ABCC3 has localized in basal body.",
+  "ciliopathy": NaN,
+  "functional_category": "Basal body / centriole",
+  "ai_summary": {
+    "basic_summary": "ABCC3 is a ciliary gene",
+    "functional_summary": "ABCC3 has localized in basal body.",
+    "localization_summary": "Localizes to basal body",
+    "clinical_relevance": NaN
+  }
+}

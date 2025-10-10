@@ -1,0 +1,102 @@
+{
+  "gene_name": "MANF",
+  "ensembl_id": "ENSG00000145050",
+  "synonyms": [
+    "ARMET",
+    "ARP"
+  ],
+  "omim_id": "601916",
+  "description": "mesencephalic astrocyte derived neurotrophic factor [Source:HGNC Symbol;Acc:HGNC:15461]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10208",
+    "PF20145"
+  ],
+  "domain_descriptions": [
+    "ARMET",
+    "C-terminal",
+    "SAP domain superfamily",
+    "ARMET",
+    "N-terminal",
+    "ARMET-like"
+  ],
+  "molecular_function": [
+    "Muscle contraction & physiology"
+  ],
+  "structural_features": [
+    "ARMET",
+    "C-terminal",
+    "SAP domain superfamily",
+    "ARMET",
+    "N-terminal",
+    "ARMET-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10208",
+      "PF20145"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ARMET",
+    "C-terminal",
+    "SAP domain superfamily",
+    "ARMET",
+    "N-terminal",
+    "ARMET-like"
+  ],
+  "ciliary_role": "MANF can protect cilia of DA neurons at an early stage, suggested that MANF participated in the whole process of neuro l degeneration ( 29959908).",
+  "localization": [
+    "Ciliary associated gene",
+    "Endoplasmic",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Endoplasmic",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Muscle contraction & physiology"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MANF is a ciliary gene encoding mesencephalic astrocyte derived neurotrophic factor [source:hgnc symbol;acc:hgnc:15461]",
+    "functional_summary": "MANF can protect cilia of DA neurons at an early stage, suggested that MANF participated in the whole process of neuro l degeneration ( 29959908).",
+    "localization_summary": "Localizes to Ciliary associated gene, Endoplasmic, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

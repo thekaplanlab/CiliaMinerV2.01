@@ -1,0 +1,113 @@
+{
+  "gene_name": "TTLL5",
+  "ensembl_id": "ENSG00000119685",
+  "synonyms": [
+    "KIAA0998",
+    "STAMP"
+  ],
+  "omim_id": "612268",
+  "description": "tubulin tyrosine ligase like 5 [Source:HGNC Symbol;Acc:HGNC:19963]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03133"
+  ],
+  "domain_descriptions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03133"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase"
+  ],
+  "ciliary_role": "Recruited by ARL13B and FIP5 (30120249). Higher activity initiating glutamate chains than elongating them. Required for RPGRORF15 function as it seems to be highly selective (27162334). Essential for the correct function of sperm flagella. It might also be responsible for the tubulin polyglutami tion in the microtubule triplets of the centrioles, increasing the centriole stability. Mutations have been identified as cause of recessive reti l dystrophy (24791901), and reduced sperm motility and infertility in humans (28173158).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTLL5 is a ciliary gene encoding tubulin tyrosine ligase like 5 [source:hgnc symbol;acc:hgnc:19963]",
+    "functional_summary": "Recruited by ARL13B and FIP5 (30120249). Higher activity initiating glutamate chains than elongating them. Required for RPGRORF15 function as it seems to be highly selective (27162334). Essential for ...",
+    "localization_summary": "Localizes to cilia, basal body, Centrosome, Nucleus",
+    "disease_summary": "Associated with Cone-Rod Dystrophy",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

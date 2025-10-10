@@ -1,0 +1,116 @@
+{
+  "gene_name": "ANXA5",
+  "ensembl_id": "ENSG00000164111",
+  "synonyms": [
+    "ANX5",
+    "CPB-I",
+    "ENX2",
+    "PAP-I",
+    "RPRGL3",
+    "VAC-ALPH"
+  ],
+  "omim_id": "131230",
+  "description": "annexin A5 [Source:HGNC Symbol;Acc:HGNC:543]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00191"
+  ],
+  "domain_descriptions": [
+    "Annexin",
+    "Annexin A5",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A4"
+  ],
+  "molecular_function": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Annexin",
+    "Annexin A5",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A4"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00191"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Annexin",
+    "Annexin A5",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily",
+    "Annexin A4"
+  ],
+  "ciliary_role": "In frog olfactory epithelia, ANXA isoforms 1, 2, and 5 bind to dicalcin in a Ca2+-dependent manner (17714509). ANXA5 up-regulated in mouse OE pulse-exposed to the odorant octa l (18336002). ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 in the cilia of mouse OSNs (24748648). ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 in the cilia of mouse OSNs (24748648).",
+  "localization": [
+    "cilia",
+    "Autophagosomes",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Autophagosomes",
+    "Endosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Muscle contraction & physiology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ANXA5 is a ciliary gene encoding annexin a5 [source:hgnc symbol;acc:hgnc:543]",
+    "functional_summary": "In frog olfactory epithelia, ANXA isoforms 1, 2, and 5 bind to dicalcin in a Ca2+-dependent manner (17714509). ANXA5 up-regulated in mouse OE pulse-exposed to the odorant octa l (18336002). ANXA1, ANX...",
+    "localization_summary": "Localizes to cilia, Autophagosomes, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

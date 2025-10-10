@@ -1,0 +1,138 @@
+{
+  "gene_name": "DYNLL2",
+  "ensembl_id": "ENSG00000264364",
+  "synonyms": [
+    "DLC2",
+    "DNCL1B",
+    "MGC17810",
+    "RSPH22"
+  ],
+  "omim_id": "608942",
+  "description": "dynein light chain LC8-type 2 [Source:HGNC Symbol;Acc:HGNC:24596]",
+  "protein_complexes": [
+    "Dynein light chain complex (DYNLL1",
+    "DYNLL2)"
+  ],
+  "pfam_ids": [
+    "PF01221"
+  ],
+  "domain_descriptions": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01221"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "ciliary_role": "Protein existing within cytoplasmic dynein 2. Interacts with DYNLL1 and WDR34 to control retrograde intraflagellar transport. Studies suggest that DYNLL2 may be able to function in place of DYNLL1. (25294941, 30649997)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNLL2 is a ciliary gene encoding dynein light chain lc8-type 2 [source:hgnc symbol;acc:hgnc:24596]",
+    "functional_summary": "Protein existing within cytoplasmic dynein 2. Interacts with DYNLL1 and WDR34 to control retrograde intraflagellar transport. Studies suggest that DYNLL2 may be able to function in place of DYNLL1. (2...",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

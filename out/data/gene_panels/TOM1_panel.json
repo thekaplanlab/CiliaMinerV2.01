@@ -1,0 +1,108 @@
+{
+  "gene_name": "TOM1",
+  "ensembl_id": "ENSG00000100284",
+  "synonyms": [],
+  "omim_id": "604700",
+  "description": "target of myb1 membrane trafficking protein [Source:HGNC Symbol;Acc:HGNC:11982]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00790",
+    "PF03127"
+  ],
+  "domain_descriptions": [
+    "VHS domain",
+    "ENTH/VHS",
+    "GAT domain",
+    "Target of Myb protein 1",
+    "GAT domain superfamily"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "VHS domain",
+    "ENTH/VHS",
+    "GAT domain",
+    "Target of Myb protein 1",
+    "GAT domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00790",
+      "PF03127"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "VHS domain",
+    "ENTH/VHS",
+    "GAT domain",
+    "Target of Myb protein 1",
+    "GAT domain superfamily"
+  ],
+  "ciliary_role": "Chlamydomo s TOM1 is required for the removal of ubiquiti ted proteins from cilia(37019113).",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Endosome"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TOM1 is a ciliary gene encoding target of myb1 membrane trafficking protein [source:hgnc symbol;acc:hgnc:11982]",
+    "functional_summary": "Chlamydomo s TOM1 is required for the removal of ubiquiti ted proteins from cilia(37019113).",
+    "localization_summary": "Localizes to cilia, Cytosol, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

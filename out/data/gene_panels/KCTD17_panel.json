@@ -1,0 +1,115 @@
+{
+  "gene_name": "KCTD17",
+  "ensembl_id": "ENSG00000100379",
+  "synonyms": [
+    "FLJ12242"
+  ],
+  "omim_id": "616386",
+  "description": "potassium channel tetramerization domain containing 17 [Source:HGNC Symbol;Acc:HGNC:25705]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02214"
+  ],
+  "domain_descriptions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02214"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BTB/POZ domain",
+    "Potassium channel tetramerisation-type BTB domain",
+    "SKP1/BTB/POZ domain superfamily"
+  ],
+  "ciliary_role": "Substrate-adaptor for Cul3- RING E3 ligases (CRL3s) that modulates polyubiquitylation of trichoplein and e bles cells to assemble primary cilia by limiting Aurora-A activity. KCTD17 is required to initiate the axoneme extension during ciliogenesi (25270598).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KCTD17 is a ciliary gene encoding potassium channel tetramerization domain containing 17 [source:hgnc symbol;acc:hgnc:25705]",
+    "functional_summary": "Substrate-adaptor for Cul3- RING E3 ligases (CRL3s) that modulates polyubiquitylation of trichoplein and e bles cells to assemble primary cilia by limiting Aurora-A activity. KCTD17 is required to ini...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

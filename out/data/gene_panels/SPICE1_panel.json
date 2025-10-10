@@ -1,0 +1,105 @@
+{
+  "gene_name": "SPICE1",
+  "ensembl_id": "ENSG00000163611",
+  "synonyms": [
+    "CCDC52",
+    "SPICE"
+  ],
+  "omim_id": "613447",
+  "description": "spindle and centriole associated protein 1 [Source:HGNC Symbol;Acc:HGNC:25083]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15678"
+  ],
+  "domain_descriptions": [
+    "Spindle and centriole-associated protein 1"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Spindle and centriole-associated protein 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15678"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Spindle and centriole-associated protein 1"
+  ],
+  "ciliary_role": "SPICE1 has localized in basal body, transition zone.",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Centrosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPICE1 is a ciliary gene encoding spindle and centriole associated protein 1 [source:hgnc symbol;acc:hgnc:25083]",
+    "functional_summary": "SPICE1 has localized in basal body, transition zone.",
+    "localization_summary": "Localizes to basal body, transition zone, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

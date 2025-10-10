@@ -1,0 +1,123 @@
+{
+  "gene_name": "KIF19",
+  "ensembl_id": "ENSG00000196169",
+  "synonyms": [
+    "FLJ37300",
+    "KIF19A"
+  ],
+  "omim_id": "619610",
+  "description": "kinesin family member 19 [Source:HGNC Symbol;Acc:HGNC:26735]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Orphan G-protein coupled receptor 1"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Orphan G-protein coupled receptor 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily",
+    "Orphan G-protein coupled receptor 1"
+  ],
+  "ciliary_role": "Also known as KIF19A. Controls ciliary length through its microtubule depolymerising activity. It also has a role in microtubule- based active motility toward the plus-end (27690357). Maintains the optimal length of motile cilia by depolymerising  newly polymerised from axoneme at ciliary tips (23168168).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF19 is a ciliary gene encoding kinesin family member 19 [source:hgnc symbol;acc:hgnc:26735]",
+    "functional_summary": "Also known as KIF19A. Controls ciliary length through its microtubule depolymerising activity. It also has a role in microtubule- based active motility toward the plus-end (27690357). Maintains the op...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

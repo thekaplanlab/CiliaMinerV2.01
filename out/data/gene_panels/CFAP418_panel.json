@@ -1,0 +1,91 @@
+{
+  "gene_name": "CFAP418",
+  "ensembl_id": "ENSG00000156172",
+  "synonyms": [
+    "BBS21",
+    "C8ORF37",
+    "CORD16",
+    "FAP418",
+    "FLJ30600",
+    "MOT25.",
+    "RP64",
+    "SMALLTALK"
+  ],
+  "omim_id": "614477",
+  "description": "cilia and flagella associated protein 418 [Source:HGNC Symbol;Acc:HGNC:27232]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14996"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 418"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 418"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14996"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 418"
+  ],
+  "ciliary_role": "Mutations are associated with cone-rod dystrophy, retinitis pigmentosa (22177090) and Bardet Biedl syndrome (27008867). Studies suggest C8orf37 is involved with primary cilia function and implicated in the development of BBS (27008867).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome",
+    "Cone-Rod Dystrophy",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome, Cone-Rod Dystrophy, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP418 is a ciliary gene encoding cilia and flagella associated protein 418 [source:hgnc symbol;acc:hgnc:27232]",
+    "functional_summary": "Mutations are associated with cone-rod dystrophy, retinitis pigmentosa (22177090) and Bardet Biedl syndrome (27008867). Studies suggest C8orf37 is involved with primary cilia function and implicated i...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome, Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome, Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,86 @@
+{
+  "gene_name": "EVI5L",
+  "ensembl_id": "ENSG00000142459",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "ecotropic viral integration site 5 like [Source:HGNC Symbol;Acc:HGNC:30464]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00566",
+    "PF23436"
+  ],
+  "domain_descriptions": [
+    "Rab-GAP-TBC domain",
+    "Rab-GAP-TBC domain superfamily",
+    "Rab GTPase-activating TBC domain-containing protein"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Rab-GAP-TBC domain",
+    "Rab-GAP-TBC domain superfamily",
+    "Rab GTPase-activating TBC domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00566",
+      "PF23436"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rab-GAP-TBC domain",
+    "Rab-GAP-TBC domain superfamily",
+    "Rab GTPase-activating TBC domain-containing protein"
+  ],
+  "ciliary_role": "Reducing Evi5l expression in MEFs lacking Tgifs resulted in a partial restoration of cilium numbers and in the transcriptio l response to activation of the Shh pathway.",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EVI5L is a ciliary gene encoding ecotropic viral integration site 5 like [source:hgnc symbol;acc:hgnc:30464]",
+    "functional_summary": "Reducing Evi5l expression in MEFs lacking Tgifs resulted in a partial restoration of cilium numbers and in the transcriptio l response to activation of the Shh pathway.",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

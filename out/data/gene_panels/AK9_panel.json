@@ -1,0 +1,102 @@
+{
+  "gene_name": "AK9",
+  "ensembl_id": "ENSG00000155085",
+  "synonyms": [
+    "AKD1",
+    "AKD2",
+    "C6ORF199",
+    "C6ORF224",
+    "DJ70A9.1",
+    "FLJ25791",
+    "FLJ42177",
+    "MGC26954"
+  ],
+  "omim_id": "615358",
+  "description": "adenylate kinase 9 [Source:HGNC Symbol;Acc:HGNC:33814]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00406",
+    "PF13238"
+  ],
+  "domain_descriptions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA+ ATPase domain"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "structural_features": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA+ ATPase domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00406",
+      "PF13238"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA+ ATPase domain"
+  ],
+  "ciliary_role": "Six of the iNPH-associated proteins examined (Cwh43, Rxfp2, Ak9, HAVCR1/Kim1, spatacsin, and myo7A) localized to ependymal motile cilia in vivo or in cultured mouse ependymal cells (38100419).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AK9 is a ciliary gene encoding adenylate kinase 9 [source:hgnc symbol;acc:hgnc:33814]",
+    "functional_summary": "Six of the iNPH-associated proteins examined (Cwh43, Rxfp2, Ak9, HAVCR1/Kim1, spatacsin, and myo7A) localized to ependymal motile cilia in vivo or in cultured mouse ependymal cells (38100419).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

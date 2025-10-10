@@ -1,0 +1,98 @@
+{
+  "gene_name": "RSL1D1",
+  "ensembl_id": "ENSG00000171490",
+  "synonyms": [
+    "CSIG",
+    "DKFZP564M182",
+    "L12",
+    "PBK1",
+    "UTP30"
+  ],
+  "omim_id": "615874",
+  "description": "ribosomal L1 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:24534]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00687"
+  ],
+  "domain_descriptions": [
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "molecular_function": [
+    "ECM & connective tissue"
+  ],
+  "structural_features": [
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00687"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "ciliary_role": "The senescence-regulator RSL1D1 localized at cilia",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "ECM & connective tissue"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "ECM & connective tissue"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RSL1D1 is a ciliary gene encoding ribosomal l1 domain containing 1 [source:hgnc symbol;acc:hgnc:24534]",
+    "functional_summary": "The senescence-regulator RSL1D1 localized at cilia",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

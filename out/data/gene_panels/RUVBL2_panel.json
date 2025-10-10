@@ -1,0 +1,165 @@
+{
+  "gene_name": "RUVBL2",
+  "ensembl_id": "ENSG00000183207",
+  "synonyms": [
+    "ECP51",
+    "INO80J",
+    "REPTIN52",
+    "RVB2",
+    "TIH2",
+    "TIP48",
+    "TIP49B"
+  ],
+  "omim_id": "604788",
+  "description": "RuvB like AAA ATPase 2 [Source:HGNC Symbol;Acc:HGNC:10475]",
+  "protein_complexes": [
+    "ZMYND10 complex",
+    "cytoplasmic"
+  ],
+  "pfam_ids": [
+    "PF06068",
+    "PF17856"
+  ],
+  "domain_descriptions": [
+    "AAA+ ATPase domain",
+    "TIP49",
+    "P-loop domain",
+    "RuvB-like",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "RuvBL1/2",
+    "DNA/RNA binding domain",
+    "RuvB-like",
+    "AAA-lid domain",
+    "Nucleic acid-binding",
+    "OB-fold"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "AAA+ ATPase domain",
+    "TIP49",
+    "P-loop domain",
+    "RuvB-like",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "RuvBL1/2",
+    "DNA/RNA binding domain",
+    "RuvB-like",
+    "AAA-lid domain",
+    "Nucleic acid-binding",
+    "OB-fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06068",
+      "PF17856"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "AAA+ ATPase domain",
+    "TIP49",
+    "P-loop domain",
+    "RuvB-like",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "RuvBL1/2",
+    "DNA/RNA binding domain",
+    "RuvB-like",
+    "AAA-lid domain",
+    "Nucleic acid-binding",
+    "OB-fold"
+  ],
+  "ciliary_role": "Essential for cilia motility in both zebrafish and mouse, through the assembly of ciliary ODAs and IDAs and cooperating with Ruvbl1. Interacts with Hsp90 to regulate the stability of both D I1 and D I2. Requires Ruvbl1 for stability (29113992). Involved in epigenetic and transcriptio l regulation of cilia motility genes, interacts with LRRC6 in a complex involved in dynein arm formation, essential for cilia motility in zebrafish. Candidate gene for PCD (23858445).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RUVBL2 is a ciliary gene encoding ruvb like aaa atpase 2 [source:hgnc symbol;acc:hgnc:10475]",
+    "functional_summary": "Essential for cilia motility in both zebrafish and mouse, through the assembly of ciliary ODAs and IDAs and cooperating with Ruvbl1. Interacts with Hsp90 to regulate the stability of both D I1 and D I...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

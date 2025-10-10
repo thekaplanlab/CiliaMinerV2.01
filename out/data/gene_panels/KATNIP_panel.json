@@ -1,0 +1,106 @@
+{
+  "gene_name": "KATNIP",
+  "ensembl_id": "ENSG00000047578",
+  "synonyms": [
+    "JBTS26",
+    "KIAA0556"
+  ],
+  "omim_id": "616650",
+  "description": "katanin interacting protein [Source:HGNC Symbol;Acc:HGNC:29068]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14652"
+  ],
+  "domain_descriptions": [
+    "Katanin-interacting protein",
+    "KATNIP domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Katanin-interacting protein",
+    "KATNIP domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14652"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Katanin-interacting protein",
+    "KATNIP domain"
+  ],
+  "ciliary_role": "Binds to  and stabilise microtubule networks when overexpressed, it interacts with intraflagellar transport components and katanins associated with  severing. Form a complex that regulates microtubule dy mics as well as ciliary functions. Negative regulator of ciliary length. Mutated in Joubert syndrome (27245168, 26714646).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KATNIP is a ciliary gene encoding katanin interacting protein [source:hgnc symbol;acc:hgnc:29068]",
+    "functional_summary": "Binds to  and stabilise microtubule networks when overexpressed, it interacts with intraflagellar transport components and katanins associated with  severing. Form a complex that regulates microtubule...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

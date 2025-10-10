@@ -1,0 +1,104 @@
+{
+  "gene_name": "NME3",
+  "ensembl_id": "ENSG00000103024",
+  "synonyms": [
+    "DR-NM23",
+    "NDPKC",
+    "NM23-H3"
+  ],
+  "omim_id": "601817",
+  "description": "NME/NM23 nucleoside diphosphate kinase 3 [Source:HGNC Symbol;Acc:HGNC:7851]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00334"
+  ],
+  "domain_descriptions": [
+    "Nucleoside diphosphate kinase",
+    "Nucleoside diphosphate kinase",
+    "active site",
+    "Nucleoside diphosphate kinase-like domain",
+    "Nucleoside diphosphate kinase-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Nucleoside diphosphate kinase",
+    "Nucleoside diphosphate kinase",
+    "active site",
+    "Nucleoside diphosphate kinase-like domain",
+    "Nucleoside diphosphate kinase-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00334"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Nucleoside diphosphate kinase",
+    "Nucleoside diphosphate kinase",
+    "active site",
+    "Nucleoside diphosphate kinase-like domain",
+    "Nucleoside diphosphate kinase-like domain superfamily"
+  ],
+  "ciliary_role": "Facilitates D -repair mechanisms. Binds to several NPHPs, including NEK8, CEP164, and ankyrin repeat and sterile 伪 motif domain- containing 6 (ANKS6). Required for determining left- right assymetry and ciliogenesis. Potential nephronophthisis disease gene (30111592 ).",
+  "localization": [
+    "cilia",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NME3 is a ciliary gene encoding nme/nm23 nucleoside diphosphate kinase 3 [source:hgnc symbol;acc:hgnc:7851]",
+    "functional_summary": "Facilitates D -repair mechanisms. Binds to several NPHPs, including NEK8, CEP164, and ankyrin repeat and sterile 伪 motif domain- containing 6 (ANKS6). Required for determining left- right assymetry an...",
+    "localization_summary": "Localizes to cilia, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

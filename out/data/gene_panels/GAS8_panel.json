@@ -1,0 +1,113 @@
+{
+  "gene_name": "GAS8",
+  "ensembl_id": "ENSG00000141013",
+  "synonyms": [
+    "DRC4",
+    "GAS11"
+  ],
+  "omim_id": "605178",
+  "description": "growth arrest specific 8 [Source:HGNC Symbol;Acc:HGNC:4166]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13851"
+  ],
+  "domain_descriptions": [
+    "Growth arrest-specific protein 8 domain",
+    "Growth arrest-specific protein 8"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Growth arrest-specific protein 8 domain",
+    "Growth arrest-specific protein 8"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13851"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Growth arrest-specific protein 8 domain",
+    "Growth arrest-specific protein 8"
+  ],
+  "ciliary_role": "Role in ciliary motility. Implicated in the Hh sig ling pathway by binding to Smo and regulating its traficking into the cilium (21659505). Mutations are associated with human disease as a cause of severe PCD phenotypes (27472056).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GAS8 is a ciliary gene encoding growth arrest specific 8 [source:hgnc symbol;acc:hgnc:4166]",
+    "functional_summary": "Role in ciliary motility. Implicated in the Hh sig ling pathway by binding to Smo and regulating its traficking into the cilium (21659505). Mutations are associated with human disease as a cause of se...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

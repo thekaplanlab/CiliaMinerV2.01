@@ -1,0 +1,135 @@
+{
+  "gene_name": "SPAG6",
+  "ensembl_id": "ENSG00000077327",
+  "synonyms": [
+    "CFAP194",
+    "CT141",
+    "FAP194",
+    "PF16",
+    "REPRO-SA-1"
+  ],
+  "omim_id": "605730",
+  "description": "sperm associated antigen 6 [Source:HGNC Symbol;Acc:HGNC:11215]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00514"
+  ],
+  "domain_descriptions": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00514"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold"
+  ],
+  "ciliary_role": "Orthologue of Chlamydomo s PF16. Axoneme central apparatus protein, essential for sperm flagellar motility and motility of ependymal cilia, as well as mainte nce of the structural integrity of the sperm flagella by serving as a scaffold protein (12167721). Role in ciliogenesis, axoneme orientation, and cell polarity. Spag6-deficient epithelial cells in the brain and trachea lose rotatio l polarity and Spag6-eficient mice suffer hydrocephalus and are sterile because of sperm motility defects (25333478). Mutated in PCD with male infertility with severe asthenoteratospermia (32124190)",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPAG6 is a ciliary gene encoding sperm associated antigen 6 [source:hgnc symbol;acc:hgnc:11215]",
+    "functional_summary": "Orthologue of Chlamydomo s PF16. Axoneme central apparatus protein, essential for sperm flagellar motility and motility of ependymal cilia, as well as mainte nce of the structural integrity of the spe...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

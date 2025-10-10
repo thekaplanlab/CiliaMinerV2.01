@@ -1,0 +1,100 @@
+{
+  "gene_name": "EVC2",
+  "ensembl_id": "ENSG00000173040",
+  "synonyms": [
+    "LBN"
+  ],
+  "omim_id": "607261",
+  "description": "EvC ciliary complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:19747]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12297"
+  ],
+  "domain_descriptions": [
+    "Limbin",
+    "Limbin/EvC complex member EVC"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Limbin",
+    "Limbin/EvC complex member EVC"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12297"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Limbin",
+    "Limbin/EvC complex member EVC"
+  ],
+  "ciliary_role": "Positive regulator of the Hh sig lling pathway, interacting with Smo and promoting Sufu/Gli3 dissociation and Gli3 ciliary traffic (17660199, 23026747, 21356043, 22986504,22981989). Mutated in Ellis-van Creveld syndrome (21356043). EVC1 and EVC2 are mutually required for localizing to primary cilia and also for maintaining their normal protein levels (23026747).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Ellis-van Creveld Syndrome",
+    "Weyers Acrofacial Dysostosis"
+  ],
+  "ciliopathy_type": "Ellis-van Creveld Syndrome, Weyers Acrofacial Dysostosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EVC2 is a ciliary gene encoding evc ciliary complex subunit 2 [source:hgnc symbol;acc:hgnc:19747]",
+    "functional_summary": "Positive regulator of the Hh sig lling pathway, interacting with Smo and promoting Sufu/Gli3 dissociation and Gli3 ciliary traffic (17660199, 23026747, 21356043, 22986504,22981989). Mutated in Ellis-v...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "Associated with Ellis-van Creveld Syndrome, Weyers Acrofacial Dysostosis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Ellis-van Creveld Syndrome, Weyers Acrofacial Dysostosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

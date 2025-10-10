@@ -1,0 +1,129 @@
+{
+  "gene_name": "AJUBA",
+  "ensembl_id": "ENSG00000129474",
+  "synonyms": [
+    "JUB",
+    "MGC15563"
+  ],
+  "omim_id": "609066",
+  "description": "ajuba LIM protein [Source:HGNC Symbol;Acc:HGNC:20250]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00412"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "LIM-type",
+    "Ajuba-like",
+    "Ajuba-like",
+    "LIM domain 1",
+    "Ajuba-like",
+    "LIM domain 2",
+    "Ajuba-like",
+    "LIM domain 3"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "LIM-type",
+    "Ajuba-like",
+    "Ajuba-like",
+    "LIM domain 1",
+    "Ajuba-like",
+    "LIM domain 2",
+    "Ajuba-like",
+    "LIM domain 3"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00412"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "LIM-type",
+    "Ajuba-like",
+    "Ajuba-like",
+    "LIM domain 1",
+    "Ajuba-like",
+    "LIM domain 2",
+    "Ajuba-like",
+    "LIM domain 3"
+  ],
+  "ciliary_role": "GFP-Ajuba co-localized with the centrosome/basal body marker 纬-tubulin, although additio l GFP-Ajuba granules could be seen scattered in the cytoplasm (20457130)",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus",
+    "P-body"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AJUBA is a ciliary gene encoding ajuba lim protein [source:hgnc symbol;acc:hgnc:20250]",
+    "functional_summary": "GFP-Ajuba co-localized with the centrosome/basal body marker 纬-tubulin, although additio l GFP-Ajuba granules could be seen scattered in the cytoplasm (20457130)",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus, P-body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

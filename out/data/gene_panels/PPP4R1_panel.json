@@ -1,0 +1,100 @@
+{
+  "gene_name": "PPP4R1",
+  "ensembl_id": "ENSG00000154845",
+  "synonyms": [
+    "PP4R1"
+  ],
+  "omim_id": "604908",
+  "description": "protein phosphatase 4 regulatory subunit 1 [Source:HGNC Symbol;Acc:HGNC:9320]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15017",
+    "PF02985"
+  ],
+  "domain_descriptions": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "Putative WW-binding domain and destruction box",
+    "Protein Phosphatase 2A Regulatory Subunit A"
+  ],
+  "molecular_function": [
+    "Signal transduction"
+  ],
+  "structural_features": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "Putative WW-binding domain and destruction box",
+    "Protein Phosphatase 2A Regulatory Subunit A"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15017",
+      "PF02985"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "HEAT repeat",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "HEAT",
+    "type 2",
+    "Putative WW-binding domain and destruction box",
+    "Protein Phosphatase 2A Regulatory Subunit A"
+  ],
+  "ciliary_role": "PPP4R1 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Signal transduction"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Signal transduction"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PPP4R1 is a ciliary gene encoding protein phosphatase 4 regulatory subunit 1 [source:hgnc symbol;acc:hgnc:9320]",
+    "functional_summary": "PPP4R1 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

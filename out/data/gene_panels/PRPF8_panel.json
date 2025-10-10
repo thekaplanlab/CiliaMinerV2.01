@@ -1,0 +1,89 @@
+{
+  "gene_name": "PRPF8",
+  "ensembl_id": "ENSG00000274442; ENSG00000174231",
+  "synonyms": [
+    "HPRP8",
+    "PRP8",
+    "PRPC8",
+    "RP13",
+    "SNRNP220"
+  ],
+  "omim_id": "607300",
+  "description": "pre-mRNA processing factor 8 [Source:HGNC Symbol;Acc:HGNC:17340]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutated in autosomal domi nt RP type 13. Splicing factor implicated in the correct splicing of transcripts encoding proteins important for ciliogenesis. It has been implicated in the process of centriolar under-duplication (26167768).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRPF8 is a ciliary gene encoding pre-mrna processing factor 8 [source:hgnc symbol;acc:hgnc:17340]",
+    "functional_summary": "Mutated in autosomal domi nt RP type 13. Splicing factor implicated in the correct splicing of transcripts encoding proteins important for ciliogenesis. It has been implicated in the process of centri...",
+    "localization_summary": "Localizes to basal body, cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

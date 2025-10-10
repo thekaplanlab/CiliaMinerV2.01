@@ -1,0 +1,106 @@
+{
+  "gene_name": "MRGPRF",
+  "ensembl_id": "ENSG00000172935",
+  "synonyms": [
+    "GPR140",
+    "GPR168",
+    "MGC21621",
+    "MRGF"
+  ],
+  "omim_id": "",
+  "description": "MAS related GPR family member F [Source:HGNC Symbol;Acc:HGNC:24828]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Mas-related G protein-coupled receptor F",
+    "Mas-related G protein-coupled receptor family"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Mas-related G protein-coupled receptor F",
+    "Mas-related G protein-coupled receptor family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Mas-related G protein-coupled receptor F",
+    "Mas-related G protein-coupled receptor family"
+  ],
+  "ciliary_role": "MRGPRF has localized in,transition zone.",
+  "localization": [
+    "cilia",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "transition zone"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MRGPRF is a ciliary gene encoding mas related gpr family member f [source:hgnc symbol;acc:hgnc:24828]",
+    "functional_summary": "MRGPRF has localized in,transition zone.",
+    "localization_summary": "Localizes to cilia,transition zone",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

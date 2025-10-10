@@ -1,0 +1,107 @@
+{
+  "gene_name": "DNAI2",
+  "ensembl_id": "ENSG00000171595",
+  "synonyms": [
+    "CILD9",
+    "DIC2",
+    "ODA6"
+  ],
+  "omim_id": "605483",
+  "description": "dynein axonemal intermediate chain 2 [Source:HGNC Symbol;Acc:HGNC:18744]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Dynein Intermediate Chain"
+  ],
+  "ciliary_role": "Outher dynein arm intermediate chain protein. D I and D I2 form a complex essential for the stability of both proteins during early stages of outer dynein arms assembly (29113992). Essential for axonemal assembly of the ODA heavy chains D H5 and D H9 (18950741). Required for ODA formation in Kupffer's Vesicle cilia and controls the stablishment of left-right doby axis and kidney formation through regulation of ciliary motility.(20709053, 20707998)",
+  "localization": [
+    "cilia",
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAI2 is a ciliary gene encoding dynein axonemal intermediate chain 2 [source:hgnc symbol;acc:hgnc:18744]",
+    "functional_summary": "Outher dynein arm intermediate chain protein. D I and D I2 form a complex essential for the stability of both proteins during early stages of outer dynein arms assembly (29113992). Essential for axone...",
+    "localization_summary": "Localizes to cilia , flagella",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

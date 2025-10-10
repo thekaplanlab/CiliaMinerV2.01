@@ -1,0 +1,97 @@
+{
+  "gene_name": "LCTL",
+  "ensembl_id": "ENSG00000188501",
+  "synonyms": [
+    "FLJ33279",
+    "KLG",
+    "KLPH"
+  ],
+  "omim_id": "617060",
+  "description": "lactase like [Source:HGNC Symbol;Acc:HGNC:15583]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00232"
+  ],
+  "domain_descriptions": [
+    "Glycoside hydrolase family 1",
+    "Glycoside hydrolase superfamily",
+    "Glycoside hydrolase family 1",
+    "active site",
+    "Glycosyl hydrolases family 1",
+    "N-terminal conserved site"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Glycoside hydrolase family 1",
+    "Glycoside hydrolase superfamily",
+    "Glycoside hydrolase family 1",
+    "active site",
+    "Glycosyl hydrolases family 1",
+    "N-terminal conserved site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00232"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Glycoside hydrolase family 1",
+    "Glycoside hydrolase superfamily",
+    "Glycoside hydrolase family 1",
+    "active site",
+    "Glycosyl hydrolases family 1",
+    "N-terminal conserved site"
+  ],
+  "ciliary_role": "The klotho-related protein KLPH (lctl) has preferred expression in lens and is essential for expression of clic5 and normal lens suture formation ( 29425878).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LCTL is a ciliary gene encoding lactase like [source:hgnc symbol;acc:hgnc:15583]",
+    "functional_summary": "The klotho-related protein KLPH (lctl) has preferred expression in lens and is essential for expression of clic5 and normal lens suture formation ( 29425878).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

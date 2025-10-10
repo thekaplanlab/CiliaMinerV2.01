@@ -1,0 +1,100 @@
+{
+  "gene_name": "NDUFAF2",
+  "ensembl_id": "ENSG00000164182",
+  "synonyms": [
+    "B17.2L",
+    "MIMITIN",
+    "MMTN",
+    "NDUFA12L"
+  ],
+  "omim_id": "609653",
+  "description": "NADH:ubiquinone oxidoreductase complex assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:28086]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05071"
+  ],
+  "domain_descriptions": [
+    "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12",
+    "Complex I NDUFA12 subunit"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Hormone & insulin signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12",
+    "Complex I NDUFA12 subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12",
+    "Complex I NDUFA12 subunit"
+  ],
+  "ciliary_role": "We discovered that loss of NDUFAF2 caused both mitochondrial and ciliary defects in vitro and in vivo and identified NDUFAF2 as a binding partner for ARMC9 (38949024).",
+  "localization": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Hormone & insulin signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Hormone & insulin signaling",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NDUFAF2 is a ciliary gene encoding nadh:ubiquinone oxidoreductase complex assembly factor 2 [source:hgnc symbol;acc:hgnc:28086]",
+    "functional_summary": "We discovered that loss of NDUFAF2 caused both mitochondrial and ciliary defects in vitro and in vivo and identified NDUFAF2 as a binding partner for ARMC9 (38949024).",
+    "localization_summary": "Localizes to basal body, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

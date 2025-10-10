@@ -1,0 +1,119 @@
+{
+  "gene_name": "ARL2",
+  "ensembl_id": "ENSG00000213465",
+  "synonyms": [
+    "ARFL2"
+  ],
+  "omim_id": "601175",
+  "description": "ARF like GTPase 2 [Source:HGNC Symbol;Acc:HGNC:693]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00025"
+  ],
+  "domain_descriptions": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor-like protein 2/3",
+    "ADP-ribosylation factor-like protein 2"
+  ],
+  "molecular_function": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor-like protein 2/3",
+    "ADP-ribosylation factor-like protein 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00025"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTP-binding domain",
+    "Small GTPase superfamily",
+    "ARF/SAR type",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ADP-ribosylation factor-like protein 2/3",
+    "ADP-ribosylation factor-like protein 2"
+  ],
+  "ciliary_role": "Regulates cilia stability and development of outer segments in rod photoreceptor neurons.",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Nucleus",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARL2 is a ciliary gene encoding arf like gtpase 2 [source:hgnc symbol;acc:hgnc:693]",
+    "functional_summary": "Regulates cilia stability and development of outer segments in rod photoreceptor neurons.",
+    "localization_summary": "Localizes to cilia, Centrosome, Nucleus, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,88 @@
+{
+  "gene_name": "CFAP410",
+  "ensembl_id": "ENSG00000160226",
+  "synonyms": [
+    "A2",
+    "C21ORF2",
+    "LRRC76",
+    "YF5"
+  ],
+  "omim_id": "603191",
+  "description": "cilia and flagella associated protein 410 [Source:HGNC Symbol;Acc:HGNC:1260]",
+  "protein_complexes": [
+    "CFAP410-NEK1-SPATA7 complex"
+  ],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "C21orf2. It may play roles in cilia formation and/or mainte nce (21289087). Mutated in both syndromic and non-syndromic reti l degeneration. It is part of a of a ciliary functio l complex that includes NEK1, C21orf2 and reti l ciliopathy protein SPATA7, where C21orf2 might represent a substrate of NEK1",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy",
+    "Retinal Dystrophy",
+    "Spondylometaphyseal Dysplasia"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy, Retinal Dystrophy, Spondylometaphyseal Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP410 is a ciliary gene encoding cilia and flagella associated protein 410 [source:hgnc symbol;acc:hgnc:1260]",
+    "functional_summary": "C21orf2. It may play roles in cilia formation and/or mainte nce (21289087). Mutated in both syndromic and non-syndromic reti l degeneration. It is part of a of a ciliary functio l complex that include...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Cone-Rod Dystrophy, Retinal Dystrophy, Spondylometaphyseal Dysplasia",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy, Retinal Dystrophy, Spondylometaphyseal Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

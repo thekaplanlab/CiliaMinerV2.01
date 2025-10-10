@@ -1,0 +1,127 @@
+{
+  "gene_name": "PPP5C",
+  "ensembl_id": "ENSG00000011485",
+  "synonyms": [
+    "PP5",
+    "PPP5"
+  ],
+  "omim_id": "600658",
+  "description": "protein phosphatase 5 catalytic subunit [Source:HGNC Symbol;Acc:HGNC:9322]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00149",
+    "PF00515",
+    "PF08321"
+  ],
+  "domain_descriptions": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PPP domain",
+    "Tetratricopeptide repeat",
+    "Metallo-dependent phosphatase-like",
+    "PP5",
+    "C-terminal metallophosphatase domain",
+    "Protein Phosphatase PPP"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling"
+  ],
+  "structural_features": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PPP domain",
+    "Tetratricopeptide repeat",
+    "Metallo-dependent phosphatase-like",
+    "PP5",
+    "C-terminal metallophosphatase domain",
+    "Protein Phosphatase PPP"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00149",
+      "PF00515",
+      "PF08321"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Tetratricopeptide-like helical domain superfamily",
+    "PPP domain",
+    "Tetratricopeptide repeat",
+    "Metallo-dependent phosphatase-like",
+    "PP5",
+    "C-terminal metallophosphatase domain",
+    "Protein Phosphatase PPP"
+  ],
+  "ciliary_role": "PP5 interacts with and directly dephosphorylates Dvl2. Overexpression enhaces ciliogenesis (29426949).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PPP5C is a ciliary gene encoding protein phosphatase 5 catalytic subunit [source:hgnc symbol;acc:hgnc:9322]",
+    "functional_summary": "PP5 interacts with and directly dephosphorylates Dvl2. Overexpression enhaces ciliogenesis (29426949).",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

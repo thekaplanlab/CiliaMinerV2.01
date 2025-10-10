@@ -1,0 +1,137 @@
+{
+  "gene_name": "FLNA",
+  "ensembl_id": "ENSG00000196924",
+  "synonyms": [
+    "ABP-280",
+    "FLN",
+    "FLN1",
+    "OPD1",
+    "OPD2"
+  ],
+  "omim_id": "300017",
+  "description": "filamin A [Source:HGNC Symbol;Acc:HGNC:3754]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00307",
+    "PF00630"
+  ],
+  "domain_descriptions": [
+    "Filamin/ABP280 repeat",
+    "Actinin-type actin-binding domain",
+    "conserved site",
+    "Calponin homology domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "Filamin/ABP280 repeat-like",
+    "CH domain superfamily",
+    "Filamin family"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Filamin/ABP280 repeat",
+    "Actinin-type actin-binding domain",
+    "conserved site",
+    "Calponin homology domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "Filamin/ABP280 repeat-like",
+    "CH domain superfamily",
+    "Filamin family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00307",
+      "PF00630"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Filamin/ABP280 repeat",
+    "Actinin-type actin-binding domain",
+    "conserved site",
+    "Calponin homology domain",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin E-set",
+    "Filamin/ABP280 repeat-like",
+    "CH domain superfamily",
+    "Filamin family"
+  ],
+  "ciliary_role": "Role in the normal processes of ciliogenesis and basal body positioning. Interacts with meckelin to regulate levels of Wnt sig lling. Knockdown causes a failure in ciliogenesis and aberrant migration of the centriole pair to the apical cell surface suggestion FL  is essential in mediating basal body migration and docking at the apical cell surface ( 22121117,  28973524).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FLNA is a ciliary gene encoding filamin a [source:hgnc symbol;acc:hgnc:3754]",
+    "functional_summary": "Role in the normal processes of ciliogenesis and basal body positioning. Interacts with meckelin to regulate levels of Wnt sig lling. Knockdown causes a failure in ciliogenesis and aberrant migration ...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

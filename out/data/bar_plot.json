@@ -1,0 +1,22 @@
+[
+  {
+    "Ciliary_Localisation": "Cilia",
+    "Gene_number": 142
+  },
+  {
+    "Ciliary_Localisation": "Basal Body",
+    "Gene_number": 95
+  },
+  {
+    "Ciliary_Localisation": "Transition Zone",
+    "Gene_number": 43
+  },
+  {
+    "Ciliary_Localisation": "Others",
+    "Gene_number": 192
+  },
+  {
+    "Ciliary_Localisation": "Total",
+    "Gene_number": 472
+  }
+]

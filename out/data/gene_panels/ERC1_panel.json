@@ -1,0 +1,112 @@
+{
+  "gene_name": "ERC1",
+  "ensembl_id": "ENSG00000082805",
+  "synonyms": [
+    "CAST2",
+    "ELKS",
+    "KIAA1081",
+    "MGC12974",
+    "RAB6IP2"
+  ],
+  "omim_id": "607127",
+  "description": "ELKS/RAB6-interacting/CAST family member 1 [Source:HGNC Symbol;Acc:HGNC:17072]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10174",
+    "PF09457"
+  ],
+  "domain_descriptions": [
+    "Active zone protein ELKS",
+    "Rab-binding domain FIP-RBD",
+    "FIP-RBD",
+    "C-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Active zone protein ELKS",
+    "Rab-binding domain FIP-RBD",
+    "FIP-RBD",
+    "C-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10174",
+      "PF09457"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Active zone protein ELKS",
+    "Rab-binding domain FIP-RBD",
+    "FIP-RBD",
+    "C-terminal domain superfamily"
+  ],
+  "ciliary_role": "ERC1 expression was retained at the basal body of ciliated cells, and CEP131 localized to the centriolar satellites (27224062).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ERC1 is a ciliary gene encoding elks/rab6-interacting/cast family member 1 [source:hgnc symbol;acc:hgnc:17072]",
+    "functional_summary": "ERC1 expression was retained at the basal body of ciliated cells, and CEP131 localized to the centriolar satellites (27224062).",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

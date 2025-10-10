@@ -1,0 +1,102 @@
+{
+  "gene_name": "PEBP1",
+  "ensembl_id": "ENSG00000089220",
+  "synonyms": [
+    "HCNP",
+    "PBP",
+    "PEBP",
+    "RKIP"
+  ],
+  "omim_id": "604591",
+  "description": "phosphatidylethanolamine binding protein 1 [Source:HGNC Symbol;Acc:HGNC:8630]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01161"
+  ],
+  "domain_descriptions": [
+    "Phosphatidylethanolamine-binding",
+    "conserved site",
+    "Phosphatidylethanolamine-binding protein",
+    "Phosphatidylethanolamine-binding protein",
+    "eukaryotic",
+    "PEBP-like superfamily"
+  ],
+  "molecular_function": [
+    "RTK/FGF signaling"
+  ],
+  "structural_features": [
+    "Phosphatidylethanolamine-binding",
+    "conserved site",
+    "Phosphatidylethanolamine-binding protein",
+    "Phosphatidylethanolamine-binding protein",
+    "eukaryotic",
+    "PEBP-like superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01161"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Phosphatidylethanolamine-binding",
+    "conserved site",
+    "Phosphatidylethanolamine-binding protein",
+    "Phosphatidylethanolamine-binding protein",
+    "eukaryotic",
+    "PEBP-like superfamily"
+  ],
+  "ciliary_role": "Rkip (Raf-1 ki se inhibitory protein)prevents cilia formation and is associated with Cep290-mediated photoreceptor degeneration (21685394).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "RTK/FGF signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "RTK/FGF signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PEBP1 is a ciliary gene encoding phosphatidylethanolamine binding protein 1 [source:hgnc symbol;acc:hgnc:8630]",
+    "functional_summary": "Rkip (Raf-1 ki se inhibitory protein)prevents cilia formation and is associated with Cep290-mediated photoreceptor degeneration (21685394).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

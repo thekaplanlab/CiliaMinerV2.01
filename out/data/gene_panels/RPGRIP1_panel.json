@@ -1,0 +1,136 @@
+{
+  "gene_name": "RPGRIP1",
+  "ensembl_id": "ENSG00000092200",
+  "synonyms": [
+    "CORD13",
+    "LCA6",
+    "RGI1",
+    "RPGRIP"
+  ],
+  "omim_id": "605446",
+  "description": "RPGR interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:13436]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF11618",
+    "PF18111",
+    "PF00168"
+  ],
+  "domain_descriptions": [
+    "C2 domain",
+    "RPGR-interacting protein 1",
+    "first C2 domain",
+    "RPGRIP1 family",
+    "C2 domain superfamily",
+    "RPGRIP1",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton/adhesion links",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "C2 domain",
+    "RPGR-interacting protein 1",
+    "first C2 domain",
+    "RPGRIP1 family",
+    "C2 domain superfamily",
+    "RPGRIP1",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF11618",
+      "PF18111",
+      "PF00168"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "C2 domain",
+    "RPGR-interacting protein 1",
+    "first C2 domain",
+    "RPGRIP1 family",
+    "C2 domain superfamily",
+    "RPGRIP1",
+    "C-terminal"
+  ],
+  "ciliary_role": "Known ciliopathy gene CORD13. Mutations are known causes of RP and Leber congenital amaurosis. Potential structural component of the ciliary axoneme, which anchors RPGR within the cilium (11104772, 15772089). Required for disk morphogenesis and RPGR retention in the connecting cilium (12651948). Essential for rod OS formation, probably by regulating the transport of proteins from the IS to the OS (19679561). Required for ciliary targeting of NPHP4 and SDCCAG8, Rab8 localisation in photoreceptors and is involved in rhodopsin ciliary vesicle transport in zebrafish (29203866).",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton/adhesion links",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton/adhesion links",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy",
+    "Leber Congenital Amaurosis"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy, Leber Congenital Amaurosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RPGRIP1 is a ciliary gene encoding rpgr interacting protein 1 [source:hgnc symbol;acc:hgnc:13436]",
+    "functional_summary": "Known ciliopathy gene CORD13. Mutations are known causes of RP and Leber congenital amaurosis. Potential structural component of the ciliary axoneme, which anchors RPGR within the cilium (11104772, 15...",
+    "localization_summary": "Localizes to basal body, transition zone  ,cilia",
+    "disease_summary": "Associated with Cone-Rod Dystrophy, Leber Congenital Amaurosis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy, Leber Congenital Amaurosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

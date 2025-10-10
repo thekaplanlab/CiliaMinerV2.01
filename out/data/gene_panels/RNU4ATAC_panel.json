@@ -1,0 +1,67 @@
+{
+  "gene_name": "RNU4ATAC",
+  "ensembl_id": "ENSG00000264229",
+  "synonyms": [
+    "RNU4ATAC1",
+    "U4ATAC"
+  ],
+  "omim_id": "601428",
+  "description": "RNA, U4atac small nuclear [Source:HGNC Symbol;Acc:HGNC:34016]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the RNU4ATAC gene cause Joubert Syndrome (PMID: 36802443).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RNU4ATAC is a ciliary gene encoding rna, u4atac small nuclear [source:hgnc symbol;acc:hgnc:34016]",
+    "functional_summary": "Mutations in the RNU4ATAC gene cause Joubert Syndrome (PMID: 36802443).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

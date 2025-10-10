@@ -1,0 +1,141 @@
+{
+  "gene_name": "DPF3",
+  "ensembl_id": "ENSG00000205683",
+  "synonyms": [
+    "BAF45C",
+    "CER-D4",
+    "CERD4",
+    "FLJ14079",
+    "SMARCG3"
+  ],
+  "omim_id": "601672",
+  "description": "double PHD fingers 3 [Source:HGNC Symbol;Acc:HGNC:17427]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00628",
+    "PF14051"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "PHD-type",
+    "Zinc finger",
+    "FYVE/PHD-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Zinc finger C2H2-type",
+    "Zinc finger",
+    "PHD-finger",
+    "DPF1-3",
+    "N-terminal domain",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "PHD-type",
+    "Zinc finger",
+    "FYVE/PHD-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Zinc finger C2H2-type",
+    "Zinc finger",
+    "PHD-finger",
+    "DPF1-3",
+    "N-terminal domain",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00628",
+      "PF14051"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "PHD-type",
+    "Zinc finger",
+    "FYVE/PHD-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Zinc finger C2H2-type",
+    "Zinc finger",
+    "PHD-finger",
+    "DPF1-3",
+    "N-terminal domain",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "ciliary_role": "DPF3 depletion causes kinetochore fiber (K-fiber) instability, less stable kinetochore鈥搈icrotubule (KT鈥揗T) attachment and defects in chromosome alignment at the metaphase plate. DPF3 localized at the basal body of the primary cilium in quiescent vertebrate cells. Depletion of DPF3 dramatically arrested primary ciliogenesis at the initial step of axoneme extension(38661008).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DPF3 is a ciliary gene encoding double phd fingers 3 [source:hgnc symbol;acc:hgnc:17427]",
+    "functional_summary": "DPF3 depletion causes kinetochore fiber (K-fiber) instability, less stable kinetochore鈥搈icrotubule (KT鈥揗T) attachment and defects in chromosome alignment at the metaphase plate. DPF3 localized at the ...",
+    "localization_summary": "Localizes to basal body,cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

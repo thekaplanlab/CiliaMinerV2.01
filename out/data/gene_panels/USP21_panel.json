@@ -1,0 +1,107 @@
+{
+  "gene_name": "USP21",
+  "ensembl_id": "ENSG00000143258",
+  "synonyms": [
+    "USP16",
+    "USP23"
+  ],
+  "omim_id": "604729",
+  "description": "ubiquitin specific peptidase 21 [Source:HGNC Symbol;Acc:HGNC:12620]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00443"
+  ],
+  "domain_descriptions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00443"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin specific protease domain",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase"
+  ],
+  "ciliary_role": "Loss of USP21 leads to the proteasomal degradation of DPYSL2 and causes a significant reduction in its centrosome abundance, ultimately resulting in ciliary defects (40619097). ",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP21 is a ciliary gene encoding ubiquitin specific peptidase 21 [source:hgnc symbol;acc:hgnc:12620]",
+    "functional_summary": "Loss of USP21 leads to the proteasomal degradation of DPYSL2 and causes a significant reduction in its centrosome abundance, ultimately resulting in ciliary defects (40619097). ",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

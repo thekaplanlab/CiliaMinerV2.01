@@ -1,0 +1,114 @@
+{
+  "gene_name": "USP14",
+  "ensembl_id": "ENSG00000101557",
+  "synonyms": [
+    "TGT",
+    "UBP6"
+  ],
+  "omim_id": "607274",
+  "description": "ubiquitin specific peptidase 14 [Source:HGNC Symbol;Acc:HGNC:12612]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00443"
+  ],
+  "domain_descriptions": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 14-like"
+  ],
+  "molecular_function": [
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 14-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00443"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ubiquitin-like domain",
+    "Peptidase C19",
+    "ubiquitin carboxyl-terminal hydrolase",
+    "Ubiquitin specific protease",
+    "conserved site",
+    "Ubiquitin conserved site",
+    "Ubiquitin specific protease domain",
+    "Ubiquitin-like domain superfamily",
+    "Papain-like cysteine peptidase superfamily",
+    "Ubiquitin carboxyl-terminal hydrolase 14-like"
+  ],
+  "ciliary_role": "Deubiquiti ting enzyme. Regulator of the ubiquitin proteasome system that controls controls ciliogenesis and cilium elongation, it positively affects Hh sig lling through the degradation of Kif7. Controls Gli2 ciliary localisation ( 30388222).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cilia length regulation",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "USP14 is a ciliary gene encoding ubiquitin specific peptidase 14 [source:hgnc symbol;acc:hgnc:12612]",
+    "functional_summary": "Deubiquiti ting enzyme. Regulator of the ubiquitin proteasome system that controls controls ciliogenesis and cilium elongation, it positively affects Hh sig lling through the degradation of Kif7. Cont...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

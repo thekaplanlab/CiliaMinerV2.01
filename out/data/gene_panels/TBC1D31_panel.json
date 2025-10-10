@@ -1,0 +1,104 @@
+{
+  "gene_name": "TBC1D31",
+  "ensembl_id": "ENSG00000156787",
+  "synonyms": [
+    "GM85",
+    "MGC21654",
+    "WDR67"
+  ],
+  "omim_id": "",
+  "description": "TBC1 domain family member 31 [Source:HGNC Symbol;Acc:HGNC:30888]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00566",
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "Rab-GAP-TBC domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Rab-GAP-TBC domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "TBC1 domain family involved in cilium biogenesis"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Rab-GAP-TBC domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Rab-GAP-TBC domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "TBC1 domain family involved in cilium biogenesis"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00566",
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rab-GAP-TBC domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Rab-GAP-TBC domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "TBC1 domain family involved in cilium biogenesis"
+  ],
+  "ciliary_role": "TBC1D31 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TBC1D31 is a ciliary gene encoding tbc1 domain family member 31 [source:hgnc symbol;acc:hgnc:30888]",
+    "functional_summary": "TBC1D31 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

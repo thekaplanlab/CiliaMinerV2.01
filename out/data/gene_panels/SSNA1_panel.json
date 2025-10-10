@@ -1,0 +1,100 @@
+{
+  "gene_name": "SSNA1",
+  "ensembl_id": "ENSG00000176101",
+  "synonyms": [
+    "N14",
+    "NA14"
+  ],
+  "omim_id": "610882",
+  "description": "SS nuclear autoantigen 1 [Source:HGNC Symbol;Acc:HGNC:11321]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Required for ciliary transport and sig lling. It may regulate postciliary endocytosis of constitutive GPCRs and facilitate endocytosis from the cell surface following transit through cilia, as knockdown inhibits Gli3 ciliary accumulation but retain normal length cilia (21289087).",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Transport",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SSNA1 is a ciliary gene encoding ss nuclear autoantigen 1 [source:hgnc symbol;acc:hgnc:11321]",
+    "functional_summary": "Required for ciliary transport and sig lling. It may regulate postciliary endocytosis of constitutive GPCRs and facilitate endocytosis from the cell surface following transit through cilia, as knockdo...",
+    "localization_summary": "Localizes to cilia, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,126 @@
+{
+  "gene_name": "CHMP4B",
+  "ensembl_id": "ENSG00000101421",
+  "synonyms": [
+    "C20ORF178",
+    "DJ553F4.4",
+    "SHAX1",
+    "SNF7-2",
+    "VPS32B"
+  ],
+  "omim_id": "610897",
+  "description": "charged multivesicular body protein 4B [Source:HGNC Symbol;Acc:HGNC:16171]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03357"
+  ],
+  "domain_descriptions": [
+    "Snf7 family"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Snf7 family"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03357"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Snf7 family"
+  ],
+  "ciliary_role": "Subunit of the endosomal sorting complexes required for transport (ESCRT). Localized to primary cilia in mammalian cells. Knockdown of CHMP4B interfered with cilium assembly and also caused fragmentation of preexisting cilia. Morpholino (MO)-mediated CHMP4B depletion in zebrafish embryos induced characteristic phenotypes of ciliary defects such as curved body axis, hydrocephalus, otolith malformation, and kidney cyst (31914703)",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Transport",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CHMP4B is a ciliary gene encoding charged multivesicular body protein 4b [source:hgnc symbol;acc:hgnc:16171]",
+    "functional_summary": "Subunit of the endosomal sorting complexes required for transport (ESCRT). Localized to primary cilia in mammalian cells. Knockdown of CHMP4B interfered with cilium assembly and also caused fragmentat...",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

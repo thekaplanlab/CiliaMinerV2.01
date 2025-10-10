@@ -1,0 +1,151 @@
+{
+  "gene_name": "ANXA1",
+  "ensembl_id": "ENSG00000135046",
+  "synonyms": [
+    "ANX1",
+    "LPC1"
+  ],
+  "omim_id": "151690",
+  "description": "annexin A1 [Source:HGNC Symbol;Acc:HGNC:533]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00191"
+  ],
+  "domain_descriptions": [
+    "Annexin",
+    "Annexin A1",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Annexin",
+    "Annexin A1",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00191"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Annexin",
+    "Annexin A1",
+    "Annexin repeat",
+    "conserved site",
+    "Annexin repeat",
+    "Annexin superfamily"
+  ],
+  "ciliary_role": "In frog olfactory epithelia, ANXA isoforms 1, 2, and 5 bind to dicalcin in a Ca2+-dependent manner (17714509). ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 in the cilia of mouse OSNs (24748648).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ANXA1 is a ciliary gene encoding annexin a1 [source:hgnc symbol;acc:hgnc:533]",
+    "functional_summary": "In frog olfactory epithelia, ANXA isoforms 1, 2, and 5 bind to dicalcin in a Ca2+-dependent manner (17714509). ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 in the cilia of mouse OSNs (24748648).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,107 @@
+{
+  "gene_name": "ENKD1",
+  "ensembl_id": "ENSG00000124074",
+  "synonyms": [
+    "C16ORF48",
+    "DKFZP434A1319",
+    "FBB11"
+  ],
+  "omim_id": "",
+  "description": "enkurin domain containing 1 [Source:HGNC Symbol;Acc:HGNC:25246]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13864"
+  ],
+  "domain_descriptions": [
+    "Enkurin domain",
+    "Enkurin domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Enkurin domain",
+    "Enkurin domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13864"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Enkurin domain",
+    "Enkurin domain-containing protein"
+  ],
+  "ciliary_role": "ENKD1 has localized in ciliary tip, basal body, transition zone.",
+  "localization": [
+    "cilia",
+    "basal body",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "transition zone"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ENKD1 is a ciliary gene encoding enkurin domain containing 1 [source:hgnc symbol;acc:hgnc:25246]",
+    "functional_summary": "ENKD1 has localized in ciliary tip, basal body, transition zone.",
+    "localization_summary": "Localizes to cilia, basal body, transition zone",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

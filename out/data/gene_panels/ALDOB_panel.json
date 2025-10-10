@@ -1,0 +1,111 @@
+{
+  "gene_name": "ALDOB",
+  "ensembl_id": "ENSG00000136872",
+  "synonyms": [],
+  "omim_id": "612724",
+  "description": "aldolase, fructose-bisphosphate B [Source:HGNC Symbol;Acc:HGNC:417]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00274"
+  ],
+  "domain_descriptions": [
+    "Fructose-bisphosphate aldolase",
+    "class-I",
+    "Aldolase-type TIM barrel",
+    "Fructose-bisphosphate aldolase class-I active site"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Fructose-bisphosphate aldolase",
+    "class-I",
+    "Aldolase-type TIM barrel",
+    "Fructose-bisphosphate aldolase class-I active site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00274"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fructose-bisphosphate aldolase",
+    "class-I",
+    "Aldolase-type TIM barrel",
+    "Fructose-bisphosphate aldolase class-I active site"
+  ],
+  "ciliary_role": "ALDOB interacts with BBS proteins (BBS1/2/4/7) has been confirmed , even if ALDOB expression did not overlap with gama-tubulin, it was found adjacent to the centrosome, possibly associated in part to the centriolar satellites ( 18000879)",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ALDOB is a ciliary gene encoding aldolase, fructose-bisphosphate b [source:hgnc symbol;acc:hgnc:417]",
+    "functional_summary": "ALDOB interacts with BBS proteins (BBS1/2/4/7) has been confirmed , even if ALDOB expression did not overlap with gama-tubulin, it was found adjacent to the centrosome, possibly associated in part to ...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

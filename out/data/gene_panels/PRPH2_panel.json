@@ -1,0 +1,115 @@
+{
+  "gene_name": "PRPH2",
+  "ensembl_id": "ENSG00000112619",
+  "synonyms": [
+    "CACD2",
+    "RD2",
+    "RDS",
+    "RP7",
+    "TSPAN22"
+  ],
+  "omim_id": "179605",
+  "description": "peripherin 2 [Source:HGNC Symbol;Acc:HGNC:9942]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00335"
+  ],
+  "domain_descriptions": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00335"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peripherin/rom-1",
+    "Tetraspanin",
+    "EC2 domain superfamily",
+    "Peripherin/rom-1",
+    "conserved site",
+    "Tetraspanin/Peripherin",
+    "Peripherin",
+    "extracellular domain"
+  ],
+  "ciliary_role": "Photoreceptor-specific tetraspanin protein, essential for the morphogenesis of the outer segment (30819798). Role in generating and/or sensing the curvature associated with creation and mainte nce of OS membrane architecture (23886945). Mutations are associated with RP (25805137).",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Leber Congenital Amaurosis"
+  ],
+  "ciliopathy_type": "Leber Congenital Amaurosis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRPH2 is a ciliary gene encoding peripherin 2 [source:hgnc symbol;acc:hgnc:9942]",
+    "functional_summary": "Photoreceptor-specific tetraspanin protein, essential for the morphogenesis of the outer segment (30819798). Role in generating and/or sensing the curvature associated with creation and mainte nce of ...",
+    "localization_summary": "Localizes to cilia, basal body",
+    "disease_summary": "Associated with Leber Congenital Amaurosis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Leber Congenital Amaurosis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

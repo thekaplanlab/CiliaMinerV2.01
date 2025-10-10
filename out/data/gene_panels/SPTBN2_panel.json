@@ -1,0 +1,68 @@
+{
+  "gene_name": "SPTBN2",
+  "ensembl_id": "ENSG00000173898",
+  "synonyms": [
+    "SCA5"
+  ],
+  "omim_id": "604985",
+  "description": "spectrin beta, non-erythrocytic 2 [Source:HGNC Symbol;Acc:HGNC:11276]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the SPTBN2 gene cause Spinocerebellar Ataxia (PMID: 16429157).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPTBN2 is a ciliary gene encoding spectrin beta, non-erythrocytic 2 [source:hgnc symbol;acc:hgnc:11276]",
+    "functional_summary": "Mutations in the SPTBN2 gene cause Spinocerebellar Ataxia (PMID: 16429157).",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

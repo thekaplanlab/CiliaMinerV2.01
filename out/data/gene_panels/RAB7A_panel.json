@@ -1,0 +1,132 @@
+{
+  "gene_name": "RAB7A",
+  "ensembl_id": "ENSG00000075785",
+  "synonyms": [
+    "CMT2B",
+    "RAB7"
+  ],
+  "omim_id": "602298",
+  "description": "RAB7A, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9788]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071",
+    "PF08477"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Viral interactions",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071",
+      "PF08477"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "The small GTPase RAB7A lozalized in the transition zone",
+  "localization": [
+    "transition zone",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Viral interactions",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "Endosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Transition zone",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Small GTPases",
+    "Viral interactions",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAB7A is a ciliary gene encoding rab7a, member ras oncogene family [source:hgnc symbol;acc:hgnc:9788]",
+    "functional_summary": "The small GTPase RAB7A lozalized in the transition zone",
+    "localization_summary": "Localizes to transition zone, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,125 @@
+{
+  "gene_name": "ACAA2",
+  "ensembl_id": "ENSG00000167315",
+  "synonyms": [
+    "DSAEC"
+  ],
+  "omim_id": "604770",
+  "description": "acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02803",
+    "PF00108"
+  ],
+  "domain_descriptions": [
+    "Thiolase",
+    "Thiolase-like",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Thiolase",
+    "Thiolase-like",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02803",
+      "PF00108"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Thiolase",
+    "Thiolase-like",
+    "Thiolase",
+    "active site",
+    "Thiolase",
+    "conserved site",
+    "Thiolase",
+    "acyl-enzyme intermediate active site",
+    "Thiolase",
+    "N-terminal",
+    "Thiolase",
+    "C-terminal"
+  ],
+  "ciliary_role": "ACAA2 has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ACAA2 is a ciliary gene encoding acetyl-coa acyltransferase 2 [source:hgnc symbol;acc:hgnc:83]",
+    "functional_summary": "ACAA2 has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

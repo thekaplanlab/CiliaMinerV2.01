@@ -1,0 +1,143 @@
+{
+  "gene_name": "TTBK2",
+  "ensembl_id": "ENSG00000128881",
+  "synonyms": [
+    "KIAA0847",
+    "SCA11"
+  ],
+  "omim_id": "611695",
+  "description": "tau tubulin kinase 2 [Source:HGNC Symbol;Acc:HGNC:19141]",
+  "protein_complexes": [
+    "CEP164-TTBK2 complex"
+  ],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Tau-Tubulin Kinase 2",
+    "catalytic domain",
+    "Casein Kinase 1 Ser/Thr Protein Kinase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Tau-Tubulin Kinase 2",
+    "catalytic domain",
+    "Casein Kinase 1 Ser/Thr Protein Kinase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Tau-Tubulin Kinase 2",
+    "catalytic domain",
+    "Casein Kinase 1 Ser/Thr Protein Kinase"
+  ],
+  "ciliary_role": "Regulator of the initiation of ciliogenesis in vivo. Ttbk2 mutants lack cilia. Promotes the removal of CP110 from the mother centriole, the recruitment and retention of IFT proteins at the distal end of basal body, to initiate the assembly of the ciliary axoneme (23141541). Mutations have been associated with domi nt human neurodegenerative disorder Spinocerebellar Ataxia type 11 (18037885). Interacts in a complex with CP164, which is required for its ciliary localisation. Promotes assembly of distal appendages at both centrioles and Cep83 localisation (24982133). Phosphorylates Cep164, Cep97 and inhibits the interaction between Cep164 and Dvl3 (25297623). Phosphorylated CEP83, which is required for ciliary vesicle docking and CP110 removal (31455668). Remains at the transition zone of the cilium following ciliogenesis, to regulate cilium stability (30532139).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTBK2 is a ciliary gene encoding tau tubulin kinase 2 [source:hgnc symbol;acc:hgnc:19141]",
+    "functional_summary": "Regulator of the initiation of ciliogenesis in vivo. Ttbk2 mutants lack cilia. Promotes the removal of CP110 from the mother centriole, the recruitment and retention of IFT proteins at the distal end ...",
+    "localization_summary": "Localizes to basal body,cilia , transition zone, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

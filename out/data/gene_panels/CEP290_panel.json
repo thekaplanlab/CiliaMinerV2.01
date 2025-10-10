@@ -1,0 +1,171 @@
+{
+  "gene_name": "CEP290",
+  "ensembl_id": "ENSG00000198707",
+  "synonyms": [
+    "3H11AG",
+    "BBS14",
+    "CT87",
+    "FLJ13615",
+    "JBTS5",
+    "KIAA0373",
+    "LCA10",
+    "MKS4",
+    "NPHP6",
+    "POC3",
+    "RD16",
+    "SLSN6"
+  ],
+  "omim_id": "610142",
+  "description": "centrosomal protein 290 [Source:HGNC Symbol;Acc:HGNC:29021]",
+  "protein_complexes": [
+    "CCP110-CEP290 complex",
+    "CEP290-IQCB1 complex",
+    "CC2D2A-CEP290 complex",
+    "Distal appendage"
+  ],
+  "pfam_ids": [
+    "PF16574"
+  ],
+  "domain_descriptions": [
+    "Centrosomal protein of 290kDa",
+    "Centrosomal protein of 290kDa",
+    "coiled-coil region"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Centrosomal protein of 290kDa",
+    "Centrosomal protein of 290kDa",
+    "coiled-coil region"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16574"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centrosomal protein of 290kDa",
+    "Centrosomal protein of 290kDa",
+    "coiled-coil region"
+  ],
+  "ciliary_role": "Assembly and stabilisation of the primary cilium as well as centrosomal function (30478281, 22563985). Interacts with a centriolar satellite protein PCM-1 and is implicated in molecular pathways related to BBS4 function. CEP250 binds PCM- 1 and are involved in ciliary targeting of Rab8 required to promote ciliogenesis. Interacts with components of both dynein and kinesin motor machineries (18772192). Regulation of intracellular protein trafficking by association with microtubule-based transport protein RPGR (16632484). CEP250 plays an important role in the formation and stabilisation of the primary cilium as well as centrosomal function, stabilises the linkage of axoneme  to the ciliary membrane to maintain the integrity of the ciliary diffusion barrier. CEP290 is critical for positioning the molecular components that are necessary for correct processing of Shh sig lling in the primary cilium (30478281)",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Transport",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome",
+    "Joubert Syndrome",
+    "Leber Congenital Amaurosis",
+    "Meckel–Gruber Syndrome",
+    "Nephronophthisis",
+    "Retinitis Pigmentosa",
+    "Senior-Løken Syndrome"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome, Joubert Syndrome, Leber Congenital Amaurosis, Meckel–Gruber Syndrome, Nephronophthisis, Retinitis Pigmentosa, Senior-Løken Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP290 is a ciliary gene encoding centrosomal protein 290 [source:hgnc symbol;acc:hgnc:29021]",
+    "functional_summary": "Assembly and stabilisation of the primary cilium as well as centrosomal function (30478281, 22563985). Interacts with a centriolar satellite protein PCM-1 and is implicated in molecular pathways relat...",
+    "localization_summary": "Localizes to basal body ,transition zone, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome, Joubert Syndrome, Leber Congenital Amaurosis, Meckel–Gruber Syndrome, Nephronophthisis, Retinitis Pigmentosa, Senior-Løken Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome, Joubert Syndrome, Leber Congenital Amaurosis, Meckel–Gruber Syndrome, Nephronophthisis, Retinitis Pigmentosa, Senior-Løken Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

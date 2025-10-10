@@ -1,0 +1,151 @@
+{
+  "gene_name": "MYH10",
+  "ensembl_id": "ENSG00000133026",
+  "synonyms": [
+    "NMMHCB"
+  ],
+  "omim_id": "160776",
+  "description": "myosin heavy chain 10 [Source:HGNC Symbol;Acc:HGNC:7568]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00612",
+    "PF02736",
+    "PF01576",
+    "PF00063"
+  ],
+  "domain_descriptions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00612",
+      "PF02736",
+      "PF01576",
+      "PF00063"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "IQ motif",
+    "EF-hand binding site",
+    "Myosin head",
+    "motor domain-like",
+    "Myosin tail",
+    "Myosin",
+    "N-terminal",
+    "SH3-like",
+    "Myosin S1 fragment",
+    "N-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "Regulators of the actin cytoskeleton. Required for centriole migration to the apical plasma membrane during the biogenesis of primary cilia. Regulates centrosomal recruitment of IFT88 required for ciliary tip structure (25881509). Required for pericentrosomal recruitment of Cep290, PCM- 1 and Rab11-positive recycling endosomes. It binds and antagonises Myh9 to increase actin dy mics and facilitate the assembly of the pericentrosomal preciliary complex that supplies materials for cilium growth and initiates ciliogenesis (25494100).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MYH10 is a ciliary gene encoding myosin heavy chain 10 [source:hgnc symbol;acc:hgnc:7568]",
+    "functional_summary": "Regulators of the actin cytoskeleton. Required for centriole migration to the apical plasma membrane during the biogenesis of primary cilia. Regulates centrosomal recruitment of IFT88 required for cil...",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,148 @@
+{
+  "gene_name": "AHI1",
+  "ensembl_id": "ENSG00000135541",
+  "synonyms": [
+    "FLJ20069",
+    "JBTS3",
+    "ORF1"
+  ],
+  "omim_id": "608894",
+  "description": "Abelson helper integration site 1 [Source:HGNC Symbol;Acc:HGNC:21575]",
+  "protein_complexes": [
+    "AHI1-NPHP1 heterodimer",
+    "AHI1-HAP1 complex",
+    "AHI1-NPHP1 heterotetramer"
+  ],
+  "pfam_ids": [
+    "PF00400",
+    "PF00018"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Jouberin",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Primary Cilium-Associated Jouberin"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Jouberin",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Primary Cilium-Associated Jouberin"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400",
+      "PF00018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "Jouberin",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Primary Cilium-Associated Jouberin"
+  ],
+  "ciliary_role": "Mutated in Joubert syndrome (type 3) OMIM 608894, PMID:16453322. At mother centriole/basal body. Interacts with B9 complex of transition zone proteins including B9D1, B9D2, MKS1, TCTN1, TCTN2 PMID:22179047. Role in RAB8-dependent ciliary membrane targeting PMID:19625297.",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary membrane",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AHI1 is a ciliary gene encoding abelson helper integration site 1 [source:hgnc symbol;acc:hgnc:21575]",
+    "functional_summary": "Mutated in Joubert syndrome (type 3) OMIM 608894, PMID:16453322. At mother centriole/basal body. Interacts with B9 complex of transition zone proteins including B9D1, B9D2, MKS1, TCTN1, TCTN2 PMID:221...",
+    "localization_summary": "Localizes to basal body , cilia, Centrosome",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

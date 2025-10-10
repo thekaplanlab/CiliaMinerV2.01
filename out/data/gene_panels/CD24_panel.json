@@ -1,0 +1,110 @@
+{
+  "gene_name": "CD24",
+  "ensembl_id": "ENSG00000272398",
+  "synonyms": [
+    "CD24A"
+  ],
+  "omim_id": "600074",
+  "description": "CD24 molecule [Source:HGNC Symbol;Acc:HGNC:1645]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14984"
+  ],
+  "domain_descriptions": [
+    "Signal transducer CD24"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Signal transducer CD24"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14984"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Signal transducer CD24"
+  ],
+  "ciliary_role": "High-magnification images of co-staining with 纬-tubulin (for S100尾) or acetylated-tubulin (for CD24) confirmed E1 and E2, but not E3, labelling (Fig. 3c,d,h,i insets). S100尾 was localized to the cytoplasm, whereas CD24 was expressed on the apical surface and cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CD24 is a ciliary gene encoding cd24 molecule [source:hgnc symbol;acc:hgnc:1645]",
+    "functional_summary": "High-magnification images of co-staining with 纬-tubulin (for S100尾) or acetylated-tubulin (for CD24) confirmed E1 and E2, but not E3, labelling (Fig. 3c,d,h,i insets). S100尾 was localized to the cytop...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

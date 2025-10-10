@@ -1,0 +1,108 @@
+{
+  "gene_name": "PIK3AP1",
+  "ensembl_id": "ENSG00000155629",
+  "synonyms": [
+    "BCAP",
+    "FLJ35564"
+  ],
+  "omim_id": "607942",
+  "description": "phosphoinositide-3-kinase adaptor protein 1 [Source:HGNC Symbol;Acc:HGNC:30034]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14545",
+    "PF18567"
+  ],
+  "domain_descriptions": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "DBB domain",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "PIK3AP1",
+    "Toll/interleukin-1 receptor domain",
+    "B-cell PI3K Activation and Signaling Adapters"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation"
+  ],
+  "structural_features": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "DBB domain",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "PIK3AP1",
+    "Toll/interleukin-1 receptor domain",
+    "B-cell PI3K Activation and Signaling Adapters"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14545",
+      "PF18567"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Toll/interleukin-1 receptor homology (TIR) domain",
+    "DBB domain",
+    "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+    "PIK3AP1",
+    "Toll/interleukin-1 receptor domain",
+    "B-cell PI3K Activation and Signaling Adapters"
+  ],
+  "ciliary_role": "PIK3AP1, aslo known as BCAP. Centriolar satellite protein that plays a role as negative regulator of ciliogenesis, specifically initiation (28775150).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PIK3AP1 is a ciliary gene encoding phosphoinositide-3-kinase adaptor protein 1 [source:hgnc symbol;acc:hgnc:30034]",
+    "functional_summary": "PIK3AP1, aslo known as BCAP. Centriolar satellite protein that plays a role as negative regulator of ciliogenesis, specifically initiation (28775150).",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

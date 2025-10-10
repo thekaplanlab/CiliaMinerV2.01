@@ -1,0 +1,74 @@
+{
+  "gene_name": "TP53I11",
+  "ensembl_id": "ENSG00000175274",
+  "synonyms": [
+    "PIG11"
+  ],
+  "omim_id": "617867",
+  "description": "tumor protein p53 inducible protein 11 [Source:HGNC Symbol;Acc:HGNC:16842]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14936"
+  ],
+  "domain_descriptions": [
+    "Tumor protein p53-inducible protein 11"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "Tumor protein p53-inducible protein 11"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14936"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tumor protein p53-inducible protein 11"
+  ],
+  "ciliary_role": "TP53I11 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TP53I11 is a ciliary gene encoding tumor protein p53 inducible protein 11 [source:hgnc symbol;acc:hgnc:16842]",
+    "functional_summary": "TP53I11 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

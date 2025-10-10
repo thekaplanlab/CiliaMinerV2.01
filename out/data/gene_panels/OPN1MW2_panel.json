@@ -1,0 +1,120 @@
+{
+  "gene_name": "OPN1MW2",
+  "ensembl_id": "ENSG00000166160",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "opsin 1, medium wave sensitive 2 [Source:HGNC Symbol;Acc:HGNC:26952]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00001"
+  ],
+  "domain_descriptions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Opsin red/green sensitive",
+    "Opsin",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Visual pigments (opsins) retinal binding site",
+    "G-protein coupled receptor opsins"
+  ],
+  "molecular_function": [
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Opsin red/green sensitive",
+    "Opsin",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Visual pigments (opsins) retinal binding site",
+    "G-protein coupled receptor opsins"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00001"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "G protein-coupled receptor",
+    "rhodopsin-like",
+    "Opsin red/green sensitive",
+    "Opsin",
+    "GPCR",
+    "rhodopsin-like",
+    "7TM",
+    "Visual pigments (opsins) retinal binding site",
+    "G-protein coupled receptor opsins"
+  ],
+  "ciliary_role": "Encodes photoreceptor opsins and is associated with blue cone monochromacy (30614359). Requires IFT20 for localisation (21307337).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "OPN1MW2 is a ciliary gene encoding opsin 1, medium wave sensitive 2 [source:hgnc symbol;acc:hgnc:26952]",
+    "functional_summary": "Encodes photoreceptor opsins and is associated with blue cone monochromacy (30614359). Requires IFT20 for localisation (21307337).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

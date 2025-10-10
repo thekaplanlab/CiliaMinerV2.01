@@ -1,0 +1,99 @@
+{
+  "gene_name": "ATXN10",
+  "ensembl_id": "ENSG00000130638",
+  "synonyms": [
+    "ATX10",
+    "E46L",
+    "FLJ37990",
+    "SCA10"
+  ],
+  "omim_id": "611150",
+  "description":"ataxin 10 [Source:HGNC Symbol;Acc:HGNC:10549]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF09759"
+  ],
+  "domain_descriptions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Ataxin-10 domain",
+    "Ataxin-10 and Copper transport protein 86 families"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Ataxin-10 domain",
+    "Ataxin-10 and Copper transport protein 86 families"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF09759"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Ataxin-10 domain",
+    "Ataxin-10 and Copper transport protein 86 families"
+  ],
+  "ciliary_role": "Mutated in 1 NPHP family (splice-site mutation). Forms complex with NPHP5 and 6 at the basal body 21565611 Mutated in spinocerebellar ataxia 10",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ATXN10 is a ciliary gene encoding ataxin 10 [source:hgnc symbol;acc:hgnc:10549]",
+    "functional_summary": "Mutated in 1 NPHP family (splice-site mutation). Forms complex with NPHP5 and 6 at the basal body 21565611 Mutated in spinocerebellar ataxia 10",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

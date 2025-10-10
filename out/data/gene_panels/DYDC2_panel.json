@@ -1,0 +1,84 @@
+{
+  "gene_name": "DYDC2",
+  "ensembl_id": "ENSG00000133665",
+  "synonyms": [
+    "BA36D19.6",
+    "MGC16186"
+  ],
+  "omim_id": "",
+  "description": "DPY30 domain containing 2 [Source:HGNC Symbol;Acc:HGNC:23468]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05186"
+  ],
+  "domain_descriptions": [
+    "Dpy-30 motif",
+    "Sdc1/DPY30",
+    "DPY30 domain-containing protein-like",
+    "dimerization/docking domain"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "Dpy-30 motif",
+    "Sdc1/DPY30",
+    "DPY30 domain-containing protein-like",
+    "dimerization/docking domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05186"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dpy-30 motif",
+    "Sdc1/DPY30",
+    "DPY30 domain-containing protein-like",
+    "dimerization/docking domain"
+  ],
+  "ciliary_role": "DYDC2 has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYDC2 is a ciliary gene encoding dpy30 domain containing 2 [source:hgnc symbol;acc:hgnc:23468]",
+    "functional_summary": "DYDC2 has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

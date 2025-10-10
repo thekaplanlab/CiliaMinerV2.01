@@ -1,0 +1,140 @@
+{
+  "gene_name": "KIF23",
+  "ensembl_id": "ENSG00000137807",
+  "synonyms": [
+    "KNSL5",
+    "MKLP-1",
+    "MKLP1"
+  ],
+  "omim_id": "605064",
+  "description": "kinesin family member 23 [Source:HGNC Symbol;Acc:HGNC:6392]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16540",
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain superfamily"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16540",
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain",
+    "Kinesin motor domain superfamily",
+    "Kinesin-like protein Kif23",
+    "Arf6-interacting domain superfamily"
+  ],
+  "ciliary_role": "KIF23 localized to flagella (25613900)",
+  "localization": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF23 is a ciliary gene encoding kinesin family member 23 [source:hgnc symbol;acc:hgnc:6392]",
+    "functional_summary": "KIF23 localized to flagella (25613900)",
+    "localization_summary": "Localizes to flagella, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

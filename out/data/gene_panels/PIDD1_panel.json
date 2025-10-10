@@ -1,0 +1,131 @@
+{
+  "gene_name": "PIDD1",
+  "ensembl_id": "ENSG00000177595",
+  "synonyms": [
+    "DKFZP434D229",
+    "LRDD",
+    "MGC16925",
+    "PIDD"
+  ],
+  "omim_id": "605247",
+  "description": "p53-induced death domain protein 1 [Source:HGNC Symbol;Acc:HGNC:16491]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00791",
+    "PF13855",
+    "PF10461",
+    "PF00531"
+  ],
+  "domain_descriptions": [
+    "Death domain",
+    "ZU5 domain",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Death-like domain superfamily",
+    "Peptidase S68",
+    "pidd",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "structural_features": [
+    "Death domain",
+    "ZU5 domain",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Death-like domain superfamily",
+    "Peptidase S68",
+    "pidd",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00791",
+      "PF13855",
+      "PF10461",
+      "PF00531"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Death domain",
+    "ZU5 domain",
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Death-like domain superfamily",
+    "Peptidase S68",
+    "pidd",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat domain-containing protein"
+  ],
+  "ciliary_role": "ANKRD26 recruits PIDD1 to centriolar distal appendages to activate the PIDDosome following centrosome amplification( 33350495).",
+  "localization": [
+    "basal body",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism",
+    "Transcription regulation",
+    "Protein processing & maturation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PIDD1 is a ciliary gene encoding p53-induced death domain protein 1 [source:hgnc symbol;acc:hgnc:16491]",
+    "functional_summary": "ANKRD26 recruits PIDD1 to centriolar distal appendages to activate the PIDDosome following centrosome amplification( 33350495).",
+    "localization_summary": "Localizes to basal body, Nucleus, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

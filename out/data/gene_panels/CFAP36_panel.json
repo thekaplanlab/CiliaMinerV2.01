@@ -1,0 +1,94 @@
+{
+  "gene_name": "CFAP36",
+  "ensembl_id": "ENSG00000163001",
+  "synonyms": [
+    "BARTL1",
+    "CCDC104",
+    "MGC15407"
+  ],
+  "omim_id": "",
+  "description": "cilia and flagella associated protein 36 [Source:HGNC Symbol;Acc:HGNC:30540]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF11527"
+  ],
+  "domain_descriptions": [
+    "BART domain",
+    "Cilia- and flagella-associated protein 36",
+    "BART domain superfamily"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "BART domain",
+    "Cilia- and flagella-associated protein 36",
+    "BART domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF11527"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BART domain",
+    "Cilia- and flagella-associated protein 36",
+    "BART domain superfamily"
+  ],
+  "ciliary_role": "Interacts with Arl3 and may regulate its ciliary localisation and function (26455799)",
+  "localization": [
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transition zone",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP36 is a ciliary gene encoding cilia and flagella associated protein 36 [source:hgnc symbol;acc:hgnc:30540]",
+    "functional_summary": "Interacts with Arl3 and may regulate its ciliary localisation and function (26455799)",
+    "localization_summary": "Localizes to transition zone",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

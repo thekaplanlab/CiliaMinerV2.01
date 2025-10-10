@@ -1,0 +1,128 @@
+{
+  "gene_name": "SASS6",
+  "ensembl_id": "ENSG00000156876",
+  "synonyms": [
+    "DKFZP761A078",
+    "FLJ22097",
+    "SAS-6",
+    "SAS6"
+  ],
+  "omim_id": "609321",
+  "description": "SAS-6 centriolar assembly protein [Source:HGNC Symbol;Acc:HGNC:25403]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF18594",
+    "PF16531"
+  ],
+  "domain_descriptions": [
+    "Spindle assembly abnormal protein 6",
+    "N-terminal",
+    "SAS-6",
+    "N-terminal domain superfamily",
+    "SAS-6 coiled-coil domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Spindle assembly abnormal protein 6",
+    "N-terminal",
+    "SAS-6",
+    "N-terminal domain superfamily",
+    "SAS-6 coiled-coil domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF18594",
+      "PF16531"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Spindle assembly abnormal protein 6",
+    "N-terminal",
+    "SAS-6",
+    "N-terminal domain superfamily",
+    "SAS-6 coiled-coil domain"
+  ],
+  "ciliary_role": "Required for daughter centriole formation and primary cilia assembly in mammalian cells. Recruited to centrioles by STIL (22349705). Interacts with SAS-5 and both are mutually dependent for their centriolar distribution (15665853). Cooperates with PLK4 and STIL to initiate centriole duplication (27911707). Depletion has been shown to reduce the microtubule numbers in Chlamydomo s and Drosophila centrioles, suggesting that SASS6 has a direct role in the regulation of centriolar microtubule formation (26422590).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "flagella",
+    "Centrosome",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "flagella",
+    "Centrosome",
+    "Microtubules"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SASS6 is a ciliary gene encoding sas-6 centriolar assembly protein [source:hgnc symbol;acc:hgnc:25403]",
+    "functional_summary": "Required for daughter centriole formation and primary cilia assembly in mammalian cells. Recruited to centrioles by STIL (22349705). Interacts with SAS-5 and both are mutually dependent for their cent...",
+    "localization_summary": "Localizes to basal body, cilia, flagella, Centrosome, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

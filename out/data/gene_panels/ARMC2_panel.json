@@ -1,0 +1,105 @@
+{
+  "gene_name": "ARMC2",
+  "ensembl_id": "ENSG00000118690",
+  "synonyms": [
+    "BA787I22.1",
+    "DKFZP434P0714"
+  ],
+  "omim_id": "618424",
+  "description": "armadillo repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:23045]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05804"
+  ],
+  "domain_descriptions": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Armadillo repeat-containing protein 2"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Armadillo repeat-containing protein 2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05804"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Armadillo",
+    "Armadillo-like helical",
+    "Armadillo-type fold",
+    "Armadillo repeat-containing protein 2"
+  ],
+  "ciliary_role": "Required for sperm flagellum formation. Bi-allelic Mutations in ARMC2 Lead to Severe Astheno-Teratozoospermia Due to Sperm Flagellum Malformations in Humans and Mice.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARMC2 is a ciliary gene encoding armadillo repeat containing 2 [source:hgnc symbol;acc:hgnc:23045]",
+    "functional_summary": "Required for sperm flagellum formation. Bi-allelic Mutations in ARMC2 Lead to Severe Astheno-Teratozoospermia Due to Sperm Flagellum Malformations in Humans and Mice.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

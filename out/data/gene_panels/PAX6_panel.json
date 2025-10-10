@@ -1,0 +1,137 @@
+{
+  "gene_name": "PAX6",
+  "ensembl_id": "ENSG00000007372",
+  "synonyms": [
+    "AN",
+    "AN1",
+    "AN2",
+    "D11S812E",
+    "WAGR"
+  ],
+  "omim_id": "607108",
+  "description": "paired box 6 [Source:HGNC Symbol;Acc:HGNC:8620]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00046",
+    "PF00292"
+  ],
+  "domain_descriptions": [
+    "Homeodomain",
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Winged helix-like DNA-binding domain superfamily",
+    "PAX family",
+    "Paired DNA-binding domain"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Homeodomain",
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Winged helix-like DNA-binding domain superfamily",
+    "PAX family",
+    "Paired DNA-binding domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00046",
+      "PF00292"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Homeodomain",
+    "Paired domain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Winged helix-like DNA-binding domain superfamily",
+    "PAX family",
+    "Paired DNA-binding domain"
+  ],
+  "ciliary_role": "Pax6 have the presence of primary cilia in amacrine cells of adult primates(34241625) and Pax6 controls centriole maturation in cortical progenitors through Odf2(25352170).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PAX6 is a ciliary gene encoding paired box 6 [source:hgnc symbol;acc:hgnc:8620]",
+    "functional_summary": "Pax6 have the presence of primary cilia in amacrine cells of adult primates(34241625) and Pax6 controls centriole maturation in cortical progenitors through Odf2(25352170).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

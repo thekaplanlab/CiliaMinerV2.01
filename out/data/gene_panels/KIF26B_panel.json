@@ -1,0 +1,99 @@
+{
+  "gene_name": "KIF26B",
+  "ensembl_id": "ENSG00000281216; ENSG00000162849",
+  "synonyms": [
+    "FLJ10157"
+  ],
+  "omim_id": "614026",
+  "description": "kinesin family member 26B [Source:HGNC Symbol;Acc:HGNC:25484]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "KIF26B localized at cilia",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF26B is a ciliary gene encoding kinesin family member 26b [source:hgnc symbol;acc:hgnc:25484]",
+    "functional_summary": "KIF26B localized at cilia",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

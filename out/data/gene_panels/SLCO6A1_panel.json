@@ -1,0 +1,114 @@
+{
+  "gene_name": "SLCO6A1",
+  "ensembl_id": "ENSG00000205359",
+  "synonyms": [
+    "CT48",
+    "MGC26949",
+    "OATP6A1",
+    "OATPY"
+  ],
+  "omim_id": "613365",
+  "description": "solute carrier organic anion transporter family member 6A1 [Source:HGNC Symbol;Acc:HGNC:23613]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07648",
+    "PF03137"
+  ],
+  "domain_descriptions": [
+    "Kazal domain",
+    "Organic anion transporter polypeptide",
+    "Kazal domain superfamily",
+    "MFS transporter superfamily"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "structural_features": [
+    "Kazal domain",
+    "Organic anion transporter polypeptide",
+    "Kazal domain superfamily",
+    "MFS transporter superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07648",
+      "PF03137"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kazal domain",
+    "Organic anion transporter polypeptide",
+    "Kazal domain superfamily",
+    "MFS transporter superfamily"
+  ],
+  "ciliary_role": "As the wing structure is seen in the mouse but not human CatSper , the association of SLCO6C1 with CatSper channel complex might be a species-specific molecular mechanism such as linking Ca2+ homeostasis to ATP production (35715406).",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SLCO6A1 is a ciliary gene encoding solute carrier organic anion transporter family member 6a1 [source:hgnc symbol;acc:hgnc:23613]",
+    "functional_summary": "As the wing structure is seen in the mouse but not human CatSper , the association of SLCO6C1 with CatSper channel complex might be a species-specific molecular mechanism such as linking Ca2+ homeosta...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

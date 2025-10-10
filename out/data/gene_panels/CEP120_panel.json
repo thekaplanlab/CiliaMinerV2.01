@@ -1,0 +1,114 @@
+{
+  "gene_name": "CEP120",
+  "ensembl_id": "ENSG00000168944",
+  "synonyms": [
+    "CCDC100",
+    "FLJ36090"
+  ],
+  "omim_id": "613446",
+  "description": "centrosomal protein 120 [Source:HGNC Symbol;Acc:HGNC:26690]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12416",
+    "PF00168"
+  ],
+  "domain_descriptions": [
+    "C2 domain",
+    "Domain of unknown function DUF3668",
+    "C2 domain superfamily",
+    "Centrosomal protein of 120kDa-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "C2 domain",
+    "Domain of unknown function DUF3668",
+    "C2 domain superfamily",
+    "Centrosomal protein of 120kDa-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12416",
+      "PF00168"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "C2 domain",
+    "Domain of unknown function DUF3668",
+    "C2 domain superfamily",
+    "Centrosomal protein of 120kDa-like"
+  ],
+  "ciliary_role": "Is essential for the recruitment of C2CD3 and Talpid3 to the  scent centrioles, and is responsible for promoting the assembly of the centriole appendages that are needed for subsequent ciliogenesis. It is a daughter centriole- enriched protein that plays an essential role in centriole elongation (30988386). Plays a key role in the duplication and maturation of centrioles, which in principle could impact the production of a functio l basal body (29847808).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome",
+    "Short-rib Thoracic Dysplasia"
+  ],
+  "ciliopathy_type": "Joubert Syndrome, Short-rib Thoracic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP120 is a ciliary gene encoding centrosomal protein 120 [source:hgnc symbol;acc:hgnc:26690]",
+    "functional_summary": "Is essential for the recruitment of C2CD3 and Talpid3 to the  scent centrioles, and is responsible for promoting the assembly of the centriole appendages that are needed for subsequent ciliogenesis. I...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "Associated with Joubert Syndrome, Short-rib Thoracic Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome, Short-rib Thoracic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

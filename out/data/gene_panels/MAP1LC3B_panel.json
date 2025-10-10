@@ -1,0 +1,115 @@
+{
+  "gene_name": "MAP1LC3B",
+  "ensembl_id": "ENSG00000140941",
+  "synonyms": [
+    "ATG8F"
+  ],
+  "omim_id": "609604",
+  "description": "microtubule associated protein 1 light chain 3 beta [Source:HGNC Symbol;Acc:HGNC:13352]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02991"
+  ],
+  "domain_descriptions": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Viral interactions",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02991"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "ciliary_role": "MAP1LC3B has localized in primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Viral interactions",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Viral interactions",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAP1LC3B is a ciliary gene encoding microtubule associated protein 1 light chain 3 beta [source:hgnc symbol;acc:hgnc:13352]",
+    "functional_summary": "MAP1LC3B has localized in primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

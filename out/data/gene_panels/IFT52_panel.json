@@ -1,0 +1,148 @@
+{
+  "gene_name": "IFT52",
+  "ensembl_id": "ENSG00000101052",
+  "synonyms": [
+    "C20ORF9",
+    "CGI-53",
+    "DJ1028D15.1",
+    "NGD2",
+    "NGD5"
+  ],
+  "omim_id": "617094",
+  "description": "intraflagellar transport 52 [Source:HGNC Symbol;Acc:HGNC:15901]",
+  "protein_complexes": [
+    "Intraflagellar transport complex B"
+  ],
+  "pfam_ids": [
+    "PF21178",
+    "PF23352",
+    "PF23355"
+  ],
+  "domain_descriptions": [
+    "Intraflagellar transport protein 52 homolog",
+    "Intraflagellar transport protein 52",
+    "C-terminal domain",
+    "IFT52",
+    "GIFT domain",
+    "IFT52",
+    "central domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Intraflagellar transport protein 52 homolog",
+    "Intraflagellar transport protein 52",
+    "C-terminal domain",
+    "IFT52",
+    "GIFT domain",
+    "IFT52",
+    "central domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21178",
+      "PF23352",
+      "PF23355"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Intraflagellar transport protein 52 homolog",
+    "Intraflagellar transport protein 52",
+    "C-terminal domain",
+    "IFT52",
+    "GIFT domain",
+    "IFT52",
+    "central domain"
+  ],
+  "ciliary_role": "Component of IFT complex B. Essential for anterograde complex integrity, biosynthesis and mainte nce of cilia. Regulation of ciliogenesis and cilia length, it also plays a role as a docking site for complex B proteins attaching to the transition fibres of the basal bodies and is required for localization of the IFT-B complex proteins (27466190). Recruits and interacts with IFT46 to assembly a subcomplex which is a prerequisite for the assembly of IFT-B1, it is also required to localise IFT46 to the basal body (28302912).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Intraflagellar transport",
+    "Ciliary assembly/disassembly",
+    "Protein processing & maturation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cranioectodermal Dysplasia",
+    "Short-rib Thoracic Dysplasia"
+  ],
+  "ciliopathy_type": "Cranioectodermal Dysplasia, Short-rib Thoracic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "IFT52 is a ciliary gene encoding intraflagellar transport 52 [source:hgnc symbol;acc:hgnc:15901]",
+    "functional_summary": "Component of IFT complex B. Essential for anterograde complex integrity, biosynthesis and mainte nce of cilia. Regulation of ciliogenesis and cilia length, it also plays a role as a docking site for c...",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome",
+    "disease_summary": "Associated with Cranioectodermal Dysplasia, Short-rib Thoracic Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cranioectodermal Dysplasia, Short-rib Thoracic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

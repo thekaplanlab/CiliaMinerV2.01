@@ -1,0 +1,120 @@
+{
+  "gene_name": "CCDC39",
+  "ensembl_id": "ENSG00000284862",
+  "synonyms": [
+    "CFAP59",
+    "CILD14",
+    "DKFZP434A128",
+    "FAP59"
+  ],
+  "omim_id": "613798",
+  "description": "coiled-coil domain 39 molecular ruler complex subunit [Source:HGNC Symbol;Acc:HGNC:25244]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF24161"
+  ],
+  "domain_descriptions": [
+    "Coiled-coil domain-containing protein 39"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Coiled-coil domain-containing protein 39"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF24161"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Coiled-coil domain-containing protein 39"
+  ],
+  "ciliary_role": "CCDC39 regulates centriole/deuterosome amplification and multiciliogenesis. CCDC39/40 protein complex might define the binding site of radial spokes along peripheral  and provide anchoring sites for inner dynein arms (29317443). It is essential for assembly of inner dynein arms and the dynein regulatory complex (21131972, 21131974)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCDC39 is a ciliary gene encoding coiled-coil domain 39 molecular ruler complex subunit [source:hgnc symbol;acc:hgnc:25244]",
+    "functional_summary": "CCDC39 regulates centriole/deuterosome amplification and multiciliogenesis. CCDC39/40 protein complex might define the binding site of radial spokes along peripheral  and provide anchoring sites for i...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

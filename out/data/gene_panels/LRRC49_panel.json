@@ -1,0 +1,105 @@
+{
+  "gene_name": "LRRC49",
+  "ensembl_id": "ENSG00000137821",
+  "synonyms": [
+    "CSTPP2",
+    "FLJ20156",
+    "PGS4"
+  ],
+  "omim_id": "620497",
+  "description": "leucine rich repeat containing 49 [Source:HGNC Symbol;Acc:HGNC:25965]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14580",
+    "PF12799"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine rich repeat 4",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine rich repeat 4",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14580",
+      "PF12799"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat",
+    "typical subtype",
+    "Leucine rich repeat 4",
+    "Leucine-rich repeat domain superfamily",
+    "Ciliary and flagellar integrity-associated protein"
+  ],
+  "ciliary_role": "C11ORF49 and LRRC49, which we have re- med centriolar satellite-associated tubulin polyglutamylation proteins, CSTPP1 and CSTPP2, respectively, are novel cytoplasmic regulators of both cilium disassembly and nuclear morphology (34782749).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRRC49 is a ciliary gene encoding leucine rich repeat containing 49 [source:hgnc symbol;acc:hgnc:25965]",
+    "functional_summary": "C11ORF49 and LRRC49, which we have re- med centriolar satellite-associated tubulin polyglutamylation proteins, CSTPP1 and CSTPP2, respectively, are novel cytoplasmic regulators of both cilium disassem...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

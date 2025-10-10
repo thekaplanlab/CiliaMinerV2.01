@@ -1,0 +1,96 @@
+{
+  "gene_name": "TTC29",
+  "ensembl_id": "ENSG00000137473",
+  "synonyms": [
+    "NYD-SP14"
+  ],
+  "omim_id": "618735",
+  "description": "tetratricopeptide repeat domain 29 [Source:HGNC Symbol;Acc:HGNC:29936]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13432",
+    "PF13424"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Bacterial Response Regulator Aspartate Phosphatase"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Bacterial Response Regulator Aspartate Phosphatase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13432",
+      "PF13424"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Bacterial Response Regulator Aspartate Phosphatase"
+  ],
+  "ciliary_role": "Also known as NYD-SP14. Strongly expressed in tissues with motile cilia and flagella. Functions in cilia and flagella, most likely as an inner-arm dynein subunit. Chlamydomo s homologue encodes 44kDa subunit of axonemal dynein (17981992). Involved in functio l interaction with the IFT machinery, participating in anterograde IFT. Mutations have been associated with multiple morphological abnormalities of the flagella (31735294).",
+  "localization": [
+    "cilia",
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Motile cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTC29 is a ciliary gene encoding tetratricopeptide repeat domain 29 [source:hgnc symbol;acc:hgnc:29936]",
+    "functional_summary": "Also known as NYD-SP14. Strongly expressed in tissues with motile cilia and flagella. Functions in cilia and flagella, most likely as an inner-arm dynein subunit. Chlamydomo s homologue encodes 44kDa ...",
+    "localization_summary": "Localizes to cilia, flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

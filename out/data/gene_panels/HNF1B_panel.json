@@ -1,0 +1,106 @@
+{
+  "gene_name": "HNF1B",
+  "ensembl_id": "ENSG00000275410; ENSG00000276194",
+  "synonyms": [
+    "HNF1B",
+    "HNF1BETA",
+    "LFB3",
+    "MODY5",
+    "TCF2",
+    "VHNF1"
+  ],
+  "omim_id": "189907",
+  "description": "HNF1 homeobox B [Source:HGNC Symbol;Acc:HGNC:11630]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "HNF1B deficiency is associated with ciliary anomalies in cholangiocytes and causes re l cysts. Regulates bile duct formation ( 22706971). Control of the transcription of several genes expressed in tubular epithelial cells and transcriptio l activation of Tg737/Polaris. HNF1尾 is not directly necessary for ciliogenesis, nevertheless, it may regulate the expression of genes that play a crucial role in cilium function ( 15029248).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Transcription regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Infantile Polycystic Kidney Disease"
+  ],
+  "ciliopathy_type": "Infantile Polycystic Kidney Disease",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HNF1B is a ciliary gene encoding hnf1 homeobox b [source:hgnc symbol;acc:hgnc:11630]",
+    "functional_summary": "HNF1B deficiency is associated with ciliary anomalies in cholangiocytes and causes re l cysts. Regulates bile duct formation ( 22706971). Control of the transcription of several genes expressed in tub...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "Associated with Infantile Polycystic Kidney Disease",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Infantile Polycystic Kidney Disease",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

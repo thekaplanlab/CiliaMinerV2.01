@@ -1,0 +1,93 @@
+{
+  "gene_name": "GNAT3",
+  "ensembl_id": "ENSG00000214415",
+  "synonyms": [
+    "GDCA",
+    "GUSTDUCIN"
+  ],
+  "omim_id": "139395",
+  "description": "G protein subunit alpha transducin 3 [Source:HGNC Symbol;Acc:HGNC:22800]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00503"
+  ],
+  "domain_descriptions": [
+    "Guanine nucleotide binding protein (G-protein)",
+    "alpha subunit",
+    "G-protein alpha subunit",
+    "group I",
+    "G protein alpha subunit",
+    "helical insertion",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "Guanine nucleotide binding protein (G-protein)",
+    "alpha subunit",
+    "G-protein alpha subunit",
+    "group I",
+    "G protein alpha subunit",
+    "helical insertion",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00503"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Guanine nucleotide binding protein (G-protein)",
+    "alpha subunit",
+    "G-protein alpha subunit",
+    "group I",
+    "G protein alpha subunit",
+    "helical insertion",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "伪-gustducin and TRPM5 resided in cilia(19628819).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GNAT3 is a ciliary gene encoding g protein subunit alpha transducin 3 [source:hgnc symbol;acc:hgnc:22800]",
+    "functional_summary": "伪-gustducin and TRPM5 resided in cilia(19628819).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

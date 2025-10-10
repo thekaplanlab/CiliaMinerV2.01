@@ -1,0 +1,119 @@
+{
+  "gene_name": "RAB19",
+  "ensembl_id": "ENSG00000146955",
+  "synonyms": [
+    "RAB19B"
+  ],
+  "omim_id": "",
+  "description": "RAB19, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:19982]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPase 19/43",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPase 19/43",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab GTPase 19/43",
+    "Rab GTPases family involved in membrane trafficking"
+  ],
+  "ciliary_role": "RAB19 associates with the RAB-GAP TBC1D4 and the HOPS-tethering complex to coordi te cortical clearing and ciliary membrane growth, which is essential for ciliogenesis(33561422).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAB19 is a ciliary gene encoding rab19, member ras oncogene family [source:hgnc symbol;acc:hgnc:19982]",
+    "functional_summary": "RAB19 associates with the RAB-GAP TBC1D4 and the HOPS-tethering complex to coordi te cortical clearing and ciliary membrane growth, which is essential for ciliogenesis(33561422).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

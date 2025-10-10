@@ -1,0 +1,132 @@
+{
+  "gene_name": "FIGNL1",
+  "ensembl_id": "ENSG00000132436",
+  "synonyms": [],
+  "omim_id": "",
+  "description": "fidgetin like 1 [Source:HGNC Symbol;Acc:HGNC:13286]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF17862",
+    "PF00004",
+    "PF09336"
+  ],
+  "domain_descriptions": [
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "ATPase",
+    "AAA-type",
+    "conserved site",
+    "Spastin/Vps4",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA ATPase",
+    "AAA+ lid domain",
+    "Fidgetin-like 1",
+    "ATPase domain",
+    "Microtubule-severing AAA ATPase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "ECM & connective tissue"
+  ],
+  "structural_features": [
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "ATPase",
+    "AAA-type",
+    "conserved site",
+    "Spastin/Vps4",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA ATPase",
+    "AAA+ lid domain",
+    "Fidgetin-like 1",
+    "ATPase domain",
+    "Microtubule-severing AAA ATPase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF17862",
+      "PF00004",
+      "PF09336"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "AAA+ ATPase domain",
+    "ATPase",
+    "AAA-type",
+    "core",
+    "ATPase",
+    "AAA-type",
+    "conserved site",
+    "Spastin/Vps4",
+    "C-terminal",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "AAA ATPase",
+    "AAA+ lid domain",
+    "Fidgetin-like 1",
+    "ATPase domain",
+    "Microtubule-severing AAA ATPase"
+  ],
+  "ciliary_role": "Overexpressed FIGL-1 markedly disturbs ciliogenesis and the centrosome structure. Endogenous FIGL-1 localizes to the centrosome in cells, preferentially to the mother centriole. Depletion of FIGL-1 enhances ciliogenesis and slows cilia disassembly(27384458).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "ECM & connective tissue"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "ECM & connective tissue"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FIGNL1 is a ciliary gene encoding fidgetin like 1 [source:hgnc symbol;acc:hgnc:13286]",
+    "functional_summary": "Overexpressed FIGL-1 markedly disturbs ciliogenesis and the centrosome structure. Endogenous FIGL-1 localizes to the centrosome in cells, preferentially to the mother centriole. Depletion of FIGL-1 en...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

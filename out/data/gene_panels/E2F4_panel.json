@@ -1,0 +1,120 @@
+{
+  "gene_name": "E2F4",
+  "ensembl_id": "ENSG00000205250",
+  "synonyms": [
+    "E2F-4"
+  ],
+  "omim_id": "600659",
+  "description": "E2F transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:3118]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02319",
+    "PF16421"
+  ],
+  "domain_descriptions": [
+    "E2F/DP family",
+    "winged-helix DNA-binding domain",
+    "E2F Family",
+    "E2F transcription factor",
+    "CC-MB domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "E2F-DP heterodimerization region"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "E2F/DP family",
+    "winged-helix DNA-binding domain",
+    "E2F Family",
+    "E2F transcription factor",
+    "CC-MB domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "E2F-DP heterodimerization region"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02319",
+      "PF16421"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "E2F/DP family",
+    "winged-helix DNA-binding domain",
+    "E2F Family",
+    "E2F transcription factor",
+    "CC-MB domain",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "E2F-DP heterodimerization region"
+  ],
+  "ciliary_role": "Mediation of the transcriptio l responses of Multicilin. Forms apical cytoplasmic organizing centres for multiciliogenesis, recruitment and accumulation of early regulators of centriole biogenesis to allow assembly and nucleation of deuterosomes (28675157).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Transcription regulation",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "E2F4 is a ciliary gene encoding e2f transcription factor 4 [source:hgnc symbol;acc:hgnc:3118]",
+    "functional_summary": "Mediation of the transcriptio l responses of Multicilin. Forms apical cytoplasmic organizing centres for multiciliogenesis, recruitment and accumulation of early regulators of centriole biogenesis to ...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

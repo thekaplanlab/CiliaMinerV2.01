@@ -1,0 +1,151 @@
+{
+  "gene_name": "RAC1",
+  "ensembl_id": "ENSG00000136238",
+  "synonyms": [
+    "P21-RAC1",
+    "RAC-1",
+    "TC-25"
+  ],
+  "omim_id": "602048",
+  "description": "Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTPase Rho",
+    "Small GTP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "In both wild type and Arhgap35D34/D34 proximal tubules Rac1 and RhoA are enriched at the basal bodies to similar degrees. p190A plays a role at the docked basal body to downregulate active RhoA (and possibly Rac1) to allow the localized actin cytoskeleton rearrangement required for cilia elongation (26859289).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Endosome",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Endosome",
+    "Microtubules"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAC1 is a ciliary gene encoding rac family small gtpase 1 [source:hgnc symbol;acc:hgnc:9801]",
+    "functional_summary": "In both wild type and Arhgap35D34/D34 proximal tubules Rac1 and RhoA are enriched at the basal bodies to similar degrees. p190A plays a role at the docked basal body to downregulate active RhoA (and p...",
+    "localization_summary": "Localizes to basal body, Cytosol, Endosome, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,100 @@
+{
+  "gene_name": "RABEP1",
+  "ensembl_id": "ENSG00000029725",
+  "synonyms": [
+    "NEUROCRESCIN",
+    "RAB5EP",
+    "RABAPTIN-5",
+    "RABPT5"
+  ],
+  "omim_id": "603616",
+  "description": "rabaptin, RAB GTPase binding effector protein 1 [Source:HGNC Symbol;Acc:HGNC:17677]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03528",
+    "PF09311"
+  ],
+  "domain_descriptions": [
+    "Rabaptin coiled-coil domain",
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Rabaptin coiled-coil domain",
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03528",
+      "PF09311"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rabaptin coiled-coil domain",
+    "Rabaptin",
+    "Rabaptin",
+    "GTPase-Rab5 binding domain"
+  ],
+  "ciliary_role": "Rabep1/GGA1/Arl3-dependent ciliary targeting mechanism, whereby Rabep1 couples the polycystin complex to a GGA1/Arl3-based ciliary trafficking module at the TGN ( 25405894).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RABEP1 is a ciliary gene encoding rabaptin, rab gtpase binding effector protein 1 [source:hgnc symbol;acc:hgnc:17677]",
+    "functional_summary": "Rabep1/GGA1/Arl3-dependent ciliary targeting mechanism, whereby Rabep1 couples the polycystin complex to a GGA1/Arl3-based ciliary trafficking module at the TGN ( 25405894).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

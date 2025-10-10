@@ -1,0 +1,101 @@
+{
+  "gene_name": "TTL",
+  "ensembl_id": "ENSG00000114999",
+  "synonyms": [
+    "MGC46235"
+  ],
+  "omim_id": "608291",
+  "description": "tubulin tyrosine ligase [Source:HGNC Symbol;Acc:HGNC:21586]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03133"
+  ],
+  "domain_descriptions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase",
+    "ATP-grasp fold",
+    "subdomain 1"
+  ],
+  "molecular_function": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase",
+    "ATP-grasp fold",
+    "subdomain 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03133"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin--tyrosine ligase",
+    "ATP-grasp fold",
+    "subdomain 1"
+  ],
+  "ciliary_role": "TTL controls microtubule modification and thereby indirectly regulates ciliogenesis and ciliary structure, but TTL itself is not physically located inside or on the cilium. It acts upstream by modifying α-tubulin, which cilia need to build their structure ( 35903547).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTL is a ciliary gene encoding tubulin tyrosine ligase [source:hgnc symbol;acc:hgnc:21586]",
+    "functional_summary": "TTL controls microtubule modification and thereby indirectly regulates ciliogenesis and ciliary structure, but TTL itself is not physically located inside or on the cilium. It acts upstream by modifyi...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

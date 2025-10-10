@@ -1,0 +1,102 @@
+{
+  "gene_name": "CEP89",
+  "ensembl_id": "ENSG00000121289",
+  "synonyms": [
+    "CCDC123",
+    "FLJ14640"
+  ],
+  "omim_id": "615470",
+  "description": "centrosomal protein 89 [Source:HGNC Symbol;Acc:HGNC:25907]",
+  "protein_complexes": [
+    "Distal appendage"
+  ],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Also calles CEP13 and CCDC123. Assembly of primary cilium and membrane docking (23348840). It interacts with the centriolar satellite proteins PCM-1 and OFD1 for cilia formation, and with Cep290 for the recruitment of membranes to the centrosome. CEP123 is required for the formation of a ciliary vesicle at the distal end of the mother centriole during primary ciliogenesis (23789104)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Mitochondria"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Mitochondria"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP89 is a ciliary gene encoding centrosomal protein 89 [source:hgnc symbol;acc:hgnc:25907]",
+    "functional_summary": "Also calles CEP13 and CCDC123. Assembly of primary cilium and membrane docking (23348840). It interacts with the centriolar satellite proteins PCM-1 and OFD1 for cilia formation, and with Cep290 for t...",
+    "localization_summary": "Localizes to basal body,cilia, Centrosome, Cytosol, Mitochondria",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

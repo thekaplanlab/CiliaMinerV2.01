@@ -1,0 +1,101 @@
+{
+  "gene_name": "ODF1",
+  "ensembl_id": "ENSG00000155087",
+  "synonyms": [
+    "CT133",
+    "HSPB10",
+    "ODF27",
+    "ODFPG",
+    "RT7"
+  ],
+  "omim_id": "182878",
+  "description": "outer dense fiber of sperm tails 1 [Source:HGNC Symbol;Acc:HGNC:8113]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00011"
+  ],
+  "domain_descriptions": [
+    "Alpha crystallin/Hsp20 domain",
+    "HSP20-like chaperone",
+    "Outer dense fibre protein 1",
+    "Outer dense fibre protein 1",
+    "alpha crystallin domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motile cilium"
+  ],
+  "structural_features": [
+    "Alpha crystallin/Hsp20 domain",
+    "HSP20-like chaperone",
+    "Outer dense fibre protein 1",
+    "Outer dense fibre protein 1",
+    "alpha crystallin domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00011"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Alpha crystallin/Hsp20 domain",
+    "HSP20-like chaperone",
+    "Outer dense fibre protein 1",
+    "Outer dense fibre protein 1",
+    "alpha crystallin domain"
+  ],
+  "ciliary_role": "CCDC42 co-localizes with ODF1, when both proteins are ectopically expressed in NIH3T3 cells, at the centrosome. CCDC42 interacts with ODF1 and ODF2 in the formation of the male germ cell cytoskeleton(31475146).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ODF1 is a ciliary gene encoding outer dense fiber of sperm tails 1 [source:hgnc symbol;acc:hgnc:8113]",
+    "functional_summary": "CCDC42 co-localizes with ODF1, when both proteins are ectopically expressed in NIH3T3 cells, at the centrosome. CCDC42 interacts with ODF1 and ODF2 in the formation of the male germ cell cytoskeleton(...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

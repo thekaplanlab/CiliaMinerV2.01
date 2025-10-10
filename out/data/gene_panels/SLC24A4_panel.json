@@ -1,0 +1,119 @@
+{
+  "gene_name": "SLC24A4",
+  "ensembl_id": "ENSG00000140090",
+  "synonyms": [
+    "NCKX4"
+  ],
+  "omim_id": "609840",
+  "description": "solute carrier family 24 member 4 [Source:HGNC Symbol;Acc:HGNC:10978]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01699"
+  ],
+  "domain_descriptions": [
+    "Sodium/potassium/calcium exchanger",
+    "Sodium/calcium exchanger membrane region",
+    "NCX",
+    "central ion-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Sodium/potassium/calcium exchanger",
+    "Sodium/calcium exchanger membrane region",
+    "NCX",
+    "central ion-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01699"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sodium/potassium/calcium exchanger",
+    "Sodium/calcium exchanger membrane region",
+    "NCX",
+    "central ion-binding domain superfamily"
+  ],
+  "ciliary_role": "ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 (also known as SLC24A4)in the cilia of mouse OSNs (24748648).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Muscle contraction & physiology",
+    "Peripheral nervous system",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SLC24A4 is a ciliary gene encoding solute carrier family 24 member 4 [source:hgnc symbol;acc:hgnc:10978]",
+    "functional_summary": "ANXA1, ANXA2, ANXA5, S100A5, PMCA1, and NCKX4 (also known as SLC24A4)in the cilia of mouse OSNs (24748648).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

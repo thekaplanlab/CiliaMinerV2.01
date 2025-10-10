@@ -1,0 +1,87 @@
+{
+  "gene_name": "SEMA4A",
+  "ensembl_id": "ENSG00000196189",
+  "synonyms": [
+    "CORD10",
+    "FLJ12287",
+    "SEMAB",
+    "SEMB"
+  ],
+  "omim_id": "607292",
+  "description": "semaphorin 4A [Source:HGNC Symbol;Acc:HGNC:10729]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the SEMA4A gene cause Retinitis Pigmentosa and Cone-Rod Dystrophy (PMID: 16199541).",
+  "localization": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Cell migration & adhesion"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SEMA4A is a ciliary gene encoding semaphorin 4a [source:hgnc symbol;acc:hgnc:10729]",
+    "functional_summary": "Mutations in the SEMA4A gene cause Retinitis Pigmentosa and Cone-Rod Dystrophy (PMID: 16199541).",
+    "localization_summary": "Localizes to Ciliary associated gene, Lysosomes",
+    "disease_summary": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

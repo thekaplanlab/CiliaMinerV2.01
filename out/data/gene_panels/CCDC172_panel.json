@@ -1,0 +1,65 @@
+{
+  "gene_name": "CCDC172",
+  "ensembl_id": "ENSG00000182645",
+  "synonyms": [
+    "C10ORF96",
+    "MGC35062"
+  ],
+  "omim_id": "",
+  "description": "coiled-coil domain containing 172 [Source:HGNC Symbol;Acc:HGNC:30524]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "By yeast two-hybrid screening,   flagellar proteins that could interact with TEKT2 , which resulted in the isolation of novel two genes from the mouse testis library, referred as a TEKT2-binding protein 1 (TEKT2BP1) and -protein 2 (TEKT2BP2) isolated.RT-PCR analysis indicated that TEKT2BP1, which is registered as a coiled-coil domain-containing protein 172 (Ccdc172), was predominantly expressed in rat testis and that its expression was increased after 3 weeks of postnatal development. Immunocytochemical studies discovered that TEKT2BP1 localized in the middle piece of rat spermatozoa, predominantly concentrated at the mitochondria sheath of the flagella(PMID: 24394471).",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCDC172 is a ciliary gene encoding coiled-coil domain containing 172 [source:hgnc symbol;acc:hgnc:30524]",
+    "functional_summary": "By yeast two-hybrid screening,   flagellar proteins that could interact with TEKT2 , which resulted in the isolation of novel two genes from the mouse testis library, referred as a TEKT2-binding prote...",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

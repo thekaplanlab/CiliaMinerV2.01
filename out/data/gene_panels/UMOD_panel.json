@@ -1,0 +1,152 @@
+{
+  "gene_name": "UMOD",
+  "ensembl_id": "ENSG00000169344",
+  "synonyms": [],
+  "omim_id": "191845",
+  "description": "uromodulin [Source:HGNC Symbol;Acc:HGNC:12559]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF23344",
+    "PF12947",
+    "PF00100",
+    "PF23283",
+    "PF07645"
+  ],
+  "domain_descriptions": [
+    "EGF-type aspartate/asparagine hydroxylation site",
+    "EGF-like domain",
+    "Zona pellucida domain",
+    "EGF-like calcium-binding domain",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "Zona pellucida domain",
+    "conserved site",
+    "EGF-like calcium-binding",
+    "conserved site",
+    "EGF domain",
+    "Zona pellucida",
+    "ZP-C domain",
+    "Zona pellucida domain",
+    "chordate-type",
+    "NOTCH1 EGF-like calcium-binding domain",
+    "ZP-C domain",
+    "ZP-N domain",
+    "Protein kinase C-binding NELL"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "EGF-type aspartate/asparagine hydroxylation site",
+    "EGF-like domain",
+    "Zona pellucida domain",
+    "EGF-like calcium-binding domain",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "Zona pellucida domain",
+    "conserved site",
+    "EGF-like calcium-binding",
+    "conserved site",
+    "EGF domain",
+    "Zona pellucida",
+    "ZP-C domain",
+    "Zona pellucida domain",
+    "chordate-type",
+    "NOTCH1 EGF-like calcium-binding domain",
+    "ZP-C domain",
+    "ZP-N domain",
+    "Protein kinase C-binding NELL"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23344",
+      "PF12947",
+      "PF00100",
+      "PF23283",
+      "PF07645"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EGF-type aspartate/asparagine hydroxylation site",
+    "EGF-like domain",
+    "Zona pellucida domain",
+    "EGF-like calcium-binding domain",
+    "Growth factor receptor cysteine-rich domain superfamily",
+    "Zona pellucida domain",
+    "conserved site",
+    "EGF-like calcium-binding",
+    "conserved site",
+    "EGF domain",
+    "Zona pellucida",
+    "ZP-C domain",
+    "Zona pellucida domain",
+    "chordate-type",
+    "NOTCH1 EGF-like calcium-binding domain",
+    "ZP-C domain",
+    "ZP-N domain",
+    "Protein kinase C-binding NELL"
+  ],
+  "ciliary_role": "Mutations are responsible for medullary cystic kidney disease type 2 (15029248), familial juvenile hyperuricemic nephropathy and glomerulocystic kidney disease. Expressed in re l primary cilia. UMOD mutations result in decreased ciliary uromodulin expression and delayed ER to Golgi trafficking (20172860 ).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "UMOD is a ciliary gene encoding uromodulin [source:hgnc symbol;acc:hgnc:12559]",
+    "functional_summary": "Mutations are responsible for medullary cystic kidney disease type 2 (15029248), familial juvenile hyperuricemic nephropathy and glomerulocystic kidney disease. Expressed in re l primary cilia. UMOD m...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,139 @@
+{
+  "gene_name": "CXCL12",
+  "ensembl_id": "ENSG00000107562",
+  "synonyms": [
+    "PBSF",
+    "SCYB12",
+    "SDF-1A",
+    "SDF-1B",
+    "SDF1",
+    "SDF1A",
+    "SDF1B",
+    "TLSF-A",
+    "TLSF-B",
+    "TPAR1"
+  ],
+  "omim_id": "600835",
+  "description": "C-X-C motif chemokine ligand 12 [Source:HGNC Symbol;Acc:HGNC:10672]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00048"
+  ],
+  "domain_descriptions": [
+    "Chemokine interleukin-8-like domain",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Chemokine interleukin-8-like domain",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00048"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Chemokine interleukin-8-like domain",
+    "CXC Chemokine domain",
+    "Chemokine interleukin-8-like superfamily",
+    "Chemokine beta/gamma/delta"
+  ],
+  "ciliary_role": "CXCL12 targets the primary cilium cAMP/cGMP ratio to regulate cell polarity during migration, and CXCL12 secreted by SVZ cortical progenitors binds to ciliary-located CXCR4 receptors on tangentially migrating MGE cells, thereby reducing ciliary cAMP levels(38049397).",
+  "localization": [
+    "cilia",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Endosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CXCL12 is a ciliary gene encoding c-x-c motif chemokine ligand 12 [source:hgnc symbol;acc:hgnc:10672]",
+    "functional_summary": "CXCL12 targets the primary cilium cAMP/cGMP ratio to regulate cell polarity during migration, and CXCL12 secreted by SVZ cortical progenitors binds to ciliary-located CXCR4 receptors on tangentially m...",
+    "localization_summary": "Localizes to cilia, Endosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

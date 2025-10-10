@@ -1,0 +1,109 @@
+{
+  "gene_name": "BCL3",
+  "ensembl_id": "ENSG00000069399",
+  "synonyms": [
+    "BCL4",
+    "D19S37"
+  ],
+  "omim_id": "109560",
+  "description": "BCL3 transcription coactivator [Source:HGNC Symbol;Acc:HGNC:998]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00023",
+    "PF12796"
+  ],
+  "domain_descriptions": [
+    "Ankyrin repeat",
+    "Ankyrin repeat-containing domain superfamily",
+    "NF-kappa-B Inhibitor"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "Ankyrin repeat",
+    "Ankyrin repeat-containing domain superfamily",
+    "NF-kappa-B Inhibitor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00023",
+      "PF12796"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ankyrin repeat",
+    "Ankyrin repeat-containing domain superfamily",
+    "NF-kappa-B Inhibitor"
+  ],
+  "ciliary_role": "BCL3 has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BCL3 is a ciliary gene encoding bcl3 transcription coactivator [source:hgnc symbol;acc:hgnc:998]",
+    "functional_summary": "BCL3 has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

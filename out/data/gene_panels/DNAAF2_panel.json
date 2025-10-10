@@ -1,0 +1,114 @@
+{
+  "gene_name": "DNAAF2",
+  "ensembl_id": "ENSG00000165506",
+  "synonyms": [
+    "C14ORF104",
+    "CILD10",
+    "FLJ10563",
+    "KTU",
+    "PF13"
+  ],
+  "omim_id": "612517",
+  "description": "dynein axonemal assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:20188]",
+  "protein_complexes": [
+    "D AF2-HEATR2-SPAG1 complex"
+  ],
+  "pfam_ids": [
+    "PF18201",
+    "PF08190"
+  ],
+  "domain_descriptions": [
+    "PIH1",
+    "N-terminal",
+    "Kintoun",
+    "PIH1D1/2/3",
+    "CS-like domain",
+    "PIH1 family",
+    "Kintoun subfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "PIH1",
+    "N-terminal",
+    "Kintoun",
+    "PIH1D1/2/3",
+    "CS-like domain",
+    "PIH1 family",
+    "Kintoun subfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF18201",
+      "PF08190"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PIH1",
+    "N-terminal",
+    "Kintoun",
+    "PIH1D1/2/3",
+    "CS-like domain",
+    "PIH1 family",
+    "Kintoun subfamily"
+  ],
+  "ciliary_role": "D AF2 localized to basal body (25613900).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAAF2 is a ciliary gene encoding dynein axonemal assembly factor 2 [source:hgnc symbol;acc:hgnc:20188]",
+    "functional_summary": "D AF2 localized to basal body (25613900).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,91 @@
+{
+  "gene_name": "AGR3",
+  "ensembl_id": "ENSG00000173467",
+  "synonyms": [
+    "BCMP11",
+    "HAG-3",
+    "HAG3",
+    "PDIA18"
+  ],
+  "omim_id": "609482",
+  "description": "anterior gradient 3, protein disulphide isomerase family member [Source:HGNC Symbol;Acc:HGNC:24167]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13899"
+  ],
+  "domain_descriptions": [
+    "Thioredoxin-like superfamily",
+    "Anterior Gradient and Thioredoxin Domain"
+  ],
+  "molecular_function": [
+    "Metabolism / Enzymes",
+    "Protein folding / Processing"
+  ],
+  "structural_features": [
+    "Thioredoxin-like superfamily",
+    "Anterior Gradient and Thioredoxin Domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13899"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Thioredoxin-like superfamily",
+    "Anterior Gradient and Thioredoxin Domain"
+  ],
+  "ciliary_role": "AGR3 expression is restricted to ciliated cells in the airway epithelium. Required for Regulation of Ciliary Beat Frequency in the Airway.",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Metabolism / Enzymes",
+    "Protein folding / Processing"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism / Enzymes",
+    "Protein folding / Processing"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AGR3 is a ciliary gene encoding anterior gradient 3, protein disulphide isomerase family member [source:hgnc symbol;acc:hgnc:24167]",
+    "functional_summary": "AGR3 expression is restricted to ciliated cells in the airway epithelium. Required for Regulation of Ciliary Beat Frequency in the Airway.",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

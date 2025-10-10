@@ -1,0 +1,114 @@
+{
+  "gene_name": "FGF1",
+  "ensembl_id": "ENSG00000113578",
+  "synonyms": [
+    "AFGF",
+    "ECGF",
+    "ECGF-BETA",
+    "ECGFA",
+    "ECGFB",
+    "FGF-ALPHA",
+    "FGFA",
+    "GLIO703",
+    "HBGF1"
+  ],
+  "omim_id": "131220",
+  "description": "fibroblast growth factor 1 [Source:HGNC Symbol;Acc:HGNC:3665]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00167"
+  ],
+  "domain_descriptions": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00167"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fibroblast growth factor family",
+    "Cytokine IL1/FGF"
+  ],
+  "ciliary_role": "Cytoplasmic and nuclear FGF1 immunoreactivity was detected in the epithelium lining the infundibulum, ampulla and isthmus of the oviduct. Immunoreactivity was much stronger in the basal bodies of the cilia on the epithelium lining the infundibulum and ampulla (33772852).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FGF1 is a ciliary gene encoding fibroblast growth factor 1 [source:hgnc symbol;acc:hgnc:3665]",
+    "functional_summary": "Cytoplasmic and nuclear FGF1 immunoreactivity was detected in the epithelium lining the infundibulum, ampulla and isthmus of the oviduct. Immunoreactivity was much stronger in the basal bodies of the ...",
+    "localization_summary": "Localizes to basal body , cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

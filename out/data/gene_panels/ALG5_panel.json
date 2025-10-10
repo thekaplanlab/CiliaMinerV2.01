@@ -1,0 +1,66 @@
+{
+  "gene_name": "ALG5",
+  "ensembl_id": "ENSG00000120697",
+  "synonyms": [
+    "BA421P11.2"
+  ],
+  "omim_id": "604565",
+  "description": "ALG5 dolichyl-phosphate beta-glucosyltransferase [Source:HGNC Symbol;Acc:HGNC:20266]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the ALG5 gene cause Autosomal Dominant Polycystic Kidney Disease (PMID: 35896117).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Autosomal Dominant Polycystic Kidney Disease"
+  ],
+  "ciliopathy_type": "Autosomal Dominant Polycystic Kidney Disease",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ALG5 is a ciliary gene encoding alg5 dolichyl-phosphate beta-glucosyltransferase [source:hgnc symbol;acc:hgnc:20266]",
+    "functional_summary": "Mutations in the ALG5 gene cause Autosomal Dominant Polycystic Kidney Disease (PMID: 35896117).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Autosomal Dominant Polycystic Kidney Disease",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Autosomal Dominant Polycystic Kidney Disease",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

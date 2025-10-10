@@ -1,0 +1,120 @@
+{
+  "gene_name": "VANGL2",
+  "ensembl_id": "ENSG00000162738",
+  "synonyms": [
+    "KIAA1215",
+    "LPP1",
+    "LTAP",
+    "MGC119403",
+    "MGC119404",
+    "STB1",
+    "STBM",
+    "STBM1"
+  ],
+  "omim_id": "600533",
+  "description": "VANGL planar cell polarity protein 2 [Source:HGNC Symbol;Acc:HGNC:15511]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06638"
+  ],
+  "domain_descriptions": [
+    "Vang-like protein"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Vang-like protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06638"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Vang-like protein"
+  ],
+  "ciliary_role": "Pla r cell polarity protein, equired for Kupffer's vesicle function and establishment of asymmetry. Interacts with BBS8 to establish and maintain the left鈥搑ight asymmetry during early embryogenesis in zebrafish. Required for nuclear positioning, centrosome migration and regulation of the number and length of cilia (20643117). Cooperates with cofilin to target Rab11+ vesicles containing pla r pla r cell polarity proteins to the apical membrane (23406901). Interacts with Arl13b to regulate cilia and photoreceptor outer segment length in Zebrafish. Mutations cause neural tube defects (27571019).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "VANGL2 is a ciliary gene encoding vangl planar cell polarity protein 2 [source:hgnc symbol;acc:hgnc:15511]",
+    "functional_summary": "Pla r cell polarity protein, equired for Kupffer's vesicle function and establishment of asymmetry. Interacts with BBS8 to establish and maintain the left鈥搑ight asymmetry during early embryogenesis in...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

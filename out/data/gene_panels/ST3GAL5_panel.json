@@ -1,0 +1,96 @@
+{
+  "gene_name": "ST3GAL5",
+  "ensembl_id": "ENSG00000115525",
+  "synonyms": [
+    "SIAT9",
+    "SIATGM3S",
+    "ST3GALV"
+  ],
+  "omim_id": "604402",
+  "description": "ST3 beta-galactoside alpha-2,3-sialyltransferase 5 [Source:HGNC Symbol;Acc:HGNC:10872]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00777"
+  ],
+  "domain_descriptions": [
+    "Glycosyl transferase family 29",
+    "Sialyltransferase",
+    "GT29-like superfamiliy",
+    "Glycosyltransferase 29"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Glycosyl transferase family 29",
+    "Sialyltransferase",
+    "GT29-like superfamiliy",
+    "Glycosyltransferase 29"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00777"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Glycosyl transferase family 29",
+    "Sialyltransferase",
+    "GT29-like superfamiliy",
+    "Glycosyltransferase 29"
+  ],
+  "ciliary_role": "Cells subjected to trichoplein knockdown displayed decreased levels of phosphorylated Akt in the cytoplasm, and around the ciliary base in particular (33691104).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ST3GAL5 is a ciliary gene encoding st3 beta-galactoside alpha-2,3-sialyltransferase 5 [source:hgnc symbol;acc:hgnc:10872]",
+    "functional_summary": "Cells subjected to trichoplein knockdown displayed decreased levels of phosphorylated Akt in the cytoplasm, and around the ciliary base in particular (33691104).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

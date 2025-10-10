@@ -1,0 +1,133 @@
+{
+  "gene_name": "HIP1",
+  "ensembl_id": "ENSG00000127946",
+  "synonyms": [
+    "ILWEQ"
+  ],
+  "omim_id": "601767",
+  "description": "huntingtin interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:4913]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16515",
+    "PF01608",
+    "PF07651"
+  ],
+  "domain_descriptions": [
+    "I/LWEQ domain",
+    "ENTH/VHS",
+    "AP180 N-terminal homology (ANTH) domain",
+    "ENTH domain",
+    "Sla2 family",
+    "Huntingtin-interacting protein 1",
+    "clathrin-binding domain",
+    "I/LWEQ domain superfamily"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "I/LWEQ domain",
+    "ENTH/VHS",
+    "AP180 N-terminal homology (ANTH) domain",
+    "ENTH domain",
+    "Sla2 family",
+    "Huntingtin-interacting protein 1",
+    "clathrin-binding domain",
+    "I/LWEQ domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16515",
+      "PF01608",
+      "PF07651"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "I/LWEQ domain",
+    "ENTH/VHS",
+    "AP180 N-terminal homology (ANTH) domain",
+    "ENTH domain",
+    "Sla2 family",
+    "Huntingtin-interacting protein 1",
+    "clathrin-binding domain",
+    "I/LWEQ domain superfamily"
+  ],
+  "ciliary_role": "HIP1 localized to flagella (25613900)",
+  "localization": [
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HIP1 is a ciliary gene encoding huntingtin interacting protein 1 [source:hgnc symbol;acc:hgnc:4913]",
+    "functional_summary": "HIP1 localized to flagella (25613900)",
+    "localization_summary": "Localizes to flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

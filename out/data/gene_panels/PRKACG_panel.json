@@ -1,0 +1,160 @@
+{
+  "gene_name": "PRKACG",
+  "ensembl_id": "ENSG00000165059",
+  "synonyms": [
+    "PKACG"
+  ],
+  "omim_id": "176893",
+  "description": "protein kinase cAMP-activated catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:9382]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "AGC-kinase",
+    "C-terminal",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "cAMP-dependent protein kinase catalytic subunit"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "AGC-kinase",
+    "C-terminal",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "cAMP-dependent protein kinase catalytic subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "AGC-kinase",
+    "C-terminal",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "cAMP-dependent protein kinase catalytic subunit"
+  ],
+  "ciliary_role": "Catalytic subunit of PKA. At centriolar satellites. Part of a multimeric complex nucleated by PCM1. Phosphorylates NEK10 for CHIP-mediated ubiquiti tion and proteolysis resulting in cilia resorption. Patched1-ArhGAP36-PKA- Inversin axis determines the ciliary translocation of Smoothened for Sonic Hedgehog pathway activation. 30598432",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRKACG is a ciliary gene encoding protein kinase camp-activated catalytic subunit gamma [source:hgnc symbol;acc:hgnc:9382]",
+    "functional_summary": "Catalytic subunit of PKA. At centriolar satellites. Part of a multimeric complex nucleated by PCM1. Phosphorylates NEK10 for CHIP-mediated ubiquiti tion and proteolysis resulting in cilia resorption. ...",
+    "localization_summary": "Localizes to cilia, basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

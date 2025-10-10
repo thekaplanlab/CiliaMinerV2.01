@@ -1,0 +1,126 @@
+{
+  "gene_name": "DMC1",
+  "ensembl_id": "ENSG00000100206",
+  "synonyms": [
+    "LIM15"
+  ],
+  "omim_id": "602721",
+  "description": "DNA meiotic recombinase 1 [Source:HGNC Symbol;Acc:HGNC:2927]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14520",
+    "PF08423"
+  ],
+  "domain_descriptions": [
+    "AAA+ ATPase domain",
+    "DNA repair Rad51/transcription factor NusA",
+    "alpha-helical",
+    "Meiotic recombination protein Dmc1",
+    "DNA recombination and repair protein Rad51-like",
+    "C-terminal",
+    "DNA recombination and repair protein",
+    "RecA-like",
+    "DNA recombination and repair protein RecA",
+    "monomer-monomer interface",
+    "DNA recombination and repair protein RecA-like",
+    "ATP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "AAA+ ATPase domain",
+    "DNA repair Rad51/transcription factor NusA",
+    "alpha-helical",
+    "Meiotic recombination protein Dmc1",
+    "DNA recombination and repair protein Rad51-like",
+    "C-terminal",
+    "DNA recombination and repair protein",
+    "RecA-like",
+    "DNA recombination and repair protein RecA",
+    "monomer-monomer interface",
+    "DNA recombination and repair protein RecA-like",
+    "ATP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14520",
+      "PF08423"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "AAA+ ATPase domain",
+    "DNA repair Rad51/transcription factor NusA",
+    "alpha-helical",
+    "Meiotic recombination protein Dmc1",
+    "DNA recombination and repair protein Rad51-like",
+    "C-terminal",
+    "DNA recombination and repair protein",
+    "RecA-like",
+    "DNA recombination and repair protein RecA",
+    "monomer-monomer interface",
+    "DNA recombination and repair protein RecA-like",
+    "ATP-binding domain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "dmc1, which encodes an essential meiotic recombi tion protein, as the major target gene of E2f5 during spermatogenesis. E2f5 can bind to the promoter of dmc1 to promote homologous recombi tion, and overexpression of dmc1 significantly increased the fertilization rate of e2f5 mutant males ( 32196499).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DMC1 is a ciliary gene encoding dna meiotic recombinase 1 [source:hgnc symbol;acc:hgnc:2927]",
+    "functional_summary": "dmc1, which encodes an essential meiotic recombi tion protein, as the major target gene of E2f5 during spermatogenesis. E2f5 can bind to the promoter of dmc1 to promote homologous recombi tion, and ov...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

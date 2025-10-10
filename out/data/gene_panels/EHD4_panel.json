@@ -1,0 +1,148 @@
+{
+  "gene_name": "EHD4",
+  "ensembl_id": "ENSG00000103966",
+  "synonyms": [
+    "PAST4"
+  ],
+  "omim_id": "605892",
+  "description": "EH domain containing 4 [Source:HGNC Symbol;Acc:HGNC:3245]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12763",
+    "PF00350",
+    "PF18150",
+    "PF16880"
+  ],
+  "domain_descriptions": [
+    "EH domain",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Dynamin-type guanine nucleotide-binding (G) domain",
+    "EH domain-containing protein",
+    "N-terminal",
+    "Domain of unknown function DUF5600",
+    "Dynamin",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "EH domain",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Dynamin-type guanine nucleotide-binding (G) domain",
+    "EH domain-containing protein",
+    "N-terminal",
+    "Domain of unknown function DUF5600",
+    "Dynamin",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12763",
+      "PF00350",
+      "PF18150",
+      "PF16880"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "EH domain",
+    "EF-hand domain",
+    "EF-hand domain pair",
+    "EF-Hand 1",
+    "calcium-binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Dynamin-type guanine nucleotide-binding (G) domain",
+    "EH domain-containing protein",
+    "N-terminal",
+    "Domain of unknown function DUF5600",
+    "Dynamin",
+    "N-terminal"
+  ],
+  "ciliary_role": "EHD4 has localized in ciliary tip, basal body, transition zone.",
+  "localization": [
+    "cilia",
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Metabolism",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EHD4 is a ciliary gene encoding eh domain containing 4 [source:hgnc symbol;acc:hgnc:3245]",
+    "functional_summary": "EHD4 has localized in ciliary tip, basal body, transition zone.",
+    "localization_summary": "Localizes to cilia, basal body, transition zone, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

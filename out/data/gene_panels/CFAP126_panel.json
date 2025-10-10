@@ -1,0 +1,102 @@
+{
+  "gene_name": "CFAP126",
+  "ensembl_id": "ENSG00000188931",
+  "synonyms": [
+    "C1ORF192",
+    "FLATTOP",
+    "FLTP"
+  ],
+  "omim_id": "616119",
+  "description": "cilia and flagella associated protein 126 [Source:HGNC Symbol;Acc:HGNC:32325]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF22611"
+  ],
+  "domain_descriptions": [
+    "Protein Flattop"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein Flattop"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF22611"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein Flattop"
+  ],
+  "ciliary_role": "Also called Flattop.Required cilia formation. Regulator  for BB docking and positioning in mono- and multiciliated cell types that acquire pla r cell polarity. Fltp interacts with Dlg3 to surround the basal body and anchor this organelle asymmetrically to the apical cortex (25296022)",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP126 is a ciliary gene encoding cilia and flagella associated protein 126 [source:hgnc symbol;acc:hgnc:32325]",
+    "functional_summary": "Also called Flattop.Required cilia formation. Regulator  for BB docking and positioning in mono- and multiciliated cell types that acquire pla r cell polarity. Fltp interacts with Dlg3 to surround the...",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,115 @@
+{
+  "gene_name": "SPAG8",
+  "ensembl_id": "ENSG00000137098",
+  "synonyms": [
+    "BS-84",
+    "CT142",
+    "HSD-1",
+    "HSMP-1",
+    "SPAG3"
+  ],
+  "omim_id": "605731",
+  "description": "sperm associated antigen 8 [Source:HGNC Symbol;Acc:HGNC:14105]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF22584"
+  ],
+  "domain_descriptions": [
+    "Sperm-associated antigen 8"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Sperm-associated antigen 8"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF22584"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sperm-associated antigen 8"
+  ],
+  "ciliary_role": "SPAG8 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPAG8 is a ciliary gene encoding sperm associated antigen 8 [source:hgnc symbol;acc:hgnc:14105]",
+    "functional_summary": "SPAG8 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

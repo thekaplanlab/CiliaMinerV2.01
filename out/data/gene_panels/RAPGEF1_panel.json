@@ -1,0 +1,132 @@
+{
+  "gene_name": "RAPGEF1",
+  "ensembl_id": "ENSG00000107263",
+  "synonyms": [
+    "C3G",
+    "GRF2"
+  ],
+  "omim_id": "600303",
+  "description": "Rap guanine nucleotide exchange factor 1 [Source:HGNC Symbol;Acc:HGNC:4568]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00617",
+    "PF00618"
+  ],
+  "domain_descriptions": [
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00617",
+      "PF00618"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Ras-like guanine nucleotide exchange factor",
+    "N-terminal",
+    "Ras guanine-nucleotide exchange factors catalytic domain",
+    "Ras-like guanine nucleotide exchange factor",
+    "Ras guanine-nucleotide exchange factor",
+    "conserved site",
+    "Ras guanine nucleotide exchange factor domain superfamily",
+    "Ras guanine-nucleotide exchange factor",
+    "catalytic domain superfamily"
+  ],
+  "ciliary_role": "RAPGEF1 regulates centrosome duplication and maintains ciliary homeostasis, properties that could be important for its role in embryonic development(32371504).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAPGEF1 is a ciliary gene encoding rap guanine nucleotide exchange factor 1 [source:hgnc symbol;acc:hgnc:4568]",
+    "functional_summary": "RAPGEF1 regulates centrosome duplication and maintains ciliary homeostasis, properties that could be important for its role in embryonic development(32371504).",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,159 @@
+{
+  "gene_name": "PACSIN2",
+  "ensembl_id": "ENSG00000100266",
+  "synonyms": [
+    "SDPII"
+  ],
+  "omim_id": "604960",
+  "description": "protein kinase C and casein kinase substrate in neurons 2 [Source:HGNC Symbol;Acc:HGNC:8571]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00611",
+    "PF14604"
+  ],
+  "domain_descriptions": [
+    "FCH domain",
+    "SH3 domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "PACSIN1/PACSIN2",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "PACSIN2",
+    "F-BAR domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "FCH domain",
+    "SH3 domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "PACSIN1/PACSIN2",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "PACSIN2",
+    "F-BAR domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00611",
+      "PF14604"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "FCH domain",
+    "SH3 domain",
+    "AH/BAR domain superfamily",
+    "F-BAR domain",
+    "PACSIN1/PACSIN2",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "PACSIN2",
+    "F-BAR domain"
+  ],
+  "ciliary_role": "Promotes mother centriole to basal body transition at early stages in ciliogenesis. Required for the establishment of an extracellular membrane channel, through interaction with EHD1 to form the membrane tubules that connect the developing cilium to the cell surface. Regulates actin and microtubule cytoskeleton assembly (30683896). Modulates primary cilium length in kidney epithelial cells and contributes to normal kidney tubular development/structure and repair (23235565).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PACSIN2 is a ciliary gene encoding protein kinase c and casein kinase substrate in neurons 2 [source:hgnc symbol;acc:hgnc:8571]",
+    "functional_summary": "Promotes mother centriole to basal body transition at early stages in ciliogenesis. Required for the establishment of an extracellular membrane channel, through interaction with EHD1 to form the membr...",
+    "localization_summary": "Localizes to basal body ,cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

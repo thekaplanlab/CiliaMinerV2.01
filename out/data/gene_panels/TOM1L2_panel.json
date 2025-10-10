@@ -1,0 +1,104 @@
+{
+  "gene_name": "TOM1L2",
+  "ensembl_id": "ENSG00000175662",
+  "synonyms": [],
+  "omim_id": "615519",
+  "description": "target of myb1 like 2 membrane trafficking protein [Source:HGNC Symbol;Acc:HGNC:11984]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03127",
+    "PF00790"
+  ],
+  "domain_descriptions": [
+    "VHS domain",
+    "GAT domain",
+    "ENTH/VHS",
+    "Target of Myb protein 1",
+    "GAT domain superfamily",
+    "TOM1-like protein 2",
+    "VHS domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "VHS domain",
+    "GAT domain",
+    "ENTH/VHS",
+    "Target of Myb protein 1",
+    "GAT domain superfamily",
+    "TOM1-like protein 2",
+    "VHS domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03127",
+      "PF00790"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "VHS domain",
+    "GAT domain",
+    "ENTH/VHS",
+    "Target of Myb protein 1",
+    "GAT domain superfamily",
+    "TOM1-like protein 2",
+    "VHS domain"
+  ],
+  "ciliary_role": "The K63-linked ubiquitin chains reader Target of Myb1-like 2 (TOM1L2) directly binds to the BBSome. Targeted disruption of the BBSome-TOM1L2 interaction blocks G protein-coupled receptor exits from cilia(37019113).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TOM1L2 is a ciliary gene encoding target of myb1 like 2 membrane trafficking protein [source:hgnc symbol;acc:hgnc:11984]",
+    "functional_summary": "The K63-linked ubiquitin chains reader Target of Myb1-like 2 (TOM1L2) directly binds to the BBSome. Targeted disruption of the BBSome-TOM1L2 interaction blocks G protein-coupled receptor exits from ci...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

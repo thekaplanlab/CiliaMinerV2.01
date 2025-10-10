@@ -1,0 +1,100 @@
+{
+  "gene_name": "NUP93",
+  "ensembl_id": "ENSG00000102900",
+  "synonyms": [
+    "KIAA0095"
+  ],
+  "omim_id": "614351",
+  "description": "nucleoporin 93 [Source:HGNC Symbol;Acc:HGNC:28958]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04097"
+  ],
+  "domain_descriptions": [
+    "Nucleoporin interacting component Nup93/Nic96"
+  ],
+  "molecular_function": [
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Nucleoporin interacting component Nup93/Nic96"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04097"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Nucleoporin interacting component Nup93/Nic96"
+  ],
+  "ciliary_role": "Inner ring nucleoporin, component of ciliary pore complex that regulares protein transport into cilia (22388888). Involved in proper left-right patterning in developing embryos (33065118).",
+  "localization": [
+    "transition zone",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Transition zone",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Viral interactions",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NUP93 is a ciliary gene encoding nucleoporin 93 [source:hgnc symbol;acc:hgnc:28958]",
+    "functional_summary": "Inner ring nucleoporin, component of ciliary pore complex that regulares protein transport into cilia (22388888). Involved in proper left-right patterning in developing embryos (33065118).",
+    "localization_summary": "Localizes to transition zone, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

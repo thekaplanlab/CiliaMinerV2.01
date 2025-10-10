@@ -1,0 +1,75 @@
+{
+  "gene_name": "SP5",
+  "ensembl_id": "ENSG00000204335",
+  "synonyms": [],
+  "omim_id": "609391",
+  "description": "Sp5 transcription factor [Source:HGNC Symbol;Acc:HGNC:14529]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Development / LR asymmetry"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "TFs SP5 and SP8 regulate cilia formation and gene expression. In embryos lacking Sp5 and Sp8, primary and motile cilia were shorter than normal and reduced in number across cell types, contributing to situs inversus and hydrocephalus(PMID: 40875857).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Development / LR asymmetry"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Development / LR asymmetry"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SP5 is a ciliary gene encoding sp5 transcription factor [source:hgnc symbol;acc:hgnc:14529]",
+    "functional_summary": "TFs SP5 and SP8 regulate cilia formation and gene expression. In embryos lacking Sp5 and Sp8, primary and motile cilia were shorter than normal and reduced in number across cell types, contributing to...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

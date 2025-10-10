@@ -1,0 +1,94 @@
+{
+  "gene_name": "GRIN2B",
+  "ensembl_id": "ENSG00000273079",
+  "synonyms": [
+    "GLUN2B",
+    "NMDAR2B",
+    "NR2B"
+  ],
+  "omim_id": "138252",
+  "description": "glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "GRIN2B has localized in basal body, transition zone,cilia.",
+  "localization": [
+    "basal body",
+    "transition zone",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "transition zone",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Basal body / centriole",
+    "Transition zone"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GRIN2B is a ciliary gene encoding glutamate ionotropic receptor nmda type subunit 2b [source:hgnc symbol;acc:hgnc:4586]",
+    "functional_summary": "GRIN2B has localized in basal body, transition zone,cilia.",
+    "localization_summary": "Localizes to basal body, transition zone,cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

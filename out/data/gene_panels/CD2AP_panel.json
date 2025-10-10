@@ -1,0 +1,159 @@
+{
+  "gene_name": "CD2AP",
+  "ensembl_id": "ENSG00000198087",
+  "synonyms": [
+    "CMS"
+  ],
+  "omim_id": "604241",
+  "description": "CD2 associated protein [Source:HGNC Symbol;Acc:HGNC:14258]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14604",
+    "PF00018"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "CD2-associated protein",
+    "first SH3 domain",
+    "CD2-associated protein",
+    "second SH3 domain",
+    "CD2-associated protein",
+    "third SH3 domain",
+    "SH3-like domain superfamily",
+    "Endophilin/SH3RF"
+  ],
+  "molecular_function": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "CD2-associated protein",
+    "first SH3 domain",
+    "CD2-associated protein",
+    "second SH3 domain",
+    "CD2-associated protein",
+    "third SH3 domain",
+    "SH3-like domain superfamily",
+    "Endophilin/SH3RF"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14604",
+      "PF00018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "CD2-associated protein",
+    "first SH3 domain",
+    "CD2-associated protein",
+    "second SH3 domain",
+    "CD2-associated protein",
+    "third SH3 domain",
+    "SH3-like domain superfamily",
+    "Endophilin/SH3RF"
+  ],
+  "ciliary_role": "CD2AP/CIN85 proteins regulate ciliary length by remodeling the actin network (36754282)",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary membrane",
+    "Cilia length regulation",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CD2AP is a ciliary gene encoding cd2 associated protein [source:hgnc symbol;acc:hgnc:14258]",
+    "functional_summary": "CD2AP/CIN85 proteins regulate ciliary length by remodeling the actin network (36754282)",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

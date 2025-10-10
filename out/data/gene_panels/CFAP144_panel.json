@@ -1,0 +1,94 @@
+{
+  "gene_name": "CFAP144",
+  "ensembl_id": "ENSG00000186973",
+  "synonyms": [
+    "FAM183A",
+    "HCG23177",
+    "LOC440585"
+  ],
+  "omim_id": "",
+  "description": "cilia and flagella associated protein 144 [Source:HGNC Symbol;Acc:HGNC:34347]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14886"
+  ],
+  "domain_descriptions": [
+    "Cilia- and flagella-associated protein 144"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Cilia- and flagella-associated protein 144"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14886"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Cilia- and flagella-associated protein 144"
+  ],
+  "ciliary_role": "Positive staining for motile ciliated cells was observed in the mouse brain, however, ISH staining of ependymal cells lining the choroid plexus in the chickens was only observed in the cases of EFCAB6, FAM183A and MYCBPAP (32616903).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFAP144 is a ciliary gene encoding cilia and flagella associated protein 144 [source:hgnc symbol;acc:hgnc:34347]",
+    "functional_summary": "Positive staining for motile ciliated cells was observed in the mouse brain, however, ISH staining of ependymal cells lining the choroid plexus in the chickens was only observed in the cases of EFCAB6...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

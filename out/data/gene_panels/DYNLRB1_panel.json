@@ -1,0 +1,110 @@
+{
+  "gene_name": "DYNLRB1",
+  "ensembl_id": "ENSG00000125971",
+  "synonyms": [
+    "DNCL2A",
+    "DNLC2A",
+    "ROBLD1"
+  ],
+  "omim_id": "607167",
+  "description": "dynein light chain roadblock-type 1 [Source:HGNC Symbol;Acc:HGNC:15468]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03259"
+  ],
+  "domain_descriptions": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03259"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Roadblock/LAMTOR2 domain",
+    "Dynein light chain roadblock-type 1/2"
+  ],
+  "ciliary_role": "Required for the correct assembly of the dynein complex. It has been implicated in controlling its association with cargo molecules (25205765). Component of the WDR34 subcomplex (DYNLL1/DYNLL2 and DYNLRB1/DYNLRB2), crucial for dynein-2 function in retrograde ciliary protein trafficking (30649997). DYNLRB1 is essential for dynein-mediated axo l transport of lysosomes, late endosomes and sig ling endosomes (32088381)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNLRB1 is a ciliary gene encoding dynein light chain roadblock-type 1 [source:hgnc symbol;acc:hgnc:15468]",
+    "functional_summary": "Required for the correct assembly of the dynein complex. It has been implicated in controlling its association with cargo molecules (25205765). Component of the WDR34 subcomplex (DYNLL1/DYNLL2 and DYN...",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

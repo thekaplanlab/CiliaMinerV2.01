@@ -1,0 +1,138 @@
+{
+  "gene_name": "SEPTIN7",
+  "ensembl_id": "ENSG00000122545",
+  "synonyms": [
+    "CDC10",
+    "CDC3",
+    "SEPT7",
+    "SEPT7A",
+    "SEPTIN-7"
+  ],
+  "omim_id": "603151",
+  "description": "septin 7 [Source:HGNC Symbol;Acc:HGNC:1717]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00735"
+  ],
+  "domain_descriptions": [
+    "Septin 7",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "molecular_function": [
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Septin 7",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00735"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Septin 7",
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "ciliary_role": "Forms a complex with SEPT2 and SEPT9 to positively control ciliogenesis and the length of cilia (23572511). Component of a diffusion barrier at the ciliary base, essential for retaining receptor-sig ling pathways in the primary cilium (20558667). Knockdown affects ciliogenesis and disrupts expression of Hedgehog target genes (20671153).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "RTK Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary membrane",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Ciliary assembly/disassembly",
+    "RTK/FGF signaling",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SEPTIN7 is a ciliary gene encoding septin 7 [source:hgnc symbol;acc:hgnc:1717]",
+    "functional_summary": "Forms a complex with SEPT2 and SEPT9 to positively control ciliogenesis and the length of cilia (23572511). Component of a diffusion barrier at the ciliary base, essential for retaining receptor-sig l...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

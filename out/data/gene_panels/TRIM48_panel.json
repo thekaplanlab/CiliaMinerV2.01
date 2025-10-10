@@ -1,0 +1,75 @@
+{
+  "gene_name": "TRIM48",
+  "ensembl_id": "ENSG00000150244",
+  "synonyms": [
+    "RNF101"
+  ],
+  "omim_id": "",
+  "description": "tripartite motif containing 48 [Source:HGNC Symbol;Acc:HGNC:19021]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium & axoneme"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "TRIM proteins localize to the centrosome and regulate cilia formation through condensation, highlighting the potential of TRIM condensates as key modulators in centrosome and cilia biology(PMID: 40450692).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium & axoneme"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium & axoneme"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TRIM48 is a ciliary gene encoding tripartite motif containing 48 [source:hgnc symbol;acc:hgnc:19021]",
+    "functional_summary": "TRIM proteins localize to the centrosome and regulate cilia formation through condensation, highlighting the potential of TRIM condensates as key modulators in centrosome and cilia biology(PMID: 40450...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

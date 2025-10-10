@@ -1,0 +1,153 @@
+{
+  "gene_name": "FZD3",
+  "ensembl_id": "ENSG00000104290",
+  "synonyms": [
+    "FZ-3"
+  ],
+  "omim_id": "606143",
+  "description": "frizzled class receptor 3 [Source:HGNC Symbol;Acc:HGNC:4041]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01392",
+    "PF01534"
+  ],
+  "domain_descriptions": [
+    "Frizzled/Smoothened",
+    "7TM",
+    "Frizzled/secreted frizzled-related protein",
+    "GPCR",
+    "family 2-like",
+    "7TM",
+    "Frizzled domain",
+    "Frizzled cysteine-rich domain superfamily",
+    "Frizzled 3",
+    "cysteine-rich domain"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Frizzled/Smoothened",
+    "7TM",
+    "Frizzled/secreted frizzled-related protein",
+    "GPCR",
+    "family 2-like",
+    "7TM",
+    "Frizzled domain",
+    "Frizzled cysteine-rich domain superfamily",
+    "Frizzled 3",
+    "cysteine-rich domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01392",
+      "PF01534"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Frizzled/Smoothened",
+    "7TM",
+    "Frizzled/secreted frizzled-related protein",
+    "GPCR",
+    "family 2-like",
+    "7TM",
+    "Frizzled domain",
+    "Frizzled cysteine-rich domain superfamily",
+    "Frizzled 3",
+    "cysteine-rich domain"
+  ],
+  "ciliary_role": "Pla r cell polarity (PCP) proteins are known to organize microtubule polarization, which establishes the pla r polarity of cells (25124458). During Wnt sig ling, a Wnt ligand binds to the seven-pass transmembrane receptor Fzd, which then recruits a scaffold protein Dvl that induces downstream sig ling (17884187). Fzd-3 localized at primary cilia of both mouse embryonic fibroblasts (MEFs) , indicating that Wnt sig ling may be regulated directly by activation of receptors in the cilium, and that ciliary targeting of Fzd-3 is independent of Inversin(23593172).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Cytoskeleton/adhesion links",
+    "Peripheral nervous system",
+    "Axon guidance & growth",
+    "Neurogenesis & migration",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FZD3 is a ciliary gene encoding frizzled class receptor 3 [source:hgnc symbol;acc:hgnc:4041]",
+    "functional_summary": "Pla r cell polarity (PCP) proteins are known to organize microtubule polarization, which establishes the pla r polarity of cells (25124458). During Wnt sig ling, a Wnt ligand binds to the seven-pass t...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,116 @@
+{
+  "gene_name": "NCBP2",
+  "ensembl_id": "ENSG00000114503",
+  "synonyms": [
+    "CBC2",
+    "CBP20",
+    "NIP1"
+  ],
+  "omim_id": "605133",
+  "description": "nuclear cap binding protein subunit 2 [Source:HGNC Symbol;Acc:HGNC:7659]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00076"
+  ],
+  "domain_descriptions": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Nuclear cap-binding protein subunit 2",
+    "RNA-binding domain superfamily",
+    "NCBP2",
+    "RNA recognition motif"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Nuclear cap-binding protein subunit 2",
+    "RNA-binding domain superfamily",
+    "NCBP2",
+    "RNA recognition motif"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00076"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "RNA recognition motif domain",
+    "Nucleotide-binding alpha-beta plait domain superfamily",
+    "Nuclear cap-binding protein subunit 2",
+    "RNA-binding domain superfamily",
+    "NCBP2",
+    "RNA recognition motif"
+  ],
+  "ciliary_role": "NCBP2 has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Transcription regulation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NCBP2 is a ciliary gene encoding nuclear cap binding protein subunit 2 [source:hgnc symbol;acc:hgnc:7659]",
+    "functional_summary": "NCBP2 has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

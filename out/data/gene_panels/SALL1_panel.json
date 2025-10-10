@@ -1,0 +1,137 @@
+{
+  "gene_name": "SALL1",
+  "ensembl_id": "ENSG00000103449",
+  "synonyms": [
+    "HSAL1",
+    "TBS",
+    "ZNF794"
+  ],
+  "omim_id": "602218",
+  "description": "spalt like transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:10524]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12874",
+    "PF00096"
+  ],
+  "domain_descriptions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "Sal C2H2-type zinc-finger"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "Sal C2H2-type zinc-finger"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12874",
+      "PF00096"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger C2H2-type",
+    "Zinc finger C2H2 superfamily",
+    "Sal C2H2-type zinc-finger"
+  ],
+  "ciliary_role": "Zinc-finger transcription factor that mediates transcriptio l repression via its interaction with the nucleosome- remodeling deacetylase (NuRD) complex. Truncated SALL1 interacts with or sequester factors related to cilia function, including the negative regulators of ciliogenesis CCP110 and CEP97. SALL1 mutations can disrupt cilia formation and function (29395072). Truncated SALL1 increases the ubiquitin proteasome- mediated degradation of LUZP1, contributing to Townes-Brocks Syndrome (32553112).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cardiac & muscle development",
+    "Peripheral nervous system",
+    "Neurogenesis & migration",
+    "Metabolism",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Townes-Brocks Syndrome"
+  ],
+  "ciliopathy_type": "Townes-Brocks Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SALL1 is a ciliary gene encoding spalt like transcription factor 1 [source:hgnc symbol;acc:hgnc:10524]",
+    "functional_summary": "Zinc-finger transcription factor that mediates transcriptio l repression via its interaction with the nucleosome- remodeling deacetylase (NuRD) complex. Truncated SALL1 interacts with or sequester fac...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "Associated with Townes-Brocks Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Townes-Brocks Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,123 @@
+{
+  "gene_name": "DYNC1LI1",
+  "ensembl_id": "ENSG00000144635",
+  "synonyms": [
+    "DNCLI1"
+  ],
+  "omim_id": "615890",
+  "description": "dynein cytoplasmic 1 light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:18745]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05783"
+  ],
+  "domain_descriptions": [
+    "Dynein 1 light intermediate chain",
+    "Dynein family light intermediate chain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein 1 light intermediate chain",
+    "Dynein family light intermediate chain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05783"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein 1 light intermediate chain",
+    "Dynein family light intermediate chain",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "Expression of a DLIC-1-binding truncation mutant of FIP3 disrupts the ability of ERC proteins to accumulate pericentrosomally (expression of a DLIC-1-binding truncation mutant of FIP3 disrupts the ability of ERC proteins to accumulate pericentrosomally.).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Small GTPases",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNC1LI1 is a ciliary gene encoding dynein cytoplasmic 1 light intermediate chain 1 [source:hgnc symbol;acc:hgnc:18745]",
+    "functional_summary": "Expression of a DLIC-1-binding truncation mutant of FIP3 disrupts the ability of ERC proteins to accumulate pericentrosomally (expression of a DLIC-1-binding truncation mutant of FIP3 disrupts the abi...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

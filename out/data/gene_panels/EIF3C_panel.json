@@ -1,0 +1,103 @@
+{
+  "gene_name": "EIF3C",
+  "ensembl_id": "ENSG00000184110",
+  "synonyms": [
+    "EIF3-P110",
+    "EIF3S8"
+  ],
+  "omim_id": "603916",
+  "description": "eukaryotic translation initiation factor 3 subunit C [Source:HGNC Symbol;Acc:HGNC:3279]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05470",
+    "PF01399"
+  ],
+  "domain_descriptions": [
+    "Proteasome component (PCI) domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "N-terminal domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily"
+  ],
+  "molecular_function": [
+    "Translation",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Proteasome component (PCI) domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "N-terminal domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05470",
+      "PF01399"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Proteasome component (PCI) domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "N-terminal domain",
+    "Eukaryotic translation initiation factor 3 subunit C",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily"
+  ],
+  "ciliary_role": "EIF3C may regulate the local translation of Hh pathway components in the cilium, thereby modulating Hh sig ling on-site.",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Translation",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Translation",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EIF3C is a ciliary gene encoding eukaryotic translation initiation factor 3 subunit c [source:hgnc symbol;acc:hgnc:3279]",
+    "functional_summary": "EIF3C may regulate the local translation of Hh pathway components in the cilium, thereby modulating Hh sig ling on-site.",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

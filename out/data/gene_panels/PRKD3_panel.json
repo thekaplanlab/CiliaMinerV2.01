@@ -1,0 +1,125 @@
+{
+  "gene_name": "PRKD3",
+  "ensembl_id": "ENSG00000115825",
+  "synonyms": [
+    "EPK2",
+    "PRKCN"
+  ],
+  "omim_id": "607077",
+  "description": "protein kinase D3 [Source:HGNC Symbol;Acc:HGNC:9408]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00169",
+    "PF00069",
+    "PF00130"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Pleckstrin homology domain",
+    "Protein kinase C-like",
+    "phorbol ester/diacylglycerol-binding domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "PH-like domain superfamily",
+    "Protein kinase C mu-related",
+    "Protein kinase",
+    "ATP binding site",
+    "Diacylglycerol/phorbol-ester binding",
+    "C1-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Metabolism"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Pleckstrin homology domain",
+    "Protein kinase C-like",
+    "phorbol ester/diacylglycerol-binding domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "PH-like domain superfamily",
+    "Protein kinase C mu-related",
+    "Protein kinase",
+    "ATP binding site",
+    "Diacylglycerol/phorbol-ester binding",
+    "C1-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00169",
+      "PF00069",
+      "PF00130"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Pleckstrin homology domain",
+    "Protein kinase C-like",
+    "phorbol ester/diacylglycerol-binding domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "PH-like domain superfamily",
+    "Protein kinase C mu-related",
+    "Protein kinase",
+    "ATP binding site",
+    "Diacylglycerol/phorbol-ester binding",
+    "C1-like domain superfamily"
+  ],
+  "ciliary_role": "PRKD3 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PRKD3 is a ciliary gene encoding protein kinase d3 [source:hgnc symbol;acc:hgnc:9408]",
+    "functional_summary": "PRKD3 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

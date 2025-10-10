@@ -1,0 +1,122 @@
+{
+  "gene_name": "CD36",
+  "ensembl_id": "ENSG00000135218",
+  "synonyms": [
+    "FAT",
+    "GP3B",
+    "GP4",
+    "GPIIIB",
+    "GPIV",
+    "SCARB3"
+  ],
+  "omim_id": "173510",
+  "description": "CD36 molecule (CD36 blood group) [Source:HGNC Symbol;Acc:HGNC:1663]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01130"
+  ],
+  "domain_descriptions": [
+    "CD36 family",
+    "CD36/scavenger receptor class B member 1"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "CD36 family",
+    "CD36/scavenger receptor class B member 1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01130"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CD36 family",
+    "CD36/scavenger receptor class B member 1"
+  ],
+  "ciliary_role": "CD36 was both targeted to sensory cilia and capable of restoring, albeit only partially, responses to pheromone(27302750).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Muscle contraction & physiology",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CD36 is a ciliary gene encoding cd36 molecule (cd36 blood group) [source:hgnc symbol;acc:hgnc:1663]",
+    "functional_summary": "CD36 was both targeted to sensory cilia and capable of restoring, albeit only partially, responses to pheromone(27302750).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

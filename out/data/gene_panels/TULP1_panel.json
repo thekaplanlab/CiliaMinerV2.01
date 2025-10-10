@@ -1,0 +1,115 @@
+{
+  "gene_name": "TULP1",
+  "ensembl_id": "ENSG00000112041",
+  "synonyms": [
+    "LCA15",
+    "RP14",
+    "TUBL1"
+  ],
+  "omim_id": "602280",
+  "description": "TUB like protein 1 [Source:HGNC Symbol;Acc:HGNC:12423]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01167"
+  ],
+  "domain_descriptions": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01167"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubby",
+    "C-terminal",
+    "Tubby",
+    "C-terminal",
+    "conserved site",
+    "Tubby-like",
+    "C-terminal"
+  ],
+  "ciliary_role": "Role in intracellular transport, cell differentiation, sig ling, and motility. Mutations result in progressive photoreceptor degeneration in mice and retinitis pigmentosa in humans (33187986, 25074776, 9462750).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Leber Congenital Amaurosis",
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Leber Congenital Amaurosis, Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TULP1 is a ciliary gene encoding tub like protein 1 [source:hgnc symbol;acc:hgnc:12423]",
+    "functional_summary": "Role in intracellular transport, cell differentiation, sig ling, and motility. Mutations result in progressive photoreceptor degeneration in mice and retinitis pigmentosa in humans (33187986, 25074776...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Leber Congenital Amaurosis, Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Leber Congenital Amaurosis, Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

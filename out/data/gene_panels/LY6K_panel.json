@@ -1,0 +1,107 @@
+{
+  "gene_name": "LY6K",
+  "ensembl_id": "ENSG00000160886",
+  "synonyms": [
+    "CT97",
+    "FLJ35226",
+    "HSJ001348"
+  ],
+  "omim_id": "615093",
+  "description": "lymphocyte antigen 6 family member K [Source:HGNC Symbol;Acc:HGNC:24225]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00087"
+  ],
+  "domain_descriptions": [
+    "Snake toxin/toxin-like",
+    "Snake toxin-like superfamily",
+    "Sperm-binding zona pellucida regulatory protein"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "structural_features": [
+    "Snake toxin/toxin-like",
+    "Snake toxin-like superfamily",
+    "Sperm-binding zona pellucida regulatory protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00087"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Snake toxin/toxin-like",
+    "Snake toxin-like superfamily",
+    "Sperm-binding zona pellucida regulatory protein"
+  ],
+  "ciliary_role": "LY6K has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LY6K is a ciliary gene encoding lymphocyte antigen 6 family member k [source:hgnc symbol;acc:hgnc:24225]",
+    "functional_summary": "LY6K has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,110 @@
+{
+  "gene_name": "KMT5B",
+  "ensembl_id": "ENSG00000110066",
+  "synonyms": [
+    "CGI-85",
+    "SUV420H1"
+  ],
+  "omim_id": "610881",
+  "description": "lysine methyltransferase 5B [Source:HGNC Symbol;Acc:HGNC:24283]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00856"
+  ],
+  "domain_descriptions": [
+    "SET domain",
+    "Suv4-20 family",
+    "animal",
+    "Histone-lysine N-methyltransferase Suv4-20/Set9",
+    "Histone-lysine N-methyltransferase",
+    "N-terminal domain",
+    "KMT5B",
+    "SET domain",
+    "SET domain superfamily"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation"
+  ],
+  "structural_features": [
+    "SET domain",
+    "Suv4-20 family",
+    "animal",
+    "Histone-lysine N-methyltransferase Suv4-20/Set9",
+    "Histone-lysine N-methyltransferase",
+    "N-terminal domain",
+    "KMT5B",
+    "SET domain",
+    "SET domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00856"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SET domain",
+    "Suv4-20 family",
+    "animal",
+    "Histone-lysine N-methyltransferase Suv4-20/Set9",
+    "Histone-lysine N-methyltransferase",
+    "N-terminal domain",
+    "KMT5B",
+    "SET domain",
+    "SET domain superfamily"
+  ],
+  "ciliary_role": "KMT5B has localized in cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KMT5B is a ciliary gene encoding lysine methyltransferase 5b [source:hgnc symbol;acc:hgnc:24283]",
+    "functional_summary": "KMT5B has localized in cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

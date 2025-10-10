@@ -1,0 +1,145 @@
+{
+  "gene_name": "PIK3R3",
+  "ensembl_id": "ENSG00000117461",
+  "synonyms": [
+    "P55"
+  ],
+  "omim_id": "606076",
+  "description": "phosphoinositide-3-kinase regulatory subunit 3 [Source:HGNC Symbol;Acc:HGNC:8981]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00017",
+    "PF16454"
+  ],
+  "domain_descriptions": [
+    "SH2 domain",
+    "PI3K regulatory subunit p85-related",
+    "inter-SH2 domain",
+    "PI3K p85 subunit",
+    "C-terminal SH2 domain",
+    "PI3K p85 subunit",
+    "N-terminal SH2 domain",
+    "SH2 domain superfamily"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SH2 domain",
+    "PI3K regulatory subunit p85-related",
+    "inter-SH2 domain",
+    "PI3K p85 subunit",
+    "C-terminal SH2 domain",
+    "PI3K p85 subunit",
+    "N-terminal SH2 domain",
+    "SH2 domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00017",
+      "PF16454"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH2 domain",
+    "PI3K regulatory subunit p85-related",
+    "inter-SH2 domain",
+    "PI3K p85 subunit",
+    "C-terminal SH2 domain",
+    "PI3K p85 subunit",
+    "N-terminal SH2 domain",
+    "SH2 domain superfamily"
+  ],
+  "ciliary_role": "PIK3R3 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Hormone & insulin signaling",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PIK3R3 is a ciliary gene encoding phosphoinositide-3-kinase regulatory subunit 3 [source:hgnc symbol;acc:hgnc:8981]",
+    "functional_summary": "PIK3R3 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

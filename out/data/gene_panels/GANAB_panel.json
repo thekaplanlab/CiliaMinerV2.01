@@ -1,0 +1,72 @@
+{
+  "gene_name": "GANAB",
+  "ensembl_id": "ENSG00000089597",
+  "synonyms": [
+    "G2AN",
+    "GIIA",
+    "GIIALPHA",
+    "GLUII",
+    "KIAA0088"
+  ],
+  "omim_id": "104160",
+  "description": "glucosidase II alpha subunit [Source:HGNC Symbol;Acc:HGNC:4138]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the GANAB gene cause Autosomal Dominant Polycystic Kidney Disease (PMID: 27259053).",
+  "localization": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Autosomal Dominant Polycystic Kidney Disease"
+  ],
+  "ciliopathy_type": "Autosomal Dominant Polycystic Kidney Disease",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GANAB is a ciliary gene encoding glucosidase ii alpha subunit [source:hgnc symbol;acc:hgnc:4138]",
+    "functional_summary": "Mutations in the GANAB gene cause Autosomal Dominant Polycystic Kidney Disease (PMID: 27259053).",
+    "localization_summary": "Localizes to Ciliary associated gene, Lysosomes",
+    "disease_summary": "Associated with Autosomal Dominant Polycystic Kidney Disease",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Autosomal Dominant Polycystic Kidney Disease",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

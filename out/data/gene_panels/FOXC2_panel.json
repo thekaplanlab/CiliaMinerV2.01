@@ -1,0 +1,136 @@
+{
+  "gene_name": "FOXC2",
+  "ensembl_id": "ENSG00000176692",
+  "synonyms": [
+    "FKHL14",
+    "MFH-1"
+  ],
+  "omim_id": "602402",
+  "description": "forkhead box C2 [Source:HGNC Symbol;Acc:HGNC:3801]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00250"
+  ],
+  "domain_descriptions": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box protein C1/C2-like",
+    "forkhead domain",
+    "Forkhead box domain-containing protein"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box protein C1/C2-like",
+    "forkhead domain",
+    "Forkhead box domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00250"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fork head domain",
+    "Fork head domain conserved site1",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box protein C1/C2-like",
+    "forkhead domain",
+    "Forkhead box domain-containing protein"
+  ],
+  "ciliary_role": "The deletion of Ift46 in NCCs led to reduced Shh sig l activity in the periocular mesenchyme, sustained expression of key transcription factors Foxc1, Foxc2 and Pitx2, along with persistent cell proliferation ( 38517430).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "ECM & connective tissue",
+    "Cardiac & muscle development",
+    "Neurogenesis & migration",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FOXC2 is a ciliary gene encoding forkhead box c2 [source:hgnc symbol;acc:hgnc:3801]",
+    "functional_summary": "The deletion of Ift46 in NCCs led to reduced Shh sig l activity in the periocular mesenchyme, sustained expression of key transcription factors Foxc1, Foxc2 and Pitx2, along with persistent cell proli...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,115 @@
+{
+  "gene_name": "RFX3",
+  "ensembl_id": "ENSG00000080298",
+  "synonyms": [],
+  "omim_id": "601337",
+  "description": "regulatory factor X3 [Source:HGNC Symbol;Acc:HGNC:9984]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04589",
+    "PF02257"
+  ],
+  "domain_descriptions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04589",
+      "PF02257"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "ciliary_role": "Transcription factor regulating expression of ciliary assembly (like Dync2li1, Foxj1 and Bbs4) and axonemal dyneins involved in ciliary motility (D hc11, D hc9 and D hc5), by binding directly to the promoters of their genes. Regulates the orthologs of genes involved inhuman PCD. It may also cooperate with FOXJ1 to regulate the expression of cilia genes ( 19671664). Regulates the expression of D2lic in mouse, a gene implicated in intraflagellar transport, a proces required for the assembly and mainte nce of cilia. RFX3 is essential for the differentiation of nodal monocilia and for LR patterning ( 15121860). Together with FOXJ1, plays a role in modulating differentiation in multiciliated cells ( 23822649).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RFX3 is a ciliary gene encoding regulatory factor x3 [source:hgnc symbol;acc:hgnc:9984]",
+    "functional_summary": "Transcription factor regulating expression of ciliary assembly (like Dync2li1, Foxj1 and Bbs4) and axonemal dyneins involved in ciliary motility (D hc11, D hc9 and D hc5), by binding directly to the p...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

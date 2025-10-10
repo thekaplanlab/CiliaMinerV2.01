@@ -1,0 +1,120 @@
+{
+  "gene_name": "KIF4B",
+  "ensembl_id": "ENSG00000226650",
+  "synonyms": [],
+  "omim_id": "609184",
+  "description": "kinesin family member 4B [Source:HGNC Symbol;Acc:HGNC:6322]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Tesmin/TSO1-like CXC domain",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Tesmin/TSO1-like CXC domain",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Tesmin/TSO1-like CXC domain",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "KIF4B has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Immune regulation",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF4B is a ciliary gene encoding kinesin family member 4b [source:hgnc symbol;acc:hgnc:6322]",
+    "functional_summary": "KIF4B has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,111 @@
+{
+  "gene_name": "ABLIM3",
+  "ensembl_id": "ENSG00000173210",
+  "synonyms": [
+    "KIAA0843"
+  ],
+  "omim_id": "611305",
+  "description": "actin binding LIM protein family member 3 [Source:HGNC Symbol;Acc:HGNC:29132]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02209",
+    "PF00412",
+    "PF16182"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "LIM-type",
+    "Villin headpiece",
+    "Putative adherens-junction anchoring domain",
+    "Villin headpiece domain superfamily",
+    "Actin-binding LIM"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "LIM-type",
+    "Villin headpiece",
+    "Putative adherens-junction anchoring domain",
+    "Villin headpiece domain superfamily",
+    "Actin-binding LIM"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02209",
+      "PF00412",
+      "PF16182"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "LIM-type",
+    "Villin headpiece",
+    "Putative adherens-junction anchoring domain",
+    "Villin headpiece domain superfamily",
+    "Actin-binding LIM"
+  ],
+  "ciliary_role": "Involved in ciliation-related actin dy mics and LR patterning (22684256)",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ABLIM3 is a ciliary gene encoding actin binding lim protein family member 3 [source:hgnc symbol;acc:hgnc:29132]",
+    "functional_summary": "Involved in ciliation-related actin dy mics and LR patterning (22684256)",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

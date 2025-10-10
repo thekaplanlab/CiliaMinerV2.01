@@ -1,0 +1,90 @@
+{
+  "gene_name": "CENPV",
+  "ensembl_id": "ENSG00000166582",
+  "synonyms": [
+    "CENP-V",
+    "P30",
+    "PRR6"
+  ],
+  "omim_id": "608139",
+  "description": "centromere protein V [Source:HGNC Symbol;Acc:HGNC:29920]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04828"
+  ],
+  "domain_descriptions": [
+    "CENP-V/GFA domain",
+    "Mss4-like superfamily",
+    "Centromere protein V-like"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "CENP-V/GFA domain",
+    "Mss4-like superfamily",
+    "Centromere protein V-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04828"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "CENP-V/GFA domain",
+    "Mss4-like superfamily",
+    "Centromere protein V-like"
+  ],
+  "ciliary_role": "CENPV is deubiquitylated by CYLD and localizes in interphase to primary cilia where it increases the ciliary levels of acetylated 伪-tubulin(31260673).",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CENPV is a ciliary gene encoding centromere protein v [source:hgnc symbol;acc:hgnc:29920]",
+    "functional_summary": "CENPV is deubiquitylated by CYLD and localizes in interphase to primary cilia where it increases the ciliary levels of acetylated 伪-tubulin(31260673).",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

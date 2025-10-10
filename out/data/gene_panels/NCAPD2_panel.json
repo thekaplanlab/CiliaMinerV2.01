@@ -1,0 +1,110 @@
+{
+  "gene_name": "NCAPD2",
+  "ensembl_id": "ENSG00000010292",
+  "synonyms": [
+    "CAP-D2",
+    "CNAP1",
+    "HCAP-D2",
+    "KIAA0159"
+  ],
+  "omim_id": "615638",
+  "description": "non-SMC condensin I complex subunit D2 [Source:HGNC Symbol;Acc:HGNC:24305]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12922",
+    "PF12717"
+  ],
+  "domain_descriptions": [
+    "Condensin subunit 1",
+    "Armadillo-type fold",
+    "Condensin complex subunit 1",
+    "N-terminal",
+    "Condensin subunit 1/Condensin-2 complex subunit D3",
+    "Armadillo-like helical",
+    "Condensin complex subunit 1",
+    "C-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Condensin subunit 1",
+    "Armadillo-type fold",
+    "Condensin complex subunit 1",
+    "N-terminal",
+    "Condensin subunit 1/Condensin-2 complex subunit D3",
+    "Armadillo-like helical",
+    "Condensin complex subunit 1",
+    "C-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12922",
+      "PF12717"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Condensin subunit 1",
+    "Armadillo-type fold",
+    "Condensin complex subunit 1",
+    "N-terminal",
+    "Condensin subunit 1/Condensin-2 complex subunit D3",
+    "Armadillo-like helical",
+    "Condensin complex subunit 1",
+    "C-terminal"
+  ],
+  "ciliary_role": "NCAPD2 has localized in basal body.",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NCAPD2 is a ciliary gene encoding non-smc condensin i complex subunit d2 [source:hgnc symbol;acc:hgnc:24305]",
+    "functional_summary": "NCAPD2 has localized in basal body.",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

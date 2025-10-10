@@ -1,0 +1,99 @@
+{
+  "gene_name": "TMEM135",
+  "ensembl_id": "ENSG00000166575",
+  "synonyms": [
+    "FLJ22104",
+    "PMP52"
+  ],
+  "omim_id": "616360",
+  "description": "transmembrane protein 135 [Source:HGNC Symbol;Acc:HGNC:26167]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02466",
+    "PF15982"
+  ],
+  "domain_descriptions": [
+    "Transmembrane protein 135",
+    "Transmembrane protein 135",
+    "N-terminal domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Transmembrane protein 135",
+    "Transmembrane protein 135",
+    "N-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02466",
+      "PF15982"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Transmembrane protein 135",
+    "Transmembrane protein 135",
+    "N-terminal domain"
+  ],
+  "ciliary_role": "Depletion of peroxisome protein TMEM135 disrupts the intracellular cholesterol distribution. Depletion of TMEM135 blunts Rab8 trafficking and IFT20 trafficking to the centrioles ( 32157776).",
+  "localization": [
+    "Ciliary associated gene",
+    "Microbody",
+    "Peroxisome"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Microbody",
+    "Peroxisome"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 1,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TMEM135 is a ciliary gene encoding transmembrane protein 135 [source:hgnc symbol;acc:hgnc:26167]",
+    "functional_summary": "Depletion of peroxisome protein TMEM135 disrupts the intracellular cholesterol distribution. Depletion of TMEM135 blunts Rab8 trafficking and IFT20 trafficking to the centrioles ( 32157776).",
+    "localization_summary": "Localizes to Ciliary associated gene, Microbody, Peroxisome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

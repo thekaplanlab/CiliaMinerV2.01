@@ -1,0 +1,91 @@
+{
+  "gene_name": "EMC6",
+  "ensembl_id": "ENSG00000127774",
+  "synonyms": [
+    "MGC2963",
+    "RAB5IFL",
+    "TMEM93"
+  ],
+  "omim_id": "620261",
+  "description": "ER membrane protein complex subunit 6 [Source:HGNC Symbol;Acc:HGNC:28430]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07019"
+  ],
+  "domain_descriptions": [
+    "ER membrane protein complex subunit 6",
+    "ER membrane protein complex subunit 6-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "ER membrane protein complex subunit 6",
+    "ER membrane protein complex subunit 6-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07019"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "ER membrane protein complex subunit 6",
+    "ER membrane protein complex subunit 6-like"
+  ],
+  "ciliary_role": "In addition to monitoring the synthesis of rhodopsin-domi ted membrane disc proteins, EMC6 also impacted rod photoreceptors' ciliogenesis by regulating the synthesis of membrane proteins associated with cilia, contributing to the mislocalization of membrane disc proteins (37692493). EMC6 localized to basal body (25613900).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EMC6 is a ciliary gene encoding er membrane protein complex subunit 6 [source:hgnc symbol;acc:hgnc:28430]",
+    "functional_summary": "In addition to monitoring the synthesis of rhodopsin-domi ted membrane disc proteins, EMC6 also impacted rod photoreceptors' ciliogenesis by regulating the synthesis of membrane proteins associated wi...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

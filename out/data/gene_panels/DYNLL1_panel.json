@@ -1,0 +1,155 @@
+{
+  "gene_name": "DYNLL1",
+  "ensembl_id": "ENSG00000088986",
+  "synonyms": [
+    "DLC1",
+    "DLC8",
+    "DNCL1",
+    "HDLC1",
+    "LC8",
+    "PIN"
+  ],
+  "omim_id": "601562",
+  "description": "dynein light chain LC8-type 1 [Source:HGNC Symbol;Acc:HGNC:15476]",
+  "protein_complexes": [
+    "Dynein light chain complex (DYNLL1",
+    "DYNLL2)"
+  ],
+  "pfam_ids": [
+    "PF01221"
+  ],
+  "domain_descriptions": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01221"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein light chain",
+    "type 1/2",
+    "Dynein light chain",
+    "type 1/2",
+    "conserved site",
+    "Dynein light chain superfamily"
+  ],
+  "ciliary_role": "Control of retrograde intraflagellar trafficking of ciliary proteins through interaction with WDR34 and ciliogenesis by serving as dynein-1 subunits (25294941, 30649997).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNLL1 is a ciliary gene encoding dynein light chain lc8-type 1 [source:hgnc symbol;acc:hgnc:15476]",
+    "functional_summary": "Control of retrograde intraflagellar trafficking of ciliary proteins through interaction with WDR34 and ciliogenesis by serving as dynein-1 subunits (25294941, 30649997).",
+    "localization_summary": "Localizes to basal body, cilia, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

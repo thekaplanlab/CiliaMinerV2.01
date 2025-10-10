@@ -1,0 +1,69 @@
+{
+  "gene_name": "ELOVL4",
+  "ensembl_id": "ENSG00000118402",
+  "synonyms": [
+    "CT118",
+    "SCA34",
+    "STGD2",
+    "STGD3"
+  ],
+  "omim_id": "605512",
+  "description": "ELOVL fatty acid elongase 4 [Source:HGNC Symbol;Acc:HGNC:14415]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the ELOVL4 gene cause Spinocerebellar Ataxia (PMID: 26010696).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Spinocerebellar Ataxia"
+  ],
+  "ciliopathy_type": "Spinocerebellar Ataxia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ELOVL4 is a ciliary gene encoding elovl fatty acid elongase 4 [source:hgnc symbol;acc:hgnc:14415]",
+    "functional_summary": "Mutations in the ELOVL4 gene cause Spinocerebellar Ataxia (PMID: 26010696).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Spinocerebellar Ataxia",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Spinocerebellar Ataxia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

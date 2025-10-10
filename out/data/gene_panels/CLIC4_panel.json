@@ -1,0 +1,151 @@
+{
+  "gene_name": "CLIC4",
+  "ensembl_id": "ENSG00000169504",
+  "synonyms": [
+    "CLIC4L",
+    "DKFZP566G223",
+    "H1",
+    "HUH1",
+    "P64H1"
+  ],
+  "omim_id": "606536",
+  "description": "chloride intracellular channel 4 [Source:HGNC Symbol;Acc:HGNC:13518]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF22441",
+    "PF13410"
+  ],
+  "domain_descriptions": [
+    "Intracellular chloride channel",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "CLIC",
+    "N-terminal domain"
+  ],
+  "molecular_function": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Intracellular chloride channel",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "CLIC",
+    "N-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF22441",
+      "PF13410"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Intracellular chloride channel",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "CLIC",
+    "N-terminal domain"
+  ],
+  "ciliary_role": "CLIC4 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "Wnt Signaling",
+    "TGF-β Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels",
+    "WNT",
+    "MAPK ERK",
+    "TGF BMP)",
+    "Reproduction & sperm",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CLIC4 is a ciliary gene encoding chloride intracellular channel 4 [source:hgnc symbol;acc:hgnc:13518]",
+    "functional_summary": "CLIC4 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

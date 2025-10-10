@@ -1,0 +1,147 @@
+{
+  "gene_name": "ARHGAP5",
+  "ensembl_id": "ENSG00000100852",
+  "synonyms": [
+    "GFI2",
+    "P190-B",
+    "P190BRHOGAP",
+    "RHOGAP5"
+  ],
+  "omim_id": "602680",
+  "description": "Rho GTPase activating protein 5 [Source:HGNC Symbol;Acc:HGNC:675]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF23083",
+    "PF16512",
+    "PF19518",
+    "PF01846",
+    "PF00620"
+  ],
+  "domain_descriptions": [
+    "Rho GTPase-activating protein domain",
+    "FF domain",
+    "Rho GTPase activation protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rho GTPase-activating protein",
+    "FF domain",
+    "FF domain superfamily",
+    "Rho GTPase-activating protein",
+    "pG2 domain",
+    "Rho GTPase-activating protein",
+    "pG1 domain",
+    "Rho GTPase-activating protein",
+    "pG1 and pG2 domain",
+    "Rho GTPase-activating domain-containing protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Rho GTPase-activating protein domain",
+    "FF domain",
+    "Rho GTPase activation protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rho GTPase-activating protein",
+    "FF domain",
+    "FF domain superfamily",
+    "Rho GTPase-activating protein",
+    "pG2 domain",
+    "Rho GTPase-activating protein",
+    "pG1 domain",
+    "Rho GTPase-activating protein",
+    "pG1 and pG2 domain",
+    "Rho GTPase-activating domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF23083",
+      "PF16512",
+      "PF19518",
+      "PF01846",
+      "PF00620"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Rho GTPase-activating protein domain",
+    "FF domain",
+    "Rho GTPase activation protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rho GTPase-activating protein",
+    "FF domain",
+    "FF domain superfamily",
+    "Rho GTPase-activating protein",
+    "pG2 domain",
+    "Rho GTPase-activating protein",
+    "pG1 domain",
+    "Rho GTPase-activating protein",
+    "pG1 and pG2 domain",
+    "Rho GTPase-activating domain-containing protein"
+  ],
+  "ciliary_role": "Using cilia length as a phenotypic readout for centrosomal RhoA activity, ARHGAP5, -29, and -35 are essential regulators of ciliation in normal human re l tubular cells. The centrosome retention of ARHGAP5 and -29 are determined by their interaction with other proteins apart from PC1(32663194).",
+  "localization": [
+    "basal body",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cilia length regulation",
+    "Small GTPases",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ARHGAP5 is a ciliary gene encoding rho gtpase activating protein 5 [source:hgnc symbol;acc:hgnc:675]",
+    "functional_summary": "Using cilia length as a phenotypic readout for centrosomal RhoA activity, ARHGAP5, -29, and -35 are essential regulators of ciliation in normal human re l tubular cells. The centrosome retention of AR...",
+    "localization_summary": "Localizes to basal body, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

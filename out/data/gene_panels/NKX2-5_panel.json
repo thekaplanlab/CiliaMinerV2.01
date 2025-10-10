@@ -1,0 +1,140 @@
+{
+  "gene_name": "NKX2-5",
+  "ensembl_id": "ENSG00000183072",
+  "synonyms": [
+    "CSX",
+    "CSX1",
+    "NKX2.5",
+    "NKX2E",
+    "NKX4-1"
+  ],
+  "omim_id": "600584",
+  "description": "NK2 homeobox 5 [Source:HGNC Symbol;Acc:HGNC:2488]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00046"
+  ],
+  "domain_descriptions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Homeodomain",
+    "metazoa",
+    "Homeobox NK-like transcription regulators"
+  ],
+  "molecular_function": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Homeodomain",
+    "metazoa",
+    "Homeobox NK-like transcription regulators"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00046"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Homeodomain",
+    "Homedomain-like superfamily",
+    "Homeobox",
+    "conserved site",
+    "Homeodomain",
+    "metazoa",
+    "Homeobox NK-like transcription regulators"
+  ],
+  "ciliary_role": "The variant in EFCAB7 may disrupt embryonic heart development by influencing downstream target genes (Myh6, Zfpm1, and Nkx2-5) mediated through the Shh/Gli pathway( 39894222).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Neurogenesis & migration",
+    "Transcription regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NKX2-5 is a ciliary gene encoding nk2 homeobox 5 [source:hgnc symbol;acc:hgnc:2488]",
+    "functional_summary": "The variant in EFCAB7 may disrupt embryonic heart development by influencing downstream target genes (Myh6, Zfpm1, and Nkx2-5) mediated through the Shh/Gli pathway( 39894222).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

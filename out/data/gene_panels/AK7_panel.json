@@ -1,0 +1,111 @@
+{
+  "gene_name": "AK7",
+  "ensembl_id": "ENSG00000140057",
+  "synonyms": [
+    "CFAP75",
+    "FAP75",
+    "FLJ32864"
+  ],
+  "omim_id": "615364",
+  "description": "adenylate kinase 7 [Source:HGNC Symbol;Acc:HGNC:20091]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00406",
+    "PF05186"
+  ],
+  "domain_descriptions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "Dpy-30 motif",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "NAD(P)-binding domain superfamily",
+    "Adenylate kinase 7",
+    "dimerization/docking domain",
+    "NAD(P)-dependent oxidoreductase-like"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "structural_features": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "Dpy-30 motif",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "NAD(P)-binding domain superfamily",
+    "Adenylate kinase 7",
+    "dimerization/docking domain",
+    "NAD(P)-dependent oxidoreductase-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00406",
+      "PF05186"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "Dpy-30 motif",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "NAD(P)-binding domain superfamily",
+    "Adenylate kinase 7",
+    "dimerization/docking domain",
+    "NAD(P)-dependent oxidoreductase-like"
+  ],
+  "ciliary_role": "Ultrastructural defects in 9+2 cilia, leading to PCD phenotype in mutant mice PMID:18776131. Role in ATP production to power ciliary beating. Reduced expression levels in PCD patients PMID:20537283. 1 single possibly pathogenic variant found in AK7 in 1 PCD patient 22801010. Homozygous missense mutation L673P in adenylate ki se 7 (AK7) leads to primary male infertility and multiple morphological anomalies of the flagella but not to primary ciliary dyskinesia. Mutations lead to spermatogenic failure in humans",
+  "localization": [
+    "flagella",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AK7 is a ciliary gene encoding adenylate kinase 7 [source:hgnc symbol;acc:hgnc:20091]",
+    "functional_summary": "Ultrastructural defects in 9+2 cilia, leading to PCD phenotype in mutant mice PMID:18776131. Role in ATP production to power ciliary beating. Reduced expression levels in PCD patients PMID:20537283. 1...",
+    "localization_summary": "Localizes to flagella, cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

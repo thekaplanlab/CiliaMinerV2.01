@@ -1,0 +1,91 @@
+{
+  "gene_name": "LRRC34",
+  "ensembl_id": "ENSG00000171757",
+  "synonyms": [
+    "MGC27085"
+  ],
+  "omim_id": "619037",
+  "description": "leucine rich repeat containing 34 [Source:HGNC Symbol;Acc:HGNC:28408]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13516"
+  ],
+  "domain_descriptions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat-containing regulator of pluripotency"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat-containing regulator of pluripotency"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13516"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Leucine-rich repeat",
+    "Leucine-rich repeat domain superfamily",
+    "Leucine-rich repeat-containing regulator of pluripotency"
+  ],
+  "ciliary_role": "Mutated in Joubert syndrome. Localized along the ciliary shaft in controls but only at ciliary base in LRRC34-/- patient cells, which displayed reduced ciliogenesis potential and muted response of SHH sig ling to SAG compared with controls (32055034)",
+  "localization": [
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LRRC34 is a ciliary gene encoding leucine rich repeat containing 34 [source:hgnc symbol;acc:hgnc:28408]",
+    "functional_summary": "Mutated in Joubert syndrome. Localized along the ciliary shaft in controls but only at ciliary base in LRRC34-/- patient cells, which displayed reduced ciliogenesis potential and muted response of SHH...",
+    "localization_summary": "Localizes to cilia,  basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

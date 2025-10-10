@@ -1,0 +1,101 @@
+{
+  "gene_name": "LEFTY1",
+  "ensembl_id": "ENSG00000243709",
+  "synonyms": [
+    "LEFTB",
+    "LEFTYB"
+  ],
+  "omim_id": "603037",
+  "description": "left-right determination factor 1 [Source:HGNC Symbol;Acc:HGNC:6552]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00688",
+    "PF00019"
+  ],
+  "domain_descriptions": [
+    "TGF-beta",
+    "propeptide",
+    "Transforming growth factor-beta",
+    "C-terminal",
+    "Left- Right determination factor",
+    "Transforming growth factor-beta-related",
+    "Transforming growth factor beta",
+    "conserved site",
+    "Cystine-knot cytokine"
+  ],
+  "molecular_function": [],
+  "structural_features": [
+    "TGF-beta",
+    "propeptide",
+    "Transforming growth factor-beta",
+    "C-terminal",
+    "Left- Right determination factor",
+    "Transforming growth factor-beta-related",
+    "Transforming growth factor beta",
+    "conserved site",
+    "Cystine-knot cytokine"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00688",
+      "PF00019"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "TGF-beta",
+    "propeptide",
+    "Transforming growth factor-beta",
+    "C-terminal",
+    "Left- Right determination factor",
+    "Transforming growth factor-beta-related",
+    "Transforming growth factor beta",
+    "conserved site",
+    "Cystine-knot cytokine"
+  ],
+  "ciliary_role": "Fgf4 was essential for the expression of lefty1, which is necessary for the asymmetric expression of southpaw and pitx2 in the lateral plate mesoderm, in the posterior notochord, and the expression of lefty2 and lefty1 in the left cardiac field ( 19481538).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LEFTY1 is a ciliary gene encoding left-right determination factor 1 [source:hgnc symbol;acc:hgnc:6552]",
+    "functional_summary": "Fgf4 was essential for the expression of lefty1, which is necessary for the asymmetric expression of southpaw and pitx2 in the lateral plate mesoderm, in the posterior notochord, and the expression of...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

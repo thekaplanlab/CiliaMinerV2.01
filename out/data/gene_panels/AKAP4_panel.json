@@ -1,0 +1,116 @@
+{
+  "gene_name": "AKAP4",
+  "ensembl_id": "ENSG00000147081",
+  "synonyms": [
+    "AKAP82",
+    "CT99",
+    "FSC1",
+    "HAKAP82",
+    "HI",
+    "P82"
+  ],
+  "omim_id": "300185",
+  "description": "A-kinase anchoring protein 4 [Source:HGNC Symbol;Acc:HGNC:374]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF10522",
+    "PF05716"
+  ],
+  "domain_descriptions": [
+    "SPHK1-interactor/A-kinase anchor 110kDa",
+    "A-kinase anchor 110kDa",
+    "C-terminal",
+    "RII binding domain",
+    "A-kinase anchor 110kDa"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SPHK1-interactor/A-kinase anchor 110kDa",
+    "A-kinase anchor 110kDa",
+    "C-terminal",
+    "RII binding domain",
+    "A-kinase anchor 110kDa"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF10522",
+      "PF05716"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SPHK1-interactor/A-kinase anchor 110kDa",
+    "A-kinase anchor 110kDa",
+    "C-terminal",
+    "RII binding domain",
+    "A-kinase anchor 110kDa"
+  ],
+  "ciliary_role": "AKAP4 binds AKAP3 and expression of AKAP3 is reduced in AKAP4 knockout sperm, AND AKAP3 and AKAP4 localized correctly to the fibrous sheath of the amorphous flagellum in Dysplasia of the fibrous sheath (DFS) sperm (11229805).",
+  "localization": [
+    "flagella",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "T cell biology",
+    "Muscle contraction & physiology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AKAP4 is a ciliary gene encoding a-kinase anchoring protein 4 [source:hgnc symbol;acc:hgnc:374]",
+    "functional_summary": "AKAP4 binds AKAP3 and expression of AKAP3 is reduced in AKAP4 knockout sperm, AND AKAP3 and AKAP4 localized correctly to the fibrous sheath of the amorphous flagellum in Dysplasia of the fibrous sheat...",
+    "localization_summary": "Localizes to flagella, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

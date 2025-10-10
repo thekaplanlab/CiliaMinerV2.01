@@ -1,0 +1,130 @@
+{
+  "gene_name": "SPG11",
+  "ensembl_id": "ENSG00000104133",
+  "synonyms": [
+    "ALS5",
+    "FLJ21439",
+    "KIAA1840"
+  ],
+  "omim_id": "610844",
+  "description": "SPG11 vesicle trafficking associated, spatacsin [Source:HGNC Symbol;Acc:HGNC:11226]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14649"
+  ],
+  "domain_descriptions": [
+    "Spatacsin",
+    "Spatacsin",
+    "C-terminal domain"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Spatacsin",
+    "Spatacsin",
+    "C-terminal domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14649"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Spatacsin",
+    "Spatacsin",
+    "C-terminal domain"
+  ],
+  "ciliary_role": "Six of the iNPH-associated proteins examined (Cwh43, Rxfp2, Ak9, HAVCR1/Kim1, spatacsin, and myo7A) localized to ependymal motile cilia in vivo or in cultured mouse ependymal cells (38100419).",
+  "localization": [
+    "cilia",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cardiac & muscle development",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Motile cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPG11 is a ciliary gene encoding spg11 vesicle trafficking associated, spatacsin [source:hgnc symbol;acc:hgnc:11226]",
+    "functional_summary": "Six of the iNPH-associated proteins examined (Cwh43, Rxfp2, Ak9, HAVCR1/Kim1, spatacsin, and myo7A) localized to ependymal motile cilia in vivo or in cultured mouse ependymal cells (38100419).",
+    "localization_summary": "Localizes to cilia, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

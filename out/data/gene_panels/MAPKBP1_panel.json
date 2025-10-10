@@ -1,0 +1,139 @@
+{
+  "gene_name": "MAPKBP1",
+  "ensembl_id": "ENSG00000137802",
+  "synonyms": [
+    "KIAA0596",
+    "NPHP20"
+  ],
+  "omim_id": "616786",
+  "description": "mitogen-activated protein kinase binding protein 1 [Source:HGNC Symbol;Acc:HGNC:29536]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF24795",
+    "PF24782",
+    "PF24780",
+    "PF08662",
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Mitogen-activated protein kinase-binding protein 1",
+    "MABP1/WDR62",
+    "first WD40 domain",
+    "MABP1/WDR62",
+    "second WD40 domain",
+    "MABP1/WRD62",
+    "coiled-coil domain",
+    "Quinoprotein alcohol dehydrogenase-like superfamily",
+    "Translation initiation factor",
+    "beta propellor-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "RTK/FGF signaling"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Mitogen-activated protein kinase-binding protein 1",
+    "MABP1/WDR62",
+    "first WD40 domain",
+    "MABP1/WDR62",
+    "second WD40 domain",
+    "MABP1/WRD62",
+    "coiled-coil domain",
+    "Quinoprotein alcohol dehydrogenase-like superfamily",
+    "Translation initiation factor",
+    "beta propellor-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF24795",
+      "PF24782",
+      "PF24780",
+      "PF08662",
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40-repeat-containing domain superfamily",
+    "Mitogen-activated protein kinase-binding protein 1",
+    "MABP1/WDR62",
+    "first WD40 domain",
+    "MABP1/WDR62",
+    "second WD40 domain",
+    "MABP1/WRD62",
+    "coiled-coil domain",
+    "Quinoprotein alcohol dehydrogenase-like superfamily",
+    "Translation initiation factor",
+    "beta propellor-like domain"
+  ],
+  "ciliary_role": "While wild-type MAPKBP1 exhibited centrosomal, basal body, and microtubule association, mutant proteins lost the latter and showed reduced recruitment to cell cycle dependent centriolar structures (32505465).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "RTK/FGF signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Immune regulation",
+    "RTK/FGF signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Nephronophthisis"
+  ],
+  "ciliopathy_type": "Nephronophthisis",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAPKBP1 is a ciliary gene encoding mitogen-activated protein kinase binding protein 1 [source:hgnc symbol;acc:hgnc:29536]",
+    "functional_summary": "While wild-type MAPKBP1 exhibited centrosomal, basal body, and microtubule association, mutant proteins lost the latter and showed reduced recruitment to cell cycle dependent centriolar structures (32...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Nephronophthisis",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Nephronophthisis",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

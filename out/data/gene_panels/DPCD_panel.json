@@ -1,0 +1,97 @@
+{
+  "gene_name": "DPCD",
+  "ensembl_id": "ENSG00000166171",
+  "synonyms": [
+    "DKFZP566F084",
+    "RP11-529I10.4"
+  ],
+  "omim_id": "616467",
+  "description": "deleted in primary ciliary dyskinesia homolog (mouse) [Source:HGNC Symbol;Acc:HGNC:24542]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14913"
+  ],
+  "domain_descriptions": [
+    "Protein DPCD"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein DPCD"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14913"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein DPCD"
+  ],
+  "ciliary_role": "Reported situs inversus, hydrocephalus, and suppurative rhinosinusitis in Dpcd/Poll鈥",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "T cell biology",
+    "Motile cilium",
+    "Reproduction & sperm",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DPCD is a ciliary gene encoding deleted in primary ciliary dyskinesia homolog (mouse) [source:hgnc symbol;acc:hgnc:24542]",
+    "functional_summary": "Reported situs inversus, hydrocephalus, and suppurative rhinosinusitis in Dpcd/Poll鈥",
+    "localization_summary": "Localizes to basal body, cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

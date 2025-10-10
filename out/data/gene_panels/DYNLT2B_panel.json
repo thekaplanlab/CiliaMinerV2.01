@@ -1,0 +1,112 @@
+{
+  "gene_name": "DYNLT2B",
+  "ensembl_id": "ENSG00000213123",
+  "synonyms": [
+    "MGC33212",
+    "TCTEX1D2"
+  ],
+  "omim_id": "617353",
+  "description": "dynein light chain Tctex-type 2B [Source:HGNC Symbol;Acc:HGNC:28482]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03645"
+  ],
+  "domain_descriptions": [
+    "Dynein light chain Tctex-1 like",
+    "Tctex-1-like superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein light chain Tctex-1 like",
+    "Tctex-1-like superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03645"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein light chain Tctex-1 like",
+    "Tctex-1-like superfamily"
+  ],
+  "ciliary_role": "Dynein-2 light chain, required for cilia function. Associates with WDR34 (25205765) and WDR60, which is required for ciliary protein trafficking, as KO cells show defects in retrograde ciliary protein trafficking (29742051). Causative gene for short-rib polydactyly syndromes. Associates with Dync2h1 and other subunits of the Dync2 complex to deliver specific cargo necessary for ciliogenesis to the base of the cilium (25830415). Mutations cause Jeune asphyxiating thoracic dystrophy (26044572).",
+  "localization": [
+    "transition zone",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "transition zone",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Short-rib Thoracic Dysplasia"
+  ],
+  "ciliopathy_type": "Short-rib Thoracic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DYNLT2B is a ciliary gene encoding dynein light chain tctex-type 2b [source:hgnc symbol;acc:hgnc:28482]",
+    "functional_summary": "Dynein-2 light chain, required for cilia function. Associates with WDR34 (25205765) and WDR60, which is required for ciliary protein trafficking, as KO cells show defects in retrograde ciliary protein...",
+    "localization_summary": "Localizes to transition zone, basal body,",
+    "disease_summary": "Associated with Short-rib Thoracic Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Short-rib Thoracic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

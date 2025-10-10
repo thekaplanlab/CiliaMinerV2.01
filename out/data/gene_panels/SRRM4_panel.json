@@ -1,0 +1,98 @@
+{
+  "gene_name": "SRRM4",
+  "ensembl_id": "ENSG00000139767",
+  "synonyms": [
+    "KIAA1853",
+    "NSR100"
+  ],
+  "omim_id": "613103",
+  "description": "serine/arginine repetitive matrix 4 [Source:HGNC Symbol;Acc:HGNC:29389]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15230"
+  ],
+  "domain_descriptions": [
+    "Serine/arginine repetitive matrix protein",
+    "C-terminal",
+    "Serine/Arginine Repetitive Matrix Domain-Containing Protein"
+  ],
+  "molecular_function": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "Serine/arginine repetitive matrix protein",
+    "C-terminal",
+    "Serine/Arginine Repetitive Matrix Domain-Containing Protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15230"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Serine/arginine repetitive matrix protein",
+    "C-terminal",
+    "Serine/Arginine Repetitive Matrix Domain-Containing Protein"
+  ],
+  "ciliary_role": "A subset of these microexons is included exclusively in photoreceptor transcripts, particularly in genes involved in cilia biogenesis and vesicle-mediated transport and this microexon program is regulated by Srrm3, a paralog of the neural microexon regulator Srrm4. Despite the fact that both proteins positively regulate reti  microexons in vitro, only Srrm3 is highly expressed in mature photoreceptors ( 35858306).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SRRM4 is a ciliary gene encoding serine/arginine repetitive matrix 4 [source:hgnc symbol;acc:hgnc:29389]",
+    "functional_summary": "A subset of these microexons is included exclusively in photoreceptor transcripts, particularly in genes involved in cilia biogenesis and vesicle-mediated transport and this microexon program is regul...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

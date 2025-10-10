@@ -1,0 +1,146 @@
+{
+  "gene_name": "NEDD9",
+  "ensembl_id": "ENSG00000111859",
+  "synonyms": [
+    "CAS-L",
+    "CASS2",
+    "HEF1"
+  ],
+  "omim_id": "602265",
+  "description": "neural precursor cell expressed, developmentally down-regulated 9 [Source:HGNC Symbol;Acc:HGNC:7733]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14604",
+    "PF08824",
+    "PF12026",
+    "PF00018"
+  ],
+  "domain_descriptions": [
+    "SH3 domain",
+    "Serine rich protein interaction domain",
+    "CAS family",
+    "C-terminal",
+    "Enhancer of filamentation 1",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "CAS family",
+    "CAS",
+    "serine rich four helix bundle domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "SH3 domain",
+    "Serine rich protein interaction domain",
+    "CAS family",
+    "C-terminal",
+    "Enhancer of filamentation 1",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "CAS family",
+    "CAS",
+    "serine rich four helix bundle domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14604",
+      "PF08824",
+      "PF12026",
+      "PF00018"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "SH3 domain",
+    "Serine rich protein interaction domain",
+    "CAS family",
+    "C-terminal",
+    "Enhancer of filamentation 1",
+    "SH3 domain",
+    "SH3-like domain superfamily",
+    "CAS family",
+    "CAS",
+    "serine rich four helix bundle domain superfamily"
+  ],
+  "ciliary_role": "Transducer of integrin attachment, migration, and anti-apoptotic sig ls at focal adhesions. Promotes activation and stabilisation of AurA, which phosphorylates ciliary HDAC6 to induce disassembly of the primary cilium. (17604723).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEDD9 is a ciliary gene encoding neural precursor cell expressed, developmentally down-regulated 9 [source:hgnc symbol;acc:hgnc:7733]",
+    "functional_summary": "Transducer of integrin attachment, migration, and anti-apoptotic sig ls at focal adhesions. Promotes activation and stabilisation of AurA, which phosphorylates ciliary HDAC6 to induce disassembly of t...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

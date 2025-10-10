@@ -1,0 +1,129 @@
+{
+  "gene_name": "ADCY2",
+  "ensembl_id": "ENSG00000078295",
+  "synonyms": [
+    "AC2",
+    "HBAC2",
+    "KIAA1060"
+  ],
+  "omim_id": "103071",
+  "description": "adenylate cyclase 2 [Source:HGNC Symbol;Acc:HGNC:233]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF06327",
+    "PF16214",
+    "PF00211"
+  ],
+  "domain_descriptions": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06327",
+      "PF16214",
+      "PF00211"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Adenylyl cyclase class-3/4/guanylyl cyclase",
+    "Adenylate cyclase",
+    "conserved domain",
+    "Adenylyl cyclase class-4/guanylyl cyclase",
+    "conserved site",
+    "Nucleotide cyclase",
+    "Adenylate cyclase",
+    "Adenylate cyclase",
+    "N-terminal"
+  ],
+  "ciliary_role": "ADCY2 has localized in ciliary tip, primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADCY2 is a ciliary gene encoding adenylate cyclase 2 [source:hgnc symbol;acc:hgnc:233]",
+    "functional_summary": "ADCY2 has localized in ciliary tip, primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,135 @@
+{
+  "gene_name": "EEF1G",
+  "ensembl_id": "ENSG00000254772",
+  "synonyms": [
+    "EF1G"
+  ],
+  "omim_id": "130593",
+  "description": "eukaryotic translation elongation factor 1 gamma [Source:HGNC Symbol;Acc:HGNC:3213]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02798",
+    "PF00647",
+    "PF00043"
+  ],
+  "domain_descriptions": [
+    "Elongation factor 1B gamma",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "N-terminal",
+    "Glutathione S-transferase",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Elongation factor EF1B gamma",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "Elongation Factors and Glutathione S-transferases"
+  ],
+  "molecular_function": [
+    "Translation",
+    "RTK/FGF signaling"
+  ],
+  "structural_features": [
+    "Elongation factor 1B gamma",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "N-terminal",
+    "Glutathione S-transferase",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Elongation factor EF1B gamma",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "Elongation Factors and Glutathione S-transferases"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02798",
+      "PF00647",
+      "PF00043"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Elongation factor 1B gamma",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "N-terminal",
+    "Glutathione S-transferase",
+    "C-terminal",
+    "Glutathione S-transferase",
+    "C-terminal-like",
+    "Thioredoxin-like superfamily",
+    "Glutathione S-transferase",
+    "C-terminal domain superfamily",
+    "Elongation factor EF1B gamma",
+    "C-terminal domain superfamily",
+    "Glutathione transferase family",
+    "Elongation Factors and Glutathione S-transferases"
+  ],
+  "ciliary_role": "Multiple components of translation machinery are present in the cilia of RG, including ribosome components, RPS23 and RPL19, and translation factors, EIF3C, EEF2 and EEF1G.",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Translation",
+    "RTK/FGF signaling"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling"
+  ],
+  "functional_categories": [
+    "Translation",
+    "RTK/FGF signaling"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "EEF1G is a ciliary gene encoding eukaryotic translation elongation factor 1 gamma [source:hgnc symbol;acc:hgnc:3213]",
+    "functional_summary": "Multiple components of translation machinery are present in the cilia of RG, including ribosome components, RPS23 and RPL19, and translation factors, EIF3C, EEF2 and EEF1G.",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

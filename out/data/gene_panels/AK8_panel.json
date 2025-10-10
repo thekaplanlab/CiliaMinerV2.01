@@ -1,0 +1,111 @@
+{
+  "gene_name": "AK8",
+  "ensembl_id": "ENSG00000165695",
+  "synonyms": [
+    "C9ORF98",
+    "FLJ32704"
+  ],
+  "omim_id": "615365",
+  "description": "adenylate kinase 8 [Source:HGNC Symbol;Acc:HGNC:26526]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00406"
+  ],
+  "domain_descriptions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Adenylate kinase",
+    "active site lid domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Metabolism",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "structural_features": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Adenylate kinase",
+    "active site lid domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00406"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Adenylate kinase/UMP-CMP kinase",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Adenylate kinase",
+    "active site lid domain superfamily"
+  ],
+  "ciliary_role": "Hydrocephalus due to dysfunctio l motile cilia in KO mouse 21746835",
+  "localization": [
+    "flagella",
+    "cilia",
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Metabolism",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "cilia",
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axoneme",
+    "Metabolism",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AK8 is a ciliary gene encoding adenylate kinase 8 [source:hgnc symbol;acc:hgnc:26526]",
+    "functional_summary": "Hydrocephalus due to dysfunctio l motile cilia in KO mouse 21746835",
+    "localization_summary": "Localizes to flagella, cilia, basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

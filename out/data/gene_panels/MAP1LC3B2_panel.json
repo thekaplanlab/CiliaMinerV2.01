@@ -1,0 +1,97 @@
+{
+  "gene_name": "MAP1LC3B2",
+  "ensembl_id": "ENSG00000258102",
+  "synonyms": [
+    "ATG8G"
+  ],
+  "omim_id": "620673",
+  "description": "microtubule associated protein 1 light chain 3 beta 2 [Source:HGNC Symbol;Acc:HGNC:34390]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02991"
+  ],
+  "domain_descriptions": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02991"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Autophagy protein Atg8 ubiquitin-like",
+    "Ubiquitin-like domain superfamily"
+  ],
+  "ciliary_role": "MAP1LC3B2 has localized in ciliary tip, primary cilia.",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MAP1LC3B2 is a ciliary gene encoding microtubule associated protein 1 light chain 3 beta 2 [source:hgnc symbol;acc:hgnc:34390]",
+    "functional_summary": "MAP1LC3B2 has localized in ciliary tip, primary cilia.",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

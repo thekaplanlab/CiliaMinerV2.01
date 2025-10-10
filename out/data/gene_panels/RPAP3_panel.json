@@ -1,0 +1,101 @@
+{
+  "gene_name": "RPAP3",
+  "ensembl_id": "ENSG00000005175",
+  "synonyms": [
+    "FLJ21908",
+    "HSPAGH",
+    "SPAG",
+    "TAH1"
+  ],
+  "omim_id": "611477",
+  "description": "RNA polymerase II associated protein 3 [Source:HGNC Symbol;Acc:HGNC:26151]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13432",
+    "PF13181",
+    "PF00515",
+    "PF13877"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain",
+    "RNA polymerase II-associated protein 3"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain",
+    "RNA polymerase II-associated protein 3"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13432",
+      "PF13181",
+      "PF00515",
+      "PF13877"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "RNA-polymerase II-associated protein 3-like",
+    "C-terminal domain",
+    "RNA polymerase II-associated protein 3"
+  ],
+  "ciliary_role": "RPAP3 has localized in basal body.",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RPAP3 is a ciliary gene encoding rna polymerase ii associated protein 3 [source:hgnc symbol;acc:hgnc:26151]",
+    "functional_summary": "RPAP3 has localized in basal body.",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

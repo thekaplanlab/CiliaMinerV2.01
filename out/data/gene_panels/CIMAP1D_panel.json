@@ -1,0 +1,85 @@
+{
+  "gene_name": "CIMAP1D",
+  "ensembl_id": "ENSG00000181781",
+  "synonyms": [
+    "C19ORF19",
+    "FLJ40059",
+    "ODF3L2"
+  ],
+  "omim_id": "",
+  "description": "CIMAP1 family member D [Source:HGNC Symbol;Acc:HGNC:26841]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07004"
+  ],
+  "domain_descriptions": [
+    "Sperm-tail PG-rich repeat",
+    "Ciliary Microtubule Associated"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Sperm-tail PG-rich repeat",
+    "Ciliary Microtubule Associated"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07004"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sperm-tail PG-rich repeat",
+    "Ciliary Microtubule Associated"
+  ],
+  "ciliary_role": "ankef1a, odf3l2a, and saxo2 have distinct distribution patterns within the kinocilium (37367482).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CIMAP1D is a ciliary gene encoding cimap1 family member d [source:hgnc symbol;acc:hgnc:26841]",
+    "functional_summary": "ankef1a, odf3l2a, and saxo2 have distinct distribution patterns within the kinocilium (37367482).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,108 @@
+{
+  "gene_name": "TPR",
+  "ensembl_id": "ENSG00000047410",
+  "synonyms": [],
+  "omim_id": "189940",
+  "description": "translocated promoter region, nuclear basket protein [Source:HGNC Symbol;Acc:HGNC:12017]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07926"
+  ],
+  "domain_descriptions": [
+    "Nucleoprotein TPR/MLP1"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Nucleoprotein TPR/MLP1"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07926"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Nucleoprotein TPR/MLP1"
+  ],
+  "ciliary_role": "The TPR protein mutant oval/ift88 shows polyglutamylation extending to the tips of cilia ( 17761526).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Actin & cytoskeleton regulation",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TPR is a ciliary gene encoding translocated promoter region, nuclear basket protein [source:hgnc symbol;acc:hgnc:12017]",
+    "functional_summary": "The TPR protein mutant oval/ift88 shows polyglutamylation extending to the tips of cilia ( 17761526).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

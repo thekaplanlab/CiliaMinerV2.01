@@ -1,0 +1,109 @@
+{
+  "gene_name": "DPYSL2",
+  "ensembl_id": "ENSG00000092964",
+  "synonyms": [
+    "CRMP2",
+    "DHPRP2",
+    "DRP-2",
+    "DRP2"
+  ],
+  "omim_id": "602463",
+  "description": "dihydropyrimidinase like 2 [Source:HGNC Symbol;Acc:HGNC:3014]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01979"
+  ],
+  "domain_descriptions": [
+    "Amidohydrolase-related",
+    "Metal-dependent hydrolase",
+    "composite domain superfamily",
+    "Hydantoinase/dihydropyrimidinase",
+    "Metal-dependent hydrolase",
+    "Metallo-dependent Hydrolases Superfamily"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Amidohydrolase-related",
+    "Metal-dependent hydrolase",
+    "composite domain superfamily",
+    "Hydantoinase/dihydropyrimidinase",
+    "Metal-dependent hydrolase",
+    "Metallo-dependent Hydrolases Superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01979"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Amidohydrolase-related",
+    "Metal-dependent hydrolase",
+    "composite domain superfamily",
+    "Hydantoinase/dihydropyrimidinase",
+    "Metal-dependent hydrolase",
+    "Metallo-dependent Hydrolases Superfamily"
+  ],
+  "ciliary_role": "Neuro l protein that guides neurite growth. Also called CRMP-2, is a GSK-3尾 substrate and a microtubule- binding protein. Required for primary cilium biogenesis.",
+  "localization": [
+    "cilia",
+    "Cytosol"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Axoneme",
+    "Cytoskeleton/adhesion links",
+    "Axon guidance & growth",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DPYSL2 is a ciliary gene encoding dihydropyrimidinase like 2 [source:hgnc symbol;acc:hgnc:3014]",
+    "functional_summary": "Neuro l protein that guides neurite growth. Also called CRMP-2, is a GSK-3尾 substrate and a microtubule- binding protein. Required for primary cilium biogenesis.",
+    "localization_summary": "Localizes to cilia, Cytosol",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

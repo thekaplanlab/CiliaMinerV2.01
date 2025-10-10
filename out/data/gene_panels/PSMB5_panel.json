@@ -1,0 +1,144 @@
+{
+  "gene_name": "PSMB5",
+  "ensembl_id": "ENSG00000100804",
+  "synonyms": [
+    "MB1"
+  ],
+  "omim_id": "600306",
+  "description": "proteasome 20S subunit beta 5 [Source:HGNC Symbol;Acc:HGNC:9542]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00227"
+  ],
+  "domain_descriptions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome beta-type subunit",
+    "conserved site",
+    "Proteasome B-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Peptidase T1A",
+    "proteasome beta-subunit"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome beta-type subunit",
+    "conserved site",
+    "Proteasome B-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Peptidase T1A",
+    "proteasome beta-subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00227"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Proteasome",
+    "subunit alpha/beta",
+    "Proteasome beta-type subunit",
+    "conserved site",
+    "Proteasome B-type subunit",
+    "Nucleophile aminohydrolases",
+    "N-terminal",
+    "Peptidase T1A",
+    "proteasome beta-subunit"
+  ],
+  "ciliary_role": "PSMB5 has localized in flagella.",
+  "localization": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "RTK Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "RTK/FGF signaling",
+    "Metabolism",
+    "Viral interactions",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PSMB5 is a ciliary gene encoding proteasome 20s subunit beta 5 [source:hgnc symbol;acc:hgnc:9542]",
+    "functional_summary": "PSMB5 has localized in flagella.",
+    "localization_summary": "Localizes to flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,99 @@
+{
+  "gene_name": "LSR",
+  "ensembl_id": "ENSG00000105699",
+  "synonyms": [
+    "ILDR3",
+    "LISCH7"
+  ],
+  "omim_id": "616582",
+  "description": "lipolysis stimulated lipoprotein receptor [Source:HGNC Symbol;Acc:HGNC:29572]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF05624"
+  ],
+  "domain_descriptions": [
+    "Immunoglobulin domain subtype",
+    "Immunoglobulin-like domain",
+    "LISCH7",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin-like domain-containing protein LISCH7"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Immunoglobulin domain subtype",
+    "Immunoglobulin-like domain",
+    "LISCH7",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin-like domain-containing protein LISCH7"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF05624"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Immunoglobulin domain subtype",
+    "Immunoglobulin-like domain",
+    "LISCH7",
+    "Immunoglobulin-like fold",
+    "Immunoglobulin-like domain superfamily",
+    "Immunoglobulin-like domain-containing protein LISCH7"
+  ],
+  "ciliary_role": "Tight Junction Proteins angulin-1/LSR, YAP, and ASPP2 localized at the midbody and centrosome during cytokinesis in the endometrial cancer cell line Sawano(34944960).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "LSR is a ciliary gene encoding lipolysis stimulated lipoprotein receptor [source:hgnc symbol;acc:hgnc:29572]",
+    "functional_summary": "Tight Junction Proteins angulin-1/LSR, YAP, and ASPP2 localized at the midbody and centrosome during cytokinesis in the endometrial cancer cell line Sawano(34944960).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

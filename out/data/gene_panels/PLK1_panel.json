@@ -1,0 +1,146 @@
+{
+  "gene_name": "PLK1",
+  "ensembl_id": "ENSG00000166851",
+  "synonyms": [
+    "PLK"
+  ],
+  "omim_id": "602098",
+  "description": "polo like kinase 1 [Source:HGNC Symbol;Acc:HGNC:9077]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00659",
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "POLO box domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Second polo-box domain",
+    "First polo-box domain",
+    "Polo-like kinase 1",
+    "catalytic domain",
+    "POLO box domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "POLO box domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Second polo-box domain",
+    "First polo-box domain",
+    "Polo-like kinase 1",
+    "catalytic domain",
+    "POLO box domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00659",
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "POLO box domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "Second polo-box domain",
+    "First polo-box domain",
+    "Polo-like kinase 1",
+    "catalytic domain",
+    "POLO box domain superfamily"
+  ],
+  "ciliary_role": "Regulates of centrosome maturation. Induces the phosphorylation of the transition zone protein nephrocystin-1 and modulates trafficking required for ciliary mainte nce or disassembly (22701722). Interacts with and activates histone deacetylase 6 (HDAC6) to promote ciliary deacetylation and resorption. Plk1 is recruited to the pericentriolar region by PCM1 (23345402).",
+  "localization": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Protein processing & maturation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PLK1 is a ciliary gene encoding polo like kinase 1 [source:hgnc symbol;acc:hgnc:9077]",
+    "functional_summary": "Regulates of centrosome maturation. Induces the phosphorylation of the transition zone protein nephrocystin-1 and modulates trafficking required for ciliary mainte nce or disassembly (22701722). Inter...",
+    "localization_summary": "Localizes to basal body, Centrosome, Cytosol, Microtubules, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

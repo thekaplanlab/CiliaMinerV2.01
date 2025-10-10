@@ -1,0 +1,77 @@
+{
+  "gene_name": "RAX2",
+  "ensembl_id": "ENSG00000173976",
+  "synonyms": [
+    "ARMD6",
+    "CORD11",
+    "MGC15631",
+    "RAXL1"
+  ],
+  "omim_id": "610362",
+  "description": "retina and anterior neural fold homeobox 2 [Source:HGNC Symbol;Acc:HGNC:18286]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Motile cilium & axoneme"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the RAX2 gene cause Cone-Rod Dystrophy (PMID: 25789692).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Motile cilium & axoneme"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Motile cilium & axoneme"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cone-Rod Dystrophy"
+  ],
+  "ciliopathy_type": "Cone-Rod Dystrophy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAX2 is a ciliary gene encoding retina and anterior neural fold homeobox 2 [source:hgnc symbol;acc:hgnc:18286]",
+    "functional_summary": "Mutations in the RAX2 gene cause Cone-Rod Dystrophy (PMID: 25789692).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "Associated with Cone-Rod Dystrophy",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cone-Rod Dystrophy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

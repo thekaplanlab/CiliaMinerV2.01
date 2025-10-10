@@ -1,0 +1,134 @@
+{
+  "gene_name": "HOOK2",
+  "ensembl_id": "ENSG00000095066",
+  "synonyms": [
+    "HK2"
+  ],
+  "omim_id": "607824",
+  "description": "hook microtubule tethering protein 2 [Source:HGNC Symbol;Acc:HGNC:19885]",
+  "protein_complexes": [
+    "HOOK2-PCM1-RAB8A complex"
+  ],
+  "pfam_ids": [
+    "PF19047",
+    "PF05622"
+  ],
+  "domain_descriptions": [
+    "Calponin homology domain",
+    "Hook",
+    "C-terminal",
+    "CH domain superfamily",
+    "HOOK",
+    "N-terminal"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calponin homology domain",
+    "Hook",
+    "C-terminal",
+    "CH domain superfamily",
+    "HOOK",
+    "N-terminal"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF19047",
+      "PF05622"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calponin homology domain",
+    "Hook",
+    "C-terminal",
+    "CH domain superfamily",
+    "HOOK",
+    "N-terminal"
+  ],
+  "ciliary_role": "Hook2 localized to the centrosome through all phases of the cell cycle, its C-term domain directly binds to centriolin/CEP110, and it was demonstrated to contribute to the establishment and mainte nce of centrosomal structure and function (17140400). Hook2 depletion prevents ciliogenesis initiation, and this defect can be overcome by overexpression of murine Hook2 or Rab8a. Hook2 interacts with and regulates the expression of PCM1 that controls Rab8a recruitment to the primary cilium. The existence of a functio l complex containing Rab8a and Hook2 in association with PCM1, where Hook2 could play a role as an adaptor in the attachment of post-Golgi vesicles to the mother centriole during the formation of the ciliary sheath(21998199).",
+  "localization": [
+    "basal body",
+    "Centrosome"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Centrosome"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "HOOK2 is a ciliary gene encoding hook microtubule tethering protein 2 [source:hgnc symbol;acc:hgnc:19885]",
+    "functional_summary": "Hook2 localized to the centrosome through all phases of the cell cycle, its C-term domain directly binds to centriolin/CEP110, and it was demonstrated to contribute to the establishment and mainte nce...",
+    "localization_summary": "Localizes to basal body, Centrosome",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

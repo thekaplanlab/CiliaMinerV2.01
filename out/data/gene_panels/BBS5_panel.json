@@ -1,0 +1,129 @@
+{
+  "gene_name": "BBS5",
+  "ensembl_id": "ENSG00000163093",
+  "synonyms": [
+    "DKFZP762I194"
+  ],
+  "omim_id": "603650",
+  "description": "Bardet-Biedl syndrome 5 [Source:HGNC Symbol;Acc:HGNC:970]",
+  "protein_complexes": [
+    "BBSome"
+  ],
+  "pfam_ids": [
+    "PF07289"
+  ],
+  "domain_descriptions": [
+    "BBSome complex member BBS5",
+    "BBSome complex member BBS5",
+    "PH domain",
+    "BBSome complex member BBS5/sex-determination protein fem-3",
+    "PH-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "BBSome complex member BBS5",
+    "BBSome complex member BBS5",
+    "PH domain",
+    "BBSome complex member BBS5/sex-determination protein fem-3",
+    "PH-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07289"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "BBSome complex member BBS5",
+    "BBSome complex member BBS5",
+    "PH domain",
+    "BBSome complex member BBS5/sex-determination protein fem-3",
+    "PH-like domain superfamily"
+  ],
+  "ciliary_role": "Mutated in Bardet-Biedl syndrome (type 5) OMIM 603650 PMID:15137946. Forms part of BBSome, mediates binding to phospholipids, predomi ntly phosphatidylinositol 3- phosphate 20603001, PMID:17574030, PMID:22072986.",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Bardet–Biedl Syndrome"
+  ],
+  "ciliopathy_type": "Bardet–Biedl Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BBS5 is a ciliary gene encoding bardet-biedl syndrome 5 [source:hgnc symbol;acc:hgnc:970]",
+    "functional_summary": "Mutated in Bardet-Biedl syndrome (type 5) OMIM 603650 PMID:15137946. Forms part of BBSome, mediates binding to phospholipids, predomi ntly phosphatidylinositol 3- phosphate 20603001, PMID:17574030, PM...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "Associated with Bardet–Biedl Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Bardet–Biedl Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

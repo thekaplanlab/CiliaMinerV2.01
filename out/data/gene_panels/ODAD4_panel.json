@@ -1,0 +1,124 @@
+{
+  "gene_name": "ODAD4",
+  "ensembl_id": "ENSG00000204815",
+  "synonyms": [
+    "DKFZP434H0115",
+    "TTC25"
+  ],
+  "omim_id": "617095",
+  "description": "outer dynein arm docking complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:25280]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF13181"
+  ],
+  "domain_descriptions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Outer dynein arm-docking complex subunit 4"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Outer dynein arm-docking complex subunit 4"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF13181"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tetratricopeptide-like helical domain superfamily",
+    "Tetratricopeptide repeat",
+    "Outer dynein arm-docking complex subunit 4"
+  ],
+  "ciliary_role": "Member of the ODA-docking complex in humans and mice. Plays an essential role in the correct function of motile cilia and is therefore important for the development of left-right patterning. Mutations result in PCD and randomisation of left-right body asymmetry. TTC25 deficiency in mice leads to absence of ODA (27486780). May interacts with CFAP53 to facilitate ODA proteins transport into the axoneme and regulate its stable docking with the axonemal  (33347437). TTC25 morphant cells show fewer and extremely shorter cilia. (17961536).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "flagella",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "flagella",
+    "transition zone"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Motors (dynein/kinesin)",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ODAD4 is a ciliary gene encoding outer dynein arm docking complex subunit 4 [source:hgnc symbol;acc:hgnc:25280]",
+    "functional_summary": "Member of the ODA-docking complex in humans and mice. Plays an essential role in the correct function of motile cilia and is therefore important for the development of left-right patterning. Mutations...",
+    "localization_summary": "Localizes to basal body, cilia ,flagella, transition zone",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

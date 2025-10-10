@@ -1,0 +1,105 @@
+{
+  "gene_name": "KNCN",
+  "ensembl_id": "ENSG00000162456",
+  "synonyms": [
+    "FLJ32011",
+    "KINO",
+    "L5"
+  ],
+  "omim_id": "611455",
+  "description": "kinocilin [Source:HGNC Symbol;Acc:HGNC:26488]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF15033"
+  ],
+  "domain_descriptions": [
+    "Kinocilin protein"
+  ],
+  "molecular_function": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinocilin protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF15033"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinocilin protein"
+  ],
+  "ciliary_role": "In mature auditory hair cells, KNCN was present at the cuticular plate, at the base of each stereocilium. KNCN was also expressed by the pillar cells and Deiters cells, that both contain prominent transcellular and apical bundles of  . KNCN localized in microtubule-rich regions, where vesicles and cargos were actively transported (15855039). Deletion of Kncn does not affect kinocilium and stereocilia bundle morphogenesis and mechanotransduction in cochlear hair cells (30254566).",
+  "localization": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "ciliary_process": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Lysosomes"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Transport",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KNCN is a ciliary gene encoding kinocilin [source:hgnc symbol;acc:hgnc:26488]",
+    "functional_summary": "In mature auditory hair cells, KNCN was present at the cuticular plate, at the base of each stereocilium. KNCN was also expressed by the pillar cells and Deiters cells, that both contain prominent tra...",
+    "localization_summary": "Localizes to cilia, Lysosomes",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

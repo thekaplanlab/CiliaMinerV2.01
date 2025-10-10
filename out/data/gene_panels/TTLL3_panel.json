@@ -1,0 +1,110 @@
+{
+  "gene_name": "TTLL3",
+  "ensembl_id": "ENSG00000214021",
+  "synonyms": [
+    "DKFZP434B103",
+    "HOTTL"
+  ],
+  "omim_id": "619195",
+  "description": "tubulin tyrosine ligase like 3 [Source:HGNC Symbol;Acc:HGNC:24483]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF03133"
+  ],
+  "domain_descriptions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF03133"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Tubulin-tyrosine ligase/Tubulin polyglutamylase",
+    "Tubulin tyrosine ligase-like monoglycylase"
+  ],
+  "ciliary_role": "Functions in posttranslatio l glycylation of . Required for either elongation or stability of axonemes (19531357). Depletion leads to shortening and loss of axonemes (21262966). Required for primary cilia formation and control of cell proliferation. Only glycylase expressed in colon (25180231).",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton: microtubule: tubulin",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TTLL3 is a ciliary gene encoding tubulin tyrosine ligase like 3 [source:hgnc symbol;acc:hgnc:24483]",
+    "functional_summary": "Functions in posttranslatio l glycylation of . Required for either elongation or stability of axonemes (19531357). Depletion leads to shortening and loss of axonemes (21262966). Required for primary c...",
+    "localization_summary": "Localizes to basal body, cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

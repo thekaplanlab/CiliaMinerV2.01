@@ -1,0 +1,88 @@
+{
+  "gene_name": "SPMAP2",
+  "ensembl_id": "ENSG00000105549",
+  "synonyms": [
+    "CT56",
+    "THEG",
+    "THEG1"
+  ],
+  "omim_id": "609503",
+  "description": "sperm microtubule associated protein 2 [Source:HGNC Symbol;Acc:HGNC:13706]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14912"
+  ],
+  "domain_descriptions": [
+    "Testicular haploid expressed repeat",
+    "Sperm microtubule associated protein 2-like"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Testicular haploid expressed repeat",
+    "Sperm microtubule associated protein 2-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14912"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Testicular haploid expressed repeat",
+    "Sperm microtubule associated protein 2-like"
+  ],
+  "ciliary_role": "THEG has localized in flagella.",
+  "localization": [
+    "flagella"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SPMAP2 is a ciliary gene encoding sperm microtubule associated protein 2 [source:hgnc symbol;acc:hgnc:13706]",
+    "functional_summary": "THEG has localized in flagella.",
+    "localization_summary": "Localizes to flagella",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

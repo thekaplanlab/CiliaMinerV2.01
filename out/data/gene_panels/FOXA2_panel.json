@@ -1,0 +1,122 @@
+{
+  "gene_name": "FOXA2",
+  "ensembl_id": "ENSG00000125798",
+  "synonyms": [
+    "HNF3B"
+  ],
+  "omim_id": "600288",
+  "description": "forkhead box A2 [Source:HGNC Symbol;Acc:HGNC:5022]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF09354",
+    "PF08430",
+    "PF00250"
+  ],
+  "domain_descriptions": [
+    "Fork head domain",
+    "Fork-head N-terminal",
+    "Fork head domain conserved site1",
+    "Forkhead box protein",
+    "C-terminal",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box domain-containing protein"
+  ],
+  "molecular_function": [
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Fork head domain",
+    "Fork-head N-terminal",
+    "Fork head domain conserved site1",
+    "Forkhead box protein",
+    "C-terminal",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box domain-containing protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF09354",
+      "PF08430",
+      "PF00250"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Fork head domain",
+    "Fork-head N-terminal",
+    "Fork head domain conserved site1",
+    "Forkhead box protein",
+    "C-terminal",
+    "Fork head domain conserved site 2",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "Forkhead box domain-containing protein"
+  ],
+  "ciliary_role": "Foxa1, Foxa2, and Foxj1 were dy mically regulated after injury and restoration of the bronchiolar epithelium, the highest levels of expression being observed in ciliated cells and their derivatives early in the repair process ( 16239640).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Insulin Signaling",
+    "Hormone Signaling"
+  ],
+  "functional_categories": [
+    "Hormone & insulin signaling",
+    "Cell migration & adhesion",
+    "Transcription regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FOXA2 is a ciliary gene encoding forkhead box a2 [source:hgnc symbol;acc:hgnc:5022]",
+    "functional_summary": "Foxa1, Foxa2, and Foxj1 were dy mically regulated after injury and restoration of the bronchiolar epithelium, the highest levels of expression being observed in ciliated cells and their derivatives ea...",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

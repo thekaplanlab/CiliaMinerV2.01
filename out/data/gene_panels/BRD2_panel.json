@@ -1,0 +1,73 @@
+{
+  "gene_name": "BRD2",
+  "ensembl_id": "ENSG00000235307",
+  "synonyms": [
+    "BRD2-IT1",
+    "D6S113E",
+    "FSHRG1",
+    "KIAA9001",
+    "NAT",
+    "RING3"
+  ],
+  "omim_id": "601540",
+  "description": "bromodomain containing 2 [Source:HGNC Symbol;Acc:HGNC:1103]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the BRD2 gene cause Juvenile Myoclonic Epilepsy (PMID: 22787611).",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Juvenile Myoclonic Epilepsy"
+  ],
+  "ciliopathy_type": "Juvenile Myoclonic Epilepsy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "BRD2 is a ciliary gene encoding bromodomain containing 2 [source:hgnc symbol;acc:hgnc:1103]",
+    "functional_summary": "Mutations in the BRD2 gene cause Juvenile Myoclonic Epilepsy (PMID: 22787611).",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "Associated with Juvenile Myoclonic Epilepsy",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Juvenile Myoclonic Epilepsy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

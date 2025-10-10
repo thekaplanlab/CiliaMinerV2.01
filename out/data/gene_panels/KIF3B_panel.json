@@ -1,0 +1,147 @@
+{
+  "gene_name": "KIF3B",
+  "ensembl_id": "ENSG00000101350",
+  "synonyms": [
+    "FLA8",
+    "KIAA0359",
+    "KLP-11"
+  ],
+  "omim_id": "603754",
+  "description": "kinesin family member 3B [Source:HGNC Symbol;Acc:HGNC:6320]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00225"
+  ],
+  "domain_descriptions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "molecular_function": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00225"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Kinesin motor domain",
+    "Kinesin motor domain",
+    "conserved site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Kinesin-like protein",
+    "Kinesin motor domain superfamily"
+  ],
+  "ciliary_role": "Essential for ciliogenesis and the left鈥搑ight asymmetry through intraciliary transportation of materials for ciliogenesis of motile cilia that produces the nodal flow (9865700). Its phosphorylation inhibits IFT entry and flagellar lengthening restricting flagellar assembly (30057303).",
+  "localization": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Endosome"
+  ],
+  "ciliary_process": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Endosome"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Motile cilium",
+    "Motors (dynein/kinesin)",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "KIF3B is a ciliary gene encoding kinesin family member 3b [source:hgnc symbol;acc:hgnc:6320]",
+    "functional_summary": "Essential for ciliogenesis and the left鈥搑ight asymmetry through intraciliary transportation of materials for ciliogenesis of motile cilia that produces the nodal flow (9865700). Its phosphorylation in...",
+    "localization_summary": "Localizes to cilia, Centrosome, Cytosol, Endosome",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,153 @@
+{
+  "gene_name": "ADAM17",
+  "ensembl_id": "ENSG00000151694",
+  "synonyms": [
+    "CD156B",
+    "CSVP",
+    "TACE"
+  ],
+  "omim_id": "603639",
+  "description": "ADAM metallopeptidase domain 17 [Source:HGNC Symbol;Acc:HGNC:195]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF16698",
+    "PF00200",
+    "PF13688",
+    "PF13574"
+  ],
+  "domain_descriptions": [
+    "Peptidase M12B",
+    "ADAM/reprolysin",
+    "Disintegrin domain",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "ADAM17",
+    "membrane-proximal domain",
+    "ADAM10/ADAM17 catalytic domain",
+    "Disintegrin domain superfamily",
+    "Disintegrin and Metalloproteinase Domain-Containing"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Peptidase M12B",
+    "ADAM/reprolysin",
+    "Disintegrin domain",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "ADAM17",
+    "membrane-proximal domain",
+    "ADAM10/ADAM17 catalytic domain",
+    "Disintegrin domain superfamily",
+    "Disintegrin and Metalloproteinase Domain-Containing"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF16698",
+      "PF00200",
+      "PF13688",
+      "PF13574"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Peptidase M12B",
+    "ADAM/reprolysin",
+    "Disintegrin domain",
+    "Metallopeptidase",
+    "catalytic domain superfamily",
+    "ADAM17",
+    "membrane-proximal domain",
+    "ADAM10/ADAM17 catalytic domain",
+    "Disintegrin domain superfamily",
+    "Disintegrin and Metalloproteinase Domain-Containing"
+  ],
+  "ciliary_role": "Also known as tumor necrosis factor (TNF)-α-converting enzyme (TACE). Metalloprotease, cleaves Notch receptor when glycosylated by GALNT11 to control formation of motile and non-motile cilia at the node. Heterotaxy gene (24226769). Cleaves ACE2, found in respiratory cilia membrane (15983030)",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Single-pass transmembrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "ECM & connective tissue",
+    "Axon guidance & growth",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "ADAM17 is a ciliary gene encoding adam metallopeptidase domain 17 [source:hgnc symbol;acc:hgnc:195]",
+    "functional_summary": "Also known as tumor necrosis factor (TNF)-α-converting enzyme (TACE). Metalloprotease, cleaves Notch receptor when glycosylated by GALNT11 to control formation of motile and non-motile cilia at the no...",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

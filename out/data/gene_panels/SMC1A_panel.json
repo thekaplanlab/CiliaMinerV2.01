@@ -1,0 +1,125 @@
+{
+  "gene_name": "SMC1A",
+  "ensembl_id": "ENSG00000072501",
+  "synonyms": [
+    "DXS423E",
+    "KIAA0178",
+    "SB1.8",
+    "SMC1L1",
+    "SMCB"
+  ],
+  "omim_id": "300040",
+  "description": "structural maintenance of chromosomes 1A [Source:HGNC Symbol;Acc:HGNC:11111]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02463",
+    "PF06470"
+  ],
+  "domain_descriptions": [
+    "RecF/RecN/SMC",
+    "N-terminal",
+    "SMCs flexible hinge",
+    "Structural maintenance of chromosomes protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Smc1",
+    "ATP-binding cassette domain",
+    "SMCs flexible hinge superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "RecF/RecN/SMC",
+    "N-terminal",
+    "SMCs flexible hinge",
+    "Structural maintenance of chromosomes protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Smc1",
+    "ATP-binding cassette domain",
+    "SMCs flexible hinge superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02463",
+      "PF06470"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "RecF/RecN/SMC",
+    "N-terminal",
+    "SMCs flexible hinge",
+    "Structural maintenance of chromosomes protein",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Smc1",
+    "ATP-binding cassette domain",
+    "SMCs flexible hinge superfamily"
+  ],
+  "ciliary_role": "SMC1 is a centrosomal protein, suggesting possible involvement of SMC1 in centrosome/basal body-related functions, such as organization of dy mic arrays of  and ciliary formation (18515072, 16043481).",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Cornelia de Lange Syndrome"
+  ],
+  "ciliopathy_type": "Cornelia de Lange Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SMC1A is a ciliary gene encoding structural maintenance of chromosomes 1a [source:hgnc symbol;acc:hgnc:11111]",
+    "functional_summary": "SMC1 is a centrosomal protein, suggesting possible involvement of SMC1 in centrosome/basal body-related functions, such as organization of dy mic arrays of  and ciliary formation (18515072, 16043481).",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "Associated with Cornelia de Lange Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Cornelia de Lange Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

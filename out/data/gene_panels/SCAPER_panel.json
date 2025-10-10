@@ -1,0 +1,100 @@
+{
+  "gene_name": "SCAPER",
+  "ensembl_id": "ENSG00000140386",
+  "synonyms": [
+    "ZFP291",
+    "ZNF291"
+  ],
+  "omim_id": "611611",
+  "description": "S-phase cyclin A associated protein in the ER [Source:HGNC Symbol;Acc:HGNC:13081]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12874",
+    "PF16501"
+  ],
+  "domain_descriptions": [
+    "Matrin/U1-C-like",
+    "C2H2-type zinc finger",
+    "Zinc finger C2H2-type",
+    "S phase cyclin A-associated protein in the endoplasmic reticulum",
+    "N-terminal",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole"
+  ],
+  "structural_features": [
+    "Matrin/U1-C-like",
+    "C2H2-type zinc finger",
+    "Zinc finger C2H2-type",
+    "S phase cyclin A-associated protein in the endoplasmic reticulum",
+    "N-terminal",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12874",
+      "PF16501"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Matrin/U1-C-like",
+    "C2H2-type zinc finger",
+    "Zinc finger C2H2-type",
+    "S phase cyclin A-associated protein in the endoplasmic reticulum",
+    "N-terminal",
+    "Zinc finger C2H2 superfamily"
+  ],
+  "ciliary_role": "Varians have been associated with intellectual disability and autosomal recessive RP. Mutations affect cilia length, suggesting a rol for SCAPER in restricting cilia elongation or enhancing cilia resorption (30723319). Although it is ubiquitously expressed in human tissues, deleterious mutations appear to affect only reti  and brain. In the reti , SCAPER appears to be important for photoreceptor function and/or mainte nce rather than for development (28794130).",
+  "localization": [
+    "basal body",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SCAPER is a ciliary gene encoding s-phase cyclin a associated protein in the er [source:hgnc symbol;acc:hgnc:13081]",
+    "functional_summary": "Varians have been associated with intellectual disability and autosomal recessive RP. Mutations affect cilia length, suggesting a rol for SCAPER in restricting cilia elongation or enhancing cilia reso...",
+    "localization_summary": "Localizes to basal body, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

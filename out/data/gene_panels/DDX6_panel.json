@@ -1,0 +1,84 @@
+{
+  "gene_name": "DDX6",
+  "ensembl_id": "ENSG00000110367",
+  "synonyms": [
+    "HLR2",
+    "RCK",
+    "RCK/P54"
+  ],
+  "omim_id": "600326",
+  "description": "DEAD-box helicase 6 [Source:HGNC Symbol;Acc:HGNC:2747]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cilia–cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "CCHCR1 recruits P-body proteins to the centrosome through interacting with EDC4 via its N-terminal coiled-coil domain. Depletion of either CCHCR1 or P-body components EDC4 and DEAD-Box Helicase 6 (DDX6) impairs ciliogenesis(PMID: 40883668).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "P-body"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cilia–cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "P-body"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cilia–cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DDX6 is a ciliary gene encoding dead-box helicase 6 [source:hgnc symbol;acc:hgnc:2747]",
+    "functional_summary": "CCHCR1 recruits P-body proteins to the centrosome through interacting with EDC4 via its N-terminal coiled-coil domain. Depletion of either CCHCR1 or P-body components EDC4 and DEAD-Box Helicase 6 (DDX...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, P-body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

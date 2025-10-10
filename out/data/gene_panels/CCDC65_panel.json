@@ -1,0 +1,130 @@
+{
+  "gene_name": "CCDC65",
+  "ensembl_id": "ENSG00000139537",
+  "synonyms": [
+    "CFAP250",
+    "CILD27",
+    "DRC2",
+    "FAP250",
+    "FLJ35732",
+    "NYD-SP28"
+  ],
+  "omim_id": "611088",
+  "description": "coiled-coil domain containing 65 [Source:HGNC Symbol;Acc:HGNC:29937]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14772"
+  ],
+  "domain_descriptions": [
+    "Dynein regulatory complex protein 1/2",
+    "N-terminal",
+    "Dynein regulatory complex protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Dynein regulatory complex protein 1/2",
+    "N-terminal",
+    "Dynein regulatory complex protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14772"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Dynein regulatory complex protein 1/2",
+    "N-terminal",
+    "Dynein regulatory complex protein"
+  ],
+  "ciliary_role": "This gene encodes a protein that is required for proper cilia motility and regulation of dynein activity (24094744). Assembly and mainte nce of the protein components of the nexin- dynein regulatory complex (N- DRC) and thus the regulation of cilia motion. Maintaince of the integrity of N-DRC required for regulation of dynein-driven microtubule sliding (23991085, 29167384).",
+  "localization": [
+    "cilia",
+    "basal body",
+    "transition zone"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "transition zone"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Axoneme",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Primary Ciliary Dyskinesia"
+  ],
+  "ciliopathy_type": "Primary Ciliary Dyskinesia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CCDC65 is a ciliary gene encoding coiled-coil domain containing 65 [source:hgnc symbol;acc:hgnc:29937]",
+    "functional_summary": "This gene encodes a protein that is required for proper cilia motility and regulation of dynein activity (24094744). Assembly and mainte nce of the protein components of the nexin- dynein regulatory c...",
+    "localization_summary": "Localizes to cilia , basal body , transition zone",
+    "disease_summary": "Associated with Primary Ciliary Dyskinesia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Primary Ciliary Dyskinesia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

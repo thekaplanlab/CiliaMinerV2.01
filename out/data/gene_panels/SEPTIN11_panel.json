@@ -1,0 +1,91 @@
+{
+  "gene_name": "SEPTIN11",
+  "ensembl_id": "ENSG00000138758",
+  "synonyms": [
+    "FLJ10849",
+    "SEPT11",
+    "SEPTIN-11"
+  ],
+  "omim_id": "612887",
+  "description": "septin 11 [Source:HGNC Symbol;Acc:HGNC:25589]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00735"
+  ],
+  "domain_descriptions": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "molecular_function": [
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00735"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Septin",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Septin-type guanine nucleotide-binding (G) domain"
+  ],
+  "ciliary_role": "Septins are either enriched at the apical cell cortex including the ciliary bases (septin-2, -4, -6, and -7), or show axonemal staining (septin-2, -7, -9 and -11) or specifically localize to ciliary sub-compartments (septin-8 and -9)(24317785).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Actin & cytoskeleton regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SEPTIN11 is a ciliary gene encoding septin 11 [source:hgnc symbol;acc:hgnc:25589]",
+    "functional_summary": "Septins are either enriched at the apical cell cortex including the ciliary bases (septin-2, -4, -6, and -7), or show axonemal staining (septin-2, -7, -9 and -11) or specifically localize to ciliary s...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,73 @@
+{
+  "gene_name": "DNAJB11",
+  "ensembl_id": "ENSG00000090520",
+  "synonyms": [
+    "EDJ",
+    "ERDJ3",
+    "HEDJ"
+  ],
+  "omim_id": "611341",
+  "description": "DnaJ heat shock protein family (Hsp40) member B11 [Source:HGNC Symbol;Acc:HGNC:14889]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Mutations in the DNAJB11 gene cause Renal-hepatic-pancreatic Dysplasia and Autosomal Dominant Polycystic Kidney Disease (PMID: 33129895, 29706351).",
+  "localization": [
+    "Ciliary associated gene",
+    "Endoplasmic",
+    "Nucleus"
+  ],
+  "ciliary_process": [],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Endoplasmic",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Autosomal Dominant Polycystic Kidney Disease",
+    "Renal-hepatic-pancreatic Dysplasia"
+  ],
+  "ciliopathy_type": "Autosomal Dominant Polycystic Kidney Disease, Renal-hepatic-pancreatic Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "DNAJB11 is a ciliary gene encoding dnaj heat shock protein family (hsp40) member b11 [source:hgnc symbol;acc:hgnc:14889]",
+    "functional_summary": "Mutations in the DNAJB11 gene cause Renal-hepatic-pancreatic Dysplasia and Autosomal Dominant Polycystic Kidney Disease (PMID: 33129895, 29706351).",
+    "localization_summary": "Localizes to Ciliary associated gene, Endoplasmic, Nucleus",
+    "disease_summary": "Associated with Autosomal Dominant Polycystic Kidney Disease, Renal-hepatic-pancreatic Dysplasia",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Autosomal Dominant Polycystic Kidney Disease, Renal-hepatic-pancreatic Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

@@ -1,0 +1,134 @@
+{
+  "gene_name": "MLH1",
+  "ensembl_id": "ENSG00000076242",
+  "synonyms": [
+    "COCA2",
+    "FCC2",
+    "HNPCC",
+    "HNPCC2",
+    "MLH-1"
+  ],
+  "omim_id": "120436",
+  "description": "mutL homolog 1 [Source:HGNC Symbol;Acc:HGNC:7127]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01119",
+    "PF16413",
+    "PF13589"
+  ],
+  "domain_descriptions": [
+    "DNA mismatch repair protein MutL/Mlh/PMS",
+    "DNA mismatch repair protein",
+    "S5 domain 2-like",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "DNA mismatch repair",
+    "conserved site",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "DNA mismatch repair protein Mlh1",
+    "C-terminal",
+    "Histidine kinase/HSP90-like ATPase superfamily",
+    "DNA mismatch repair protein MutL/Mlh/Pms-like"
+  ],
+  "molecular_function": [
+    "T cell biology",
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "DNA mismatch repair protein MutL/Mlh/PMS",
+    "DNA mismatch repair protein",
+    "S5 domain 2-like",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "DNA mismatch repair",
+    "conserved site",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "DNA mismatch repair protein Mlh1",
+    "C-terminal",
+    "Histidine kinase/HSP90-like ATPase superfamily",
+    "DNA mismatch repair protein MutL/Mlh/Pms-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01119",
+      "PF16413",
+      "PF13589"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA mismatch repair protein MutL/Mlh/PMS",
+    "DNA mismatch repair protein",
+    "S5 domain 2-like",
+    "Small ribosomal subunit protein uS5 domain 2-type fold",
+    "subgroup",
+    "DNA mismatch repair",
+    "conserved site",
+    "Ribosomal protein uS5 domain 2-type superfamily",
+    "DNA mismatch repair protein Mlh1",
+    "C-terminal",
+    "Histidine kinase/HSP90-like ATPase superfamily",
+    "DNA mismatch repair protein MutL/Mlh/Pms-like"
+  ],
+  "ciliary_role": "Mlh1 co-localized with α-tubulin sig l around separating micronuclei during the crescent stage ( 29095884)",
+  "localization": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "T cell biology",
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "T cell biology",
+    "Immune regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MLH1 is a ciliary gene encoding mutl homolog 1 [source:hgnc symbol;acc:hgnc:7127]",
+    "functional_summary": "Mlh1 co-localized with α-tubulin sig l around separating micronuclei during the crescent stage ( 29095884)",
+    "localization_summary": "Localizes to Ciliary associated gene, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

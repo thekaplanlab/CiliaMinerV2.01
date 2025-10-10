@@ -1,0 +1,103 @@
+{
+  "gene_name": "TUBGCP5",
+  "ensembl_id": "ENSG00000276856; ENSG00000280807; ENSG00000275835",
+  "synonyms": [
+    "GCP5",
+    "KIAA1899"
+  ],
+  "omim_id": "608147",
+  "description": "tubulin gamma complex component 5 [Source:HGNC Symbol;Acc:HGNC:18600]",
+  "protein_complexes": [
+    "Gamma-tubulin complex"
+  ],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Also known as GCP5. Required for the initial assembly of gamma-tubulin ring complexes and for their stabilization after assembly. These complexes are used as templates for the longitudi l association with 伪/尾-tubulin dimers during the nucleation process (29514869, 32317396). Associates with gamma-tubulin small complexes, GCP4 and GCP6 (21725292).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "transition zone",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Transition zone",
+    "Cytoskeleton: microtubule: tubulin",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TUBGCP5 is a ciliary gene encoding tubulin gamma complex component 5 [source:hgnc symbol;acc:hgnc:18600]",
+    "functional_summary": "Also known as GCP5. Required for the initial assembly of gamma-tubulin ring complexes and for their stabilization after assembly. These complexes are used as templates for the longitudi l association ...",
+    "localization_summary": "Localizes to basal body, cilia , transition zone, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

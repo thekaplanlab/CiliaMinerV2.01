@@ -1,0 +1,102 @@
+{
+  "gene_name": "RABL6",
+  "ensembl_id": "ENSG00000196642",
+  "synonyms": [
+    "BA216L13.9",
+    "C9ORF86",
+    "FLJ10101",
+    "FLJ13045",
+    "PARF",
+    "PP8875",
+    "RBEL1"
+  ],
+  "omim_id": "610615",
+  "description": "RAB, member RAS oncogene family like 6 [Source:HGNC Symbol;Acc:HGNC:24703]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF08477",
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab-like protein 6",
+    "Small GTPase"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "structural_features": [
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab-like protein 6",
+    "Small GTPase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF08477",
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Rab-like protein 6",
+    "Small GTPase"
+  ],
+  "ciliary_role": "RABL6 has localized in cilia.",
+  "localization": [
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RABL6 is a ciliary gene encoding rab, member ras oncogene family like 6 [source:hgnc symbol;acc:hgnc:24703]",
+    "functional_summary": "RABL6 has localized in cilia.",
+    "localization_summary": "Localizes to cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

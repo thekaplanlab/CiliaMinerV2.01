@@ -1,0 +1,103 @@
+{
+  "gene_name": "CEP135",
+  "ensembl_id": "ENSG00000174799",
+  "synonyms": [
+    "CEP4",
+    "FLJ13621",
+    "KIAA0635"
+  ],
+  "omim_id": "611423",
+  "description": "centrosomal protein 135 [Source:HGNC Symbol;Acc:HGNC:29086]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "CEP135/Bld10 promotes the assembly and stability of the centriolar microtubule wall. Induces the formation of protofilament-based ring-like structures, binding directly to tubulin, protofilaments, and  (27477386). Required for centriole conversion to centrosome (26595382). Plays an important role in the assembly of centriole/basal bodies and stabilisation of , maintaining basal body integrity (23810536, 23115304, 22898782). Knockdown of CEP135 leads to disorganised interphase and mitotic spindle  (22521416)",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Microtubules"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CEP135 is a ciliary gene encoding centrosomal protein 135 [source:hgnc symbol;acc:hgnc:29086]",
+    "functional_summary": "CEP135/Bld10 promotes the assembly and stability of the centriolar microtubule wall. Induces the formation of protofilament-based ring-like structures, binding directly to tubulin, protofilaments, and...",
+    "localization_summary": "Localizes to basal body,cilia, Centrosome, Cytosol, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.50",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

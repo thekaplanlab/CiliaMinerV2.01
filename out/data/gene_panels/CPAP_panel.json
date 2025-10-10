@@ -1,0 +1,125 @@
+{
+  "gene_name": "CPAP",
+  "ensembl_id": "ENSG00000151849",
+  "synonyms": [
+    "BM032",
+    "CENPJ",
+    "LAP",
+    "LIP1",
+    "MCPH6",
+    "SAS-4",
+    "SASS4",
+    "SCKL4"
+  ],
+  "omim_id": "609279",
+  "description": "centrosome assembly and centriole elongation protein [Source:HGNC Symbol;Acc:HGNC:17272]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF07202"
+  ],
+  "domain_descriptions": [
+    "Centromere protein J",
+    "C-terminal domain",
+    "TCP10L/CENPJ",
+    "T-complex protein 10",
+    "C-terminal domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Centromere protein J",
+    "C-terminal domain",
+    "TCP10L/CENPJ",
+    "T-complex protein 10",
+    "C-terminal domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF07202"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Centromere protein J",
+    "C-terminal domain",
+    "TCP10L/CENPJ",
+    "T-complex protein 10",
+    "C-terminal domain superfamily"
+  ],
+  "ciliary_role": "Acts as a scaffold for the cilium disassembly complex, which includes Nde1, Aurora A, and OFD1, which is recruited to the ciliary base for timely cilium disassembly, plays a role in NPC proliferation, cilia formation, controlling the cilium axoneme and BB structure, regulates centriole duplication and elongation (30626697). Promotes the extension of the centriolar cylinder, presumably via its ability to recruit tubulin to the  scent structure, studies propose that functions as a scaffold for tubulin addition (19481458).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Transcription regulation",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CPAP is a ciliary gene encoding centrosome assembly and centriole elongation protein [source:hgnc symbol;acc:hgnc:17272]",
+    "functional_summary": "Acts as a scaffold for the cilium disassembly complex, which includes Nde1, Aurora A, and OFD1, which is recruited to the ciliary base for timely cilium disassembly, plays a role in NPC proliferation,...",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

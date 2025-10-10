@@ -1,0 +1,135 @@
+{
+  "gene_name": "AHR",
+  "ensembl_id": "ENSG00000106546",
+  "synonyms": [
+    "BHLHE76"
+  ],
+  "omim_id": "600253",
+  "description": "aryl hydrocarbon receptor [Source:HGNC Symbol;Acc:HGNC:348]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00010",
+    "PF00989",
+    "PF08447"
+  ],
+  "domain_descriptions": [
+    "PAS domain",
+    "PAC motif",
+    "Myc-type",
+    "basic helix-loop-helix (bHLH) domain",
+    "PAS fold-3",
+    "PAS fold",
+    "Aryl hydrocarbon receptor",
+    "basic helix-loop-helix domain",
+    "PAS domain superfamily",
+    "Helix-loop-helix DNA-binding domain superfamily",
+    "Aryl hydrocarbon receptor/Aryl hydrocarbon receptor repressor"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "structural_features": [
+    "PAS domain",
+    "PAC motif",
+    "Myc-type",
+    "basic helix-loop-helix (bHLH) domain",
+    "PAS fold-3",
+    "PAS fold",
+    "Aryl hydrocarbon receptor",
+    "basic helix-loop-helix domain",
+    "PAS domain superfamily",
+    "Helix-loop-helix DNA-binding domain superfamily",
+    "Aryl hydrocarbon receptor/Aryl hydrocarbon receptor repressor"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00010",
+      "PF00989",
+      "PF08447"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PAS domain",
+    "PAC motif",
+    "Myc-type",
+    "basic helix-loop-helix (bHLH) domain",
+    "PAS fold-3",
+    "PAS fold",
+    "Aryl hydrocarbon receptor",
+    "basic helix-loop-helix domain",
+    "PAS domain superfamily",
+    "Helix-loop-helix DNA-binding domain superfamily",
+    "Aryl hydrocarbon receptor/Aryl hydrocarbon receptor repressor"
+  ],
+  "ciliary_role": "AhR deficiency affects both multiciliated cell commitment and cilia organization. In the presence of a Notch inhibitor, AhR agonists are still u ble to trigger Ccno induction, indicating that Notch sig ls are not sufficient to provide the specificity for AhR-induced ciliogenesis ( 27554288).",
+  "localization": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Immune regulation",
+    "Metabolism",
+    "Transcription regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "AHR is a ciliary gene encoding aryl hydrocarbon receptor [source:hgnc symbol;acc:hgnc:348]",
+    "functional_summary": "AhR deficiency affects both multiciliated cell commitment and cilia organization. In the presence of a Notch inhibitor, AhR agonists are still u ble to trigger Ccno induction, indicating that Notch si...",
+    "localization_summary": "Localizes to Ciliary associated gene, Cytosol, Nucleus",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

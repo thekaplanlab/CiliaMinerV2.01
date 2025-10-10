@@ -1,0 +1,103 @@
+{
+  "gene_name": "PIERCE1",
+  "ensembl_id": "ENSG00000160345",
+  "synonyms": [
+    "C9ORF116",
+    "MGC29761",
+    "RBEST47"
+  ],
+  "omim_id": "614502",
+  "description": "piercer of microtubule wall 1 [Source:HGNC Symbol;Acc:HGNC:28435]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF14892"
+  ],
+  "domain_descriptions": [
+    "Piercer of microtubule wall 1/2"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Piercer of microtubule wall 1/2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF14892"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Piercer of microtubule wall 1/2"
+  ],
+  "ciliary_role": "CCDC113, CCDC96, C4orf47, CCDC38, C7orf31, CCDC146, CCDC81 and CCDC116 as centrosome-associated proteins(25074808).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Cytoskeleton/adhesion links",
+    "T cell biology",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Reproduction & sperm",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PIERCE1 is a ciliary gene encoding piercer of microtubule wall 1 [source:hgnc symbol;acc:hgnc:28435]",
+    "functional_summary": "CCDC113, CCDC96, C4orf47, CCDC38, C7orf31, CCDC146, CCDC81 and CCDC116 as centrosome-associated proteins(25074808).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

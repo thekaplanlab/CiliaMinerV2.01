@@ -1,0 +1,133 @@
+{
+  "gene_name": "MYO3B",
+  "ensembl_id": "ENSG00000071909",
+  "synonyms": [],
+  "omim_id": "610040",
+  "description": "myosin IIIB [Source:HGNC Symbol;Acc:HGNC:15576]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00069",
+    "PF00063",
+    "PF00612"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Myosin head",
+    "motor domain-like",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Class III myosin",
+    "motor domain",
+    "Kinesin motor domain superfamily",
+    "Myosin-III family with kinase activity",
+    "IQ motif",
+    "EF-hand binding site"
+  ],
+  "molecular_function": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Myosin head",
+    "motor domain-like",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Class III myosin",
+    "motor domain",
+    "Kinesin motor domain superfamily",
+    "Myosin-III family with kinase activity",
+    "IQ motif",
+    "EF-hand binding site"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069",
+      "PF00063",
+      "PF00612"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Myosin head",
+    "motor domain-like",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "Class III myosin",
+    "motor domain",
+    "Kinesin motor domain superfamily",
+    "Myosin-III family with kinase activity",
+    "IQ motif",
+    "EF-hand binding site"
+  ],
+  "ciliary_role": "Mediates movement along actin filaments in the cell (26098909). Prevents photoreceptor loss of function caused by Myo3A defects, as it could provide functio l redundancy for Myo3A (19332056 ).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Cytoskeleton/adhesion links",
+    "Actin & cytoskeleton regulation",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MYO3B is a ciliary gene encoding myosin iiib [source:hgnc symbol;acc:hgnc:15576]",
+    "functional_summary": "Mediates movement along actin filaments in the cell (26098909). Prevents photoreceptor loss of function caused by Myo3A defects, as it could provide functio l redundancy for Myo3A (19332056 ).",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

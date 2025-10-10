@@ -1,0 +1,131 @@
+{
+  "gene_name": "PDE6A",
+  "ensembl_id": "ENSG00000132915",
+  "synonyms": [
+    "PDEA",
+    "RP43"
+  ],
+  "omim_id": "180071",
+  "description": "phosphodiesterase 6A [Source:HGNC Symbol;Acc:HGNC:8785]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF01590",
+    "PF00233"
+  ],
+  "domain_descriptions": [
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain",
+    "GAF domain",
+    "HD/PDEase domain",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "conserved site",
+    "GAF-like domain superfamily",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain superfamily"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain",
+    "GAF domain",
+    "HD/PDEase domain",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "conserved site",
+    "GAF-like domain superfamily",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF01590",
+      "PF00233"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain",
+    "GAF domain",
+    "HD/PDEase domain",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "conserved site",
+    "GAF-like domain superfamily",
+    "3'5'-cyclic nucleotide phosphodiesterase",
+    "catalytic domain superfamily"
+  ],
+  "ciliary_role": "Also known as RP43. Mutations have been associated with autosomal recessive retinitis pigmentosa (26321862, 29118501), and increase intracellular cGMP triggering cell death most likely through a calcium/sodium imbalance (30998820).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Motile cilium",
+    "Non-motile cilium / primary cilium",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Retinitis Pigmentosa"
+  ],
+  "ciliopathy_type": "Retinitis Pigmentosa",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PDE6A is a ciliary gene encoding phosphodiesterase 6a [source:hgnc symbol;acc:hgnc:8785]",
+    "functional_summary": "Also known as RP43. Mutations have been associated with autosomal recessive retinitis pigmentosa (26321862, 29118501), and increase intracellular cGMP triggering cell death most likely through a calci...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "Associated with Retinitis Pigmentosa",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Retinitis Pigmentosa",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

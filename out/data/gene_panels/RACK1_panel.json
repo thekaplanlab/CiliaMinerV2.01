@@ -1,0 +1,137 @@
+{
+  "gene_name": "RACK1",
+  "ensembl_id": "ENSG00000204628",
+  "synonyms": [
+    "GNB2-RS1",
+    "GNB2L1",
+    "H12.3"
+  ],
+  "omim_id": "176981",
+  "description": "receptor for activated C kinase 1 [Source:HGNC Symbol;Acc:HGNC:4399]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00400"
+  ],
+  "domain_descriptions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "Small ribosomal subunit protein RACK1-like"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "Small ribosomal subunit protein RACK1-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00400"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "WD40 repeat",
+    "WD40/YVTN repeat-like-containing domain superfamily",
+    "WD40 repeat",
+    "conserved site",
+    "G-protein beta WD-40 repeat",
+    "WD40-repeat-containing domain superfamily",
+    "Small ribosomal subunit protein RACK1-like"
+  ],
+  "ciliary_role": "RACK1 regulates centriole duplication by controlling the centrosomal localization of BRCA1 in mammary tissue-derived cells and that this is dependent on the BRCA1鈥揜ACK1 interaction(30617304).",
+  "localization": [
+    "basal body"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Protein processing & maturation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RACK1 is a ciliary gene encoding receptor for activated c kinase 1 [source:hgnc symbol;acc:hgnc:4399]",
+    "functional_summary": "RACK1 regulates centriole duplication by controlling the centrosomal localization of BRCA1 in mammary tissue-derived cells and that this is dependent on the BRCA1鈥揜ACK1 interaction(30617304).",
+    "localization_summary": "Localizes to basal body",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

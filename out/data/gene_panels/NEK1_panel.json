@@ -1,0 +1,127 @@
+{
+  "gene_name": "NEK1",
+  "ensembl_id": "ENSG00000137601",
+  "synonyms": [
+    "KIAA1901",
+    "NY-REN-55"
+  ],
+  "omim_id": "604588",
+  "description": "NIMA related kinase 1 [Source:HGNC Symbol;Acc:HGNC:7744]",
+  "protein_complexes": [
+    "CFAP410-NEK1-SPATA7 complex"
+  ],
+  "pfam_ids": [
+    "PF00069"
+  ],
+  "domain_descriptions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "NEK Ser/Thr protein kinase family",
+    "NIMA subfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "NEK Ser/Thr protein kinase family",
+    "NIMA subfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00069"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Protein kinase domain",
+    "Serine/threonine-protein kinase",
+    "active site",
+    "Protein kinase-like domain superfamily",
+    "Protein kinase",
+    "ATP binding site",
+    "NEK Ser/Thr protein kinase family",
+    "NIMA subfamily"
+  ],
+  "ciliary_role": "Role in centrosome integrity, affecting both ciliogenesis and centrosome stability, it may suppress cilia by phosphorylating VHL. NEK1 overexpression leads to cilia resorption in cultured cells. Mutations lead to defective cilia (23255108). NEK1 binds to the microtubule鈥",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Centrosome",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Cytoskeleton/adhesion links",
+    "Metabolism",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Short-rib Thoracic Dysplasia",
+    "Spondylometaphyseal Dysplasia"
+  ],
+  "ciliopathy_type": "Short-rib Thoracic Dysplasia, Spondylometaphyseal Dysplasia",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NEK1 is a ciliary gene encoding nima related kinase 1 [source:hgnc symbol;acc:hgnc:7744]",
+    "functional_summary": "Role in centrosome integrity, affecting both ciliogenesis and centrosome stability, it may suppress cilia by phosphorylating VHL. NEK1 overexpression leads to cilia resorption in cultured cells. Mutat...",
+    "localization_summary": "Localizes to basal body,cilia, Centrosome, Nucleus",
+    "disease_summary": "Associated with Short-rib Thoracic Dysplasia, Spondylometaphyseal Dysplasia",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Short-rib Thoracic Dysplasia, Spondylometaphyseal Dysplasia",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

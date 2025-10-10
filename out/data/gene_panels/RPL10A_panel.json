@@ -1,0 +1,119 @@
+{
+  "gene_name": "RPL10A",
+  "ensembl_id": "ENSG00000198755",
+  "synonyms": [
+    "CSA-19",
+    "L10A",
+    "NEDD6",
+    "UL1"
+  ],
+  "omim_id": "615660",
+  "description": "ribosomal protein L10a [Source:HGNC Symbol;Acc:HGNC:10299]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00687"
+  ],
+  "domain_descriptions": [
+    "Large ribosomal subunit protein uL1",
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Large ribosomal subunit protein uL1",
+    "conserved site",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "molecular_function": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Large ribosomal subunit protein uL1",
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Large ribosomal subunit protein uL1",
+    "conserved site",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00687"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Large ribosomal subunit protein uL1",
+    "Large ribosomal subunit protein uL1",
+    "3-layer alpha/beta-sandwich domain",
+    "Large ribosomal subunit protein uL1",
+    "conserved site",
+    "Ribosomal protein uL1-like",
+    "Ribosomal protein uL1/ribosomal biogenesis protein",
+    "Large ribosomal subunit protein eL8/uL1-like"
+  ],
+  "ciliary_role": "Rpl10a, Rpl11, and Rps3 were detected as puncta in ependymal multicilia (34848703)",
+  "localization": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RPL10A is a ciliary gene encoding ribosomal protein l10a [source:hgnc symbol;acc:hgnc:10299]",
+    "functional_summary": "Rpl10a, Rpl11, and Rps3 were detected as puncta in ependymal multicilia (34848703)",
+    "localization_summary": "Localizes to cilia, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

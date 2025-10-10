@@ -1,0 +1,140 @@
+{
+  "gene_name": "PARD6A",
+  "ensembl_id": "ENSG00000102981",
+  "synonyms": [
+    "PAR-6",
+    "PAR-6A",
+    "PAR6ALPHA",
+    "TAX40",
+    "TIP-40"
+  ],
+  "omim_id": "607484",
+  "description": "par-6 family cell polarity regulator alpha [Source:HGNC Symbol;Acc:HGNC:15943]",
+  "protein_complexes": [
+    "CDC42-PARD3-PARD6A-PRKCZ complex"
+  ],
+  "pfam_ids": [
+    "PF00595",
+    "PF00564"
+  ],
+  "domain_descriptions": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "Partitioning defective 6 homolog protein",
+    "PB1 domain",
+    "Partitioning defective protein 6",
+    "PB1 domain",
+    "PB1-like domain"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "Partitioning defective 6 homolog protein",
+    "PB1 domain",
+    "Partitioning defective protein 6",
+    "PB1 domain",
+    "PB1-like domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00595",
+      "PF00564"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PDZ domain",
+    "PDZ superfamily",
+    "Partitioning defective 6 homolog protein",
+    "PB1 domain",
+    "Partitioning defective protein 6",
+    "PB1 domain",
+    "PB1-like domain"
+  ],
+  "ciliary_role": "Interacts with Par3 and aPKC to form a polarity complex that regulates the stability of the ciliary axoneme (15324661)",
+  "localization": [
+    "cilia",
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia",
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Axon guidance & growth",
+    "Small GTPases",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PARD6A is a ciliary gene encoding par-6 family cell polarity regulator alpha [source:hgnc symbol;acc:hgnc:15943]",
+    "functional_summary": "Interacts with Par3 and aPKC to form a polarity complex that regulates the stability of the ciliary axoneme (15324661)",
+    "localization_summary": "Localizes to cilia, basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

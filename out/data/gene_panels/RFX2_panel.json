@@ -1,0 +1,139 @@
+{
+  "gene_name": "RFX2",
+  "ensembl_id": "ENSG00000087903",
+  "synonyms": [
+    "FLJ14226"
+  ],
+  "omim_id": "142765",
+  "description": "regulatory factor X2 [Source:HGNC Symbol;Acc:HGNC:9983]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF02257",
+    "PF04589"
+  ],
+  "domain_descriptions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF02257",
+      "PF04589"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA-binding RFX-type winged-helix domain",
+    "RFX1 transcription activation region",
+    "Winged helix-like DNA-binding domain superfamily",
+    "Winged helix DNA-binding domain superfamily",
+    "RFX-like DNA-binding protein"
+  ],
+  "ciliary_role": "Involved in regulation of ALMS1 in vivo, by binding its promoter (20381594). Coordi tes multiple, distinct gene expression programs in MCCs, regulating genes encoding axonemal dynein subunits, components of the transition zone anb BBSome, centriolar genes and pla r cell polarity (PCP) effector fritz/wdpcp. It also regulates the extracellular matrix component dag1, which is a regulator of MCC insertion (24424412). Critical regulator of vertebrate ciliogenesis. Knockdown results in phenotypes associated with defective cilia, such as disruption of neural tube closure and left鈥搑ight asymmetry (22227339).",
+  "localization": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia",
+    "Nucleus"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Motors (dynein/kinesin)",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Metabolism",
+    "Transcription regulation",
+    "Reproduction & sperm",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RFX2 is a ciliary gene encoding regulatory factor x2 [source:hgnc symbol;acc:hgnc:9983]",
+    "functional_summary": "Involved in regulation of ALMS1 in vivo, by binding its promoter (20381594). Coordi tes multiple, distinct gene expression programs in MCCs, regulating genes encoding axonemal dynein subunits, compone...",
+    "localization_summary": "Localizes to basal body,cilia, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

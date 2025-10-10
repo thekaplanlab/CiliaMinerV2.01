@@ -1,0 +1,100 @@
+{
+  "gene_name": "CFH",
+  "ensembl_id": "ENSG00000000971",
+  "synonyms": [
+    "ARMD4",
+    "ARMS1",
+    "FHL1",
+    "HF",
+    "HF1",
+    "HF2",
+    "HUS"
+  ],
+  "omim_id": "134370",
+  "description": "complement factor H [Source:HGNC Symbol;Acc:HGNC:4883]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00084"
+  ],
+  "domain_descriptions": [
+    "Sushi/SCR/CCP domain",
+    "Sushi/SCR/CCP superfamily",
+    "Complement System Regulators and Virion Entry Mediators"
+  ],
+  "molecular_function": [
+    "Axoneme",
+    "Ciliary membrane",
+    "Immune regulation"
+  ],
+  "structural_features": [
+    "Sushi/SCR/CCP domain",
+    "Sushi/SCR/CCP superfamily",
+    "Complement System Regulators and Virion Entry Mediators"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00084"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Sushi/SCR/CCP domain",
+    "Sushi/SCR/CCP superfamily",
+    "Complement System Regulators and Virion Entry Mediators"
+  ],
+  "ciliary_role": "C. elegans CFH homolog localizes on CEP mechanosensory neuron cilia where it has noncanonical roles in maintaining inversin/NPHP-2 within its  mesake proximal compartment and preventing inversin/NPHP-2 accumulation in distal cilia compartments in aging adults(33859044).",
+  "localization": [
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Axoneme",
+    "Ciliary membrane",
+    "Immune regulation"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Axoneme",
+    "Ciliary membrane",
+    "Immune regulation"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "CFH is a ciliary gene encoding complement factor h [source:hgnc symbol;acc:hgnc:4883]",
+    "functional_summary": "C. elegans CFH homolog localizes on CEP mechanosensory neuron cilia where it has noncanonical roles in maintaining inversin/NPHP-2 within its  mesake proximal compartment and preventing inversin/NPHP-...",
+    "localization_summary": "Localizes to cilia",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

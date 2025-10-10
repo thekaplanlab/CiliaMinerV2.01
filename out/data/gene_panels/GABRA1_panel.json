@@ -1,0 +1,84 @@
+{
+  "gene_name": "GABRA1",
+  "ensembl_id": "ENSG00000022355",
+  "synonyms": [
+    "EJM5"
+  ],
+  "omim_id": "137160",
+  "description": "gamma-aminobutyric acid type A receptor subunit alpha1 [Source:HGNC Symbol;Acc:HGNC:4075]",
+  "protein_complexes": [],
+  "pfam_ids": [],
+  "domain_descriptions": [],
+  "molecular_function": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [],
+  "domain_architecture": {
+    "pfam_domains": []
+  },
+  "protein_family": [],
+  "conserved_regions": [],
+  "ciliary_role": "Neuronal cilia dataset contained eight subspecific GABA receptors that include the GABAA receptors, GABRG2 and GABRA1, and the GABAB receptor, GABBR1(PMID: 40623838).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling"
+  ],
+  "functional_categories": [
+    "Muscle contraction & physiology",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Juvenile Myoclonic Epilepsy"
+  ],
+  "ciliopathy_type": "Juvenile Myoclonic Epilepsy",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "GABRA1 is a ciliary gene encoding gamma-aminobutyric acid type a receptor subunit alpha1 [source:hgnc symbol;acc:hgnc:4075]",
+    "functional_summary": "Neuronal cilia dataset contained eight subspecific GABA receptors that include the GABAA receptors, GABRG2 and GABRA1, and the GABAB receptor, GABBR1(PMID: 40623838).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Juvenile Myoclonic Epilepsy",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Juvenile Myoclonic Epilepsy",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

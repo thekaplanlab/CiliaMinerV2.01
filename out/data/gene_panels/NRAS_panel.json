@@ -1,0 +1,120 @@
+{
+  "gene_name": "NRAS",
+  "ensembl_id": "ENSG00000213281",
+  "synonyms": [
+    "N-RAS"
+  ],
+  "omim_id": "164790",
+  "description": "NRAS proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:7989]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00071"
+  ],
+  "domain_descriptions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "molecular_function": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00071"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Small GTPase",
+    "Small GTP-binding domain",
+    "Small GTPase",
+    "Ras-type",
+    "P-loop containing nucleoside triphosphate hydrolase"
+  ],
+  "ciliary_role": "EZH2 inhibition for promoting ciliogenesis are observed in the mouse melanoma models driven by Nras or Braf, supporting a general effect of melanoma oncogenes on ciliation ( 29990499).",
+  "localization": [
+    "Ciliary associated gene",
+    "Microtubules"
+  ],
+  "ciliary_process": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene",
+    "Microtubules"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "RTK Signaling",
+    "Insulin Signaling",
+    "Hormone Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Ciliary assembly/disassembly",
+    "T cell biology",
+    "Axon guidance & growth",
+    "RTK/FGF signaling",
+    "Small GTPases",
+    "Metabolism",
+    "Hormone & insulin signaling",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "NRAS is a ciliary gene encoding nras proto-oncogene, gtpase [source:hgnc symbol;acc:hgnc:7989]",
+    "functional_summary": "EZH2 inhibition for promoting ciliogenesis are observed in the mouse melanoma models driven by Nras or Braf, supporting a general effect of melanoma oncogenes on ciliation ( 29990499).",
+    "localization_summary": "Localizes to Ciliary associated gene, Microtubules",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

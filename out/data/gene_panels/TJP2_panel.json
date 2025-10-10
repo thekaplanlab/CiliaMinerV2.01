@@ -1,0 +1,137 @@
+{
+  "gene_name": "TJP2",
+  "ensembl_id": "ENSG00000119139",
+  "synonyms": [
+    "DFNA51",
+    "X104",
+    "ZO-2",
+    "ZO2"
+  ],
+  "omim_id": "607709",
+  "description": "tight junction protein 2 [Source:HGNC Symbol;Acc:HGNC:11828]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00595",
+    "PF00625",
+    "PF07653"
+  ],
+  "domain_descriptions": [
+    "PDZ domain",
+    "Tight junction protein ZO-2",
+    "PDZ superfamily",
+    "SH3 domain",
+    "Tight junction protein ZO",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ZO-2",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "PDZ domain",
+    "Tight junction protein ZO-2",
+    "PDZ superfamily",
+    "SH3 domain",
+    "Tight junction protein ZO",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ZO-2",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00595",
+      "PF00625",
+      "PF07653"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "PDZ domain",
+    "Tight junction protein ZO-2",
+    "PDZ superfamily",
+    "SH3 domain",
+    "Tight junction protein ZO",
+    "Guanylate kinase-like domain",
+    "Guanylate kinase/L-type calcium channel beta subunit",
+    "P-loop containing nucleoside triphosphate hydrolase",
+    "ZO-2",
+    "SH3 domain",
+    "SH3-like domain superfamily"
+  ],
+  "ciliary_role": "ZO-2 colocalizes with CEP164 in the distal appendage of the mother centriole and is also present in the pericentriolar region, mitotic spindle poles, the basal body of primary cilia, and the tail of spermatozoa (PMID: 40728639).",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Small GTPases",
+    "Metabolism",
+    "Cell migration & adhesion",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "TJP2 is a ciliary gene encoding tight junction protein 2 [source:hgnc symbol;acc:hgnc:11828]",
+    "functional_summary": "ZO-2 colocalizes with CEP164 in the distal appendage of the mother centriole and is also present in the pericentriolar region, mitotic spindle poles, the basal body of primary cilia, and the tail of s...",
+    "localization_summary": "Localizes to basal body, flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

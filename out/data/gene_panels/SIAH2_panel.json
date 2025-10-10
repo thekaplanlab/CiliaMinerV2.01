@@ -1,0 +1,147 @@
+{
+  "gene_name": "SIAH2",
+  "ensembl_id": "ENSG00000181788",
+  "synonyms": [],
+  "omim_id": "602213",
+  "description": "siah E3 ubiquitin protein ligase 2 [Source:HGNC Symbol;Acc:HGNC:10858]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF21361",
+    "PF03145",
+    "PF21362"
+  ],
+  "domain_descriptions": [
+    "Zinc finger",
+    "RING-type",
+    "E3 ubiquitin-protein ligase SINA-like",
+    "animal",
+    "TRAF-like",
+    "Zinc finger",
+    "SIAH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Seven-in-absentia protein",
+    "TRAF-like domain",
+    "E3 ubiquitin-protein ligase Sina-like",
+    "RING finger"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "structural_features": [
+    "Zinc finger",
+    "RING-type",
+    "E3 ubiquitin-protein ligase SINA-like",
+    "animal",
+    "TRAF-like",
+    "Zinc finger",
+    "SIAH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Seven-in-absentia protein",
+    "TRAF-like domain",
+    "E3 ubiquitin-protein ligase Sina-like",
+    "RING finger"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF21361",
+      "PF03145",
+      "PF21362"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Zinc finger",
+    "RING-type",
+    "E3 ubiquitin-protein ligase SINA-like",
+    "animal",
+    "TRAF-like",
+    "Zinc finger",
+    "SIAH-type",
+    "Zinc finger",
+    "RING/FYVE/PHD-type",
+    "Seven-in-absentia protein",
+    "TRAF-like domain",
+    "E3 ubiquitin-protein ligase Sina-like",
+    "RING finger"
+  ],
+  "ciliary_role": "Shh sig ling maintains Siah2 expression (which supports ciliogenesis in a feed-forward fashion by restraining cilium disassembly) in cerebellar granule neuron (CGN) progenitors (GNPs) in a Ras/Mapk-dependent manner. This maintains GNPs to control CGN occupancy in the germi l zone (GZ) (33082319)",
+  "localization": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 7,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly",
+    "Immune regulation",
+    "Transcription regulation",
+    "Protein processing & maturation",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "SIAH2 is a ciliary gene encoding siah e3 ubiquitin protein ligase 2 [source:hgnc symbol;acc:hgnc:10858]",
+    "functional_summary": "Shh sig ling maintains Siah2 expression (which supports ciliogenesis in a feed-forward fashion by restraining cilium disassembly) in cerebellar granule neuron (CGN) progenitors (GNPs) in a Ras/Mapk-de...",
+    "localization_summary": "Localizes to basal body, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

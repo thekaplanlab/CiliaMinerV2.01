@@ -1,0 +1,90 @@
+{
+  "gene_name": "FAM149B1",
+  "ensembl_id": "ENSG00000138286",
+  "synonyms": [
+    "KIAA0974"
+  ],
+  "omim_id": "618413",
+  "description": "family with sequence similarity 149 member B1 [Source:HGNC Symbol;Acc:HGNC:29162]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF12516"
+  ],
+  "domain_descriptions": [
+    "Domain of unknown function DUF3719",
+    "Protein FAM149"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "Domain of unknown function DUF3719",
+    "Protein FAM149"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF12516"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Domain of unknown function DUF3719",
+    "Protein FAM149"
+  ],
+  "ciliary_role": "Required for normal ciliary biology and that its deficiency results in impaired ciliary structure and a range of ciliopathy phenotypes in humans along the spectrum of Joubert syndrome.",
+  "localization": [
+    "basal body",
+    "cilia"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "cilia"
+  ],
+  "membrane_topology": "Unknown",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Joubert Syndrome"
+  ],
+  "ciliopathy_type": "Joubert Syndrome",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "FAM149B1 is a ciliary gene encoding family with sequence similarity 149 member b1 [source:hgnc symbol;acc:hgnc:29162]",
+    "functional_summary": "Required for normal ciliary biology and that its deficiency results in impaired ciliary structure and a range of ciliopathy phenotypes in humans along the spectrum of Joubert syndrome.",
+    "localization_summary": "Localizes to basal body,cilia",
+    "disease_summary": "Associated with Joubert Syndrome",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Joubert Syndrome",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

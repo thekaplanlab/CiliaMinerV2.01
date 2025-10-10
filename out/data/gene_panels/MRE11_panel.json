@@ -1,0 +1,117 @@
+{
+  "gene_name": "MRE11",
+  "ensembl_id": "ENSG00000020922",
+  "synonyms": [
+    "ATLD",
+    "MRE11A"
+  ],
+  "omim_id": "600814",
+  "description": "MRE11 homolog, double strand break repair nuclease [Source:HGNC Symbol;Acc:HGNC:7230]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF04152",
+    "PF00149"
+  ],
+  "domain_descriptions": [
+    "DNA double-strand break repair protein Mre11",
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Mre11",
+    "DNA-binding",
+    "Metallo-dependent phosphatase-like",
+    "Mre11",
+    "capping domain",
+    "DNA double-strand break repair protein Mre11",
+    "N-terminal metallophosphatase domain"
+  ],
+  "molecular_function": [
+    "Immune regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "DNA double-strand break repair protein Mre11",
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Mre11",
+    "DNA-binding",
+    "Metallo-dependent phosphatase-like",
+    "Mre11",
+    "capping domain",
+    "DNA double-strand break repair protein Mre11",
+    "N-terminal metallophosphatase domain"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF04152",
+      "PF00149"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "DNA double-strand break repair protein Mre11",
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Mre11",
+    "DNA-binding",
+    "Metallo-dependent phosphatase-like",
+    "Mre11",
+    "capping domain",
+    "DNA double-strand break repair protein Mre11",
+    "N-terminal metallophosphatase domain"
+  ],
+  "ciliary_role": "3 NPHP-RC genes, MRE11, ZNF423, and CEP164, which together suggest involvement of a D  damage response (DDR) sig ling pathway in NPHP-RC pathogenesis ( 22863007).",
+  "localization": [
+    "Ciliary associated gene"
+  ],
+  "ciliary_process": [
+    "Immune regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "Ciliary associated gene"
+  ],
+  "membrane_topology": "Peripheral membrane",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Immune Signaling"
+  ],
+  "functional_categories": [
+    "Immune regulation",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [
+    "Ataxia-telangiectasia-like Disorder"
+  ],
+  "ciliopathy_type": "Ataxia-telangiectasia-like Disorder",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "MRE11 is a ciliary gene encoding mre11 homolog, double strand break repair nuclease [source:hgnc symbol;acc:hgnc:7230]",
+    "functional_summary": "3 NPHP-RC genes, MRE11, ZNF423, and CEP164, which together suggest involvement of a D  damage response (DDR) sig ling pathway in NPHP-RC pathogenesis ( 22863007).",
+    "localization_summary": "Localizes to Ciliary associated gene",
+    "disease_summary": "Associated with Ataxia-telangiectasia-like Disorder",
+    "key_findings": "Confidence score: 1.00",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "Associated with Ataxia-telangiectasia-like Disorder",
+    "therapeutic_potential": "Potential therapeutic target"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

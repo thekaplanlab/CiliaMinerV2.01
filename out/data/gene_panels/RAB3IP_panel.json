@@ -1,0 +1,137 @@
+{
+  "gene_name": "RAB3IP",
+  "ensembl_id": "ENSG00000127328",
+  "synonyms": [
+    "FLJ22548",
+    "RABIN3",
+    "RABIN8"
+  ],
+  "omim_id": "608686",
+  "description": "RAB3A interacting protein [Source:HGNC Symbol;Acc:HGNC:16508]",
+  "protein_complexes": [
+    "RAB3IP-TRAPP II complex"
+  ],
+  "pfam_ids": [
+    "PF06428"
+  ],
+  "domain_descriptions": [
+    "GDP/GTP exchange factor Sec2",
+    "N-terminal",
+    "Guanine nucleotide exchange factor RAB3IL/RAB3IP/Sec2"
+  ],
+  "molecular_function": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "structural_features": [
+    "GDP/GTP exchange factor Sec2",
+    "N-terminal",
+    "Guanine nucleotide exchange factor RAB3IL/RAB3IP/Sec2"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF06428"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "GDP/GTP exchange factor Sec2",
+    "N-terminal",
+    "Guanine nucleotide exchange factor RAB3IL/RAB3IP/Sec2"
+  ],
+  "ciliary_role": "Also known as Rabin8. GTP loading by Rabin8 promotes Rab8 association with post- Golgi vesicles and targets them to polarised areas of the plasma membrane. BBS1 subunit of the BBSome associates with the C terminus of Rabin8 at the basal body. Activates Rab8 by loading with GTP, which is necessary for Rab8 to enter the primary cilium, promoting ciliogenesis and apical membrane formation (17574030). Phosphorylation of Rabin8 might modulate its interactions with ASAP1 and Rab11a. It binds to the catalytically active ASAP1 in complex with Rab11a and FIP3 (25673879). Interacts with Chibby to promote recruitment of Rab8 and efficient assembly of ciliary vesicles. Interaction with Rab11 stimulates its GEF activity (25313408) and is required for Rabin8 preciliary membrane trafficking to the centrosome and for ciliogenesis (21273506).",
+  "localization": [
+    "flagella",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "flagella",
+    "cilia",
+    "Centrosome",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [],
+  "functional_categories": [
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Cytoskeleton/adhesion links",
+    "Ciliary assembly/disassembly",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport)",
+    "Actin & cytoskeleton regulation",
+    "Trafficking (BBSome",
+    "small GTPases",
+    "vesicular transport",
+    "ATPases)",
+    "Ciliary assembly/disassembly"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "RAB3IP is a ciliary gene encoding rab3a interacting protein [source:hgnc symbol;acc:hgnc:16508]",
+    "functional_summary": "Also known as Rabin8. GTP loading by Rabin8 promotes Rab8 association with post- Golgi vesicles and targets them to polarised areas of the plasma membrane. BBS1 subunit of the BBSome associates with t...",
+    "localization_summary": "Localizes to flagella,  cilia, Centrosome, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}

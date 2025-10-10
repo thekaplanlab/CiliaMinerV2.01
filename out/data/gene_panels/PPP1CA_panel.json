@@ -1,0 +1,143 @@
+{
+  "gene_name": "PPP1CA",
+  "ensembl_id": "ENSG00000172531",
+  "synonyms": [
+    "PP-1A",
+    "PP1A",
+    "PP1ALPHA",
+    "PPP1A"
+  ],
+  "omim_id": "176875",
+  "description": "protein phosphatase 1 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9281]",
+  "protein_complexes": [],
+  "pfam_ids": [
+    "PF00149",
+    "PF16891"
+  ],
+  "domain_descriptions": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Metallo-dependent phosphatase-like",
+    "Serine-threonine protein phosphatase",
+    "N-terminal",
+    "Serine/threonine-protein phosphatase PP1 catalytic subunit"
+  ],
+  "molecular_function": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "structural_features": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Metallo-dependent phosphatase-like",
+    "Serine-threonine protein phosphatase",
+    "N-terminal",
+    "Serine/threonine-protein phosphatase PP1 catalytic subunit"
+  ],
+  "domain_architecture": {
+    "pfam_domains": [
+      "PF00149",
+      "PF16891"
+    ]
+  },
+  "protein_family": [],
+  "conserved_regions": [
+    "Calcineurin-like phosphoesterase domain",
+    "ApaH type",
+    "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+    "Metallo-dependent phosphatase-like",
+    "Serine-threonine protein phosphatase",
+    "N-terminal",
+    "Serine/threonine-protein phosphatase PP1 catalytic subunit"
+  ],
+  "ciliary_role": "PPP1CA has localized in basal body,flagella.",
+  "localization": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "ciliary_process": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "assembly_function": [],
+  "membrane_association": [
+    "basal body",
+    "flagella",
+    "Cytosol",
+    "Nucleus"
+  ],
+  "membrane_topology": "Soluble",
+  "transmembrane_domains": 0,
+  "membrane_function": [],
+  "signaling_pathways": [
+    "Hedgehog Signaling",
+    "GPCR Signaling",
+    "Metabolic Signaling"
+  ],
+  "functional_categories": [
+    "Basal body / centriole",
+    "Signal transduction",
+    "Cardiac & muscle development",
+    "Muscle contraction & physiology",
+    "Metabolism",
+    "Actin & cytoskeleton regulation",
+    "Cell migration & adhesion",
+    "Signaling (Hedgehog",
+    "GPCRs",
+    "ion channels)",
+    "Cytoskeleton/adhesion links"
+  ],
+  "regulatory_role": [],
+  "downstream_targets": [],
+  "tissue_expression": [],
+  "developmental_stage": [],
+  "expression_level": "Unknown",
+  "regulation_factors": [],
+  "associated_diseases": [],
+  "ciliopathy_type": "",
+  "phenotype_severity": "Unknown",
+  "inheritance_pattern": "Unknown",
+  "pathogenic_variants": [],
+  "variant_consequences": [],
+  "population_frequency": {},
+  "clinical_significance": [],
+  "orthologs": {},
+  "evolutionary_conservation": "Unknown",
+  "phylogenetic_distribution": [],
+  "functional_conservation": "Unknown",
+  "ai_summary": {
+    "basic_summary": "PPP1CA is a ciliary gene encoding protein phosphatase 1 catalytic subunit alpha [source:hgnc symbol;acc:hgnc:9281]",
+    "functional_summary": "PPP1CA has localized in basal body,flagella.",
+    "localization_summary": "Localizes to basal body,flagella, Cytosol, Nucleus",
+    "disease_summary": "No known ciliopathy association",
+    "key_findings": "Confidence score: 0.75",
+    "research_gaps": "Well-characterized gene",
+    "clinical_relevance": "No known ciliopathy association",
+    "therapeutic_potential": "Unknown therapeutic potential"
+  },
+  "literature_evidence": [],
+  "confidence_score": 0.7,
+  "last_updated": "2024-01-01"
+}
