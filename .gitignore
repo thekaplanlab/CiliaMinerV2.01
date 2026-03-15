@@ -1,10 +1,28 @@
+# Dependencies & build
 node_modules
 .next
 out
+dist
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
 
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 backend/venv/
-backend/.env
 backend/submissions/*.json
+
+# IDE / OS
+.DS_Store
+*.log
+.idea
+.vscode
+
+# Optional: uncomment to ignore Excel workbooks (e.g. *.xlsx)
+# *.xlsx
