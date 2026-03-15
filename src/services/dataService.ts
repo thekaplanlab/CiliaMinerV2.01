@@ -8,6 +8,9 @@ import {
   HeatmapData
 } from '@/types'
 
+// API configuration
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
 // Data index structure
 interface DataIndex {
   datasets: {
@@ -33,10 +36,52 @@ function getBasePath(): string {
   return ''
 }
 
+interface GeneSearchIndexEntry {
+  gene: CiliopathyGene
+  search: string
+}
+
 class DataService {
   private dataIndex: DataIndex | null = null
   private dataCache: Map<string, any> = new Map()
   private basePath: string = getBasePath()
+  private useBackend: boolean = false
+  private backendChecked: boolean = false
+
+  // Check if backend API is available
+  private async checkBackendAvailability(): Promise<boolean> {
+    if (this.backendChecked) return this.useBackend
+    
+    try {
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 2000)
+      
+      const response = await fetch(`${API_BASE_URL}/api/health`, {
+        signal: controller.signal
+      })
+      
+      clearTimeout(timeoutId)
+      this.useBackend = response.ok
+      console.log(this.useBackend ? '✅ Backend API available' : '⚠️ Backend not available, using static files')
+    } catch {
+      this.useBackend = false
+      console.log('⚠️ Backend not available, using static files')
+    }
+    
+    this.backendChecked = true
+    return this.useBackend
+  }
+
+  // Fetch from backend API
+  private async fetchFromAPI<T>(endpoint: string): Promise<T | null> {
+    try {
+      const response = await fetch(`${API_BASE_URL}${endpoint}`)
+      if (!response.ok) return null
+      return await response.json()
+    } catch {
+      return null
+    }
+  }
 
   async loadDataIndex(): Promise<DataIndex> {
     if (this.dataIndex) return this.dataIndex
@@ -104,39 +149,135 @@ class DataService {
     }
   }
 
+  private async getGeneSearchIndex(): Promise<GeneSearchIndexEntry[]> {
+    const data = await this.loadDataset('gene-search-index')
+    if (!Array.isArray(data)) return []
+
+    return data.map((item: any) => ({
+      gene: {
+        Ciliopathy: item.gene?.Ciliopathy || '',
+        'Human Gene Name': item.gene?.['Human Gene Name'] || '',
+        'Subcellular Localization': item.gene?.['Subcellular Localization'] || '',
+        'Gene MIM Number': item.gene?.['Gene MIM Number'] || '',
+        'OMIM Phenotype Number': item.gene?.['OMIM Phenotype Number'] || '',
+        'Human Gene ID': item.gene?.['Human Gene ID'] || '',
+        'Disease/Gene Reference': item.gene?.['Disease/Gene Reference'] || '',
+        'Localisation Reference': item.gene?.['Localisation Reference'] || '',
+        'Gene Localisation': item.gene?.['Gene Localisation'] || item.gene?.['Subcellular Localization'] || '',
+        Abbreviation: item.gene?.Abbreviation || '',
+        Synonym: item.gene?.Synonym || '',
+        go_terms: item.gene?.go_terms || [],
+        reactome_pathways: item.gene?.reactome_pathways || [],
+        kegg_pathways: item.gene?.kegg_pathways || []
+      },
+      search: typeof item.search === 'string' ? item.search : ''
+    }))
+  }
+
   // Load ciliopathy genes data
   async getCiliopathyGenes(): Promise<CiliopathyGene[]> {
     const data = await this.loadDataset('homosapiens_ciliopathy')
     return data.map((item: any) => ({
-      Ciliopathy: item.Ciliopathy,
-      'Human Gene Name': item['Human Gene Name'],
-      'Subcellular Localization': item['Subcellular Localization'],
-      'Gene MIM Number': item['Gene MIM Number'],
-      'OMIM Phenotype Number': item['OMIM Phenotype Number'],
-      'Human Gene ID': item['Human Gene ID'],
-      'Disease/Gene Reference': item['Disease/Gene Reference'],
-      'Localisation Reference': item['Localisation Reference'],
-      'Gene Localisation': item['Subcellular Localization'],
-      Abbreviation: item.Abbreviation,
-      Synonym: item.Synonym
+      // Core fields used across the app
+      Ciliopathy: item.Ciliopathy || 'Unknown',
+      'Human Gene Name': item['Human Gene Name'] || item.Gene,
+      'Subcellular Localization': item['Subcellular Localization'] || item.Localization || '',
+      'Gene MIM Number': String(item['Gene MIM Number'] ?? item['OMIM Phenotype Number'] ?? ''),
+      'OMIM Phenotype Number': String(item['OMIM Phenotype Number'] ?? ''),
+      'Disease/Gene Reference': item['Disease/Gene Reference'] ?? item['Disease Reference'] ?? '',
+      'Human Gene ID': String(item['Human Gene ID'] ?? item.gene_id ?? item['ensembl_gene_id.x.x'] ?? ''),
+      'Localisation Reference': item['Localisation Reference'] ?? String(item.Reference ?? ''),
+      'Gene Localisation': item['Subcellular Localization'] || item.Localization || '',
+      Abbreviation: item.Abbreviation ?? '',
+      Synonym: item.Synonym ?? item['Synonym.'] ?? '',
+
+      // Extended annotation mapped through for richer views
+      Gene: item.Gene,
+      'ensembl_gene_id.x.x': item['ensembl_gene_id.x.x'],
+      'Overexpression effects on cilia length (increase/decrease/no effect)':
+        item['Overexpression effects on cilia length (increase/decrease/no effect)'],
+      'Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)':
+        item['Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)'],
+      'Percentage of ciliated cells (increase/decrease/no effect)':
+        item['Percentage of ciliated cells (increase/decrease/no effect)'],
+      'Gene.Description': item['Gene.Description'],
+      'Functional.Summary.from.Literature': item['Functional.Summary.from.Literature'],
+      'Protein.complexes': item['Protein.complexes'],
+      subunits_protein_name: item.subunits_protein_name,
+      'Protein.complexes Referances': item['Protein.complexes Referances'],
+      'Gene.annotation': item['Gene.annotation'],
+      'Functional.category': item['Functional.category'],
+      PFAM_IDs: item['PFAM_IDs'],
+      Domain_Descriptions: item['Domain_Descriptions'],
+      'Ciliopathy Classification': item['Ciliopathy Classification'],
+      Description: item.Description,
+      Source: item.Source,
+      go_terms: item.go_terms || [],
+      reactome_pathways: item.reactome_pathways || [],
+      kegg_pathways: item.kegg_pathways || [],
+      ciliopathies: item.ciliopathies || [],
+      Ortholog_Mouse: item['Ortholog_Mouse'],
+      Ortholog_C_elegans: item['Ortholog_C_elegans'],
+      Ortholog_Xenopus: item['Ortholog_Xenopus'],
+      Ortholog_Zebrafish: item['Ortholog_Zebrafish'],
+      Ortholog_Drosophila: item['Ortholog_Drosophila'],
+      mouse_ciliopathy_phenotype: item['mouse_ciliopathy_phenotype'],
+      mouse_phenotype: item['mouse_phenotype'],
+      human_ciliopathy_phenotype: item['human_ciliopathy_phenotype'],
+      human_phenotype: item['human_phenotype']
     }))
   }
 
   // Load gene numbers for pie chart
   async getGeneNumbers(): Promise<GeneNumber[]> {
-    const data = await this.loadDataset('gene_numbers_d')
-    return data.map((item: any) => ({
-      Disease: item.Disease,
-      Gene_numbers: item.Gene_numbers
+    // Derive categories directly from the integrated gene table
+    const genes = await this.getCiliopathyGenes()
+
+    // Use Ciliopathy Classification when available, fall back to Ciliopathy string
+    const counts = new Map<string, number>()
+    genes.forEach(gene => {
+      const rawCategory =
+        (gene['Ciliopathy Classification'] as string | null | undefined) ||
+        gene.Ciliopathy ||
+        'Unclassified'
+
+      const category = rawCategory.trim() || 'Unclassified'
+      const current = counts.get(category) ?? 0
+      counts.set(category, current + 1)
+    })
+
+    return Array.from(counts.entries()).map(([Disease, Gene_numbers]) => ({
+      Disease,
+      Gene_numbers
     }))
   }
 
   // Load bar plot data
   async getBarPlotData(): Promise<BarPlotData[]> {
-    const data = await this.loadDataset('bar_plot')
-    return data.map((item: any) => ({
-      name: item.Ciliary_Localisation,
-      value: item.Gene_number
+    // Derive localization distribution from the integrated gene table
+    const genes = await this.getCiliopathyGenes()
+
+    const buckets: Record<string, number> = {
+      Cilia: 0,
+      'Basal Body': 0,
+      'Transition Zone': 0,
+      Others: 0
+    }
+
+    genes.forEach(gene => {
+      const loc = (gene['Subcellular Localization'] || '').toLowerCase()
+
+      let bucket: keyof typeof buckets = 'Others'
+      if (loc.includes('basal')) bucket = 'Basal Body'
+      else if (loc.includes('transition')) bucket = 'Transition Zone'
+      else if (loc.includes('cilia') || loc.includes('flagella')) bucket = 'Cilia'
+
+      buckets[bucket] += 1
+    })
+
+    return Object.entries(buckets).map(([name, value]) => ({
+      name,
+      value
     }))
   }
 
@@ -278,9 +419,50 @@ class DataService {
 
   // Search ciliopathy genes
   async searchCiliopathyGenes(query: string): Promise<CiliopathyGene[]> {
-    const genes = await this.getCiliopathyGenes()
-    const lowerQuery = query.toLowerCase()
+    // Try backend API first
+    await this.checkBackendAvailability()
     
+    if (this.useBackend) {
+      try {
+        const response = await this.fetchFromAPI<{ results: any[] }>(
+          `/api/genes/search?q=${encodeURIComponent(query)}&limit=500`
+        )
+        if (response && response.results) {
+          return response.results.map((item: any) => ({
+            Ciliopathy: item.Ciliopathy || item.ciliopathy || '',
+            'Human Gene Name': item['Human Gene Name'] || item.human_gene_name || '',
+            'Subcellular Localization': item['Subcellular Localization'] || item.subcellular_localization || '',
+            'Gene MIM Number': item['Gene MIM Number'] || item.gene_mim_number || '',
+            'OMIM Phenotype Number': item['OMIM Phenotype Number'] || item.omim_phenotype_number || '',
+            'Human Gene ID': item['Human Gene ID'] || item.human_gene_id || '',
+            'Disease/Gene Reference': item['Disease/Gene Reference'] || item.disease_gene_reference || '',
+            'Localisation Reference': item['Localisation Reference'] || item.localisation_reference || '',
+            'Gene Localisation': item['Subcellular Localization'] || item.subcellular_localization || '',
+            Abbreviation: item.Abbreviation || item.abbreviation || '',
+            Synonym: item.Synonym || item.synonym || ''
+          }))
+        }
+      } catch (error) {
+        console.error('Backend search failed, falling back to static:', error)
+      }
+    }
+    const lowerQuery = query.toLowerCase()
+
+    // Try optimized search index first
+    try {
+      const index = await this.getGeneSearchIndex()
+      if (index.length > 0) {
+        return index
+          .filter(entry => entry.search.includes(lowerQuery))
+          .slice(0, 500)
+          .map(entry => entry.gene)
+      }
+    } catch (error) {
+      console.error('Failed to use gene search index, falling back to full dataset:', error)
+    }
+
+    // Fallback to static file search
+    const genes = await this.getCiliopathyGenes()
     return genes.filter(gene => 
       gene.Ciliopathy.toLowerCase().includes(lowerQuery) ||
       gene['Human Gene Name'].toLowerCase().includes(lowerQuery) ||

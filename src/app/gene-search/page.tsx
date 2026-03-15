@@ -1,28 +1,80 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import Layout from '@/components/Layout'
 import { SearchInput, SearchResults } from '@/components/SearchComponents'
 import { dataService } from '@/services/dataService'
 import { CiliopathyGene } from '@/types'
+import { useDebounce } from '@/lib/utils'
 import { Search, Activity as Gene, Database, MapPin } from 'lucide-react'
 
 export default function GeneSearchPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<CiliopathyGene[]>([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [isSearching, setIsSearching] = useState(false)
   const [totalResults, setTotalResults] = useState(0)
+  const [cachedGenes, setCachedGenes] = useState<CiliopathyGene[]>([])
 
-  const handleSearch = async (query: string) => {
-    if (!query.trim()) {
+  // Debounce search query with 300ms delay for suggestions
+  const debouncedSearchQuery = useDebounce(searchQuery, 300)
+  const [suggestions, setSuggestions] = useState<string[]>([])
+
+  // Load genes data once on mount
+  useEffect(() => {
+    const loadGenes = async () => {
+      try {
+        const genes = await dataService.getCiliopathyGenes()
+        setCachedGenes(genes)
+      } catch (error) {
+        console.error('Failed to load genes:', error)
+      }
+    }
+    loadGenes()
+  }, [])
+
+  // Load suggestions as user types (using cached data)
+  useEffect(() => {
+    if (!debouncedSearchQuery.trim()) {
+      setSuggestions([])
+      return
+    }
+
+    if (cachedGenes.length === 0) {
+      return
+    }
+
+    try {
+      const query = debouncedSearchQuery.toLowerCase()
+      
+      // Show more suggestions for single-letter searches
+      const maxSuggestions = query.length === 1 ? 15 : 10
+      
+      const uniqueSuggestions = Array.from(new Set(
+        cachedGenes
+          .filter(g => g['Human Gene Name']?.toLowerCase().startsWith(query))
+          .map(g => g['Human Gene Name'])
+          .filter((name): name is string => Boolean(name))
+      ))
+        .slice(0, maxSuggestions)
+      
+      setSuggestions(uniqueSuggestions)
+    } catch (error) {
+      console.error('Failed to load suggestions:', error)
+      setSuggestions([])
+    }
+  }, [debouncedSearchQuery, cachedGenes])
+
+  // Search only when explicitly called
+  const handleSearch = useCallback(async () => {
+    if (!searchQuery.trim()) {
       setSearchResults([])
       setTotalResults(0)
       return
     }
 
-    setIsLoading(true)
+    setIsSearching(true)
     try {
-      const results = await dataService.searchGenes(query)
+      const results = await dataService.searchGenes(searchQuery)
       setSearchResults(results)
       setTotalResults(results.length)
     } catch (error) {
@@ -30,15 +82,15 @@ export default function GeneSearchPage() {
       setSearchResults([])
       setTotalResults(0)
     } finally {
-      setIsLoading(false)
+      setIsSearching(false)
     }
-  }
+  }, [searchQuery])
 
-  const handleDownload = () => {
+  const handleDownload = useCallback(() => {
     if (searchResults.length === 0) return
     
     const csvContent = [
-      ['Gene Name', 'Gene ID', 'Ciliopathy', 'Subcellular Localization', 'MIM Number', 'OMIM Phenotype', 'References'],
+      ['Gene Name', 'Ensembl Gene ID', 'Ciliopathy', 'Subcellular Localization', 'MIM Number', 'OMIM Phenotype', 'GO Terms', 'Reactome', 'KEGG', 'References'],
       ...searchResults.map(gene => [
         gene['Human Gene Name'] || '',
         gene['Human Gene ID'] || '',
@@ -46,6 +98,9 @@ export default function GeneSearchPage() {
         gene['Subcellular Localization'] || '',
         gene['Gene MIM Number'] || '',
         gene['OMIM Phenotype Number'] || '',
+        (gene.go_terms || []).join('; '),
+        (gene.reactome_pathways || []).join('; '),
+        (gene.kegg_pathways || []).join('; '),
         gene['Disease/Gene Reference'] || ''
       ])
     ].map(row => row.join(',')).join('\n')
@@ -57,7 +112,15 @@ export default function GeneSearchPage() {
     a.download = `ciliaminer_gene_search_${new Date().toISOString().split('T')[0]}.csv`
     a.click()
     window.URL.revokeObjectURL(url)
-  }
+  }, [searchResults])
+
+  const handleClearSearch = useCallback(() => {
+    setSearchQuery('')
+    setSearchResults([])
+    setSuggestions([])
+    setTotalResults(0)
+    setIsSearching(false)
+  }, [])
 
   return (
     <Layout>
@@ -79,11 +142,21 @@ export default function GeneSearchPage() {
             <SearchInput
               value={searchQuery}
               onChange={setSearchQuery}
-              onSearch={() => handleSearch(searchQuery)}
-              placeholder="Search by Gene Name, Ensembl Gene ID or Gene ID"
+              onSearch={handleSearch}
+              placeholder="Search by Gene Name, Ensembl Gene ID or Gene ID..."
+              isLoading={isSearching}
+              suggestions={suggestions}
             />
           </div>
         </div>
+
+        {/* Loading State */}
+        {isSearching && (
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+            <p className="text-gray-600">Searching genes...</p>
+          </div>
+        )}
 
         {/* Results Section */}
         {searchResults.length > 0 && (
@@ -104,13 +177,14 @@ export default function GeneSearchPage() {
             <SearchResults
               results={searchResults}
               onDownload={handleDownload}
+              onClear={handleClearSearch}
               type="gene"
             />
           </div>
         )}
 
         {/* No Results */}
-        {searchQuery && !isLoading && searchResults.length === 0 && (
+        {!isSearching && searchQuery && searchResults.length === 0 && (
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <Gene className="h-16 w-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-600 mb-2">
@@ -119,14 +193,6 @@ export default function GeneSearchPage() {
             <p className="text-gray-500">
               Try adjusting your search terms or browse our gene database.
             </p>
-          </div>
-        )}
-
-        {/* Loading State */}
-        {isLoading && (
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-            <p className="text-gray-600">Searching genes...</p>
           </div>
         )}
 

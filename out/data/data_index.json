@@ -1,19 +1,5 @@
 {
   "datasets": {
-    "atypical_ciliopathy": {
-      "filename": "atypical_ciliopathy.json",
-      "record_count": 42,
-      "columns": [
-        "Ciliopathy",
-        "Human Gene ID",
-        "Human Gene Name",
-        "Gene MIM Number",
-        "Subcellular Localization",
-        "Localisation Reference",
-        "Synonym"
-      ],
-      "size_kb": 12.08
-    },
     "bar_plot": {
       "filename": "bar_plot.json",
       "record_count": 5,
@@ -22,6 +8,37 @@
         "Gene_number"
       ],
       "size_kb": 0.35
+    },
+    "combined_gene_panels": {
+      "filename": "combined_gene_panels.json",
+      "record_count": 2117,
+      "columns": [
+        "gene_name",
+        "ensembl_id",
+        "description",
+        "omim_id",
+        "localization",
+        "functional_summary",
+        "ciliopathy",
+        "functional_category",
+        "ai_summary"
+      ],
+      "size_kb": 7778.2
+    },
+    "data_index": {
+      "filename": "data_index.json",
+      "record_count": 0,
+      "columns": [],
+      "size_kb": 10.18
+    },
+    "gene-search-index": {
+      "filename": "gene-search-index.json",
+      "record_count": 2591,
+      "columns": [
+        "gene",
+        "search"
+      ],
+      "size_kb": 5282.75
     },
     "gene_localisations_ciliacarta": {
       "filename": "gene_localisations_ciliacarta.json",
@@ -45,7 +62,7 @@
     },
     "homosapiens_ciliopathy": {
       "filename": "homosapiens_ciliopathy.json",
-      "record_count": 511,
+      "record_count": 2591,
       "columns": [
         "Ciliopathy",
         "Abbreviation",
@@ -57,9 +74,39 @@
         "Subcellular Localization",
         "Localisation Reference",
         "Synonym",
-        "synonym"
+        "ciliopathies",
+        "gene_id",
+        "go_terms",
+        "reactome_pathways",
+        "kegg_pathways",
+        "source_annotations_raw",
+        "ensembl_gene_id.x.x",
+        "Overexpression effects on cilia length (increase/decrease/no effect)",
+        "Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)",
+        "Percentage of ciliated cells (increase/decrease/no effect)",
+        "Gene.Description",
+        "Functional.Summary.from.Literature",
+        "Protein.complexes",
+        "subunits_protein_name",
+        "Protein.complexes Referances",
+        "Gene.annotation",
+        "Functional.category",
+        "PFAM_IDs",
+        "Domain_Descriptions",
+        "Ciliopathy Classification",
+        "Description",
+        "Source",
+        "Ortholog_Mouse",
+        "Ortholog_C_elegans",
+        "Ortholog_Xenopus",
+        "Ortholog_Zebrafish",
+        "Ortholog_Drosophila",
+        "mouse_ciliopathy_phenotype",
+        "mouse_phenotype",
+        "human_ciliopathy_phenotype",
+        "human_phenotype"
       ],
-      "size_kb": 239.2
+      "size_kb": 14942.27
     },
     "ortholog_human_celegans": {
       "filename": "ortholog_human_celegans.json",
@@ -321,6 +368,6 @@
       "size_kb": 108.84
     }
   },
-  "total_files": 18,
-  "last_updated": "2025-08-26T23:22:39.156141"
+  "total_files": 20,
+  "last_updated": "2026-03-10T16:32:17.216618"
 }

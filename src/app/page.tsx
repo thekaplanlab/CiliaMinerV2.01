@@ -1,11 +1,12 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback, useMemo } from 'react'
 import Layout from '@/components/Layout'
 import { SearchInput, SearchResults, TabPanel } from '@/components/SearchComponents'
 import { BarPlot, CiliaMinerPieChart, BubbleChart, ChartGrid, StatCard } from '@/components/ChartComponents'
 import { CiliopathyGene, CiliopathyFeature, BarPlotData, GeneNumber, PublicationData } from '@/types'
 import { dataService } from '@/services/dataService'
+import { useDebounce } from '@/lib/utils'
 import { 
   Search, 
   Database, 
@@ -21,17 +22,22 @@ export default function HomePage() {
   const [activeTab, setActiveTab] = useState('genes')
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<CiliopathyGene[]>([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [isSearching, setIsSearching] = useState(false)
   const [isDataLoading, setIsDataLoading] = useState(true)
   const [barPlotData, setBarPlotData] = useState<BarPlotData[]>([])
   const [pieChartData, setPieChartData] = useState<GeneNumber[]>([])
   const [publicationData, setPublicationData] = useState<PublicationData[]>([])
+  const [cachedGenes, setCachedGenes] = useState<CiliopathyGene[]>([])
   const [stats, setStats] = useState({
     totalGenes: 0,
     totalCiliopathies: 0,
     totalPublications: 0,
     totalOrganisms: 6
   })
+
+  // Debounce search query with 150ms delay for suggestions (further reduced)
+  const debouncedSearchQuery = useDebounce(searchQuery, 150)
+  const [suggestions, setSuggestions] = useState<string[]>([])
 
   // Load real data on component mount with progressive loading
   useEffect(() => {
@@ -66,10 +72,27 @@ export default function HomePage() {
       console.log('Loading genes data...')
       const genes = await dataService.getCiliopathyGenes()
       console.log(`Loaded ${genes.length} genes`)
+      
+      // Cache genes for suggestions
+      setCachedGenes(genes)
+      
       // Calculate statistics
+      const distinctCiliopathies = new Set<string>()
+      genes.forEach(gene => {
+        const list =
+          (gene.ciliopathies && gene.ciliopathies.length > 0
+            ? gene.ciliopathies
+            : (gene.Ciliopathy || '')
+                .split(';')
+                .map(name => name.trim())
+                .filter(Boolean))
+
+        list.forEach(name => distinctCiliopathies.add(name))
+      })
+
       setStats({
         totalGenes: genes.length,
-        totalCiliopathies: new Set(genes.map(g => g.Ciliopathy)).size,
+        totalCiliopathies: distinctCiliopathies.size,
         totalPublications: stats.totalPublications,
         totalOrganisms: 6
       })
@@ -106,10 +129,66 @@ export default function HomePage() {
     }
   }
 
-  const handleSearch = async () => {
-    if (!searchQuery.trim()) return
+  // Memoize suggestions calculation for better performance
+  const calculatedSuggestions = useMemo(() => {
+    if (!debouncedSearchQuery.trim() || cachedGenes.length === 0) {
+      return []
+    }
+
+    const query = debouncedSearchQuery.toLowerCase()
+    const maxSuggestions = query.length === 1 ? 12 : 8
     
-    setIsLoading(true)
+    // Use Set for O(1) lookup and avoid duplicates
+    const seen = new Set<string>()
+    const results: string[] = []
+    
+    // Optimize: Use a single pass with early termination
+    let geneCount = 0
+    let diseaseCount = 0
+    const maxGenes = Math.ceil(maxSuggestions * 0.7) // 70% genes
+    const maxDiseases = maxSuggestions - maxGenes // 30% diseases
+    
+    for (let i = 0; i < cachedGenes.length && results.length < maxSuggestions; i++) {
+      const gene = cachedGenes[i]
+      
+      // Check gene name first (prioritized)
+      if (geneCount < maxGenes) {
+        const geneName = gene['Human Gene Name']
+        if (geneName && geneName.toLowerCase().startsWith(query) && !seen.has(geneName)) {
+          seen.add(geneName)
+          results.push(geneName)
+          geneCount++
+          continue
+        }
+      }
+      
+      // Check disease if we still have room
+      if (diseaseCount < maxDiseases) {
+        const disease = gene.Ciliopathy
+        if (disease && disease.toLowerCase().startsWith(query) && !seen.has(disease)) {
+          seen.add(disease)
+          results.push(disease)
+          diseaseCount++
+        }
+      }
+    }
+    
+    return results
+  }, [debouncedSearchQuery, cachedGenes])
+
+  // Update suggestions state when calculation changes
+  useEffect(() => {
+    setSuggestions(calculatedSuggestions)
+  }, [calculatedSuggestions])
+
+  // Perform search only when explicitly called
+  const handleSearch = useCallback(async () => {
+    if (!searchQuery.trim()) {
+      setSearchResults([])
+      return
+    }
+
+    setIsSearching(true)
     try {
       const results = await dataService.searchCiliopathyGenes(searchQuery)
       setSearchResults(results)
@@ -117,16 +196,18 @@ export default function HomePage() {
       console.error('Search failed:', error)
       setSearchResults([])
     } finally {
-      setIsLoading(false)
+      setIsSearching(false)
     }
-  }
+  }, [searchQuery])
 
-  const handleClearSearch = () => {
+  const handleClearSearch = useCallback(() => {
     setSearchQuery('')
     setSearchResults([])
-  }
+    setSuggestions([])
+    setIsSearching(false)
+  }, [])
 
-  const handleDownloadResults = (format: 'csv' | 'json') => {
+  const handleDownloadResults = useCallback((format: 'csv' | 'json') => {
     if (searchResults.length === 0) return
     
     if (format === 'csv') {
@@ -157,17 +238,18 @@ export default function HomePage() {
       a.click()
       window.URL.revokeObjectURL(url)
     }
-  }
+  }, [searchResults])
 
-  const tabs = [
+  // Memoize tabs to prevent unnecessary re-renders
+  const tabs = useMemo(() => [
     { id: 'genes', label: 'Genes', count: stats.totalGenes },
     { id: 'ciliopathies', label: 'Ciliopathies', count: stats.totalCiliopathies }
-  ]
+  ], [stats.totalGenes, stats.totalCiliopathies])
 
   return (
     <Layout>
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-dark text-white">
+      <div className="bg-primary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">
@@ -185,15 +267,8 @@ export default function HomePage() {
                 onChange={setSearchQuery}
                 onSearch={handleSearch}
                 placeholder="Search by Gene Name, Disease, or Gene ID..."
-                suggestions={[
-                  'Bardet-Biedl Syndrome',
-                  'Polycystic Kidney Disease',
-                  'Joubert Syndrome',
-                  'PKD1',
-                  'BBS1',
-                  'Cilia',
-                  'Retinal Degeneration'
-                ]}
+                isLoading={isSearching}
+                suggestions={suggestions}
               />
             </div>
           </div>
@@ -201,8 +276,8 @@ export default function HomePage() {
       </div>
 
       {/* Loading State */}
-      {isLoading && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-12">
+      {isSearching && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
             <p className="text-gray-700 text-lg">Searching across all data...</p>
@@ -211,8 +286,8 @@ export default function HomePage() {
       )}
 
       {/* No Results */}
-      {searchQuery && !isLoading && searchResults.length === 0 && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-12">
+      {!isSearching && searchResults.length === 0 && searchQuery && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <Search className="h-16 w-16 text-gray-400 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-700 mb-2">
@@ -226,8 +301,8 @@ export default function HomePage() {
       )}
 
       {/* Search Results */}
-      {searchResults.length > 0 && !isLoading && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-12">
+      {searchResults.length > 0 && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-12">
           <SearchResults
             results={searchResults}
             type="gene"
@@ -414,6 +489,15 @@ export default function HomePage() {
               Access comprehensive clinical feature data and disease associations
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Last Update Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+        <div className="text-center py-4 border-t border-gray-200">
+          <p className="text-sm text-gray-500">
+            Last Update: 27.02.2025
+          </p>
         </div>
       </div>
     </Layout>

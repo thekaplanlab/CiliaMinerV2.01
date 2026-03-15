@@ -9,10 +9,8 @@ const navigation = [
   { name: 'Homepage', href: '/', icon: Search },
   { name: 'Gene Search', href: '/gene-search', icon: Search },
   { name: 'Advanced Search', href: '/advanced-search', icon: Search },
-  { name: 'Data Explorer', href: '/data-explorer', icon: Database },
   { name: 'Ciliopathy Classification', href: '/ciliopathy-classification', icon: Database },
   { name: 'Genes & Orthologs', href: '/genes-orthologs', icon: Activity },
-  { name: 'Organism Orthologs', href: '/organism-orthologs', icon: Activity },
   { name: 'Symptoms & Diseases', href: '/symptoms-diseases', icon: FileText },
   { name: 'Submit Gene', href: '/submit-gene', icon: Upload },
 ]
@@ -31,45 +29,33 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <h1 className="text-3xl font-bold text-primary">
-                CiliaMiner
-              </h1>
-              <p className="ml-4 text-sm text-gray-600">
-                Ciliopathy Genes and Ciliopathies
-              </p>
-            </div>
-            <div className="text-sm text-gray-500">
-              Last Update: 27.02.2025
-            </div>
-          </div>
-        </div>
-      </header>
 
       {/* Navigation */}
       <nav className="bg-primary shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex space-x-8">
-            {navigation.map((item) => {
+            {navigation.map((item, index) => {
               const isActive = pathname === item.href
               return (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={cn(
-                    'flex items-center px-3 py-4 text-sm font-medium transition-colors duration-200',
-                    isActive
-                      ? 'text-white border-b-2 border-white'
-                      : 'text-orange-100 hover:text-white hover:bg-orange-700'
+                <React.Fragment key={item.name}>
+                  {index === 0 && (
+                    <div className="flex items-center px-3 py-4 text-xl font-bold text-white">
+                      CiliaMiner
+                    </div>
                   )}
-                >
-                  <item.icon className="mr-2 h-4 w-4" />
-                  {item.name}
-                </Link>
+                  <Link
+                    href={item.href}
+                    className={cn(
+                      'flex items-center px-3 py-4 text-sm font-medium transition-colors duration-200',
+                      isActive
+                        ? 'text-white border-b-2 border-white'
+                        : 'text-orange-100 hover:text-white hover:bg-orange-700'
+                    )}
+                  >
+                    <item.icon className="mr-2 h-4 w-4" />
+                    {item.name}
+                  </Link>
+                </React.Fragment>
               )
             })}
           </div>

@@ -152,6 +152,84 @@ export default function CiliopathyClassificationPage() {
     window.URL.revokeObjectURL(url)
   }
 
+  // Helper function to create Ensembl link for Gene ID
+  const createEnsemblLink = (geneId: string, geneName: string) => {
+    if (!geneId || geneId === '-') return <span className="text-center">-</span>
+    const geneIdStr = String(geneId)
+    
+    if (geneIdStr.startsWith('ENSG')) {
+      return (
+        <a 
+          href={`https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=${geneIdStr}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+        >
+          {geneIdStr}
+        </a>
+      )
+    }
+    return (
+      <a 
+        href={`https://www.ensembl.org/Homo_sapiens/Search/Results?q=${geneName}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+      >
+        {geneIdStr}
+      </a>
+    )
+  }
+
+  // Helper function to create OMIM link
+  const createOMIMLink = (mimNumber: string) => {
+    if (!mimNumber || mimNumber === '-') return <span className="text-center">-</span>
+    const cleanNumber = mimNumber.replace(/[^\d]/g, '')
+    if (!cleanNumber) return <span className="text-center">{mimNumber}</span>
+    
+    return (
+      <a 
+        href={`https://omim.org/entry/${cleanNumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+      >
+        {mimNumber}
+      </a>
+    )
+  }
+
+  // Helper function to create PubMed links for references
+  const createPubMedLinks = (references: string) => {
+    if (!references || references === '-') return <span className="text-center">-</span>
+    
+    // Split by comma or semicolon and process each reference
+    const refList = references.split(/[,;]/).map(ref => ref.trim()).filter(ref => ref)
+    
+    return (
+      <div className="flex flex-wrap gap-1 justify-center">
+        {refList.map((ref, idx) => {
+          const cleanRef = ref.replace(/[^\d]/g, '')
+          if (!cleanRef) return <span key={idx}>{ref}{idx < refList.length - 1 ? ', ' : ''}</span>
+          
+          return (
+            <React.Fragment key={idx}>
+              <a 
+                href={`https://pubmed.ncbi.nlm.nih.gov/${cleanRef}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+              >
+                {ref}
+              </a>
+              {idx < refList.length - 1 && <span>, </span>}
+            </React.Fragment>
+          )
+        })}
+      </div>
+    )
+  }
+
   const tabs = [
     { id: 'primary', name: 'Primary Ciliopathies', icon: Database, description: 'This website contains a list of human genes for primary ciliopathies. The localization of protein products of disease-associated genes, articles, and disease/gene-related extensions are given.' },
     { id: 'secondary', name: 'Secondary Ciliopathies', icon: AlertTriangle, description: 'This website contains a list of human genes for secondary diseases. The localization of protein products of disease-associated genes, articles, and disease/gene-related extensions are given.' },
@@ -286,36 +364,36 @@ export default function CiliopathyClassificationPage() {
                   ) : (
                     <div className="overflow-x-auto">
                       <table className="min-w-full divide-y divide-gray-200">
-                        <thead className="bg-gray-50">
+                        <thead className="bg-gray-100">
                           <tr>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gene Name</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gene ID</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ciliopathy</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Localization</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">MIM Number</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">References</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Gene Name</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Gene ID</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Ciliopathy</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Localization</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">MIM Number</th>
+                            <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">References</th>
                           </tr>
                         </thead>
                         <tbody className="bg-white divide-y divide-gray-200">
                           {getFilteredGenes().slice(0, 50).map((gene, index) => (
                             <tr key={index} className="hover:bg-gray-50">
-                              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                              <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
                                 {gene['Human Gene Name']}
                               </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Human Gene ID']}
+                              <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                {createEnsemblLink(gene['Human Gene ID'] || '-', gene['Human Gene Name'])}
                               </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                              <td className="px-6 py-4 text-center text-sm text-gray-900">
                                 {gene.Ciliopathy}
                               </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                              <td className="px-6 py-4 text-center text-sm text-gray-900">
                                 {gene['Subcellular Localization']}
                               </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Gene MIM Number']}
+                              <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                {createOMIMLink(gene['Gene MIM Number'] || '-')}
                               </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Disease/Gene Reference']}
+                              <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                {createPubMedLinks(gene['Disease/Gene Reference'] || '-')}
                               </td>
                             </tr>
                           ))}

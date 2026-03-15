@@ -1,11 +1,11 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import Layout from '@/components/Layout'
 import { SearchInput, SearchResults } from '@/components/SearchComponents'
 import { CiliopathyFeature } from '@/types'
 import { dataService } from '@/services/dataService'
-import { downloadCSV, downloadJSON } from '@/lib/utils'
+import { downloadCSV, downloadJSON, useDebounce } from '@/lib/utils'
 import { FileText, Search, Filter, Activity, Eye, Brain, Heart, Zap, Users, ActivitySquare, CircleDot } from 'lucide-react'
 
 export default function SymptomsDiseasesPage() {
@@ -16,10 +16,14 @@ export default function SymptomsDiseasesPage() {
   const [displayType, setDisplayType] = useState<'normal' | 'name'>('normal')
   const [selectedDisease, setSelectedDisease] = useState<string>('')
   const [availableDiseases, setAvailableDiseases] = useState<string[]>([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [isSearching, setIsSearching] = useState(false)
   const [clinicalFeatures, setClinicalFeatures] = useState<string[]>([])
   const [symptomCounts, setSymptomCounts] = useState<{ [key: string]: number }>({})
   const [topFeaturesData, setTopFeaturesData] = useState<Array<{ feature: string; count: number; category: string }>>([])
+
+  // Debounce search query with 300ms delay for suggestions
+  const debouncedSearchQuery = useDebounce(searchQuery, 300)
+  const [suggestions, setSuggestions] = useState<string[]>([])
 
   // Load available diseases and clinical features
   useEffect(() => {
@@ -35,7 +39,6 @@ export default function SymptomsDiseasesPage() {
 
   const loadData = async () => {
     try {
-      setIsLoading(true)
       const features = await dataService.getCiliopathyFeatures()
       
       // Extract unique diseases and clinical features
@@ -78,13 +81,11 @@ export default function SymptomsDiseasesPage() {
       setTopFeaturesData(topFeatures)
     } catch (error) {
       console.error('Failed to load data:', error)
-    } finally {
-      setIsLoading(false)
     }
   }
 
   const performDiseaseDropdownSearch = async (disease: string) => {
-    setIsLoading(true)
+    setIsSearching(true)
     try {
       const results = await dataService.getCiliopathyFeatures()
       const filtered = results.filter(f => f.Disease === disease)
@@ -93,17 +94,52 @@ export default function SymptomsDiseasesPage() {
       console.error('Search failed:', error)
       setSearchResults([])
     } finally {
-      setIsLoading(false)
+      setIsSearching(false)
     }
   }
 
-  const performSearch = async () => {
-    if (!searchQuery.trim()) {
-      setSearchResults([])
+  // Load suggestions as user types (using pre-loaded data)
+  useEffect(() => {
+    if (!debouncedSearchQuery.trim()) {
+      setSuggestions([])
       return
     }
-    
-    setIsLoading(true)
+
+    try {
+      const query = debouncedSearchQuery.toLowerCase()
+      
+      // Show more suggestions for single-letter searches
+      const maxSuggestions = query.length === 1 ? 15 : 10
+      
+      if (activeTab === 'disease') {
+        // Show disease suggestions that START with the query
+        const filtered = availableDiseases
+          .filter(d => d.toLowerCase().startsWith(query))
+          .slice(0, maxSuggestions)
+        setSuggestions(filtered)
+      } else {
+        // Show symptom suggestions that START with the query
+        const filtered = clinicalFeatures
+          .filter(f => f.toLowerCase().startsWith(query))
+          .slice(0, maxSuggestions)
+        setSuggestions(filtered)
+      }
+    } catch (error) {
+      console.error('Failed to load suggestions:', error)
+      setSuggestions([])
+    }
+  }, [debouncedSearchQuery, activeTab, availableDiseases, clinicalFeatures])
+
+  // Search only when explicitly called
+  const handleSearch = useCallback(async () => {
+    if (!searchQuery.trim()) {
+      if (!selectedDisease) {
+        setSearchResults([])
+      }
+      return
+    }
+
+    setIsSearching(true)
     try {
       let results: CiliopathyFeature[] = []
       
@@ -126,22 +162,25 @@ export default function SymptomsDiseasesPage() {
       console.error('Search failed:', error)
       setSearchResults([])
     } finally {
-      setIsLoading(false)
+      setIsSearching(false)
     }
-  }
+  }, [searchQuery, activeTab, selectedDisease])
 
-  const handleDownload = (format: 'csv' | 'json') => {
+  const handleDownload = useCallback((format: 'csv' | 'json') => {
     if (format === 'csv') {
       downloadCSV(searchResults, `symptoms_search_${searchQuery}.csv`)
     } else {
       downloadJSON(searchResults, `symptoms_search_${searchQuery}.json`)
     }
-  }
+  }, [searchResults, searchQuery])
 
-  const handleClearSearch = () => {
+  const handleClearSearch = useCallback(() => {
     setSearchQuery('')
     setSearchResults([])
-  }
+    setSuggestions([])
+    setSelectedDisease('')
+    setIsSearching(false)
+  }, [])
 
   // Disease symptom summary data with icon mapping
   const iconMap: { [key: string]: { icon: React.ComponentType<{ className?: string }>, color: string } } = {
@@ -286,12 +325,12 @@ export default function SymptomsDiseasesPage() {
                   </button>
                 )}
               </div>
-              {selectedDisease && !isLoading && (
+              {selectedDisease && !isSearching && (
                 <div className="mt-2 text-sm text-gray-600">
                   Found <span className="font-semibold text-primary">{searchResults.length}</span> clinical feature(s) for <span className="font-semibold">{selectedDisease}</span>
                 </div>
               )}
-              {isLoading && selectedDisease && (
+              {isSearching && selectedDisease && (
                 <div className="mt-2 text-sm text-gray-500">
                   Loading features for {selectedDisease}...
                 </div>
@@ -304,24 +343,24 @@ export default function SymptomsDiseasesPage() {
             <label className="block text-sm font-medium text-gray-700 mb-2">
               {activeTab === 'disease' ? 'Search by Disease Name' : 'Search by Symptom Name'}
             </label>
-            <div className="flex space-x-4">
-              <div className="flex-1">
-                <SearchInput
-                  value={searchQuery}
-                  onChange={setSearchQuery}
-                  onSearch={performSearch}
-                  placeholder={activeTab === 'disease' ? 'Enter disease name...' : 'Enter symptom name...'}
-                />
-              </div>
-              <button
-                onClick={performSearch}
-                className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg transition-colors"
-              >
-                Search
-              </button>
-            </div>
+            <SearchInput
+              value={searchQuery}
+              onChange={setSearchQuery}
+              onSearch={handleSearch}
+              placeholder={activeTab === 'disease' ? 'Enter disease name...' : 'Enter symptom name...'}
+              isLoading={isSearching}
+              suggestions={suggestions}
+            />
           </div>
         </div>
+
+        {/* Loading State */}
+        {isSearching && (
+          <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+            <p className="text-gray-700 text-lg">Searching...</p>
+          </div>
+        )}
 
         {/* Search Results */}
         {searchResults.length > 0 && (
@@ -332,6 +371,19 @@ export default function SymptomsDiseasesPage() {
               onDownload={handleDownload}
               onClear={handleClearSearch}
             />
+          </div>
+        )}
+
+        {/* No Results */}
+        {!isSearching && searchQuery && !selectedDisease && searchResults.length === 0 && (
+          <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <Search className="h-16 w-16 text-gray-400 mx-auto mb-4" />
+            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              No results found
+            </h3>
+            <p className="text-gray-600">
+              Try a different search term or browse our database sections.
+            </p>
           </div>
         )}
 

@@ -30,26 +30,58 @@ export default function SubmitGenePage() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    
-    // Reset form after submission
-    setTimeout(() => {
-      setIsSubmitted(false)
-      setFormData({
-        geneName: '',
-        geneId: '',
-        organism: '',
-        disease: '',
-        publication: '',
-        evidence: '',
-        contactEmail: '',
-        additionalInfo: ''
+    try {
+      // Submit to backend API
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+      
+      const response = await fetch(`${API_URL}/api/submissions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          gene_name: formData.geneName,
+          gene_id: formData.geneId || null,
+          organism: formData.organism,
+          disease: formData.disease || null,
+          publication: formData.publication || null,
+          evidence: formData.evidence,
+          contact_email: formData.contactEmail || null,
+          additional_info: formData.additionalInfo || null,
+        }),
       })
-    }, 5000)
+      
+      if (!response.ok) {
+        throw new Error('Submission failed')
+      }
+      
+      const result = await response.json()
+      console.log('Submission successful:', result)
+      
+      setIsSubmitting(false)
+      setIsSubmitted(true)
+      
+      // Reset form after submission
+      setTimeout(() => {
+        setIsSubmitted(false)
+        setFormData({
+          geneName: '',
+          geneId: '',
+          organism: '',
+          disease: '',
+          publication: '',
+          evidence: '',
+          contactEmail: '',
+          additionalInfo: ''
+        })
+      }, 5000)
+      
+    } catch (error) {
+      console.error('Submission error:', error)
+      setIsSubmitting(false)
+      // Show error message - for now just alert
+      alert('Failed to submit. Please try again or contact support.')
+    }
   }
 
   const organisms = [

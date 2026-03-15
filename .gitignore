@@ -1,1 +1,10 @@
 node_modules
+.next
+out
+
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+backend/.env
+backend/submissions/*.json
