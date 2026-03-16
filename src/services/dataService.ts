@@ -1,592 +1,542 @@
-import { 
-  CiliopathyGene, 
-  OrthologGene, 
-  CiliopathyFeature, 
-  GeneNumber, 
-  BarPlotData, 
+/**
+ * dataService.ts
+ *
+ * Single source-of-truth data layer for CiliaMiner.
+ *
+ * Architecture:
+ *   public/data/ciliaminer.xlsx  ─(fetch)→  SheetJS  ─(parse)→  in-memory cache
+ *
+ * The workbook is the ONLY data file. When an expected sheet is absent, the
+ * corresponding method returns an empty result and records the missing dataset
+ * in the DataQualityReport so it is visible in the browser console.
+ *
+ * Required sheets in ciliaminer.xlsx:
+ *   genes                      – main gene table (35 snake_case columns)
+ *   symptome_primary           – disease × clinical feature matrix (primary)
+ *   symptome_secondary         – disease × clinical feature matrix (secondary)
+ *   gene_localisations_ciliacarta – gene × subcellular localisation matrix
+ *
+ * genes sheet columns:
+ *   gene, ensembl_gene_id, overexpression_cilia_length_effect, lof_cilia_length_effect,
+ *   ciliated_cells_pct_effect, gene_description, synonym, omim_id, functional_summary,
+ *   localization, localization_reference, protein_complexes, subunits_protein_name,
+ *   protein_complexes_references, gene_annotation, functional_category, pfam_ids,
+ *   domain_descriptions, ciliopathy, ciliopathy_classification, disease_reference,
+ *   annotation_ids, annotation_description, annotation_source,
+ *   ortholog_mouse, ortholog_celegans, ortholog_xenopus, ortholog_zebrafish,
+ *   ortholog_drosophila, mouse_ciliopathy_phenotype, mouse_phenotype,
+ *   human_ciliopathy_phenotype, human_phenotype, pubmed_count, top25_recent_pmids
+ *
+ * Note: Chlamydomonas reinhardtii orthologs are not in the workbook yet — that
+ *       organism returns an empty list until a sheet is added.
+ */
+
+import type {
+  CiliopathyGene,
+  OrthologGene,
+  CiliopathyFeature,
+  GeneNumber,
+  BarPlotData,
   PublicationData,
-  HeatmapData
+  HeatmapData,
 } from '@/types'
 
-// API configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+import {
+  loadWorkbook,
+  safeString,
+  safeStringOptional,
+  safeStringList,
+  parseAnnotationIds,
+  pickEnsemblId,
+  type ParsedWorkbook,
+  type DataQualityIssue,
+  type DataQualityReport,
+  type RawRow,
+} from '@/lib/excelParser'
 
-// Data index structure
-interface DataIndex {
-  datasets: {
-    [key: string]: {
-      filename: string
-      record_count: number
-      columns: string[]
-      size_kb: number
-    }
-  }
+// ── Constants ────────────────────────────────────────────────────────────────
+
+const EXCEL_FILENAME = 'ciliaminer.xlsx'
+const MAIN_SHEET = 'genes'
+
+/**
+ * All sheets the app expects to find in the workbook.
+ * Any sheet absent here will be recorded in the DataQualityReport as missing.
+ */
+const REQUIRED_SHEETS = [
+  'genes',
+  'symptome_primary',
+  'symptome_secondary',
+  'gene_localisations_ciliacarta',
+] as const
+
+type RequiredSheet = (typeof REQUIRED_SHEETS)[number]
+
+/**
+ * Maps organism IDs to the inline ortholog column in the genes sheet.
+ * Chlamydomonas has no column yet — it returns empty until added.
+ */
+const ORTHOLOG_COLUMN_MAP: Record<string, string> = {
+  mus_musculus: 'ortholog_mouse',
+  caenorhabditis_elegans: 'ortholog_celegans',
+  xenopus_laevis: 'ortholog_xenopus',
+  danio_rerio: 'ortholog_zebrafish',
+  drosophila_melanogaster: 'ortholog_drosophila',
 }
 
-// Get the base path for data fetching (GitHub Pages support)
+const ORGANISM_DISPLAY_NAMES: Record<string, string> = {
+  mus_musculus: 'Mus musculus',
+  danio_rerio: 'Danio rerio',
+  xenopus_laevis: 'Xenopus laevis',
+  drosophila_melanogaster: 'Drosophila melanogaster',
+  caenorhabditis_elegans: 'Caenorhabditis elegans',
+  chlamydomonas_reinhardtii: 'Chlamydomonas reinhardtii',
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
 function getBasePath(): string {
-  // Check if we're in production and deployed to a subdirectory
   if (typeof window !== 'undefined') {
-    const path = window.location.pathname
-    // If the path starts with /CiliaMinerV2.01, use that as basePath
-    if (path.startsWith('/CiliaMinerV2.01')) {
+    if (window.location.pathname.startsWith('/CiliaMinerV2.01')) {
       return '/CiliaMinerV2.01'
     }
   }
   return ''
 }
 
-interface GeneSearchIndexEntry {
-  gene: CiliopathyGene
-  search: string
-}
+// ── DataService class ────────────────────────────────────────────────────────
 
 class DataService {
-  private dataIndex: DataIndex | null = null
-  private dataCache: Map<string, any> = new Map()
-  private basePath: string = getBasePath()
-  private useBackend: boolean = false
-  private backendChecked: boolean = false
+  private workbook: ParsedWorkbook | null = null
+  private workbookPromise: Promise<ParsedWorkbook> | null = null
+  private dataCache = new Map<string, unknown>()
 
-  // Check if backend API is available
-  private async checkBackendAvailability(): Promise<boolean> {
-    if (this.backendChecked) return this.useBackend
-    
-    try {
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 2000)
-      
-      const response = await fetch(`${API_BASE_URL}/api/health`, {
-        signal: controller.signal
-      })
-      
-      clearTimeout(timeoutId)
-      this.useBackend = response.ok
-      console.log(this.useBackend ? '✅ Backend API available' : '⚠️ Backend not available, using static files')
-    } catch {
-      this.useBackend = false
-      console.log('⚠️ Backend not available, using static files')
-    }
-    
-    this.backendChecked = true
-    return this.useBackend
+  private qualityIssues: DataQualityIssue[] = []
+  private sheetsFound: string[] = []
+  private sheetsMissing: string[] = []
+  private loadedAt = ''
+  private totalRowsProcessed = 0
+
+  // ── Workbook loader ────────────────────────────────────────────────────────
+
+  private getWorkbook(): Promise<ParsedWorkbook> {
+    if (this.workbook) return Promise.resolve(this.workbook)
+    if (this.workbookPromise) return this.workbookPromise
+
+    const url = `${getBasePath()}/data/${EXCEL_FILENAME}`
+    this.workbookPromise = loadWorkbook(url).then(({ workbook, missingSheets }) => {
+      this.workbook = workbook
+      this.sheetsFound = workbook.sheetNames
+      this.sheetsMissing = missingSheets
+      this.loadedAt = new Date().toISOString()
+
+      if (missingSheets.length > 0) {
+        console.warn(
+          `[CiliaMiner] The following sheets are missing from ${EXCEL_FILENAME}:\n` +
+            missingSheets.map(s => `  • ${s}`).join('\n') +
+            '\nData for those sections will be shown as empty until the sheets are added.'
+        )
+      }
+      return workbook
+    })
+    return this.workbookPromise
   }
 
-  // Fetch from backend API
-  private async fetchFromAPI<T>(endpoint: string): Promise<T | null> {
-    try {
-      const response = await fetch(`${API_BASE_URL}${endpoint}`)
-      if (!response.ok) return null
-      return await response.json()
-    } catch {
-      return null
-    }
-  }
+  /**
+   * Returns the rows of a sheet, or an empty array when the sheet is absent.
+   * Records a quality issue the first time a missing sheet is accessed so the
+   * report stays accurate even for sheets checked lazily.
+   */
+  private getSheetRows(sheetName: RequiredSheet): Promise<RawRow[]> {
+    return this.getWorkbook().then(wb => {
+      if (wb.hasSheet(sheetName)) return wb.getSheet(sheetName)
 
-  async loadDataIndex(): Promise<DataIndex> {
-    if (this.dataIndex) return this.dataIndex
-    
-    try {
-      // Add timeout to prevent hanging requests
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 10000) // 10 second timeout
-      
-      const response = await fetch(`${this.basePath}/data/data_index.json`, {
-        signal: controller.signal
-      })
-      
-      clearTimeout(timeoutId)
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
+      // Record a missing-sheet issue if not already noted
+      const alreadyNoted = this.qualityIssues.some(
+        i => i.sheet === sheetName && i.issue === 'missing'
+      )
+      if (!alreadyNoted) {
+        this.qualityIssues.push({
+          sheet: sheetName,
+          rowIndex: -1,
+          gene: '',
+          field: '(entire sheet)',
+          issue: 'missing',
+          originalValue: null,
+          usedFallback: '(empty — add the sheet to ciliaminer.xlsx)',
+        })
       }
-      
-      const data = await response.json()
-      this.dataIndex = data
-      return data
-    } catch (error) {
-      console.error('Failed to load data index:', error)
-      // Return a default data index instead of throwing
-      return {
-        datasets: {}
-      }
-    }
-  }
-
-  async loadDataset(datasetName: string): Promise<any[]> {
-    if (this.dataCache.has(datasetName)) {
-      return this.dataCache.get(datasetName)!
-    }
-
-    try {
-      // Add timeout to prevent hanging requests
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 30000) // 30 second timeout for large files
-      
-      const response = await fetch(`${this.basePath}/data/${datasetName}.json`, {
-        signal: controller.signal
-      })
-      
-      clearTimeout(timeoutId)
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-      
-      // Get the response as text first to handle NaN values
-      const text = await response.text()
-      
-      // Replace NaN with null to make it valid JSON
-      const validJsonText = text.replace(/:\s*NaN/g, ': null')
-      
-      const data = JSON.parse(validJsonText)
-      this.dataCache.set(datasetName, data)
-      return data
-    } catch (error) {
-      console.error(`Failed to load dataset ${datasetName}:`, error)
-      // Return empty array instead of throwing to prevent app crashes
       return []
-    }
+    })
   }
 
-  private async getGeneSearchIndex(): Promise<GeneSearchIndexEntry[]> {
-    const data = await this.loadDataset('gene-search-index')
-    if (!Array.isArray(data)) return []
+  // ── Primary gene dataset ───────────────────────────────────────────────────
 
-    return data.map((item: any) => ({
-      gene: {
-        Ciliopathy: item.gene?.Ciliopathy || '',
-        'Human Gene Name': item.gene?.['Human Gene Name'] || '',
-        'Subcellular Localization': item.gene?.['Subcellular Localization'] || '',
-        'Gene MIM Number': item.gene?.['Gene MIM Number'] || '',
-        'OMIM Phenotype Number': item.gene?.['OMIM Phenotype Number'] || '',
-        'Human Gene ID': item.gene?.['Human Gene ID'] || '',
-        'Disease/Gene Reference': item.gene?.['Disease/Gene Reference'] || '',
-        'Localisation Reference': item.gene?.['Localisation Reference'] || '',
-        'Gene Localisation': item.gene?.['Gene Localisation'] || item.gene?.['Subcellular Localization'] || '',
-        Abbreviation: item.gene?.Abbreviation || '',
-        Synonym: item.gene?.Synonym || '',
-        go_terms: item.gene?.go_terms || [],
-        reactome_pathways: item.gene?.reactome_pathways || [],
-        kegg_pathways: item.gene?.kegg_pathways || []
-      },
-      search: typeof item.search === 'string' ? item.search : ''
-    }))
-  }
-
-  // Load ciliopathy genes data
   async getCiliopathyGenes(): Promise<CiliopathyGene[]> {
-    const data = await this.loadDataset('homosapiens_ciliopathy')
-    return data.map((item: any) => ({
-      // Core fields used across the app
-      Ciliopathy: item.Ciliopathy || 'Unknown',
-      'Human Gene Name': item['Human Gene Name'] || item.Gene,
-      'Subcellular Localization': item['Subcellular Localization'] || item.Localization || '',
-      'Gene MIM Number': String(item['Gene MIM Number'] ?? item['OMIM Phenotype Number'] ?? ''),
-      'OMIM Phenotype Number': String(item['OMIM Phenotype Number'] ?? ''),
-      'Disease/Gene Reference': item['Disease/Gene Reference'] ?? item['Disease Reference'] ?? '',
-      'Human Gene ID': String(item['Human Gene ID'] ?? item.gene_id ?? item['ensembl_gene_id.x.x'] ?? ''),
-      'Localisation Reference': item['Localisation Reference'] ?? String(item.Reference ?? ''),
-      'Gene Localisation': item['Subcellular Localization'] || item.Localization || '',
-      Abbreviation: item.Abbreviation ?? '',
-      Synonym: item.Synonym ?? item['Synonym.'] ?? '',
+    const CACHE_KEY = 'genes'
+    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as CiliopathyGene[]
 
-      // Extended annotation mapped through for richer views
-      Gene: item.Gene,
-      'ensembl_gene_id.x.x': item['ensembl_gene_id.x.x'],
-      'Overexpression effects on cilia length (increase/decrease/no effect)':
-        item['Overexpression effects on cilia length (increase/decrease/no effect)'],
-      'Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)':
-        item['Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)'],
-      'Percentage of ciliated cells (increase/decrease/no effect)':
-        item['Percentage of ciliated cells (increase/decrease/no effect)'],
-      'Gene.Description': item['Gene.Description'],
-      'Functional.Summary.from.Literature': item['Functional.Summary.from.Literature'],
-      'Protein.complexes': item['Protein.complexes'],
-      subunits_protein_name: item.subunits_protein_name,
-      'Protein.complexes Referances': item['Protein.complexes Referances'],
-      'Gene.annotation': item['Gene.annotation'],
-      'Functional.category': item['Functional.category'],
-      PFAM_IDs: item['PFAM_IDs'],
-      Domain_Descriptions: item['Domain_Descriptions'],
-      'Ciliopathy Classification': item['Ciliopathy Classification'],
-      Description: item.Description,
-      Source: item.Source,
-      go_terms: item.go_terms || [],
-      reactome_pathways: item.reactome_pathways || [],
-      kegg_pathways: item.kegg_pathways || [],
-      ciliopathies: item.ciliopathies || [],
-      Ortholog_Mouse: item['Ortholog_Mouse'],
-      Ortholog_C_elegans: item['Ortholog_C_elegans'],
-      Ortholog_Xenopus: item['Ortholog_Xenopus'],
-      Ortholog_Zebrafish: item['Ortholog_Zebrafish'],
-      Ortholog_Drosophila: item['Ortholog_Drosophila'],
-      mouse_ciliopathy_phenotype: item['mouse_ciliopathy_phenotype'],
-      mouse_phenotype: item['mouse_phenotype'],
-      human_ciliopathy_phenotype: item['human_ciliopathy_phenotype'],
-      human_phenotype: item['human_phenotype']
-    }))
-  }
+    const rows = await this.getSheetRows('genes')
 
-  // Load gene numbers for pie chart
-  async getGeneNumbers(): Promise<GeneNumber[]> {
-    // Derive categories directly from the integrated gene table
-    const genes = await this.getCiliopathyGenes()
+    const genes: CiliopathyGene[] = rows.map((row, i) => {
+      const geneName = safeString(
+        row['gene'], 'gene', i, MAIN_SHEET,
+        String(row['gene'] ?? 'unknown'), this.qualityIssues
+      )
+      const ciliopathy = safeString(
+        row['ciliopathy'], 'ciliopathy', i, MAIN_SHEET,
+        geneName, this.qualityIssues, 'Unknown'
+      )
+      const annotations = parseAnnotationIds(row['annotation_ids'])
 
-    // Use Ciliopathy Classification when available, fall back to Ciliopathy string
-    const counts = new Map<string, number>()
-    genes.forEach(gene => {
-      const rawCategory =
-        (gene['Ciliopathy Classification'] as string | null | undefined) ||
-        gene.Ciliopathy ||
-        'Unclassified'
+      return {
+        Ciliopathy: ciliopathy,
+        'Human Gene Name': geneName,
+        'Subcellular Localization': safeStringOptional(row['localization']),
+        'Gene MIM Number': safeStringOptional(row['omim_id']),
+        'OMIM Phenotype Number': safeStringOptional(row['omim_id']),
+        'Disease/Gene Reference': safeStringOptional(row['disease_reference']),
+        'Human Gene ID': pickEnsemblId(row['ensembl_gene_id']),
+        'Localisation Reference': safeStringOptional(row['localization_reference']),
+        'Gene Localisation': safeStringOptional(row['localization']),
+        Abbreviation: '',
+        Synonym: safeStringOptional(row['synonym']),
 
-      const category = rawCategory.trim() || 'Unclassified'
-      const current = counts.get(category) ?? 0
-      counts.set(category, current + 1)
+        Gene: geneName,
+        'ensembl_gene_id.x.x': safeStringOptional(row['ensembl_gene_id']),
+        'Overexpression effects on cilia length (increase/decrease/no effect)':
+          safeStringOptional(row['overexpression_cilia_length_effect']),
+        'Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)':
+          safeStringOptional(row['lof_cilia_length_effect']),
+        'Percentage of ciliated cells (increase/decrease/no effect)':
+          safeStringOptional(row['ciliated_cells_pct_effect']),
+        'Gene.Description': safeStringOptional(row['gene_description']),
+        'Functional.Summary.from.Literature': safeStringOptional(row['functional_summary']),
+        'Protein.complexes': safeStringOptional(row['protein_complexes']),
+        subunits_protein_name: safeStringOptional(row['subunits_protein_name']),
+        'Protein.complexes Referances': safeStringOptional(row['protein_complexes_references']),
+        'Gene.annotation': safeStringOptional(row['gene_annotation']),
+        'Functional.category': safeStringOptional(row['functional_category']),
+        PFAM_IDs: safeStringOptional(row['pfam_ids']),
+        Domain_Descriptions: safeStringOptional(row['domain_descriptions']),
+        'Ciliopathy Classification': safeStringOptional(row['ciliopathy_classification']),
+        Description: safeStringOptional(row['annotation_description']),
+        Source: safeStringOptional(row['annotation_source']),
+
+        Ortholog_Mouse: safeStringOptional(row['ortholog_mouse']),
+        Ortholog_C_elegans: safeStringOptional(row['ortholog_celegans']),
+        Ortholog_Xenopus: safeStringOptional(row['ortholog_xenopus']),
+        Ortholog_Zebrafish: safeStringOptional(row['ortholog_zebrafish']),
+        Ortholog_Drosophila: safeStringOptional(row['ortholog_drosophila']),
+
+        mouse_ciliopathy_phenotype: safeStringOptional(row['mouse_ciliopathy_phenotype']),
+        mouse_phenotype: safeStringOptional(row['mouse_phenotype']),
+        human_ciliopathy_phenotype: safeStringOptional(row['human_ciliopathy_phenotype']),
+        human_phenotype: safeStringOptional(row['human_phenotype']),
+
+        go_terms: annotations.go_terms,
+        reactome_pathways: annotations.reactome_pathways,
+        kegg_pathways: annotations.kegg_pathways,
+        ciliopathies: safeStringList(row['ciliopathy']),
+        gene_id: pickEnsemblId(row['ensembl_gene_id']),
+        source_annotations_raw: safeStringList(row['annotation_ids']),
+      } satisfies CiliopathyGene
     })
 
+    this.totalRowsProcessed += genes.length
+    this.dataCache.set(CACHE_KEY, genes)
+    this.logQualityReport()
+    return genes
+  }
+
+  // ── Derived chart / classification datasets ────────────────────────────────
+
+  async getGeneNumbers(): Promise<GeneNumber[]> {
+    const genes = await this.getCiliopathyGenes()
+    const counts = new Map<string, number>()
+    for (const g of genes) {
+      const category =
+        (g['Ciliopathy Classification'] || g.Ciliopathy || 'Unclassified').trim() ||
+        'Unclassified'
+      counts.set(category, (counts.get(category) ?? 0) + 1)
+    }
     return Array.from(counts.entries()).map(([Disease, Gene_numbers]) => ({
       Disease,
-      Gene_numbers
+      Gene_numbers,
     }))
   }
 
-  // Load bar plot data
   async getBarPlotData(): Promise<BarPlotData[]> {
-    // Derive localization distribution from the integrated gene table
     const genes = await this.getCiliopathyGenes()
-
     const buckets: Record<string, number> = {
       Cilia: 0,
       'Basal Body': 0,
       'Transition Zone': 0,
-      Others: 0
+      Others: 0,
     }
-
-    genes.forEach(gene => {
-      const loc = (gene['Subcellular Localization'] || '').toLowerCase()
-
-      let bucket: keyof typeof buckets = 'Others'
+    for (const g of genes) {
+      const loc = (g['Subcellular Localization'] || '').toLowerCase()
+      let bucket = 'Others'
       if (loc.includes('basal')) bucket = 'Basal Body'
       else if (loc.includes('transition')) bucket = 'Transition Zone'
       else if (loc.includes('cilia') || loc.includes('flagella')) bucket = 'Cilia'
-
       buckets[bucket] += 1
-    })
-
-    return Object.entries(buckets).map(([name, value]) => ({
-      name,
-      value
-    }))
+    }
+    return Object.entries(buckets).map(([name, value]) => ({ name, value }))
   }
 
-  // Load ortholog data for specific organism
-  async getOrthologData(organism: string): Promise<OrthologGene[]> {
-    const datasetMap: { [key: string]: string } = {
-      'mus_musculus': 'ortholog_human_mmusculus',
-      'danio_rerio': 'ortholog_human_drerio',
-      'xenopus_laevis': 'ortholog_human_xlaevis',
-      'drosophila_melanogaster': 'ortholog_human_drosophila',
-      'caenorhabditis_elegans': 'ortholog_human_celegans',
-      'chlamydomonas_reinhardtii': 'ortholog_human_creinhardtii'
-    }
-
-    const datasetName = datasetMap[organism]
-    if (!datasetName) {
-      throw new Error(`Unknown organism: ${organism}`)
-    }
-
-    const data = await this.loadDataset(datasetName)
-    return data.map((item: any) => ({
-      'Human Gene': item['Human Gene Name'],
-      'Human Gene ID': item['Human Gene ID']?.toString() || '',
-      'Human Gene Name': item['Human Gene Name'],
-      'Human Gene MIM': item['Gene MIM Number'],
-      'Human Disease': item.Ciliopathy,
-      'Human Disease MIM': item['OMIM Phenotype Number'],
-      'Ortholog Gene': item[`${organism.split('_')[0].charAt(0).toUpperCase() + organism.split('_')[0].slice(1)} ${organism.split('_')[1]}` + ' Gene Name'] || item['Human Gene Name'],
-      'Ortholog Gene ID': item['Human Gene ID']?.toString() || '',
-      'Ortholog Gene Name': item[`${organism.split('_')[0].charAt(0).toUpperCase() + organism.split('_')[0].slice(1)} ${organism.split('_')[1]}` + ' Gene Name'] || item['Human Gene Name'],
-      'Ortholog Gene MIM': item['Gene MIM Number'],
-      'Ortholog Disease': item.Ciliopathy,
-      'Ortholog Disease MIM': item['OMIM Phenotype Number'],
-      'Organism': this.getOrganismDisplayName(organism)
-    }))
-  }
-
-  // Load symptoms data for heatmap
-  async getSymptomsData(): Promise<HeatmapData[]> {
-    const primarySymptoms = await this.loadDataset('symptome_primary')
-    const secondarySymptoms = await this.loadDataset('symptome_secondary')
-    
-    const allSymptoms = [...primarySymptoms, ...secondarySymptoms]
-    const heatmapData: HeatmapData[] = []
-
-    allSymptoms.forEach((symptom: any) => {
-      const feature = symptom['Ciliopathy / Clinical Features']
-      const generalTitle = symptom['General Titles']
-      
-      // Extract disease columns (skip metadata columns)
-      const diseaseColumns = Object.keys(symptom).filter(key => 
-        key !== 'Ciliopathy / Clinical Features' && 
-        key !== 'General Titles' && 
-        symptom[key] === 1.0
-      )
-
-      diseaseColumns.forEach(disease => {
-        heatmapData.push({
-          x: disease,
-          y: feature,
-          value: 1,
-          category: generalTitle
-        })
-      })
-    })
-
-    return heatmapData
-  }
-
-  // Load gene localization data for heatmap
-  async getGeneLocalizationData(): Promise<HeatmapData[]> {
-    const data = await this.loadDataset('gene_localisations_ciliacarta')
-    const heatmapData: HeatmapData[] = []
-
-    data.forEach((item: any) => {
-      const gene = item['Human Gene Name']
-      
-      // Check each localization column
-      if (item['Basal Body'] === 1) {
-        heatmapData.push({ x: gene, y: 'Basal Body', value: 1 })
-      }
-      if (item['Transition Zone'] === 1) {
-        heatmapData.push({ x: gene, y: 'Transition Zone', value: 1 })
-      }
-      if (item['Cilia'] === 1) {
-        heatmapData.push({ x: gene, y: 'Cilia', value: 1 })
-      }
-    })
-
-    return heatmapData
-  }
-
-  // Get organism display names
-  private getOrganismDisplayName(organismId: string): string {
-    const displayNames: { [key: string]: string } = {
-      'mus_musculus': 'Mus musculus',
-      'danio_rerio': 'Danio rerio',
-      'xenopus_laevis': 'Xenopus laevis',
-      'drosophila_melanogaster': 'Drosophila melanogaster',
-      'caenorhabditis_elegans': 'Caenorhabditis elegans',
-      'chlamydomonas_reinhardtii': 'Chlamydomonas reinhardtii'
-    }
-    return displayNames[organismId] || organismId
-  }
-
-  // Get statistics for organism
-  async getOrganismStats(organism: string): Promise<{ geneCount: number; orthologCount: number }> {
-    try {
-      const data = await this.getOrthologData(organism)
-      return {
-        geneCount: data.length,
-        orthologCount: data.length
-      }
-    } catch (error) {
-      console.error(`Failed to get stats for ${organism}:`, error)
-      return { geneCount: 0, orthologCount: 0 }
-    }
-  }
-
-  // Get publication data
-  async getPublicationData(): Promise<PublicationData[]> {
-    try {
-      const data = await this.loadDataset('publication_table')
-      // Transform the data to match the expected structure and filter out null values
-      const validData = data.filter((item: any) => 
-        item.gene_name && item.year && item.publication_number
-      )
-      
-      return validData.map((item: any) => ({
-        gene_name: item.gene_name,
-        publication_number: parseInt(item.publication_number) || 0,
-        year: parseInt(item.year) || 2023
-      }))
-    } catch (error) {
-      console.error('Failed to load publication data:', error)
-      return []
-    }
-  }
-
-  // Search ciliopathy genes
-  async searchCiliopathyGenes(query: string): Promise<CiliopathyGene[]> {
-    // Try backend API first
-    await this.checkBackendAvailability()
-    
-    if (this.useBackend) {
-      try {
-        const response = await this.fetchFromAPI<{ results: any[] }>(
-          `/api/genes/search?q=${encodeURIComponent(query)}&limit=500`
-        )
-        if (response && response.results) {
-          return response.results.map((item: any) => ({
-            Ciliopathy: item.Ciliopathy || item.ciliopathy || '',
-            'Human Gene Name': item['Human Gene Name'] || item.human_gene_name || '',
-            'Subcellular Localization': item['Subcellular Localization'] || item.subcellular_localization || '',
-            'Gene MIM Number': item['Gene MIM Number'] || item.gene_mim_number || '',
-            'OMIM Phenotype Number': item['OMIM Phenotype Number'] || item.omim_phenotype_number || '',
-            'Human Gene ID': item['Human Gene ID'] || item.human_gene_id || '',
-            'Disease/Gene Reference': item['Disease/Gene Reference'] || item.disease_gene_reference || '',
-            'Localisation Reference': item['Localisation Reference'] || item.localisation_reference || '',
-            'Gene Localisation': item['Subcellular Localization'] || item.subcellular_localization || '',
-            Abbreviation: item.Abbreviation || item.abbreviation || '',
-            Synonym: item.Synonym || item.synonym || ''
-          }))
-        }
-      } catch (error) {
-        console.error('Backend search failed, falling back to static:', error)
-      }
-    }
-    const lowerQuery = query.toLowerCase()
-
-    // Try optimized search index first
-    try {
-      const index = await this.getGeneSearchIndex()
-      if (index.length > 0) {
-        return index
-          .filter(entry => entry.search.includes(lowerQuery))
-          .slice(0, 500)
-          .map(entry => entry.gene)
-      }
-    } catch (error) {
-      console.error('Failed to use gene search index, falling back to full dataset:', error)
-    }
-
-    // Fallback to static file search
+  async getCiliopathiesByCategory(): Promise<Record<string, CiliopathyGene[]>> {
     const genes = await this.getCiliopathyGenes()
-    return genes.filter(gene => 
-      gene.Ciliopathy.toLowerCase().includes(lowerQuery) ||
-      gene['Human Gene Name'].toLowerCase().includes(lowerQuery) ||
-      gene['Gene MIM Number'].toLowerCase().includes(lowerQuery)
-    )
+    const categories: Record<string, CiliopathyGene[]> = {
+      Primary: [],
+      Secondary: [],
+      Atypical: [],
+    }
+    for (const g of genes) {
+      const cls = (g['Ciliopathy Classification'] || '').toLowerCase()
+      if (cls.includes('primary')) categories.Primary.push(g)
+      else if (cls.includes('secondary')) categories.Secondary.push(g)
+      else categories.Atypical.push(g)
+    }
+    return categories
   }
 
-  // Search genes (alias for searchCiliopathyGenes)
+  // ── Publication data ───────────────────────────────────────────────────────
+
+  async getPublicationData(): Promise<PublicationData[]> {
+    const rows = await this.getSheetRows('genes')
+    return rows
+      .filter(row => row['gene'] && row['pubmed_count'] != null)
+      .map(row => ({
+        gene_name: String(row['gene']),
+        publication_number: Number(row['pubmed_count']) || 0,
+        year: 0,
+      }))
+  }
+
+  async getGenePMIDs(geneName: string): Promise<string[]> {
+    const rows = await this.getSheetRows('genes')
+    const row = rows.find(
+      r => String(r['gene'] ?? '').toLowerCase() === geneName.toLowerCase()
+    )
+    if (!row || !row['top25_recent_pmids']) return []
+    return safeStringList(row['top25_recent_pmids'])
+  }
+
+  // ── Ortholog data ──────────────────────────────────────────────────────────
+
+  async getOrthologData(organism: string): Promise<OrthologGene[]> {
+    const CACHE_KEY = `orthologs_${organism}`
+    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as OrthologGene[]
+
+    const orthologCol = ORTHOLOG_COLUMN_MAP[organism]
+    let result: OrthologGene[] = []
+
+    if (orthologCol) {
+      const genes = await this.getCiliopathyGenes()
+      const displayName = ORGANISM_DISPLAY_NAMES[organism] ?? organism
+      result = genes
+        .filter(g => g[orthologCol as keyof CiliopathyGene])
+        .map(g => {
+          const orthologName = safeStringOptional(g[orthologCol as keyof CiliopathyGene])
+          return {
+            'Human Gene': g['Human Gene Name'],
+            'Human Gene ID': g['Human Gene ID'],
+            'Human Gene Name': g['Human Gene Name'],
+            'Human Gene MIM': g['Gene MIM Number'],
+            'Human Disease': g.Ciliopathy,
+            'Human Disease MIM': g['OMIM Phenotype Number'],
+            'Ortholog Gene': orthologName,
+            'Ortholog Gene ID': '',
+            'Ortholog Gene Name': orthologName,
+            'Ortholog Gene MIM': g['Gene MIM Number'],
+            'Ortholog Disease': g.Ciliopathy,
+            'Ortholog Disease MIM': g['OMIM Phenotype Number'],
+            Organism: displayName,
+          }
+        })
+    } else if (organism === 'chlamydomonas_reinhardtii') {
+      // No column in workbook yet — recorded as missing in quality report
+      this.qualityIssues.push({
+        sheet: 'genes',
+        rowIndex: -1,
+        gene: '',
+        field: 'ortholog_creinhardtii (column)',
+        issue: 'missing',
+        originalValue: null,
+        usedFallback: '(empty — add ortholog_creinhardtii column to the genes sheet)',
+      })
+    } else {
+      console.warn(`[CiliaMiner] Unknown organism: "${organism}"`)
+    }
+
+    this.dataCache.set(CACHE_KEY, result)
+    return result
+  }
+
+  async getAllOrthologData(): Promise<OrthologGene[]> {
+    const results = await Promise.all(
+      Object.keys(ORGANISM_DISPLAY_NAMES).map(o =>
+        this.getOrthologData(o).catch(() => [])
+      )
+    )
+    return results.flat()
+  }
+
+  async getOrganismStats(organism: string): Promise<{ geneCount: number; orthologCount: number }> {
+    const data = await this.getOrthologData(organism).catch(() => [])
+    return { geneCount: data.length, orthologCount: data.length }
+  }
+
+  // ── Symptom / clinical feature data ───────────────────────────────────────
+
+  async getSymptomsData(): Promise<HeatmapData[]> {
+    const [primary, secondary] = await Promise.all([
+      this.getSheetRows('symptome_primary'),
+      this.getSheetRows('symptome_secondary'),
+    ])
+    return this.buildHeatmapFromSymptomRows([...primary, ...secondary])
+  }
+
+  async getCiliopathyFeatures(): Promise<CiliopathyFeature[]> {
+    const [primary, secondary] = await Promise.all([
+      this.getSheetRows('symptome_primary'),
+      this.getSheetRows('symptome_secondary'),
+    ])
+
+    const features: CiliopathyFeature[] = []
+    for (const row of [...primary, ...secondary]) {
+      const featureName = safeStringOptional(row['Ciliopathy / Clinical Features'])
+      const category = safeStringOptional(row['General Titles'])
+      for (const key of Object.keys(row)) {
+        if (key === 'Ciliopathy / Clinical Features' || key === 'General Titles') continue
+        if (row[key] === 1 || row[key] === 1.0) {
+          features.push({
+            'Ciliopathy / Clinical Features': featureName,
+            'General Titles': category,
+            Category: category,
+            Ciliopathy: key,
+            Disease: key,
+            Feature: featureName,
+            Count: 1,
+          })
+        }
+      }
+    }
+    return features
+  }
+
+  private buildHeatmapFromSymptomRows(rows: RawRow[]): HeatmapData[] {
+    return rows.flatMap(row => {
+      const feature = safeStringOptional(row['Ciliopathy / Clinical Features'])
+      const category = safeStringOptional(row['General Titles'])
+      return Object.keys(row)
+        .filter(k => k !== 'Ciliopathy / Clinical Features' && k !== 'General Titles')
+        .filter(k => row[k] === 1 || row[k] === 1.0)
+        .map(k => ({ x: k, y: feature, value: 1, category }))
+    })
+  }
+
+  // ── Gene localisation data ─────────────────────────────────────────────────
+
+  async getGeneLocalizationData(): Promise<HeatmapData[]> {
+    const rows = await this.getSheetRows('gene_localisations_ciliacarta')
+    return rows.flatMap(item => {
+      const gene = safeStringOptional(item['Human Gene Name'])
+      const entries: HeatmapData[] = []
+      if (item['Basal Body'] === 1) entries.push({ x: gene, y: 'Basal Body', value: 1 })
+      if (item['Transition Zone'] === 1) entries.push({ x: gene, y: 'Transition Zone', value: 1 })
+      if (item['Cilia'] === 1) entries.push({ x: gene, y: 'Cilia', value: 1 })
+      return entries
+    })
+  }
+
+  // ── Search ────────────────────────────────────────────────────────────────
+
+  async searchCiliopathyGenes(query: string): Promise<CiliopathyGene[]> {
+    const genes = await this.getCiliopathyGenes()
+    const q = query.toLowerCase()
+    return genes
+      .filter(g => {
+        const haystack = [
+          g['Human Gene Name'],
+          g.Ciliopathy,
+          g['Gene MIM Number'],
+          g.Synonym ?? '',
+          g['Subcellular Localization'],
+          g['Ciliopathy Classification'] ?? '',
+          g['Functional.category'] ?? '',
+          ...(g.go_terms ?? []),
+          ...(g.reactome_pathways ?? []),
+        ]
+          .join(' ')
+          .toLowerCase()
+        return haystack.includes(q)
+      })
+      .slice(0, 500)
+  }
+
   async searchGenes(query: string): Promise<CiliopathyGene[]> {
     return this.searchCiliopathyGenes(query)
   }
 
-  // Get ciliopathy by category
-  async getCiliopathiesByCategory(): Promise<{ [key: string]: CiliopathyGene[] }> {
-    const genes = await this.getCiliopathyGenes()
-    const categories: { [key: string]: CiliopathyGene[] } = {
-      'Primary': [],
-      'Secondary': [],
-      'Atypical': []
+  // ── Data quality report ────────────────────────────────────────────────────
+
+  getDataQualityReport(): DataQualityReport {
+    const issuesByField: Record<string, number> = {}
+    for (const issue of this.qualityIssues) {
+      issuesByField[issue.field] = (issuesByField[issue.field] ?? 0) + 1
     }
 
-    // This is a simplified categorization - in real implementation you'd have a proper category field
-    genes.forEach(gene => {
-      if (gene.Ciliopathy.includes('Polycystic') || gene.Ciliopathy.includes('Bardet')) {
-        categories['Primary'].push(gene)
-      } else if (gene.Ciliopathy.includes('Syndrome')) {
-        categories['Secondary'].push(gene)
-      } else {
-        categories['Atypical'].push(gene)
-      }
-    })
-
-    return categories
-  }
-
-  // Get ciliopathy features data
-  async getCiliopathyFeatures(): Promise<CiliopathyFeature[]> {
-    try {
-      console.log('Loading ciliopathy features...')
-      const primarySymptoms = await this.loadDataset('symptome_primary')
-      const secondarySymptoms = await this.loadDataset('symptome_secondary')
-      
-      console.log('Primary symptoms loaded:', primarySymptoms.length)
-      console.log('Secondary symptoms loaded:', secondarySymptoms.length)
-      
-      if (primarySymptoms.length === 0 && secondarySymptoms.length === 0) {
-        console.warn('No symptom data loaded!')
-        return []
-      }
-      
-      const allSymptoms = [...primarySymptoms, ...secondarySymptoms]
-      const features: CiliopathyFeature[] = []
-      
-      // Transform the data: each row is a clinical feature, and diseases are columns
-      allSymptoms.forEach((symptom: any, index: number) => {
-        const featureName = symptom['Ciliopathy / Clinical Features']
-        const category = symptom['General Titles']
-        
-        if (index === 0) {
-          console.log('Sample symptom data:', symptom)
-          console.log('Keys:', Object.keys(symptom))
-        }
-        
-        // Skip the metadata columns and iterate through disease columns
-        Object.keys(symptom).forEach(key => {
-          if (key !== 'Ciliopathy / Clinical Features' && key !== 'General Titles') {
-            const value = symptom[key]
-            // Only include if the value is 1.0 or 1 (meaning this disease has this feature)
-            // Skip null, undefined, NaN values
-            if (value === 1.0 || value === 1) {
-              features.push({
-                'Ciliopathy / Clinical Features': featureName || '',
-                'General Titles': category || '',
-                Category: category || '',
-                Ciliopathy: key,
-                Disease: key,
-                Feature: featureName || '',
-                Count: 1
-              })
-            }
-          }
-        })
-      })
-      
-      console.log(`✅ Loaded ${features.length} clinical features`)
-      if (features.length > 0) {
-        console.log('Sample feature:', features[0])
-      }
-      return features
-    } catch (error) {
-      console.error('❌ Failed to load ciliopathy features:', error)
-      return []
+    return {
+      source: `${getBasePath()}/data/${EXCEL_FILENAME}`,
+      loadedAt: this.loadedAt,
+      sheetsFound: this.sheetsFound,
+      sheetsMissing: this.sheetsMissing,
+      datasetsFromFallbackJson: [],
+      totalRowsProcessed: this.totalRowsProcessed,
+      totalIssues: this.qualityIssues.length,
+      issuesByField,
+      issues: this.qualityIssues,
     }
   }
 
-  // Get all ortholog data (for filter options)
-  async getAllOrthologData(): Promise<OrthologGene[]> {
-    try {
-      const allOrthologs: OrthologGene[] = []
-      
-      // Load ortholog data for all organisms
-      const organisms = ['mus_musculus', 'danio_rerio', 'xenopus_laevis', 'drosophila_melanogaster', 'caenorhabditis_elegans', 'chlamydomonas_reinhardtii']
-      
-      for (const organism of organisms) {
-        try {
-          const orthologs = await this.getOrthologData(organism)
-          allOrthologs.push(...orthologs)
-        } catch (error) {
-          console.error(`Failed to load orthologs for ${organism}:`, error)
-        }
-      }
-      
-      return allOrthologs
-    } catch (error) {
-      console.error('Failed to load all ortholog data:', error)
-      return []
+  private logQualityReport(): void {
+    const report = this.getDataQualityReport()
+
+    if (typeof window !== 'undefined') {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ;(window as any).__ciliaminer_quality_report = report
     }
+
+    console.group('[CiliaMiner] Data Quality Report')
+    console.log(`Source : ${report.source}`)
+    console.log(`Loaded : ${report.loadedAt}`)
+    console.log(`Sheets found    : ${report.sheetsFound.join(', ')}`)
+    console.log(`Rows processed  : ${report.totalRowsProcessed}`)
+
+    if (report.sheetsMissing.length) {
+      console.warn(
+        `Missing sheets  : ${report.sheetsMissing.join(', ')}\n` +
+          '  → Add these sheets to ciliaminer.xlsx to populate the missing sections.'
+      )
+    }
+    if (report.totalIssues > 0) {
+      console.warn(`Field issues    : ${report.totalIssues}`, report.issuesByField)
+      console.info(
+        'Run window.__ciliaminer_quality_report.issues in the console for the full list.'
+      )
+    } else {
+      console.log('Field issues    : none ✓')
+    }
+    console.groupEnd()
   }
 }
 
-// Export singleton instance
+// ── Singleton export ─────────────────────────────────────────────────────────
+
 export const dataService = new DataService()
 
-// Export individual functions for convenience
 export const {
   getCiliopathyGenes,
   getGeneNumbers,
@@ -596,9 +546,11 @@ export const {
   getGeneLocalizationData,
   getOrganismStats,
   getPublicationData,
+  getGenePMIDs,
   searchCiliopathyGenes,
   searchGenes,
   getCiliopathiesByCategory,
   getCiliopathyFeatures,
-  getAllOrthologData
+  getAllOrthologData,
+  getDataQualityReport,
 } = dataService

@@ -76,23 +76,14 @@ export default function HomePage() {
       // Cache genes for suggestions
       setCachedGenes(genes)
       
-      // Calculate statistics
-      const distinctCiliopathies = new Set<string>()
-      genes.forEach(gene => {
-        const list =
-          (gene.ciliopathies && gene.ciliopathies.length > 0
-            ? gene.ciliopathies
-            : (gene.Ciliopathy || '')
-                .split(';')
-                .map(name => name.trim())
-                .filter(Boolean))
-
-        list.forEach(name => distinctCiliopathies.add(name))
-      })
+      // Count genes that have at least one ciliopathy assigned
+      const genesWithCiliopathy = genes.filter(gene =>
+        gene.Ciliopathy && gene.Ciliopathy !== 'Unknown' && gene.Ciliopathy.trim() !== ''
+      ).length
 
       setStats({
         totalGenes: genes.length,
-        totalCiliopathies: distinctCiliopathies.size,
+        totalCiliopathies: genesWithCiliopathy,
         totalPublications: stats.totalPublications,
         totalOrganisms: 6
       })

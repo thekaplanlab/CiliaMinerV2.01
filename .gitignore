@@ -2,7 +2,13 @@
 node_modules
 .next
 dist
+out
 *.tsbuildinfo
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# public/data/ciliaminer.xlsx  IS committed – it is the ONLY data file.
+# Researchers update only this file; the app reads it directly in the browser.
+# No JSON files are used at runtime. All legacy files are in archive/data/.
 
 # Environment & secrets
 .env
@@ -22,6 +28,3 @@ backend/submissions/*.json
 *.log
 .idea
 .vscode
-
-# Optional: uncomment to ignore Excel workbooks (e.g. *.xlsx)
-# *.xlsx

@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
-CSV to JSON Converter for CiliaMiner Next.js Application
-Converts all CSV data files to optimized JSON format
+CSV to JSON converter for CiliaMiner datasets.
+
+Generates canonical JSON files in `data/processed`, then syncs to:
+- public/data
+- backend/data
 """
 
 import pandas as pd
 import json
-import os
-import sys
+import shutil
 from pathlib import Path
 import numpy as np
 
@@ -22,7 +24,7 @@ def clean_dataframe(df):
             # Try to convert to numeric if possible
             try:
                 df[col] = pd.to_numeric(df[col], errors='ignore')
-            except:
+            except Exception:
                 pass
     
     return df
@@ -90,16 +92,27 @@ def create_data_index(data_dir, output_dir):
     return index
 
 def main():
-    # Define paths
-    csv_source_dir = Path("../CiliaMiner/data")
-    json_output_dir = Path("../src/data")
+    # Define paths (relative to repository root)
+    script_dir = Path(__file__).resolve().parent
+    repo_root = script_dir.parent
+    csv_source_dir = repo_root / "CiliaMiner" / "data"
+    canonical_output_dir = repo_root / "data" / "processed"
+    output_dirs = [
+        repo_root / "public" / "data",
+        repo_root / "backend" / "data",
+    ]
     
-    # Create output directory if it doesn't exist
-    json_output_dir.mkdir(parents=True, exist_ok=True)
+    # Create output directories if they don't exist
+    canonical_output_dir.mkdir(parents=True, exist_ok=True)
+    for runtime_output_dir in output_dirs:
+        runtime_output_dir.mkdir(parents=True, exist_ok=True)
     
     print("🚀 Starting CSV to JSON conversion for CiliaMiner...")
     print(f"📁 Source: {csv_source_dir.absolute()}")
-    print(f"📁 Output: {json_output_dir.absolute()}")
+    print(f"📁 Canonical output: {canonical_output_dir.absolute()}")
+    print("📁 Runtime outputs:")
+    for runtime_output_dir in output_dirs:
+        print(f"  - {runtime_output_dir.absolute()}")
     print("-" * 50)
     
     # List of CSV files to convert (in priority order)
@@ -124,14 +137,14 @@ def main():
         "gene_localisations_ciliacarta.csv"     # Gene localizations
     ]
     
-    # Convert each CSV file
+    # Convert each CSV file into canonical output
     successful_conversions = 0
     total_files = len(csv_files)
     
     for csv_file in csv_files:
         csv_path = csv_source_dir / csv_file
         if csv_path.exists():
-            if convert_csv_to_json(csv_path, json_output_dir):
+            if convert_csv_to_json(csv_path, canonical_output_dir):
                 successful_conversions += 1
         else:
             print(f"⚠️  File not found: {csv_path}")
@@ -139,14 +152,22 @@ def main():
     print("-" * 50)
     print(f"📊 Conversion Summary: {successful_conversions}/{total_files} files converted successfully")
     
-    # Create data index
+    # Create data index in canonical output and sync runtime outputs
     if successful_conversions > 0:
         print("\n🔍 Creating data index...")
-        index = create_data_index(csv_source_dir, json_output_dir)
+        create_data_index(csv_source_dir, canonical_output_dir)
+
+        print("\n🔄 Syncing runtime data directories from canonical output...")
+        json_files = sorted(canonical_output_dir.glob("*.json"))
+        for runtime_output_dir in output_dirs:
+            for source_file in json_files:
+                shutil.copy2(source_file, runtime_output_dir / source_file.name)
+            print(f"✅ Synced {len(json_files)} files -> {runtime_output_dir.absolute()}")
         
         print("\n🎉 Conversion completed successfully!")
-        print(f"📁 JSON files saved to: {json_output_dir.absolute()}")
-        print(f"📋 Data index: {json_output_dir / 'data_index.json'}")
+        print("📁 Canonical JSON files saved to:")
+        print(f"  - {canonical_output_dir.absolute()}")
+        print(f"    index: {canonical_output_dir / 'data_index.json'}")
     else:
         print("\n❌ No files were converted successfully. Please check the source directory.")
 

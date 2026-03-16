@@ -1,6 +1,6 @@
-# CiliaMiner Next.js
+# CiliaMiner V2.01
 
-A modern, static web application for CiliaMiner - an integrated database for ciliopathy genes and ciliopathies. Built with Next.js, TypeScript, and Tailwind CSS.
+CiliaMiner is an integrated database for ciliopathy genes and ciliopathies. This repository contains a static Next.js frontend and a FastAPI backend that share generated dataset files.
 
 ## Features
 
@@ -13,13 +13,14 @@ A modern, static web application for CiliaMiner - an integrated database for cil
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js (App Router, static export)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Charts**: Recharts
 - **Icons**: Lucide React
 - **Search**: Fuse.js for fuzzy searching
-- **Data Processing**: Client-side CSV/JSON handling
+- **Backend API**: FastAPI (Python)
+- **Data Processing**: Python ETL scripts to JSON datasets
 
 ## Getting Started
 
@@ -55,28 +56,31 @@ yarn dev
 ## Project Structure
 
 ```
-ciliaminer-nextjs/
-├── src/
-│   ├── app/                 # Next.js app router pages
-│   │   ├── page.tsx        # Homepage
-│   │   ├── layout.tsx      # Root layout
-│   │   └── globals.css     # Global styles
-│   ├── components/         # React components
-│   │   ├── Layout.tsx      # Main layout with navigation
-│   │   ├── SearchComponents.tsx  # Search inputs and results
-│   │   └── ChartComponents.tsx   # Charts and visualizations
-│   ├── lib/               # Utility functions
-│   │   ├── utils.ts       # General utilities
-│   │   └── search.ts      # Search functionality
-│   ├── types/             # TypeScript type definitions
-│   │   └── index.ts       # Main type definitions
-│   └── data/              # Data files (CSV/JSON)
-├── public/                # Static assets
-├── package.json           # Dependencies and scripts
-├── tailwind.config.js     # Tailwind CSS configuration
-├── next.config.js         # Next.js configuration
-└── tsconfig.json          # TypeScript configuration
+CiliaMinerV2.01/
+├── src/                    # Next.js frontend source
+│   ├── app/                # App Router pages/layout
+│   ├── components/         # UI components
+│   ├── lib/                # Frontend utilities
+│   ├── services/           # Frontend data services
+│   └── types/              # TypeScript types
+├── data/processed/         # Canonical generated JSON datasets
+├── public/data/            # Frontend runtime JSON datasets
+├── backend/                # FastAPI backend
+│   ├── app/                # Routers, services, models, config
+│   └── data/               # Backend runtime JSON datasets
+├── scripts/                # Data conversion and helper scripts
+├── package.json            # Frontend dependencies/scripts
+└── README.md
 ```
+
+## Data Flow
+
+1. Update source workbook/CSV files.
+2. Run conversion scripts in `scripts/` to regenerate canonical JSON in `data/processed`.
+3. Scripts sync canonical JSON to:
+   - `public/data` (frontend runtime)
+   - `backend/data` (backend runtime)
+4. Frontend reads via `/data/*.json`; backend reads via `backend/data`.
 
 ## Development
 
@@ -102,12 +106,13 @@ ciliaminer-nextjs/
 
 ### Data Integration
 
-To integrate your actual CSV data:
+To update datasets:
 
-1. Convert CSV files to JSON format
-2. Place in `src/data/` directory
-3. Import and use in components
-4. Replace mock data with real data
+1. Convert workbook/CSV files to JSON using scripts in `scripts/`
+2. Canonical JSON is generated in `data/processed`
+3. Scripts sync runtime copies to `public/data` and `backend/data`
+4. Frontend fetches data from `/data`
+5. Backend services load data from `backend/data`
 
 ## Deployment
 

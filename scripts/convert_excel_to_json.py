@@ -4,15 +4,18 @@ Excel to JSON converter for CiliaMiner.
 
 Canonical workflow:
 - Edit the Excel workbook (multiple sheets).
-- Run this script to regenerate JSON datasets for:
-  - public/data  (Next.js frontend static data)
-  - backend/data (FastAPI backend data)
+- Run this script to regenerate canonical JSON datasets in:
+  - data/processed
+- Script syncs canonical datasets to runtime folders:
+  - public/data   (Next.js frontend static data)
+  - backend/data  (FastAPI backend data)
 - Optionally generate lightweight search indexes for faster frontend search.
 """
 
 import argparse
 import json
 import re
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -22,6 +25,7 @@ import pandas as pd
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
+CANONICAL_DATA_DIR = ROOT_DIR / "data" / "processed"
 PUBLIC_DATA_DIR = ROOT_DIR / "public" / "data"
 BACKEND_DATA_DIR = ROOT_DIR / "backend" / "data"
 
@@ -194,7 +198,7 @@ SHEET_CONFIGS: List[SheetConfig] = [
 
 
 def ensure_output_dirs() -> None:
-    for path in (PUBLIC_DATA_DIR, BACKEND_DATA_DIR):
+    for path in (CANONICAL_DATA_DIR, PUBLIC_DATA_DIR, BACKEND_DATA_DIR):
         path.mkdir(parents=True, exist_ok=True)
 
 
@@ -295,12 +299,11 @@ def validate_columns(df: pd.DataFrame, config: SheetConfig) -> None:
 
 
 def write_json(dataset_name: str, records: List[Dict[str, Any]]) -> None:
-    """Write dataset JSON to both frontend and backend data directories."""
-    for base_dir in (PUBLIC_DATA_DIR, BACKEND_DATA_DIR):
-        out_path = base_dir / f"{dataset_name}.json"
-        with out_path.open("w", encoding="utf-8") as f:
-            json.dump(records, f, ensure_ascii=False, indent=2, default=str)
-        print(f"✅ Wrote {len(records)} records -> {out_path.relative_to(ROOT_DIR)}")
+    """Write dataset JSON to canonical data directory."""
+    out_path = CANONICAL_DATA_DIR / f"{dataset_name}.json"
+    with out_path.open("w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=2, default=str)
+    print(f"✅ Wrote {len(records)} records -> {out_path.relative_to(ROOT_DIR)}")
 
 
 def create_data_index(base_dir: Path) -> Dict[str, Any]:
@@ -452,14 +455,29 @@ def build_gene_search_index(genes: List[Dict[str, Any]]) -> List[Dict[str, Any]]
 
 def write_gene_search_index(genes: List[Dict[str, Any]]) -> None:
     index_records = build_gene_search_index(genes)
-    for base_dir in (PUBLIC_DATA_DIR, BACKEND_DATA_DIR):
-        out_path = base_dir / "gene-search-index.json"
-        with out_path.open("w", encoding="utf-8") as f:
-            json.dump(index_records, f, ensure_ascii=False, indent=2)
-        print(
-            f"✅ Wrote gene-search-index ({len(index_records)} records) -> "
-            f"{out_path.relative_to(ROOT_DIR)}"
-        )
+    out_path = CANONICAL_DATA_DIR / "gene-search-index.json"
+    with out_path.open("w", encoding="utf-8") as f:
+        json.dump(index_records, f, ensure_ascii=False, indent=2)
+    print(
+        f"✅ Wrote gene-search-index ({len(index_records)} records) -> "
+        f"{out_path.relative_to(ROOT_DIR)}"
+    )
+
+
+def sync_runtime_dirs_from_canonical() -> None:
+    """Copy canonical JSON outputs to frontend and backend runtime directories."""
+    targets = (PUBLIC_DATA_DIR, BACKEND_DATA_DIR)
+    json_files = sorted(CANONICAL_DATA_DIR.glob("*.json"))
+    if not json_files:
+        print("⚠️  No canonical JSON files found to sync.")
+        return
+
+    for target_dir in targets:
+        target_dir.mkdir(parents=True, exist_ok=True)
+        for source_file in json_files:
+            destination = target_dir / source_file.name
+            shutil.copy2(source_file, destination)
+        print(f"✅ Synced {len(json_files)} files -> {target_dir.relative_to(ROOT_DIR)}")
 
 
 def convert_workbook(path: Path) -> None:
@@ -468,6 +486,7 @@ def convert_workbook(path: Path) -> None:
 
     print("🚀 Starting Excel → JSON conversion for CiliaMiner")
     print(f"📁 Workbook: {path}")
+    print(f"📁 Canonical data dir: {CANONICAL_DATA_DIR}")
     print(f"📁 Public data dir: {PUBLIC_DATA_DIR}")
     print(f"📁 Backend data dir: {BACKEND_DATA_DIR}")
     print("-" * 60)
@@ -508,9 +527,10 @@ def convert_workbook(path: Path) -> None:
         print("⚠️  homosapiens_ciliopathy sheet not processed; gene-search-index not created.")
 
     print("-" * 60)
-    print("🔍 Creating data indexes...")
-    create_data_index(PUBLIC_DATA_DIR)
-    create_data_index(BACKEND_DATA_DIR)
+    print("🔍 Creating canonical data index...")
+    create_data_index(CANONICAL_DATA_DIR)
+    print("🔄 Syncing runtime data directories from canonical output...")
+    sync_runtime_dirs_from_canonical()
     print("\n🎉 Conversion completed successfully.")
 
 
