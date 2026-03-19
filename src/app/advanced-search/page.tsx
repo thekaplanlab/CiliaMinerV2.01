@@ -35,6 +35,45 @@ interface SortConfig {
   direction: 'asc' | 'desc'
 }
 
+function Pagination({
+  currentPage,
+  totalItems,
+  itemsPerPage,
+  onPageChange,
+}: {
+  currentPage: number
+  totalItems: number
+  itemsPerPage: number
+  onPageChange: (fn: (p: number) => number) => void
+}) {
+  const totalPages = Math.ceil(totalItems / itemsPerPage)
+  const start = (currentPage - 1) * itemsPerPage + 1
+  const end = Math.min(currentPage * itemsPerPage, totalItems)
+  return (
+    <div className="flex items-center justify-between mt-3">
+      <p className="text-sm text-gray-600">
+        Showing {start}–{end} of {totalItems}
+      </p>
+      <div className="flex gap-2">
+        <button
+          onClick={() => onPageChange(p => Math.max(1, p - 1))}
+          disabled={currentPage === 1}
+          className="px-3 py-1 text-sm border rounded-md disabled:opacity-40 hover:bg-gray-50"
+        >
+          Previous
+        </button>
+        <button
+          onClick={() => onPageChange(p => p + 1)}
+          disabled={currentPage >= totalPages}
+          className="px-3 py-1 text-sm border rounded-md disabled:opacity-40 hover:bg-gray-50"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  )
+}
+
 export default function AdvancedSearchDataExplorerPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [filters, setFilters] = useState<SearchFilters>({
@@ -57,6 +96,8 @@ export default function AdvancedSearchDataExplorerPage() {
   })
   const [sortConfig, setSortConfig] = useState<SortConfig>({ key: '', direction: 'asc' })
   const [currentPage, setCurrentPage] = useState(1)
+  const [featuresPage, setFeaturesPage] = useState(1)
+  const [orthologsPage, setOrthologsPage] = useState(1)
   const [itemsPerPage] = useState(25)
   const [allData, setAllData] = useState<SearchResults>({
     genes: [],
@@ -183,6 +224,9 @@ export default function AdvancedSearchDataExplorerPage() {
 
       const totalResults = genes.length + features.length + orthologs.length
       setResults({ genes, features, orthologs, totalResults })
+      setCurrentPage(1)
+      setFeaturesPage(1)
+      setOrthologsPage(1)
     } catch (error) {
       console.error('Search failed:', error)
       setResults({ genes: [], features: [], orthologs: [], totalResults: 0 })
@@ -228,8 +272,32 @@ export default function AdvancedSearchDataExplorerPage() {
     URL.revokeObjectURL(url)
   }
 
-  const convertToCSV = (data: any) => {
-    return 'Data,Type\n' + JSON.stringify(data)
+  const convertToCSV = (data: { genes: CiliopathyGene[]; features: CiliopathyFeature[]; orthologs: OrthologGene[] }) => {
+    const rows: string[] = []
+    if (data.genes.length > 0) {
+      rows.push('--- Genes ---')
+      rows.push('Gene Name,Ciliopathy,Localization,MIM Number')
+      data.genes.forEach(g => {
+        rows.push([g['Human Gene Name'], g.Ciliopathy, g['Subcellular Localization'], g['Gene MIM Number']].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
+      })
+    }
+    if (data.features.length > 0) {
+      rows.push('')
+      rows.push('--- Clinical Features ---')
+      rows.push('Disease,Feature,Category')
+      data.features.forEach(f => {
+        rows.push([f.Disease || f.Ciliopathy, f['Ciliopathy / Clinical Features'] || f.Feature, f.Category].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
+      })
+    }
+    if (data.orthologs.length > 0) {
+      rows.push('')
+      rows.push('--- Orthologs ---')
+      rows.push('Human Gene,Ortholog Gene,Organism')
+      data.orthologs.forEach(o => {
+        rows.push([o['Human Gene Name'], o['Ortholog Gene Name'], o.Organism].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
+      })
+    }
+    return rows.join('\n')
   }
 
   return (
@@ -404,13 +472,13 @@ export default function AdvancedSearchDataExplorerPage() {
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-gray-100">
                       <tr>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Gene Name</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ciliopathy</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Localization</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Gene Name</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ciliopathy</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Localization</th>
                       </tr>
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.genes.slice(0, itemsPerPage).map((gene, idx) => (
+                      {sortedResults.genes.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map((gene, idx) => (
                         <tr key={idx} className="hover:bg-gray-50">
                           <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
                             {gene['Human Gene Name']}
@@ -424,6 +492,14 @@ export default function AdvancedSearchDataExplorerPage() {
                     </tbody>
                   </table>
                 </div>
+                {sortedResults.genes.length > itemsPerPage && (
+                  <Pagination
+                    currentPage={currentPage}
+                    totalItems={sortedResults.genes.length}
+                    itemsPerPage={itemsPerPage}
+                    onPageChange={setCurrentPage}
+                  />
+                )}
               </div>
             )}
 
@@ -434,16 +510,16 @@ export default function AdvancedSearchDataExplorerPage() {
                   Clinical Features ({sortedResults.features.length})
                 </h3>
                 <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200">
+                  <table className="min-w-full divide-y divide-gray-200" role="table">
                     <thead className="bg-gray-100">
                       <tr>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Disease</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Feature</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Category</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Disease</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Feature</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Category</th>
                       </tr>
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.features.slice(0, itemsPerPage).map((feature, idx) => (
+                      {sortedResults.features.slice((featuresPage - 1) * itemsPerPage, featuresPage * itemsPerPage).map((feature, idx) => (
                         <tr key={idx} className="hover:bg-gray-50">
                           <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
                             {feature.Disease || feature.Ciliopathy}
@@ -457,6 +533,14 @@ export default function AdvancedSearchDataExplorerPage() {
                     </tbody>
                   </table>
                 </div>
+                {sortedResults.features.length > itemsPerPage && (
+                  <Pagination
+                    currentPage={featuresPage}
+                    totalItems={sortedResults.features.length}
+                    itemsPerPage={itemsPerPage}
+                    onPageChange={setFeaturesPage}
+                  />
+                )}
               </div>
             )}
 
@@ -467,16 +551,16 @@ export default function AdvancedSearchDataExplorerPage() {
                   Orthologs ({sortedResults.orthologs.length})
                 </h3>
                 <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200">
+                  <table className="min-w-full divide-y divide-gray-200" role="table">
                     <thead className="bg-gray-100">
                       <tr>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Human Gene</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ortholog Gene</th>
-                        <th className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Organism</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Human Gene</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ortholog Gene</th>
+                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Organism</th>
                       </tr>
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.orthologs.slice(0, itemsPerPage).map((ortholog, idx) => (
+                      {sortedResults.orthologs.slice((orthologsPage - 1) * itemsPerPage, orthologsPage * itemsPerPage).map((ortholog, idx) => (
                         <tr key={idx} className="hover:bg-gray-50">
                           <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
                             {ortholog['Human Gene Name']}
@@ -490,6 +574,14 @@ export default function AdvancedSearchDataExplorerPage() {
                     </tbody>
                   </table>
                 </div>
+                {sortedResults.orthologs.length > itemsPerPage && (
+                  <Pagination
+                    currentPage={orthologsPage}
+                    totalItems={sortedResults.orthologs.length}
+                    itemsPerPage={itemsPerPage}
+                    onPageChange={setOrthologsPage}
+                  />
+                )}
               </div>
             )}
           </div>
@@ -521,15 +613,17 @@ export default function AdvancedSearchDataExplorerPage() {
               {/* Statistics */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                 <div className="bg-blue-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-blue-600">{allData.genes.length}</div>
+                  <div className="text-3xl font-bold text-blue-600">{allData.genes.length.toLocaleString()}</div>
                   <div className="text-sm text-gray-600 mt-2">Total Genes</div>
                 </div>
                 <div className="bg-green-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-green-600">{allData.features.length}</div>
+                  <div className="text-3xl font-bold text-green-600">
+                    {allData.features.length > 0 ? allData.features.length.toLocaleString() : <span className="text-gray-400">N/A</span>}
+                  </div>
                   <div className="text-sm text-gray-600 mt-2">Clinical Features</div>
                 </div>
                 <div className="bg-purple-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-600">{allData.orthologs.length}</div>
+                  <div className="text-3xl font-bold text-purple-600">{allData.orthologs.length.toLocaleString()}</div>
                   <div className="text-sm text-gray-600 mt-2">Orthologs</div>
                 </div>
               </div>
@@ -575,25 +669,29 @@ export default function AdvancedSearchDataExplorerPage() {
                   <div>
                     <div className="text-gray-600">Unique Diseases</div>
                     <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.genes.map(g => g.Ciliopathy)).size}
+                      {new Set(allData.genes.map(g => g.Ciliopathy).filter(Boolean)).size}
                     </div>
                   </div>
                   <div>
                     <div className="text-gray-600">Organisms</div>
                     <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.orthologs.map(o => o.Organism)).size}
+                      {allData.orthologs.length > 0
+                        ? new Set(allData.orthologs.map(o => o.Organism)).size
+                        : <span className="text-gray-400 text-lg">N/A</span>}
                     </div>
                   </div>
                   <div>
                     <div className="text-gray-600">Localizations</div>
                     <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.genes.map(g => g['Subcellular Localization'])).size}
+                      {new Set(allData.genes.map(g => g['Subcellular Localization']).filter(Boolean)).size}
                     </div>
                   </div>
                   <div>
                     <div className="text-gray-600">Categories</div>
                     <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.features.map(f => f.Category)).size}
+                      {allData.features.length > 0
+                        ? new Set(allData.features.map(f => f.Category).filter(Boolean)).size
+                        : <span className="text-gray-400 text-lg">N/A</span>}
                     </div>
                   </div>
                 </div>

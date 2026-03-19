@@ -84,6 +84,22 @@ const ORTHOLOG_COLUMN_MAP: Record<string, string> = {
   drosophila_melanogaster: 'ortholog_drosophila',
 }
 
+<<<<<<< HEAD
+=======
+/**
+ * Maps organism IDs to the CiliopathyGene property name (PascalCase)
+ * used after parsing. ORTHOLOG_COLUMN_MAP has the raw Excel column names;
+ * this map has the JS object property names.
+ */
+const ORTHOLOG_GENE_PROP_MAP: Record<string, keyof CiliopathyGene> = {
+  mus_musculus: 'Ortholog_Mouse',
+  caenorhabditis_elegans: 'Ortholog_C_elegans',
+  xenopus_laevis: 'Ortholog_Xenopus',
+  danio_rerio: 'Ortholog_Zebrafish',
+  drosophila_melanogaster: 'Ortholog_Drosophila',
+}
+
+>>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
 const ORGANISM_DISPLAY_NAMES: Record<string, string> = {
   mus_musculus: 'Mus musculus',
   danio_rerio: 'Danio rerio',
@@ -329,6 +345,7 @@ class DataService {
     const CACHE_KEY = `orthologs_${organism}`
     if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as OrthologGene[]
 
+<<<<<<< HEAD
     const orthologCol = ORTHOLOG_COLUMN_MAP[organism]
     let result: OrthologGene[] = []
 
@@ -339,6 +356,18 @@ class DataService {
         .filter(g => g[orthologCol as keyof CiliopathyGene])
         .map(g => {
           const orthologName = safeStringOptional(g[orthologCol as keyof CiliopathyGene])
+=======
+    const geneProp = ORTHOLOG_GENE_PROP_MAP[organism]
+    let result: OrthologGene[] = []
+
+    if (geneProp) {
+      const genes = await this.getCiliopathyGenes()
+      const displayName = ORGANISM_DISPLAY_NAMES[organism] ?? organism
+      result = genes
+        .filter(g => g[geneProp])
+        .map(g => {
+          const orthologName = safeStringOptional(g[geneProp])
+>>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
           return {
             'Human Gene': g['Human Gene Name'],
             'Human Gene ID': g['Human Gene ID'],
@@ -480,6 +509,7 @@ class DataService {
     return this.searchCiliopathyGenes(query)
   }
 
+<<<<<<< HEAD
   // ── Data quality report ────────────────────────────────────────────────────
 
   getDataQualityReport(): DataQualityReport {
@@ -488,6 +518,28 @@ class DataService {
       issuesByField[issue.field] = (issuesByField[issue.field] ?? 0) + 1
     }
 
+=======
+  // ── Sheet availability check ───────────────────────────────────────────────
+
+  async hasSheet(sheetName: string): Promise<boolean> {
+    const wb = await this.getWorkbook()
+    return wb.hasSheet(sheetName)
+  }
+
+  async getMissingSheets(): Promise<string[]> {
+    await this.getWorkbook()
+    return [...this.sheetsMissing]
+  }
+
+  // ── Data quality report ────────────────────────────────────────────────────
+
+  getDataQualityReport(): DataQualityReport {
+    const issuesByField: Record<string, number> = {}
+    for (const issue of this.qualityIssues) {
+      issuesByField[issue.field] = (issuesByField[issue.field] ?? 0) + 1
+    }
+
+>>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
     return {
       source: `${getBasePath()}/data/${EXCEL_FILENAME}`,
       loadedAt: this.loadedAt,
@@ -553,4 +605,9 @@ export const {
   getCiliopathyFeatures,
   getAllOrthologData,
   getDataQualityReport,
+<<<<<<< HEAD
+=======
+  hasSheet,
+  getMissingSheets,
+>>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
 } = dataService

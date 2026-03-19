@@ -1,10 +1,11 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import Layout from '@/components/Layout'
-import { Upload, Send, CheckCircle } from 'lucide-react'
+import { Send, CheckCircle } from 'lucide-react'
 
 export default function SubmitGenePage() {
+  const errorRef = useRef<HTMLDivElement>(null)
   const [formData, setFormData] = useState({
     geneName: '',
     geneId: '',
@@ -17,6 +18,7 @@ export default function SubmitGenePage() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [submitError, setSubmitError] = useState('')
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target
@@ -29,10 +31,16 @@ export default function SubmitGenePage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setSubmitError('')
     
     try {
-      // Submit to backend API
-      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+      const API_URL = process.env.NEXT_PUBLIC_API_URL
+      
+      if (!API_URL) {
+        setIsSubmitting(false)
+        setSubmitError('Submission service is not configured. Please contact the CiliaMiner team directly at info@ciliaminer.org.')
+        return
+      }
       
       const response = await fetch(`${API_URL}/api/submissions`, {
         method: 'POST',
@@ -60,27 +68,11 @@ export default function SubmitGenePage() {
       
       setIsSubmitting(false)
       setIsSubmitted(true)
-      
-      // Reset form after submission
-      setTimeout(() => {
-        setIsSubmitted(false)
-        setFormData({
-          geneName: '',
-          geneId: '',
-          organism: '',
-          disease: '',
-          publication: '',
-          evidence: '',
-          contactEmail: '',
-          additionalInfo: ''
-        })
-      }, 5000)
-      
     } catch (error) {
       console.error('Submission error:', error)
       setIsSubmitting(false)
-      // Show error message - for now just alert
-      alert('Failed to submit. Please try again or contact support.')
+      setSubmitError('Failed to submit. Please try again or contact support at info@ciliaminer.org.')
+      errorRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
   }
 
@@ -106,20 +98,37 @@ export default function SubmitGenePage() {
     'Other'
   ]
 
+  const handleSubmitAnother = () => {
+    setIsSubmitted(false)
+    setFormData({
+      geneName: '',
+      geneId: '',
+      organism: '',
+      disease: '',
+      publication: '',
+      evidence: '',
+      contactEmail: '',
+      additionalInfo: ''
+    })
+  }
+
   if (isSubmitted) {
     return (
       <Layout>
         <div className="max-w-2xl mx-auto text-center py-12">
-          <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
+          <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" aria-hidden />
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
             Thank You!
           </h1>
           <p className="text-xl text-gray-600 mb-6">
             Your submission has been received successfully. Our team will review the information and get back to you if needed.
           </p>
-          <p className="text-gray-500">
-            You will be redirected back to the form in a few seconds...
-          </p>
+          <button
+            onClick={handleSubmitAnother}
+            className="px-6 py-3 bg-primary hover:bg-orange-600 text-white font-medium rounded-lg transition-colors"
+          >
+            Submit another gene
+          </button>
         </div>
       </Layout>
     )
@@ -138,6 +147,17 @@ export default function SubmitGenePage() {
             disease associations, or suggestions for improvements.
           </p>
         </div>
+
+        {/* Error banner - sticky at top when present */}
+        {submitError && (
+          <div
+            ref={errorRef}
+            className="sticky top-0 z-10 bg-red-50 border border-red-200 rounded-lg p-4"
+            role="alert"
+          >
+            <p className="text-red-700 text-sm">{submitError}</p>
+          </div>
+        )}
 
         {/* Submission Form */}
         <div className="bg-white rounded-lg shadow-lg p-8">

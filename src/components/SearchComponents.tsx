@@ -70,33 +70,44 @@ export function SearchInput({
 
   return (
     <div className="relative w-full">
-      <div className="relative">
-        <input
-          ref={inputRef}
-          type="text"
-          value={value}
-          onChange={handleInputChange}
-          onKeyDown={handleKeyDown}
-          onFocus={() => value.length > 0 && setShowSuggestions(true)}
-          placeholder={placeholder}
-          className="w-full px-4 py-3 pl-12 pr-12 text-lg text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent shadow-sm"
-        />
-        <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-        {isLoading ? (
-          <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
-            <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-primary"></div>
-          </div>
-        ) : value ? (
-          <button
-            onClick={() => {
-              onChange('')
-              setShowSuggestions(false)
-            }}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400 hover:text-gray-600"
-          >
-            <X />
-          </button>
-        ) : null}
+      <div className="relative flex gap-2">
+        <div className="relative flex-1">
+          <input
+            ref={inputRef}
+            type="text"
+            value={value}
+            onChange={handleInputChange}
+            onKeyDown={handleKeyDown}
+            onFocus={() => value.length > 0 && setShowSuggestions(true)}
+            placeholder={placeholder}
+            className="w-full px-4 py-3 pl-12 pr-12 text-lg text-gray-900 placeholder-gray-500 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent shadow-sm"
+          />
+          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" aria-hidden />
+          {isLoading ? (
+            <div className="absolute right-4 top-1/2 transform -translate-y-1/2" role="status" aria-live="polite" aria-label="Searching">
+              <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-primary"></div>
+            </div>
+          ) : value ? (
+            <button
+              onClick={() => {
+                onChange('')
+                setShowSuggestions(false)
+              }}
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400 hover:text-gray-600"
+              aria-label="Clear search"
+            >
+              <X />
+            </button>
+          ) : null}
+        </div>
+        <button
+          type="button"
+          onClick={() => onSearch?.()}
+          disabled={isLoading}
+          className="px-6 py-3 bg-primary hover:bg-orange-600 disabled:bg-gray-400 text-white font-medium rounded-lg transition-colors shrink-0"
+        >
+          Search
+        </button>
       </div>
       
       {showSuggestions && suggestions.length > 0 && (
@@ -251,13 +262,51 @@ export function SearchResults({ results, type, onDownload, onClear }: SearchResu
         </div>
       </div>
       
-      <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
+      {/* Mobile card layout - visible below md */}
+      <div className="md:hidden divide-y divide-gray-200">
+        {results.map((result, index) => (
+          <div key={index} className="p-4 hover:bg-gray-50">
+            {type === 'gene' ? (
+              <div className="space-y-2">
+                <div className="font-semibold text-gray-900">
+                  {(result as CiliopathyGene)['Human Gene Name']}
+                </div>
+                <div className="text-sm text-gray-600">
+                  <span className="font-medium">Ciliopathy:</span> {(result as CiliopathyGene).Ciliopathy}
+                </div>
+                <div className="text-sm text-gray-600">
+                  <span className="font-medium">Localization:</span> {(result as CiliopathyGene)['Subcellular Localization'] || '-'}
+                </div>
+                <div className="text-sm">
+                  <span className="font-medium text-gray-600">MIM:</span> {createOMIMLink((result as CiliopathyGene)['Gene MIM Number'])}
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-1">
+                <div className="font-semibold text-gray-900">
+                  {(result as CiliopathyFeature).Disease || (result as CiliopathyFeature).Ciliopathy}
+                </div>
+                <div className="text-sm text-gray-600">
+                  {(result as CiliopathyFeature)['Ciliopathy / Clinical Features'] || (result as CiliopathyFeature).Feature}
+                </div>
+                <div className="text-sm text-gray-500">
+                  {(result as CiliopathyFeature).Category}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop table - visible md and up */}
+      <div className="hidden md:block overflow-x-auto">
+        <table className="min-w-full divide-y divide-gray-200" role="table">
           <thead className="bg-gray-100">
             <tr>
               {headers.map((header) => (
                 <th
                   key={header}
+                  scope="col"
                   className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider"
                 >
                   {header}
@@ -427,23 +476,40 @@ export function OrthologResults({ results, onDownload, onClear }: OrthologResult
         </div>
       </div>
       
-      <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
+      {/* Mobile card layout - visible below md */}
+      <div className="md:hidden divide-y divide-gray-200">
+        {results.map((result, index) => (
+          <div key={index} className="p-4 hover:bg-gray-50">
+            <div className="font-semibold text-gray-900">{result['Human Gene Name']}</div>
+            <div className="text-sm text-gray-600 mt-1">
+              <span className="font-medium">Organism:</span> {result.Organism}
+            </div>
+            <div className="text-sm text-gray-600">
+              <span className="font-medium">Ortholog:</span> {result['Ortholog Gene Name']}
+            </div>
+            <div className="text-sm text-gray-500 mt-1">{result['Human Disease']}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop table - visible md and up */}
+      <div className="hidden md:block overflow-x-auto">
+        <table className="min-w-full divide-y divide-gray-200" role="table">
           <thead className="bg-gray-100">
             <tr>
-              <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
+              <th scope="col" className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Human Gene
               </th>
-              <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
+              <th scope="col" className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Human Disease
               </th>
-              <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
+              <th scope="col" className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Ortholog Gene
               </th>
-              <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
+              <th scope="col" className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Organism
               </th>
-              <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
+              <th scope="col" className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Ortholog Disease
               </th>
             </tr>

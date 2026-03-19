@@ -252,44 +252,49 @@ export function EnhancedDataTable({
 
       {/* Table */}
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
+        <table className="min-w-full divide-y divide-gray-200" role="table">
           <thead className="bg-gray-50">
             <tr>
-              {columns.map((column) => (
-                <th
-                  key={column.key}
-                  className={cn(
-                    "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider",
-                    column.width && `w-${column.width}`,
-                    column.sortable !== false && "cursor-pointer hover:bg-gray-100"
-                  )}
-                  onClick={() => column.sortable !== false && handleSort(column.key)}
-                >
-                  <div className="flex items-center gap-2">
-                    <span>{column.label}</span>
-                    {column.sortable !== false && (
-                      <div className="flex flex-col">
-                        <ChevronUp 
-                          className={cn(
-                            "h-3 w-3",
-                            sortColumn === column.key && sortDirection === 'asc' 
-                              ? "text-primary" 
-                              : "text-gray-300"
-                          )}
-                        />
-                        <ChevronDown 
-                          className={cn(
-                            "h-3 w-3 -mt-1",
-                            sortColumn === column.key && sortDirection === 'desc' 
-                              ? "text-primary" 
-                              : "text-gray-300"
-                          )}
-                        />
-                      </div>
+              {columns.map((column) => {
+                const isActive = sortColumn === column.key
+                return (
+                  <th
+                    key={column.key}
+                    scope="col"
+                    className={cn(
+                      "px-6 py-3 text-left text-xs font-medium uppercase tracking-wider",
+                      isActive ? "text-primary font-bold" : "text-gray-500",
+                      column.width && `w-${column.width}`,
+                      column.sortable !== false && "cursor-pointer hover:bg-gray-100"
                     )}
-                  </div>
-                </th>
-              ))}
+                    onClick={() => column.sortable !== false && handleSort(column.key)}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span>{column.label}</span>
+                      {column.sortable !== false && (
+                        <div className="flex flex-col">
+                          <ChevronUp 
+                            className={cn(
+                              "h-3 w-3",
+                              isActive && sortDirection === 'asc' 
+                                ? "text-primary" 
+                                : "text-gray-400"
+                            )}
+                          />
+                          <ChevronDown 
+                            className={cn(
+                              "h-3 w-3 -mt-1",
+                              isActive && sortDirection === 'desc' 
+                                ? "text-primary" 
+                                : "text-gray-400"
+                            )}
+                          />
+                        </div>
+                      )}
+                    </div>
+                  </th>
+                )
+              })}
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">

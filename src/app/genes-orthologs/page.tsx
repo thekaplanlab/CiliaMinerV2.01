@@ -20,6 +20,8 @@ export default function GenesOrthologsPage() {
   const [selectedOrganismData, setSelectedOrganismData] = useState<OrthologGene[]>([])
   const [isLoadingOrganismData, setIsLoadingOrganismData] = useState(false)
   const [cachedGenes, setCachedGenes] = useState<CiliopathyGene[]>([])
+  const [totalOrthologs, setTotalOrthologs] = useState(0)
+  const [uniqueDiseases, setUniqueDiseases] = useState(0)
 
   // Debounce search query with 300ms delay for suggestions
   const debouncedSearchQuery = useDebounce(searchQuery, 300)
@@ -111,6 +113,8 @@ export default function GenesOrthologsPage() {
     try {
       const genes = await dataService.getCiliopathyGenes()
       setCachedGenes(genes)
+      const diseases = new Set(genes.map(g => g.Ciliopathy).filter(Boolean))
+      setUniqueDiseases(diseases.size)
     } catch (error) {
       console.error('Failed to load genes for suggestions:', error)
     }
@@ -123,11 +127,14 @@ export default function GenesOrthologsPage() {
       )
       
       const statsMap: Record<string, number> = {}
+      let total = 0
       organismsConfig.forEach((org, idx) => {
         statsMap[org.id] = stats[idx].geneCount
+        total += stats[idx].geneCount
       })
       
       setOrganismStats(statsMap)
+      setTotalOrthologs(total)
     } catch (error) {
       console.error('Failed to load organism stats:', error)
     }
@@ -301,22 +308,22 @@ export default function GenesOrthologsPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <Activity className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">513</div>
+            <div className="text-2xl font-bold text-gray-900">{cachedGenes.length.toLocaleString()}</div>
             <div className="text-sm text-gray-600">Human Genes</div>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <Globe className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">7</div>
+            <div className="text-2xl font-bold text-gray-900">{organismsConfig.length}</div>
             <div className="text-sm text-gray-600">Organisms</div>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <Database className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">2,889</div>
+            <div className="text-2xl font-bold text-gray-900">{totalOrthologs.toLocaleString()}</div>
             <div className="text-sm text-gray-600">Total Orthologs</div>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <Search className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">55</div>
+            <div className="text-2xl font-bold text-gray-900">{uniqueDiseases}</div>
             <div className="text-sm text-gray-600">Diseases</div>
           </div>
         </div>

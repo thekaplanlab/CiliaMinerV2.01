@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, useCallback } from 'react'
+import { ChevronDown, ChevronUp } from 'lucide-react'
 import Layout from '@/components/Layout'
 import { SearchInput, SearchResults } from '@/components/SearchComponents'
 import { dataService } from '@/services/dataService'
@@ -9,6 +10,7 @@ import { useDebounce } from '@/lib/utils'
 import { Search, Activity as Gene, Database, MapPin } from 'lucide-react'
 
 export default function GeneSearchPage() {
+  const [showSearchTips, setShowSearchTips] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<CiliopathyGene[]>([])
   const [isSearching, setIsSearching] = useState(false)
@@ -138,7 +140,27 @@ export default function GeneSearchPage() {
 
         {/* Search Section */}
         <div className="bg-white rounded-lg shadow-lg p-6">
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-2xl mx-auto space-y-4">
+            {cachedGenes.length > 0 && (
+              <div>
+                <h4 className="text-sm font-medium text-gray-700 mb-2">Try searching for:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {['BBS1', 'CEP290', 'PKD1', 'IFT88', 'RPGR', 'NPHP1', 'Joubert', 'Bardet-Biedl'].map((term) => (
+                    <button
+                      key={term}
+                      type="button"
+                      onClick={() => {
+                        setSearchQuery(term)
+                        setTimeout(() => handleSearch(), 0)
+                      }}
+                      className="px-3 py-1.5 text-sm bg-primary/10 text-primary rounded-full hover:bg-primary hover:text-white transition-colors font-medium"
+                    >
+                      {term}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <SearchInput
               value={searchQuery}
               onChange={setSearchQuery}
@@ -150,9 +172,18 @@ export default function GeneSearchPage() {
           </div>
         </div>
 
+        {/* Database Stats - when no search yet */}
+        {cachedGenes.length > 0 && !searchQuery && (
+          <div className="text-center">
+            <p className="text-gray-600">
+              <span className="text-2xl font-bold text-primary">{cachedGenes.length.toLocaleString()}</span> genes available in the database
+            </p>
+          </div>
+        )}
+
         {/* Loading State */}
         {isSearching && (
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center" role="status" aria-live="polite" aria-label="Searching genes">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
             <p className="text-gray-600">Searching genes...</p>
           </div>
@@ -196,12 +227,25 @@ export default function GeneSearchPage() {
           </div>
         )}
 
-        {/* Search Tips */}
-        <div className="bg-blue-50 rounded-lg p-6">
-          <h3 className="text-lg font-semibold text-blue-800 mb-4">
-            Search Tips
-          </h3>
-          <div className="grid md:grid-cols-2 gap-4 text-sm text-blue-700">
+        {/* Search Tips - Collapsible */}
+        <div className="bg-blue-50 rounded-lg">
+          <button
+            type="button"
+            onClick={() => setShowSearchTips(!showSearchTips)}
+            className="w-full flex items-center justify-between p-6 text-left"
+            aria-expanded={showSearchTips}
+          >
+            <h3 className="text-lg font-semibold text-blue-800">
+              Search Tips
+            </h3>
+            {showSearchTips ? (
+              <ChevronUp className="h-5 w-5 text-blue-800" aria-hidden />
+            ) : (
+              <ChevronDown className="h-5 w-5 text-blue-800" aria-hidden />
+            )}
+          </button>
+          {showSearchTips && (
+            <div className="px-6 pb-6 grid md:grid-cols-2 gap-4 text-sm text-blue-700">
             <div>
               <h4 className="font-medium mb-2">Gene Names</h4>
               <ul className="space-y-1">
@@ -218,7 +262,8 @@ export default function GeneSearchPage() {
                 <li>• Use MIM numbers</li>
               </ul>
             </div>
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </Layout>

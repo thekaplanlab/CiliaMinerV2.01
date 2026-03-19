@@ -13,8 +13,8 @@ export default function SymptomsDiseasesPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [searchResults, setSearchResults] = useState<CiliopathyFeature[]>([])
   const [activeTab, setActiveTab] = useState<'disease' | 'symptom'>('disease')
-  const [displayType, setDisplayType] = useState<'normal' | 'name'>('normal')
   const [selectedDisease, setSelectedDisease] = useState<string>('')
+  const [hasFeatureData, setHasFeatureData] = useState(false)
   const [availableDiseases, setAvailableDiseases] = useState<string[]>([])
   const [isSearching, setIsSearching] = useState(false)
   const [clinicalFeatures, setClinicalFeatures] = useState<string[]>([])
@@ -47,6 +47,7 @@ export default function SymptomsDiseasesPage() {
       
       setAvailableDiseases(diseases)
       setClinicalFeatures(featuresList)
+      setHasFeatureData(features.length > 0)
       
       // Calculate symptom counts by category
       const categoryCounts: { [key: string]: number } = {}
@@ -264,34 +265,7 @@ export default function SymptomsDiseasesPage() {
               </div>
             </div>
 
-            {/* Display Type Selection */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Display Type
-              </label>
-              <div className="flex space-x-4">
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    value="normal"
-                    checked={displayType === 'normal'}
-                    onChange={(e) => setDisplayType(e.target.value as 'normal' | 'name')}
-                    className="mr-2"
-                  />
-                  Normal
-                </label>
-                <label className="flex items-center">
-                  <input
-                    type="radio"
-                    value="name"
-                    checked={displayType === 'name'}
-                    onChange={(e) => setDisplayType(e.target.value as 'normal' | 'name')}
-                    className="mr-2"
-                  />
-                  Just Name
-                </label>
-              </div>
-            </div>
+            <div />
           </div>
 
           {/* Disease Selection (for disease-based search) */}
@@ -388,60 +362,73 @@ export default function SymptomsDiseasesPage() {
         )}
 
         {/* Disease Symptom Summary */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-            Disease Symptom Summary
-          </h3>
-          
-          {/* Organ System Grid */}
-          <div className="grid grid-cols-4 gap-4">
-            {Object.entries(diseaseSymptomSummary).map(([key, data]) => {
-              const IconComponent = data.icon
-              return (
-                <div key={key} className="text-center p-4 border border-gray-200 rounded-lg">
-                  <IconComponent className={`h-8 w-8 ${data.color} mx-auto mb-2`} />
-                  <div className="text-lg font-semibold text-gray-900">{data.count}</div>
-                  <div className="text-sm text-gray-600 capitalize">{key}</div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-
-        {/* Statistics */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <FileText className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">4,092</div>
-            <div className="text-sm text-gray-600">Unique Clinical Features</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <Activity className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">55</div>
-            <div className="text-sm text-gray-600">Ciliopathy Diseases</div>
-          </div>
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-            <Filter className="h-8 w-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold text-gray-900">12</div>
-            <div className="text-sm text-gray-600">Organ Systems</div>
-          </div>
-        </div>
-
-        {/* Top Clinical Features */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">
-            Top Clinical Features
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {topFeaturesData.map((feature, index) => (
-              <div key={index} className="p-4 border border-gray-200 rounded-lg">
-                <div className="text-lg font-semibold text-gray-900">{feature.feature}</div>
-                <div className="text-sm text-gray-600">{feature.category}</div>
-                <div className="text-2xl font-bold text-primary">{feature.count}</div>
+        {hasFeatureData ? (
+          <>
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+                Disease Symptom Summary
+              </h3>
+              <div className="grid grid-cols-4 gap-4">
+                {Object.entries(diseaseSymptomSummary).map(([key, data]) => {
+                  const IconComponent = data.icon
+                  return (
+                    <div key={key} className="text-center p-4 border border-gray-200 rounded-lg">
+                      <IconComponent className={`h-8 w-8 ${data.color} mx-auto mb-2`} />
+                      <div className="text-lg font-semibold text-gray-900">{data.count}</div>
+                      <div className="text-sm text-gray-600 capitalize">{key}</div>
+                    </div>
+                  )
+                })}
               </div>
-            ))}
+            </div>
+
+            {/* Statistics */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+                <FileText className="h-8 w-8 text-primary mx-auto mb-2" />
+                <div className="text-2xl font-bold text-gray-900">{clinicalFeatures.length.toLocaleString()}</div>
+                <div className="text-sm text-gray-600">Unique Clinical Features</div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+                <Activity className="h-8 w-8 text-primary mx-auto mb-2" />
+                <div className="text-2xl font-bold text-gray-900">{availableDiseases.length}</div>
+                <div className="text-sm text-gray-600">Ciliopathy Diseases</div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+                <Filter className="h-8 w-8 text-primary mx-auto mb-2" />
+                <div className="text-2xl font-bold text-gray-900">{Object.keys(symptomCounts).length}</div>
+                <div className="text-sm text-gray-600">Organ Systems</div>
+              </div>
+            </div>
+
+            {/* Top Clinical Features */}
+            {topFeaturesData.length > 0 && (
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                  Top Clinical Features
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  {topFeaturesData.map((feature, index) => (
+                    <div key={index} className="p-4 border border-gray-200 rounded-lg">
+                      <div className="text-lg font-semibold text-gray-900">{feature.feature}</div>
+                      <div className="text-sm text-gray-600">{feature.category}</div>
+                      <div className="text-2xl font-bold text-primary">{feature.count}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </>
+        ) : (
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 text-center">
+            <Activity className="h-10 w-10 text-amber-500 mx-auto mb-3" />
+            <h3 className="text-lg font-semibold text-amber-800 mb-2">Clinical Feature Data Not Yet Available</h3>
+            <p className="text-amber-700 text-sm max-w-xl mx-auto">
+              The symptom and clinical feature data sheets (<code className="bg-amber-100 px-1 rounded">symptome_primary</code>, <code className="bg-amber-100 px-1 rounded">symptome_secondary</code>) have not been added to the database yet.
+              Once available, disease-symptom relationships, organ system summaries, and clinical feature search will be fully functional.
+            </p>
           </div>
-        </div>
+        )}
 
         {/* Information Box */}
         <div className="bg-blue-50 rounded-lg p-6">
@@ -460,7 +447,7 @@ export default function SymptomsDiseasesPage() {
               <strong>Symptoms Based Search:</strong> Search for symptoms to find associated ciliopathy diseases.
             </p>
             <p>
-              <strong>Display Options:</strong> Choose between normal display (full information) or name-only display.
+              <strong>Data Source:</strong> Clinical feature data is loaded from the <code>symptome_primary</code> and <code>symptome_secondary</code> sheets in the database.
             </p>
           </div>
         </div>

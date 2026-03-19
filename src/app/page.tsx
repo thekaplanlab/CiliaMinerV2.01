@@ -1,11 +1,14 @@
 'use client'
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react'
+import Link from 'next/link'
 import Layout from '@/components/Layout'
 import { SearchInput, SearchResults, TabPanel } from '@/components/SearchComponents'
-import { BarPlot, CiliaMinerPieChart, BubbleChart, ChartGrid, StatCard } from '@/components/ChartComponents'
+import { BarPlot, CiliaMinerPieChart, PublicationBarChart, ChartGrid, StatCard } from '@/components/ChartComponents'
+import { ChartSkeleton } from '@/components/Skeleton'
 import { CiliopathyGene, CiliopathyFeature, BarPlotData, GeneNumber, PublicationData } from '@/types'
 import { dataService } from '@/services/dataService'
+import { config } from '@/lib/config'
 import { useDebounce } from '@/lib/utils'
 import { 
   Search, 
@@ -81,12 +84,21 @@ export default function HomePage() {
         gene.Ciliopathy && gene.Ciliopathy !== 'Unknown' && gene.Ciliopathy.trim() !== ''
       ).length
 
+<<<<<<< HEAD
       setStats({
         totalGenes: genes.length,
         totalCiliopathies: genesWithCiliopathy,
         totalPublications: stats.totalPublications,
         totalOrganisms: 6
       })
+=======
+      setStats(prev => ({
+        ...prev,
+        totalGenes: genes.length,
+        totalCiliopathies: genesWithCiliopathy,
+        totalOrganisms: 7
+      }))
+>>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
     } catch (error) {
       console.error('Failed to load genes data:', error)
     }
@@ -268,7 +280,7 @@ export default function HomePage() {
 
       {/* Loading State */}
       {isSearching && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-12" role="status" aria-live="polite" aria-label="Searching">
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
             <p className="text-gray-700 text-lg">Searching across all data...</p>
@@ -342,14 +354,11 @@ export default function HomePage() {
               Gene Distribution by Localization
             </h3>
             {isDataLoading ? (
-              <div className="h-64 flex items-center justify-center">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-              </div>
+              <ChartSkeleton height={256} />
             ) : (
               <BarPlot
                 data={barPlotData}
                 height={300}
-                title="Gene Distribution by Localization"
               />
             )}
           </div>
@@ -360,38 +369,32 @@ export default function HomePage() {
               Ciliopathy Categories
             </h3>
             {isDataLoading ? (
-              <div className="h-64 flex items-center justify-center">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-              </div>
+              <ChartSkeleton height={350} />
             ) : (
               <CiliaMinerPieChart
                 data={pieChartData}
-                height={300}
-                title="Ciliopathy Categories"
+                height={350}
               />
             )}
           </div>
         </div>
       </div>
 
-      {/* Bubble Chart Section */}
+      {/* Publication Chart Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         <div className="bg-white rounded-lg shadow-lg p-6">
           <h3 className="text-xl font-semibold text-gray-800 mb-4 text-center">
-            Publication Numbers of Ciliopathy Related Genes (2000-2024)
+            Top Genes by PubMed Publication Count
           </h3>
           {isDataLoading ? (
-            <div className="h-64 flex items-center justify-center">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-            </div>
+            <ChartSkeleton height={256} />
           ) : (
-            <BubbleChart
+            <PublicationBarChart
               data={publicationData.map(pub => ({
-                year: pub.year,
                 count: pub.publication_number,
                 gene: pub.gene_name
               }))}
-              title="Publication Numbers Over Time"
+              maxItems={15}
             />
           )}
         </div>
@@ -404,9 +407,7 @@ export default function HomePage() {
             Top Genes by Publication Count
           </h3>
           {isDataLoading ? (
-            <div className="h-64 flex items-center justify-center">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-            </div>
+            <ChartSkeleton height={256} />
           ) : (
             <div className="space-y-3">
               {(() => {
@@ -457,29 +458,38 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Link
+            href="/gene-search"
+            className="bg-white rounded-lg shadow-lg p-6 text-center block hover:shadow-xl hover:-translate-y-0.5 hover:border-primary hover:border transition-all duration-200"
+          >
             <Search className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Gene Search</h3>
             <p className="text-gray-600">
               Search through thousands of ciliopathy genes with advanced filtering options
             </p>
-          </div>
+          </Link>
 
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Link
+            href="/genes-orthologs"
+            className="bg-white rounded-lg shadow-lg p-6 text-center block hover:shadow-xl hover:-translate-y-0.5 hover:border-primary hover:border transition-all duration-200"
+          >
             <TrendingUp className="h-12 w-12 text-green-500 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Ortholog Analysis</h3>
             <p className="text-gray-600">
               Explore gene orthologs across multiple model organisms
             </p>
-          </div>
+          </Link>
 
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <Link
+            href="/symptoms-diseases"
+            className="bg-white rounded-lg shadow-lg p-6 text-center block hover:shadow-xl hover:-translate-y-0.5 hover:border-primary hover:border transition-all duration-200"
+          >
             <Users className="h-12 w-12 text-purple-500 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Clinical Features</h3>
             <p className="text-gray-600">
               Access comprehensive clinical feature data and disease associations
             </p>
-          </div>
+          </Link>
         </div>
       </div>
 
@@ -487,7 +497,7 @@ export default function HomePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <div className="text-center py-4 border-t border-gray-200">
           <p className="text-sm text-gray-500">
-            Last Update: 27.02.2025
+            Last Update: {config.lastUpdate}
           </p>
         </div>
       </div>
