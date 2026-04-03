@@ -84,21 +84,14 @@ export default function HomePage() {
         gene.Ciliopathy && gene.Ciliopathy !== 'Unknown' && gene.Ciliopathy.trim() !== ''
       ).length
 
-<<<<<<< HEAD
-      setStats({
-        totalGenes: genes.length,
-        totalCiliopathies: genesWithCiliopathy,
-        totalPublications: stats.totalPublications,
-        totalOrganisms: 6
-      })
-=======
+      // Use functional update to avoid race conditions with other loaders
+      // that also call `setStats(...)` (e.g. publications loader).
       setStats(prev => ({
         ...prev,
         totalGenes: genes.length,
         totalCiliopathies: genesWithCiliopathy,
         totalOrganisms: 7
       }))
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
     } catch (error) {
       console.error('Failed to load genes data:', error)
     }

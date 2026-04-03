@@ -70,6 +70,23 @@ const REQUIRED_SHEETS = [
   'gene_localisations_ciliacarta',
 ] as const
 
+/**
+ * When a sheet is missing from the Excel workbook, fall back to these JSON
+ * files (served from public/data/).  The JSON files contain the same row
+ * structure that the sheet would have.
+ */
+const JSON_FALLBACK_MAP: Partial<Record<string, string>> = {
+  symptome_primary: 'symptome_primary.json',
+  symptome_secondary: 'symptome_secondary.json',
+  gene_localisations_ciliacarta: 'gene_localisations_ciliacarta.json',
+}
+
+/**
+ * Enriched clinical features derived from ClinGen GCEP mappings +
+ * human phenotype data.  Same row format as symptome_primary/secondary.
+ */
+const CLINGEN_FEATURES_FILE = 'clingen_clinical_features.json'
+
 type RequiredSheet = (typeof REQUIRED_SHEETS)[number]
 
 /**
@@ -84,8 +101,6 @@ const ORTHOLOG_COLUMN_MAP: Record<string, string> = {
   drosophila_melanogaster: 'ortholog_drosophila',
 }
 
-<<<<<<< HEAD
-=======
 /**
  * Maps organism IDs to the CiliopathyGene property name (PascalCase)
  * used after parsing. ORTHOLOG_COLUMN_MAP has the raw Excel column names;
@@ -99,7 +114,6 @@ const ORTHOLOG_GENE_PROP_MAP: Record<string, keyof CiliopathyGene> = {
   drosophila_melanogaster: 'Ortholog_Drosophila',
 }
 
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
 const ORGANISM_DISPLAY_NAMES: Record<string, string> = {
   mus_musculus: 'Mus musculus',
   danio_rerio: 'Danio rerio',
@@ -159,31 +173,52 @@ class DataService {
   }
 
   /**
-   * Returns the rows of a sheet, or an empty array when the sheet is absent.
+   * Returns the rows of a sheet, or falls back to a JSON file when absent.
    * Records a quality issue the first time a missing sheet is accessed so the
    * report stays accurate even for sheets checked lazily.
    */
-  private getSheetRows(sheetName: RequiredSheet): Promise<RawRow[]> {
-    return this.getWorkbook().then(wb => {
-      if (wb.hasSheet(sheetName)) return wb.getSheet(sheetName)
+  private async getSheetRows(sheetName: RequiredSheet): Promise<RawRow[]> {
+    const wb = await this.getWorkbook()
+    if (wb.hasSheet(sheetName)) return wb.getSheet(sheetName)
 
-      // Record a missing-sheet issue if not already noted
-      const alreadyNoted = this.qualityIssues.some(
-        i => i.sheet === sheetName && i.issue === 'missing'
-      )
-      if (!alreadyNoted) {
-        this.qualityIssues.push({
-          sheet: sheetName,
-          rowIndex: -1,
-          gene: '',
-          field: '(entire sheet)',
-          issue: 'missing',
-          originalValue: null,
-          usedFallback: '(empty — add the sheet to ciliaminer.xlsx)',
-        })
+    // Try loading from a fallback JSON file
+    const jsonFile = JSON_FALLBACK_MAP[sheetName]
+    if (jsonFile) {
+      const cacheKey = `__json_fallback_${sheetName}`
+      if (this.dataCache.has(cacheKey)) return this.dataCache.get(cacheKey) as RawRow[]
+
+      try {
+        const url = `${getBasePath()}/data/${jsonFile}`
+        const res = await fetch(url)
+        if (res.ok) {
+          const rows: RawRow[] = await res.json()
+          this.dataCache.set(cacheKey, rows)
+          console.info(
+            `[CiliaMiner] Sheet "${sheetName}" missing from workbook — loaded ${rows.length} rows from ${jsonFile}`
+          )
+          return rows
+        }
+      } catch {
+        // Fall through to record as missing
       }
-      return []
-    })
+    }
+
+    // Record a missing-sheet issue if not already noted
+    const alreadyNoted = this.qualityIssues.some(
+      i => i.sheet === sheetName && i.issue === 'missing'
+    )
+    if (!alreadyNoted) {
+      this.qualityIssues.push({
+        sheet: sheetName,
+        rowIndex: -1,
+        gene: '',
+        field: '(entire sheet)',
+        issue: 'missing',
+        originalValue: null,
+        usedFallback: '(empty — add the sheet to ciliaminer.xlsx)',
+      })
+    }
+    return []
   }
 
   // ── Primary gene dataset ───────────────────────────────────────────────────
@@ -345,18 +380,6 @@ class DataService {
     const CACHE_KEY = `orthologs_${organism}`
     if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as OrthologGene[]
 
-<<<<<<< HEAD
-    const orthologCol = ORTHOLOG_COLUMN_MAP[organism]
-    let result: OrthologGene[] = []
-
-    if (orthologCol) {
-      const genes = await this.getCiliopathyGenes()
-      const displayName = ORGANISM_DISPLAY_NAMES[organism] ?? organism
-      result = genes
-        .filter(g => g[orthologCol as keyof CiliopathyGene])
-        .map(g => {
-          const orthologName = safeStringOptional(g[orthologCol as keyof CiliopathyGene])
-=======
     const geneProp = ORTHOLOG_GENE_PROP_MAP[organism]
     let result: OrthologGene[] = []
 
@@ -367,7 +390,6 @@ class DataService {
         .filter(g => g[geneProp])
         .map(g => {
           const orthologName = safeStringOptional(g[geneProp])
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
           return {
             'Human Gene': g['Human Gene Name'],
             'Human Gene ID': g['Human Gene ID'],
@@ -428,18 +450,26 @@ class DataService {
   }
 
   async getCiliopathyFeatures(): Promise<CiliopathyFeature[]> {
+    const CACHE_KEY = 'ciliopathy_features'
+    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as CiliopathyFeature[]
+
     const [primary, secondary] = await Promise.all([
       this.getSheetRows('symptome_primary'),
       this.getSheetRows('symptome_secondary'),
     ])
 
     const features: CiliopathyFeature[] = []
+    const seen = new Set<string>()
+
+    // Parse original symptom matrix rows
     for (const row of [...primary, ...secondary]) {
       const featureName = safeStringOptional(row['Ciliopathy / Clinical Features'])
       const category = safeStringOptional(row['General Titles'])
       for (const key of Object.keys(row)) {
         if (key === 'Ciliopathy / Clinical Features' || key === 'General Titles') continue
         if (row[key] === 1 || row[key] === 1.0) {
+          const dedupKey = `${featureName}||${key}`
+          seen.add(dedupKey)
           features.push({
             'Ciliopathy / Clinical Features': featureName,
             'General Titles': category,
@@ -452,6 +482,44 @@ class DataService {
         }
       }
     }
+
+    // Merge ClinGen GCEP-derived clinical features
+    try {
+      const url = `${getBasePath()}/data/${CLINGEN_FEATURES_FILE}`
+      const res = await fetch(url)
+      if (res.ok) {
+        const clingenRows: RawRow[] = await res.json()
+        let added = 0
+        for (const row of clingenRows) {
+          const featureName = safeStringOptional(row['Ciliopathy / Clinical Features'])
+          const category = safeStringOptional(row['General Titles'])
+          for (const key of Object.keys(row)) {
+            if (key === 'Ciliopathy / Clinical Features' || key === 'General Titles') continue
+            if (row[key] === 1 || row[key] === 1.0) {
+              const dedupKey = `${featureName}||${key}`
+              if (!seen.has(dedupKey)) {
+                seen.add(dedupKey)
+                features.push({
+                  'Ciliopathy / Clinical Features': featureName,
+                  'General Titles': category,
+                  Category: category,
+                  Ciliopathy: key,
+                  Disease: key,
+                  Feature: featureName,
+                  Count: 1,
+                })
+                added++
+              }
+            }
+          }
+        }
+        console.info(`[CiliaMiner] Merged ${added} ClinGen-derived clinical features`)
+      }
+    } catch {
+      // ClinGen features file not available — continue with base data
+    }
+
+    this.dataCache.set(CACHE_KEY, features)
     return features
   }
 
@@ -509,16 +577,6 @@ class DataService {
     return this.searchCiliopathyGenes(query)
   }
 
-<<<<<<< HEAD
-  // ── Data quality report ────────────────────────────────────────────────────
-
-  getDataQualityReport(): DataQualityReport {
-    const issuesByField: Record<string, number> = {}
-    for (const issue of this.qualityIssues) {
-      issuesByField[issue.field] = (issuesByField[issue.field] ?? 0) + 1
-    }
-
-=======
   // ── Sheet availability check ───────────────────────────────────────────────
 
   async hasSheet(sheetName: string): Promise<boolean> {
@@ -539,7 +597,6 @@ class DataService {
       issuesByField[issue.field] = (issuesByField[issue.field] ?? 0) + 1
     }
 
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
     return {
       source: `${getBasePath()}/data/${EXCEL_FILENAME}`,
       loadedAt: this.loadedAt,
@@ -605,9 +662,6 @@ export const {
   getCiliopathyFeatures,
   getAllOrthologData,
   getDataQualityReport,
-<<<<<<< HEAD
-=======
   hasSheet,
   getMissingSheets,
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
 } = dataService

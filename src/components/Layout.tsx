@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
-import { Home, Search, SlidersHorizontal, Database, Activity, FileText, Upload, Menu, X, Info } from 'lucide-react'
+import { Home, Search, SlidersHorizontal, Database, Activity, FileText, Upload, Menu, X, Info, Brain } from 'lucide-react'
 
 const navigation = [
   { name: 'Homepage', href: '/', icon: Home },
@@ -13,6 +13,7 @@ const navigation = [
   { name: 'Ciliopathy Classification', href: '/ciliopathy-classification', icon: Database },
   { name: 'Genes & Orthologs', href: '/genes-orthologs', icon: Activity },
   { name: 'Symptoms & Diseases', href: '/symptoms-diseases', icon: FileText },
+  { name: 'Analysis', href: '/analysis', icon: Brain },
   { name: 'Submit Gene', href: '/submit-gene', icon: Upload },
   { name: 'About', href: '/about', icon: Info },
 ]
