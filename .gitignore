@@ -1,1 +1,30 @@
+# Dependencies & build
 node_modules
+.next
+dist
+out
+*.tsbuildinfo
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# public/data/ciliaminer.xlsx  IS committed – it is the ONLY data file.
+# Researchers update only this file; the app reads it directly in the browser.
+# No JSON files are used at runtime. All legacy files are in archive/data/.
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+backend/submissions/*.json
+
+# IDE / OS
+.DS_Store
+*.log
+.idea
+.vscode

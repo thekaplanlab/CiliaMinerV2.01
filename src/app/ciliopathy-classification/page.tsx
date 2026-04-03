@@ -57,10 +57,17 @@ export default function CiliopathyClassificationPage() {
   const [heatmapData, setHeatmapData] = useState<HeatmapData[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [symptomCounts, setSymptomCounts] = useState<Record<string, number>>({})
+  const [hasSymptomData, setHasSymptomData] = useState(false)
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 50
 
   useEffect(() => {
     loadData()
-  }, [activeTab])
+  }, [])
+
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [activeTab, selectedCiliopathy])
 
   const loadData = async () => {
     setIsLoading(true)
@@ -74,6 +81,7 @@ export default function CiliopathyClassificationPage() {
       setGenes(genesData)
       setFeatures(featuresData)
       setHeatmapData(heatmapData)
+      setHasSymptomData(featuresData.length > 0)
       calculateSymptomCounts(featuresData)
     } catch (error) {
       console.error('Failed to load data:', error)
@@ -116,13 +124,36 @@ export default function CiliopathyClassificationPage() {
     setSymptomCounts(counts)
   }
 
+  const TAB_CLASSIFICATION_MAP: Record<string, string[]> = {
+    primary: ['primary ciliopathies', 'primary'],
+    secondary: ['secondary ciliopathies', 'secondary diseases', 'secondary'],
+    motile: ['motile ciliopathies', 'motile'],
+    atypical: ['atypical ciliopathies', 'atypical'],
+    potential: ['potential ciliopathy genes', 'potential', 'non-ciliary'],
+  }
+
+  const getTabFilteredGenes = () => {
+    const searchTerms = TAB_CLASSIFICATION_MAP[activeTab] || []
+    if (searchTerms.length === 0) return genes
+
+    return genes.filter(gene => {
+      const cls = (gene['Ciliopathy Classification'] || '').toLowerCase().trim()
+      if (!cls || cls === 'unknown' || cls === 'unclassified') {
+        return activeTab === 'atypical'
+      }
+      return searchTerms.some(term => cls.includes(term))
+    })
+  }
+
   const getFilteredGenes = () => {
-    if (selectedCiliopathy === 'All') return genes
-    return genes.filter(gene => gene.Ciliopathy === selectedCiliopathy)
+    const tabFiltered = getTabFilteredGenes()
+    if (selectedCiliopathy === 'All') return tabFiltered
+    return tabFiltered.filter(gene => gene.Ciliopathy === selectedCiliopathy)
   }
 
   const getCiliopathyList = () => {
-    const uniqueCiliopathies = Array.from(new Set(genes.map(g => g.Ciliopathy)))
+    const tabFiltered = getTabFilteredGenes()
+    const uniqueCiliopathies = Array.from(new Set(tabFiltered.map(g => g.Ciliopathy).filter(Boolean)))
     return ['All', ...uniqueCiliopathies.sort()]
   }
 
@@ -150,6 +181,84 @@ export default function CiliopathyClassificationPage() {
     a.download = filename
     a.click()
     window.URL.revokeObjectURL(url)
+  }
+
+  // Helper function to create Ensembl link for Gene ID
+  const createEnsemblLink = (geneId: string, geneName: string) => {
+    if (!geneId || geneId === '-') return <span className="text-center">-</span>
+    const geneIdStr = String(geneId)
+    
+    if (geneIdStr.startsWith('ENSG')) {
+      return (
+        <a 
+          href={`https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=${geneIdStr}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+        >
+          {geneIdStr}
+        </a>
+      )
+    }
+    return (
+      <a 
+        href={`https://www.ensembl.org/Homo_sapiens/Search/Results?q=${geneName}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+      >
+        {geneIdStr}
+      </a>
+    )
+  }
+
+  // Helper function to create OMIM link
+  const createOMIMLink = (mimNumber: string) => {
+    if (!mimNumber || mimNumber === '-') return <span className="text-center">-</span>
+    const cleanNumber = mimNumber.replace(/[^\d]/g, '')
+    if (!cleanNumber) return <span className="text-center">{mimNumber}</span>
+    
+    return (
+      <a 
+        href={`https://omim.org/entry/${cleanNumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+      >
+        {mimNumber}
+      </a>
+    )
+  }
+
+  // Helper function to create PubMed links for references
+  const createPubMedLinks = (references: string) => {
+    if (!references || references === '-') return <span className="text-center">-</span>
+    
+    // Split by comma or semicolon and process each reference
+    const refList = references.split(/[,;]/).map(ref => ref.trim()).filter(ref => ref)
+    
+    return (
+      <div className="flex flex-wrap gap-1 justify-center">
+        {refList.map((ref, idx) => {
+          const cleanRef = ref.replace(/[^\d]/g, '')
+          if (!cleanRef) return <span key={idx}>{ref}{idx < refList.length - 1 ? ', ' : ''}</span>
+          
+          return (
+            <React.Fragment key={idx}>
+              <a 
+                href={`https://pubmed.ncbi.nlm.nih.gov/${cleanRef}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+              >
+                {ref}
+              </a>
+              {idx < refList.length - 1 && <span>, </span>}
+            </React.Fragment>
+          )
+        })}
+      </div>
+    )
   }
 
   const tabs = [
@@ -247,20 +356,28 @@ export default function CiliopathyClassificationPage() {
                   <h3 className="text-2xl font-semibold text-center text-primary mb-6">
                     Disease Symptom Summary
                   </h3>
-                  <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
-                    {symptomCategories.map((category) => {
-                      const Icon = category.icon
-                      return (
-                        <div key={category.category} className="text-center">
-                          <div className={`${category.color} w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-2`}>
-                            <Icon className="h-6 w-6 text-white" />
+                  {hasSymptomData ? (
+                    <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
+                      {symptomCategories.map((category) => {
+                        const Icon = category.icon
+                        return (
+                          <div key={category.category} className="text-center">
+                            <div className={`${category.color} w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-2`}>
+                              <Icon className="h-6 w-6 text-white" />
+                            </div>
+                            <p className="text-xs font-medium text-gray-700">{category.category}</p>
+                            <p className="text-lg font-bold text-primary">{symptomCounts[category.category] || 0}</p>
                           </div>
-                          <p className="text-xs font-medium text-gray-700">{category.category}</p>
-                          <p className="text-lg font-bold text-primary">{symptomCounts[category.category] || 0}</p>
-                        </div>
-                      )
-                    })}
-                  </div>
+                        )
+                      })}
+                    </div>
+                  ) : (
+                    <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center">
+                      <p className="text-amber-700 text-sm">
+                        Clinical feature data not yet available. Add <code className="bg-amber-100 px-1 rounded">symptome_primary</code> and <code className="bg-amber-100 px-1 rounded">symptome_secondary</code> sheets to the database to populate this section.
+                      </p>
+                    </div>
+                  )}
                 </div>
 
                 {/* Results Table */}
@@ -284,44 +401,81 @@ export default function CiliopathyClassificationPage() {
                       <p className="text-gray-600">Loading data...</p>
                     </div>
                   ) : (
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full divide-y divide-gray-200">
-                        <thead className="bg-gray-50">
-                          <tr>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gene Name</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Gene ID</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ciliopathy</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Localization</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">MIM Number</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">References</th>
-                          </tr>
-                        </thead>
-                        <tbody className="bg-white divide-y divide-gray-200">
-                          {getFilteredGenes().slice(0, 50).map((gene, index) => (
-                            <tr key={index} className="hover:bg-gray-50">
-                              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                {gene['Human Gene Name']}
-                              </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Human Gene ID']}
-                              </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene.Ciliopathy}
-                              </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Subcellular Localization']}
-                              </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Gene MIM Number']}
-                              </td>
-                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                                {gene['Disease/Gene Reference']}
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
+                    (() => {
+                      const filtered = getFilteredGenes()
+                      const totalPages = Math.ceil(filtered.length / itemsPerPage)
+                      const paginated = filtered.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+                      
+                      return (
+                        <>
+                          <div className="overflow-x-auto">
+                            <table className="min-w-full divide-y divide-gray-200">
+                              <thead className="bg-gray-100">
+                                <tr>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Gene Name</th>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Gene ID</th>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Ciliopathy</th>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">Localization</th>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">MIM Number</th>
+                                  <th className="px-6 py-4 text-center text-xs font-bold text-gray-700 uppercase tracking-wider">References</th>
+                                </tr>
+                              </thead>
+                              <tbody className="bg-white divide-y divide-gray-200">
+                                {paginated.map((gene, index) => (
+                                  <tr key={index} className="hover:bg-gray-50">
+                                    <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
+                                      {gene['Human Gene Name']}
+                                    </td>
+                                    <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                      {createEnsemblLink(gene['Human Gene ID'] || '-', gene['Human Gene Name'])}
+                                    </td>
+                                    <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                      {gene.Ciliopathy}
+                                    </td>
+                                    <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                      {gene['Subcellular Localization']}
+                                    </td>
+                                    <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                      {createOMIMLink(gene['Gene MIM Number'] || '-')}
+                                    </td>
+                                    <td className="px-6 py-4 text-center text-sm text-gray-900">
+                                      {createPubMedLinks(gene['Disease/Gene Reference'] || '-')}
+                                    </td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+
+                          {totalPages > 1 && (
+                            <div className="flex items-center justify-between mt-4 px-2">
+                              <p className="text-sm text-gray-600">
+                                Showing {(currentPage - 1) * itemsPerPage + 1}–{Math.min(currentPage * itemsPerPage, filtered.length)} of {filtered.length}
+                              </p>
+                              <div className="flex items-center gap-2">
+                                <button
+                                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                                  disabled={currentPage === 1}
+                                  className="px-3 py-1 text-sm border border-gray-300 rounded-md disabled:opacity-40 hover:bg-gray-50"
+                                >
+                                  Previous
+                                </button>
+                                <span className="text-sm text-gray-700">
+                                  Page {currentPage} of {totalPages}
+                                </span>
+                                <button
+                                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                                  disabled={currentPage === totalPages}
+                                  className="px-3 py-1 text-sm border border-gray-300 rounded-md disabled:opacity-40 hover:bg-gray-50"
+                                >
+                                  Next
+                                </button>
+                              </div>
+                            </div>
+                          )}
+                        </>
+                      )
+                    })()
                   )}
                 </div>
 

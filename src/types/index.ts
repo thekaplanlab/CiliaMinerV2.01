@@ -1,17 +1,53 @@
 // Main data types for CiliaMiner application
 
 export interface CiliopathyGene {
-  Ciliopathy: string;
-  'Human Gene Name': string;
-  'Subcellular Localization': string;
-  'Gene MIM Number': string;
-  'OMIM Phenotype Number': string;
-  'Disease/Gene Reference': string;
-  'Human Gene ID': string;
-  'Localisation Reference': string;
-  'Gene Localisation': string;
-  Abbreviation?: string;
-  Synonym?: string;
+  Ciliopathy: string
+  'Human Gene Name': string
+  'Subcellular Localization': string
+  'Gene MIM Number': string
+  'OMIM Phenotype Number': string
+  'Disease/Gene Reference': string
+  'Human Gene ID': string
+  'Localisation Reference': string
+  'Gene Localisation': string
+  Abbreviation?: string
+  Synonym?: string
+
+  // Extended annotation fields from the integrated Excel
+  Gene?: string
+  'ensembl_gene_id.x.x'?: string
+  'Overexpression effects on cilia length (increase/decrease/no effect)'?: string
+  'Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)'?: string
+  'Percentage of ciliated cells (increase/decrease/no effect)'?: string
+  'Gene.Description'?: string
+  'Functional.Summary.from.Literature'?: string
+  'Protein.complexes'?: string
+  subunits_protein_name?: string
+  'Protein.complexes Referances'?: number | string | null
+  'Gene.annotation'?: string | null
+  'Functional.category'?: string | null
+  PFAM_IDs?: string | null
+  Domain_Descriptions?: string | null
+  'Ciliopathy Classification'?: string | null
+  Description?: string | null
+  Source?: string | null
+  Ortholog_Mouse?: string | null
+  Ortholog_C_elegans?: string | null
+  Ortholog_Xenopus?: string | null
+  Ortholog_Zebrafish?: string | null
+  Ortholog_Drosophila?: string | null
+  mouse_ciliopathy_phenotype?: string | null
+  mouse_phenotype?: string | null
+  human_ciliopathy_phenotype?: string | null
+  human_phenotype?: string | null
+
+  // Processed annotation fields (do not confuse with gene_id)
+  gene_id?: string
+  ciliopathies?: string[]
+  go_terms?: string[]
+  reactome_pathways?: string[]
+  kegg_pathways?: string[]
+  source_annotations_raw?: string[]
 }
 
 export interface OrthologGene {

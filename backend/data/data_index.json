@@ -1,0 +1,371 @@
+{
+  "datasets": {
+    "atypical_ciliopathy": {
+      "filename": "atypical_ciliopathy.json",
+      "record_count": 42,
+      "columns": [
+        "Ciliopathy",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym"
+      ],
+      "size_kb": 12.08
+    },
+    "bar_plot": {
+      "filename": "bar_plot.json",
+      "record_count": 5,
+      "columns": [
+        "Ciliary_Localisation",
+        "Gene_number"
+      ],
+      "size_kb": 0.35
+    },
+    "data_index": {
+      "filename": "data_index.json",
+      "record_count": 0,
+      "columns": [],
+      "size_kb": 10.15
+    },
+    "gene-search-index": {
+      "filename": "gene-search-index.json",
+      "record_count": 2591,
+      "columns": [
+        "gene",
+        "search"
+      ],
+      "size_kb": 5282.75
+    },
+    "gene_localisations_ciliacarta": {
+      "filename": "gene_localisations_ciliacarta.json",
+      "record_count": 504,
+      "columns": [
+        "Human Gene Name",
+        "Basal Body",
+        "Transition Zone",
+        "Cilia"
+      ],
+      "size_kb": 50.89
+    },
+    "gene_numbers_d": {
+      "filename": "gene_numbers_d.json",
+      "record_count": 3,
+      "columns": [
+        "Disease",
+        "Gene_numbers"
+      ],
+      "size_kb": 0.21
+    },
+    "homosapiens_ciliopathy": {
+      "filename": "homosapiens_ciliopathy.json",
+      "record_count": 2591,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "ciliopathies",
+        "gene_id",
+        "go_terms",
+        "reactome_pathways",
+        "kegg_pathways",
+        "source_annotations_raw",
+        "ensembl_gene_id.x.x",
+        "Overexpression effects on cilia length (increase/decrease/no effect)",
+        "Loss-of-Function (LoF) effects on cilia length (increase/decrease/no effect)",
+        "Percentage of ciliated cells (increase/decrease/no effect)",
+        "Gene.Description",
+        "Functional.Summary.from.Literature",
+        "Protein.complexes",
+        "subunits_protein_name",
+        "Protein.complexes Referances",
+        "Gene.annotation",
+        "Functional.category",
+        "PFAM_IDs",
+        "Domain_Descriptions",
+        "Ciliopathy Classification",
+        "Description",
+        "Source",
+        "Ortholog_Mouse",
+        "Ortholog_C_elegans",
+        "Ortholog_Xenopus",
+        "Ortholog_Zebrafish",
+        "Ortholog_Drosophila",
+        "mouse_ciliopathy_phenotype",
+        "mouse_phenotype",
+        "human_ciliopathy_phenotype",
+        "human_phenotype"
+      ],
+      "size_kb": 14942.27
+    },
+    "ortholog_human_celegans": {
+      "filename": "ortholog_human_celegans.json",
+      "record_count": 676,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Wormbase ID",
+        "C. elegans Sequence ID",
+        "C. elegans Gene Name",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 392.6
+    },
+    "ortholog_human_creinhardtii": {
+      "filename": "ortholog_human_creinhardtii.json",
+      "record_count": 85,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "C. reinhardtii Gene Name",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 43.13
+    },
+    "ortholog_human_drerio": {
+      "filename": "ortholog_human_drerio.json",
+      "record_count": 434,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Danio rerio Gene Name",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 220.85
+    },
+    "ortholog_human_drosophila": {
+      "filename": "ortholog_human_drosophila.json",
+      "record_count": 270,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Drosophila melanogaster Gene Name",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 140.35
+    },
+    "ortholog_human_mmusculus": {
+      "filename": "ortholog_human_mmusculus.json",
+      "record_count": 461,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Mus musculus Gene Name",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 233.5
+    },
+    "ortholog_human_xlaevis": {
+      "filename": "ortholog_human_xlaevis.json",
+      "record_count": 398,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Xenopus laevis Gene Name",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 203.14
+    },
+    "potential_ciliopathy_genes": {
+      "filename": "potential_ciliopathy_genes.json",
+      "record_count": 274,
+      "columns": [
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Cilia Related Process Pubmed ID",
+        "Synonym"
+      ],
+      "size_kb": 59.79
+    },
+    "publication_table": {
+      "filename": "publication_table.json",
+      "record_count": 9041,
+      "columns": [
+        "gene_name",
+        "publication_number",
+        "year"
+      ],
+      "size_kb": 758.28
+    },
+    "purelist": {
+      "filename": "purelist.json",
+      "record_count": 226,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 106.55
+    },
+    "searching_gene": {
+      "filename": "searching_gene.json",
+      "record_count": 2400,
+      "columns": [
+        "x"
+      ],
+      "size_kb": 65.12
+    },
+    "secondarylist": {
+      "filename": "secondarylist.json",
+      "record_count": 228,
+      "columns": [
+        "Ciliopathy",
+        "Abbreviation",
+        "OMIM Phenotype Number",
+        "Disease/Gene Reference",
+        "Human Gene ID",
+        "Human Gene Name",
+        "Gene MIM Number",
+        "Subcellular Localization",
+        "Localisation Reference",
+        "Synonym",
+        "synonym"
+      ],
+      "size_kb": 103.04
+    },
+    "symptome_primary": {
+      "filename": "symptome_primary.json",
+      "record_count": 112,
+      "columns": [
+        "Ciliopathy / Clinical Features",
+        "General Titles",
+        "Acrocallosal Syndrome",
+        "Al-Gazali-Bakalinova Syndrome",
+        "Autosomal Dominant Polycystic Kidney Disease",
+        "Autosomal Recessive Polycystic Kidney Disease",
+        "Polycystic Kidney Disease",
+        "Infantile Polycystic Kidney Disease",
+        "Bilateral Polycystic Kidney Disease",
+        "Alström Syndrome",
+        "Bardet–Biedl Syndrome",
+        "Bazex-Dupré-Christol Syndrome",
+        "Biliary, Renal, Neurologic, and Skeletal Syndrome",
+        "Caroli Disease",
+        "Cranioectodermal Dysplasia",
+        "COACH Syndrome",
+        "Ellis-van Creveld Syndrome",
+        "Greig Cephalopolysyndactyly Syndrome",
+        "Hydrolethalus Syndrome",
+        "Joubert Syndrome",
+        "Kallmann Syndrome",
+        "McKusick-Kaufman Syndrome",
+        "Meckel–Gruber Syndrome",
+        "Morbid Obesity and Spermatogenic Failure",
+        "Nephronophthisis",
+        "Complex Lethal Osteochondrodysplasia",
+        "Lowe Oculocerebrorenal Syndrome",
+        "Orofaciodigital Syndrome",
+        "Primary Ciliary Dyskinesia",
+        "Retinal Dystrophy",
+        "Renal-hepatic-pancreatic Dysplasia",
+        "RHYNS  Syndrome",
+        "Senior-Løken Syndrome",
+        "Smith-Lemli-Opitz Syndrome",
+        "Spondylometaphyseal Dysplasia",
+        "Short-rib Thoracic Dysplasia",
+        "Stromme Syndrome",
+        "Weyers Acrofacial Dysostosis"
+      ],
+      "size_kb": 168.58
+    },
+    "symptome_secondary": {
+      "filename": "symptome_secondary.json",
+      "record_count": 102,
+      "columns": [
+        "Ciliopathy / Clinical Features",
+        "General Titles",
+        "Ataxia-telangiectasia-like Disorder",
+        "Birt-Hogg-Dubé Syndrome",
+        "Cornelia de Lange Syndrome",
+        "Cone-Rod Dystrophy",
+        "Carpenter Syndrome",
+        "Juvenile Myoclonic Epilepsy",
+        "Congenital Heart Disease",
+        "Holoprosencephaly",
+        "Visceral Heterotaxy",
+        "Leber Congenital Amaurosis",
+        "Laurence–Moon Syndrome",
+        "Multinucleated Neurons, Anhydramnios, Renal Dysplasia, Cerebellar Hypoplasia, and Hydranencephaly",
+        "Medulloblastoma",
+        "Mental Retardation, Truncal Obesity, Retinal Dystrophy, and Micropenis",
+        "Neonatal Sclerosing Cholangitis",
+        "Pallister-Hall Syndrome",
+        "Retinitis Pigmentosa",
+        "Spinocerebellar Ataxia",
+        "Simpson-Golabi-Behmel Syndrome",
+        "Short Stature, Onychodysplasia, Facial Dysmorphism, and Hypotrichosis",
+        "STAR Syndrome",
+        "Townes-Brocks Syndrome",
+        "Usher Syndrome"
+      ],
+      "size_kb": 108.84
+    }
+  },
+  "total_files": 20,
+  "last_updated": "2026-03-10T16:32:17.329072"
+}
