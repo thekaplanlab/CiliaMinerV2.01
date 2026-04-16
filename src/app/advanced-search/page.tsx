@@ -1,39 +1,714 @@
 'use client'
 
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect, useMemo, useCallback, useRef, Suspense } from 'react'
 import Layout from '@/components/Layout'
+import { SearchInput } from '@/components/SearchComponents'
+import type { RichSuggestion } from '@/components/SearchComponents'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { EmptyState } from '@/components/EmptyState'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { dataService } from '@/services/dataService'
 import { CiliopathyGene, CiliopathyFeature, OrthologGene } from '@/types'
-import { 
-  Search, 
-  Download, 
-  Database, 
-  Filter, 
-  X, 
-  ArrowUpDown,
-  BarChart3
-} from 'lucide-react'
-import { BarPlot, CiliaMinerPieChart } from '@/components/ChartComponents'
+import { useDebounce } from '@/lib/utils'
+import { useUrlState, useUrlNumberState, useUrlStateBatch } from '@/lib/urlState'
+import { downloadAs, downloadMultiSectionCsv } from '@/lib/download'
+import { Search, Download, ChevronDown, X, Link2 } from 'lucide-react'
 
-interface SearchFilters {
-  searchType: 'gene' | 'disease' | 'ortholog' | 'all'
-  disease?: string
-  symptom?: string
-  organism?: string
-  localization?: string
-}
+type SearchType = 'all' | 'gene' | 'disease' | 'ortholog'
+const DATASET_OPTIONS: { value: SearchType; label: string }[] = [
+  { value: 'all', label: 'All datasets' },
+  { value: 'gene', label: 'Genes only' },
+  { value: 'disease', label: 'Diseases only' },
+  { value: 'ortholog', label: 'Orthologs only' },
+]
 
-interface SearchResults {
+interface MultiResults {
   genes: CiliopathyGene[]
   features: CiliopathyFeature[]
   orthologs: OrthologGene[]
   totalResults: number
 }
 
-interface SortConfig {
-  key: string
-  direction: 'asc' | 'desc'
+const EMPTY_RESULTS: MultiResults = { genes: [], features: [], orthologs: [], totalResults: 0 }
+
+const ITEMS_PER_PAGE = 25
+
+const TRY_QUERIES = ['BBS1', 'CEP290', 'PKD1', 'IFT88', 'Joubert', 'Bardet-Biedl']
+
+// ─────────────────────────────────────────────────────────────────────────────
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<Layout><div className="py-20 text-center text-primary-400 text-sm">Loading…</div></Layout>}>
+      <ErrorBoundary scope="search">
+        <SearchPageInner />
+      </ErrorBoundary>
+    </Suspense>
+  )
 }
+
+function SearchPageInner() {
+  // ── URL-synced state — every filter is in the query string ──────────────
+  const [urlQuery, setUrlQuery] = useUrlState('q', '')
+  const [searchType, setSearchType] = useUrlState<SearchType>('type', 'all')
+  const [disease, setDisease] = useUrlState('disease', '')
+  const [organism, setOrganism] = useUrlState('organism', '')
+  const [localization, setLocalization] = useUrlState('loc', '')
+  const [symptom, setSymptom] = useUrlState('symptom', '')
+  const [genesPage, setGenesPage] = useUrlNumberState('gp', 1)
+  const [featuresPage, setFeaturesPage] = useUrlNumberState('fp', 1)
+  const [orthologsPage, setOrthologsPage] = useUrlNumberState('op', 1)
+  const batchUpdate = useUrlStateBatch()
+
+  const hasAnyFilter = Boolean(
+    disease || organism || localization || symptom || searchType !== 'all'
+  )
+
+  // ── Local state ─────────────────────────────────────────────────────────
+  const [query, setQuery] = useState(urlQuery)
+  const debouncedInput = useDebounce(query, 300)
+  const [cachedGenes, setCachedGenes] = useState<CiliopathyGene[]>([])
+  const [cachedFeatures, setCachedFeatures] = useState<CiliopathyFeature[]>([])
+  const [cachedOrthologs, setCachedOrthologs] = useState<OrthologGene[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+  const [loadError, setLoadError] = useState<string | null>(null)
+  const [results, setResults] = useState<MultiResults>(EMPTY_RESULTS)
+  const [isSearching, setIsSearching] = useState(false)
+  const [copied, setCopied] = useState(false)
+
+  // ── Load all datasets once ──────────────────────────────────────────────
+  useEffect(() => {
+    let cancelled = false
+    setIsLoading(true)
+    Promise.all([
+      dataService.getCiliopathyGenes(),
+      dataService.getCiliopathyFeatures(),
+      dataService.getAllOrthologData(),
+    ])
+      .then(([genes, features, orthologs]) => {
+        if (cancelled) return
+        setCachedGenes(genes)
+        setCachedFeatures(features)
+        setCachedOrthologs(orthologs)
+      })
+      .catch(err => {
+        if (cancelled) return
+        console.error('Failed to load data:', err)
+        setLoadError(err instanceof Error ? err.message : 'Unable to load database')
+      })
+      .finally(() => {
+        if (!cancelled) setIsLoading(false)
+      })
+    return () => { cancelled = true }
+  }, [])
+
+  // ── Derived filter options (memoized once data loads) ───────────────────
+  const filterOptions = useMemo(() => ({
+    diseases: Array.from(new Set(cachedGenes.map(g => g.Ciliopathy).filter(Boolean))).sort(),
+    symptoms: Array.from(new Set(cachedFeatures.map(f => f.Category).filter((c): c is string => Boolean(c)))).sort(),
+    organisms: Array.from(new Set(cachedOrthologs.map(o => o.Organism).filter(Boolean))).sort(),
+    localizations: Array.from(new Set(cachedGenes.map(g => g['Subcellular Localization']).filter((l): l is string => Boolean(l)))).sort(),
+  }), [cachedGenes, cachedFeatures, cachedOrthologs])
+
+  // ── Multi-type autocomplete (genes + diseases) ──────────────────────────
+  const suggestions: RichSuggestion[] = useMemo(() => {
+    const q = debouncedInput.trim().toLowerCase()
+    if (!q) return []
+    const max = q.length === 1 ? 10 : 8
+    const seen = new Set<string>()
+    const out: RichSuggestion[] = []
+
+    for (const g of cachedGenes) {
+      if (out.length >= max) break
+      const name = g['Human Gene Name']
+      if (name && name.toLowerCase().startsWith(q) && !seen.has(`g:${name}`)) {
+        seen.add(`g:${name}`)
+        out.push({ label: name, kind: 'gene', hint: g.Ciliopathy })
+      }
+    }
+    if (out.length < max) {
+      for (const d of filterOptions.diseases) {
+        if (out.length >= max) break
+        if (d.toLowerCase().includes(q) && !seen.has(`d:${d}`)) {
+          seen.add(`d:${d}`)
+          out.push({ label: d, kind: 'disease' })
+        }
+      }
+    }
+    return out
+  }, [debouncedInput, cachedGenes, filterOptions.diseases])
+
+  // ── The one search function ─────────────────────────────────────────────
+  const runSearch = useCallback(() => {
+    if (isLoading) return
+    const hasQuery = urlQuery.trim().length > 0
+
+    // If nothing is set, clear results.
+    if (!hasQuery && !hasAnyFilter) {
+      setResults(EMPTY_RESULTS)
+      return
+    }
+
+    setIsSearching(true)
+    try {
+      let genes: CiliopathyGene[] = []
+      let features: CiliopathyFeature[] = []
+      let orthologs: OrthologGene[] = []
+
+      if (searchType === 'all' || searchType === 'gene') genes = [...cachedGenes]
+      if (searchType === 'all' || searchType === 'disease') features = [...cachedFeatures]
+      if (searchType === 'all' || searchType === 'ortholog') orthologs = [...cachedOrthologs]
+
+      const q = urlQuery.trim().toLowerCase()
+      if (q) {
+        genes = genes.filter(g =>
+          g['Human Gene Name']?.toLowerCase().includes(q) ||
+          g.Ciliopathy?.toLowerCase().includes(q) ||
+          g['Gene MIM Number']?.toLowerCase().includes(q) ||
+          g['Human Gene ID']?.toLowerCase().includes(q)
+        )
+        features = features.filter(f =>
+          f.Disease?.toLowerCase().includes(q) ||
+          f['Ciliopathy / Clinical Features']?.toLowerCase().includes(q)
+        )
+        orthologs = orthologs.filter(o =>
+          o['Human Gene Name']?.toLowerCase().includes(q) ||
+          o['Ortholog Gene Name']?.toLowerCase().includes(q)
+        )
+      }
+
+      if (disease) {
+        const d = disease.toLowerCase()
+        genes = genes.filter(g => g.Ciliopathy?.toLowerCase().includes(d))
+        features = features.filter(f =>
+          f.Disease?.toLowerCase().includes(d) || f.Ciliopathy?.toLowerCase().includes(d)
+        )
+        orthologs = orthologs.filter(o => o['Human Disease']?.toLowerCase().includes(d))
+      }
+      if (symptom) {
+        features = features.filter(f => f.Category?.toLowerCase().includes(symptom.toLowerCase()))
+      }
+      if (organism) {
+        orthologs = orthologs.filter(o => o.Organism?.toLowerCase().includes(organism.toLowerCase()))
+      }
+      if (localization) {
+        genes = genes.filter(g => g['Subcellular Localization']?.toLowerCase().includes(localization.toLowerCase()))
+      }
+
+      setResults({
+        genes, features, orthologs,
+        totalResults: genes.length + features.length + orthologs.length,
+      })
+    } catch (err) {
+      console.error('Search failed:', err)
+      setResults(EMPTY_RESULTS)
+    } finally {
+      setIsSearching(false)
+    }
+  }, [isLoading, urlQuery, searchType, disease, organism, localization, symptom, cachedGenes, cachedFeatures, cachedOrthologs, hasAnyFilter])
+
+  // Re-run search whenever URL-synced state changes (or data finishes loading).
+  useEffect(() => {
+    runSearch()
+  }, [runSearch])
+
+  // Keep the input in sync when URL changes externally (e.g. clicking a "Try" chip).
+  useEffect(() => {
+    setQuery(urlQuery)
+  }, [urlQuery])
+
+  const commitQuery = useCallback((value: string) => {
+    batchUpdate({ q: value.trim() || null, gp: null, fp: null, op: null })
+  }, [batchUpdate])
+
+  const clearAllFilters = () => {
+    batchUpdate({
+      q: null, type: null, disease: null, organism: null, loc: null, symptom: null,
+      gp: null, fp: null, op: null,
+    })
+    setQuery('')
+  }
+
+  const copyShareLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1500)
+    } catch {
+      // Clipboard unavailable — fall back silently.
+    }
+  }
+
+  const handleDownload = (format: 'csv' | 'json') => {
+    const scope = `search_${urlQuery || 'filtered'}`
+    if (format === 'json') {
+      downloadAs('json', [results as unknown as Record<string, unknown>], scope)
+      return
+    }
+    downloadMultiSectionCsv(
+      [
+        {
+          title: 'Genes',
+          rows: results.genes.map(g => ({
+            'Gene Name': g['Human Gene Name'],
+            Ciliopathy: g.Ciliopathy,
+            Localization: g['Subcellular Localization'],
+            'MIM Number': g['Gene MIM Number'],
+          })),
+        },
+        {
+          title: 'Clinical Features',
+          rows: results.features.map(f => ({
+            Disease: f.Disease || f.Ciliopathy,
+            Feature: f['Ciliopathy / Clinical Features'] || f.Feature,
+            Category: f.Category,
+          })),
+        },
+        {
+          title: 'Orthologs',
+          rows: results.orthologs.map(o => ({
+            'Human Gene': o['Human Gene Name'],
+            'Ortholog Gene': o['Ortholog Gene Name'],
+            Organism: o.Organism,
+          })),
+        },
+      ],
+      scope
+    )
+  }
+
+  const showingResults = results.totalResults > 0
+  const isActive = urlQuery.trim().length > 0 || hasAnyFilter
+
+  return (
+    <Layout>
+      <Breadcrumbs trail={[{ label: 'Search' }]} />
+
+      <div className="space-y-6 max-w-5xl mx-auto">
+        {/* ── HEADER ─────────────────────────────────────────────────── */}
+        <header className="pt-2">
+          <p className="eyebrow mb-3">
+            <span className="inline-block h-px w-6 bg-accent align-middle mr-2" />
+            Search
+          </p>
+          <h1 className="font-display text-title text-primary-800 mb-2">
+            Query the database.
+          </h1>
+          <p className="text-sm text-primary-500 max-w-xl">
+            One input, one set of filters. Everything you pick is reflected
+            in the URL — bookmark the link to preserve the exact view.
+          </p>
+        </header>
+
+        {loadError && (
+          <EmptyState
+            icon={Search}
+            title="Database failed to load"
+            hint={<span className="font-mono text-[11px]">{loadError}</span>}
+          />
+        )}
+
+        {/* ── UNIFIED SEARCH BLOCK ───────────────────────────────────── */}
+        <section className="card space-y-4">
+          <SearchInput
+            value={query}
+            onChange={setQuery}
+            onSearch={(q) => commitQuery(q ?? query)}
+            placeholder="Gene symbol, disease name, Ensembl ID, MIM number…"
+            isLoading={isSearching}
+            suggestions={suggestions}
+            listboxId="unified-search-suggestions"
+          />
+
+          {/* TRY examples */}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <span className="eyebrow">Try</span>
+            {TRY_QUERIES.map((q, i) => (
+              <React.Fragment key={q}>
+                <button
+                  onClick={() => {
+                    setQuery(q)
+                    commitQuery(q)
+                  }}
+                  className="font-mono text-xs text-primary-600 hover:text-accent transition-colors underline decoration-primary-200 decoration-dotted underline-offset-4 hover:decoration-accent"
+                >
+                  {q}
+                </button>
+                {i < TRY_QUERIES.length - 1 && (
+                  <span aria-hidden className="text-primary-300 select-none">·</span>
+                )}
+              </React.Fragment>
+            ))}
+          </div>
+
+          {/* FILTER PILLS */}
+          <div className="flex flex-wrap items-center gap-2 pt-4 border-t border-primary-100">
+            <span className="eyebrow mr-1">Filtering</span>
+
+            <FilterPill
+              label="dataset"
+              activeLabel={
+                searchType !== 'all'
+                  ? (DATASET_OPTIONS.find(o => o.value === searchType)?.label ?? null)
+                  : null
+              }
+              onClear={() => setSearchType('all')}
+            >
+              {({ close }) => (
+                <div className="p-1">
+                  {DATASET_OPTIONS.map(opt => (
+                    <button
+                      key={opt.value}
+                      onClick={() => { setSearchType(opt.value); close() }}
+                      className={`block w-full text-left px-3 py-2 text-sm rounded-sm transition-colors ${
+                        searchType === opt.value
+                          ? 'bg-surface-muted text-accent font-medium'
+                          : 'text-primary-700 hover:bg-surface-muted'
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </FilterPill>
+
+            <FilterPill
+              label="disease"
+              activeLabel={disease || null}
+              onClear={() => setDisease('')}
+            >
+              {({ close }) => (
+                <FilterList
+                  options={filterOptions.diseases}
+                  selected={disease}
+                  onPick={(v) => { setDisease(v); close() }}
+                />
+              )}
+            </FilterPill>
+
+            <FilterPill
+              label="organism"
+              activeLabel={organism || null}
+              onClear={() => setOrganism('')}
+            >
+              {({ close }) => (
+                <FilterList
+                  options={filterOptions.organisms}
+                  selected={organism}
+                  onPick={(v) => { setOrganism(v); close() }}
+                />
+              )}
+            </FilterPill>
+
+            <FilterPill
+              label="localization"
+              activeLabel={localization || null}
+              onClear={() => setLocalization('')}
+            >
+              {({ close }) => (
+                <FilterList
+                  options={filterOptions.localizations}
+                  selected={localization}
+                  onPick={(v) => { setLocalization(v); close() }}
+                />
+              )}
+            </FilterPill>
+
+            <FilterPill
+              label="symptom"
+              activeLabel={symptom || null}
+              onClear={() => setSymptom('')}
+            >
+              {({ close }) => (
+                <FilterList
+                  options={filterOptions.symptoms}
+                  selected={symptom}
+                  onPick={(v) => { setSymptom(v); close() }}
+                />
+              )}
+            </FilterPill>
+
+            {isActive && (
+              <button
+                onClick={clearAllFilters}
+                className="ml-auto text-[11px] font-mono uppercase tracking-[0.14em] text-primary-400 hover:text-accent transition-colors"
+              >
+                Reset all
+              </button>
+            )}
+          </div>
+
+          {/* STATUS STRIP */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-primary-100 text-[11px] font-mono">
+            <span className="text-primary-400">
+              {cachedGenes.length.toLocaleString()} genes
+              <span className="mx-2 text-primary-200">·</span>
+              {filterOptions.diseases.length.toLocaleString()} diseases
+              <span className="mx-2 text-primary-200">·</span>
+              {filterOptions.organisms.length.toLocaleString()} organisms indexed
+            </span>
+            <button
+              onClick={copyShareLink}
+              disabled={!isActive}
+              className="inline-flex items-center gap-1.5 text-primary-500 hover:text-accent transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+              title={isActive ? 'Copy shareable link' : 'Set a query or filter first'}
+            >
+              <Link2 className="h-3 w-3" />
+              {copied ? 'link copied' : 'copy link to this view'}
+            </button>
+          </div>
+        </section>
+
+        {/* ── RESULTS ─────────────────────────────────────────────────── */}
+        {isSearching && !showingResults && (
+          <div className="card py-8 text-center">
+            <div className="animate-spin rounded-full h-5 w-5 border-2 border-accent border-t-transparent mx-auto mb-3" />
+            <p className="text-sm text-primary-400 font-mono">Searching…</p>
+          </div>
+        )}
+
+        {!isSearching && !isActive && (
+          <div className="py-8 text-center text-sm text-primary-400">
+            Type a query above or pick a filter to begin.
+          </div>
+        )}
+
+        {!isSearching && isActive && !showingResults && (
+          <EmptyState
+            icon={Search}
+            title="No matches for this combination."
+            hint="Relax one of the filters or try a different query. The URL records everything — use your browser's back button to undo."
+          />
+        )}
+
+        {showingResults && (
+          <div className="card">
+            <div className="flex justify-between items-center mb-4 gap-4 flex-wrap">
+              <h2 className="eyebrow">
+                {results.totalResults.toLocaleString()} result{results.totalResults === 1 ? '' : 's'}
+                {results.genes.length > 0 && <span className="mx-2 text-primary-300">·</span>}
+                {results.genes.length > 0 && (
+                  <span className="text-primary-500 font-normal">
+                    {results.genes.length} gene{results.genes.length === 1 ? '' : 's'}
+                  </span>
+                )}
+                {results.features.length > 0 && <span className="mx-2 text-primary-300">·</span>}
+                {results.features.length > 0 && (
+                  <span className="text-primary-500 font-normal">
+                    {results.features.length} feature{results.features.length === 1 ? '' : 's'}
+                  </span>
+                )}
+                {results.orthologs.length > 0 && <span className="mx-2 text-primary-300">·</span>}
+                {results.orthologs.length > 0 && (
+                  <span className="text-primary-500 font-normal">
+                    {results.orthologs.length} ortholog{results.orthologs.length === 1 ? '' : 's'}
+                  </span>
+                )}
+              </h2>
+              <div className="flex gap-2">
+                <button onClick={() => handleDownload('csv')} className="btn-secondary text-xs">
+                  <Download className="h-3.5 w-3.5" /> CSV
+                </button>
+                <button onClick={() => handleDownload('json')} className="btn-secondary text-xs">
+                  <Download className="h-3.5 w-3.5" /> JSON
+                </button>
+              </div>
+            </div>
+
+            {results.genes.length > 0 && (
+              <div className="mb-6">
+                <h3 className="eyebrow mb-3">Genes · {results.genes.length.toLocaleString()}</h3>
+                <ResultsTable
+                  columns={[
+                    { label: 'Gene', render: (g: CiliopathyGene) => <span className="font-mono font-semibold text-primary-800">{g['Human Gene Name']}</span> },
+                    { label: 'Ciliopathy', render: (g: CiliopathyGene) => g.Ciliopathy },
+                    { label: 'Localization', render: (g: CiliopathyGene) => g['Subcellular Localization'] || '—' },
+                  ]}
+                  rows={results.genes.slice((genesPage - 1) * ITEMS_PER_PAGE, genesPage * ITEMS_PER_PAGE)}
+                />
+                <Pagination currentPage={genesPage} totalItems={results.genes.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setGenesPage} />
+              </div>
+            )}
+
+            {results.features.length > 0 && (
+              <div className="mb-6">
+                <h3 className="eyebrow mb-3">Clinical features · {results.features.length.toLocaleString()}</h3>
+                <ResultsTable
+                  columns={[
+                    { label: 'Disease', render: (f: CiliopathyFeature) => f.Disease || f.Ciliopathy || '—' },
+                    { label: 'Feature', render: (f: CiliopathyFeature) => f['Ciliopathy / Clinical Features'] || f.Feature || '—' },
+                    { label: 'Category', render: (f: CiliopathyFeature) => f.Category || '—' },
+                  ]}
+                  rows={results.features.slice((featuresPage - 1) * ITEMS_PER_PAGE, featuresPage * ITEMS_PER_PAGE)}
+                />
+                <Pagination currentPage={featuresPage} totalItems={results.features.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setFeaturesPage} />
+              </div>
+            )}
+
+            {results.orthologs.length > 0 && (
+              <div>
+                <h3 className="eyebrow mb-3">Orthologs · {results.orthologs.length.toLocaleString()}</h3>
+                <ResultsTable
+                  columns={[
+                    { label: 'Human Gene', render: (o: OrthologGene) => <span className="font-mono font-semibold text-primary-800">{o['Human Gene Name']}</span> },
+                    { label: 'Ortholog Gene', render: (o: OrthologGene) => <span className="font-mono text-primary-700">{o['Ortholog Gene Name']}</span> },
+                    { label: 'Organism', render: (o: OrthologGene) => <em className="italic">{o.Organism}</em> },
+                  ]}
+                  rows={results.orthologs.slice((orthologsPage - 1) * ITEMS_PER_PAGE, orthologsPage * ITEMS_PER_PAGE)}
+                />
+                <Pagination currentPage={orthologsPage} totalItems={results.orthologs.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setOrthologsPage} />
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </Layout>
+  )
+}
+
+// ─── FilterPill: a chip + popover ────────────────────────────────────────────
+
+interface FilterPillProps {
+  label: string
+  activeLabel: string | null
+  onClear: () => void
+  children: (ctx: { close: () => void }) => React.ReactNode
+}
+
+function FilterPill({ label, activeLabel, onClear, children }: FilterPillProps) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!open) return
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
+    }
+    const esc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    document.addEventListener('mousedown', handler)
+    document.addEventListener('keydown', esc)
+    return () => {
+      document.removeEventListener('mousedown', handler)
+      document.removeEventListener('keydown', esc)
+    }
+  }, [open])
+
+  const isActive = Boolean(activeLabel)
+
+  return (
+    <div ref={ref} className="relative">
+      <div className={`inline-flex items-stretch rounded-sm overflow-hidden border transition-colors ${
+        isActive ? 'border-accent bg-accent/5' : 'border-primary-200 hover:border-primary-400'
+      }`}>
+        <button
+          onClick={() => setOpen(o => !o)}
+          aria-expanded={open}
+          className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium transition-colors ${
+            isActive ? 'text-accent' : 'text-primary-600'
+          }`}
+        >
+          <span className="uppercase tracking-[0.1em] text-[10px]">{label}</span>
+          <span className={isActive ? 'text-accent font-normal' : 'text-primary-400 font-normal'}>
+            {activeLabel ? truncate(activeLabel, 22) : 'any'}
+          </span>
+          <ChevronDown className="h-3 w-3" />
+        </button>
+        {isActive && (
+          <button
+            onClick={(e) => { e.stopPropagation(); onClear(); setOpen(false) }}
+            className="pl-1.5 pr-2 text-accent/60 hover:text-accent border-l border-accent/30 transition-colors"
+            aria-label={`Clear ${label} filter`}
+          >
+            <X className="h-3 w-3" />
+          </button>
+        )}
+      </div>
+
+      {open && (
+        <div className="absolute left-0 top-full mt-2 z-40 min-w-[18rem] max-w-[22rem] bg-surface border border-primary-200 rounded-sm shadow-lg shadow-primary-800/5 overflow-hidden">
+          {children({ close: () => setOpen(false) })}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function truncate(s: string, n: number) {
+  return s.length > n ? `${s.slice(0, n - 1)}…` : s
+}
+
+// ─── FilterList: a filterable list inside a pill's popover ───────────────────
+
+function FilterList({
+  options,
+  selected,
+  onPick,
+}: {
+  options: string[]
+  selected: string
+  onPick: (value: string) => void
+}) {
+  const [q, setQ] = useState('')
+
+  const filtered = useMemo(() => {
+    const needle = q.trim().toLowerCase()
+    if (!needle) return options.slice(0, 200)
+    return options.filter(o => o.toLowerCase().includes(needle)).slice(0, 200)
+  }, [q, options])
+
+  return (
+    <div className="flex flex-col max-h-80">
+      <div className="px-3 py-2 border-b border-primary-100">
+        <input
+          type="text"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={`Filter ${options.length} options…`}
+          autoFocus
+          className="w-full bg-transparent text-sm text-primary-800 placeholder:text-primary-300 focus:outline-none"
+        />
+      </div>
+      <div className="overflow-y-auto py-1">
+        <button
+          onClick={() => onPick('')}
+          className={`block w-full text-left px-3 py-1.5 text-sm transition-colors ${
+            !selected ? 'text-accent font-medium bg-surface-muted' : 'text-primary-500 hover:bg-surface-muted'
+          }`}
+        >
+          Any
+        </button>
+        {filtered.length === 0 ? (
+          <p className="px-3 py-2 text-xs text-primary-400 italic">No matches.</p>
+        ) : (
+          filtered.map(opt => (
+            <button
+              key={opt}
+              onClick={() => onPick(opt)}
+              className={`block w-full text-left px-3 py-1.5 text-sm transition-colors ${
+                selected === opt
+                  ? 'text-accent font-medium bg-surface-muted'
+                  : 'text-primary-700 hover:bg-surface-muted'
+              }`}
+              title={opt}
+            >
+              <span className="block truncate">{opt}</span>
+            </button>
+          ))
+        )}
+      </div>
+      {options.length > 200 && !q && (
+        <p className="px-3 py-1.5 text-[10px] text-primary-400 font-mono border-t border-primary-100">
+          Showing first 200 · type to filter the rest
+        </p>
+      )}
+    </div>
+  )
+}
+
+// ─── Pagination + ResultsTable ───────────────────────────────────────────────
 
 function Pagination({
   currentPage,
@@ -44,28 +719,32 @@ function Pagination({
   currentPage: number
   totalItems: number
   itemsPerPage: number
-  onPageChange: (fn: (p: number) => number) => void
+  onPageChange: (page: number) => void
 }) {
   const totalPages = Math.ceil(totalItems / itemsPerPage)
   const start = (currentPage - 1) * itemsPerPage + 1
   const end = Math.min(currentPage * itemsPerPage, totalItems)
+  if (totalPages <= 1) return null
   return (
     <div className="flex items-center justify-between mt-3">
-      <p className="text-sm text-gray-600">
-        Showing {start}–{end} of {totalItems}
+      <p className="text-xs text-primary-400 font-mono">
+        {start.toLocaleString()}–{end.toLocaleString()} of {totalItems.toLocaleString()}
       </p>
-      <div className="flex gap-2">
+      <div className="flex items-center gap-2">
         <button
-          onClick={() => onPageChange(p => Math.max(1, p - 1))}
+          onClick={() => onPageChange(Math.max(1, currentPage - 1))}
           disabled={currentPage === 1}
-          className="px-3 py-1 text-sm border rounded-md disabled:opacity-40 hover:bg-gray-50"
+          className="btn-secondary text-xs px-3 py-1.5 disabled:opacity-40"
         >
           Previous
         </button>
+        <span className="text-xs text-primary-500 font-mono">
+          {currentPage} / {totalPages}
+        </span>
         <button
-          onClick={() => onPageChange(p => p + 1)}
+          onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
           disabled={currentPage >= totalPages}
-          className="px-3 py-1 text-sm border rounded-md disabled:opacity-40 hover:bg-gray-50"
+          className="btn-secondary text-xs px-3 py-1.5 disabled:opacity-40"
         >
           Next
         </button>
@@ -74,632 +753,36 @@ function Pagination({
   )
 }
 
-export default function AdvancedSearchDataExplorerPage() {
-  const [searchQuery, setSearchQuery] = useState('')
-  const [filters, setFilters] = useState<SearchFilters>({
-    searchType: 'all'
-  })
-  const [results, setResults] = useState<SearchResults>({
-    genes: [],
-    features: [],
-    orthologs: [],
-    totalResults: 0
-  })
-  const [isLoading, setIsLoading] = useState(false)
-  const [showFilters, setShowFilters] = useState(false)
-  const [showCharts, setShowCharts] = useState(false)
-  const [availableFilters, setAvailableFilters] = useState({
-    diseases: [] as string[],
-    symptoms: [] as string[],
-    organisms: [] as string[],
-    localizations: [] as string[]
-  })
-  const [sortConfig, setSortConfig] = useState<SortConfig>({ key: '', direction: 'asc' })
-  const [currentPage, setCurrentPage] = useState(1)
-  const [featuresPage, setFeaturesPage] = useState(1)
-  const [orthologsPage, setOrthologsPage] = useState(1)
-  const [itemsPerPage] = useState(25)
-  const [allData, setAllData] = useState<SearchResults>({
-    genes: [],
-    features: [],
-    orthologs: [],
-    totalResults: 0
-  })
-  const [isLoadingData, setIsLoadingData] = useState(true)
+interface Column<T> {
+  label: string
+  render: (row: T) => React.ReactNode
+}
 
-  useEffect(() => {
-    loadAvailableFilters()
-    loadAllData()
-  }, [])
-
-  const loadAllData = async () => {
-    setIsLoadingData(true)
-    try {
-      const [genes, features, orthologs] = await Promise.all([
-        dataService.getCiliopathyGenes(),
-        dataService.getCiliopathyFeatures(),
-        dataService.getAllOrthologData()
-      ])
-      
-      setAllData({
-        genes,
-        features,
-        orthologs,
-        totalResults: genes.length + features.length + orthologs.length
-      })
-    } catch (error) {
-      console.error('Failed to load data:', error)
-    } finally {
-      setIsLoadingData(false)
-    }
-  }
-
-  const loadAvailableFilters = async () => {
-    try {
-      const [genes, features, orthologs] = await Promise.all([
-        dataService.getCiliopathyGenes(),
-        dataService.getCiliopathyFeatures(),
-        dataService.getAllOrthologData()
-      ])
-
-      const diseases = Array.from(new Set(genes.map(g => g.Ciliopathy).filter(Boolean)))
-      const symptoms = Array.from(new Set(features.map(f => f.Category).filter(Boolean)))
-      const organisms = Array.from(new Set(orthologs.map(o => o.Organism).filter(Boolean)))
-      const localizations = Array.from(new Set(genes.map(g => g['Subcellular Localization']).filter(Boolean)))
-
-      setAvailableFilters({
-        diseases: diseases.sort(),
-        symptoms: symptoms.sort(),
-        organisms: organisms.sort(),
-        localizations: localizations.sort()
-      })
-    } catch (error) {
-      console.error('Failed to load filter options:', error)
-    }
-  }
-
-  const handleSearch = async () => {
-    if (!searchQuery.trim() && Object.keys(filters).length === 1) return
-
-    setIsLoading(true)
-    try {
-      let genes: CiliopathyGene[] = []
-      let features: CiliopathyFeature[] = []
-      let orthologs: OrthologGene[] = []
-
-      // Load data based on search type
-      if (filters.searchType === 'all' || filters.searchType === 'gene') {
-        genes = await dataService.getCiliopathyGenes()
-      }
-      if (filters.searchType === 'all' || filters.searchType === 'disease') {
-        features = await dataService.getCiliopathyFeatures()
-      }
-      if (filters.searchType === 'all' || filters.searchType === 'ortholog') {
-        orthologs = await dataService.getAllOrthologData()
-      }
-
-      // Apply search query
-      if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase()
-        genes = genes.filter(g =>
-          g['Human Gene Name']?.toLowerCase().includes(query) ||
-          g.Ciliopathy?.toLowerCase().includes(query) ||
-          g['Gene MIM Number']?.toLowerCase().includes(query)
-        )
-        features = features.filter(f =>
-          f.Disease?.toLowerCase().includes(query) ||
-          f['Ciliopathy / Clinical Features']?.toLowerCase().includes(query)
-        )
-        orthologs = orthologs.filter(o =>
-          o['Human Gene Name']?.toLowerCase().includes(query) ||
-          o['Ortholog Gene Name']?.toLowerCase().includes(query)
-        )
-      }
-
-      // Apply filters
-      if (filters.disease) {
-        genes = genes.filter(g => g.Ciliopathy?.toLowerCase().includes(filters.disease!.toLowerCase()))
-        features = features.filter(f => 
-          f.Disease?.toLowerCase().includes(filters.disease!.toLowerCase()) ||
-          f.Ciliopathy?.toLowerCase().includes(filters.disease!.toLowerCase())
-        )
-        orthologs = orthologs.filter(o => o['Human Disease']?.toLowerCase().includes(filters.disease!.toLowerCase()))
-      }
-
-      if (filters.symptom) {
-        features = features.filter(f => 
-          f.Category?.toLowerCase().includes(filters.symptom!.toLowerCase())
-        )
-      }
-
-      if (filters.organism) {
-        orthologs = orthologs.filter(o => o.Organism?.toLowerCase().includes(filters.organism!.toLowerCase()))
-      }
-
-      if (filters.localization) {
-        genes = genes.filter(g =>
-          g['Subcellular Localization']?.toLowerCase().includes(filters.localization!.toLowerCase())
-        )
-      }
-
-      const totalResults = genes.length + features.length + orthologs.length
-      setResults({ genes, features, orthologs, totalResults })
-      setCurrentPage(1)
-      setFeaturesPage(1)
-      setOrthologsPage(1)
-    } catch (error) {
-      console.error('Search failed:', error)
-      setResults({ genes: [], features: [], orthologs: [], totalResults: 0 })
-    } finally {
-      setIsLoading(false)
-    }
-  }
-
-  const handleSort = (key: string) => {
-    setSortConfig(prev => ({
-      key,
-      direction: prev.key === key && prev.direction === 'asc' ? 'desc' : 'asc'
-    }))
-  }
-
-  const sortedResults = useMemo(() => {
-    if (!sortConfig.key) return results
-
-    const sorted = { ...results }
-    const sortFn = (a: any, b: any) => {
-      const aVal = a[sortConfig.key]
-      const bVal = b[sortConfig.key]
-      if (aVal === bVal) return 0
-      return sortConfig.direction === 'asc' ? (aVal > bVal ? 1 : -1) : (aVal < bVal ? 1 : -1)
-    }
-
-    sorted.genes = [...results.genes].sort(sortFn)
-    sorted.features = [...results.features].sort(sortFn)
-    sorted.orthologs = [...results.orthologs].sort(sortFn)
-
-    return sorted
-  }, [results, sortConfig])
-
-  const handleDownload = (format: 'csv' | 'json') => {
-    const data = { genes: sortedResults.genes, features: sortedResults.features, orthologs: sortedResults.orthologs }
-    const content = format === 'json' ? JSON.stringify(data, null, 2) : convertToCSV(data)
-    const blob = new Blob([content], { type: format === 'json' ? 'application/json' : 'text/csv' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `advanced_search_results.${format}`
-    a.click()
-    URL.revokeObjectURL(url)
-  }
-
-  const convertToCSV = (data: { genes: CiliopathyGene[]; features: CiliopathyFeature[]; orthologs: OrthologGene[] }) => {
-    const rows: string[] = []
-    if (data.genes.length > 0) {
-      rows.push('--- Genes ---')
-      rows.push('Gene Name,Ciliopathy,Localization,MIM Number')
-      data.genes.forEach(g => {
-        rows.push([g['Human Gene Name'], g.Ciliopathy, g['Subcellular Localization'], g['Gene MIM Number']].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
-      })
-    }
-    if (data.features.length > 0) {
-      rows.push('')
-      rows.push('--- Clinical Features ---')
-      rows.push('Disease,Feature,Category')
-      data.features.forEach(f => {
-        rows.push([f.Disease || f.Ciliopathy, f['Ciliopathy / Clinical Features'] || f.Feature, f.Category].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
-      })
-    }
-    if (data.orthologs.length > 0) {
-      rows.push('')
-      rows.push('--- Orthologs ---')
-      rows.push('Human Gene,Ortholog Gene,Organism')
-      data.orthologs.forEach(o => {
-        rows.push([o['Human Gene Name'], o['Ortholog Gene Name'], o.Organism].map(v => `"${(v || '').replace(/"/g, '""')}"`).join(','))
-      })
-    }
-    return rows.join('\n')
-  }
-
+function ResultsTable<T>({ columns, rows }: { columns: Column<T>[]; rows: T[] }) {
   return (
-    <Layout>
-      <div className="space-y-8">
-        {/* Header */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Advanced Search & Data Explorer
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive search and data exploration tools for ciliopathy research
-          </p>
-        </div>
-
-        {/* Advanced Search Section */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-            <Search className="h-6 w-6 mr-2" />
-            Advanced Search
-          </h2>
-          
-          <div className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Search Query
-              </label>
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
-                placeholder="Search for genes, diseases, or features..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-              />
-            </div>
-
-            {/* Search Type Selection */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Search Type
-              </label>
-              <div className="flex flex-wrap gap-2">
-                {(['all', 'gene', 'disease', 'ortholog'] as const).map((type) => (
-                  <button
-                    key={type}
-                    onClick={() => setFilters({ ...filters, searchType: type })}
-                    className={`px-4 py-2 rounded-lg capitalize ${
-                      filters.searchType === type
-                        ? 'bg-primary text-white'
-                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-                    }`}
-                  >
-                    {type}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Filters Toggle */}
-            <button
-              onClick={() => setShowFilters(!showFilters)}
-              className="flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200"
-            >
-              <Filter className="h-4 w-4 mr-2" />
-              {showFilters ? 'Hide' : 'Show'} Advanced Filters
-            </button>
-
-            {/* Advanced Filters */}
-            {showFilters && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-gray-50 rounded-lg">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Disease</label>
-                  <select
-                    value={filters.disease || ''}
-                    onChange={(e) => setFilters({ ...filters, disease: e.target.value })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                  >
-                    <option value="">All Diseases</option>
-                    {availableFilters.diseases.map((d) => (
-                      <option key={d} value={d}>{d}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Organism</label>
-                  <select
-                    value={filters.organism || ''}
-                    onChange={(e) => setFilters({ ...filters, organism: e.target.value })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                  >
-                    <option value="">All Organisms</option>
-                    {availableFilters.organisms.map((o) => (
-                      <option key={o} value={o}>{o}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Localization</label>
-                  <select
-                    value={filters.localization || ''}
-                    onChange={(e) => setFilters({ ...filters, localization: e.target.value })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                  >
-                    <option value="">All Localizations</option>
-                    {availableFilters.localizations.map((l) => (
-                      <option key={l} value={l}>{l}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Symptom Category</label>
-                  <select
-                    value={filters.symptom || ''}
-                    onChange={(e) => setFilters({ ...filters, symptom: e.target.value })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg"
-                  >
-                    <option value="">All Categories</option>
-                    {availableFilters.symptoms.map((s) => (
-                      <option key={s} value={s}>{s}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-            )}
-
-            <button
-              onClick={handleSearch}
-              disabled={isLoading}
-              className="w-full bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark disabled:bg-gray-400 font-medium"
-            >
-              {isLoading ? 'Searching...' : 'Search'}
-            </button>
-          </div>
-        </div>
-
-        {/* Search Results */}
-        {results.totalResults > 0 && (
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-gray-900">
-                Search Results ({results.totalResults})
-              </h2>
-              <div className="flex space-x-2">
-                <button
-                  onClick={() => handleDownload('csv')}
-                  className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
-                >
-                  <Download className="h-4 w-4 mr-2" />
-                  CSV
-                </button>
-                <button
-                  onClick={() => handleDownload('json')}
-                  className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
-                >
-                  <Download className="h-4 w-4 mr-2" />
-                  JSON
-                </button>
-              </div>
-            </div>
-
-            {/* Genes Results */}
-            {sortedResults.genes.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Genes ({sortedResults.genes.length})
-                </h3>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-100">
-                      <tr>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Gene Name</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ciliopathy</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Localization</th>
-                      </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.genes.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage).map((gene, idx) => (
-                        <tr key={idx} className="hover:bg-gray-50">
-                          <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
-                            {gene['Human Gene Name']}
-                          </td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">{gene.Ciliopathy}</td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">
-                            {gene['Subcellular Localization']}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-                {sortedResults.genes.length > itemsPerPage && (
-                  <Pagination
-                    currentPage={currentPage}
-                    totalItems={sortedResults.genes.length}
-                    itemsPerPage={itemsPerPage}
-                    onPageChange={setCurrentPage}
-                  />
-                )}
-              </div>
-            )}
-
-            {/* Features Results */}
-            {sortedResults.features.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Clinical Features ({sortedResults.features.length})
-                </h3>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200" role="table">
-                    <thead className="bg-gray-100">
-                      <tr>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Disease</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Feature</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Category</th>
-                      </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.features.slice((featuresPage - 1) * itemsPerPage, featuresPage * itemsPerPage).map((feature, idx) => (
-                        <tr key={idx} className="hover:bg-gray-50">
-                          <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
-                            {feature.Disease || feature.Ciliopathy}
-                          </td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">
-                            {feature['Ciliopathy / Clinical Features'] || feature.Feature}
-                          </td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">{feature.Category}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-                {sortedResults.features.length > itemsPerPage && (
-                  <Pagination
-                    currentPage={featuresPage}
-                    totalItems={sortedResults.features.length}
-                    itemsPerPage={itemsPerPage}
-                    onPageChange={setFeaturesPage}
-                  />
-                )}
-              </div>
-            )}
-
-            {/* Orthologs Results */}
-            {sortedResults.orthologs.length > 0 && (
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Orthologs ({sortedResults.orthologs.length})
-                </h3>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200" role="table">
-                    <thead className="bg-gray-100">
-                      <tr>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Human Gene</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Ortholog Gene</th>
-                        <th scope="col" className="px-6 py-3 text-center text-xs font-bold text-gray-700 uppercase">Organism</th>
-                      </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                      {sortedResults.orthologs.slice((orthologsPage - 1) * itemsPerPage, orthologsPage * itemsPerPage).map((ortholog, idx) => (
-                        <tr key={idx} className="hover:bg-gray-50">
-                          <td className="px-6 py-4 text-center text-sm font-medium text-gray-900">
-                            {ortholog['Human Gene Name']}
-                          </td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">
-                            {ortholog['Ortholog Gene Name']}
-                          </td>
-                          <td className="px-6 py-4 text-center text-sm text-gray-900">{ortholog.Organism}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-                {sortedResults.orthologs.length > itemsPerPage && (
-                  <Pagination
-                    currentPage={orthologsPage}
-                    totalItems={sortedResults.orthologs.length}
-                    itemsPerPage={itemsPerPage}
-                    onPageChange={setOrthologsPage}
-                  />
-                )}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Data Explorer - All Data Overview */}
-        <div className="bg-white rounded-lg shadow-lg p-6">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-900 flex items-center">
-              <Database className="h-6 w-6 mr-2" />
-              Data Explorer - Database Overview
-            </h2>
-            <button
-              onClick={() => setShowCharts(!showCharts)}
-              className="flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200"
-            >
-              <BarChart3 className="h-4 w-4 mr-2" />
-              {showCharts ? 'Hide' : 'Show'} Charts
-            </button>
-          </div>
-
-          {isLoadingData ? (
-            <div className="text-center py-8">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-              <p className="text-gray-600">Loading database overview...</p>
-            </div>
-          ) : (
-            <>
-              {/* Statistics */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-                <div className="bg-blue-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-blue-600">{allData.genes.length.toLocaleString()}</div>
-                  <div className="text-sm text-gray-600 mt-2">Total Genes</div>
-                </div>
-                <div className="bg-green-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-green-600">
-                    {allData.features.length > 0 ? allData.features.length.toLocaleString() : <span className="text-gray-400">N/A</span>}
-                  </div>
-                  <div className="text-sm text-gray-600 mt-2">Clinical Features</div>
-                </div>
-                <div className="bg-purple-50 rounded-lg p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-600">{allData.orthologs.length.toLocaleString()}</div>
-                  <div className="text-sm text-gray-600 mt-2">Orthologs</div>
-                </div>
-              </div>
-
-              {/* Charts */}
-              {showCharts && (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">
-                      Data Distribution by Type
-                    </h3>
-                    <CiliaMinerPieChart
-                      data={[
-                        { Disease: 'Genes', Gene_numbers: allData.genes.length },
-                        { Disease: 'Features', Gene_numbers: allData.features.length },
-                        { Disease: 'Orthologs', Gene_numbers: allData.orthologs.length }
-                      ]}
-                      height={300}
-                      title=""
-                    />
-                  </div>
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">
-                      Database Statistics
-                    </h3>
-                    <BarPlot
-                      data={[
-                        { name: 'Genes', value: allData.genes.length },
-                        { name: 'Features', value: allData.features.length },
-                        { name: 'Orthologs', value: allData.orthologs.length }
-                      ]}
-                      height={300}
-                      title=""
-                    />
-                  </div>
-                </div>
-              )}
-
-              {/* Quick Stats */}
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Quick Statistics</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                  <div>
-                    <div className="text-gray-600">Unique Diseases</div>
-                    <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.genes.map(g => g.Ciliopathy).filter(Boolean)).size}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-gray-600">Organisms</div>
-                    <div className="text-2xl font-bold text-gray-900">
-                      {allData.orthologs.length > 0
-                        ? new Set(allData.orthologs.map(o => o.Organism)).size
-                        : <span className="text-gray-400 text-lg">N/A</span>}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-gray-600">Localizations</div>
-                    <div className="text-2xl font-bold text-gray-900">
-                      {new Set(allData.genes.map(g => g['Subcellular Localization']).filter(Boolean)).size}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-gray-600">Categories</div>
-                    <div className="text-2xl font-bold text-gray-900">
-                      {allData.features.length > 0
-                        ? new Set(allData.features.map(f => f.Category).filter(Boolean)).size
-                        : <span className="text-gray-400 text-lg">N/A</span>}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </>
-          )}
-        </div>
-      </div>
-    </Layout>
+    <div className="overflow-auto rounded-sm border border-primary-100" style={{ maxHeight: '50vh' }}>
+      <table className="min-w-full divide-y divide-primary-100">
+        <thead className="bg-surface-muted sticky top-0 z-10">
+          <tr>
+            {columns.map(col => (
+              <th key={col.label} scope="col" className="px-4 py-3 text-left eyebrow whitespace-nowrap">
+                {col.label}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody className="bg-surface divide-y divide-primary-50">
+          {rows.map((row, idx) => (
+            <tr key={idx} className="hover:bg-surface-muted transition-colors">
+              {columns.map(col => (
+                <td key={col.label} className="px-4 py-2.5 text-xs text-primary-700">
+                  {col.render(row)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   )
 }

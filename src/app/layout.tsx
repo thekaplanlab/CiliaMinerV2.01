@@ -1,13 +1,30 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Fraunces, Instrument_Sans, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  variable: '--font-display',
+  display: 'swap',
+  axes: ['SOFT', 'WONK', 'opsz'],
+})
+
+const instrumentSans = Instrument_Sans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+})
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'CiliaMiner - Ciliopathy Genes and Ciliopathies',
-  description: 'An integrated database for ciliopathy genes and ciliopathies. Search for genes, explore diseases, and analyze clinical features.',
-  keywords: 'ciliopathy, genes, diseases, database, research, genetics',
+  title: 'CiliaMiner — A Reference Database for Ciliopathies',
+  description: 'An integrated database for ciliopathy genes, orthologs, and clinical features across model organisms.',
+  keywords: 'ciliopathy, genes, diseases, database, research, genetics, orthologs',
   authors: [{ name: 'Kaplan Lab' }],
 }
 
@@ -22,8 +39,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      className={`${fraunces.variable} ${instrumentSans.variable} ${jetbrainsMono.variable}`}
+    >
+      <body className="font-sans">{children}</body>
     </html>
   )
 }

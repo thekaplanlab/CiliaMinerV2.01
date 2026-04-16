@@ -16,11 +16,28 @@ import {
 } from 'recharts'
 import { BarPlotData, GeneNumber } from '@/types'
 
-// Aligned with tailwind config: primary #FF4500, secondary #74b3ce, accent #bd552e
+// Editorial palette — ink, ochre, oxblood, paper tones.
+// Ordered so the eye lands on #1 first.
+const INK = '#1C2631'
+const ACCENT = '#8B2635'
+const OCHRE = '#C48A3A'
+
 const COLORS = [
-  '#FF4500', '#74b3ce', '#bd552e', '#4ECDC4', '#96CEB4',
-  '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E9'
+  INK,
+  ACCENT,
+  OCHRE,
+  '#47515F',
+  '#6B7687',
+  '#A54050',
+  '#E3B35E',
+  '#98A1AF',
+  '#C3C9D3',
+  '#E4E7EC',
 ]
+
+const AXIS_TICK = { fontSize: 11, fill: '#6B7687', fontFamily: 'var(--font-mono)' } as const
+const GENE_TICK = { fontSize: 12, fill: '#1C2631', fontWeight: 500, fontFamily: 'var(--font-mono)' } as const
+const GRID = '#E4E7EC'
 
 interface BarPlotProps {
   data: BarPlotData[]
@@ -32,13 +49,11 @@ interface BarPlotProps {
 }
 
 export function BarPlot({ data, dataKey = "value", nameKey = "name", height = 300, title, colors }: BarPlotProps) {
-  // Truncate long labels for better display
   const truncateLabel = (label: string, maxLength: number = 20) => {
     if (!label) return ''
-    return label.length > maxLength ? label.substring(0, maxLength) + '...' : label
+    return label.length > maxLength ? label.substring(0, maxLength) + '…' : label
   }
 
-  // Prepare data with truncated labels
   const processedData = data.map(item => ({
     ...item,
     displayName: truncateLabel(item[nameKey as keyof typeof item] as string)
@@ -46,38 +61,35 @@ export function BarPlot({ data, dataKey = "value", nameKey = "name", height = 30
 
   return (
     <div className="w-full">
-      {title && (
-        <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">
-          {title}
-        </h3>
-      )}
+      {title && <h3 className="eyebrow mb-4">{title}</h3>}
       <ResponsiveContainer width="100%" height={height}>
-        <BarChart 
-          data={processedData} 
-          margin={{ top: 20, right: 30, left: 20, bottom: 100 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-          <XAxis 
+        <BarChart data={processedData} margin={{ top: 20, right: 20, left: 0, bottom: 100 }}>
+          <CartesianGrid strokeDasharray="2 4" stroke={GRID} vertical={false} />
+          <XAxis
             dataKey="displayName"
             angle={-45}
             textAnchor="end"
             height={100}
             interval={0}
-            tick={{ fontSize: 11, fill: '#666' }}
+            tick={AXIS_TICK}
+            tickLine={false}
+            axisLine={{ stroke: GRID }}
           />
-          <YAxis tick={{ fontSize: 11, fill: '#666' }} />
-          <Tooltip 
-            cursor={{ fill: 'rgba(255, 69, 0, 0.1)' }}
+          <YAxis tick={AXIS_TICK} tickLine={false} axisLine={false} />
+          <Tooltip
+            cursor={{ fill: 'rgba(139, 38, 53, 0.06)' }}
             content={({ active, payload }) => {
               if (active && payload && payload.length) {
-                const originalData = data.find(d => truncateLabel(d[nameKey as keyof typeof d] as string) === payload[0].payload.displayName)
+                const originalData = data.find(
+                  d => truncateLabel(d[nameKey as keyof typeof d] as string) === payload[0].payload.displayName
+                )
                 return (
-                  <div className="bg-white p-3 border border-gray-200 rounded-lg shadow-lg">
-                    <p className="text-sm font-semibold text-gray-900">
+                  <div className="bg-surface px-3 py-2 border border-primary-200 rounded-sm shadow-sm">
+                    <p className="text-sm font-medium text-primary-800">
                       {originalData?.[nameKey as keyof typeof originalData] as string}
                     </p>
-                    <p className="text-sm text-gray-600">
-                      Count: <span className="font-medium text-primary">{payload[0].value}</span>
+                    <p className="text-xs text-primary-500 font-mono mt-0.5">
+                      Count <span className="text-accent font-semibold">{payload[0].value}</span>
                     </p>
                   </div>
                 )
@@ -85,20 +97,21 @@ export function BarPlot({ data, dataKey = "value", nameKey = "name", height = 30
               return null
             }}
           />
-          <Bar 
-            dataKey={dataKey} 
-            radius={[4, 4, 0, 0]}
-            label={{ 
-              position: 'top', 
-              fill: '#374151',
-              fontSize: 12,
-              fontWeight: 600
+          <Bar
+            dataKey={dataKey}
+            radius={[2, 2, 0, 0]}
+            label={{
+              position: 'top',
+              fill: '#1C2631',
+              fontSize: 10,
+              fontWeight: 500,
+              fontFamily: 'var(--font-mono)',
             }}
           >
-            {processedData.map((entry, index) => (
-              <Cell 
-                key={`cell-${index}`} 
-                fill={colors && colors.length > 0 ? colors[index % colors.length] : '#FF4500'} 
+            {processedData.map((_, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={colors && colors.length > 0 ? colors[index % colors.length] : INK}
               />
             ))}
           </Bar>
@@ -149,13 +162,21 @@ export function CiliaMinerPieChart({ data, dataKey = "Gene_numbers", nameKey = "
   const renderCustomLabel = ({ cx, cy, midAngle, outerRadius, percent }: any) => {
     if (percent < 0.04) return null
     const RADIAN = Math.PI / 180
-    const radius = outerRadius + 20
+    const radius = outerRadius + 18
     const x = cx + radius * Math.cos(-midAngle * RADIAN)
     const y = cy + radius * Math.sin(-midAngle * RADIAN)
 
     return (
-      <text x={x} y={y} fill="#374151" textAnchor={x > cx ? 'start' : 'end'}
-        dominantBaseline="central" fontSize="12" fontWeight="600">
+      <text
+        x={x}
+        y={y}
+        fill="#1C2631"
+        textAnchor={x > cx ? 'start' : 'end'}
+        dominantBaseline="central"
+        fontSize="10"
+        fontWeight="500"
+        fontFamily="var(--font-mono)"
+      >
         {`${(percent * 100).toFixed(0)}%`}
       </text>
     )
@@ -164,13 +185,10 @@ export function CiliaMinerPieChart({ data, dataKey = "Gene_numbers", nameKey = "
   const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-white p-3 border border-gray-200 rounded-lg shadow-lg max-w-xs">
-          <p className="text-sm font-semibold text-gray-900">{payload[0].name}</p>
-          <p className="text-sm text-gray-600">
-            Count: <span className="font-medium text-primary">{payload[0].value.toLocaleString()}</span>
-          </p>
-          <p className="text-sm text-gray-600">
-            Percentage: <span className="font-medium">{(payload[0].percent * 100).toFixed(1)}%</span>
+        <div className="bg-surface px-3 py-2 border border-primary-200 rounded-sm shadow-sm max-w-xs">
+          <p className="text-sm font-medium text-primary-800">{payload[0].name}</p>
+          <p className="text-xs text-primary-500 font-mono mt-0.5">
+            {payload[0].value.toLocaleString()} genes · {(payload[0].percent * 100).toFixed(1)}%
           </p>
         </div>
       )
@@ -185,23 +203,22 @@ export function CiliaMinerPieChart({ data, dataKey = "Gene_numbers", nameKey = "
 
   return (
     <div className="w-full">
-      {title && (
-        <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">{title}</h3>
-      )}
+      {title && <h3 className="eyebrow mb-4">{title}</h3>}
       <ResponsiveContainer width="100%" height={height}>
         <PieChart>
           <Pie
             data={processedData}
             cx="50%"
             cy="45%"
-            labelLine={true}
+            labelLine={{ stroke: '#C3C9D3', strokeWidth: 0.5 }}
             label={renderCustomLabel}
             outerRadius={Math.min(height * 0.3, 110)}
-            innerRadius={Math.min(height * 0.12, 40)}
-            fill="#8884d8"
+            innerRadius={Math.min(height * 0.18, 55)}
             dataKey={dataKey}
             nameKey={nameKey}
-            paddingAngle={2}
+            paddingAngle={1}
+            stroke="#FAF6EC"
+            strokeWidth={2}
           >
             {processedData.map((_, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
@@ -210,12 +227,12 @@ export function CiliaMinerPieChart({ data, dataKey = "Gene_numbers", nameKey = "
           <Tooltip content={<CustomTooltip />} />
           <Legend
             verticalAlign="bottom"
-            iconType="circle"
-            iconSize={10}
+            iconType="square"
+            iconSize={8}
             formatter={(value: string) => (
-              <span className="text-gray-700">{truncateLabel(value)}</span>
+              <span className="text-primary-600 text-xs">{truncateLabel(value)}</span>
             )}
-            wrapperStyle={{ fontSize: '12px', paddingTop: '12px', lineHeight: '22px' }}
+            wrapperStyle={{ fontSize: '11px', paddingTop: '12px', lineHeight: '20px' }}
           />
         </PieChart>
       </ResponsiveContainer>
@@ -224,10 +241,7 @@ export function CiliaMinerPieChart({ data, dataKey = "Gene_numbers", nameKey = "
 }
 
 interface PublicationBarChartProps {
-  data: Array<{
-    gene: string
-    count: number
-  }>
+  data: Array<{ gene: string; count: number }>
   title?: string
   maxItems?: number
 }
@@ -245,39 +259,38 @@ export function PublicationBarChart({ data, title, maxItems = 15 }: PublicationB
   }, [data, maxItems])
 
   const chartHeight = Math.max(350, chartData.length * 32)
+  const maxCount = chartData[0]?.count || 0
 
   return (
     <div className="w-full">
-      {title && (
-        <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">{title}</h3>
-      )}
+      {title && <h3 className="eyebrow mb-4">{title}</h3>}
       <ResponsiveContainer width="100%" height={chartHeight}>
-        <BarChart
-          data={chartData}
-          layout="vertical"
-          margin={{ top: 5, right: 60, left: 80, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
+        <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 60, left: 12, bottom: 5 }}>
+          <CartesianGrid strokeDasharray="2 4" stroke={GRID} horizontal={false} />
           <XAxis
             type="number"
-            tick={{ fontSize: 11, fill: '#666' }}
-            tickFormatter={(v: number) => v >= 1000 ? `${(v / 1000).toFixed(0)}k` : String(v)}
+            tick={AXIS_TICK}
+            tickLine={false}
+            axisLine={false}
+            tickFormatter={(v: number) => (v >= 1000 ? `${(v / 1000).toFixed(0)}k` : String(v))}
           />
           <YAxis
             type="category"
             dataKey="gene"
-            tick={{ fontSize: 12, fill: '#374151', fontWeight: 500 }}
-            width={75}
+            tick={GENE_TICK}
+            tickLine={false}
+            axisLine={false}
+            width={80}
           />
           <Tooltip
-            cursor={{ fill: 'rgba(255, 69, 0, 0.08)' }}
+            cursor={{ fill: 'rgba(139, 38, 53, 0.06)' }}
             content={({ active, payload }) => {
               if (active && payload && payload.length) {
                 return (
-                  <div className="bg-white p-3 border border-gray-200 rounded-lg shadow-lg">
-                    <p className="text-sm font-semibold text-gray-900">{payload[0].payload.gene}</p>
-                    <p className="text-sm text-gray-600">
-                      Publications: <span className="font-medium text-primary">{(payload[0].value as number).toLocaleString()}</span>
+                  <div className="bg-surface px-3 py-2 border border-primary-200 rounded-sm shadow-sm">
+                    <p className="text-sm font-mono font-semibold text-primary-800">{payload[0].payload.gene}</p>
+                    <p className="text-xs text-primary-500 font-mono mt-0.5">
+                      {(payload[0].value as number).toLocaleString()} publications
                     </p>
                   </div>
                 )
@@ -287,18 +300,23 @@ export function PublicationBarChart({ data, title, maxItems = 15 }: PublicationB
           />
           <Bar
             dataKey="count"
-            radius={[0, 4, 4, 0]}
+            radius={[0, 2, 2, 0]}
             label={{
               position: 'right',
-              fill: '#374151',
-              fontSize: 11,
-              fontWeight: 600,
-              formatter: (v: number) => v >= 1000 ? `${(v / 1000).toFixed(1)}k` : v,
+              fill: '#47515F',
+              fontSize: 10,
+              fontWeight: 500,
+              fontFamily: 'var(--font-mono)',
+              formatter: (v: number) => (v >= 1000 ? `${(v / 1000).toFixed(1)}k` : v),
             }}
           >
-            {chartData.map((_, index) => (
-              <Cell key={`cell-${index}`} fill={index === 0 ? '#FF4500' : index < 3 ? '#FF6B3D' : '#FF8A65'} />
-            ))}
+            {chartData.map((d, index) => {
+              // Ink gradient based on magnitude — #1 is accent (oxblood),
+              // others are ink scaled by relative weight.
+              const fill = index === 0 ? ACCENT : INK
+              const opacity = index === 0 ? 1 : 0.4 + (d.count / maxCount) * 0.5
+              return <Cell key={`cell-${index}`} fill={fill} fillOpacity={opacity} />
+            })}
           </Bar>
         </BarChart>
       </ResponsiveContainer>
@@ -314,53 +332,65 @@ interface ChartGridProps {
 export function ChartGrid({ children, title }: ChartGridProps) {
   return (
     <div className="space-y-6">
-      {title && (
-        <h2 className="text-2xl font-bold text-gray-900 text-center">
-          {title}
-        </h2>
-      )}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {children}
-      </div>
+      {title && <h2 className="font-display text-title text-primary-800 text-center">{title}</h2>}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">{children}</div>
     </div>
   )
 }
+
+// StatCard — large serif numerals, editorial eyebrow label.
+// The "color" prop is preserved for API compatibility but is ignored
+// in favor of the unified ink+accent system.
+const ACCENT_BY_COLOR = {
+  blue: '#1C2631',
+  green: '#1C2631',
+  purple: '#1C2631',
+  orange: '#8B2635',
+  red: '#8B2635',
+} as const
 
 interface StatCardProps {
   title: string
   value: string | number
   description?: string
   icon?: React.ComponentType<{ className?: string }>
-  color?: 'blue' | 'green' | 'purple' | 'orange' | 'red'
+  color?: keyof typeof ACCENT_BY_COLOR
+  href?: string
 }
 
-export function StatCard({ title, value, description, icon: Icon, color = 'blue' }: StatCardProps) {
-  const colorClasses = {
-    blue: 'bg-blue-100 text-blue-600',
-    green: 'bg-green-100 text-green-600',
-    purple: 'bg-purple-100 text-purple-600',
-    orange: 'bg-orange-100 text-orange-600',
-    red: 'bg-red-100 text-red-600'
-  }
+export function StatCard({ title, value, description, icon: Icon, color = 'blue', href }: StatCardProps) {
+  const valueColor = ACCENT_BY_COLOR[color] || '#1C2631'
 
-  return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      <div className="flex items-center">
-        {Icon && (
-          <div className="flex-shrink-0">
-            <div className={`p-2 rounded-lg ${colorClasses[color]}`}>
-              <Icon className="h-6 w-6" />
-            </div>
-          </div>
+  const content = (
+    <div className="flex flex-col h-full">
+      <div className="flex items-start justify-between mb-4">
+        <p className="eyebrow">{title}</p>
+        {Icon && <Icon className="h-4 w-4 text-primary-300" />}
+      </div>
+      <div className="flex-1 flex flex-col justify-end">
+        <p
+          className="font-display text-[2.5rem] leading-[1] tracking-tight tabular-nums"
+          style={{ color: valueColor }}
+        >
+          {value}
+        </p>
+        {description && (
+          <p className="text-xs text-primary-400 mt-1.5 font-mono">{description}</p>
         )}
-        <div className="ml-4">
-          <p className="text-sm font-medium text-gray-600">{title}</p>
-          <p className="text-2xl font-semibold text-gray-900">{value}</p>
-          {description && (
-            <p className="text-sm text-gray-500">{description}</p>
-          )}
-        </div>
       </div>
     </div>
   )
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        className="card card-hover group cursor-pointer block min-h-[140px]"
+      >
+        {content}
+      </a>
+    )
+  }
+
+  return <div className="card min-h-[140px]">{content}</div>
 }

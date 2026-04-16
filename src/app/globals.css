@@ -4,46 +4,134 @@
 
 @layer base {
   html {
-    font-family: system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
-  
-  body {
-    @apply bg-gray-50 text-gray-900;
-  }
-}
 
-@layer components {
-  .btn-primary {
-    @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors duration-200;
+  body {
+    @apply bg-surface-muted text-primary-700;
+    background-image:
+      radial-gradient(at 100% 0%, rgba(139, 38, 53, 0.04) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(28, 38, 49, 0.035) 0px, transparent 50%);
+    background-attachment: fixed;
   }
-  
-  .btn-secondary {
-    @apply bg-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors duration-200;
+
+  ::selection {
+    @apply bg-accent/20 text-primary-800;
   }
-  
-  .card {
-    @apply bg-white rounded-lg shadow-lg p-6;
+
+  /* Editorial wordmark / display headings */
+  .font-display {
+    font-family: var(--font-display), Georgia, serif;
+    font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 144;
+    font-weight: 400;
   }
-  
-  .input-field {
-    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:ring-offset-1 focus:border-transparent;
+
+  /* Gene symbols, IDs, and tabular data should be monospaced —
+     they are identifiers, not prose. */
+  .gene-symbol,
+  code,
+  kbd,
+  samp {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  /* Tabular numerals for stats and data tables */
+  .tabular-nums,
+  th, td {
+    font-variant-numeric: tabular-nums;
   }
 }
 
 @layer utilities {
-  .text-primary {
-    color: #FF4500;
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
-  
-  .bg-primary {
-    background-color: #FF4500;
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
-  
-  .border-primary {
-    border-color: #FF4500;
+
+  /* Editorial rule: a thin hairline that reads as ink on paper */
+  .rule-ink {
+    @apply border-primary-200/70;
   }
-  
-  .ring-primary {
-    --tw-ring-color: #FF4500;
+
+  /* Subtle paper grain — apply sparingly for depth */
+  .texture-grain {
+    position: relative;
+  }
+  .texture-grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: var(--tw-bg-paper-grain, none);
+    mix-blend-mode: multiply;
+    opacity: 0.15;
+  }
+}
+
+@layer components {
+  /* Primary action — ink fill, paper label, precise corners.
+     The button reads as a stamp, not a bubble. */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary text-surface-muted
+           px-5 py-2.5 rounded-sm font-medium tracking-tight
+           hover:bg-primary-light transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:ring-offset-surface-muted;
+  }
+
+  /* Secondary action — hairline frame on paper */
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-transparent text-primary-700
+           px-5 py-2.5 rounded-sm font-medium
+           border border-primary-200 hover:border-primary-400 hover:bg-surface-hover
+           transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:ring-offset-surface-muted;
+  }
+
+  /* Accent action — reserved, oxblood underline-on-hover */
+  .btn-accent {
+    @apply inline-flex items-center gap-2 bg-accent text-white
+           px-5 py-2.5 rounded-sm font-medium tracking-tight
+           hover:bg-accent-dark transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-accent/40 focus:ring-offset-2;
+  }
+
+  /* Card — paper over paper, flat. No drop shadows. */
+  .card {
+    @apply bg-surface border border-primary-100 rounded-sm p-6
+           transition-colors duration-200;
+  }
+
+  .card-hover {
+    @apply hover:border-primary-300 hover:bg-surface;
+  }
+
+  /* Input — sits on the page like a form field in a printed ledger */
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-surface border border-primary-200 rounded-sm
+           text-primary-800 placeholder:text-primary-300
+           focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600
+           transition-colors duration-150;
+  }
+
+  /* Eyebrow — the small uppercase category label used in editorial layouts */
+  .eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.18em] text-primary-400;
+  }
+
+  /* Inline link within running text — accent, underlined */
+  .link-accent {
+    @apply text-accent underline decoration-accent/30 underline-offset-2
+           hover:decoration-accent transition-[text-decoration-color] duration-150;
+  }
+
+  /* Section divider — the editorial rule */
+  .section-rule {
+    @apply h-px bg-primary-200/70 my-12;
   }
 }

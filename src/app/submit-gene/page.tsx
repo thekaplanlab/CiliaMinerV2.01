@@ -2,9 +2,19 @@
 
 import React, { useState, useRef } from 'react'
 import Layout from '@/components/Layout'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { Send, CheckCircle } from 'lucide-react'
 
 export default function SubmitGenePage() {
+  return (
+    <ErrorBoundary scope="submit-gene">
+      <SubmitGenePageInner />
+    </ErrorBoundary>
+  )
+}
+
+function SubmitGenePageInner() {
   const errorRef = useRef<HTMLDivElement>(null)
   const [formData, setFormData] = useState({
     geneName: '',
@@ -116,16 +126,17 @@ export default function SubmitGenePage() {
     return (
       <Layout>
         <div className="max-w-2xl mx-auto text-center py-12">
-          <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" aria-hidden />
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">
+          <CheckCircle className="h-10 w-10 text-green-500 mx-auto mb-4" aria-hidden />
+          <h1 className="text-title text-gray-900 mb-4">
             Thank You!
           </h1>
-          <p className="text-xl text-gray-600 mb-6">
+          <p className="text-sm text-gray-500 mb-6">
             Your submission has been received successfully. Our team will review the information and get back to you if needed.
           </p>
           <button
+            type="button"
             onClick={handleSubmitAnother}
-            className="px-6 py-3 bg-primary hover:bg-orange-600 text-white font-medium rounded-lg transition-colors"
+            className="btn-primary text-sm"
           >
             Submit another gene
           </button>
@@ -136,13 +147,14 @@ export default function SubmitGenePage() {
 
   return (
     <Layout>
+      <Breadcrumbs trail={[{ label: 'Submit a gene' }]} />
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Submit Your Gene
+          <h1 className="font-display text-title text-primary-800 mb-4">
+            Submit a gene
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-sm text-gray-500 max-w-3xl mx-auto">
             Help us expand the CiliaMiner database by submitting newly published ciliopathy genes, 
             disease associations, or suggestions for improvements.
           </p>
@@ -160,7 +172,7 @@ export default function SubmitGenePage() {
         )}
 
         {/* Submission Form */}
-        <div className="bg-white rounded-lg shadow-lg p-8">
+        <div className="card">
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Gene Information */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -310,10 +322,10 @@ export default function SubmitGenePage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`flex items-center px-8 py-3 text-lg font-medium rounded-lg transition-colors duration-200 ${
+                className={`flex items-center justify-center gap-2 text-sm font-medium ${
                   isSubmitting
-                    ? 'bg-gray-400 cursor-not-allowed'
-                    : 'bg-primary hover:bg-orange-600 text-white'
+                    ? 'px-5 py-2.5 rounded-md bg-gray-400 cursor-not-allowed text-white'
+                    : 'btn-primary'
                 }`}
               >
                 {isSubmitting ? (
@@ -333,7 +345,7 @@ export default function SubmitGenePage() {
         </div>
 
         {/* Guidelines */}
-        <div className="bg-gray-50 rounded-lg p-6">
+        <div className="card bg-surface-muted">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Submission Guidelines</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -360,7 +372,7 @@ export default function SubmitGenePage() {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+        <div className="card text-center">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Need Help?</h3>
           <p className="text-gray-600 mb-4">
             If you have questions about submitting genes or need assistance, 

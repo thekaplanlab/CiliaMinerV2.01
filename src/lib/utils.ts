@@ -53,71 +53,31 @@ export function downloadJSON(data: any[], filename: string) {
   document.body.removeChild(link)
 }
 
+/**
+ * Escapes a value for safe inclusion in a CSV cell.
+ * Wraps in quotes if the value contains commas, quotes, or newlines.
+ * Embedded double-quotes are doubled per RFC 4180.
+ */
+export function escapeCsvValue(value: unknown): string {
+  if (value === null || value === undefined) return ''
+  const str = String(value)
+  if (str.includes('"') || str.includes(',') || str.includes('\n') || str.includes('\r')) {
+    return `"${str.replace(/"/g, '""')}"`
+  }
+  return str
+}
+
 function convertToCSV(data: any[]): string {
   if (data.length === 0) return ''
-  
+
   const headers = Object.keys(data[0])
-  const csvRows = [headers.join(',')]
-  
+  const csvRows = [headers.map(escapeCsvValue).join(',')]
+
   for (const row of data) {
-    const values = headers.map(header => {
-      const value = row[header]
-      return typeof value === 'string' && value.includes(',') ? `"${value}"` : value
-    })
+    const values = headers.map(header => escapeCsvValue(row[header]))
     csvRows.push(values.join(','))
   }
-  
+
   return csvRows.join('\n')
 }
 
-export function debounce<T extends (...args: any[]) => any>(
-  func: T,
-  wait: number
-): (...args: Parameters<T>) => void {
-  let timeout: NodeJS.Timeout
-  return (...args: Parameters<T>) => {
-    clearTimeout(timeout)
-    timeout = setTimeout(() => func(...args), wait)
-  }
-}
-
-export function filterData<T>(
-  data: T[],
-  filters: Record<string, string>,
-  searchFields: (keyof T)[]
-): T[] {
-  return data.filter(item => {
-    return Object.entries(filters).every(([key, value]) => {
-      if (!value) return true
-      
-      const itemValue = item[key as keyof T]
-      if (typeof itemValue === 'string') {
-        return itemValue.toLowerCase().includes(value.toLowerCase())
-      }
-      return false
-    })
-  })
-}
-
-export function sortData<T>(
-  data: T[],
-  sortBy: keyof T,
-  sortOrder: 'asc' | 'desc' = 'asc'
-): T[] {
-  return [...data].sort((a, b) => {
-    const aVal = a[sortBy]
-    const bVal = b[sortBy]
-    
-    if (typeof aVal === 'string' && typeof bVal === 'string') {
-      return sortOrder === 'asc' 
-        ? aVal.localeCompare(bVal)
-        : bVal.localeCompare(aVal)
-    }
-    
-    if (typeof aVal === 'number' && typeof bVal === 'number') {
-      return sortOrder === 'asc' ? aVal - bVal : bVal - aVal
-    }
-    
-    return 0
-  })
-}

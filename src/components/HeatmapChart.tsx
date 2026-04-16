@@ -68,40 +68,44 @@ export function HeatmapChart({
     return { xValues, yValues, matrixData, valueRange: { min, max } }
   }, [data, maxValue, minValue])
 
-  // Color scale functions
+  // Interpolate between hex colors for smooth gradients.
+  const lerpHex = (a: string, b: string, t: number) => {
+    const ah = a.replace('#', '')
+    const bh = b.replace('#', '')
+    const ar = parseInt(ah.slice(0, 2), 16), ag = parseInt(ah.slice(2, 4), 16), ab = parseInt(ah.slice(4, 6), 16)
+    const br = parseInt(bh.slice(0, 2), 16), bg = parseInt(bh.slice(2, 4), 16), bb = parseInt(bh.slice(4, 6), 16)
+    const r = Math.round(ar + (br - ar) * t)
+    const g = Math.round(ag + (bg - ag) * t)
+    const b2 = Math.round(ab + (bb - ab) * t)
+    return `rgb(${r}, ${g}, ${b2})`
+  }
+
   const getColor = (value: number) => {
     const { min, max } = valueRange
-    if (max === min) return '#e5e7eb' // Gray for single values
-    
-    const normalizedValue = (value - min) / (max - min)
-    
+    if (max === min) return '#F2ECDC'
+
+    const t = (value - min) / (max - min)
+
     switch (colorScale) {
       case 'sequential':
-        // Blue to red sequential scale
-        const intensity = Math.floor(normalizedValue * 255)
-        return `rgb(${intensity}, ${100 + intensity * 0.6}, ${255 - intensity})`
-      
+        // Paper → ochre → oxblood — editorial heat ramp.
+        if (t < 0.5) return lerpHex('#FAF6EC', '#C48A3A', t * 2)
+        return lerpHex('#C48A3A', '#8B2635', (t - 0.5) * 2)
+
       case 'diverging':
-        // Red to white to blue diverging scale
-        if (normalizedValue < 0.5) {
-          const intensity = Math.floor(normalizedValue * 2 * 255)
-          return `rgb(255, ${255 - intensity}, ${255 - intensity})`
-        } else {
-          const intensity = Math.floor((normalizedValue - 0.5) * 2 * 255)
-          return `rgb(${255 - intensity}, ${255 - intensity}, 255)`
-        }
-      
+        // Oxblood ← paper → ink — diverging around mid-range.
+        if (t < 0.5) return lerpHex('#8B2635', '#FAF6EC', t * 2)
+        return lerpHex('#FAF6EC', '#1C2631', (t - 0.5) * 2)
+
       case 'categorical':
-        // Categorical color palette
         const colors = [
-          '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7',
-          '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E9'
+          '#1C2631', '#8B2635', '#C48A3A', '#47515F',
+          '#A54050', '#E3B35E', '#6B7687', '#98A1AF',
         ]
-        const colorIndex = Math.floor(normalizedValue * colors.length)
-        return colors[colorIndex % colors.length]
-      
+        return colors[Math.floor(t * colors.length) % colors.length]
+
       default:
-        return '#8884d8'
+        return '#1C2631'
     }
   }
 
@@ -307,13 +311,13 @@ export function DiseaseFeatureHeatmap({
         <div className="flex gap-2">
           <button
             onClick={() => setSelectedDiseases(allDiseases)}
-            className="px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 text-sm"
+            className="btn-primary text-xs px-3 py-2"
           >
             Show All
           </button>
           <button
             onClick={() => setSelectedDiseases([])}
-            className="px-3 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 text-sm"
+            className="btn-secondary text-xs px-3 py-2"
           >
             Reset
           </button>

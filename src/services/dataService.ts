@@ -126,11 +126,6 @@ const ORGANISM_DISPLAY_NAMES: Record<string, string> = {
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function getBasePath(): string {
-  if (typeof window !== 'undefined') {
-    if (window.location.pathname.startsWith('/CiliaMinerV2.01')) {
-      return '/CiliaMinerV2.01'
-    }
-  }
   return ''
 }
 
@@ -140,12 +135,39 @@ class DataService {
   private workbook: ParsedWorkbook | null = null
   private workbookPromise: Promise<ParsedWorkbook> | null = null
   private dataCache = new Map<string, unknown>()
+  /**
+   * In-flight promise dedup. When multiple pages mount in parallel and each
+   * requests the same dataset (e.g. getCiliopathyGenes), the second+ callers
+   * receive the first caller's pending promise instead of kicking off their
+   * own fetch+parse pass. Populated entries are cleared in a `finally`.
+   */
+  private inflight = new Map<string, Promise<unknown>>()
 
   private qualityIssues: DataQualityIssue[] = []
   private sheetsFound: string[] = []
   private sheetsMissing: string[] = []
   private loadedAt = ''
   private totalRowsProcessed = 0
+
+  /**
+   * Runs `factory` once per cache key while it is in flight.
+   * Subsequent callers with the same key await the same promise.
+   */
+  private async dedupe<T>(key: string, factory: () => Promise<T>): Promise<T> {
+    if (this.dataCache.has(key)) return this.dataCache.get(key) as T
+    const existing = this.inflight.get(key)
+    if (existing) return existing as Promise<T>
+    const promise = factory()
+      .then((result) => {
+        this.dataCache.set(key, result)
+        return result
+      })
+      .finally(() => {
+        this.inflight.delete(key)
+      })
+    this.inflight.set(key, promise)
+    return promise
+  }
 
   // ── Workbook loader ────────────────────────────────────────────────────────
 
@@ -224,12 +246,17 @@ class DataService {
   // ── Primary gene dataset ───────────────────────────────────────────────────
 
   async getCiliopathyGenes(): Promise<CiliopathyGene[]> {
-    const CACHE_KEY = 'genes'
-    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as CiliopathyGene[]
+    return this.dedupe('genes', async () => {
+      const rows = await this.getSheetRows('genes')
+      const genes = this._parseGeneRows(rows)
+      this.totalRowsProcessed += genes.length
+      this.logQualityReport()
+      return genes
+    })
+  }
 
-    const rows = await this.getSheetRows('genes')
-
-    const genes: CiliopathyGene[] = rows.map((row, i) => {
+  private _parseGeneRows(rows: RawRow[]): CiliopathyGene[] {
+    return rows.map((row, i) => {
       const geneName = safeString(
         row['gene'], 'gene', i, MAIN_SHEET,
         String(row['gene'] ?? 'unknown'), this.qualityIssues
@@ -293,11 +320,6 @@ class DataService {
         source_annotations_raw: safeStringList(row['annotation_ids']),
       } satisfies CiliopathyGene
     })
-
-    this.totalRowsProcessed += genes.length
-    this.dataCache.set(CACHE_KEY, genes)
-    this.logQualityReport()
-    return genes
   }
 
   // ── Derived chart / classification datasets ────────────────────────────────
@@ -377,9 +399,12 @@ class DataService {
   // ── Ortholog data ──────────────────────────────────────────────────────────
 
   async getOrthologData(organism: string): Promise<OrthologGene[]> {
-    const CACHE_KEY = `orthologs_${organism}`
-    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as OrthologGene[]
+    return this.dedupe(`orthologs_${organism}`, async () => {
+      return this._loadOrthologData(organism)
+    })
+  }
 
+  private async _loadOrthologData(organism: string): Promise<OrthologGene[]> {
     const geneProp = ORTHOLOG_GENE_PROP_MAP[organism]
     let result: OrthologGene[] = []
 
@@ -407,21 +432,25 @@ class DataService {
           }
         })
     } else if (organism === 'chlamydomonas_reinhardtii') {
-      // No column in workbook yet — recorded as missing in quality report
-      this.qualityIssues.push({
-        sheet: 'genes',
-        rowIndex: -1,
-        gene: '',
-        field: 'ortholog_creinhardtii (column)',
-        issue: 'missing',
-        originalValue: null,
-        usedFallback: '(empty — add ortholog_creinhardtii column to the genes sheet)',
-      })
+      // No column in workbook yet — record as missing once
+      const alreadyNoted = this.qualityIssues.some(
+        i => i.field === 'ortholog_creinhardtii (column)' && i.issue === 'missing'
+      )
+      if (!alreadyNoted) {
+        this.qualityIssues.push({
+          sheet: 'genes',
+          rowIndex: -1,
+          gene: '',
+          field: 'ortholog_creinhardtii (column)',
+          issue: 'missing',
+          originalValue: null,
+          usedFallback: '(empty — add ortholog_creinhardtii column to the genes sheet)',
+        })
+      }
     } else {
       console.warn(`[CiliaMiner] Unknown organism: "${organism}"`)
     }
 
-    this.dataCache.set(CACHE_KEY, result)
     return result
   }
 
@@ -450,9 +479,10 @@ class DataService {
   }
 
   async getCiliopathyFeatures(): Promise<CiliopathyFeature[]> {
-    const CACHE_KEY = 'ciliopathy_features'
-    if (this.dataCache.has(CACHE_KEY)) return this.dataCache.get(CACHE_KEY) as CiliopathyFeature[]
+    return this.dedupe('ciliopathy_features', () => this._loadCiliopathyFeatures())
+  }
 
+  private async _loadCiliopathyFeatures(): Promise<CiliopathyFeature[]> {
     const [primary, secondary] = await Promise.all([
       this.getSheetRows('symptome_primary'),
       this.getSheetRows('symptome_secondary'),
@@ -519,7 +549,6 @@ class DataService {
       // ClinGen features file not available — continue with base data
     }
 
-    this.dataCache.set(CACHE_KEY, features)
     return features
   }
 
