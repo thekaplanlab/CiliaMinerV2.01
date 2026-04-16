@@ -126,7 +126,7 @@ const ORGANISM_DISPLAY_NAMES: Record<string, string> = {
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function getBasePath(): string {
-  return ''
+  return process.env.NEXT_PUBLIC_BASE_PATH || ''
 }
 
 // ── DataService class ────────────────────────────────────────────────────────

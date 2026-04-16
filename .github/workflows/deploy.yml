@@ -35,6 +35,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          NEXT_PUBLIC_BASE_PATH: /CiliaMinerV2.01
 
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
