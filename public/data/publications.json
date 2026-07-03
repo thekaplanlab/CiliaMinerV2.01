@@ -63908,5 +63908,40 @@
       "Cilia"
     ],
     "first_seen": "2026-06-24"
+  },
+  {
+    "pmid": "42370448",
+    "title": "Assessment of Renal Changes in Bardet-Biedl Syndrome with Particular Emphasis on Kidney Size, Function, and Blood Pressure Control.",
+    "authors": "Moskal Z, Szmigielska A.",
+    "journal": "Journal of mother and child",
+    "date": "2026-01-01",
+    "ai_summary": "Gene: (not specified)\nFinding: This study of four children with Bardet-Biedl syndrome found that all had prenatal and postnatal structural and functional renal abnormalities, including kidney injury and bilateral renal dysplasia, with variable but stable renal function over follow-up; arterial hypertension occurred in two patients and was effectively controlled with ACE inhibitor therapy.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.34763/jmotherandchild.20263001.d-26-00009",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-03"
+  },
+  {
+    "pmid": "42395856",
+    "title": "Ocular and Systemic Phenotyping of Bardet-Biedel Syndrome Type 7 (BBS7) in a Palestinian Male: Case Report and Literature Review.",
+    "authors": "Taha I, Abusamra L, Shalabi SF, Huraibat K, Al-Labadi L, Beshtawi KR, Abujaber F, Khalaf M, Obar R.",
+    "journal": "Case reports in ophthalmological medicine",
+    "date": "2026-07-01",
+    "ai_summary": "Gene: BBS7\nFinding: A homozygous pathogenic variant (c.712_715del) in BBS7 causes a severe multisystem phenotype including retinal degeneration (rod-cone dystrophy), obesity, polydactyly, developmental delay, and hypothyroidism.\nDisease: Bardet-Biedl syndrome type 7",
+    "source_link": "https://doi.org/10.1155/crop/7604431",
+    "genes": [
+      "BBS7"
+    ],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Cilia",
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-03"
   }
 ]

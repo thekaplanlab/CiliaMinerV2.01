@@ -68266,5 +68266,42 @@
       "Cilia"
     ],
     "first_seen": "2026-06-24"
+  },
+  {
+    "pmid": "42370448",
+    "title": "Assessment of Renal Changes in Bardet-Biedl Syndrome with Particular Emphasis on Kidney Size, Function, and Blood Pressure Control.",
+    "authors": "Moskal Z, Szmigielska A.",
+    "journal": "Journal of mother and child",
+    "date": "2026-01-01",
+    "abstract": "<h4>Introduction</h4>Bardet-Biedl syndrome (BBS) is a genetically heterogeneous ciliopathy characterized by obesity, retinal dystrophy, cognitive impairment, hypogonadism, and congenital renal anomalies, which represent a leading cause of morbidity and mortality in affected patients.<h4>Material and methods</h4>We followed four patients with BBS (three boys, one girl) from birth to ten years of age. In all children, we assessed physical development, laboratory tests, including assessment of renal function, renal ultrasound examination, and blood pressure control.<h4>Results</h4>Patients (three males) with Bardet-Biedl syndrome, demonstrated prenatal and postnatal evidence of structural and functional renal abnormalities, including kidney injury and bilateral renal dysplasia. Neonatal serum creatinine ranged from 0.70 to 1.66 mg/dL, with persistently abnormal renal morphology on follow-up imaging and variable but overall stable renal function (latest creatinine 0.68-1.03 mg/dL). Arterial hypertension occurred in one male and one female patient and was effectively controlled with angiotensin-converting enzyme inhibitor therapy. All patients exhibited multisystem involvement characteristic of ciliopathy, including polydactyly, obesity, ophthalmologic abnormalities, neurodevelopmental impairment, and hypogonadism in three of four individuals.<h4>Conclusions</h4>The broad spectrum of renal manifestations in BBS underscoring the importance of early diagnosis and individualized nephrological monitoring.",
+    "ai_summary": "Gene: (not specified)\nFinding: This study of four children with Bardet-Biedl syndrome found that all had prenatal and postnatal structural and functional renal abnormalities, including kidney injury and bilateral renal dysplasia, with variable but stable renal function over follow-up; arterial hypertension occurred in two patients and was effectively controlled with ACE inhibitor therapy.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.34763/jmotherandchild.20263001.d-26-00009",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-03"
+  },
+  {
+    "pmid": "42395856",
+    "title": "Ocular and Systemic Phenotyping of Bardet-Biedel Syndrome Type 7 (BBS7) in a Palestinian Male: Case Report and Literature Review.",
+    "authors": "Taha I, Abusamra L, Shalabi SF, Huraibat K, Al-Labadi L, Beshtawi KR, Abujaber F, Khalaf M, Obar R.",
+    "journal": "Case reports in ophthalmological medicine",
+    "date": "2026-07-01",
+    "abstract": "Bardet-Biedl syndrome (BBS) is a rare autosomal recessive ciliopathy with at least 26 identified causative genes. BBS7 accounts for approximately 1.5% of cases. The syndrome is characterized by retinal degeneration, obesity, polydactyly, intellectual disability, and renal anomalies. BBS7 encodes a core subunit of the BBSome complex, which is essential for ciliary function and intracellular signaling. We report a 9-year-old Palestinian boy with BBS7, confirmed by whole exome sequencing identifying a homozygous pathogenic variant in the BBS7 gene [c.712_715del]; both parents were heterozygous carriers. To our knowledge, this is the first genetically confirmed case of BBS7 in Palestine. Written informed consent was obtained from the father, the legal guardian. The patient exhibited postaxial polydactyly, generalized obesity (BMI 32.8), developmental delay, learning difficulties, hypothyroidism, and mild craniofacial dysmorphism. Ocular findings included a best-corrected visual acuity of 20/33 bilaterally, compound myopic astigmatism (spherical equivalents: -7.12 D OD and -7.25 D OS), and 15 prism diopters of constant left exotropia. Optical coherence tomography revealed marked thinning of the retinal nerve fiber layer and ganglion cell complex consistent with progressive retinal degeneration. Fundus imaging demonstrated tilted optic discs, bone spicule pigmentation, and peripapillary atrophy. Full-field electroretinography confirmed rod-cone dystrophy with significantly reduced amplitudes and prolonged implicit times. Corneal topography showed no evidence of keratoconus. This case contributes novel region-specific clinical and genetic data on BBS7, with comprehensive ophthalmic phenotyping including OCT, full-field ERG, and corneal topography. It underscores the value of early multidisciplinary evaluation and genetic testing, particularly in consanguineous populations. Continued reporting of genetically confirmed BBS7 cases will strengthen understanding of genotype-phenotype correlations and support improved clinical management.",
+    "ai_summary": "Gene: BBS7\nFinding: A homozygous pathogenic variant (c.712_715del) in BBS7 causes a severe multisystem phenotype including retinal degeneration (rod-cone dystrophy), obesity, polydactyly, developmental delay, and hypothyroidism.\nDisease: Bardet-Biedl syndrome type 7",
+    "source_link": "https://doi.org/10.1155/crop/7604431",
+    "genes": [
+      "BBS7"
+    ],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Cilia",
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-03"
   }
 ]
