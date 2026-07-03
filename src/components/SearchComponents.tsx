@@ -230,11 +230,11 @@ export function SearchInput({
                       {item.label}
                     </span>
                     {item.hint && (
-                      <span className="block text-[11px] text-primary-400 truncate">{item.hint}</span>
+                      <span className="block text-[12px] text-primary-400 truncate">{item.hint}</span>
                     )}
                   </span>
                   {kindLabel && (
-                    <span className="shrink-0 text-[10px] uppercase tracking-wider text-primary-400 font-medium">
+                    <span className="shrink-0 text-[11px] uppercase tracking-wider text-primary-400 font-medium">
                       {kindLabel}
                     </span>
                   )}
@@ -431,7 +431,7 @@ export function SearchResults({ results, type, onDownload, onClear }: SearchResu
                 key={index}
                 className={`${featureGrid} px-5 py-2.5 hover:bg-surface-muted transition-colors`}
               >
-                <span className="font-mono text-[11px] tabular-nums text-primary-300 pt-[3px]">
+                <span className="font-mono text-[12px] tabular-nums text-primary-300 pt-[3px]">
                   {String(start + index + 1).padStart(3, '0')}
                 </span>
                 <span className="text-sm text-primary-800 font-medium leading-relaxed">
@@ -440,7 +440,7 @@ export function SearchResults({ results, type, onDownload, onClear }: SearchResu
                 <span className="text-sm text-primary-600 leading-relaxed">
                   {feature}
                 </span>
-                <span className="hidden md:block text-[10px] uppercase tracking-[0.14em] text-primary-400 font-medium text-right leading-relaxed pt-[2px]">
+                <span className="hidden md:block text-[11px] uppercase tracking-[0.14em] text-primary-400 font-medium text-right leading-relaxed pt-[2px]">
                   {category || '—'}
                 </span>
               </li>

@@ -1,0 +1,482 @@
+'use client'
+
+/**
+ * Home page — search-engine style.
+ *
+ * The page is intentionally not editorial. It is a search surface:
+ * a wordmark, a single large input with rich autocomplete, and a
+ * compact strip of stats. Everything else (most-cited genes, ranked
+ * disorders, narrative copy) lives behind the search results / on
+ * the dedicated /analysis page.
+ *
+ * Data: pulls from /data/search_index.json (built from v15 master).
+ *       The legacy xlsx loader is not touched on this page; it is still
+ *       used by /advanced-search and the other inner pages.
+ */
+
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
+import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+import Layout from '@/components/Layout'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
+import { useDebounce } from '@/lib/utils'
+import {
+  loadSearchIndex,
+  searchIndex,
+  type LoadedIndex,
+  type Suggestion,
+} from '@/lib/searchIndex'
+import { Search, ArrowRight, Loader2 } from 'lucide-react'
+
+// NOTE: we intentionally do NOT import the gene/disease pill icons from
+// lucide-react. Different lucide-react releases ship different icon sets
+// and even commonly-named icons (Dna, Stethoscope, Activity, Heart)
+// have moved or been renamed between versions. To keep the home page
+// rock-solid regardless of which lucide-react version is installed,
+// we draw those two pill icons inline as small SVGs (`GeneGlyph`,
+// `DiseaseGlyph` defined at the bottom of this file).
+
+// Suggested searches: a few well-known genes and disease names.
+// These render as chips beneath the input so the page is never empty
+// for users who have nothing in mind.
+const SUGGESTED_GENES = ['BBS1', 'CEP290', 'PKD1', 'IFT88', 'NPHP1', 'MKS1']
+const SUGGESTED_DISEASES = ['Joubert Syndrome', 'Bardet-Biedl Syndrome', 'Primary Ciliary Dyskinesia']
+
+export default function HomePage() {
+  return (
+    <ErrorBoundary scope="home">
+      <HomePageInner />
+    </ErrorBoundary>
+  )
+}
+
+function HomePageInner() {
+  const router = useRouter()
+  const [index, setIndex] = useState<LoadedIndex | null>(null)
+  const [loadError, setLoadError] = useState<string | null>(null)
+  const [query, setQuery] = useState('')
+  const debounced = useDebounce(query, 120)
+  const [activeIdx, setActiveIdx] = useState(-1)
+  const [open, setOpen] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
+  const wrapperRef = useRef<HTMLDivElement>(null)
+
+  // Load the search index once.
+  useEffect(() => {
+    let cancelled = false
+    loadSearchIndex()
+      .then((idx) => { if (!cancelled) setIndex(idx) })
+      .catch((err) => {
+        console.error(err)
+        if (!cancelled) setLoadError(err?.message ?? 'Failed to load data')
+      })
+    return () => { cancelled = true }
+  }, [])
+
+  // Compute suggestions from the debounced query.
+  const suggestions: Suggestion[] = useMemo(() => {
+    if (!index || !debounced.trim()) return []
+    return searchIndex(index, debounced, 10)
+  }, [index, debounced])
+
+  // Reset active index when suggestion set changes.
+  useEffect(() => { setActiveIdx(suggestions.length > 0 ? 0 : -1) }, [suggestions])
+
+  // Close on outside click.
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', onDown)
+    return () => document.removeEventListener('mousedown', onDown)
+  }, [])
+
+  // Focus the input on first paint — this is a search-first page.
+  useEffect(() => { inputRef.current?.focus() }, [])
+
+  const commit = useCallback((s: Suggestion) => {
+    setOpen(false)
+    router.push(s.href)
+  }, [router])
+
+  const submitFreeText = useCallback((q: string) => {
+    const trimmed = q.trim()
+    if (!trimmed) return
+    setOpen(false)
+    router.push(`/advanced-search?q=${encodeURIComponent(trimmed)}`)
+  }, [router])
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    const haveSuggestions = open && suggestions.length > 0
+    if (e.key === 'ArrowDown') {
+      if (!haveSuggestions) return
+      e.preventDefault()
+      setActiveIdx((i) => (i + 1) % suggestions.length)
+    } else if (e.key === 'ArrowUp') {
+      if (!haveSuggestions) return
+      e.preventDefault()
+      setActiveIdx((i) => (i <= 0 ? suggestions.length - 1 : i - 1))
+    } else if (e.key === 'Enter') {
+      e.preventDefault()
+      if (haveSuggestions && activeIdx >= 0) commit(suggestions[activeIdx])
+      else submitFreeText(query)
+    } else if (e.key === 'Escape') {
+      setOpen(false)
+    } else if (e.key === 'Tab' && haveSuggestions && activeIdx >= 0) {
+      // Tab fills in the highlighted suggestion's label, doesn't submit.
+      e.preventDefault()
+      setQuery(suggestions[activeIdx].label)
+    }
+  }
+
+  const stats = index?.stats
+
+  return (
+    <Layout>
+      {/* Backdrop: faint axoneme glyph and soft radial accent — invisible until you look for it */}
+      <div className="relative">
+        <BackgroundOrnament />
+
+        {/* The masthead is a single line, then the input. Nothing else above the fold. */}
+        <section className="relative pt-20 pb-12 md:pt-28 md:pb-16 flex flex-col items-center text-center">
+          <p className="eyebrow mb-6 flex items-center gap-3 text-primary-400">
+            <span className="inline-block h-px w-8 bg-accent" />
+            CiliaMiner · v{stats?.version ?? '15'} · {stats?.generatedAt || '—'}
+            <span className="inline-block h-px w-8 bg-accent" />
+          </p>
+
+          <h1 className="font-display text-[2.5rem] md:text-[3.5rem] leading-[1.05] tracking-tight text-primary-800 mb-3">
+            Search the{' '}
+            <em className="italic text-accent">ciliome</em>.
+          </h1>
+          <p className="text-sm md:text-base text-primary-500 max-w-xl mb-10 px-4">
+            {stats
+              ? `${stats.totalGenes.toLocaleString()} curated genes across ${stats.totalDiseases} ciliopathies — type a gene symbol or a disease name.`
+              : 'A curated reference for ciliopathy genes and the diseases they cause.'}
+          </p>
+
+          {/* === The search bar — the only thing that matters above the fold === */}
+          <div ref={wrapperRef} className="relative w-full max-w-2xl px-4">
+            <div className={`
+              flex items-center gap-2 bg-surface border rounded-full
+              transition-shadow duration-150
+              ${open && suggestions.length > 0
+                ? 'border-primary-400 shadow-[0_0_0_4px_rgba(28,38,49,0.04)]'
+                : 'border-primary-200 hover:border-primary-300 hover:shadow-[0_1px_8px_rgba(28,38,49,0.04)]'}
+            `}>
+              <Search className="ml-5 h-4 w-4 text-primary-300 shrink-0" aria-hidden />
+              <input
+                ref={inputRef}
+                type="text"
+                value={query}
+                onChange={(e) => { setQuery(e.target.value); setOpen(true) }}
+                onFocus={() => { if (query) setOpen(true) }}
+                onKeyDown={handleKeyDown}
+                placeholder={index ? 'Try BBS1, PKD1, Joubert, Bardet-Biedl…' : 'Loading database…'}
+                disabled={!index && !loadError}
+                role="combobox"
+                aria-expanded={open && suggestions.length > 0}
+                aria-controls="home-suggestions"
+                aria-autocomplete="list"
+                aria-activedescendant={activeIdx >= 0 ? `home-sug-${activeIdx}` : undefined}
+                autoComplete="off"
+                spellCheck={false}
+                className="flex-1 py-4 bg-transparent text-primary-800 placeholder:text-primary-300 focus:outline-none text-base"
+              />
+              {!index && !loadError && Loader2 && (
+                <Loader2 className="h-4 w-4 text-primary-300 animate-spin mr-2" />
+              )}
+              <button
+                type="button"
+                onClick={() => {
+                  if (open && suggestions.length > 0 && activeIdx >= 0) commit(suggestions[activeIdx])
+                  else submitFreeText(query)
+                }}
+                disabled={!query.trim()}
+                className="
+                  mr-1.5 flex items-center gap-1.5
+                  bg-primary text-surface-muted px-4 py-2 rounded-full
+                  text-sm font-medium tracking-tight
+                  hover:bg-primary-light disabled:opacity-40 disabled:hover:bg-primary
+                  transition-colors duration-150
+                "
+                aria-label="Search"
+              >
+                Search
+                <ArrowRight className="h-3.5 w-3.5" />
+              </button>
+            </div>
+
+            {/* ── Suggestion dropdown ─────────────────────────────────── */}
+            {open && suggestions.length > 0 && (
+              <ul
+                id="home-suggestions"
+                role="listbox"
+                className="
+                  absolute z-30 left-4 right-4 mt-2
+                  bg-surface border border-primary-200 rounded-2xl
+                  shadow-[0_10px_30px_-12px_rgba(28,38,49,0.18)]
+                  overflow-hidden text-left
+                "
+              >
+                {suggestions.map((s, i) => {
+                  const isActive = i === activeIdx
+                  return (
+                    <li
+                      key={`${s.kind}-${s.label}-${i}`}
+                      id={`home-sug-${i}`}
+                      role="option"
+                      aria-selected={isActive}
+                      onMouseEnter={() => setActiveIdx(i)}
+                      onMouseDown={(e) => { e.preventDefault(); commit(s) }}
+                      className={`
+                        flex items-center gap-3 px-5 py-3 cursor-pointer
+                        ${isActive ? 'bg-surface-muted' : 'bg-surface'}
+                        ${i !== 0 ? 'border-t border-primary-100' : ''}
+                      `}
+                    >
+                      <span className={`
+                        shrink-0 flex items-center justify-center h-7 w-7 rounded-full
+                        ${s.kind === 'gene' ? 'bg-accent/10 text-accent' : 'bg-primary-100 text-primary-700'}
+                      `}>
+                        {s.kind === 'gene'
+                          ? <GeneGlyph className="h-3.5 w-3.5" />
+                          : <DiseaseGlyph className="h-3.5 w-3.5" />}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-baseline gap-2 flex-wrap">
+                          <span className={`
+                            ${s.kind === 'gene'
+                              ? 'font-mono font-semibold text-primary-800 text-sm'
+                              : 'text-primary-800 text-sm'}
+                          `}>
+                            {s.label}
+                          </span>
+                          {s.matchedOn && (
+                            <span className="text-[10px] uppercase tracking-wider text-primary-400 font-mono">
+                              ≈ {s.matchedOn}
+                            </span>
+                          )}
+                        </div>
+                        {s.sublabel && (
+                          <div className="text-xs text-primary-500 truncate mt-0.5">
+                            {s.sublabel}
+                          </div>
+                        )}
+                      </div>
+                      {s.meta && (
+                        <span className="hidden sm:inline-block text-[10px] uppercase tracking-[0.14em] text-primary-400 whitespace-nowrap">
+                          {s.meta}
+                        </span>
+                      )}
+                    </li>
+                  )
+                })}
+              </ul>
+            )}
+
+            {/* ── Empty-state helper line (no results) ────────────────── */}
+            {open && index && debounced.trim() && suggestions.length === 0 && (
+              <div className="absolute z-30 left-4 right-4 mt-2 bg-surface border border-primary-200 rounded-2xl px-5 py-4 text-sm text-primary-500 text-left">
+                No match for <span className="font-mono text-primary-800">“{debounced}”</span> in the
+                {' '}<strong>{stats?.totalGenes}</strong> genes or
+                {' '}<strong>{stats?.totalDiseases}</strong> diseases.{' '}
+                <button
+                  onClick={() => submitFreeText(debounced)}
+                  className="text-accent underline-offset-2 underline decoration-accent/30 hover:decoration-accent"
+                >
+                  Search anyway →
+                </button>
+              </div>
+            )}
+
+            {loadError && (
+              <div className="absolute z-30 left-4 right-4 mt-2 bg-accent/5 border border-accent/30 rounded-2xl px-5 py-4 text-sm text-accent-dark text-left">
+                Database failed to load: {loadError}
+              </div>
+            )}
+          </div>
+
+          {/* === Suggested chips — gene + disease ===================== */}
+          <div className="mt-8 flex flex-col items-center gap-3 px-4">
+            <SuggestRow label="Genes" items={SUGGESTED_GENES} kind="gene" onPick={(v) => { setQuery(v); submitFreeText(v) }} />
+            <SuggestRow label="Diseases" items={SUGGESTED_DISEASES} kind="disease" onPick={(v) => { setQuery(v); submitFreeText(v) }} />
+          </div>
+
+          {/* === Compact stats strip ================================== */}
+          {stats && (
+            <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-px bg-primary-100 border border-primary-100 rounded-sm overflow-hidden max-w-3xl mx-auto w-full">
+              <StatCell value={stats.totalGenes.toLocaleString()} label="Curated genes" />
+              <StatCell value={stats.totalDiseases.toString()}    label="Ciliopathies" />
+              <StatCell value={stats.totalClasses.toString()}     label="Disease classes" />
+              <StatCell value={stats.version}                     label="Catalogue version" />
+            </div>
+          )}
+
+          {/* === The deep links — small, almost a colophon ============ */}
+          <nav className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-primary-500">
+            <DeepLink href="/advanced-search">Advanced search</DeepLink>
+            <span className="text-primary-200" aria-hidden>·</span>
+            <DeepLink href="/ciliopathy-classification">Classification</DeepLink>
+            <span className="text-primary-200" aria-hidden>·</span>
+            <DeepLink href="/genes-orthologs">Orthologs</DeepLink>
+            <span className="text-primary-200" aria-hidden>·</span>
+            <DeepLink href="/symptoms-diseases">Clinical features</DeepLink>
+            <span className="text-primary-200" aria-hidden>·</span>
+            <DeepLink href="/analysis">Analysis</DeepLink>
+            <span className="text-primary-200" aria-hidden>·</span>
+            <DeepLink href="/about">About</DeepLink>
+          </nav>
+
+          {/* === A tiny inline note on the classification principle === */}
+          {stats?.principle && (
+            <p className="mt-10 max-w-xl text-[11px] text-primary-400 px-6 leading-relaxed">
+              <span className="eyebrow mr-2">Catalogue note</span>
+              {stats.principle}
+            </p>
+          )}
+        </section>
+      </div>
+    </Layout>
+  )
+}
+
+// --- Tiny presentational components --------------------------------------
+
+function SuggestRow({
+  label, items, kind, onPick,
+}: {
+  label: string
+  items: string[]
+  kind: 'gene' | 'disease'
+  onPick: (v: string) => void
+}) {
+  return (
+    <div className="flex items-center gap-3 flex-wrap justify-center">
+      <span className="eyebrow text-primary-400">{label}</span>
+      {items.map((q, i) => (
+        <React.Fragment key={q}>
+          <button
+            onClick={() => onPick(q)}
+            className={`group text-xs transition-colors ${
+              kind === 'gene' ? 'font-mono text-primary-700' : 'text-primary-700'
+            } hover:text-accent`}
+          >
+            <span className="underline decoration-primary-200 decoration-dotted underline-offset-4 group-hover:decoration-accent">
+              {q}
+            </span>
+          </button>
+          {i < items.length - 1 && (
+            <span className="text-primary-300 text-xs select-none">·</span>
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  )
+}
+
+function StatCell({ value, label }: { value: string; label: string }) {
+  return (
+    <div className="bg-surface px-5 py-5 text-center">
+      <div className="font-display text-2xl text-primary-800 tabular-nums leading-none">
+        {value}
+      </div>
+      <div className="eyebrow mt-2">{label}</div>
+    </div>
+  )
+}
+
+function DeepLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <Link href={href} className="text-primary-500 hover:text-accent transition-colors">
+      {children}
+    </Link>
+  )
+}
+
+/**
+ * A subtle background ornament: a translucent axoneme cross-section
+ * (the 9+2 microtubule arrangement) on the right edge of the masthead.
+ * Pure decoration, never covers content.
+ */
+function BackgroundOrnament() {
+  return (
+    <div
+      aria-hidden
+      className="pointer-events-none absolute inset-0 overflow-hidden"
+    >
+      <svg
+        className="absolute -right-24 -top-12 opacity-[0.06] md:opacity-[0.08]"
+        width="520"
+        height="520"
+        viewBox="0 0 240 240"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="120" cy="120" r="96" stroke="#1C2631" strokeWidth="0.75" />
+        <circle cx="120" cy="120" r="96" stroke="#1C2631" strokeWidth="0.75" strokeDasharray="2 3" />
+        {Array.from({ length: 9 }).map((_, i) => {
+          const angle = (i / 9) * Math.PI * 2 - Math.PI / 2
+          const x = 120 + Math.cos(angle) * 72
+          const y = 120 + Math.sin(angle) * 72
+          return (
+            <g key={i}>
+              <circle cx={x - 4} cy={y} r="5" fill="#1C2631" />
+              <circle cx={x + 4} cy={y} r="5" fill="#1C2631" />
+              <line x1="120" y1="120" x2={x} y2={y} stroke="#1C2631" strokeWidth="0.5" strokeDasharray="1 2" />
+            </g>
+          )
+        })}
+        <circle cx="112" cy="120" r="5" fill="#8B2635" />
+        <circle cx="128" cy="120" r="5" fill="#8B2635" />
+      </svg>
+    </div>
+  )
+}
+
+// --- Inline icons for the suggestion pills -------------------------------
+// These are intentionally small hand-written SVGs (not lucide imports) so
+// that the suggestion list never crashes with React #130, regardless of
+// which lucide-react version the project happens to be pinned to.
+// Each takes a `className` so the parent can size them with Tailwind.
+
+function GeneGlyph({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {/* a stylised double helix — two crossing strands + a few rungs */}
+      <path d="M5 4c0 4 14 4 14 8s-14 4-14 8" />
+      <path d="M19 4c0 4-14 4-14 8s14 4 14 8" />
+      <path d="M7.5 7h9" />
+      <path d="M7.5 17h9" />
+    </svg>
+  )
+}
+
+function DiseaseGlyph({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {/* a stylised pulse / heartbeat trace */}
+      <path d="M3 12h3l2-5 4 10 2-5h7" />
+    </svg>
+  )
+}

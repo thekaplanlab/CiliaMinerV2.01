@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from app.config import settings
-from app.routers import genes, orthologs, features, stats, submissions, export
+from app.routers import genes, orthologs, features, stats, submissions, export, publications
 from app.services.data_service import data_service
 
 
@@ -49,6 +49,7 @@ app.include_router(features.router, prefix="/api/features", tags=["Clinical Feat
 app.include_router(stats.router, prefix="/api/stats", tags=["Statistics"])
 app.include_router(submissions.router, prefix="/api/submissions", tags=["Submissions"])
 app.include_router(export.router, prefix="/api/export", tags=["Export"])
+app.include_router(publications.router, prefix="/api/publications", tags=["Publications"])
 
 
 @app.get("/", tags=["Root"])

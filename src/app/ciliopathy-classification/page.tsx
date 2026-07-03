@@ -1,305 +1,417 @@
 'use client'
 
-import React, { useState, useEffect, useMemo, Suspense } from 'react'
+/**
+ * Disease classification — sidebar layout, refined.
+ *
+ *   LEFT  — sticky sidebar (independent scroll): filter input,
+ *           accordion of 4 ciliopathy classes with tinted headers,
+ *           clickable disease rows underneath.
+ *
+ *   RIGHT — when no selection: a useful empty state with the class
+ *           breakdown pills + a few featured-disease cards.
+ *           When a disease is selected: breadcrumb pathway, name,
+ *           rationale banner (red-800 left rule), gene pill grid,
+ *           and CTA to the full disease page.
+ *
+ * Template classes throughout (bg-white, border-stone-200, bg-stone-50,
+ * bg-red-50, text-red-800).
+ */
+
+import React, { useEffect, useMemo, useState } from 'react'
+import Link from 'next/link'
 import Layout from '@/components/Layout'
-import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { EmptyState } from '@/components/EmptyState'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
-import { dataService } from '@/services/dataService'
-import { CiliopathyGene } from '@/types'
-import { EnsemblLink, OmimLink, PubmedLinks } from '@/lib/externalLinks'
-import { useUrlState, useUrlNumberState, useUrlStateBatch } from '@/lib/urlState'
-import { downloadAs } from '@/lib/download'
-import { Download, Database } from 'lucide-react'
+import { Search, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react'
 
-const ITEMS_PER_PAGE = 50
-
-type TabId = 'primary' | 'secondary' | 'motile' | 'atypical' | 'potential'
-const VALID_TABS: TabId[] = ['primary', 'secondary', 'motile', 'atypical', 'potential']
-
-const TAB_CLASSIFICATION_MAP: Record<TabId, string[]> = {
-  primary: ['primary ciliopathies', 'primary'],
-  secondary: ['secondary ciliopathies', 'secondary diseases', 'secondary'],
-  motile: ['motile ciliopathies', 'motile'],
-  atypical: ['atypical ciliopathies', 'atypical'],
-  potential: ['potential ciliopathy genes', 'potential', 'non-ciliary'],
+interface RawGene {
+  gene: string
+  ciliopathies?: string[]
+  ciliopathy_classes?: string[]
+  localization?: string[] | string | null
+}
+interface RawMaster {
+  genes: Record<string, RawGene>
+  disease_classifications?: Record<string, string>
+  disease_rationale?: Record<string, string>
+  diseases_by_class?: Record<string, string[]>
 }
 
-const TAB_META: Record<TabId, { label: string; description: string }> = {
-  primary: {
-    label: 'Primary',
-    description: 'Genes associated with primary ciliopathies — disorders caused directly by defects in primary (non-motile) cilia.',
-  },
-  secondary: {
-    label: 'Secondary',
-    description: 'Genes associated with secondary diseases where ciliary dysfunction is part of a broader pathology.',
-  },
-  motile: {
-    label: 'Motile',
-    description: 'Genes associated with motile ciliopathies — disorders of motile cilia and flagella.',
-  },
-  atypical: {
-    label: 'Atypical',
-    description: 'Genes collected via the term "ciliopathy" that fall outside the standard classifications.',
-  },
-  potential: {
-    label: 'Potential',
-    description: 'Candidate ciliopathy genes primarily found in cilia or associated with cilia formation and maintenance.',
-  },
+function arr(v: unknown): string[] {
+  if (Array.isArray(v)) return v.filter((x): x is string => typeof x === 'string' && x.length > 0)
+  if (typeof v === 'string' && v.length > 0) return v.split(';').map((s) => s.trim()).filter(Boolean)
+  return []
 }
 
-export default function CiliopathyClassificationPage() {
+// ── Class ordering + short labels ─────────────────────────────────────
+const CLASS_ORDER = [
+  'Primary Ciliopathies',
+  'Tissue-restricted Ciliopathies',
+  'Motile Ciliopathies',
+  'Secondary Diseases',
+]
+const CLASS_LABEL: Record<string, string> = {
+  'Primary Ciliopathies':           'Primary Ciliopathies',
+  'Tissue-restricted Ciliopathies': 'Tissue-restricted',
+  'Motile Ciliopathies':            'Motile Ciliopathies',
+  'Secondary Diseases':             'Secondary Diseases',
+}
+
+// Featured diseases for the empty state — well-known ciliopathies
+const FEATURED = [
+  { name: 'Bardet-Biedl Syndrome',   tagline: 'Multi-system; BBSome trafficking defect' },
+  { name: 'Joubert Syndrome',        tagline: 'Molar tooth sign; cerebellum + retina + kidney' },
+  { name: 'Meckel-Gruber Syndrome',  tagline: 'Encephalocele + cystic kidneys + polydactyly' },
+]
+
+export default function ClassificationPage() {
   return (
-    <Suspense fallback={<Layout><div className="py-20 text-center text-primary-400 text-sm">Loading…</div></Layout>}>
-      <ErrorBoundary scope="classification">
-        <PageInner />
-      </ErrorBoundary>
-    </Suspense>
+    <ErrorBoundary scope="classification">
+      <Inner />
+    </ErrorBoundary>
   )
 }
 
-function PageInner() {
-  const [tab, setTab] = useUrlState<TabId>('tab', 'primary')
-  const activeTab: TabId = (VALID_TABS as readonly string[]).includes(tab) ? (tab as TabId) : 'primary'
-  const [selectedCiliopathy, setSelectedCiliopathy] = useUrlState('disease', 'All')
-  const [currentPage, setCurrentPage] = useUrlNumberState('page', 1)
-  const batchUpdate = useUrlStateBatch()
-
-  const [genes, setGenes] = useState<CiliopathyGene[]>([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [loadError, setLoadError] = useState<string | null>(null)
+function Inner() {
+  const [master, setMaster] = useState<RawMaster | null>(null)
+  const [query, setQuery] = useState('')
+  const [open, setOpen] = useState<Record<string, boolean>>({})
+  const [selected, setSelected] = useState<string | null>(null)
 
   useEffect(() => {
     let cancelled = false
-    setIsLoading(true)
-    dataService.getCiliopathyGenes()
-      .then((genesData) => {
-        if (cancelled) return
-        setGenes(genesData)
-      })
-      .catch(err => {
-        if (cancelled) return
-        console.error('Failed to load classification data:', err)
-        setLoadError(err instanceof Error ? err.message : 'Unable to load data')
-      })
-      .finally(() => {
-        if (!cancelled) setIsLoading(false)
-      })
+    fetch('/data/ciliopathy_genes_v15.json', { cache: 'default' })
+      .then((r) => r.json())
+      .then((d: RawMaster) => { if (!cancelled) setMaster(d) })
+      .catch(() => {})
     return () => { cancelled = true }
   }, [])
 
-  const tabFilteredGenes = useMemo(() => {
-    const searchTerms = TAB_CLASSIFICATION_MAP[activeTab] ?? []
-    if (searchTerms.length === 0) return genes
-    return genes.filter(gene => {
-      const cls = (gene['Ciliopathy Classification'] || '').toLowerCase().trim()
-      if (!cls || cls === 'unknown' || cls === 'unclassified') return activeTab === 'atypical'
-      return searchTerms.some(term => cls.includes(term))
+  // ── Grouped class lists ──────────────────────────────────────────────
+  const groups = useMemo(() => {
+    if (!master) return [] as Array<{ cls: string; diseases: string[] }>
+    const dbc = master.diseases_by_class || {}
+    const out: Array<{ cls: string; diseases: string[] }> = []
+    for (const cls of CLASS_ORDER) {
+      const list = (dbc[cls] || []).slice().sort()
+      if (list.length > 0) out.push({ cls, diseases: list })
+    }
+    // Catch any extras not in canonical order
+    for (const cls of Object.keys(dbc)) {
+      if (CLASS_ORDER.indexOf(cls) >= 0) continue
+      const list = (dbc[cls] || []).slice().sort()
+      if (list.length > 0) out.push({ cls, diseases: list })
+    }
+    return out
+  }, [master])
+
+  // Genes for each disease
+  const genesByDisease = useMemo(() => {
+    const map = new Map<string, string[]>()
+    if (!master) return map
+    Array.from(Object.values(master.genes)).forEach((g) => {
+      arr(g.ciliopathies).forEach((d) => {
+        const list = map.get(d) || []
+        list.push(g.gene)
+        map.set(d, list)
+      })
     })
-  }, [genes, activeTab])
+    return map
+  }, [master])
 
-  const filteredGenes = useMemo(() => {
-    if (selectedCiliopathy === 'All') return tabFilteredGenes
-    return tabFilteredGenes.filter(gene => gene.Ciliopathy === selectedCiliopathy)
-  }, [tabFilteredGenes, selectedCiliopathy])
+  // ── Filtering ────────────────────────────────────────────────────────
+  const q = query.trim().toLowerCase()
+  const filteredGroups = useMemo(() => {
+    if (!q) return groups
+    return groups
+      .map((g) => ({
+        cls: g.cls,
+        diseases: g.diseases.filter((d) => d.toLowerCase().includes(q)),
+      }))
+      .filter((g) => g.diseases.length > 0)
+  }, [groups, q])
 
-  const ciliopathyList = useMemo(() => {
-    const unique = Array.from(new Set(tabFilteredGenes.map(g => g.Ciliopathy).filter(Boolean)))
-    return ['All', ...unique.sort()]
-  }, [tabFilteredGenes])
+  // When filtering, auto-expand all matching groups
+  useEffect(() => {
+    if (q) {
+      const expanded: Record<string, boolean> = {}
+      filteredGroups.forEach((g) => { expanded[g.cls] = true })
+      setOpen(expanded)
+    }
+  }, [q, filteredGroups])
 
-  const totalPages = Math.max(1, Math.ceil(filteredGenes.length / ITEMS_PER_PAGE))
-  const safePage = Math.min(currentPage, totalPages)
-  const paginated = filteredGenes.slice((safePage - 1) * ITEMS_PER_PAGE, safePage * ITEMS_PER_PAGE)
+  // ── Counts ───────────────────────────────────────────────────────────
+  const classCounts = useMemo(() => {
+    const counts: Record<string, number> = {}
+    groups.forEach((g) => { counts[g.cls] = g.diseases.length })
+    return counts
+  }, [groups])
+  const totalDiseases = groups.reduce((n, g) => n + g.diseases.length, 0)
+  const visibleDiseases = filteredGroups.reduce((n, g) => n + g.diseases.length, 0)
 
-  const handleDownload = (format: 'csv' | 'json') => {
-    if (filteredGenes.length === 0) return
-    const rows = filteredGenes.map(g => ({
-      'Gene Name': g['Human Gene Name'],
-      'Gene ID': g['Human Gene ID'],
-      Ciliopathy: g.Ciliopathy,
-      Localization: g['Subcellular Localization'],
-      'MIM Number': g['Gene MIM Number'],
-      References: g['Disease/Gene Reference'],
-    }))
-    downloadAs(format, rows, `${activeTab}_${selectedCiliopathy === 'All' ? 'all' : selectedCiliopathy}`)
-  }
+  // ── Selected ─────────────────────────────────────────────────────────
+  const selectedClass = selected
+    ? (master?.disease_classifications?.[selected] || '')
+    : ''
+  const selectedRationale = selected
+    ? (master?.disease_rationale?.[selected] || '')
+    : ''
+  const selectedGenes = selected ? (genesByDisease.get(selected) || []) : []
 
   return (
     <Layout>
-      <Breadcrumbs trail={[{ label: 'Classification' }, { label: TAB_META[activeTab].label }]} />
+      <div className="mb-4">
+        <h1 className="text-lg font-bold text-red-800 tracking-tight">
+          Disease Classification
+        </h1>
+        <p className="text-xs text-stone-500 mt-1">
+          {master ? `${totalDiseases} diseases across ${groups.length} ciliopathy classes` : 'Loading…'}
+        </p>
+      </div>
 
-      <div className="space-y-8 max-w-6xl mx-auto">
-        <header className="pt-2">
-          <p className="eyebrow mb-3">
-            <span className="inline-block h-px w-6 bg-accent align-middle mr-2" />
-            Classification
-          </p>
-          <h1 className="font-display text-title text-primary-800 mb-2">
-            Genes organized by ciliopathy type.
-          </h1>
-          <p className="text-sm text-primary-500 max-w-xl">
-            Five classifications from the literature. Tab selection and disease
-            filter are encoded in the URL.
-          </p>
-        </header>
-
-        {loadError && (
-          <EmptyState
-            icon={Database}
-            title="Could not load classification data"
-            hint={<span className="font-mono text-[11px]">{loadError}</span>}
-          />
-        )}
-
-        <div className="card p-0 overflow-hidden">
-          {/* Tabs */}
-          <div className="border-b border-primary-100 overflow-x-auto">
-            <nav className="flex min-w-max px-2" aria-label="Classification tabs">
-              {VALID_TABS.map((id) => (
-                <button
-                  key={id}
-                  onClick={() => batchUpdate({ tab: id === 'primary' ? null : id, disease: null, page: null })}
-                  className={`px-4 py-3 border-b-2 text-sm font-medium whitespace-nowrap transition-colors ${
-                    activeTab === id
-                      ? 'border-accent text-accent'
-                      : 'border-transparent text-primary-500 hover:text-primary-700'
-                  }`}
-                >
-                  {TAB_META[id].label}
-                  <span className={`ml-2 text-[11px] font-mono ${activeTab === id ? 'text-accent/70' : 'text-primary-300'}`}>
-                    {genes.filter(gene => {
-                      const terms = TAB_CLASSIFICATION_MAP[id]
-                      const cls = (gene['Ciliopathy Classification'] || '').toLowerCase().trim()
-                      if (!cls || cls === 'unknown' || cls === 'unclassified') return id === 'atypical'
-                      return terms.some(t => cls.includes(t))
-                    }).length}
-                  </span>
-                </button>
-              ))}
-            </nav>
-          </div>
-
-          <div className="p-6">
-            <p className="text-sm text-primary-500 mb-6 max-w-3xl leading-relaxed">
-              {TAB_META[activeTab].description}
-            </p>
-
-            <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4 items-end">
-              <div>
-                <label className="block eyebrow mb-2" htmlFor="disease-filter">Filter by disease</label>
-                <select
-                  id="disease-filter"
-                  value={selectedCiliopathy}
-                  onChange={(e) => batchUpdate({ disease: e.target.value === 'All' ? null : e.target.value, page: null })}
-                  className="input-field text-sm"
-                >
-                  {ciliopathyList.map(c => <option key={c} value={c}>{c}</option>)}
-                </select>
-              </div>
-              <div className="flex justify-end gap-2">
-                <button
-                  onClick={() => handleDownload('csv')}
-                  disabled={filteredGenes.length === 0}
-                  className="btn-secondary text-xs disabled:opacity-40"
-                >
-                  <Download className="h-3.5 w-3.5" /> CSV
-                </button>
-                <button
-                  onClick={() => handleDownload('json')}
-                  disabled={filteredGenes.length === 0}
-                  className="btn-secondary text-xs disabled:opacity-40"
-                >
-                  <Download className="h-3.5 w-3.5" /> JSON
-                </button>
-              </div>
-            </div>
-
-            <div className="flex items-baseline justify-between mb-3">
-              <p className="eyebrow">
-                {filteredGenes.length.toLocaleString()} gene{filteredGenes.length !== 1 ? 's' : ''}
-              </p>
-              {totalPages > 1 && (
-                <p className="text-[11px] text-primary-400 font-mono">Page {safePage} / {totalPages}</p>
-              )}
-            </div>
-
-            {isLoading ? (
-              <div className="py-10 text-center">
-                <div className="animate-spin rounded-full h-5 w-5 border-2 border-accent border-t-transparent mx-auto mb-3" />
-                <p className="text-sm text-primary-400 font-mono">Loading…</p>
-              </div>
-            ) : filteredGenes.length === 0 ? (
-              <EmptyState
-                icon={Database}
-                title="No genes in this view."
-                hint="Try a different tab or clear the disease filter."
+      <div className="grid grid-cols-1 md:grid-cols-[320px,1fr] gap-4 items-start">
+        {/* ── Sidebar (sticky on desktop) ──────────────────────────── */}
+        <aside className="bg-white rounded-lg border border-stone-200 shadow-sm overflow-hidden md:sticky md:top-4 md:max-h-[calc(100vh-2rem)] md:flex md:flex-col">
+          {/* Filter */}
+          <div className="p-3 border-b border-stone-200 shrink-0">
+            <div className="relative">
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Filter diseases…"
+                aria-label="Filter diseases"
+                className="w-full pl-9 pr-3 py-2 text-xs bg-stone-50 border border-stone-200 rounded focus:outline-none focus:ring-1 focus:ring-red-800 focus:bg-white transition text-stone-900 font-medium placeholder:font-normal placeholder:text-stone-400"
               />
-            ) : (
-              <>
-                <div className="overflow-auto rounded-sm border border-primary-100" style={{ maxHeight: '60vh' }}>
-                  <table className="min-w-full divide-y divide-primary-100">
-                    <thead className="bg-surface-muted sticky top-0 z-10">
-                      <tr>
-                        {['Gene', 'Ensembl ID', 'Ciliopathy', 'Localization', 'MIM', 'References'].map(h => (
-                          <th key={h} scope="col" className="px-4 py-3 text-left eyebrow whitespace-nowrap">{h}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody className="bg-surface divide-y divide-primary-50">
-                      {paginated.map((gene, i) => (
-                        <tr key={`${gene['Human Gene Name']}-${i}`} className="hover:bg-surface-muted transition-colors">
-                          <td className="px-4 py-2.5 text-xs font-mono font-semibold text-primary-800 whitespace-nowrap">
-                            {gene['Human Gene Name']}
-                          </td>
-                          <td className="px-4 py-2.5 text-xs whitespace-nowrap">
-                            <EnsemblLink id={gene['Human Gene ID']} />
-                          </td>
-                          <td className="px-4 py-2.5 text-xs text-primary-700">{gene.Ciliopathy}</td>
-                          <td className="px-4 py-2.5 text-xs text-primary-600">{gene['Subcellular Localization'] || '—'}</td>
-                          <td className="px-4 py-2.5 text-xs whitespace-nowrap">
-                            <OmimLink id={gene['Gene MIM Number']} />
-                          </td>
-                          <td className="px-4 py-2.5 text-xs">
-                            <PubmedLinks ids={gene['Disease/Gene Reference']} />
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                {totalPages > 1 && (
-                  <div className="flex items-center justify-between mt-3">
-                    <p className="text-xs text-primary-400 font-mono">
-                      {((safePage - 1) * ITEMS_PER_PAGE + 1).toLocaleString()}–
-                      {Math.min(safePage * ITEMS_PER_PAGE, filteredGenes.length).toLocaleString()} of {filteredGenes.length.toLocaleString()}
-                    </p>
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={() => setCurrentPage(Math.max(1, safePage - 1))}
-                        disabled={safePage === 1}
-                        className="btn-secondary text-xs disabled:opacity-40"
-                      >
-                        Previous
-                      </button>
-                      <span className="text-xs text-primary-500 font-mono">{safePage} / {totalPages}</span>
-                      <button
-                        onClick={() => setCurrentPage(Math.min(totalPages, safePage + 1))}
-                        disabled={safePage >= totalPages}
-                        className="btn-secondary text-xs disabled:opacity-40"
-                      >
-                        Next
-                      </button>
-                    </div>
-                  </div>
-                )}
-              </>
+              <Search className="w-3.5 h-3.5 text-stone-400 absolute left-3 top-2.5 pointer-events-none" aria-hidden="true" />
+            </div>
+            {q && (
+              <p className="text-[11px] text-stone-400 mt-1.5 font-mono">
+                {visibleDiseases} match
+              </p>
             )}
           </div>
-        </div>
 
+          {/* Groups list — independent scroll */}
+          <div className="overflow-y-auto md:flex-1">
+            {!master && (
+              <p className="text-xs text-stone-400 italic px-3 py-4">Loading…</p>
+            )}
+            {master && filteredGroups.length === 0 && (
+              <p className="text-xs text-stone-400 italic px-3 py-4">No matches.</p>
+            )}
+            {filteredGroups.map((g) => {
+              const isOpen = !!open[g.cls]
+              return (
+                <div key={g.cls} className="border-b border-stone-200 last:border-b-0">
+                  {/* Accordion header — tinted to differentiate from disease rows */}
+                  <button
+                    type="button"
+                    onClick={() => setOpen((o) => ({ ...o, [g.cls]: !o[g.cls] }))}
+                    aria-expanded={isOpen}
+                    className={`w-full px-3 py-2.5 flex items-center justify-between gap-2 text-left transition ${
+                      isOpen
+                        ? 'bg-stone-100 hover:bg-stone-100'
+                        : 'bg-stone-50/60 hover:bg-stone-100'
+                    }`}
+                  >
+                    <span className="flex items-baseline gap-2 min-w-0">
+                      {isOpen
+                        ? <ChevronDown className="w-3.5 h-3.5 text-stone-500 shrink-0" aria-hidden="true" />
+                        : <ChevronRight className="w-3.5 h-3.5 text-stone-500 shrink-0" aria-hidden="true" />}
+                      <span className="text-xs font-bold uppercase tracking-wider text-stone-700 truncate">
+                        {CLASS_LABEL[g.cls] || g.cls}
+                      </span>
+                    </span>
+                    <span className="text-[11px] font-mono text-stone-500 tabular-nums">
+                      {g.diseases.length}
+                    </span>
+                  </button>
+                  {isOpen && (
+                    <ul className="bg-white pb-1">
+                      {g.diseases.map((d) => {
+                        const isSelected = selected === d
+                        return (
+                          <li key={d}>
+                            <button
+                              type="button"
+                              onClick={() => setSelected(d)}
+                              className={`w-full text-left px-3 py-1.5 pl-9 text-xs transition ${
+                                isSelected
+                                  ? 'bg-red-50 text-red-800 font-semibold border-l-2 border-red-800 pl-[34px]'
+                                  : 'text-stone-700 hover:bg-stone-50 hover:text-stone-900'
+                              }`}
+                            >
+                              {d}
+                            </button>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </aside>
+
+        {/* ── Detail panel ───────────────────────────────────────── */}
+        <section className="bg-white rounded-lg border border-stone-200 shadow-sm p-6 min-h-[60vh]">
+          {!selected ? (
+            <EmptyState
+              classCounts={classCounts}
+              total={totalDiseases}
+              loading={!master}
+              onPick={setSelected}
+            />
+          ) : (
+            <div>
+              {/* Breadcrumb pathway */}
+              <nav className="text-[11px] uppercase tracking-wider font-bold text-stone-400 mb-3" aria-label="Breadcrumb">
+                <Link href="/ciliopathy-classification" className="hover:text-stone-900 transition">
+                  Disease Classification
+                </Link>
+                <span className="mx-1.5">›</span>
+                <span className="text-red-800">
+                  {CLASS_LABEL[selectedClass] || selectedClass || 'Disease'}
+                </span>
+                <span className="mx-1.5">›</span>
+                <span className="text-stone-700 normal-case tracking-normal font-normal">
+                  {selected}
+                </span>
+              </nav>
+
+              {/* Title */}
+              <h2 className="text-xl font-bold text-stone-900 tracking-tight leading-tight mb-5">
+                {selected}
+              </h2>
+
+              {/* Rationale banner — tinted red-50 with left rule */}
+              {selectedRationale && (
+                <div className="bg-red-50/60 border-l-2 border-red-800 px-4 py-3 rounded-r mb-6">
+                  <p className="text-[11px] uppercase tracking-wider font-bold text-red-800 mb-1.5">
+                    Why this class
+                  </p>
+                  <p className="text-xs text-stone-700 leading-relaxed">
+                    {selectedRationale}
+                  </p>
+                </div>
+              )}
+
+              {/* Genes — pill grid */}
+              {selectedGenes.length > 0 && (
+                <div className="mb-6">
+                  <div className="flex items-baseline justify-between mb-2">
+                    <p className="text-[11px] uppercase tracking-wider font-bold text-stone-400">
+                      Associated genes
+                    </p>
+                    <p className="text-[11px] font-mono text-stone-400 tabular-nums">
+                      {selectedGenes.length}
+                    </p>
+                  </div>
+                  <ul className="flex flex-wrap gap-1.5">
+                    {selectedGenes.slice(0, 80).map((gene) => (
+                      <li key={gene}>
+                        <Link
+                          href={`/gene/${encodeURIComponent(gene)}`}
+                          className="inline-block px-2.5 py-1 bg-stone-50 border border-stone-200 text-stone-700 rounded text-xs font-medium hover:border-red-800 hover:text-red-800 hover:bg-white transition"
+                        >
+                          {gene}
+                        </Link>
+                      </li>
+                    ))}
+                    {selectedGenes.length > 80 && (
+                      <li className="text-[12px] text-stone-400 italic px-2 py-1">
+                        +{selectedGenes.length - 80} more
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              )}
+
+              {/* CTA */}
+              <Link
+                href={`/disease/${encodeURIComponent(selected)}`}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-red-800 text-white text-xs font-semibold rounded hover:bg-red-900 transition"
+              >
+                <span>Open full disease page</span>
+                <ArrowRight className="w-3 h-3" aria-hidden="true" />
+              </Link>
+            </div>
+          )}
+        </section>
       </div>
     </Layout>
+  )
+}
+
+// ── Empty state ───────────────────────────────────────────────────────
+
+function EmptyState({
+  classCounts, total, loading, onPick,
+}: {
+  classCounts: Record<string, number>
+  total: number
+  loading: boolean
+  onPick: (d: string) => void
+}) {
+  return (
+    <div className="py-2">
+      <p className="text-[11px] uppercase tracking-wider font-bold text-stone-400 mb-2">
+        Select a disease
+      </p>
+      <p className="text-sm text-stone-500 max-w-md leading-relaxed mb-6">
+        Pick a disease from the left sidebar to see its class, rationale, and associated genes — or jump to one of the common ciliopathies below.
+      </p>
+
+      {/* Class breakdown — pill badges with counts */}
+      <div className="mb-7">
+        <p className="text-[11px] uppercase tracking-wider font-bold text-stone-400 mb-3">
+          Catalogue breakdown {total > 0 && <span className="text-stone-300 normal-case tracking-normal font-mono ml-1">· {total} diseases</span>}
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {loading
+            ? <span className="text-xs text-stone-400 italic">Loading…</span>
+            : CLASS_ORDER.map((cls) => {
+                const n = classCounts[cls] || 0
+                if (n === 0) return null
+                return (
+                  <div
+                    key={cls}
+                    className="inline-flex items-baseline gap-2 px-3 py-1.5 bg-stone-50 border border-stone-200 rounded"
+                  >
+                    <span className="text-base font-bold text-stone-900 tabular-nums">{n}</span>
+                    <span className="text-[11px] uppercase tracking-wider font-semibold text-stone-600">
+                      {CLASS_LABEL[cls] || cls}
+                    </span>
+                  </div>
+                )
+              })}
+        </div>
+      </div>
+
+      {/* Featured diseases */}
+      <div>
+        <p className="text-[11px] uppercase tracking-wider font-bold text-stone-400 mb-3">
+          Common ciliopathies
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          {FEATURED.map((f) => (
+            <button
+              key={f.name}
+              type="button"
+              onClick={() => onPick(f.name)}
+              className="text-left bg-stone-50 hover:bg-white border border-stone-200 hover:border-red-800 rounded p-3 transition group"
+            >
+              <p className="text-xs font-semibold text-stone-900 group-hover:text-red-800 transition mb-1">
+                {f.name}
+              </p>
+              <p className="text-[12px] text-stone-500 leading-snug">
+                {f.tagline}
+              </p>
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }

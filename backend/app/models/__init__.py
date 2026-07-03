@@ -4,6 +4,7 @@ from app.models.ortholog import OrthologGene, OrthologSearchParams, OrthologSear
 from app.models.feature import CiliopathyFeature, FeatureSearchParams, FeatureSearchResponse
 from app.models.stats import DatabaseStats, GeneNumber, BarPlotData, PublicationData
 from app.models.submission import GeneSubmission, SubmissionResponse
+from app.models.publication import Publication, PublicationListResponse
 
 __all__ = [
     "CiliopathyGene",
@@ -21,5 +22,7 @@ __all__ = [
     "PublicationData",
     "GeneSubmission",
     "SubmissionResponse",
+    "Publication",
+    "PublicationListResponse",
 ]
 

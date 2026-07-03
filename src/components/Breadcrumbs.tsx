@@ -23,7 +23,7 @@ export function Breadcrumbs({ trail }: BreadcrumbsProps) {
 
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
-      <ol className="flex items-center gap-1.5 text-[11px] uppercase tracking-[0.18em] font-medium text-primary-400">
+      <ol className="flex items-center gap-1.5 text-[12px] uppercase tracking-[0.18em] font-medium text-primary-400">
         {withHome.map((crumb, i) => {
           const last = i === withHome.length - 1
           return (
