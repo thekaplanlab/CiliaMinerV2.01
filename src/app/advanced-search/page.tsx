@@ -1,788 +1,449 @@
 'use client'
 
-import React, { useState, useEffect, useMemo, useCallback, useRef, Suspense } from 'react'
-import Layout from '@/components/Layout'
-import { SearchInput } from '@/components/SearchComponents'
-import type { RichSuggestion } from '@/components/SearchComponents'
-import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { EmptyState } from '@/components/EmptyState'
-import { ErrorBoundary } from '@/components/ErrorBoundary'
-import { dataService } from '@/services/dataService'
-import { CiliopathyGene, CiliopathyFeature, OrthologGene } from '@/types'
-import { useDebounce } from '@/lib/utils'
-import { useUrlState, useUrlNumberState, useUrlStateBatch } from '@/lib/urlState'
-import { downloadAs, downloadMultiSectionCsv } from '@/lib/download'
-import { Search, Download, ChevronDown, X, Link2 } from 'lucide-react'
+/**
+ * /advanced-search — identical to the home page.
+ *
+ * The full code is duplicated (not re-exported) so this route cannot
+ * be broken by any future tree-shake / bundling decision. To keep
+ * them in sync, copy any change to src/app/page.tsx into this file too.
+ */
 
-type SearchType = 'all' | 'gene' | 'disease' | 'ortholog'
-const DATASET_OPTIONS: { value: SearchType; label: string }[] = [
-  { value: 'all', label: 'All datasets' },
-  { value: 'gene', label: 'Genes only' },
-  { value: 'disease', label: 'Diseases only' },
-  { value: 'ortholog', label: 'Orthologs only' },
+import React, { useEffect, useMemo, useRef, useState } from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+import Layout from '@/components/Layout'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
+import { Search } from 'lucide-react'
+
+// ── Data shape ─────────────────────────────────────────────────────────
+
+interface RawGene {
+  gene: string
+  ciliopathies?: string[]
+  ciliopathy_classes?: string[]
+  localization?: string[] | string | null
+  functional_category?: string[] | string | null
+  synonyms?: string[] | string | null
+  description?: string
+}
+
+interface RawMaster {
+  genes: Record<string, RawGene>
+  diseases_by_class?: Record<string, string[]>
+}
+
+// Defensive coercion — v15 has occasional missing/string fields where
+// arrays are expected (e.g. localization can be null, functional_category
+// can be ""). Anything not-an-array-of-strings becomes [].
+function arr(v: unknown): string[] {
+  if (Array.isArray(v)) return v.filter((x): x is string => typeof x === 'string' && x.length > 0)
+  if (typeof v === 'string' && v.length > 0) return v.split(';').map((s) => s.trim()).filter(Boolean)
+  return []
+}
+
+const CLASS_FILTERS: Array<{ id: string; label: string }> = [
+  { id: 'all',                              label: 'All Data' },
+  { id: 'Primary Ciliopathies',             label: 'Primary' },
+  { id: 'Secondary Diseases',               label: 'Secondary' },
+  { id: 'Motile Ciliopathies',              label: 'Motile' },
+  { id: 'Tissue-restricted Ciliopathies',   label: 'Tissue-restricted' },
 ]
 
-interface MultiResults {
-  genes: CiliopathyGene[]
-  features: CiliopathyFeature[]
-  orthologs: OrthologGene[]
-  totalResults: number
-}
+const PAGE_SIZE = 20
 
-const EMPTY_RESULTS: MultiResults = { genes: [], features: [], orthologs: [], totalResults: 0 }
+// ── Page ───────────────────────────────────────────────────────────────
 
-const ITEMS_PER_PAGE = 25
-
-const TRY_QUERIES = ['BBS1', 'CEP290', 'PKD1', 'IFT88', 'Joubert', 'Bardet-Biedl']
-
-// ─────────────────────────────────────────────────────────────────────────────
-
-export default function SearchPage() {
+export default function HomePage() {
   return (
-    <Suspense fallback={<Layout><div className="py-20 text-center text-primary-400 text-sm">Loading…</div></Layout>}>
-      <ErrorBoundary scope="search">
-        <SearchPageInner />
-      </ErrorBoundary>
-    </Suspense>
+    <ErrorBoundary scope="home">
+      <HomeInner />
+    </ErrorBoundary>
   )
 }
 
-function SearchPageInner() {
-  // ── URL-synced state — every filter is in the query string ──────────────
-  const [urlQuery, setUrlQuery] = useUrlState('q', '')
-  const [searchType, setSearchType] = useUrlState<SearchType>('type', 'all')
-  const [disease, setDisease] = useUrlState('disease', '')
-  const [organism, setOrganism] = useUrlState('organism', '')
-  const [localization, setLocalization] = useUrlState('loc', '')
-  const [symptom, setSymptom] = useUrlState('symptom', '')
-  const [genesPage, setGenesPage] = useUrlNumberState('gp', 1)
-  const [featuresPage, setFeaturesPage] = useUrlNumberState('fp', 1)
-  const [orthologsPage, setOrthologsPage] = useUrlNumberState('op', 1)
-  const batchUpdate = useUrlStateBatch()
+function HomeInner() {
+  const router = useRouter()
+  const [master, setMaster] = useState<RawMaster | null>(null)
+  const [query, setQuery] = useState('')
+  const [classId, setClassId] = useState('all')
+  const [page, setPage] = useState(0)
+  const [open, setOpen] = useState(false)
+  const [active, setActive] = useState(-1)
+  const inputRef = useRef<HTMLInputElement>(null)
 
-  const hasAnyFilter = Boolean(
-    disease || organism || localization || symptom || searchType !== 'all'
-  )
-
-  // ── Local state ─────────────────────────────────────────────────────────
-  const [query, setQuery] = useState(urlQuery)
-  const debouncedInput = useDebounce(query, 300)
-  const [cachedGenes, setCachedGenes] = useState<CiliopathyGene[]>([])
-  const [cachedFeatures, setCachedFeatures] = useState<CiliopathyFeature[]>([])
-  const [cachedOrthologs, setCachedOrthologs] = useState<OrthologGene[]>([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [loadError, setLoadError] = useState<string | null>(null)
-  const [results, setResults] = useState<MultiResults>(EMPTY_RESULTS)
-  const [isSearching, setIsSearching] = useState(false)
-  const [copied, setCopied] = useState(false)
-
-  // ── Load all datasets once ──────────────────────────────────────────────
+  // ── Load master JSON once ────────────────────────────────────────────
   useEffect(() => {
     let cancelled = false
-    setIsLoading(true)
-    Promise.all([
-      dataService.getCiliopathyGenes(),
-      dataService.getCiliopathyFeatures(),
-      dataService.getAllOrthologData(),
-    ])
-      .then(([genes, features, orthologs]) => {
-        if (cancelled) return
-        setCachedGenes(genes)
-        setCachedFeatures(features)
-        setCachedOrthologs(orthologs)
-      })
-      .catch(err => {
-        if (cancelled) return
-        console.error('Failed to load data:', err)
-        setLoadError(err instanceof Error ? err.message : 'Unable to load database')
-      })
-      .finally(() => {
-        if (!cancelled) setIsLoading(false)
-      })
+    fetch('/data/ciliopathy_genes_v15.json', { cache: 'default' })
+      .then((r) => r.json())
+      .then((d: RawMaster) => { if (!cancelled) setMaster(d) })
+      .catch(() => { /* table just stays empty */ })
     return () => { cancelled = true }
   }, [])
 
-  // ── Derived filter options (memoized once data loads) ───────────────────
-  const filterOptions = useMemo(() => ({
-    diseases: Array.from(new Set(cachedGenes.map(g => g.Ciliopathy).filter(Boolean))).sort(),
-    symptoms: Array.from(new Set(cachedFeatures.map(f => f.Category).filter((c): c is string => Boolean(c)))).sort(),
-    organisms: Array.from(new Set(cachedOrthologs.map(o => o.Organism).filter(Boolean))).sort(),
-    localizations: Array.from(new Set(cachedGenes.map(g => g['Subcellular Localization']).filter((l): l is string => Boolean(l)))).sort(),
-  }), [cachedGenes, cachedFeatures, cachedOrthologs])
+  // ── Source rows ──────────────────────────────────────────────────────
+  const allRows = useMemo(() => {
+    if (!master) return []
+    return Object.values(master.genes).map((g) => ({
+      symbol:        g.gene || '',
+      classes:       arr(g.ciliopathy_classes),
+      localization:  arr(g.localization),
+      diseases:      arr(g.ciliopathies),
+      synonyms:      arr(g.synonyms),
+    }))
+  }, [master])
 
-  // ── Multi-type autocomplete (genes + diseases) ──────────────────────────
-  const suggestions: RichSuggestion[] = useMemo(() => {
-    const q = debouncedInput.trim().toLowerCase()
-    if (!q) return []
-    const max = q.length === 1 ? 10 : 8
-    const seen = new Set<string>()
-    const out: RichSuggestion[] = []
+  // Class label for display (short, fits in table cell)
+  function shortClass(cs: string[]): string {
+    if (cs.length === 0) return ''
+    const c = cs[0]
+    if (c.startsWith('Primary'))   return 'Primary'
+    if (c.startsWith('Secondary')) return 'Secondary'
+    if (c.startsWith('Motile'))    return 'Motile'
+    if (c.startsWith('Tissue'))    return 'Tissue'
+    return c
+  }
 
-    for (const g of cachedGenes) {
-      if (out.length >= max) break
-      const name = g['Human Gene Name']
-      if (name && name.toLowerCase().startsWith(q) && !seen.has(`g:${name}`)) {
-        seen.add(`g:${name}`)
-        out.push({ label: name, kind: 'gene', hint: g.Ciliopathy })
+  // ── Filtering ────────────────────────────────────────────────────────
+  const q = query.trim().toLowerCase()
+  const filteredRows = useMemo(() => {
+    return allRows.filter((r) => {
+      // Class filter
+      if (classId !== 'all') {
+        if (!r.classes.includes(classId)) return false
       }
-    }
-    if (out.length < max) {
-      for (const d of filterOptions.diseases) {
-        if (out.length >= max) break
-        if (d.toLowerCase().includes(q) && !seen.has(`d:${d}`)) {
-          seen.add(`d:${d}`)
-          out.push({ label: d, kind: 'disease' })
-        }
-      }
-    }
-    return out
-  }, [debouncedInput, cachedGenes, filterOptions.diseases])
-
-  // ── The one search function ─────────────────────────────────────────────
-  const runSearch = useCallback(() => {
-    if (isLoading) return
-    const hasQuery = urlQuery.trim().length > 0
-
-    // If nothing is set, clear results.
-    if (!hasQuery && !hasAnyFilter) {
-      setResults(EMPTY_RESULTS)
-      return
-    }
-
-    setIsSearching(true)
-    try {
-      let genes: CiliopathyGene[] = []
-      let features: CiliopathyFeature[] = []
-      let orthologs: OrthologGene[] = []
-
-      if (searchType === 'all' || searchType === 'gene') genes = [...cachedGenes]
-      if (searchType === 'all' || searchType === 'disease') features = [...cachedFeatures]
-      if (searchType === 'all' || searchType === 'ortholog') orthologs = [...cachedOrthologs]
-
-      const q = urlQuery.trim().toLowerCase()
+      // Search filter — matches gene, disease, localization, synonym
       if (q) {
-        genes = genes.filter(g =>
-          g['Human Gene Name']?.toLowerCase().includes(q) ||
-          g.Ciliopathy?.toLowerCase().includes(q) ||
-          g['Gene MIM Number']?.toLowerCase().includes(q) ||
-          g['Human Gene ID']?.toLowerCase().includes(q)
-        )
-        features = features.filter(f =>
-          f.Disease?.toLowerCase().includes(q) ||
-          f['Ciliopathy / Clinical Features']?.toLowerCase().includes(q)
-        )
-        orthologs = orthologs.filter(o =>
-          o['Human Gene Name']?.toLowerCase().includes(q) ||
-          o['Ortholog Gene Name']?.toLowerCase().includes(q)
-        )
+        const hay = [
+          r.symbol,
+          ...r.diseases,
+          ...r.localization,
+          ...r.synonyms,
+        ].join(' ').toLowerCase()
+        if (!hay.includes(q)) return false
       }
-
-      if (disease) {
-        const d = disease.toLowerCase()
-        genes = genes.filter(g => g.Ciliopathy?.toLowerCase().includes(d))
-        features = features.filter(f =>
-          f.Disease?.toLowerCase().includes(d) || f.Ciliopathy?.toLowerCase().includes(d)
-        )
-        orthologs = orthologs.filter(o => o['Human Disease']?.toLowerCase().includes(d))
-      }
-      if (symptom) {
-        features = features.filter(f => f.Category?.toLowerCase().includes(symptom.toLowerCase()))
-      }
-      if (organism) {
-        orthologs = orthologs.filter(o => o.Organism?.toLowerCase().includes(organism.toLowerCase()))
-      }
-      if (localization) {
-        genes = genes.filter(g => g['Subcellular Localization']?.toLowerCase().includes(localization.toLowerCase()))
-      }
-
-      setResults({
-        genes, features, orthologs,
-        totalResults: genes.length + features.length + orthologs.length,
-      })
-    } catch (err) {
-      console.error('Search failed:', err)
-      setResults(EMPTY_RESULTS)
-    } finally {
-      setIsSearching(false)
-    }
-  }, [isLoading, urlQuery, searchType, disease, organism, localization, symptom, cachedGenes, cachedFeatures, cachedOrthologs, hasAnyFilter])
-
-  // Re-run search whenever URL-synced state changes (or data finishes loading).
-  useEffect(() => {
-    runSearch()
-  }, [runSearch])
-
-  // Keep the input in sync when URL changes externally (e.g. clicking a "Try" chip).
-  useEffect(() => {
-    setQuery(urlQuery)
-  }, [urlQuery])
-
-  const commitQuery = useCallback((value: string) => {
-    batchUpdate({ q: value.trim() || null, gp: null, fp: null, op: null })
-  }, [batchUpdate])
-
-  const clearAllFilters = () => {
-    batchUpdate({
-      q: null, type: null, disease: null, organism: null, loc: null, symptom: null,
-      gp: null, fp: null, op: null,
+      return true
     })
-    setQuery('')
-  }
+  }, [allRows, classId, q])
 
-  const copyShareLink = async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1500)
-    } catch {
-      // Clipboard unavailable — fall back silently.
+  // Reset to page 0 whenever filters change
+  useEffect(() => { setPage(0) }, [q, classId])
+
+  // ── Pagination slice ─────────────────────────────────────────────────
+  const total = filteredRows.length
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE))
+  const pageRows = filteredRows.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+
+  // ── Autocomplete suggestions ─────────────────────────────────────────
+  type Suggestion = { kind: 'gene' | 'disease'; label: string; matched_via?: string }
+  const suggestions = useMemo<Suggestion[]>(() => {
+    if (q.length < 1 || !master) return []
+    const seen = new Set<string>()
+    const out: Suggestion[] = []
+
+    // Prefix-match genes first (most predictable autocomplete behaviour)
+    const prefix: Suggestion[] = []
+    const contains: Suggestion[] = []
+    const synonymPrefix: Suggestion[] = []
+    const synonymContains: Suggestion[] = []
+    for (const sym of Object.keys(master.genes)) {
+      const lower = sym.toLowerCase()
+      if (lower.startsWith(q)) prefix.push({ kind: 'gene', label: sym })
+      else if (lower.includes(q)) contains.push({ kind: 'gene', label: sym })
+      // Also check synonyms — resolve to canonical `sym`, tag with matched_via so
+      // the dropdown can show "SYNONYM → CANONICAL" to the user
+      const gene = master.genes[sym]
+      for (const syn of arr(gene.synonyms)) {
+        const synLower = syn.toLowerCase()
+        if (synLower === lower) continue                             // don't double-count self
+        if (synLower.startsWith(q))      synonymPrefix.push({   kind: 'gene', label: sym, matched_via: syn })
+        else if (synLower.includes(q))   synonymContains.push({ kind: 'gene', label: sym, matched_via: syn })
+      }
+    }
+    prefix.sort((a, b) => a.label.length - b.label.length || a.label.localeCompare(b.label))
+    for (const s of prefix) {
+      if (!seen.has(s.label)) { out.push(s); seen.add(s.label) }
+      if (out.length >= 5) break
+    }
+    if (out.length < 5) {
+      synonymPrefix.sort((a, b) => a.label.localeCompare(b.label))
+      for (const s of synonymPrefix) {
+        if (!seen.has(s.label)) { out.push(s); seen.add(s.label) }
+        if (out.length >= 5) break
+      }
+    }
+    if (out.length < 7) {
+      for (const s of contains) {
+        if (!seen.has(s.label)) { out.push(s); seen.add(s.label) }
+        if (out.length >= 7) break
+      }
+    }
+    if (out.length < 7) {
+      for (const s of synonymContains) {
+        if (!seen.has(s.label)) { out.push(s); seen.add(s.label) }
+        if (out.length >= 7) break
+      }
+    }
+
+    // Then unique disease names
+    const diseaseSet = new Set<string>()
+    Array.from(Object.values(master.genes)).forEach((g) => {
+      for (const d of arr(g.ciliopathies)) diseaseSet.add(d)
+    })
+    const diseases = Array.from(diseaseSet).filter((d) => d.toLowerCase().includes(q))
+    diseases.sort((a, b) => a.length - b.length || a.localeCompare(b))
+    for (const d of diseases.slice(0, 4)) {
+      if (!seen.has(d)) { out.push({ kind: 'disease', label: d }); seen.add(d) }
+      if (out.length >= 9) break
+    }
+    return out.slice(0, 9)
+  }, [q, master])
+
+  // ── Suggestion / keyboard navigation ────────────────────────────────
+  function goSuggestion(s: Suggestion) {
+    if (s.kind === 'gene')         router.push(`/gene/${encodeURIComponent(s.label)}`)
+    else if (s.kind === 'disease') router.push(`/disease/${encodeURIComponent(s.label)}`)
+  }
+  function submit() {
+    if (active >= 0 && suggestions[active]) { goSuggestion(suggestions[active]); return }
+    // Otherwise: just keep the filter applied to the table; do nothing
+    setOpen(false)
+  }
+  function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      if (suggestions.length === 0) return
+      setOpen(true)
+      setActive((i) => Math.min(suggestions.length - 1, i + 1))
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setActive((i) => Math.max(-1, i - 1))
+    } else if (e.key === 'Escape') {
+      setOpen(false); setActive(-1)
+    } else if (e.key === 'Enter') {
+      submit()
     }
   }
 
-  const handleDownload = (format: 'csv' | 'json') => {
-    const scope = `search_${urlQuery || 'filtered'}`
-    if (format === 'json') {
-      downloadAs('json', [results as unknown as Record<string, unknown>], scope)
-      return
-    }
-    downloadMultiSectionCsv(
-      [
-        {
-          title: 'Genes',
-          rows: results.genes.map(g => ({
-            'Gene Name': g['Human Gene Name'],
-            Ciliopathy: g.Ciliopathy,
-            Localization: g['Subcellular Localization'],
-            'MIM Number': g['Gene MIM Number'],
-          })),
-        },
-        {
-          title: 'Clinical Features',
-          rows: results.features.map(f => ({
-            Disease: f.Disease || f.Ciliopathy,
-            Feature: f['Ciliopathy / Clinical Features'] || f.Feature,
-            Category: f.Category,
-          })),
-        },
-        {
-          title: 'Orthologs',
-          rows: results.orthologs.map(o => ({
-            'Human Gene': o['Human Gene Name'],
-            'Ortholog Gene': o['Ortholog Gene Name'],
-            Organism: o.Organism,
-          })),
-        },
-      ],
-      scope
-    )
-  }
-
-  const showingResults = results.totalResults > 0
-  const isActive = urlQuery.trim().length > 0 || hasAnyFilter
-
+  // ── Render ───────────────────────────────────────────────────────────
   return (
     <Layout>
-      <Breadcrumbs trail={[{ label: 'Search' }]} />
+      <div className="flex flex-col justify-center min-h-[calc(100vh-220px)]">
+        {/* ── Search and Quick View Controller ─────────────────────── */}
+        <div className="bg-white p-4 rounded-lg border border-stone-200 shadow-sm mb-6">
+          <div className="relative">
+            <input
+              ref={inputRef}
+              type="text"
+              autoFocus
+              autoComplete="off"
+              spellCheck={false}
+              placeholder="Search by gene symbol, disease category, or clinical symptoms..."
+              value={query}
+              onChange={(e) => { setQuery(e.target.value); setOpen(true); setActive(-1) }}
+              onFocus={() => setOpen(true)}
+              onBlur={() => setTimeout(() => setOpen(false), 120)}
+              onKeyDown={onKeyDown}
+              aria-expanded={open && suggestions.length > 0}
+              aria-controls="home-search-listbox"
+              role="combobox"
+              className="w-full pl-10 pr-4 py-2.5 text-sm bg-stone-50 border border-stone-200 rounded focus:outline-none focus:ring-1 focus:ring-red-800 focus:bg-white transition text-stone-900 font-medium"
+            />
+            <Search
+              className="w-4 h-4 text-stone-400 absolute left-3.5 top-3.5 pointer-events-none"
+              aria-hidden="true"
+            />
 
-      <div className="space-y-6 max-w-5xl mx-auto">
-        {/* ── HEADER ─────────────────────────────────────────────────── */}
-        <header className="pt-2">
-          <p className="eyebrow mb-3">
-            <span className="inline-block h-px w-6 bg-accent align-middle mr-2" />
-            Search
-          </p>
-          <h1 className="font-display text-title text-primary-800 mb-2">
-            Query the database.
-          </h1>
-          <p className="text-sm text-primary-500 max-w-xl">
-            One input, one set of filters. Everything you pick is reflected
-            in the URL — bookmark the link to preserve the exact view.
-          </p>
-        </header>
-
-        {loadError && (
-          <EmptyState
-            icon={Search}
-            title="Database failed to load"
-            hint={<span className="font-mono text-[11px]">{loadError}</span>}
-          />
-        )}
-
-        {/* ── UNIFIED SEARCH BLOCK ───────────────────────────────────── */}
-        <section className="card space-y-4">
-          <SearchInput
-            value={query}
-            onChange={setQuery}
-            onSearch={(q) => commitQuery(q ?? query)}
-            placeholder="Gene symbol, disease name, Ensembl ID, MIM number…"
-            isLoading={isSearching}
-            suggestions={suggestions}
-            listboxId="unified-search-suggestions"
-          />
-
-          {/* TRY examples */}
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-            <span className="eyebrow">Try</span>
-            {TRY_QUERIES.map((q, i) => (
-              <React.Fragment key={q}>
-                <button
-                  onClick={() => {
-                    setQuery(q)
-                    commitQuery(q)
-                  }}
-                  className="font-mono text-xs text-primary-600 hover:text-accent transition-colors underline decoration-primary-200 decoration-dotted underline-offset-4 hover:decoration-accent"
-                >
-                  {q}
-                </button>
-                {i < TRY_QUERIES.length - 1 && (
-                  <span aria-hidden className="text-primary-300 select-none">·</span>
-                )}
-              </React.Fragment>
-            ))}
-          </div>
-
-          {/* FILTER PILLS */}
-          <div className="flex flex-wrap items-center gap-2 pt-4 border-t border-primary-100">
-            <span className="eyebrow mr-1">Filtering</span>
-
-            <FilterPill
-              label="dataset"
-              activeLabel={
-                searchType !== 'all'
-                  ? (DATASET_OPTIONS.find(o => o.value === searchType)?.label ?? null)
-                  : null
-              }
-              onClear={() => setSearchType('all')}
-            >
-              {({ close }) => (
-                <div className="p-1">
-                  {DATASET_OPTIONS.map(opt => (
+            {/* Autocomplete dropdown */}
+            {open && suggestions.length > 0 && (
+              <ul
+                id="home-search-listbox"
+                role="listbox"
+                className="absolute left-0 right-0 top-full mt-1 bg-white border border-stone-200 rounded shadow-md z-20 overflow-hidden"
+              >
+                {suggestions.map((s, i) => (
+                  <li key={`${s.kind}-${s.label}-${s.matched_via ?? ''}`} role="option" aria-selected={i === active}>
                     <button
-                      key={opt.value}
-                      onClick={() => { setSearchType(opt.value); close() }}
-                      className={`block w-full text-left px-3 py-2 text-sm rounded-sm transition-colors ${
-                        searchType === opt.value
-                          ? 'bg-surface-muted text-accent font-medium'
-                          : 'text-primary-700 hover:bg-surface-muted'
+                      type="button"
+                      onMouseDown={(e) => { e.preventDefault(); goSuggestion(s) }}
+                      onMouseEnter={() => setActive(i)}
+                      className={`w-full px-3 py-2 flex items-baseline justify-between gap-3 text-left text-xs transition ${
+                        i === active ? 'bg-stone-100 text-red-800' : 'text-stone-700 hover:bg-stone-50'
                       }`}
                     >
-                      {opt.label}
+                      <span className="font-semibold flex-1 truncate">
+                        {s.matched_via ? (
+                          <>
+                            <span className="font-mono">{s.matched_via}</span>
+                            <span className="text-stone-400 mx-1.5">→</span>
+                            <span>{s.label}</span>
+                          </>
+                        ) : s.label}
+                      </span>
+                      <span className="text-[11px] uppercase tracking-wider text-stone-400 font-mono">
+                        {s.matched_via ? 'synonym' : s.kind}
+                      </span>
                     </button>
-                  ))}
-                </div>
-              )}
-            </FilterPill>
-
-            <FilterPill
-              label="disease"
-              activeLabel={disease || null}
-              onClear={() => setDisease('')}
-            >
-              {({ close }) => (
-                <FilterList
-                  options={filterOptions.diseases}
-                  selected={disease}
-                  onPick={(v) => { setDisease(v); close() }}
-                />
-              )}
-            </FilterPill>
-
-            <FilterPill
-              label="organism"
-              activeLabel={organism || null}
-              onClear={() => setOrganism('')}
-            >
-              {({ close }) => (
-                <FilterList
-                  options={filterOptions.organisms}
-                  selected={organism}
-                  onPick={(v) => { setOrganism(v); close() }}
-                />
-              )}
-            </FilterPill>
-
-            <FilterPill
-              label="localization"
-              activeLabel={localization || null}
-              onClear={() => setLocalization('')}
-            >
-              {({ close }) => (
-                <FilterList
-                  options={filterOptions.localizations}
-                  selected={localization}
-                  onPick={(v) => { setLocalization(v); close() }}
-                />
-              )}
-            </FilterPill>
-
-            <FilterPill
-              label="symptom"
-              activeLabel={symptom || null}
-              onClear={() => setSymptom('')}
-            >
-              {({ close }) => (
-                <FilterList
-                  options={filterOptions.symptoms}
-                  selected={symptom}
-                  onPick={(v) => { setSymptom(v); close() }}
-                />
-              )}
-            </FilterPill>
-
-            {isActive && (
-              <button
-                onClick={clearAllFilters}
-                className="ml-auto text-[11px] font-mono uppercase tracking-[0.14em] text-primary-400 hover:text-accent transition-colors"
-              >
-                Reset all
-              </button>
+                  </li>
+                ))}
+              </ul>
             )}
           </div>
 
-          {/* STATUS STRIP */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-primary-100 text-[11px] font-mono">
-            <span className="text-primary-400">
-              {cachedGenes.length.toLocaleString()} genes
-              <span className="mx-2 text-primary-200">·</span>
-              {filterOptions.diseases.length.toLocaleString()} diseases
-              <span className="mx-2 text-primary-200">·</span>
-              {filterOptions.organisms.length.toLocaleString()} organisms indexed
-            </span>
-            <button
-              onClick={copyShareLink}
-              disabled={!isActive}
-              className="inline-flex items-center gap-1.5 text-primary-500 hover:text-accent transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
-              title={isActive ? 'Copy shareable link' : 'Set a query or filter first'}
-            >
-              <Link2 className="h-3 w-3" />
-              {copied ? 'link copied' : 'copy link to this view'}
-            </button>
-          </div>
-        </section>
-
-        {/* ── RESULTS ─────────────────────────────────────────────────── */}
-        {isSearching && !showingResults && (
-          <div className="card py-8 text-center">
-            <div className="animate-spin rounded-full h-5 w-5 border-2 border-accent border-t-transparent mx-auto mb-3" />
-            <p className="text-sm text-primary-400 font-mono">Searching…</p>
-          </div>
-        )}
-
-        {!isSearching && !isActive && (
-          <div className="py-8 text-center text-sm text-primary-400">
-            Type a query above or pick a filter to begin.
-          </div>
-        )}
-
-        {!isSearching && isActive && !showingResults && (
-          <EmptyState
-            icon={Search}
-            title="No matches for this combination."
-            hint="Relax one of the filters or try a different query. The URL records everything — use your browser's back button to undo."
-          />
-        )}
-
-        {showingResults && (
-          <div className="card">
-            <div className="flex justify-between items-center mb-4 gap-4 flex-wrap">
-              <h2 className="eyebrow">
-                {results.totalResults.toLocaleString()} result{results.totalResults === 1 ? '' : 's'}
-                {results.genes.length > 0 && <span className="mx-2 text-primary-300">·</span>}
-                {results.genes.length > 0 && (
-                  <span className="text-primary-500 font-normal">
-                    {results.genes.length} gene{results.genes.length === 1 ? '' : 's'}
-                  </span>
-                )}
-                {results.features.length > 0 && <span className="mx-2 text-primary-300">·</span>}
-                {results.features.length > 0 && (
-                  <span className="text-primary-500 font-normal">
-                    {results.features.length} feature{results.features.length === 1 ? '' : 's'}
-                  </span>
-                )}
-                {results.orthologs.length > 0 && <span className="mx-2 text-primary-300">·</span>}
-                {results.orthologs.length > 0 && (
-                  <span className="text-primary-500 font-normal">
-                    {results.orthologs.length} ortholog{results.orthologs.length === 1 ? '' : 's'}
-                  </span>
-                )}
-              </h2>
-              <div className="flex gap-2">
-                <button onClick={() => handleDownload('csv')} className="btn-secondary text-xs">
-                  <Download className="h-3.5 w-3.5" /> CSV
+          {/* Quick view filter chips */}
+          <div className="flex flex-wrap items-center gap-2 mt-4 pt-3 border-t border-stone-100 text-xs font-semibold">
+            <span className="text-stone-400 font-medium mr-1">Quick view:</span>
+            {CLASS_FILTERS.map((f) => {
+              const isActive = classId === f.id
+              return (
+                <button
+                  key={f.id}
+                  type="button"
+                  onClick={() => setClassId(f.id)}
+                  className={
+                    isActive
+                      ? 'px-3 py-1 bg-red-800 text-white rounded'
+                      : 'px-3 py-1 bg-stone-100 text-stone-600 rounded hover:bg-stone-200 transition'
+                  }
+                >
+                  {f.label}
                 </button>
-                <button onClick={() => handleDownload('json')} className="btn-secondary text-xs">
-                  <Download className="h-3.5 w-3.5" /> JSON
-                </button>
-              </div>
+              )
+            })}
+          </div>
+        </div>
+
+        {/* ── Data table ────────────────────────────────────────────── */}
+        <div className="bg-white rounded-lg border border-stone-200 shadow-sm overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-stone-50 border-b border-stone-200 text-xs font-bold uppercase tracking-wider text-stone-600">
+                  <th className="py-3 px-6">Gene</th>
+                  <th className="py-3 px-4">Category</th>
+                  <th className="py-3 px-4">Subcellular Localization</th>
+                  <th className="py-3 px-6 text-right">Associated Disease</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-stone-200 text-xs text-stone-700">
+                {!master && (
+                  <tr>
+                    <td colSpan={4} className="py-10 px-6 text-center text-stone-400 font-mono">
+                      Loading…
+                    </td>
+                  </tr>
+                )}
+                {master && pageRows.length === 0 && (
+                  <tr>
+                    <td colSpan={4} className="py-10 px-6 text-center text-stone-400">
+                      No genes match the current filters.
+                    </td>
+                  </tr>
+                )}
+                {pageRows.map((r) => (
+                  <tr key={r.symbol} className="hover:bg-stone-50/50 transition">
+                    <td className="py-3.5 px-6 font-semibold text-stone-900">
+                      <Link
+                        href={`/gene/${encodeURIComponent(r.symbol)}`}
+                        className="hover:text-red-800 transition"
+                      >
+                        {r.symbol}
+                      </Link>
+                    </td>
+                    <td className="py-3.5 px-4">{shortClass(r.classes)}</td>
+                    <td className="py-3.5 px-4 text-stone-500">
+                      {r.localization.slice(0, 2).join(', ')}
+                    </td>
+                    <td className="py-3.5 px-6 text-right text-stone-600">
+                      {r.diseases[0] ? (
+                        <Link
+                          href={`/disease/${encodeURIComponent(r.diseases[0])}`}
+                          className="hover:text-red-800 transition"
+                        >
+                          {r.diseases[0]}
+                        </Link>
+                      ) : (
+                        <span className="text-stone-300">—</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Pagination footer */}
+          <div className="p-4 border-t border-stone-200 bg-stone-50/50 flex items-center justify-between text-xs text-stone-500">
+            <div>
+              {total === 0
+                ? 'No items'
+                : `Showing ${page * PAGE_SIZE + 1}-${Math.min((page + 1) * PAGE_SIZE, total)} of ${total} items`}
             </div>
-
-            {results.genes.length > 0 && (
-              <div className="mb-6">
-                <h3 className="eyebrow mb-3">Genes · {results.genes.length.toLocaleString()}</h3>
-                <ResultsTable
-                  columns={[
-                    { label: 'Gene', render: (g: CiliopathyGene) => <span className="font-mono font-semibold text-primary-800">{g['Human Gene Name']}</span> },
-                    { label: 'Ciliopathy', render: (g: CiliopathyGene) => g.Ciliopathy },
-                    { label: 'Localization', render: (g: CiliopathyGene) => g['Subcellular Localization'] || '—' },
-                  ]}
-                  rows={results.genes.slice((genesPage - 1) * ITEMS_PER_PAGE, genesPage * ITEMS_PER_PAGE)}
-                />
-                <Pagination currentPage={genesPage} totalItems={results.genes.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setGenesPage} />
-              </div>
-            )}
-
-            {results.features.length > 0 && (
-              <div className="mb-6">
-                <h3 className="eyebrow mb-3">Clinical features · {results.features.length.toLocaleString()}</h3>
-                <ResultsTable
-                  columns={[
-                    { label: 'Disease', render: (f: CiliopathyFeature) => f.Disease || f.Ciliopathy || '—' },
-                    { label: 'Feature', render: (f: CiliopathyFeature) => f['Ciliopathy / Clinical Features'] || f.Feature || '—' },
-                    { label: 'Category', render: (f: CiliopathyFeature) => f.Category || '—' },
-                  ]}
-                  rows={results.features.slice((featuresPage - 1) * ITEMS_PER_PAGE, featuresPage * ITEMS_PER_PAGE)}
-                />
-                <Pagination currentPage={featuresPage} totalItems={results.features.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setFeaturesPage} />
-              </div>
-            )}
-
-            {results.orthologs.length > 0 && (
-              <div>
-                <h3 className="eyebrow mb-3">Orthologs · {results.orthologs.length.toLocaleString()}</h3>
-                <ResultsTable
-                  columns={[
-                    { label: 'Human Gene', render: (o: OrthologGene) => <span className="font-mono font-semibold text-primary-800">{o['Human Gene Name']}</span> },
-                    { label: 'Ortholog Gene', render: (o: OrthologGene) => <span className="font-mono text-primary-700">{o['Ortholog Gene Name']}</span> },
-                    { label: 'Organism', render: (o: OrthologGene) => <em className="italic">{o.Organism}</em> },
-                  ]}
-                  rows={results.orthologs.slice((orthologsPage - 1) * ITEMS_PER_PAGE, orthologsPage * ITEMS_PER_PAGE)}
-                />
-                <Pagination currentPage={orthologsPage} totalItems={results.orthologs.length} itemsPerPage={ITEMS_PER_PAGE} onPageChange={setOrthologsPage} />
-              </div>
-            )}
+            <div className="flex space-x-1">
+              <PageButtons page={page} totalPages={totalPages} onChange={setPage} />
+            </div>
           </div>
-        )}
+        </div>
       </div>
     </Layout>
   )
 }
 
-// ─── FilterPill: a chip + popover ────────────────────────────────────────────
+// ── Pagination buttons ────────────────────────────────────────────────
 
-interface FilterPillProps {
-  label: string
-  activeLabel: string | null
-  onClear: () => void
-  children: (ctx: { close: () => void }) => React.ReactNode
-}
-
-function FilterPill({ label, activeLabel, onClear, children }: FilterPillProps) {
-  const [open, setOpen] = useState(false)
-  const ref = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    if (!open) return
-    const handler = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
-    }
-    const esc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setOpen(false)
-    }
-    document.addEventListener('mousedown', handler)
-    document.addEventListener('keydown', esc)
-    return () => {
-      document.removeEventListener('mousedown', handler)
-      document.removeEventListener('keydown', esc)
-    }
-  }, [open])
-
-  const isActive = Boolean(activeLabel)
-
-  return (
-    <div ref={ref} className="relative">
-      <div className={`inline-flex items-stretch rounded-sm overflow-hidden border transition-colors ${
-        isActive ? 'border-accent bg-accent/5' : 'border-primary-200 hover:border-primary-400'
-      }`}>
-        <button
-          onClick={() => setOpen(o => !o)}
-          aria-expanded={open}
-          className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium transition-colors ${
-            isActive ? 'text-accent' : 'text-primary-600'
-          }`}
-        >
-          <span className="uppercase tracking-[0.1em] text-[10px]">{label}</span>
-          <span className={isActive ? 'text-accent font-normal' : 'text-primary-400 font-normal'}>
-            {activeLabel ? truncate(activeLabel, 22) : 'any'}
-          </span>
-          <ChevronDown className="h-3 w-3" />
-        </button>
-        {isActive && (
-          <button
-            onClick={(e) => { e.stopPropagation(); onClear(); setOpen(false) }}
-            className="pl-1.5 pr-2 text-accent/60 hover:text-accent border-l border-accent/30 transition-colors"
-            aria-label={`Clear ${label} filter`}
-          >
-            <X className="h-3 w-3" />
-          </button>
-        )}
-      </div>
-
-      {open && (
-        <div className="absolute left-0 top-full mt-2 z-40 min-w-[18rem] max-w-[22rem] bg-surface border border-primary-200 rounded-sm shadow-lg shadow-primary-800/5 overflow-hidden">
-          {children({ close: () => setOpen(false) })}
-        </div>
-      )}
-    </div>
-  )
-}
-
-function truncate(s: string, n: number) {
-  return s.length > n ? `${s.slice(0, n - 1)}…` : s
-}
-
-// ─── FilterList: a filterable list inside a pill's popover ───────────────────
-
-function FilterList({
-  options,
-  selected,
-  onPick,
+function PageButtons({
+  page, totalPages, onChange,
 }: {
-  options: string[]
-  selected: string
-  onPick: (value: string) => void
+  page: number
+  totalPages: number
+  onChange: (p: number) => void
 }) {
-  const [q, setQ] = useState('')
+  // Show up to 5 page buttons: 1, current-1, current, current+1, last
+  // with ellipses where there are gaps.
+  if (totalPages <= 1) {
+    return (
+      <button
+        type="button"
+        className="px-2 py-1 bg-white border border-stone-200 rounded text-stone-700 font-bold"
+      >
+        1
+      </button>
+    )
+  }
 
-  const filtered = useMemo(() => {
-    const needle = q.trim().toLowerCase()
-    if (!needle) return options.slice(0, 200)
-    return options.filter(o => o.toLowerCase().includes(needle)).slice(0, 200)
-  }, [q, options])
+  const pages: number[] = []
+  pages.push(0)
+  if (page - 1 > 0) pages.push(page - 1)
+  if (page !== 0 && page !== totalPages - 1) pages.push(page)
+  if (page + 1 < totalPages - 1) pages.push(page + 1)
+  if (totalPages - 1 !== 0) pages.push(totalPages - 1)
 
-  return (
-    <div className="flex flex-col max-h-80">
-      <div className="px-3 py-2 border-b border-primary-100">
-        <input
-          type="text"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder={`Filter ${options.length} options…`}
-          autoFocus
-          className="w-full bg-transparent text-sm text-primary-800 placeholder:text-primary-300 focus:outline-none"
-        />
-      </div>
-      <div className="overflow-y-auto py-1">
-        <button
-          onClick={() => onPick('')}
-          className={`block w-full text-left px-3 py-1.5 text-sm transition-colors ${
-            !selected ? 'text-accent font-medium bg-surface-muted' : 'text-primary-500 hover:bg-surface-muted'
-          }`}
-        >
-          Any
-        </button>
-        {filtered.length === 0 ? (
-          <p className="px-3 py-2 text-xs text-primary-400 italic">No matches.</p>
-        ) : (
-          filtered.map(opt => (
-            <button
-              key={opt}
-              onClick={() => onPick(opt)}
-              className={`block w-full text-left px-3 py-1.5 text-sm transition-colors ${
-                selected === opt
-                  ? 'text-accent font-medium bg-surface-muted'
-                  : 'text-primary-700 hover:bg-surface-muted'
-              }`}
-              title={opt}
-            >
-              <span className="block truncate">{opt}</span>
-            </button>
-          ))
-        )}
-      </div>
-      {options.length > 200 && !q && (
-        <p className="px-3 py-1.5 text-[10px] text-primary-400 font-mono border-t border-primary-100">
-          Showing first 200 · type to filter the rest
-        </p>
-      )}
-    </div>
-  )
-}
+  const unique = Array.from(new Set(pages)).sort((a, b) => a - b)
 
-// ─── Pagination + ResultsTable ───────────────────────────────────────────────
-
-function Pagination({
-  currentPage,
-  totalItems,
-  itemsPerPage,
-  onPageChange,
-}: {
-  currentPage: number
-  totalItems: number
-  itemsPerPage: number
-  onPageChange: (page: number) => void
-}) {
-  const totalPages = Math.ceil(totalItems / itemsPerPage)
-  const start = (currentPage - 1) * itemsPerPage + 1
-  const end = Math.min(currentPage * itemsPerPage, totalItems)
-  if (totalPages <= 1) return null
-  return (
-    <div className="flex items-center justify-between mt-3">
-      <p className="text-xs text-primary-400 font-mono">
-        {start.toLocaleString()}–{end.toLocaleString()} of {totalItems.toLocaleString()}
-      </p>
-      <div className="flex items-center gap-2">
-        <button
-          onClick={() => onPageChange(Math.max(1, currentPage - 1))}
-          disabled={currentPage === 1}
-          className="btn-secondary text-xs px-3 py-1.5 disabled:opacity-40"
-        >
-          Previous
-        </button>
-        <span className="text-xs text-primary-500 font-mono">
-          {currentPage} / {totalPages}
-        </span>
-        <button
-          onClick={() => onPageChange(Math.min(totalPages, currentPage + 1))}
-          disabled={currentPage >= totalPages}
-          className="btn-secondary text-xs px-3 py-1.5 disabled:opacity-40"
-        >
-          Next
-        </button>
-      </div>
-    </div>
-  )
-}
-
-interface Column<T> {
-  label: string
-  render: (row: T) => React.ReactNode
-}
-
-function ResultsTable<T>({ columns, rows }: { columns: Column<T>[]; rows: T[] }) {
-  return (
-    <div className="overflow-auto rounded-sm border border-primary-100" style={{ maxHeight: '50vh' }}>
-      <table className="min-w-full divide-y divide-primary-100">
-        <thead className="bg-surface-muted sticky top-0 z-10">
-          <tr>
-            {columns.map(col => (
-              <th key={col.label} scope="col" className="px-4 py-3 text-left eyebrow whitespace-nowrap">
-                {col.label}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody className="bg-surface divide-y divide-primary-50">
-          {rows.map((row, idx) => (
-            <tr key={idx} className="hover:bg-surface-muted transition-colors">
-              {columns.map(col => (
-                <td key={col.label} className="px-4 py-2.5 text-xs text-primary-700">
-                  {col.render(row)}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  )
+  const elems: React.ReactNode[] = []
+  let prev = -2
+  for (const p of unique) {
+    if (prev >= 0 && p - prev > 1) {
+      elems.push(
+        <span key={`gap-${p}`} className="px-1 py-1 text-stone-400">…</span>,
+      )
+    }
+    const isCur = p === page
+    elems.push(
+      <button
+        key={p}
+        type="button"
+        onClick={() => onChange(p)}
+        className={
+          isCur
+            ? 'px-2 py-1 bg-white border border-stone-200 rounded text-stone-700 font-bold'
+            : 'px-2 py-1 bg-white border border-stone-200 rounded text-stone-500 hover:bg-stone-100 transition'
+        }
+      >
+        {p + 1}
+      </button>,
+    )
+    prev = p
+  }
+  return <>{elems}</>
 }

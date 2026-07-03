@@ -223,11 +223,11 @@ function PageInner() {
                     {org.commonName}
                   </div>
                   {org.id !== 'all' && (
-                    <div className="text-[10px] italic text-primary-400 leading-tight mt-0.5">
+                    <div className="text-[11px] italic text-primary-400 leading-tight mt-0.5">
                       {org.name}
                     </div>
                   )}
-                  <div className="text-[10px] font-mono text-primary-500 mt-1.5">
+                  <div className="text-[11px] font-mono text-primary-500 mt-1.5">
                     {count.toLocaleString()}
                   </div>
                 </button>

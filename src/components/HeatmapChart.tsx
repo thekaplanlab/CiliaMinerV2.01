@@ -145,7 +145,7 @@ export function HeatmapChart({
             {yValues.map((y) => (
               <div
                 key={y}
-                className="bg-gray-100 p-2 text-[10px] font-medium text-gray-700 text-center flex items-end justify-center border-b border-gray-200"
+                className="bg-gray-100 p-2 text-[11px] font-medium text-gray-700 text-center flex items-end justify-center border-b border-gray-200"
                 style={{ 
                   writingMode: 'vertical-rl', 
                   textOrientation: 'mixed',
@@ -165,7 +165,7 @@ export function HeatmapChart({
               <React.Fragment key={x}>
                 {/* X-axis label */}
                 <div 
-                  className="bg-gray-100 p-2 text-[10px] font-medium text-gray-700 flex items-center border-r border-gray-200"
+                  className="bg-gray-100 p-2 text-[11px] font-medium text-gray-700 flex items-center border-r border-gray-200"
                   title={x}
                 >
                   <span className="truncate">
@@ -183,7 +183,7 @@ export function HeatmapChart({
                     <div
                       key={`${x}-${y}`}
                       className={cn(
-                        "relative p-1 text-[10px] text-center flex items-center justify-center cursor-pointer transition-all duration-200 font-semibold",
+                        "relative p-1 text-[11px] text-center flex items-center justify-center cursor-pointer transition-all duration-200 font-semibold",
                         isHovered ? "ring-2 ring-blue-500 ring-inset shadow-lg z-10" : "hover:shadow-md hover:z-10"
                       )}
                       style={{

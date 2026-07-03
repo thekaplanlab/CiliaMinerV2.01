@@ -1,393 +1,107 @@
-<<<<<<< HEAD
-# CiliaMiner V2.01
+# CiliaMiner search redesign — patch v2
 
-CiliaMiner is an integrated database for ciliopathy genes and ciliopathies. This repository contains a static Next.js frontend and a FastAPI backend that share generated dataset files.
+This patch redesigns `/advanced-search` and adds dedicated detail pages
+for genes and diseases. Everything is backed by the v15 master JSON.
 
-## Features
+## What's in the bundle
 
-- **Gene Search**: Search for ciliopathy-related genes with autocomplete
-- **Ciliopathy Search**: Find diseases and their associated genes
-- **Interactive Visualizations**: Charts and graphs for data analysis
-- **Data Export**: Download search results in CSV or JSON format
-- **Responsive Design**: Mobile-first approach with modern UI
-- **Static Generation**: Perfect for GitHub Pages deployment
+```
+ciliaminer-update/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx                       ← REPLACED  (home — already deployed in v1)
+│   │   ├── advanced-search/
+│   │   │   └── page.tsx                   ← REPLACED  (Google-style results list w/ tabs)
+│   │   ├── gene/[symbol]/
+│   │   │   └── page.tsx                   ← NEW       (gene detail page)
+│   │   └── disease/[name]/
+│   │       └── page.tsx                   ← NEW       (disease detail page)
+│   └── lib/
+│       ├── searchIndex.ts                 ← REPLACED  (suggestion hrefs now go to detail pages)
+│       └── masterData.ts                  ← NEW       (lazy loader for the full v15 JSON)
+├── public/data/
+│   ├── ciliopathy_genes_v15.json          ← (same file as v1, unchanged)
+│   └── search_index.json                  ← (same file as v1, unchanged)
+└── scripts/
+    └── build_search_index.py              ← (same file as v1, unchanged)
+```
 
-## Tech Stack
+## What changed in this round
 
-- **Framework**: Next.js (App Router, static export)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Charts**: Recharts
-- **Icons**: Lucide React
-- **Search**: Fuse.js for fuzzy searching
-- **Backend API**: FastAPI (Python)
-- **Data Processing**: Python ETL scripts to JSON datasets
+* **Home page** — gene/disease suggestions now link directly to the
+  appropriate detail page (`/gene/<symbol>` or `/disease/<name>`)
+  instead of `/advanced-search?q=...`. The "Search" button still
+  routes to `/advanced-search?q=...` for free-text queries.
 
-## Getting Started
+* **/advanced-search** — completely rewritten. No more xlsx pipeline.
+  - Single search bar at top (same look as the home page)
+  - Tabs: **All · Genes · Diseases** with live counts
+  - Google-style result cards: gene cards show diseases + class + OMIM
+    + synonyms; disease cards show class + gene count + abbreviation
+    + synonyms. Each card links to its detail page.
+  - 20 results per page, with previous / next pager
+  - Full keyboard handling on the bar's autocomplete (↑/↓/Enter/Esc)
 
-### Prerequisites
+* **/gene/[symbol]** — new detail page. Renders:
+  - Big mono gene symbol header, plain-English description
+  - External-ID strip: OMIM, Ensembl, UniProt, NCBI Gene (each opens
+    in a new tab to the canonical source)
+  - **Associated ciliopathies** list — each linked to its disease page
+  - **Functional summary** paragraph with PubMed IDs auto-linked
+  - **At a glance** grid: localization, functional category,
+    protein complex, pan/idio class, synonyms
+  - **Phenotypes**: human + mouse (when available)
+  - **References**: every PMID as a PubMed link
+  - Curation notes (when present)
 
-- Node.js 18+ 
-- npm or yarn
+* **/disease/[name]** — new detail page. Renders:
+  - Disease name, class label, OMIM preferred name, abbreviation
+  - Classification rationale (one-liner from the v15 master)
+  - Synonym chips + notes
+  - **Associated genes** grid — clickable, monospace, sorted alphabetically
 
-### Installation
+* **masterData.ts** — lazy loader. The full 1.1 MB master file is only
+  fetched the first time someone opens a detail page. Cached
+  module-globally so subsequent detail pages are instant.
 
-1. Clone the repository:
+## Install
+
+From `/var/www/CiliaMiner/CiliaMinerV2.01/`:
+
 ```bash
-git clone <your-repo-url>
-cd ciliaminer-nextjs
-```
+# 1. Upload the zip to the server (run on your Mac):
+#    scp ciliaminer-update.zip root@161.97.146.90:/var/www/CiliaMiner/CiliaMinerV2.01/
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
+# 2. On the server, unzip and replace files in-place:
+cd /var/www/CiliaMiner/CiliaMinerV2.01
+unzip -o ciliaminer-update.zip
+# This drops new files under ciliaminer-update/ — move them into the project:
+cp -r ciliaminer-update/. .
+rm -rf ciliaminer-update ciliaminer-update.zip
 
-3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```
-CiliaMinerV2.01/
-├── src/                    # Next.js frontend source
-│   ├── app/                # App Router pages/layout
-│   ├── components/         # UI components
-│   ├── lib/                # Frontend utilities
-│   ├── services/           # Frontend data services
-│   └── types/              # TypeScript types
-├── data/processed/         # Canonical generated JSON datasets
-├── public/data/            # Frontend runtime JSON datasets
-├── backend/                # FastAPI backend
-│   ├── app/                # Routers, services, models, config
-│   └── data/               # Backend runtime JSON datasets
-├── scripts/                # Data conversion and helper scripts
-├── package.json            # Frontend dependencies/scripts
-└── README.md
-```
-
-## Data Flow
-
-1. Update source workbook/CSV files.
-2. Run conversion scripts in `scripts/` to regenerate canonical JSON in `data/processed`.
-3. Scripts sync canonical JSON to:
-   - `public/data` (frontend runtime)
-   - `backend/data` (backend runtime)
-4. Frontend reads via `/data/*.json`; backend reads via `backend/data`.
-
-## Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run export` - Export static site
-
-### Adding New Pages
-
-1. Create a new file in `src/app/` (e.g., `ciliopathy-classification/page.tsx`)
-2. Export a default React component
-3. Use the `Layout` component for consistent styling
-
-### Adding New Components
-
-1. Create a new file in `src/components/`
-2. Export your component
-3. Import and use in your pages
-
-### Data Integration
-
-To update datasets:
-
-1. Convert workbook/CSV files to JSON using scripts in `scripts/`
-2. Canonical JSON is generated in `data/processed`
-3. Scripts sync runtime copies to `public/data` and `backend/data`
-4. Frontend fetches data from `/data`
-5. Backend services load data from `backend/data`
-
-## Deployment
-
-### GitHub Pages
-
-1. Build the project:
-```bash
+# 3. Rebuild and restart
+rm -rf .next
 npm run build
+pm2 reload all
 ```
 
-2. The static files will be in the `out/` directory
-3. Push to GitHub and enable GitHub Pages
-4. Set source to the `out/` directory
-
-### Other Static Hosting
-
-1. Build the project:
-```bash
-npm run build
-```
-
-2. Deploy the `out/` directory to your hosting provider
-
-## Customization
-
-### Colors
-
-Update colors in `tailwind.config.js`:
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: '#FF4500',    // Main brand color
-      secondary: '#74b3ce',  // Secondary color
-      accent: '#bd552e',     // Accent color
-    },
-  },
-},
-```
-
-### Styling
-
-- Global styles: `src/app/globals.css`
-- Component-specific styles: Use Tailwind classes
-- Custom CSS: Add to `globals.css` with `@layer` directives
-
-## Performance
-
-- **Static Generation**: All pages are pre-rendered at build time
-- **Code Splitting**: Automatic code splitting for optimal loading
-- **Image Optimization**: Built-in Next.js image optimization
-- **Bundle Analysis**: Use `@next/bundle-analyzer` for optimization
-
-## Browser Support
-
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- IE11+ (with polyfills if needed)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the same license as the original CiliaMiner project.
-
-## Support
-
-For questions and support, please contact the Kaplan Lab or create an issue in the repository.
-
-## Acknowledgments
-
-- Original CiliaMiner team
-- Next.js team for the excellent framework
-- Tailwind CSS for the utility-first CSS framework
-- Recharts for the charting library
-=======
-# CiliaMiner V2.01
-
-CiliaMiner is an integrated database for ciliopathy genes and ciliopathies. This repository contains a static Next.js frontend and a FastAPI backend that share generated dataset files.
-
-## Features
-
-- **Gene Search**: Search for ciliopathy-related genes with autocomplete
-- **Ciliopathy Search**: Find diseases and their associated genes
-- **Interactive Visualizations**: Charts and graphs for data analysis
-- **Data Export**: Download search results in CSV or JSON format
-- **Responsive Design**: Mobile-first approach with modern UI
-- **Static Generation**: Perfect for GitHub Pages deployment
-
-## Tech Stack
-
-- **Framework**: Next.js (App Router, static export)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Charts**: Recharts
-- **Icons**: Lucide React
-- **Search**: Fuse.js for fuzzy searching
-- **Backend API**: FastAPI (Python)
-- **Data Processing**: Python ETL scripts to JSON datasets
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd ciliaminer-nextjs
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```
-CiliaMinerV2.01/
-├── src/                    # Next.js frontend source
-│   ├── app/                # App Router pages/layout
-│   ├── components/         # UI components
-│   ├── lib/                # Frontend utilities
-│   ├── services/           # Frontend data services
-│   └── types/              # TypeScript types
-├── data/processed/         # Canonical generated JSON datasets
-├── public/data/            # Frontend runtime JSON datasets
-├── backend/                # FastAPI backend
-│   ├── app/                # Routers, services, models, config
-│   └── data/               # Backend runtime JSON datasets
-├── scripts/                # Data conversion and helper scripts
-├── package.json            # Frontend dependencies/scripts
-└── README.md
-```
-
-## Data Flow
-
-1. Update source workbook/CSV files.
-2. Run conversion scripts in `scripts/` to regenerate canonical JSON in `data/processed`.
-3. Scripts sync canonical JSON to:
-   - `public/data` (frontend runtime)
-   - `backend/data` (backend runtime)
-4. Frontend reads via `/data/*.json`; backend reads via `backend/data`.
-
-## Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run export` - Export static site
-
-### Adding New Pages
-
-1. Create a new file in `src/app/` (e.g., `ciliopathy-classification/page.tsx`)
-2. Export a default React component
-3. Use the `Layout` component for consistent styling
-
-### Adding New Components
-
-1. Create a new file in `src/components/`
-2. Export your component
-3. Import and use in your pages
-
-### Data Integration
-
-To update datasets:
-
-1. Convert workbook/CSV files to JSON using scripts in `scripts/`
-2. Canonical JSON is generated in `data/processed`
-3. Scripts sync runtime copies to `public/data` and `backend/data`
-4. Frontend fetches data from `/data`
-5. Backend services load data from `backend/data`
-
-## Deployment
-
-### GitHub Pages
-
-1. Build the project:
-```bash
-npm run build
-```
-
-2. The static files will be in the `out/` directory
-3. Push to GitHub and enable GitHub Pages
-4. Set source to the `out/` directory
-
-### Other Static Hosting
-
-1. Build the project:
-```bash
-npm run build
-```
-
-2. Deploy the `out/` directory to your hosting provider
-
-## Customization
-
-### Colors
-
-Update colors in `tailwind.config.js`:
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: '#FF4500',    // Main brand color
-      secondary: '#74b3ce',  // Secondary color
-      accent: '#bd552e',     // Accent color
-    },
-  },
-},
-```
-
-### Styling
-
-- Global styles: `src/app/globals.css`
-- Component-specific styles: Use Tailwind classes
-- Custom CSS: Add to `globals.css` with `@layer` directives
-
-## Performance
-
-- **Static Generation**: All pages are pre-rendered at build time
-- **Code Splitting**: Automatic code splitting for optimal loading
-- **Image Optimization**: Built-in Next.js image optimization
-- **Bundle Analysis**: Use `@next/bundle-analyzer` for optimization
-
-## Browser Support
-
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- IE11+ (with polyfills if needed)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the same license as the original CiliaMiner project.
-
-## Support
-
-For questions and support, please contact the Kaplan Lab or create an issue in the repository.
-
-## Acknowledgments
-
-- Original CiliaMiner team
-- Next.js team for the excellent framework
-- Tailwind CSS for the utility-first CSS framework
-- Recharts for the charting library
->>>>>>> 1ebae79 (New ciliaminerdepends on the excel file)
+## What to test once it's deployed
+
+1. **Home page**: type `BBS1` → click the dropdown item → should land on `/gene/BBS1`
+2. **Home page**: type `Joubert` → click the dropdown item → should land on `/disease/Joubert%20Syndrome`
+3. **Free-text search**: home page → type `obesity` → click Search button → should land on `/advanced-search?q=obesity` with mixed results
+4. **Tabs**: on the results page, click `Genes` / `Diseases` — URL should update to `?q=...&type=...` and counts should match
+5. **Pagination**: `/advanced-search?q=cep` should have ~20+ genes; pager at the bottom should let you flip pages
+6. **Detail pages**: click a gene card on the results page → detail page loads. Click an "Associated ciliopathy" → goes to the disease page. Click a gene chip on a disease page → goes back to the gene page.
+7. **External links**: on any gene detail page, click the OMIM/Ensembl/UniProt/NCBI links — each should open the right external page in a new tab.
+
+## Inner pages still on the old pipeline
+
+These pages still read from the old xlsx and aren't part of this patch:
+* `/ciliopathy-classification`
+* `/genes-orthologs`
+* `/symptoms-diseases`
+* `/analysis`
+* `/about`
+
+They'll keep working as before. Migrating them is the next chunk of work.

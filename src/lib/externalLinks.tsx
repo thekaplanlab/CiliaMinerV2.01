@@ -116,7 +116,7 @@ export function PubmedLinks({ ids }: { ids: string | null | undefined }) {
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-0.5 justify-center">
       {list.map((ref, idx) => (
-        <ExternalLink key={idx} href={pubmedHref(ref)} className="font-mono text-[11px]">
+        <ExternalLink key={idx} href={pubmedHref(ref)} className="font-mono text-[12px]">
           {ref}
         </ExternalLink>
       ))}
@@ -139,12 +139,12 @@ export function IdList({
   return (
     <div className="flex flex-col gap-0.5 items-center">
       {shown.map(id => (
-        <ExternalLink key={id} href={hrefFn(id)} className="font-mono text-[11px]">
+        <ExternalLink key={id} href={hrefFn(id)} className="font-mono text-[12px]">
           {id}
         </ExternalLink>
       ))}
       {remaining > 0 && (
-        <span className="text-[11px] text-primary-300 font-mono">+{remaining} more</span>
+        <span className="text-[12px] text-primary-300 font-mono">+{remaining} more</span>
       )}
     </div>
   )

@@ -54,10 +54,10 @@ export class ErrorBoundary extends React.Component<Props, State> {
         </h3>
         <p className="text-sm text-primary-500 max-w-sm leading-relaxed mb-1">
           The error was logged to the browser console. If it persists, open the
-          Data Quality Report (<code className="font-mono text-[11px]">window.__ciliaminer_quality_report</code>) and report what you see.
+          Data Quality Report (<code className="font-mono text-[12px]">window.__ciliaminer_quality_report</code>) and report what you see.
         </p>
         {this.state.error?.message && (
-          <pre className="text-[11px] font-mono text-primary-500 bg-surface-muted border border-primary-100 rounded-sm px-3 py-2 mt-4 max-w-md overflow-auto">
+          <pre className="text-[12px] font-mono text-primary-500 bg-surface-muted border border-primary-100 rounded-sm px-3 py-2 mt-4 max-w-md overflow-auto">
             {this.state.error.message}
           </pre>
         )}

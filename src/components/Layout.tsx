@@ -1,190 +1,170 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+/**
+ * Layout — shared site chrome.
+ *
+ *   Header — single white bar (h-14 on mobile, h-16 on desktop):
+ *     [Logo] CiliaMiner v15  | Nav (inline) | Theme toggle
+ *
+ *   Mobile (< md) stacks the nav into a second row that wraps freely
+ *   so all six items remain visible.
+ *
+ *   Footer — copyright + citation, sticks to bottom on short pages.
+ */
+
+import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { cn } from '@/lib/utils'
-import { Menu, X } from 'lucide-react'
+import { Moon, Sun } from 'lucide-react'
+import { useTheme } from '@/lib/theme'
 
-const navigation = [
-  { name: 'Search', href: '/advanced-search' },
-  { name: 'Classification', href: '/ciliopathy-classification' },
-  { name: 'Orthologs', href: '/genes-orthologs' },
-  { name: 'Clinical Features', href: '/symptoms-diseases' },
-  { name: 'Analysis', href: '/analysis' },
-  { name: 'About', href: '/about' },
+const NAV: Array<{ name: string; href: string }> = [
+  { name: 'Search',          href: '/advanced-search' },
+  { name: 'Classification',  href: '/ciliopathy-classification' },
+  { name: 'Symptoms',        href: '/symptoms-diseases' },
+  { name: 'Compare',         href: '/compare-diseases' },
+  { name: 'CilioSymptom',    href: '/ciliosymptom' },
+  { name: 'Gene Sets',       href: '/gene-set-analysis' },
+  { name: 'Publications',    href: '/publications' },
+  { name: 'About',           href: '/about' },
 ]
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname()
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-  const currentPath = pathname === '/' || !pathname ? '/' : pathname
-
-  useEffect(() => {
-    setMobileMenuOpen(false)
-  }, [pathname])
-
   return (
-    <div className="min-h-screen bg-surface-muted flex flex-col">
-      <a
-        href="#main-content"
-        className="sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:w-auto focus:h-auto focus:m-0 focus:overflow-visible focus:[clip:auto] focus:bg-surface focus:text-accent focus:rounded-sm focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
-      >
-        Skip to main content
-      </a>
-
-      {/* Masthead — editorial header with hairline rule */}
-      <nav
-        className="bg-surface-muted/90 backdrop-blur-sm border-b border-primary-200/60 sticky top-0 z-50"
-        aria-label="Main navigation"
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link
-              href="/"
-              className="group flex items-baseline gap-2 shrink-0"
-            >
-              <span className="font-display text-2xl text-primary-700 tracking-tight leading-none group-hover:text-accent transition-colors">
-                Cilia<span className="italic text-accent">Miner</span>
-              </span>
-            </Link>
-
-            {/* Desktop + tablet: horizontal nav */}
-            <div className="hidden md:flex items-center gap-1 overflow-x-auto scrollbar-hide">
-              {navigation.map((item) => {
-                const isActive = currentPath === item.href
-                return (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className={cn(
-                      'relative px-3 py-1.5 text-sm font-medium tracking-tight whitespace-nowrap transition-colors duration-150',
-                      isActive
-                        ? 'text-accent'
-                        : 'text-primary-500 hover:text-primary-700'
-                    )}
-                  >
-                    {item.name}
-                    {isActive && (
-                      <span
-                        aria-hidden
-                        className="absolute left-3 right-3 -bottom-0.5 h-px bg-accent"
-                      />
-                    )}
-                  </Link>
-                )
-              })}
-            </div>
-
-            {/* Mobile hamburger */}
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden flex items-center justify-center p-2 text-primary-600 hover:text-accent rounded-sm transition-colors"
-              aria-expanded={mobileMenuOpen}
-              aria-controls="mobile-menu"
-              aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
-            >
-              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-            </button>
-          </div>
-
-          {/* Mobile menu */}
-          <div
-            id="mobile-menu"
-            className={cn(
-              'md:hidden overflow-hidden transition-all duration-200 ease-in-out',
-              mobileMenuOpen ? 'max-h-[80vh] opacity-100 pb-4' : 'max-h-0 opacity-0'
-            )}
-          >
-            <div className="space-y-0.5 border-t border-primary-200/50 pt-3 mt-1">
-              {navigation.map((item) => {
-                const isActive = currentPath === item.href
-                return (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className={cn(
-                      'block px-3 py-2.5 text-sm font-medium rounded-sm transition-colors duration-150',
-                      isActive
-                        ? 'text-accent bg-surface'
-                        : 'text-primary-600 hover:text-primary-700 hover:bg-surface'
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <main id="main-content" className="flex-1 max-w-7xl w-full mx-auto px-6 lg:px-8 py-10">
+    <div className="bg-[#faf9f6] text-stone-800 min-h-screen flex flex-col antialiased">
+      <SiteHeader />
+      <main className="flex-1 max-w-6xl w-full mx-auto px-6 py-8">
         {children}
       </main>
+      <SiteFooter />
+    </div>
+  )
+}
 
-      {/* Colophon — editorial footer */}
-      <footer className="border-t border-primary-200/60 bg-surface-muted">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
-            <div className="md:col-span-4">
-              <div className="font-display text-xl text-primary-700 mb-3 leading-none">
-                Cilia<span className="italic text-accent">Miner</span>
-              </div>
-              <p className="text-sm text-primary-500 leading-relaxed max-w-xs">
-                An integrated reference for ciliopathy genes and associated disorders.
-                Maintained by the Kaplan Lab.
-              </p>
-            </div>
-            <div className="md:col-span-3">
-              <p className="eyebrow mb-3">Navigate</p>
-              <ul className="space-y-1.5">
-                {navigation.map((item) => (
-                  <li key={item.name}>
-                    <Link href={item.href} className="text-sm text-primary-600 hover:text-accent transition-colors">
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="md:col-span-5">
-              <p className="eyebrow mb-3">Cite</p>
-              <p className="text-sm text-primary-600 leading-relaxed">
-                Turan, M. G., et al. (2023). CiliaMiner: an integrated database
-                for ciliopathy genes and ciliopathies.{' '}
-                <em className="font-display italic">Database</em>, 2023, baad047.
-              </p>
-              <a
-                href="https://doi.org/10.1093/database/baad047"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link-accent text-sm mt-2 inline-block font-mono"
-              >
-                10.1093/database/baad047 →
-              </a>
-              <p className="eyebrow mt-6 mb-2">Contact</p>
-              <a
-                href="mailto:info@ciliaminer.org"
-                className="text-sm text-primary-600 hover:text-accent transition-colors"
-              >
-                info@ciliaminer.org
-              </a>
-            </div>
+// ── Logo (same artwork as /icon.svg) ──────────────────────────────────
+
+function Logo({ className = 'w-6 h-6' }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <rect width="32" height="32" rx="6" fill="#991b1b" />
+      <text
+        x="16" y="22.5"
+        textAnchor="middle"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', system-ui, sans-serif"
+        fontWeight="800"
+        fontSize="20"
+        fill="#ffffff"
+      >C</text>
+    </svg>
+  )
+}
+
+// ── Header ─────────────────────────────────────────────────────────────
+
+function SiteHeader() {
+  const pathname = usePathname()
+
+  const wordmark = (
+    <Link
+      href="/"
+      className="flex items-center gap-2.5 text-base font-bold tracking-tight text-stone-900 hover:opacity-80 transition whitespace-nowrap shrink-0"
+    >
+      <Logo className="w-6 h-6 shrink-0" />
+      <span>
+        Cilia<span className="text-red-800">Miner</span>
+        <span className="ml-1.5 text-[11px] font-normal text-stone-400 font-mono align-baseline">
+          v15
+        </span>
+      </span>
+    </Link>
+  )
+
+  const navLinks = NAV.map((item) => {
+    const isActive =
+      pathname === item.href ||
+      (item.href !== '/' && pathname?.startsWith(item.href))
+    return (
+      <Link
+        key={item.href}
+        href={item.href}
+        className={`text-sm font-semibold whitespace-nowrap px-3 py-1.5 rounded transition ${
+          isActive
+            ? 'bg-red-800 text-white'
+            : 'text-stone-600 hover:bg-stone-100'
+        }`}
+      >
+        {item.name}
+      </Link>
+    )
+  })
+
+  return (
+    <header className="bg-white border-b border-stone-200">
+      <div className="max-w-6xl mx-auto px-6">
+        {/* Mobile / narrow desktop (< lg): wordmark + toggle top row, nav wraps below */}
+        <div className="lg:hidden">
+          <div className="h-14 flex items-center justify-between">
+            {wordmark}
+            <ThemeToggle />
           </div>
-          <div className="mt-10 pt-6 border-t border-primary-200/50 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p className="text-xs text-primary-400 font-mono">
-              © {new Date().getFullYear()} · Kaplan Lab · All rights reserved
-            </p>
-            <p className="text-xs text-primary-400 tracking-wider uppercase">
-              Built for open research
-            </p>
+          <div className="pb-2 -mt-1 flex flex-wrap gap-1.5">
+            {navLinks}
           </div>
         </div>
-      </footer>
-    </div>
+
+        {/* Wide desktop (≥ lg): everything on one row, no wrap */}
+        <div className="hidden lg:flex h-16 items-center gap-4">
+          {wordmark}
+          <nav className="flex items-center gap-1 flex-1 flex-nowrap">
+            {navLinks}
+          </nav>
+          <ThemeToggle />
+        </div>
+      </div>
+    </header>
+  )
+}
+
+// ── Footer ─────────────────────────────────────────────────────────────
+
+function SiteFooter() {
+  return (
+    <footer className="bg-white border-t border-stone-200 py-4 mt-auto">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center text-xs text-stone-400 gap-2">
+        <div>© 2026 Rare Disease Laboratory — Abdullah Gül University</div>
+        <div className="text-stone-500">
+          Cite:{' '}
+          <span className="italic text-stone-400">
+            Turan M.G., Orhan M.E., et al., Database 2023
+          </span>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+// ── Theme toggle ───────────────────────────────────────────────────────
+
+function ThemeToggle() {
+  const { resolved, setTheme } = useTheme()
+  const isDark = resolved === 'dark'
+  return (
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
+      className="text-stone-500 hover:text-stone-900 transition shrink-0"
+    >
+      {isDark ? (
+        <Sun className="w-4 h-4" aria-hidden="true" />
+      ) : (
+        <Moon className="w-4 h-4" aria-hidden="true" />
+      )}
+    </button>
   )
 }
