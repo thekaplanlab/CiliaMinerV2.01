@@ -64468,5 +64468,431 @@
       "Cilia"
     ],
     "first_seen": "2026-07-06"
+  },
+  {
+    "pmid": "42402950",
+    "title": "Bardet-Biedl syndrome in a Chinese patient with a novel homozygous <i>BBS5</i> variant from paternal uniparental disomy.",
+    "authors": "Liu J, Huang T, Zhang M, Lv J, Yan X.",
+    "journal": "Ophthalmic genetics",
+    "date": "2026-07-05",
+    "ai_summary": "Gene: BBS5\nFinding: A novel homozygous BBS5 variant (c.185del; p.L62Wfs*16) from paternal uniparental disomy causes severe retinal degeneration, polydactyly, obesity, and learning disability.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.1080/13816810.2026.2657430",
+    "genes": [
+      "BBS5"
+    ],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42417609",
+    "title": "Proteomic composition and mutual assembly of the C2a projection in vertebrate motile cilia.",
+    "authors": "Lyu Q, Li Q, Li J, Luo J, Liu C, Nai S, Liu H, Zhu X, Song T, Liu M, Zhao H.",
+    "journal": "eLife",
+    "date": "2026-07-08",
+    "ai_summary": "Gene: Ccdc108, Mycbpap, Cfap70, Armc3, Mycbp  \nFinding: These five proteins form the C2a projection of the central apparatus in vertebrate motile cilia; loss of any one of the three core components (CCDC108, MYCBPAP, CFAP70) causes C2a collapse, destabilizes central microtubules, and alters ciliary movement.  \nDisease: Primary ciliary dyskinesia (PCD)",
+    "source_link": "https://doi.org/10.7554/elife.110601",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Hydrocephalus",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42419864",
+    "title": "Delayed recognition of Joubert syndrome in a child initially diagnosed with autism spectrum disorder without intellectual impairment.",
+    "authors": "Aksoy HU, Çiçek AU.",
+    "journal": "BMJ case reports",
+    "date": "2026-07-08",
+    "ai_summary": "Gene: ciliopathy-related genes (not specified)\nFinding: Joubert syndrome can present with normal intellectual functioning and subtle early neuroimaging findings, initially mimicking autism spectrum disorder without intellectual impairment.\nDisease: Joubert syndrome",
+    "source_link": "https://doi.org/10.1136/bcr-2025-268544",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Joubert syndrome"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42409087",
+    "title": "Cilia SubQ: a modular suite of semi- and fully automated pipelines for analysis of primary cilia and ciliary subdomains.",
+    "authors": "Menzel E, Hamdi K, Hoffman G, Loukil A.",
+    "journal": "Methods (San Diego, Calif.)",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: <not specified>\nFinding: The Cilia SubQ toolkit provides semi- and fully automated pipelines for segmenting primary cilia and their subdomains (basal body, transition zone, ciliary tip), reducing analysis time eightfold and enabling high-throughput, reproducible quantification.\nDisease: ciliopathies",
+    "source_link": "https://doi.org/10.1016/j.ymeth.2026.07.002",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42411566",
+    "title": "Early Structural Lung Changes in Primary Ciliary Dyskinesia (PCD).",
+    "authors": "Robinson P, Yokote M.",
+    "journal": "Pediatric pulmonology",
+    "date": "2026-07-01",
+    "ai_summary": "In young children with Primary Ciliary Dyskinesia (PCD), chest CT scans reveal early structural lung changes, including bronchial wall thickening (50% of lobes), bronchiectasis (38%), and collapse/consolidation (32%), with lower lobes most affected, underscoring the need for early diagnosis and intervention.",
+    "source_link": "https://doi.org/10.1002/ppul.71731",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42436646",
+    "title": "Primary Cilia as Integrative Hubs of Metabolic Signaling in Type 2 Diabetes: Inter-Organ Evidence From Central, Peripheral, and Pancreatic Islet Tissues.",
+    "authors": "Liang M, Wen C, Deng L, Li Y, Lv F, Feng Z, Li E, Li J, Zhou J, Liao H, Feng S, Feng Z.",
+    "journal": "Journal of cellular physiology",
+    "date": "2026-07-01",
+    "ai_summary": "Primary cilia act as integrative signaling hubs that regulate metabolism across multiple tissues, and their dysfunction is linked to type 2 diabetes (T2D). The review summarizes how primary cilia in the hypothalamus, peripheral organs, and pancreatic islets control appetite, insulin sensitivity, and hormone secretion through pathways such as ADCY3/MC4R, GPCR-cAMP, and Somatostatin-SSTR3-GLI2. It also highlights ciliopathy-associated genetic defects and potential therapeutic targets, including MC4R and GLP-1 receptor agonists.",
+    "source_link": "https://doi.org/10.1002/jcp.70208",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42406064",
+    "title": "Fenestrated PECA exGraft Patch as a Novel Modifiable Internal Pulmonary Artery Band: A Case Report.",
+    "authors": "Rao E, Peterson D, Nigro J, Ganta S, Hesari M, Ryan J, El-Sabrout A, El-Said H.",
+    "journal": "Pediatric cardiology",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: <none specified>\nFinding: A fenestrated balloon-expandable PECA exGraft patch was used as a modifiable internal pulmonary artery band in a neonate with heterotaxy syndrome, complex anatomy, and primary ciliary dyskinesia, allowing staged transcatheter adjustment.\nDisease: Pulmonary overcirculation in single-ventricle physiology with primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1007/s00246-026-04360-7",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42427487",
+    "title": "Pulmonary exacerbations in patients with genetically confirmed PCD: a prospective observational multicentre study.",
+    "authors": "Anagnostopoulou P, Kouis P, Tural DA, Altaraihi S, Basilicata S, Borrelli M, Christofidou A, Coemert HN, Cutrera R, Emiralioglou N, Erdem E, Gokdemir Y, Gracci S, Hatziagorou E, Helms S, Karadag B, Maj D, Mall MA, Marthin JK, Middleton N, Moreno-Galdó A, Özçelik U, Pifferi M, Raidt J, Röhmel J, Rovira-Amigo S, Santamaria F, Tsiolakis I, Ullmann N, Ziegahn N, Nielsen KG, Omran H, Yiallouros P.",
+    "journal": "Frontiers in molecular biosciences",
+    "date": "2026-06-25",
+    "ai_summary": "Gene: not specified  \nFinding: Approximately 80% of patients with genetically confirmed primary ciliary dyskinesia experienced at least one pulmonary exacerbation per year, with frequency influenced by sex, age, and season, and varying by definition used.  \nDisease: Primary ciliary dyskinesia (PCD)",
+    "source_link": "https://doi.org/10.3389/fmolb.2026.1767533",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42404011",
+    "title": "Linezolid as a potential alternative to glycopeptide in treating <i>Enterococcus faecium</i> suspected cyst infection in a hemodialysis patient with autosomal-dominant polycystic kidney disease: A case report.",
+    "authors": "Inagaki T, Otsu M, Takuma A, Momo K.",
+    "journal": "SAGE open medical case reports",
+    "date": "2026-07-03",
+    "ai_summary": "Gene: N/A\nFinding: Oral linezolid led to clinical improvement in a hemodialysis patient with autosomal-dominant polycystic kidney disease and a suspected cyst infection caused by fluoroquinolone-resistant Enterococcus faecium, but treatment was stopped due to thrombocytopenia.\nDisease: Autosomal-dominant polycystic kidney disease with cyst infection",
+    "source_link": "https://doi.org/10.1177/2050313x261460553",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42428517",
+    "title": "Association between nephrolithiasis and kidney disease progression in patients with autosomal dominant polycystic kidney disease: a prospective cohort study.",
+    "authors": "Moon H, Kim YC, Park HC, Kim TM, Cho SY, Oh KH, Ahn C, Ryu H, Oh YK.",
+    "journal": "Clinical kidney journal",
+    "date": "2026-06-11",
+    "ai_summary": "Gene: PKD1\nFinding: Imaging-confirmed nephrolithiasis is independently associated with a higher risk of kidney failure and disease progression in ADPKD patients, with stronger associations in those with PKD1 genotype.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1093/ckj/sfag195",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42412748",
+    "title": "Clinical and Genetic Epidemiology of Autosomal Dominant Polycystic Kidney Disease among patients incident on first kidney replacement therapy between 1990-2023, in a major hospital in the Northwest of Portugal.",
+    "authors": "Silva A, Gonçalves PL, Capela L, Rocha L, Tavares I, Fernandes S, Oliveira JP.",
+    "journal": "Nephron",
+    "date": "2026-07-07",
+    "ai_summary": "Gene: PKD2  \nFinding: The PKD2 p.(Gln61*) truncating variant was the most frequent pathogenic allele, present in 23.2% of genotyped ADPKD patients, and ADPKD-PKD2 was associated with later kidney failure (mean age 66.9 years) compared to ADPKD-PKD1 (mean age 54.5 years).  \nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1159/000550753",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42410901",
+    "title": "First Reported Asian Cases of Robot-Assisted Simultaneous Bilateral Nephrectomy With Kidney Transplantation in Autosomal Dominant Polycystic Kidney Disease: A Case Series.",
+    "authors": "Kim JM, Kwon HE, Ko Y, Jung JH, Kwon H, Kim YH, Shin S.",
+    "journal": "Annals of transplantation",
+    "date": "2026-07-07",
+    "ai_summary": "Gene: PKD1 or PKD2 (implied by ADPKD diagnosis)\nFinding: Robot-assisted simultaneous bilateral nephrectomy with kidney transplantation is feasible and safe in Asian patients with severely enlarged polycystic kidneys, enabling precise dissection and uneventful recovery.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.12659/aot.952581",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42409867",
+    "title": "Factors associated with loss of renal function in patients with polycystic kidney disease: a nationwide real-world data analysis.",
+    "authors": "Hoshino J, Kataoka H, Nishio S, Hiromura K, Isaka Y, Muto S.",
+    "journal": "Scientific reports",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: PKD1, PKD2 (implied by ADPKD diagnosis)  \nFinding: Advanced CKD stage and proteinuria are strongly associated with a ≥30% decline in eGFR in ADPKD patients, with CKD G4 and proteinuria A3 conferring the highest risk.  \nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1038/s41598-026-59242-y",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42426887",
+    "title": "Myofibroblast- specific autophagy drives cyst growth in autosomal dominant polycystic kidney disease.",
+    "authors": "Jamadar A, Remadevi V, Varghese MM, Yang H, Thakkar VP, Chandrasekar I, Ding WX, Haase VH, Wallace DP, Rao R.",
+    "journal": "Cell communication and signaling : CCS",
+    "date": "2026-07-09",
+    "ai_summary": "Gene: ATG5\nFinding: Autophagy in myofibroblasts, driven by lactate-mediated HIF1α stabilization, is required for their paracrine stimulation of cyst epithelial cell proliferation and cyst growth.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1186/s12964-026-03054-0",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42424029",
+    "title": "Variants in the leptin-MC4R pathway and ciliopathy-related genes in youths with obesity beyond hyperphagia and early onset.",
+    "authors": "Manco M, Ravà L, Aureli A, Scoppola V, Mariani M, Aniello F, Cianfarani S, Fintini D.",
+    "journal": "Journal of endocrinological investigation",
+    "date": "2026-07-09",
+    "ai_summary": "Gene: ALMS1, CEP290\nFinding: Pathogenic or likely pathogenic variants in ciliopathy-related genes (ALMS1, CEP290) and the leptin-MC4R pathway are found in youths with severe obesity even when not selected for early onset or hyperphagia, but their clinical significance remains uncertain.\nDisease: Severe obesity",
+    "source_link": "https://doi.org/10.1007/s40618-026-02971-8",
+    "genes": [
+      "ALMS1",
+      "CEP290"
+    ],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42409022",
+    "title": "Bi-allelic variants in CDK20 cause a severe ciliopathy with midline brain and facial anomalies.",
+    "authors": "Lemire G, Marshall AE, Patel TS, Trejo Martinez J, Lerman-Sagie T, Mears W, Wang X, Lev D, Eaton AJ, Bontempo K, Angle B, Shannon P, Blaser S, Care4Rare Canada Consortium, Boycott KM, Richer J, Chong K, Drivas TG, Chitayat D.",
+    "journal": "American journal of human genetics",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: CDK20\nFinding: Bi-allelic loss-of-function variants in CDK20 cause reduced protein levels, impaired ciliogenesis, abnormal cilium morphology, and decreased Hedgehog signaling.\nDisease: Severe ciliopathy with midline brain and facial anomalies",
+    "source_link": "https://doi.org/10.1016/j.ajhg.2026.06.009",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Hydrocephalus",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42436404",
+    "title": "A new conceptual framework for PKD1 in ADPKD; integrating DNA structures and inflammation.",
+    "authors": "Hanakahi LA, Subrahmanyan T, Vanden Heuvel GB, Larson ED.",
+    "journal": "BMC nephrology",
+    "date": "2026-07-11",
+    "ai_summary": "Gene: PKD1\nFinding: The guanine-rich sequence architecture of human PKD1, which can form oxidative-damage-prone structures like guanine quadruplexes, may interact with renal inflammatory microenvironments to promote recurrent somatic second-hit mutations.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1186/s12882-026-05191-7",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42410094",
+    "title": "Brahmi Ghrita exerts nephroprotective effect on polycystic phenotype in the Malpighian tubules of caspase 3 deletion mutants of Drosophila melanogaster.",
+    "authors": "Sagar SC, Tapadia MG.",
+    "journal": "Scientific reports",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: Drice (caspase-3)\nFinding: Brahmi Ghrita supplementation restores cytoskeletal organization, epithelial polarity, and ion transport, reducing cyst numbers and improving viability in Drosophila Malpighian tubules.\nDisease: Polycystic kidney disease",
+    "source_link": "https://doi.org/10.1038/s41598-026-60864-5",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42409622",
+    "title": "Safety of Daprodustat for the Treatment of Chronic Kidney Disease Anemia: Final Analysis of a Multicenter Postmarketing Surveillance Study in Japan.",
+    "authors": "Akizawa T, Kanaya K, Aizawa K, Onoki M, Ozeki H, Suzuki K, Hayashi A, Asamura T.",
+    "journal": "Therapeutic apheresis and dialysis : official peer-reviewed journal of the International Society for Apheresis, the Japanese Society for Apheresis, the Japanese Society for Dialysis Therapy",
+    "date": "2026-07-06",
+    "ai_summary": "This postmarketing surveillance study in Japan evaluated the safety of daprodustat for chronic kidney disease anemia. Adverse drug reactions occurred in 5.6% of patients, with no new safety concerns identified, including no progression of autosomal dominant polycystic kidney disease.",
+    "source_link": "https://doi.org/10.1002/1744-9987.70182",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42432806",
+    "title": "Suppression of Ciliogenesis Alleviates Cellular Senescence via AKT Signaling in Gingival Aging.",
+    "authors": "Shao W, Yang H, Yin C, Zhang Y, Xu Y, Chang W, Xia H, Wang M, Fu L, Huang K.",
+    "journal": "Aging cell",
+    "date": "2026-07-01",
+    "ai_summary": "Gene: <no specific gene symbol>\nFinding: Suppression of ciliogenesis reduces gingival fibroblast senescence and inflammation in aged tissues via AKT signaling.\nDisease: Gingival aging and periodontal disease",
+    "source_link": "https://doi.org/10.1111/acel.70627",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42430293",
+    "title": "Kidney and Cardiovascular Outcomes by CKD stage and etiology of CKD: A Randomly Selected Nationwide Prospective Multicenter Cohort Study in Japan (Reach-J Study).",
+    "authors": "Tsunoda R, Ohigashi T, Hoshino J, Ito Y, Nagai K, Okubo R, Kai H, Saito C, Kondo M, Asahi K, Okada H, Maruyama S, Wada T, Narita I, Kashihara N, Pisoni R, Pecoits-Filho R, Yamagata K.",
+    "journal": "American journal of nephrology",
+    "date": "2026-07-10",
+    "ai_summary": "Gene: PKD1/PKD2 (implied by polycystic kidney disease)\nFinding: In a Japanese CKD cohort, polycystic kidney disease had the highest rate of kidney replacement therapy initiation in stages G4/G5, while diabetic kidney disease had the highest rate in stage G3b.\nDisease: Polycystic kidney disease",
+    "source_link": "https://doi.org/10.1159/000553499",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42420301",
+    "title": "Structural basis of lipid-dependent allosteric gating mechanisms for PC1-PC2 ion channel.",
+    "authors": "Chen M, Wang Z, Shi Y, Huang G, Morais TDC, Pillai AR, Wang Y, Mou MA, Jing D, Fan R, Zhou F, Liu Z, Su Q, Yu Y, Shi Y.",
+    "journal": "Nature communications",
+    "date": "2026-07-08",
+    "ai_summary": "Gene: PC1, PC2  \nFinding: Membrane lipids such as PG, PA, and the cilia-enriched oxysterol 7β,27-DHC allosterically regulate the PC1-PC2 channel gating, with lipid dissociation and conformational changes in the TOP and VSD domains leading to pore opening.  \nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1038/s41467-026-75084-8",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42418222",
+    "title": "Smooth muscle cell polycystin 1 (PKD1) is dispensable for physiological regulation of arterial contractility.",
+    "authors": "Bernardelli AK, Pontes RB, Mata-Daboin A, Garrud TAC, Mbiakop UC, Leal MAS, Peixoto-Neves D, Jaggar JH.",
+    "journal": "The Journal of physiology",
+    "date": "2026-07-08",
+    "ai_summary": "Gene: PKD1\nFinding: Smooth muscle cell-specific knockout of PKD1 does not affect arterial contractility, vasoconstriction, vasodilation, or blood pressure in mice.\nDisease: Polycystic kidney disease (implicated, but no direct phenotype observed in this study)",
+    "source_link": "https://doi.org/10.1113/jp291612",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42417999",
+    "title": "Reno-ocular syndromes: pathophysiological mechanisms linking kidney and ocular disorders.",
+    "authors": "Conegundes AF, Haikal de Paula L, Dos Santos Borges R, Simões E Silva AC.",
+    "journal": "Pediatric nephrology (Berlin, Germany)",
+    "date": "2026-07-08",
+    "ai_summary": "Gene: PAX2, LAMB2, BMP7  \nFinding: Shared molecular pathways (BMP-7, PAX2, laminin β2, type IV collagen) and ciliopathy mechanisms link renal and ocular development and disease.  \nDisease: Reno-ocular syndromes (including Pierson syndrome, Alport syndrome, ciliopathies, Fabry disease, cystinosis, primary hyperoxaluria)",
+    "source_link": "https://doi.org/10.1007/s00467-026-07456-7",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42358366",
+    "title": "SPP1 and MMP1 as key therapeutic targets of Jingfang Granule in idiopathic pulmonary fibrosis: integrated bioinformatics and machine learning analysis.",
+    "authors": "Ren Y, Gao J, Shen K, Jiang S, Xie Y, Wang Y, Sun X, Wang Y, Zhang N, Lou S, Ding J, Mu B, Yan G, Zhang G, Wang X.",
+    "journal": "Frontiers in pharmacology",
+    "date": "2026-06-10",
+    "ai_summary": "Gene: SPP1, MMP1\nFinding: Jingfang Granule attenuates fibrotic responses in lung fibroblasts by suppressing pro-fibrotic pathways through regulation of SPP1 and MMP1 expression.\nDisease: Idiopathic pulmonary fibrosis",
+    "source_link": "https://doi.org/10.3389/fphar.2026.1739181",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42436151",
+    "title": "K-Ras controls asymmetric cell divisions from the primary cilium.",
+    "authors": "Chippalkatti R, Schaffner-Reckinger E, Gaigneaux A, Parisi B, Bottone S, Laurini C, Rouzbahani Y, Dijkers M, Gómez-Mulas A, Sauter T, den Hertog J, Eggeling C, Abankwa DK.",
+    "journal": "Cell death & disease",
+    "date": "2026-07-11",
+    "ai_summary": "Gene: PDE6D\nFinding: K-Ras4B localizes to the primary cilium via the ciliary trafficking chaperone PDE6D, and its activity there sustains ciliation and controls asymmetric cell divisions during differentiation.\nDisease: RASopathies and ciliopathies",
+    "source_link": "https://doi.org/10.1038/s41419-026-09089-y",
+    "genes": [
+      "PDE6D"
+    ],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42359009",
+    "title": "The gut microbiota-enteric nervous system axis: from bidirectional programming to precision therapeutics in digestive diseases.",
+    "authors": "Li H, Ye A, Song J, Yang Y, Li J.",
+    "journal": "Frontiers in cellular and infection microbiology",
+    "date": "2026-06-10",
+    "ai_summary": "The gut microbiota and enteric nervous system communicate bidirectionally to regulate gastrointestinal health. This review describes how this axis programs development early in life and maintains neural plasticity in adulthood, and proposes a multi-timescale model of signaling. The authors identify distinct roles for the axis in different diseases: a \"signal distorter\" in irritable bowel syndrome, an \"inflammation amplifier\" in inflammatory bowel disease, and a \"tumor accomplice\" in colorectal cancer, and discuss how these insights could guide precision therapeutics.",
+    "source_link": "https://doi.org/10.3389/fcimb.2026.1852596",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42432122",
+    "title": "TRPV4 modulates sperm motility and fertilization rate in chub mackerel.",
+    "authors": "Barnuevo KD, Eguchi A, Kuratani Y, Kozono S, Yamashita Y, Isshiki R, Chikazaki M, Yahiro I, Mohapatra S, Nagano N, Itoh T, Matsuyama M, Chakraborty T, Ohta K.",
+    "journal": "Scientific reports",
+    "date": "2026-07-10",
+    "ai_summary": "Gene: TRPV4\nFinding: Pharmacological activation of TRPV4 enhances sperm motility, intracellular calcium levels, and fertilization/hatching rates in chub mackerel, while inhibition nearly abolishes these processes.\nDisease: None (study on sperm function in a marine fish species)",
+    "source_link": "https://doi.org/10.1038/s41598-026-60934-8",
+    "genes": [
+      "TRPV4"
+    ],
+    "diseases": [
+      "Flagella"
+    ],
+    "first_seen": "2026-07-13"
   }
 ]
