@@ -64894,5 +64894,410 @@
       "Flagella"
     ],
     "first_seen": "2026-07-13"
+  },
+  {
+    "pmid": "42444258",
+    "title": "Exploring Social Determinants of Health in Primary Ciliary Dyskinesia.",
+    "authors": "Akgül Erdal M, Kantemir T, İpek ÖF, Doğru D, Yalçın E, Emiralioğlu N, Özçelik U.",
+    "journal": "Pediatric pulmonology",
+    "date": "2026-07-01",
+    "ai_summary": "A cross-sectional study of primary caregivers of children with primary ciliary dyskinesia (PCD) in Türkiye found that nearly 90% reported insecurity in at least one social determinant of health domain, most commonly social support/stress, healthcare access, and financial hardship. The findings highlight widespread unmet psychosocial and healthcare access needs, underscoring the importance of routine screening and targeted interventions to promote health equity in PCD.",
+    "source_link": "https://doi.org/10.1002/ppul.71737",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42466340",
+    "title": "Hyperphagia severity is underestimated in adults with Bardet-Biedl syndrome - a mixed-method cross-sectional study in the United Kingdom.",
+    "authors": "Mossman J, Flack S, Gamertsfelder E, Touchot N, Low E, Beales PL.",
+    "journal": "Frontiers in endocrinology",
+    "date": "2026-07-02",
+    "ai_summary": "Gene: BBS (Bardet-Biedl syndrome, associated with primary ciliary dysfunction)\n\nFinding: Semi-structured interviews reveal that hyperphagia severity is substantially underestimated by standard self-reported questionnaires in adults with BBS, with 66.7% classified as severe by interview versus only 5.9% by questionnaire.\n\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.3389/fendo.2026.1858350",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Cilia",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42455145",
+    "title": "Kidney disease and surveillance testing in children with Bardet-Biedl syndrome: an administrative data study.",
+    "authors": "Finer G, Ward SE, Pomeroy J, Davis E, Ramgopal S.",
+    "journal": "Pediatric nephrology (Berlin, Germany)",
+    "date": "2026-07-15",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1007/s00467-026-07470-9",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42459695",
+    "title": "Case Report: TRNT1 related autoinflammatory syndrome in a patient with primary ciliary dyskinesia.",
+    "authors": "Di Gennaro S, Della Casa F, Petraroli A, Borrelli M, Alessio M, Orlando F, Naddei R.",
+    "journal": "Frontiers in immunology",
+    "date": "2026-07-01",
+    "ai_summary": "Gene: TRNT1\nFinding: First documented case of homozygosity for the c.1246A>G variant in TRNT1, associated with a milder autoinflammatory phenotype and effectively treated with etanercept.\nDisease: TRNT1-related autoinflammatory syndrome with concurrent primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.3389/fimmu.2026.1778403",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42390887",
+    "title": "Genomic Landscape and Perinatal Outcomes of Fetal Polydactyly: A Retrospective Cohort Study Integrating CNV-seq and Trio-ES.",
+    "authors": "Li H, Yang X, Liu L, Qin Y, Song Y, Yao Y.",
+    "journal": "Prenatal diagnosis",
+    "date": "2026-07-02",
+    "ai_summary": "Gene: NEK1, EVC2, BBS4, GLI3, TBX3, MYCN, KIAA0825  \nFinding: Causative variants in these genes were identified in fetuses with polydactyly, with a higher diagnostic yield in non-isolated cases (60.9%) compared to isolated cases (9.5%).  \nDisease: Fetal polydactyly",
+    "source_link": "https://doi.org/10.1002/pd.70216",
+    "genes": [
+      "BBS4",
+      "EVC2",
+      "GLI3",
+      "NEK1"
+    ],
+    "diseases": [
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42440875",
+    "title": "Structure and function imaging in primary ciliary dyskinesia: cross-sectional study with <sup>129</sup>Xe ventilation/<sup>1</sup>H anatomical magnetic resonance imaging.",
+    "authors": "Schofield L, Smith L, Marshall H, Hughes D, Biancardi A, Bray J, Capener D, Collier G, Fazal S, Moya E, Munro R, Norquay G, Robson E, Rodgers O, Shanks S, Shawcross A, Singh SJ, Stewart N, West N, Zalewska A, Hind D, Wild JM.",
+    "journal": "ERJ open research",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: Not specified  \nFinding: 129Xe ventilation MRI detects early lung function abnormalities in children with primary ciliary dyskinesia, even when FEV1 is normal, and complements 1H anatomical MRI which identifies structural changes like bronchiectasis and air trapping.  \nDisease: Primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1183/23120541.00984-2025",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42440824",
+    "title": "Xenon-129 magnetic resonance: a paradigm shift, an expensive toy or another tool for the pulmonologist?",
+    "authors": "Narayanan M, Unger SA.",
+    "journal": "ERJ open research",
+    "date": "2026-07-06",
+    "ai_summary": "Gene: none\nFinding: The article discusses the role of xenon-129 magnetic resonance imaging (129Xe MRI) in evaluating lung disease in children with primary ciliary dyskinesia and similar airway diseases, proposing a monitoring pathway that combines this technique with existing tools.\nDisease: primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1183/23120541.00113-2026",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42460997",
+    "title": "Low Incidence of High Frequency Chest Wall Oscillation in Bronchiectasis Registry Data Despite Indications and Reimbursement.",
+    "authors": "Brunton AE, Choate R, Richards CJ, Solomon GM.",
+    "journal": "Chronic obstructive pulmonary diseases (Miami, Fla.)",
+    "date": "2026-07-15",
+    "ai_summary": "Gene: <not applicable>\nFinding: <not applicable>\nDisease: <not applicable>\n\nThis study analyzed data from a bronchiectasis registry and found that only 9% of patients used high frequency chest wall oscillation (HFCWO), despite many meeting reimbursement criteria. HFCWO users had more severe symptoms and comorbidities, including higher rates of primary ciliary dyskinesia, but overall use remained low. The results highlight gaps between guideline recommendations and real-world practice, suggesting a need for clearer treatment guidelines.",
+    "source_link": "https://doi.org/10.15326/jcopdf.2026.0806",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42445230",
+    "title": "The association between chronic rhinosinusitis, bronchiectasis and type 2 inflammation: an EMBARC registry analysis.",
+    "authors": "Shteinberg M, Haworth CS, Pollock J, Cohen S, Loebinger MR, Jrbashyan J, Dimakou K, Abo Helo N, Aliberti S, Stein N, Ringshausen FC, Adir Y, De Soyza A, Vendrell M, Burgel PR, Sibila O, Bossios A, Lind H, Viligorska K, Robertson K, Kauppi P, Milenkovic B, Menendez R, Munteanu O, Obradovic D, Nowinski A, Amorim A, Torres A, Lorent N, Van Braeckel E, Anwar M, Battalglia S, Shoemark A, Boersma W, Goeminne PC, Blasi F, Polverino E, Chalmers JD.",
+    "journal": "ERJ open research",
+    "date": "2026-07-13",
+    "ai_summary": "In a large bronchiectasis registry, chronic rhinosinusitis (CRS) with nasal polyposis was common and linked to worse symptoms and exacerbations, but elevated type 2 inflammatory biomarkers were only associated with CRS in idiopathic bronchiectasis, not in bronchiectasis due to primary ciliary dyskinesia or immune deficiency.",
+    "source_link": "https://doi.org/10.1183/23120541.01397-2025",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42439786",
+    "title": "Plant-based ketogenic nutritional intervention in a young woman with autosomal dominant polycystic kidney disease: A case report.",
+    "authors": "Alvarado-Pelayo PA, García-Rodríguez XN, Gómez-García EF, Cisneros-Hernández A.",
+    "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+    "date": "2026-07-13",
+    "ai_summary": "A plant-based ketogenic diet in a young woman with ADPKD was associated with reduced albuminuria and stable eGFR, though total kidney volume increased. The case suggests feasibility and safety, warranting further study.",
+    "source_link": "https://doi.org/10.1002/ncp.70150",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42440206",
+    "title": "Fulminant drug-induced immune thrombocytopenia in polycystic kidney disease with cyst infection.",
+    "authors": "Iwamura N, Matsukuma Y, Iwamura K, Zhang Y, Yamada S, Nakamura K, Sakoda T, Kanaji S, Nakano T, Ago T.",
+    "journal": "CEN case reports",
+    "date": "2026-07-13",
+    "ai_summary": "A 65-year-old man with polycystic kidney disease and a kidney transplant developed fulminant drug-induced immune thrombocytopenia (platelet count dropping to <2,000/µL overnight) while being treated for a renal cyst infection with multiple antibiotics, including teicoplanin. This led to a massive retroperitoneal hematoma requiring emergency embolization. The case highlights the need for vigilance and close platelet monitoring in patients receiving multiple drugs.",
+    "source_link": "https://doi.org/10.1007/s13730-026-01154-x",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42442395",
+    "title": "Sequential Management Enabling Continuation of Peritoneal Dialysis in Autosomal Dominant Polycystic Kidney Disease Despite Multiple Complications.",
+    "authors": "Tatsugawa R, Hirano A, Kadoya H.",
+    "journal": "Therapeutic apheresis and dialysis : official peer-reviewed journal of the International Society for Apheresis, the Japanese Society for Apheresis, the Japanese Society for Dialysis Therapy",
+    "date": "2026-07-13",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1002/1744-9987.70192",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42468833",
+    "title": "In Reply to \"Considerations on Body Mass Index Stratification in Autosomal Dominant Polycystic Kidney Disease Body-Composition Research\".",
+    "authors": "Kim YC, Im DW, Park JY.",
+    "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+    "date": "2026-07-17",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1053/j.ajkd.2026.07.002",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42448808",
+    "title": "CYSTSCAN-PKD: a comprehensive pipeline for automatic cyst segmentation and counting on µCT scans from PKD animal models.",
+    "authors": "Mangili A, Arrigoni A, Sangalli F, Fest-Santini S, Corna D, Cerullo D, Xinaris C, Tomasoni S, Santini M, Remuzzi A, Caroli A.",
+    "journal": "Scientific reports",
+    "date": "2026-07-14",
+    "ai_summary": "This paper describes CYSTSCAN-PKD, an automated pipeline for segmenting kidneys and cysts and counting cysts on µCT scans from rat models of polycystic kidney disease (PKD). The pipeline uses a 3D U-Net ensemble for segmentation and a morphological algorithm for cyst counting, achieving high accuracy and reproducibility while drastically reducing processing time compared to manual methods. The tool is designed to support preclinical research on autosomal dominant polycystic kidney disease (ADPKD).",
+    "source_link": "https://doi.org/10.1038/s41598-026-61818-7",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42441958",
+    "title": "A C. elegans model for functional analysis of conserved ADPKD variants in cilia, extracellular vesicles, and sensory signaling.",
+    "authors": "Wang J, Nava Cruz C, Walsh JD, desRanleau E, Nikonorova IA, Barr MM.",
+    "journal": "Genetics",
+    "date": "2026-07-13",
+    "ai_summary": "Gene: PKD2\nFinding: The C. elegans ortholog of the human PC2C331S variant (PKD-2C180S) reduces protein levels, abolishes ciliary and extracellular vesicle localization, and eliminates sensory function, acting as a recessive null allele that also disrupts PC1 homolog LOV-1 trafficking.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1093/genetics/iyag182",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42445794",
+    "title": "Halting cyst progression in ADPKD using long-term ketogenic metabolic therapy and supplementation with exogenous ketones and alkaline citrate-a case series.",
+    "authors": "Messing M, Muensterman E, Marcon S, Weimbs T.",
+    "journal": "Frontiers in nutrition",
+    "date": "2026-06-29",
+    "ai_summary": "Gene: PKD1\nFinding: Long-term ketogenic metabolic therapy, including carbohydrate restriction, intermittent fasting, and supplementation with exogenous ketones and alkaline citrate, stabilized or reduced total kidney volume and preserved kidney function in four individuals with truncating PKD1 variants.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.3389/fnut.2026.1843178",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42469013",
+    "title": "ComicGTN infers disease-associated rare cell states from single-cell multiomic data using DNA sequence-augmented graph transformer networks.",
+    "authors": "Yang B, Hua J, Zhou G, Feng Y, Qi J, Guo Y, Sheng D, Jin S.",
+    "journal": "Genome research",
+    "date": "2026-07-17",
+    "ai_summary": "ComicGTN is a computational framework that uses graph transformer networks to integrate single-cell multiomic data with DNA sequence information, enabling accurate detection of rare cell states. It outperforms existing methods and identifies disease-relevant rare cell populations in mouse breast cancer, epilepsy patient cortex, and polycystic kidney disease organoids, including a rare glomerular subgroup with pathological pathways.",
+    "source_link": "https://doi.org/10.1101/gr.281661.125",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42455965",
+    "title": "Mechanosensing in the Renal Tubule: Ion Channels, Ca 2+ Signaling, and the Integration of Mechanical Cues along the Nephron.",
+    "authors": "Scorza SI, De Zio R, Certini M, Svelto M, Moccia F, Procino G, Gerbino A.",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "date": "2026-07-15",
+    "ai_summary": "Gene: PKD1, PKD2  \nFinding: Mutations in polycystins disrupt ciliary Ca2+ homeostasis, linking mechanosensitive Ca2+ signaling dysfunction to autosomal dominant polycystic kidney disease.  \nDisease: Autosomal dominant polycystic kidney disease",
+    "source_link": "https://doi.org/10.1681/asn.0000001205",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42452673",
+    "title": "Multi-Modal, Machine Learning-Driven Framework Integrating Multi-Omics for Personalized Chronic Kidney Disease Management.",
+    "authors": "Rutka B, Danieluk A, Wiewiórska-Krata N, Mucha K.",
+    "journal": "Journal of clinical medicine",
+    "date": "2026-07-03",
+    "ai_summary": "This review discusses the use of multi-omics profiling (genomics, transcriptomics, proteomics, metabolomics) and machine learning to enable personalized management of chronic kidney disease (CKD), moving from traditional to precision medicine approaches for early detection, patient stratification, and treatment planning.",
+    "source_link": "https://doi.org/10.3390/jcm15135213",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42463974",
+    "title": "Serum activin A and bone metabolism in patients undergoing hemodialysis.",
+    "authors": "Nakagawa Y, Takahashi H, Takahashi Y, Hyodo T, Hida M, Suga T, Kakuta T, Tomita Y, Nakamura M, Komaba H.",
+    "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+    "date": "2026-07-16",
+    "ai_summary": "Gene: <no specific gene established>\n\nFinding: In hemodialysis patients, higher serum activin A levels are associated with increased bone turnover markers (TRACP5b and BALP) independently of parathyroid hormone, but not with bone mineral density or fracture risk.\n\nDisease: Kidney failure with high bone turnover",
+    "source_link": "https://doi.org/10.1007/s00198-026-07981-z",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42447618",
+    "title": "Multi-scale computational models of intervillous blood flow in fetal growth restriction: implications of anatomical changes on syncytiotrophoblast shear stress.",
+    "authors": "Lee TC, Gamage TKJB, Spring M, Ramanlal I, Jackson T, Clark AR, James JL.",
+    "journal": "Placenta",
+    "date": "2026-07-13",
+    "ai_summary": "Gene: DYNC1H1, KIF3A, TRPV6, IFT88, PKD2, PIEZO1  \nFinding: In fetal growth restriction, impaired spiral artery remodeling and villous tissue changes increase syncytiotrophoblast shear stress, with altered expression of mechanosensing proteins (higher Dynein-1, lower Kinesin-2 and TRPV6, but no change in IFT88, Polycystin-2, or Piezo-1).  \nDisease: Fetal growth restriction (FGR)",
+    "source_link": "https://doi.org/10.1016/j.placenta.2026.07.007",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42456878",
+    "title": "Procyanidin C1 modulates microglia cellular iron homeostasis via targeting HuR/ACSL4 pathway and alleviates high-glucose-induced ferroptosis in diabetic retinopathy.",
+    "authors": "Liu Q, Wang SM, Jiao T, Gao XM, Xie CQ, Hu XR, Liu Q, Yang JT, Zhang L.",
+    "journal": "Experimental eye research",
+    "date": "2026-07-15",
+    "ai_summary": "Gene: HuR (ELAVL1), ACSL4  \nFinding: Procyanidin C1 alleviates high-glucose-induced ferroptosis in diabetic retinopathy by targeting the HuR/ACSL4 pathway, where HuR stabilizes Acsl4 mRNA to promote ferroptosis.  \nDisease: Diabetic retinopathy",
+    "source_link": "https://doi.org/10.1016/j.exer.2026.111169",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42449097",
+    "title": "PRKAR1A-related acrodysostosis with partial growth hormone deficiency: 18-month response to recombinant human growth hormone.",
+    "authors": "Katsoudas S, Kokkinou A, Nikolopoulou A, Tsitsekli E, Polychroni I, Zosi P.",
+    "journal": "Hormones (Athens, Greece)",
+    "date": "2026-07-14",
+    "ai_summary": "Gene: PRKAR1A  \nFinding: Recombinant human growth hormone therapy for 18 months in a child with PRKAR1A-related acrodysostosis and partial growth hormone deficiency improved height SDS from -2.92 to -1.52 with a first-year growth velocity of 11 cm/year and no adverse effects.  \nDisease: PRKAR1A-related acrodysostosis with partial growth hormone deficiency",
+    "source_link": "https://doi.org/10.1007/s42000-026-00811-1",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "41992464",
+    "title": "Integrative screening of plant volatiles through transient receptor potential channel docking, olfactometry, and field validation in Bemisia tabaci.",
+    "authors": "Paschapur AU, Pandey D, Singh L, Marella SM, Nebapure SM, Subramanian S.",
+    "journal": "Pest management science",
+    "date": "2026-04-16",
+    "ai_summary": "Gene: PKD1 (TRPP-PKD1)\n\nFinding: Docking of 51 plant volatiles against TRPP-PKD1 and other TRP channels identified binding energies from -3.2 to -7.6 kcal/mol, with TRPM and TRPA1 showing the most stable interactions; RNAi knockdown of TRPA1 and TRPM reduced behavioral attraction to volatiles from ~0.58-0.65 to ~0.02-0.19, and field trials with thymol, β-caryophyllene, and cuminaldehyde achieved 2.1-3.2× higher catches than controls.\n\nDisease: Bemisia tabaci (whitefly) pest infestation",
+    "source_link": "https://doi.org/10.1002/ps.70812",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42450606",
+    "title": "Distribution and Evolutionary Implications of Flagellum-Associated Gene Families in Representative Algal Genomes.",
+    "authors": "Jia L, Hou Y, Zhang M, Li L, Zhang Y, Wang J, Yuan Z, Fan G, Shi C, Zhao H.",
+    "journal": "Biology",
+    "date": "2026-07-02",
+    "ai_summary": "Gene: BBS9, WDR35\nFinding: BBS9 and WDR35 show lineage-specific expansion in dinoflagellates, with WDR35 enriched 3.6-5.8-fold and BBS9 identified as a candidate acquired via horizontal gene transfer.\nDisease: Not applicable (evolutionary study in algae)",
+    "source_link": "https://doi.org/10.3390/biology15131058",
+    "genes": [
+      "BBS9",
+      "WDR35"
+    ],
+    "diseases": [
+      "Flagella"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42453052",
+    "title": "Modulation of Cilia Motility by Vortex-Ultrasound-Induced Shear Stress.",
+    "authors": "Phan TN, Wang HC, Fan CH, Huang CH, Fang Y, Luo Y, Ma Z, Lin IH, Wang WJ, Lin YC, Yeh CK.",
+    "journal": "ACS nano",
+    "date": "2026-07-15",
+    "ai_summary": "Gene: TRPV4\nFinding: Vortex ultrasound generates localized shear stress that induces cilia deflections up to 80°, triggering calcium influx via TRPV4 and TRPP2 channels and directly activating primary ciliary mechanotransduction.\nDisease: Cilia-associated signaling pathways (general ciliopathy context)",
+    "source_link": "https://doi.org/10.1021/acsnano.6c06231",
+    "genes": [
+      "TRPV4"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42455439",
+    "title": "Centriole Duplication, Maturation, and Transformation During Mammalian Spermatogenesis.",
+    "authors": "Ishida M, Shibuya H.",
+    "journal": "Advances in experimental medicine and biology",
+    "date": "2026-01-01",
+    "ai_summary": "This review summarizes the specialized roles and molecular mechanisms of centrioles during mammalian spermatogenesis, including their duplication, maturation, and transformation in spermatogonia, spermatocytes, and spermatids, as well as their function in the first zygotic division.",
+    "source_link": "https://doi.org/10.1007/978-981-92-1439-6_6",
+    "genes": [],
+    "diseases": [
+      "Flagella"
+    ],
+    "first_seen": "2026-07-20"
   }
 ]
