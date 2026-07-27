@@ -69748,5 +69748,534 @@
       "Flagella"
     ],
     "first_seen": "2026-07-20"
+  },
+  {
+    "pmid": "42475468",
+    "title": "Bardet-Biedl Syndrome",
+    "authors": "Patri JR, Chamarthi VS.",
+    "journal": null,
+    "date": "2026-06-20",
+    "abstract": "Bardet-Biedl syndrome (BBS; OMIM 209900) represents a rare autosomal recessive multisystem ciliopathy caused by pathogenic variants in genes encoding proteins essential for the structure and function of primary nonmotile cilia, situating BBS within the broader class of ciliopathies. Georges Bardet first described the condition in 1920, followed independently by Arthur Biedl in 1922, with subsequent unification of their observations under the current eponym. Clinically, BBS presents with 6 cardinal features, including rod-cone retinal dystrophy, early-onset obesity with hyperphagia, postaxial polydactyly, renal structural and functional anomalies, hypogonadism with genital anomalies, and neurodevelopmental and cognitive impairment. The phenotype demonstrates marked inter- and intrafamilial variability, with manifestations that evolve across the lifespan, from the prenatal period through adulthood. Diagnostic criteria for BBS have undergone major refinement in recent years. A 2024 collaborative consensus statement from the European Reference Networks (Inter-ERN) revised the original Beales 1999 criteria to integrate clinical features with molecular genetic findings. A 2026 publication by Pomeroy and colleagues introduced a further refined diagnostic algorithm, offering a simplified, globally applicable framework that integrates major and minor clinical criteria with molecular genetic data. A significant therapeutic advancement in BBS management occurred with FDA approval of setmelanotide (Imcivree), the first targeted pharmacotherapy for the condition. Initial approval in June 2022 included patients 6 years and older, with subsequent expansion in December 2024 to include children as young as 2 years.",
+    "ai_summary": "Gene: BBS (multiple genes)\nFinding: Pathogenic variants in genes encoding proteins essential for primary nonmotile cilia cause Bardet-Biedl syndrome, a multisystem ciliopathy with six cardinal features including rod-cone retinal dystrophy, obesity, polydactyly, renal anomalies, hypogonadism, and neurodevelopmental impairment; diagnostic criteria have been refined in 2024 and 2026, and setmelanotide was FDA-approved as the first targeted therapy.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://pubmed.ncbi.nlm.nih.gov/42475468/",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Cilia",
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42477790",
+    "title": "Estimation of the genetic susceptibility prevalence of primary ciliary dyskinesia via the gnomAD v4.1.0 database.",
+    "authors": "Dai R, Dao Y, Zhang X, Ma Y, Zhu X, Gao Y, Wu J, Sun L.",
+    "journal": "Orphanet journal of rare diseases",
+    "date": "2026-07-20",
+    "abstract": "<h4>Background</h4>Primary ciliary dyskinesia (PCD) is a rare genetic disorder that is predominantly inherited in an autosomal recessive pattern and is caused by structural or functional ciliary abnormalities. Previous studies on the genetic susceptibility prevalence of PCD have been largely based on limited populations, and there is a lack of global estimates derived from large-scale population genetic databases. This study estimates the carrier frequency and genetic susceptibility prevalence of PCD via the latest data from the gnomAD v4.1.0 database and compares the results with those of previous studies.<h4>Methods</h4>We selected genes related to PCD with \"Definitive\" or \"Strong\" associations as determined by the ClinGen Motile Ciliopathy Gene Curation Expert Panel. According to ACMG/AMP guidelines, variables were classified for pathogenicity, including loss-of-function variants (pLOFs) and pathogenic/likely pathogenic missense variants. Using the allele frequency (AF) of these variants from the Genome Aggregation Database (gnomAD) v4.1.0 (containing data from 807,162 individuals) and applying the Hardy‒Weinberg equilibrium principle, we calculated the global and population-specific genetic susceptibility prevalence and carrier frequency of PCD.<h4>Results</h4>Among the 31 PCD-associated genes, 5252 eligible variants were included, comprising 5156 pLOF and 96 P/LP variants. The estimated global genetic susceptibility prevalence of PCD is approximately 1 in 20,103, with a corresponding overall carrier frequency of approximately 1 in 25. The Middle East region has the highest prevalence rate of 1 in 4,744, as well as the highest carrier frequency.<h4>Conclusion</h4>The estimated global genetic susceptibility prevalence of primary ciliary dyskinesia is approximately 1 in 20,103, with an overall carrier frequency of 1 in 25, indicating significant heterogeneity among ethnic populations. The global genetic susceptibility prevalence estimate is lower than the previous estimate of 1/7,554.",
+    "ai_summary": "Gene: multiple PCD-associated genes (31 genes with \"Definitive\" or \"Strong\" associations)\n\nFinding: Using gnomAD v4.1.0 data from 807,162 individuals, the estimated global genetic susceptibility prevalence of primary ciliary dyskinesia is approximately 1 in 20,103, with an overall carrier frequency of about 1 in 25, showing significant ethnic heterogeneity and a lower prevalence than previous estimates.\n\nDisease: primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1186/s13023-026-04501-4",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42482351",
+    "title": "Clinical and Genetic Study of a Pseudo-Dominant Primary Ciliary Dyskinesia Pedigree: The First DNAAF1-Associated Family Reported in Chinese Population.",
+    "authors": "Guo Z, Li P, Jiang G, Chen W.",
+    "journal": "Molecular genetics & genomic medicine",
+    "date": "2026-07-01",
+    "abstract": "<h4>Background</h4>Primary ciliary dyskinesia (PCD) is a rare, genetically heterogeneous disorder typically inherited in an autosomal recessive pattern. Pseudo-dominant inheritance is exceptionally uncommon and remains poorly characterized in PCD.<h4>Methods</h4>We conducted a clinical and genetic study of a non-consanguineous Chinese PCD pedigree with four affected individuals across two generations. Whole exome sequencing and Sanger sequencing were performed to identify pathogenic variants.<h4>Results</h4>Two variants in DNAAF1, c.1930A>T (p.Arg644Ter) and c.1022_1023del (p.Gln341ArgfsTer10), were identified and shown to co-segregate with the disease in a pseudo-dominant pattern. The proband, her brother, and her two naturally conceived sons were all affected, with her parents and husband being unaffected carriers. Transmission electron microscopy revealed absence of both outer and inner dynein arms, and high-speed video analysis demonstrated immotile or severely reduced ciliary beating. Intrafamilial phenotypic variability was notable, including distinct laterality defects (situs inversus, heterotaxy, and situs solitus) and varying degrees of pulmonary involvement.<h4>Conclusion</h4>Our report provides the first description of pseudo-dominant inheritance in PCD and expands the knowledge of the disease by offering detailed clinical and ciliary phenotyping.",
+    "ai_summary": "Gene: DNAAF1\nFinding: Two loss-of-function variants (c.1930A>T and c.1022_1023del) co-segregate with primary ciliary dyskinesia in a pseudo-dominant inheritance pattern, causing absent outer and inner dynein arms, immotile cilia, and variable laterality defects and pulmonary involvement.\nDisease: Primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1002/mgg3.70264",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia",
+      "Situs inversus"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42478199",
+    "title": "Primary Ciliary Dyskinesia: Insights from a Portuguese tertiary centre cohort.",
+    "authors": "Teixeira-Oliveira S, Pais-Cunha I, Lopes SS, Seixas S, Ferraz C, Amorim A, Azevedo I.",
+    "journal": "Pulmonology",
+    "date": "2026-07-21",
+    "abstract": "<h4>Introduction</h4>Primary Ciliary Dyskinesia (PCD) is a rare genetic disorder caused by defective ciliary structure and function, leading to chronic respiratory and systemic manifestations. Diagnostic pathways have evolved over time, but no single standalone test exists.<h4>Methods</h4>Retrospective study of PCD patients followed at a Portuguese tertiary hospital, between 2001-2024.<h4>Results</h4>Thirty-five patients with a confirmed diagnosis were included: 13 children and 22 adults. Median age at diagnosis was 7 years (0-16) in children and 38.5 years (12-64) in adults. Time to diagnosis decreased over the years, coinciding with a shift in the hierarchy of methods from high-speed video microscopy and transmission electron microscopy to genetic testing. The most frequent mutations were <i>DNAH5</i> (31.3%) and <i>DNAH11</i> (12.5%). Pulmonary function tended to be better in children (<i>p</i> = 0.085), whereas bronchiectasis were more extensive and bilateral in adults (<i>p</i> = 0.044 and <i>p</i> = 0.002, respectively). Children more frequently received treatment with hypertonic saline (<i>p</i> = 0.003) and adults with bronchodilators (<i>p</i> = 0.035). <i>Pseudomonas aeruginosa</i> was only identified in adults; inhaled antibiotics were only prescribed in this age group (18.2%).<h4>Conclusion</h4>This represents the largest Portuguese cohort to date and provides relevant clinical and diagnostic insight into age-related differences, supporting the importance of early detection and intervention to limit lung damage.",
+    "ai_summary": "Gene: DNAH5, DNAH11  \nFinding: In a Portuguese tertiary centre cohort, DNAH5 (31.3%) and DNAH11 (12.5%) were the most frequent mutations, and earlier diagnosis (median age 7 years in children vs 38.5 years in adults) was associated with better pulmonary function and less extensive bronchiectasis.  \nDisease: Primary Ciliary Dyskinesia",
+    "source_link": "https://doi.org/10.1080/25310429.2026.2704422",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42483726",
+    "title": "Biallelic <i>RSPH4A</i> loss-of-function variants cause primary ciliary dyskinesia in a Chinese patient.",
+    "authors": "Lu YT, Tang HY, Chen K, Lai DY, Wang DC, Yang F.",
+    "journal": "Frontiers in genetics",
+    "date": "2026-07-08",
+    "abstract": "<h4>Background</h4>Primary ciliary dyskinesia (PCD) is a rare autosomal recessive disorder characterized by defective motile cilia function, affecting approximately one in 7,500 to one in 10,000 live births. Pathogenic variants in radial spoke head genes, including <i>RSPH4A</i>, cause PCD with distinctive central-microtubular-pair defects. However, the functional consequences of novel <i>RSPH4A</i> variants remain poorly characterized, limiting genetic counseling and prenatal diagnostic capabilities. This study aims to reveal the genetic etiology of PCD in an affected family and the clinical significance of the two novel <i>RSPH4A</i> variants identified in this PCD-affected pedigree.<h4>Methods</h4>We recruited a five-member Chinese family including an 11-year-old female PCD proband presenting with chronic bronchiectasis and recurrent respiratory infections. Comprehensive clinical evaluations, whole exome sequencing (WES), and Sanger sequencing were performed to identify genetic variants. Bioinformatics analyses including protein sequence alignment and structural modeling were conducted. Experimental validation employed site-directed mutagenesis, quantitative real-time PCR, and Western blotting in HEK293T cells to characterize variant effects on mRNA stability and protein expression.<h4>Results</h4>WES identified compound heterozygous <i>RSPH4A</i> variants in the proband: <i>RSPH4A</i> (NM_001010892.3): c.2T>C (p.Met1Thr) inherited from the mother and <i>RSPH4A</i> (NM_001010892.3): c.854delA (p.Lys286Serfs*22) inherited from the father, showing strict co-segregation with the disease phenotype. The c.2T>C variant disrupted the translation initiation codon, while c.854delA introduced a premature termination codon within the radial spoke head domain. Cross-species analysis demonstrated high conservation of the affected region across 15 vertebrate species. Structural modeling predicted complete loss of the radial spoke head domain in the truncated protein. Functional studies revealed that c.2T>C severely impaired protein translation despite intact mRNA levels, whereas c.854delA triggered nonsense-mediated mRNA decay and produced unstable truncated protein. Both variants resulted in substantial reduction in functional RSPH4A protein expression.<h4>Conclusion</h4>This study identifies novel loss-of-function <i>RSPH4A</i> variants causing PCD through distinct molecular mechanisms, expanding the mutational spectrum of radial spoke head protein-related ciliopathies. These findings offer compelling proof in favor of a molecular diagnosis of PCD in this family and enable carrier screening for at-risk relatives. The experimental validation strategy establishes a framework for interpreting variants of uncertain significance in PCD genes, facilitating accurate prenatal diagnosis and preimplantation genetic testing to reduce the recurrence risk and birth defect incidence in PCD. Furthermore, understanding the precise functional consequences of <i>RSPH4A</i> variants informs genotype-phenotype correlations and may guide future development of targeted therapeutic interventions for this debilitating respiratory disorder.",
+    "ai_summary": "Gene: RSPH4A  \nFinding: Compound heterozygous loss-of-function variants (c.2T>C and c.854delA) impair RSPH4A protein expression via distinct mechanisms (translation initiation failure and nonsense-mediated decay), causing defective motile cilia function.  \nDisease: Primary ciliary dyskinesia (PCD)",
+    "source_link": "https://doi.org/10.3389/fgene.2026.1857456",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42491480",
+    "title": "Atypical Kartagener syndrome in a 40-year-old woman: Computed Tomography findings of situs inversus with bronchiectasis and infertility.",
+    "authors": "Zewdie YG, Tabor BB, Yesuf EF, Genetirune HY.",
+    "journal": "Radiology case reports",
+    "date": "2026-07-09",
+    "abstract": "Primary ciliary dyskinesia is a rare inherited disorder characterized by impaired mucociliary clearance leading to recurrent respiratory infections. Kartagener syndrome represents a subset of this condition classically defined by the triad of bronchiectasis, chronic sinusitis, and situs inversus, although atypical presentations lacking one component of the triad may occur. We report the case of a 40-year-old female who presented with productive cough, shortness of breath, chest pain, and fever, with a long-standing history of recurrent respiratory infections since adolescence that showed only temporary response to antibiotic therapy. The patient also reported primary infertility. Computed tomography of the chest demonstrated dextrocardia with complete situs inversus, bilateral bronchiectasis predominantly involving the middle and lingular lobes, mucus impaction, and associated tree-in-bud nodularity with ground-glass opacities. There was no clinical or radiologic evidence of sinusitis. These findings are consistent with an atypical presentation of Kartagener syndrome. This case highlights the importance of recognizing characteristic imaging features and considering underlying ciliary disorders in patients with recurrent respiratory infections and situs anomalies, even in the absence of sinus disease.",
+    "ai_summary": "Gene: <not specified>\nFinding: A 40-year-old woman with recurrent respiratory infections, primary infertility, and computed tomography findings of situs inversus and bronchiectasis but no sinusitis represents an atypical presentation of Kartagener syndrome.\nDisease: Atypical Kartagener syndrome (primary ciliary dyskinesia)",
+    "source_link": "https://doi.org/10.1016/j.radcr.2026.06.087",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia",
+      "Situs inversus"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42475673",
+    "title": "A Personal Health App and Wearable Co-Design Framework for Rare and Complex Diseases: User-Centered, Collaborative Co-Design Study.",
+    "authors": "Goodday SM, Karlin E, Sorensen M, Yang R, Gordon P, Opoku C, Vuong D, Wilson J, McKenzie D, Piccotti J, Tavanti M, Fitzgerald M, Re'em Y, Wei H, Golden M, Morgan D, Manion M, Mosquera R, Shivas T, Hoover E, Peck A, Peck N, Yavarow Z, Bjornson-Pennell H, Stratton A, Anova Sahoo S, Arbittier D, Arbittier E, Goff R, Harvin-Graham D, Howard N, Knudsen C, Oldham M, Friend S.",
+    "journal": "JMIR mHealth and uHealth",
+    "date": "2026-07-20",
+    "abstract": "<h4>Background</h4>End user co-design in the personal digital health technology space is underdeveloped. Clinical uptake of personal digital health technologies has been poor, highlighting a need to cocreate solutions with end users.<h4>Objective</h4>The study aimed to describe an \"end user\" co-design framework in the development of 5 prototype personal health apps for patients with different rare or complex diseases.<h4>Methods</h4>A patient-led, user-centered, collaborative personal health app plus wearable plug-in co-design methodology was developed. Five prototype apps were developed for end users with long COVID-19, pancreatitis, primary ciliary dyskinesia, sarcoidosis, and valosin-containing protein disease by a multidisciplinary partnership including patients, app design and development experts, user experience experts, clinicians, and patient-driven organizations. Phase 1 involved a 6-month co-design process with 5 modules involving patient-driven organizations that included the codevelopment of specifications through group workshops and independent exercises that defined the goals, content, features, and user experience of each app. Phase 2 involved app build-out, internal alpha testing, and beta study preparations. Phase 3 involved a usability beta testing study in which end users used the app and associated wearable/smart devices (Oura ring, Lumia ear device, Empatica EmbracePlus, and MIR Spirobank Spirometer) for up to 5 months. Participant feedback was documented continuously and systematically, centering on the following themes: functionality, usability, harms, benefits, self-explorations, and beta testing study details related to retention and adherence.<h4>Results</h4>While unique app goals were codeveloped by each disease group, a central goal across groups was to develop a personal health app enabling users to track subjective, self-reported symptoms, objective measures of health, and unique modifiers of symptoms. A total of 239 end user participants participated in the beta testing pilot study. Enrollment and retention rates were high, ranging from 94% to 100% and 92.2% to 100%, respectively. All active participants gave some form of feedback: there were 257 unique participant suggestions of how to specifically modify or improve the study app experience. Participant feedback themes commonly centered around customization to reduce daily burden and improve personal tailoring of the app. Participants' desires surrounding symptom displays were heterogeneous.<h4>Conclusions</h4>Personal health app co-design is rooted in a complex digital landscape that requires a significant amount of up-front effort and time. However, the up-front investment of time can result in rich and diverse end user feedback that could save time in the app development trajectory to implementation. This paper provides a co-design framework and the building blocks of 5 prototype personal health apps with publicly available open-source code on GitHub. These prototypes could be leveraged for improving understanding of, communicating symptoms of, and providing n-of-1 suggestions for rare or complex diseases, providing benefit to patient communities and individual patients.",
+    "ai_summary": "A co-design framework involving patients, clinicians, and developers was used to create five prototype personal health apps for rare/complex diseases including primary ciliary dyskinesia. The apps tracked subjective symptoms and objective health measures, and a beta test with 239 participants showed high enrollment and retention, with feedback emphasizing customization.",
+    "source_link": "https://doi.org/10.2196/85425",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42475763",
+    "title": "The orchestration of ciliary opus: Interplay of signalling molecules, GTPases, and trafficking machinery.",
+    "authors": "Piyush R, Giri P, Shinde SR.",
+    "journal": "Current opinion in cell biology",
+    "date": "2026-07-20",
+    "abstract": "Primary cilia are sensory organelles that host various signalling receptors and proteins to coordinate signalling pathways essential for tissue homeostasis. This review explores the molecular mechanisms by which intraflagellar transport (IFT) machinery, the BBSome coat complex, small GTPases, and various secondary messenger signalling molecules cooperate to establish and maintain ciliary composition. We discuss how IFT trains, guided by kinesin-2 and dynein-2 motors, traffic receptors and signalling components into and out of the cilium, and how the lipid composition within the cilium plays a regulatory function. We also described how secondary messengers such as cAMP and Ca<sup>2+</sup> coordinate ciliary signalling outputs, including hedgehog and insulin secretion. Finally, we have also discussed how the BBSome selects cargo for export and the role of small GTPases in its trafficking, together ensuring the compositional integrity and signalling fidelity of this organelle. A mechanistic understanding of these integrated trafficking and signalling systems provides a framework for elucidating the pathogenesis of ciliopathies and identifying potential therapeutic targets.",
+    "ai_summary": "This review discusses how IFT machinery, the BBSome, small GTPases, and secondary messengers like cAMP and Ca2+ cooperate to regulate ciliary composition and signalling, including hedgehog and insulin pathways. A mechanistic understanding of these integrated systems is presented as a framework for elucidating ciliopathy pathogenesis and identifying therapeutic targets.",
+    "source_link": "https://doi.org/10.1016/j.ceb.2026.102675",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42471456",
+    "title": "Basal body docking failure triggers centriole clustering and elimination in mammalian spermatogenesis.",
+    "authors": "Chen JJ, Gong X, Mak M, Li FQ, Takemaru KI.",
+    "journal": "EMBO reports",
+    "date": "2026-07-18",
+    "abstract": "Cilia are microtubule-based organelles essential for signaling and motility, and their dysfunction causes ciliopathies often associated with infertility. In male germ cells, two types of cilia are present: zygotene primary cilia and sperm flagella. To define the role of cilia in spermatogenesis, we conditionally ablate the distal appendage protein CEP164, required for basal body docking and ciliogenesis, in male germ cells. CEP164 localizes to the mother centriole/basal body throughout spermatogenesis, and its loss leads to male infertility accompanied by the absence of both zygotene cilia and sperm flagella. Despite defective ciliogenesis, meiotic chromosome pairing and DNA double-strand break repair proceed normally. However, round spermatids exhibit basal body docking and flagellogenesis defects, and frequently form supernumerary centriole clusters, which appear to be subsequently eliminated via residual bodies. Live-cell imaging reveals that centrioles are highly mobile, and centriole pairs from neighboring cells are often associated, possibly through intercellular bridges, forming aggregates. These results establish that basal body docking is crucial for retaining centrioles within spermatids, and its disruption leads to centriole clustering and loss.",
+    "ai_summary": "Gene: CEP164\nFinding: Loss of CEP164 causes basal body docking failure, leading to absence of zygotene cilia and sperm flagella, centriole clustering, and centriole elimination via residual bodies, resulting in male infertility.\nDisease: Male infertility (ciliopathy-related)",
+    "source_link": "https://doi.org/10.1038/s44319-026-00872-8",
+    "genes": [
+      "CEP164"
+    ],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42479644",
+    "title": "Human Organoids as Drug Development Tools for Polycystic Kidney Disease.",
+    "authors": "Fu H, Freedman BS.",
+    "journal": "Nephron",
+    "date": "2026-07-21",
+    "abstract": "Polycystic kidney disease (PKD) is commonly inherited as a loss-of-function mutation in PC1 (polycystin-1) or PC2. The molecular functions of polycystins remain uncertain, and therapeutics remain limited for millions of patients. One major roadblock has been the scarcity of assays that re-create PKD-specific cystogenesis in vitro, to complement mouse models. Over the past decade, a human organoid model of PKD has emerged that promises to bridge this gap. Human kidney organoids derived from PKD1-/- or PKD2-/- pluripotent stem cells recapitulate the pathognomonic cystic phenotype in a PKD-specific manner. This system reveals that PKD cystogenesis is a cell intrinsic process that can be re-created in vitro. Human PKD organoids have revealed unexpected mechanisms for PKD cystogenesis, and have been utilized to blueprint new therapeutic strategies, but their potential is not yet fully realized. The complexity and cost of organoids remain significant barriers to entry, and dedicated technology development is required to improve their physiological relevance. Here we review important achievements, current limitations, and future strategies, with a focus on translational 'bench to bedside' potential of PKD organoids as drug development tools.",
+    "ai_summary": "Gene: PKD1, PKD2\nFinding: Human kidney organoids derived from PKD1-/- or PKD2-/- pluripotent stem cells recapitulate PKD-specific cystogenesis in vitro, revealing cell-intrinsic mechanisms and enabling therapeutic strategy development.\nDisease: Polycystic kidney disease (PKD)",
+    "source_link": "https://doi.org/10.1159/000553552",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42498858",
+    "title": "Variants and variability - a cohort of Omani children sheds more light on autosomal recessive polycystic kidney disease.",
+    "authors": "Burgmaier K, Liebau MC.",
+    "journal": "Pediatric nephrology (Berlin, Germany)",
+    "date": "2026-07-24",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1007/s00467-026-07490-5",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42473614",
+    "title": "Corrigendum to \"Real-World Outcomes of Sodium-Glucose Cotransporter 2 Inhibitor Therapy in Nondiabetic Autosomal-Dominant Polycystic Kidney Disease: Effects on Progression to Dialysis in a TrinetX Cohort\".",
+    "authors": null,
+    "journal": "Mayo Clinic proceedings. Innovations, quality & outcomes",
+    "date": "2026-07-10",
+    "abstract": "[This corrects the article DOI: 10.1016/j.mayocpiqo.2026.100709.].",
+    "ai_summary": "This is a corrigendum correcting a previously published article. It does not present new findings linking a specific gene to a disease or phenotype. The original study examined real-world outcomes of SGLT2 inhibitor therapy in nondiabetic autosomal-dominant polycystic kidney disease (ADPKD), but this notice only corrects errors in that prior publication.",
+    "source_link": "https://doi.org/10.1016/j.mayocpiqo.2026.100737",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42476150",
+    "title": "Comparative Efficacy and Safety of Octreotide, Lanreotide, and Pasireotide in ADPKD and PLD: A Network Meta-analysis with Real-world Evidence from the FAERS Database.",
+    "authors": "Mei Z, Chen J, Fan J, Fan Z, Xi M, He Q.",
+    "journal": "Clinical and translational gastroenterology",
+    "date": "2026-07-20",
+    "abstract": "Somatostatin analogs were the primary treatment for autosomal dominant polycystic kidney disease (ADPKD) or polycystic liver disease (PLD), including octreotide, lanreotide, and pasireotide. We compared the effects and safety of octreotide, lanreotide, and pasireotide on total kidney volume (TKV), total liver volume (TLV), and kidney function (eGFR) in patients with ADPKD or PLD using network meta-analysis and FDA Adverse Event Reporting System (FAERS) data. Pooled estimates from limited available trials suggested that, at 6 months or 1 year, octreotide (MD: -3.7, 95%CI: -4.3 to -3.2) and pasireotide (-5.0, -8.2 to -1.8) were associated with preliminary evidence of TKV reduction compared with placebo. However, lanreotide (-7.8, -10.2 to -5.4) obviously manifested a decrease in the TKV after more than 2 years. TLV analyses showed early directional effects of octreotide (-7.7, -12.1 to -3.3) and pasireotide (-9.0, -13.7 to -4.3) at 1 year, and for lanreotide (-5.0, -6.3 to -3.9) after more than 2 years. Lanreotide demonstrated inferior efficacy in reducing the TLV growth rate compared to octreotide (10.0, 2.7 to 18.0) following a 2-3 year administration period. Cholelithiasis is the most common biliary adverse event in three somatostatin analogs. Cox regression identified age (HR: 0.966, 95% CI: 0.949 to 0.982, P < 0.001) and drug (HR: 2.168, 95% CI: 1.411 to 3.332, P < 0.001) as independent predictors of cholelithiasis. The onset time of TKV/TLV reduction differs among the three somatostatin analogs. Age and drug were independent predictors of cholelithiasis. Younger patients or those receiving pasireotide are at higher risk of cholelithiasis.",
+    "ai_summary": "This network meta-analysis compared three somatostatin analogs (octreotide, lanreotide, and pasireotide) for treating autosomal dominant polycystic kidney disease (ADPKD) or polycystic liver disease (PLD). Octreotide and pasireotide reduced kidney and liver volumes within 1 year, while lanreotide showed effects only after more than 2 years. Cholelithiasis was the most common side effect, with younger age and pasireotide use being independent risk factors.",
+    "source_link": "https://doi.org/10.14309/ctg.0000000000001076",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42490172",
+    "title": "Metabolomics in renal cystic disease: links to mechanisms and identification of pathways for potential pre-diagnosis.",
+    "authors": "Chen L, Broadhurst D, Shafaei A, Phillips JK, Tang S, Abbiss H.",
+    "journal": "American journal of physiology. Renal physiology",
+    "date": "2026-07-23",
+    "abstract": "Polycystic kidney disease (PKD) is a common hereditary kidney disorder with an insidious onset and complex mechanisms, making early diagnosis challenging. Current diagnostic methods, including imaging and genetic testing, have limitations. Imaging detects cysts only once formed, and genetic testing is costly, labour-intensive, and unable to guarantee complete diagnostic accuracy or predict onset and progression. Metabolomics may offer an approach to uncover PKD mechanisms by detecting metabolic alterations that precede clinical manifestations, enabling identification of disease-specific biomarkers and providing earlier and more practical detection than imaging or genetic testing. This review synthesizes existing metabolomics studies of human PKD and renal cystic disease with significant metabolites extracted, and pathway enrichment analyses conducted at the levels of overall cystic kidney disease and the ADPKD<i>/Pkd1/non-Pkd1</i> subsets to identify significant pathways and their associated metabolic features. Overall, the top-ranked pathways were arginine biosynthesis; alanine, aspartate and glutamate metabolism; glycine, serine and threonine metabolism, and the citrate cycle, with glycine, serine and threonine metabolism only associated with ADPKD<i>/Pkd1</i> mouse models. These pathways indicate marked activation of amino acid metabolism accompanied by relative suppression of carbohydrate-related energy metabolism, suggesting a shift in metabolic substrate utilization rather than a complete loss of energy supply. This study provides a foundation for applying metabolomics to early diagnosis and mechanistic investigation of cystic kidney disease.",
+    "ai_summary": "Gene: PKD1\nFinding: Metabolomics reveals that arginine biosynthesis; alanine, aspartate and glutamate metabolism; glycine, serine and threonine metabolism; and the citrate cycle are top-ranked pathways in renal cystic disease, with glycine, serine and threonine metabolism specifically linked to ADPKD/Pkd1 mouse models, indicating a shift from carbohydrate to amino acid metabolism.\nDisease: Polycystic kidney disease (PKD)",
+    "source_link": "https://doi.org/10.1152/ajprenal.00334.2025",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42483414",
+    "title": "Whole exome sequencing identified a novel compound heterozygous mutation of <i>nephrocystin 4</i> in a child with nephronophthisis-a rare case report.",
+    "authors": "Li W, Cao GH, Li NN, Long JY, Tang YQ, Liu JS, Fan LL.",
+    "journal": "Frontiers in pediatrics",
+    "date": "2026-07-07",
+    "abstract": "Nephronophthisis (NPHP), an autosomal recessive kidney disorder characterized by chronic tubulointerstitial nephritis, is the most prevalent monogenic cause of end-stage renal disease (ESRD). Previous studies have identified variants in more than 20 genes, designated <i>NPHP1</i> to <i>NPHP20</i>, and in additional loci as the genetic causes of NPHP. Here, a Chinese patient who presented with NPHP and proteinuria was enrolled. By employing whole exome sequencing and Sanger sequencing, we identified a rare compound heterozygous mutation in the <i>NPHP4</i> gene (c.2611C > T/p.R871X and c.2768G > A/p.R923H) in the patient. Sanger sequencing further confirmed that the p.R871X variant was inherited from the father and that the p.R923H variant originated from the mother. Both variants were predicted to be deleterious by bioinformatic software. In accordance with the American College of Medical Genetics and Genomics guideline, the p.R871X variant was classified as pathogenic, and the p.R923H variant was classified as likely pathogenic. So far, neither of these mutations has been reported in patients with NPHP. Our findings contribute to the precise diagnosis of the patient and further underscore the utility of genetic testing in the accurate diagnosis of NPHP.",
+    "ai_summary": "Gene: NPHP4\nFinding: A novel compound heterozygous mutation (c.2611C>T/p.R871X and c.2768G>A/p.R923H) in NPHP4 was identified in a Chinese patient with nephronophthisis and proteinuria.\nDisease: Nephronophthisis",
+    "source_link": "https://doi.org/10.3389/fped.2026.1864993",
+    "genes": [
+      "NPHP1",
+      "NPHP4"
+    ],
+    "diseases": [
+      "Nephronophthisis"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42468836",
+    "title": "Considerations on BMI Stratification in ADPKD Body-Composition Research.",
+    "authors": "Hu X, Long L.",
+    "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+    "date": "2026-07-17",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1053/j.ajkd.2026.04.015",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42499738",
+    "title": "A proposed classification for standardized reporting of liver disease in children with autosomal recessive polycystic kidney disease.",
+    "authors": "Kurkal K, Gupte GL.",
+    "journal": "JPGN reports",
+    "date": "2026-03-19",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1002/jpr3.70167",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42499441",
+    "title": "Impact of race-based and race-free CKD-EPI equations on estimated glomerular filtration rate in a multicenter retrospective cohort of autosomal dominant polycystic kidney disease.",
+    "authors": "Oto ÖA, Yildiz A, Koçyiğit İ, Yazici H, Güllülü Boz SE, Kurtuluş Y, Demiray A, Doksan M, Suleymanova V, Ük E, Akin A, Bastani B, Edwards JC, Lentine KL, Çalişkan YK.",
+    "journal": "Turkish journal of medical sciences",
+    "date": "2026-01-25",
+    "abstract": "<h4>Background/aim</h4>The 2021 revision of the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation, which eliminates race-based coefficients, may significantly influence disease staging and treatment in autosomal dominant polycystic kidney disease (ADPKD). This study was designed to evaluate the impact of the 2021 race-free CKD-EPI equation on estimated glomerular filtration rate (eGFR) and chronic kidney disease (CKD) staging in a multi-ethnic ADPKD population.<h4>Materials and methods</h4>In this multicenter, retrospective cohort study, 597 ADPKD patients were evaluated, including 515 self-identified as Caucasian and 82 as African-American. eGFR values at baseline and final follow-up were calculated using both the 2009 and 2021 CKD-EPI equations. Changes in CKD staging and clinical implications were assessed based on the race-free equation.<h4>Results</h4>Among Caucasian patients, the median baseline eGFR increased from 85.0 to 88.6 mL/min/1.73 m<sup>2</sup> and the final eGFR from 63.1 to 66.1 mL/min/1.73 m<sup>2</sup> using the 2021 equation (p < 0.001). In contrast, the 2021 equation resulted in decreased eGFR among African-American patients, from 89.3 to 80.3 mL/min/1.73 m<sup>2</sup> at baseline and from 46.8 to 42.6 mL/min/1.73 m<sup>2</sup> at final follow-up (p < 0.001). A total of 6.7% of Caucasian patients were downstaged initially and 5.7% at final follow-up. Conversely, 2.3% of African-American patients were upstaged at baseline and 1.8% at final follow-up.<h4>Conclusion</h4>The 2021 CKD-EPI equation significantly alters eGFR estimation and CKD staging compared to the 2009 version, with varying impacts across ethnic groups. These findings highlight the importance of careful interpretation of eGFR and individualized clinical decision-making in patients with ADPKD.",
+    "ai_summary": "Gene: PKD1, PKD2 (implied by ADPKD diagnosis)\nFinding: The 2021 race-free CKD-EPI equation significantly alters eGFR estimation and CKD staging compared to the 2009 race-based equation, increasing eGFR in Caucasian patients and decreasing it in African-American patients with ADPKD.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.55730/1300-0144.6212",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42488334",
+    "title": "Kidney organoids as models for hereditary kidney diseases: Toward precision medicine (Review).",
+    "authors": "Cui S, Chen T, Zou Y, Li M, Zhou H, Jiang J, Yang M.",
+    "journal": "Experimental and therapeutic medicine",
+    "date": "2026-07-06",
+    "abstract": "Kidney organoids are important tools for modeling human development and disease, especially in chronic kidney disease (CKD), which is a global health challenge. Current treatment strategies focus on delaying disease progression by managing underlying causes, and in this regard, kidney organoids offer a platform for mechanism-based therapeutics. Advances in the understanding of human induced pluripotent stem cells (hiPSCs) and sophisticated 3D organ culture methods have enabled researchers to replicate human kidney development and disease mechanisms <i>in vitro</i>, thereby opening new avenues for drug testing. Although the methods for generating renal cell lineages are well established, new protocols for inducing lineages, such as the ureteric bud and collecting ducts, have emerged over the past 5 years. Patient-derived or genetically edited kidney organoids have been used to successfully model various genetic kidney diseases, notably polycystic kidney disease, and to generate kidney tissues that closely mimic the morphology of real organs. However, achieving more complex disease modeling and generating transplantable synthetic kidneys still has notable challenges. The present review discusses the application of hiPSC-derived 3D organoids in CKD research and addresses the limitations of current organ culture methods. The present review also examines the impact of CRISPR/Cas9 technology, and investigates potential future directions.",
+    "ai_summary": "Kidney organoids derived from human induced pluripotent stem cells are valuable tools for modeling hereditary kidney diseases, including polycystic kidney disease, and for testing potential therapeutics, though challenges remain in achieving complex disease modeling and transplantable organs.",
+    "source_link": "https://doi.org/10.3892/etm.2026.13232",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42500764",
+    "title": "Cefepime-Induced Delirium in a Patient With Chronic Kidney Disease: A Case Report.",
+    "authors": "Gomes H, Pires M, Freitas C, Freitas RM.",
+    "journal": "Cureus",
+    "date": "2026-06-24",
+    "abstract": "Delirium is a frequent yet often underrecognised complication in hospitalised patients, particularly in those with renal impairment. Cefepime, a broad-spectrum cephalosporin, has been increasingly associated with neurotoxicity, manifesting as confusion, hallucinations, and agitation. This case report describes a 63-year-old woman with chronic kidney disease secondary to autosomal dominant polycystic kidney disease who developed acute confusional symptoms after initiating cefepime during treatment of a urinary tract infection associated with infected renal cysts. Following clinical improvement of the underlying infection, she developed temporal disorientation and visual hallucinations within 24-48 hours of cefepime initiation, which resolved within 24 hours of drug discontinuation. The Naranjo Adverse Drug Reaction Probability Scale classified the association as \"probable\" (score: 6). Although alternative contributors to delirium were present, including acute infection and renal dysfunction, the temporal relationship between cefepime exposure and symptom onset, together with rapid symptom resolution after withdrawal, supported cefepime-induced neurotoxicity as the most likely diagnosis. This case reinforces the importance of considering cefepime-induced neurotoxicity in the differential diagnosis of delirium, particularly in patients with renal dysfunction. Close clinical monitoring and early recognition are essential to prevent misdiagnosis and unnecessary interventions. Further studies are needed to refine risk assessment and explore safer therapeutic alternatives.",
+    "ai_summary": "A 63-year-old woman with chronic kidney disease due to autosomal dominant polycystic kidney disease developed delirium (temporal disorientation and visual hallucinations) within 24-48 hours of starting cefepime for a urinary tract infection; symptoms resolved within 24 hours of stopping the drug, consistent with cefepime-induced neurotoxicity.",
+    "source_link": "https://doi.org/10.7759/cureus.111418",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42498085",
+    "title": "Prognostic Systematic Reviews: Challenges and Insights-An Example.",
+    "authors": "Khawandi J, Rayner DG, Rao V, Grimaji N, Azzam M, Hamarsha Q, Kawtharany H, Choaib A, Yu ASL, Perrone RD, Foroutan F, Mustafa RA.",
+    "journal": "Journal of clinical epidemiology",
+    "date": "2026-07-24",
+    "abstract": "<h4>Background and objective</h4>Conducting systematic reviews of prognostic factors is challenging, especially in the presence of abundant evidence. In this paper, we describe challenges encountered and lessons learned from our experience in conducting a systematic review and meta-analysis for prognostic biomarkers used in Autosomal Dominant Polycystic Kidney Disease (ADPKD).<h4>Methods</h4>Throughout the process of conducting the systematic review, we drafted the challenges encountered at each step, tackled potential solutions and insights for the addressed challenges. We then met as a group to discuss whether any further individual issues needed to be added, and what aspects would have made the process easier.<h4>Results</h4>Despite a few issues in multiple steps of the process, the authors thought the most challenging step was data analysis and interpretation, mainly due to the variability in how the data was reported. Other challenges were related to screening and extraction of data due to the large number of studies that were not primarily prognostic studies but included valuable data to this review.<h4>Conclusion</h4>Using the worked example of a prognostic systematic review and meta-analysis for biomarkers used in ADPKD, we believe the challenges mentioned and tips provided will make the process easier for researchers conducting future prognostic systematic reviews focusing on prognostic factors.",
+    "ai_summary": "This article discusses the challenges of conducting systematic reviews of prognostic factors, using a review of biomarkers for Autosomal Dominant Polycystic Kidney Disease (ADPKD) as an example. The main difficulties included variability in data reporting, which complicated analysis and interpretation, and the large number of studies that contained relevant data but were not primarily prognostic studies, making screening and extraction challenging. The authors provide insights and tips to help researchers conducting similar reviews in the future.",
+    "source_link": "https://doi.org/10.1016/j.jclinepi.2026.112427",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42473303",
+    "title": "Pregnancy in Autosomal Dominant Polycystic Kidney Disease: Maternal and Fetal Considerations: A Narrative Review.",
+    "authors": "Sarmadian PJ, Pirooz AD, Al Baghdadi M, Kamgar M, Afshar Y, Nobakht N.",
+    "journal": "Journal of pregnancy",
+    "date": "2026-01-01",
+    "abstract": "<h4>Background and aims</h4>Autosomal dominant polycystic kidney disease (ADPKD) is the most common inherited kidney disorder and an important cause of kidney failure among individuals of reproductive age. Although its management in nonpregnant adults is well established, the implications of ADPKD during pregnancy remain less clearly defined. The aim of this review is to summarize maternal and fetal risks and provide practical management considerations for pregnancy in individuals with ADPKD.<h4>Methods</h4>A narrative review of the literature was conducted using PubMed/MEDLINE and relevant clinical practice guidelines, focusing on pregnancy-related outcomes and management considerations in individuals with ADPKD.<h4>Results</h4>Pregnant individuals with ADPKD face higher risks of chronic hypertension, proteinuria, hypertensive disorders of pregnancy, and preterm delivery compared with the general population. Strict blood pressure targets used outside of pregnancy may compromise uteroplacental perfusion, highlighting the importance of pregnancy-appropriate goals and safe antihypertensive choices. Renin-angiotensin system inhibitors and disease-modifying therapies such as tolvaptan are contraindicated due to fetal safety concerns. Monitoring strategies include regular assessment of blood pressure, kidney function, and fetal growth. Emerging imaging data suggest that pregnancy may accelerate kidney and liver cyst growth, although long-term consequences remain uncertain. Additional strategies such as low-dose aspirin, biochemical markers for preeclampsia risk assessment, and renal ultrasound for baseline evaluation may be considered.<h4>Conclusion</h4>Pregnancy in individuals with ADPKD requires individualized, multidisciplinary care with careful attention to blood pressure control, medication safety, and maternal and fetal monitoring. Further research is needed to better understand long-term outcomes and optimize management strategies.",
+    "ai_summary": "Pregnant individuals with ADPKD face increased risks of hypertension, preeclampsia, and preterm delivery. Strict blood pressure targets and medications like ACE inhibitors or tolvaptan are contraindicated; pregnancy-appropriate monitoring and multidisciplinary care are essential.",
+    "source_link": "https://doi.org/10.1155/jp/9166037",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42497974",
+    "title": "Diagnosing Mendelian Kidney Disease: Hidden Niches in the (Kidney) Genome.",
+    "authors": "Ekici AB, Knaup KX, Schaeffer C, Schneider K, Wopperer FJ, Wiesener A, Dieterle A, Buchholz B, Schiffer M, Saake M, Vasko R, Wons A, Schuhmann S, Vasileiou G, Reis A, Rampoldi L, Pasutto F, Wiesener MS.",
+    "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+    "date": "2026-07-24",
+    "abstract": "A certain proportion of patients with Mendelian diseases are overlooked, although substantial technical advances in molecular genetics have been achieved. Massively parallel sequencing (MPS) increasingly identifies genetic variants of unknown significance, which may remain clinically unhelpful. Furthermore, difficult niches in the genome exist, which cannot be solved by standard MPS. In the reported family autosomal dominant kidney disease leading to renal failure in middle adulthood runs through the maternal and paternal family. Comprehensive genetic analyses and customized functional evaluation solved the genetic etiologies: autosomal dominant polycystic kidney disease (ADPKD-PKD1, maternal) and autosomal dominant tubulointerstitial kidney disease (ADTKD-UMOD, paternal), with the index patient suffering from both diseases. The pathogenic variant in PKD1 (c.2180T>C, p.(Leu727Pro)) was not identified by exome sequencing (ES) but was unveiled by traditional long-range amplification protocols and whole genome sequencing. The ease of use of MPS increasingly tempts non-specialized genetic laboratories to perform broad analyses of numerous diseases, which in specific cases may worsen the quality of investigations, i.e. for the relatively frequent ADPKD.",
+    "ai_summary": "Gene: PKD1\nFinding: A pathogenic PKD1 variant (c.2180T>C, p.(Leu727Pro)) causing autosomal dominant polycystic kidney disease was missed by exome sequencing but identified by long-range amplification and whole genome sequencing.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1053/j.ajkd.2026.05.015",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42484329",
+    "title": "Analysis of host factors for internal ribosomal entry site-mediated translation of foot and mouth disease virus and classical swine fever virus: an <i>in vivo</i> evaluation in single- and double-knockout mice.",
+    "authors": "Utsunomiya M, Momohara K, Sato R, Nagatomo S, Hifumi T, Sakoda Y, Tsukiyama-Kohara K.",
+    "journal": "Journal of virology",
+    "date": "2026-07-22",
+    "abstract": "Foot-and-mouth disease virus (FMDV) and classical swine fever virus (CSFV) both exploit host factors for internal ribosomal entry site (IRES)-mediated translation when they infect hosts. We previously identified polycystic kidney disease 1-like 3 (PKD1L3) and ubiquitin-specific peptidase 31 (USP31) as host factors for IRES-mediated translation, common to both viruses <i>in vitro</i>. To further investigate these host factor roles in IRES activity and viral replication <i>in vivo</i>, we established <i>Pkd1l3</i><sup>-/-</sup>, <i>Usp31<sup>-/-</sup></i>, and <i>Pkd1l3<sup>-/-</sup>Usp31<sup>-/-</sup></i> (double-knockout [DKO]) mice. These knockout mice were viable through 1 year after birth. FMDV and encephalomyocarditis virus (EMCV) IRES activities were significantly suppressed in <i>Pkd1l3<sup>-/-</sup></i>, <i>Usp31<sup>-/-</sup></i>, and DKO mouse liver tissue. CSFV IRES activity was decreased, but non-significantly, in single-knockout and DKO mouse liver tissue. CSFV replicon replication was significantly decreased in the livers of USP31<sup>-/-</sup> and DKO mice. Mice were further infected with porcine EMCV (an FMDV surrogate), and <i>Pkd1l3</i><sup>-/-</sup>, <i>Usp</i>31<sup>-/-</sup>, and DKO mice showed slightly less neuronal ischemic necrosis in the cerebral cortex than wild-type (WT) mice. Extramedullary hematopoiesis in the spleen was observed only in WT cases. Viral titer and/or RNA level was significantly decreased in the lung in all KO mice, and in the brain in DKO mice. In the heart, a major target for this virus, copy number levels decreased in the order of WT, <i>Pkd1l3<sup>-/-</sup></i>, <i>Usp31<sup>-/-</sup></i>, and DKO, albeit without showing significant differences. Accordingly, this study provides useful evidence on PKD1L3 and USP31 host-factor deletion, as a step to developing FMDV- and CSFV-resistant livestock through the prevention of IRES-mediated translation.IMPORTANCEFoot-and-mouth disease virus (FMDV) and classical swine fever virus (CSFV) are highly infectious to livestock, and novel mitigation strategies are required. Establishment of FMDV- and CSFV-resistant animals has the potential to prevent FMD and CSF infection. This study provides useful evidence for the development of such resistant livestock, through an <i>in vivo</i> evaluation of host factors for internal ribosomal entry site (IRES)-mediated translation.",
+    "ai_summary": "Gene: PKD1L3, USP31\nFinding: Deletion of Pkd1l3 and/or Usp31 in knockout mice suppresses IRES-mediated translation of FMDV and EMCV, reduces CSFV replicon replication, and attenuates viral pathology and titers upon EMCV infection.\nDisease: Foot-and-mouth disease, classical swine fever",
+    "source_link": "https://doi.org/10.1128/jvi.00905-26",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "41883689",
+    "title": "Phenotypic spectrum and molecular characteristics of variants of uncertain significance in copy number variations associated with fetal cardiac malformations: a case series of 9 patients.",
+    "authors": "Yin J, Wang Q, Lan T, Ou H, Zhou X, Zhong L, Cao H, Zhang L, Luo Y.",
+    "journal": "Frontiers in pediatrics",
+    "date": "2026-03-10",
+    "abstract": "<h4>Background</h4>Copy number variants of uncertain significance (VUS-CNVs) pose significant challenges in prenatal counseling for congenital heart malformations (CHMs). Their clinical relevance remains poorly defined, particularly in the absence of postnatal validation.<h4>Objective</h4>To characterize the phenotypic and molecular features of VUS-CNVs in CHM fetuses and evaluate their clinical implications.<h4>Methods</h4>From a cohort of 644 fetuses with CHMs undergoing chromosomal microarray analysis (CMA), we identified 9 VUS-CNV cases. All reportable CNVs (≥200 kb or in known pathogenic regions such as 22q11.21) were validated by TaqMan qPCR. Detailed prenatal echocardiography, trio CMA (<i>n</i> = 7), and postnatal follow-up were integrated for comprehensive assessment.<h4>Results</h4>VUS-CNVs were identified in 9 of 644 (1.40%) CMA-tested fetuses with CHMs. These included 3 in isolated CHM, 1 in complex CHM, 3 in CHM with extracardiac structural anomalies, and 2 in CHM with isolated soft markers. VUS-CNVs in non-isolated cases were larger (median: 2.5 Mb vs. 0.72 Mb in isolated CHM) and encompassed more OMIM-listed genes (mean: 3.8 vs. 1.5 in isolated CHM) than those in isolated CHM. Trio analysis reclassified 3 of 7 tested VUS-CNVs (2 as likely benign, 1 as likely pathogenic). Six pregnancies continued to term-3 with isolated and 3 with non-isolated CHM-and all live-born infants showed no major postnatal abnormalities. The three terminations involved non-isolated phenotypes; decisions were primarily driven by structural anomaly severity, though the VUS amplified prognostic uncertainty.<h4>Conclusion</h4>Although VUS-CNVs are uncommon in fetuses with CHMs, they occur more frequently in non-isolated phenotypes and carry the potential for future reclassification-posing significant challenges in prenatal genetic counseling. These two aspects underscore the necessity of trio-based genomic testing, cautious interpretation of results, and longitudinal follow-up. Given the limited sample size of this study, no causal relationship between VUS-CNVs and clinical phenotypes can be inferred; however, our findings support a risk-stratified management framework that integrates detailed fetal phenotyping, trio analysis, and postnatal follow-up to enable accurate variant interpretation and informed decision-making.",
+    "ai_summary": "This study examined 9 fetuses with congenital heart malformations (CHMs) who had copy number variants of uncertain significance (VUS-CNVs). VUS-CNVs were more common in fetuses with non-isolated CHMs (those with additional structural anomalies or soft markers) and tended to be larger and contain more genes in these cases. Trio analysis reclassified 3 of 7 VUS-CNVs, and all live-born infants showed no major postnatal abnormalities, highlighting the challenges of interpreting VUS-CNVs in prenatal counseling and the need for trio testing and follow-up.",
+    "source_link": "https://doi.org/10.3389/fped.2026.1696089",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "40201710",
+    "title": "Case Report: ROSAH syndrome presents diagnostic and therapeutic challenges.",
+    "authors": "Shunyakova J, Reynolds M, Taylor A, Sieck EG, Walsh JT, Hassman LM.",
+    "journal": "Frontiers in ophthalmology",
+    "date": "2025-03-25",
+    "abstract": "<h4>Background</h4>Retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, and headache (ROSAH) syndrome is an autosomal dominant disorder caused by a heterozygous missense mutation in alpha kinase 1 (ALPK1). This series reports the presentation and treatment outcomes of three first-degree relatives with ROSAH syndrome.<h4>Methods</h4>Retrospective chart review, whole exome sequencing.<h4>Results</h4>A 16-year-old male presented with bilateral optic disc edema, macular edema, retinal degeneration, and vitreous inflammation. His mother and brother had similar clinical features. Whole exome gene sequencing identified a shared heterozygous mutation in the ALPK1 gene c.710C>T, consistent with ROSAH syndrome. Ophthalmic manifestations in this family included optic nerve edema, macular edema, panuveitis, glaucoma, and widespread retinal cone and rod dysfunction. While the proband's macular edema improved with intravitreal dexamethasone and systemic tocilizumab, immune suppression did not prevent retinal degeneration.<h4>Conclusion</h4>A diagnosis of ROSAH syndrome, suggested by the concomitant presentation of optic disc edema, uveitis, and retinal degeneration, can be made by targeted genetic sequencing of the ALKP1 gene. While ROSAH-associated ocular inflammation and macular edema may respond to local steroids and immune suppression, retinal degeneration may progress despite these therapies.",
+    "ai_summary": "Gene: ALPK1  \nFinding: A heterozygous missense mutation (c.710C>T) in ALPK1 causes ROSAH syndrome, characterized by optic disc edema, uveitis, retinal degeneration, and macular edema that may respond to local steroids and immune suppression, but retinal degeneration can progress despite treatment.  \nDisease: ROSAH syndrome (retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, headache)",
+    "source_link": "https://doi.org/10.3389/fopht.2025.1535805",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42481875",
+    "title": "The centrosome-cilium-centriolar satellite axis in neurodegenerative diseases.",
+    "authors": "Sahin U, Firat-Karalar EN.",
+    "journal": "EMBO reports",
+    "date": "2026-07-21",
+    "abstract": "Neurodegenerative diseases (NDDs), including Alzheimer's disease, Parkinson's disease, Huntington's disease, amyotrophic lateral sclerosis, and hereditary ataxias, remain major global health challenges with limited therapeutic options. Although clinically and genetically diverse, these diseases share extensively studied cellular and molecular hallmarks, including protein aggregation, impaired proteostasis, cytoskeletal abnormalities, altered energy metabolism, nucleic acid damage, and chronic inflammation. Emerging evidence indicates that dysfunction of the centrosome-cilium-satellite axis intersects with these established pathways in disease- and cell type-specific contexts. This axis, composed of centrosomes, primary cilia, and centriolar satellites, coordinates cytoskeletal organization, ciliary signaling, trafficking, proteostasis, and stress responses and acquires specialized functions in neurons that support polarity, connectivity, and long-term maintenance. In this review, we outline the structure, function, and neuronal specializations of the centrosome-cilium-satellite axis, then examine how its dysfunction has been reported in neurodegenerative disease models. We also discuss centriolar satellites as regulators of centrosome and cilium biology whose disease-specific roles in classical NDDs remain comparatively underexplored, with insights from Huntington's disease and schizophrenia. Finally, we discuss therapeutic strategies aimed at restoring axis structure and dynamics, modulating ciliary signaling, and correcting disease-linked genetic or transcript-level defects, emphasizing mechanism-based approaches that require validation in disease-relevant models. Together, the centrosome-cilium-satellite axis provides an emerging framework for understanding context-dependent organelle dysfunction in neuronal vulnerability and neurodegeneration.",
+    "ai_summary": "This review discusses how dysfunction of the centrosome-cilium-centriolar satellite axis contributes to neurodegenerative diseases (NDDs) such as Alzheimer's, Parkinson's, and Huntington's disease. The authors outline the structure and neuronal specializations of this axis, examine its reported dysfunction in NDD models, and highlight centriolar satellites as an underexplored area in classical NDDs. They conclude that this axis provides a framework for understanding context-dependent organelle dysfunction in neurodegeneration and discuss potential therapeutic strategies.",
+    "source_link": "https://doi.org/10.1038/s44319-026-00877-3",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42201810",
+    "title": "A human corticospinal organoid-slice connectoid model informs enhancer strategies for post-injury axon regrowth.",
+    "authors": "Gibbons GM, Fuchsberger T, Abdelgawad M, Giandomenico SL, Szebényi K, Petrova V, Wenger LMD, Olschewski DN, Chabros J, Muresan L, Feord RC, Asif M, Fawcett JW, Mierau SB, Paulsen O, Lancaster MA, Lakatos A.",
+    "journal": "Cell reports",
+    "date": "2026-05-26",
+    "abstract": "Axon elongation in the mammalian central nervous system (CNS) declines during development, limiting regenerative capacity after birth. Intrinsic regulators of this process are promising repair targets, as immature axons can regrow in tissues otherwise not conducive to regeneration. Yet the precise timing and mechanisms underlying the cessation of axon growth in the human CNS remain unresolved. Here, we developed a three-dimensional human corticospinal motor organoid-slice connectoid platform mimicking the developmental axon elongation program and its subsequent restriction through maturation. Cortical and spinal slices establish functional connections while remaining spatially segregated, enabling cortical cell-type-specific observations without direct confounding effects by spinal cells. Using single-cell transcriptomics, computational analyses, axon regrowth assays, and live imaging, we identified transcriptional alterations contributing to decreased axon growth in maturing human cortical projection neurons. We further demonstrate that this decline can be reversed using compounds and repurposable drugs targeting a maturation-associated transcriptional shift, promoting post-injury axon repair.",
+    "ai_summary": "Gene: Not specified\nFinding: A human corticospinal organoid-slice connectoid model was developed to study developmental axon elongation and its decline, and compounds targeting maturation-associated transcriptional shifts were shown to promote post-injury axon regrowth.\nDisease: Central nervous system injury",
+    "source_link": "https://doi.org/10.1016/j.celrep.2026.117399",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "40953040",
+    "title": "Intramuscular adipose tissue: from progenitor to pathology.",
+    "authors": "Jones HG, Kopinke D, Meyer GA.",
+    "journal": "American journal of physiology. Cell physiology",
+    "date": "2025-09-15",
+    "abstract": "The accumulation of intramuscular adipose tissue (IMAT) is a nearly ubiquitous feature of skeletal muscle pathology, strongly correlating with impaired contractility and metabolic dysfunction across a wide spectrum of clinical conditions, from aging and obesity to genetic myopathies and orthopedic injuries. For decades, a critical question has persisted: is IMAT a passive biomarker of disease progression or an active pathogenic agent? This review synthesizes emerging evidence to address this question by exploring several key areas. We first evaluate the mechanisms by which IMAT impairs muscle function, examining evidence for its dual role as both a physical disruptor and a local source of unbalanced paracrine signals. By integrating findings from human studies with insights from diverse animal models, we also highlight significant translational challenges, particularly the resistance of common rodent models to developing human-like IMAT pathology. Furthermore, we review the cellular origin of IMAT to resident fibro/adipogenic progenitors (FAPs), a highly plastic cell population that supports regeneration in healthy muscle but can differentiate into adipocytes under pathological conditions. We then dissect the complex signaling network that governs this fate switch-specifically the balance between proadipogenic \"triggers\" and inhibitory \"brakes\" that becomes dysregulated in disease. The evidence increasingly points to IMAT as an active contributor to muscle decline. Therefore, future progress requires a multipronged approach: the continued elucidation of the specific molecular \"brakes\" and \"triggers\" that govern FAP fate, the development of more translationally relevant preclinical models, and the standardization of IMAT quantification methods to improve diagnostic accuracy and clinical trial endpoints.",
+    "ai_summary": "Intramuscular adipose tissue (IMAT) is an active contributor to muscle decline, not just a passive biomarker. It impairs muscle function through physical disruption and unbalanced paracrine signals, and originates from fibro/adipogenic progenitors (FAPs) that differentiate into adipocytes when the signaling balance between proadipogenic triggers and inhibitory brakes is disrupted.",
+    "source_link": "https://doi.org/10.1152/ajpcell.00613.2025",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "41666178",
+    "title": "Integrative bioinformatics and experiments identify RIBC2 as a key regulator in the esophageal cancer.",
+    "authors": "Zheng X, Cui Y, Yao X, Wu Y, Ge Y, Jin Y, Gan J, Yao W, Bi Y, Sun G.",
+    "journal": "PloS one",
+    "date": "2026-02-10",
+    "abstract": "Early detection of esophageal cancer (EC) remains a major challenge due to the limited understanding of its initial molecular alterations. Therefore, this study aimed to identify the key molecular drivers involved in EC carcinogenesis. Human normal esophageal epithelial cells were subjected to chronic malignant transformation, followed by assessment of their morphological changes, proliferative capacity, clonogenic potential, migration, and invasion abilities. To elucidate the molecular mechanisms underlying tumorigenesis, transcriptome sequencing was performed and integrated with clinical datasets from two independent EC cohorts. Machine learning algorithms were then applied to pinpoint diagnostic and prognostic gene signatures, which were further validated through comprehensive in vitro and in vivo experiments. Differential expression analysis and machine learning identified RIB43A domain with coiled-coils 2 (RIBC2) as a strong diagnostic and prognostic biomarker for EC. RIBC2 expression was markedly upregulated in chronically transformed epithelial cells, established EC cell lines, and clinical tumor specimens, and its elevation was associated with unfavorable clinicopathological characteristics. Functional studies revealed that silencing RIBC2 significantly inhibited cell proliferation, migration, and invasion in both transformed and EC cells. Moreover, immune profiling indicated that high RIBC2 expression was linked to an immune-excluded tumor microenvironment, implying a potential role in modulating responsiveness to immunotherapy. These findings reveal RIBC2 as a novel driver of EC initiation and progression, highlighting its potential as a biomarker for early diagnosis and as a promising target for therapeutic intervention.",
+    "ai_summary": "Gene: RIBC2  \nFinding: RIBC2 is upregulated in esophageal cancer and promotes proliferation, migration, and invasion; its high expression is linked to an immune-excluded tumor microenvironment.  \nDisease: Esophageal cancer",
+    "source_link": "https://doi.org/10.1371/journal.pone.0340850",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "39934495",
+    "title": "Growth hormone-releasing hormone receptor (GHRH-R) and its signaling.",
+    "authors": "Halmos G, Szabo Z, Dobos N, Juhasz E, Schally AV.",
+    "journal": "Reviews in endocrine & metabolic disorders",
+    "date": "2025-02-12",
+    "abstract": "The hypothalamic polypeptide growth hormone-releasing hormone (GHRH) stimulates the secretion of growth hormone (GH) from the pituitary through binding and activation of the pituitary type of GHRH receptor (GHRH-R), which belongs to the family of G protein-coupled receptors with seven potential membrane-spanning domains. Various splice variants of GHRH-R (SV) in human neoplasms and other extrapituitary tissues were demonstrated and their cDNA was sequenced. Among the SVs, splice variant 1 (SV1) possesses the greatest similarity to the full-length GHRH-R and remains functional by eliciting cAMP signaling and mitogenic activity upon stimulation by GHRH. In this review, we briefly discuss the activation, regulation, molecular mechanisms and signaling pathways of GHRH-Rs and their SVs in various tissues and also summarize the expression, biological activities and potential function of GHRH, its analogs and their receptors. A large body of work have extensively studied and evaluated potential clinical applications of agonists and antagonists of GHRH in diverse fields, including oncology, endocrinology, obesity, diabetes, other metabolic dysfunctions, cardiology, immune functions, mood disorders, Alzheimer's and lung disease, ophthalmology, inflammation, wound healing and other applications. These results strongly support the potential therapeutic use of GHRH analogs in human medicine in the near future.",
+    "ai_summary": "This review discusses the GHRH receptor (GHRH-R) and its signaling pathways, focusing on its splice variants (especially SV1) and their roles in various tissues. The authors summarize the potential clinical applications of GHRH analogs (agonists and antagonists) in a wide range of diseases, including oncology, endocrinology, metabolic disorders, and others, supporting their future therapeutic use.",
+    "source_link": "https://doi.org/10.1007/s11154-025-09952-x",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "41373691",
+    "title": "Prominin-1 Regulates Retinal Pigment Epithelium Homeostasis: Transcriptomic Insights into Degenerative Mechanisms.",
+    "authors": "Huo W, Yin J, Ghose P, Schafer JC, Chaum E, Bhattacharya S.",
+    "journal": "International journal of molecular sciences",
+    "date": "2025-11-28",
+    "abstract": "Inherited retinal degenerations (IRDs), driven by pathogenic mutations, often involve primary dysfunction of the retinal pigment epithelium (RPE)-a pathogenic feature shared with atrophic age-related macular degeneration (aAMD), despite aAMD's multifactorial etiology. <i>Prominin-1</i> (<i>Prom1</i>), traditionally linked to photoreceptor pathology, has an unclear role in RPE homeostasis. We assessed Prom1 expression in C57BL/6J mouse retina sections and RPE flat mounts using immunohistochemistry and generated <i>Prom1</i>-knockout (KO) mouse RPE cells via CRISPR/Cas9. Bulk RNA sequencing with DESeq2 and gene set enrichment analysis (GSEA) revealed <i>Prom1</i>-regulated pathways. <i>Prom1</i>-KO cells exhibited upregulation of <i>Grem1</i>, <i>Slc7a11</i>, <i>Serpine2</i>, <i>Il1r1</i>, and <i>IL33</i> and downregulation of <i>Ablim1</i>, <i>Cldn2</i>, <i>IGFBP-2</i>, <i>BMP3</i>, and <i>OGN</i>. Hallmark pathway interrogation identified reduced expression of <i>PINK1</i> (mitophagy) and <i>MerTK</i> (phagocytosis), implicating defects in mitochondrial quality control and outer segment clearance. Enrichment analysis revealed activation of E2F/MYC targets, mTORC1 signaling, oxidative phosphorylation, and TNFα/NF-κB signaling, alongside suppression of apical junctions, bile acid metabolism, and Epithelial-Mesenchymal Transition (EMT) pathways. These findings suggest <i>Prom1</i> safeguards RPE integrity by modulating stress responses, mitochondrial turnover, phagocytosis, metabolism, and junctional stability. Our study uncovers <i>Prom1</i>-dependent signaling networks, providing mechanistic insights into RPE degeneration relevant to both IRD and aAMD, and highlights potential therapeutic targets for preserving retinal health.",
+    "ai_summary": "Gene: Prom1\nFinding: Prom1 knockout in mouse RPE cells disrupts mitophagy, phagocytosis, and junctional stability while activating stress and inflammatory pathways, indicating a role in RPE homeostasis.\nDisease: Inherited retinal degenerations and atrophic age-related macular degeneration",
+    "source_link": "https://doi.org/10.3390/ijms262311539",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42477522",
+    "title": "Multi-omics integration of F<sub>st</sub>, GWAS, TWAS and transcriptomics revealed candidate genes and pathways associated with pneumonia lesion scores in pigs.",
+    "authors": "Zhao G, Yin Y, Han J, Chen J, Li M, Han X, Ma J, Yu J, Zhou J, Chen C, Huang R, Li P, Zhao Q.",
+    "journal": "BMC genomics",
+    "date": "2026-07-20",
+    "abstract": "<h4>Background</h4>Respiratory diseases significantly impair pig growth performance by reducing average daily gain and feed conversion efficiency. Pneumonia lesion score (PLS) is a reliable phenotypic indicator for detecting respiratory issues in pig herds, including subclinical infections that often remain undiagnosed. In this study, PLS data was collected from 327 Large White pigs, and whole-genome resequencing (WGS) was performed. Lung tissue samples from pigs with extremely high and low PLS values were subjected to transcriptomic sequencing and Fixation Index (F<sub>st</sub>) analysis. Additionally, a transcriptome-wide association study (TWAS) was conducted using FarmGTEx prediction models based on blood and lung tissues.<h4>Results</h4>By integrating F<sub>st</sub>, Genome-Wide Association Study (GWAS), TWAS, and transcriptomic data, we identified key genomic regions and pathways associated with PLS variation, including immune regulation, inflammation, and metabolic adaptation. Candidate genes, RAB11FIP2 and SLC18A2 are implicated in immune modulation: RAB11FIP2 enhances TLR4 signaling and phagocytosis, whereas reduced SLC18A2 expression may compromise monoamine-mediated immune regulation. FBXL13 and ALPK2, identified via F<sub>st</sub> and transcriptomic analysis, are linked to macrophage migration and Wnt/β-catenin signaling. Similarly, Genes like TRAF3IP1 and ASB1, highlighted by F<sub>st</sub> and GWAS, contribute to ciliary transport, epithelial defense, and regulation of NF-κB and MAPK signaling. Moreover, GWAS and TWAS pinpointed RAMP1, as a novel candidate gene influencing immune modulation and airway responses through CGRP signaling, vascular tone regulation, and neuro-immune interactions, these findings have not been previously reported in PLS studies.<h4>Conclusions</h4>Overall, this study provides novel insights into the genetic mechanisms underlying porcine lung lesions and offers a foundation for breeding strategies aimed at improving respiratory disease resistance and herd health.",
+    "ai_summary": "Gene: TRAF3IP1\nFinding: TRAF3IP1, identified by Fst and GWAS, contributes to ciliary transport, epithelial defense, and regulation of NF-κB and MAPK signaling in association with pneumonia lesion scores.\nDisease: Pneumonia lesion scores (respiratory disease susceptibility) in pigs.",
+    "source_link": "https://doi.org/10.1186/s12864-026-13203-x",
+    "genes": [
+      "TRAF3IP1"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-07-27"
   }
 ]
