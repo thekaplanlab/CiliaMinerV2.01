@@ -70277,5 +70277,571 @@
       "Cilia"
     ],
     "first_seen": "2026-07-27"
+  },
+  {
+    "pmid": "42538728",
+    "title": "Melanocortin-4 Receptor Regulation of Endocrine Axes and Clinical Effects of Setmelanotide.",
+    "authors": "Hühne T, Steidel E, Holland J, Finkelberg I, Kiewert C, Pape L, Dinkelbach L, Cetiner M.",
+    "journal": "The Journal of clinical endocrinology and metabolism",
+    "date": "2026-08-01",
+    "abstract": "<h4>Background</h4>Bardet-Biedl syndrome (BBS) is a rare ciliopathy characterized by early-onset obesity and multisystem endocrine dysfunction. The melanocortin-4 receptor (MC4R) agonist setmelanotide is approved for hyperphagia-related obesity in BBS, but its endocrine effects remain incompletely understood.<h4>Methods</h4>In this prospective single-centre observational cohort study, 58 genetically confirmed BBS patients initiating setmelanotide therapy were followed longitudinally. Linear mixed-effects models adjusted for age, sex, and BMI z-score were used to evaluate changes over time.<h4>Findings</h4>After 6 months, significant reductions in BMI and HbA1c were observed. Treatment was associated with increases in gonadotropins and testosterone and estradiol age-dependently. IGF-1 levels increased independently of weight change, while TSH decreased without corresponding changes in peripheral thyroid hormones. These effects were established within the first 6 months and remained stable thereafter.<h4>Interpretation</h4>Setmelanotide exerts pleiotropic effects beyond weight reduction, modulating multiple endocrine axes in BBS. The observed changes highlight MC4R signaling pathway as a key integrator of metabolic and endocrine function and suggest partially weight-independent therapeutic effects.<h4>Funding</h4>German Federal Ministry of Research and Education and Rhythm Pharmaceuticals.",
+    "ai_summary": "Gene: MC4R\nFinding: Setmelanotide treatment in Bardet-Biedl syndrome patients modulates multiple endocrine axes—increasing gonadotropins, testosterone/estradiol, and IGF-1, while decreasing TSH—partially independent of weight loss.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.1210/clinem/dgag293",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42538694",
+    "title": "Kidney Transplant in Joubert Syndrome: A Human-Centered Case Series From a Single Center.",
+    "authors": "Abdultawab K, Badawi M, Alawaday M, Shaker M, Adel M, Balaha M, Alotaibi T, Gheith O.",
+    "journal": "Experimental and clinical transplantation : official journal of the Middle East Society for Organ Transplantation",
+    "date": "2026-07-01",
+    "abstract": "<h4>Objectives</h4>Joubert syndrome is a rare ciliopathy in which kidney disease can quietly progress to end -stage kidney disease, often in children and young adults. For these patients and their families, kidney transplant is a turning point, yet published experience remains limited. Here, we share our center's experience with kidney transplant in 5 patients with Joubert syndrome who progressed to end -stage kidney disease, highlighting medical outcomes and practical challenges.<h4>Materials and methods</h4>We conducted a retrospective case series of 5 patients with Joubert syndrome and end -stage kidney disease who received kidney transplants at our center. We reviewed medical records for demographic data, neurological and extrarenal features, renal course, transplant details, immunosuppression, complications, and long -term graft and patient outcomes.<h4>Results</h4>The cohort included 3 male and 2 female patients who received transplants between 12 and 40 years of age. Two patients had genetically confirmed Joubert syndrome, and 3 patients had a clinical diagnosis. Nephronophthisis was the documented cause of end -stage kidney disease in 2 children, whereas 3 patients had end -stage kidney disease attributed to Joubert syndrome without further histology classification. All patients received calcineurin inhibitor -based triple immunosuppression. Delayed graft function occurred in all 5 recipients. Two patients developed biopsy -proven T -cell -mediated acute rejection, successfully treated with pulse steroids. At last follow -up, 3 patients were alive with functional grafts, 1 patient was alive on dialysis after graft loss due to chronic pyelonephritis, and 1 patient died from severe infection with a functional graft.<h4>Conclusions</h4>Kidney transplant is feasible and generally effective in patients with Joubert syndrome, offering durable renal replacement in most cases. However, the universal occurrence of delayed graft function and the effect of infectious complications, which led to 1 graft loss and 1 death, emphasize the need for careful perioperative management, urological assessment, and close long -term follow -up within a multidisciplinary framework.",
+    "ai_summary": "Gene: Not specified (Joubert syndrome, ciliopathy)\nFinding: Kidney transplant is feasible and generally effective in 5 patients with Joubert syndrome and end-stage kidney disease, though all experienced delayed graft function and infectious complications led to one graft loss and one death.\nDisease: Joubert syndrome with end-stage kidney disease",
+    "source_link": "https://doi.org/10.6002/ect.mesot2025.p55",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Joubert syndrome",
+      "Nephronophthisis"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42517885",
+    "title": "Advanced MRI methods for children and young adults with autosomal recessive polycystic kidney disease (ARPKD) to support future multi-center clinical trials.",
+    "authors": "MacAskill CJ, Smothers JB, Kretzler ME, Heilman J, Pepin K, Kuehn B, Liu KC, Tirumani SH, Chen Y, Dell KM, Hartung EA, Serai SD, Flask CA.",
+    "journal": "Pediatric radiology",
+    "date": "2026-07-28",
+    "abstract": "Autosomal recessive polycystic kidney disease (ARPKD) is a rare, genetic ciliopathy with significant associated morbidity and mortality. ARPKD kidney disease is characterized by diffuse kidney fusiform collecting duct dilatations (microcysts) leading to progressive kidney dysfunction. Patients with ARPKD can also develop clinically-significant congenital hepatic fibrosis and portal hypertension. Despite advances in clinical management, there are currently no disease-modifying therapies approved for ARPKD, and the development of clinical trials has been limited by the lack of sensitive, non-invasive biomarkers capable of detecting early disease progression in both the kidney and liver. MRI provides a unique opportunity to address this gap by offering multiparametric, quantitative assessments of tissue structure and function without ionizing radiation or, in many cases, contrast agents. This review summarizes emerging quantitative MRI-based techniques that show promise as imaging biomarkers for children and young adults with ARPKD. These advanced MRI approaches enable comprehensive characterization of the multi-faceted structural and functional changes in the kidney and liver associated with ARPKD. Continued development and harmonization of these quantitative imaging biomarkers across institutions will be critical for enabling multi-center studies and supporting future therapeutic trials aimed at improving outcomes for children and young adults with ARPKD.",
+    "ai_summary": "This review highlights the potential of advanced quantitative MRI techniques as non-invasive imaging biomarkers for children and young adults with autosomal recessive polycystic kidney disease (ARPKD). These methods can characterize structural and functional changes in both the kidney and liver, addressing the current lack of sensitive biomarkers needed to support multi-center clinical trials and the development of disease-modifying therapies.",
+    "source_link": "https://doi.org/10.1007/s00247-026-06737-5",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42517941",
+    "title": "Detection of the NPHP4 c.2999_3005del (p.Asn1000SerfsTer4) variant in an Iranian family with nephronophthisis-4.",
+    "authors": "Jadidi M, Booali S, InanlooRahatloo K.",
+    "journal": "Molecular genetics and genomics : MGG",
+    "date": "2026-07-28",
+    "abstract": "Nephronophthisis type 4 (NPHP4) is a rare genetic kidney disorder progressing to end-stage renal disease (ESRD). In this study, we aimed to identify the genetic cause of NPHP4 in a pedigree with three affected individuals. Whole-exome sequencing was performed on the proband, and variants were filtered, analyzed, and evaluated using in silico tools. Co-segregation analysis was conducted using Sanger sequencing. Protein modeling for the wild-type and mutant forms was performed using AlphFold3. We identified a homozygous deletion (c.2999_3005delTGTGTGT/ p.Asn1000SerfsTer4) in exon 21 of NPHP4, which co-segregated with the disease in the pedigree, demonstrating an autosomal recessive inheritance. 3D protein modeling predicted significant structural changes due to the truncation. The results of this study reveal a deletion variant NPHP4 c.2999_3005del (p.Asn1000SerfsTer4) that causes NPHP4 disease. This study, as a second report of a variant, reaffirms this very variant's pathogenicity and illuminates a critical locus prone to disruption, enhancing our understanding of genotype-phenotype correlations in NPHP4. The concurrence of independent observations of the same variants in NPHP4 emphasizing C-terminal truncation strengthens evidence that disruption of this region is clinically relevant in NPHP4-related disease. These findings together can provide improved understanding of the genetic basis of the disease, therefore better guidance for genetic counseling and family planning strategies for additional affected families.",
+    "ai_summary": "Gene: NPHP4\nFinding: A homozygous deletion variant, c.2999_3005del (p.Asn1000SerfsTer4), was identified via whole-exome sequencing and co-segregated with the disease in an Iranian family, with protein modeling predicting significant structural changes due to C-terminal truncation.\nDisease: Nephronophthisis type 4 (NPHP4)",
+    "source_link": "https://doi.org/10.1007/s00438-026-02494-0",
+    "genes": [
+      "NPHP4"
+    ],
+    "diseases": [
+      "Ciliopathy",
+      "Nephronophthisis"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42531477",
+    "title": "Genotype and Ultrastructure Correlation in Primary Ciliary Dyskinesia Among Saudi Children: A Case Series.",
+    "authors": "Althakfi WA.",
+    "journal": "Fetal and pediatric pathology",
+    "date": "2026-07-30",
+    "abstract": "<b>Background:</b> Primary ciliary dyskinesia (PCD) is a rare inherited disorder of motile cilia causing chronic oto-sinopulmonary disease. Transmission electron microscopy (TEM) remains essential for confirming ultrastructural defects, especially in resource-limited settings. This study characterizes the clinicopathologic and molecular spectrum of Saudi children with PCD. <b>Methods:</b> Ten Saudi children with confirmed PCD (2018-2025) were retrospectively reviewed. Clinical, radiological, ultrastructural, and whole exome sequencing (WES) data were analyzed to assess genotype-phenotype correlation. <b>Results:</b> The cohort included seven females and three males (median age 9 years). Consanguinity was present in 80%, and five had situs inversus. TEM showed class 1 defects in 3 patients, class 2 in 2, and abnormalities of uncertain significance in 3. WES identified variants in DNAAF3, DNAAF4, RSPH9, GAS2L2, and NME5. <b>Conclusions:</b> This study expands the molecular and ultrastructural profile of PCD in Saudi Arabia. TEM remains essential for diagnosis and variant interpretation.",
+    "ai_summary": "Gene: DNAAF3, DNAAF4, RSPH9, GAS2L2, NME5\nFinding: Whole exome sequencing identified variants in these genes, with transmission electron microscopy showing class 1 defects in 3 patients, class 2 in 2, and abnormalities of uncertain significance in 3, supporting genotype-ultrastructure correlation in Saudi children with primary ciliary dyskinesia.\nDisease: Primary ciliary dyskinesia (PCD)",
+    "source_link": "https://doi.org/10.1080/15513815.2026.2699115",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia",
+      "Situs inversus"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42504864",
+    "title": "Comparing Multiple Breath Washout Parameters in a Matched Cohort of Children With Cystic Fibrosis and Primary Ciliary Dyskinesia.",
+    "authors": "Vanvuchelen L, Vermaut A, Proesmans M, Vermeulen F, Boon M.",
+    "journal": "Pediatric pulmonology",
+    "date": "2026-07-30",
+    "abstract": "<h4>Background</h4>Cystic Fibrosis (CF) and primary ciliary dyskinesia (PCD) are congenital disorders characterized by impaired mucociliary clearance, resulting in chronic airway infection, inflammation, and progressive lung damage. CF lung disease involves defective CFTR function throughout the entire airway epithelium, whereas PCD originates from dysfunction of motile respiratory cilia located predominantly in proximal airways. Diagnostic tools such as FEV<sub>1</sub> lack sensitivity to detect early peripheral lung damage. Lung clearance index (LCI), obtained via multiple breath washout (MBW), has emerged as a promising marker for early detection of lung abnormalities.<h4>Objectives</h4>To compare LCI between age and FEV<sub>1</sub>-matched people with (pw) CF and PCD (without highly effective CFTR modulator treatment), hypothesizing more abnormal LCI in CF due to more peripheral airway involvement. Secondary objectives included comparing phase III slope parameters (S<sub>cond</sub> x VT, S<sub>acin</sub> x VT) to explore ventilation inhomogeneity and localization of lung disease.<h4>Methods</h4>This retrospective cross-sectional study included pwCF and pwPCD aged 6-20 years with available MBW and spirometry data (2011-2024).<h4>Results</h4>PwCF (n23, median age 14.4 y) had similar FEV<sub>1</sub> z-scores compared to 23 pwPCD (median age 14.4 y) (-0.1 vs. -1.1, p: 0.33). LCI values were more abnormal in the CF group compared to the PCD group (7.8 vs. 7.1; p: 0.04). FEF<sub>25-75</sub>%pred and phase III slope parameters were not significantly different, though a trend toward higher S<sub>cond</sub> x VT in CF was noted (0.08 vs. 0.06; p: 0.11).<h4>Conclusion</h4>Despite similar FEV<sub>1</sub> abnormalities, reflecting proximal airway impairment, pwCF exhibit greater peripheral airway involvement than pwPCD, as indicated by higher LCI values.",
+    "ai_summary": "Gene: CFTR\nFinding: In age- and FEV1-matched children, those with cystic fibrosis show more abnormal lung clearance index (LCI) values than those with primary ciliary dyskinesia, indicating greater peripheral airway involvement in CF.\nDisease: Cystic fibrosis and primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.1002/ppul.71735",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42518357",
+    "title": "The primary cilium as a compartmentalized signaling hub in tissue immunity and homeostasis.",
+    "authors": "Zhang A, Huo C, Song T.",
+    "journal": "Frontiers in cell and developmental biology",
+    "date": "2026-07-06",
+    "abstract": "Cilia are evolutionarily conserved microtubule-based organelles that function as sensory and motile hubs central to mucosal immunity and systemic immune homeostasis. Motile cilia drive mucociliary clearance as a primary physical defense; meanwhile primary cilia function as signaling scaffolds that regulate immune receptor dynamics including PD-L1 trafficking. These organelles also modulate inflammatory responses through pathways such as cGAS-STING. Disruptions in ciliary assembly, intraflagellar transport, or signaling drive pathological immune dysregulation, contributing to viral infections, chronic inflammatory diseases, and ciliopathy-related immune dysfunction. This review summarizes core ciliary signaling pathways and their roles in host defense and immune homeostasis, integrating recent advances linking ciliary defects to diverse immune-related pathologies. We discuss current limitations in understanding ciliary immunobiology and propose key directions for future research aimed at deepening mechanistic insights and facilitating clinical translation.",
+    "ai_summary": "Primary cilia are signaling hubs that regulate immune receptor dynamics, inflammatory pathways such as cGAS-STING, and immune homeostasis; defects in ciliary assembly or signaling contribute to immune dysregulation, viral infections, chronic inflammation, and ciliopathy-related immune dysfunction. This review synthesizes ciliary signaling pathways in host defense and highlights gaps and future directions for mechanistic and translational research.",
+    "source_link": "https://doi.org/10.3389/fcell.2026.1875556",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42507085",
+    "title": "Centriolar Protein POC5 Regulates Human Adipogenesis and Cellular Senescence: Insights From a Novel Metabolic Ciliopathy.",
+    "authors": "Pistorio V, Vatier C, Capel É, Beaupère C, Auclair M, Steunou V, Morichon R, Joubert M, Vigouroux C, Gautheron J, Jéru I.",
+    "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+    "date": "2026-07-01",
+    "abstract": "Centrosomes and primary cilia regulate cellular processes, including microtubule organization and lineage-specific differentiation. POC5, a core component of the centriolar inner scaffold, has been linked to syndromic ciliopathies, yet its role in adipose biology remains unclear. This study investigates the impact of POC5 deficiency on ciliary organization, cellular senescence, adipogenesis, and insulin signaling. To this end, we analyzed primary dermal fibroblasts from a patient carrying a novel homozygous p.(Gln206Ter) POC5 variant and performed mechanistic evaluations in human adipose stem cells (ASCs) with CRISPR-Cas9-mediated POC5 knockout. Centriolar architecture was examined using Ultrastructure Expansion Microscopy (U-ExM), and cellular phenotypes were assessed through proliferation, senescence, and signaling analyses. POC5-deficient fibroblasts showed marked disruption of centriolar architecture, including absent or abnormal primary cilia and supernumerary centrioles. These defects were associated with a 35% decrease in proliferation and a premature senescence, evidenced by increased SA-β-gal activity and upregulation of p-p53, p16, and p21. Moreover, insulin signaling was impaired, with reduced phosphorylation of IRβ, AKT, and ERK1/2. These phenotypes were recapitulated in POC5-KO ASCs, which additionally exhibited a near complete block of adipogenic differentiation, associated with downregulation of PPARγ, C/EBPα, and SREBP1c. Overall, POC5 deficiency promotes insulin resistance and premature senescence, and impaired adipogenesis. These findings identify POC5-related disease as a centrosomal metabolic disorder and highlight the importance of centriolar integrity in systemic energy homeostasis, supporting the need for metabolic monitoring in individuals with POC5 pathogenic variants.",
+    "ai_summary": "Gene: POC5\nFinding: POC5 deficiency disrupts centriolar architecture, impairs insulin signaling, induces premature senescence, and blocks adipogenic differentiation in patient fibroblasts and CRISPR-knockout adipose stem cells.\nDisease: POC5-related metabolic ciliopathy (centrosomal metabolic disorder)",
+    "source_link": "https://doi.org/10.1096/fj.202601789r",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42510807",
+    "title": "Clinical Utility of NGS-Based Diagnosis in Primary Ciliary Dyskinesia: Experience from a Brazilian Pediatric Cohort at a Reference Center for Rare Diseases.",
+    "authors": "Costa PFBM, Fins DFFM, de Oliveira Moraes I, Folescu TW, Cohen RWF, Chaves Rabelo N, Azevedo Barreto L, Vieira da Cunha Moreira J, Barbosa Abdala B, Naccarato Teixeira Lopes Andrade M, Llerena J, Horovitz D, Gomes ME, Gonzalez S.",
+    "journal": "Genes",
+    "date": "2026-06-30",
+    "abstract": "<b>Background</b>: Primary ciliary dyskinesia (PCD) is a rare and genetically heterogeneous disorder that remains underdiagnosed in low- and middle-income countries, largely due to limited access to specialized diagnostic tests. Genetic analysis has become an essential component of PCD diagnosis, particularly where functional and ultrastructural evaluations are unavailable. <b>Methods</b>: We conducted an investigational study including children and adolescents with clinical suspicion of PCD followed at a Brazilian tertiary center. Clinical characterization included detailed phenotyping and calculation of the PICADAR score. Molecular investigation was performed using exome sequencing as a frontline diagnostic approach. <b>Results</b>: Among 27 individuals evaluated, 10 (37%) received a confirmed molecular diagnosis of PCD. An additional 6 (22%) individuals had inconclusive molecular findings, mainly due to variants of uncertain significance (VUS), and were classified as likely PCD based on combined clinical and molecular evidence. Higher PICADAR scores were more frequently observed among individuals with confirmed or likely molecular diagnosis, with 9 of 10 confirmed cases presenting a score above 5. Beyond PCD-associated findings, exome sequencing also enabled the identification of clinically relevant additional diagnoses, including cystic fibrosis, <i>FGFR3</i>-related hypochondroplasia, and ACMG-reportable secondary finding involving <i>BRCA2</i>. Some unresolved cases may also reflect inherent technical limitations of exome sequencing, including restricted sensitivity for copy-number variants, suboptimal coverage of highly homologous or GC-rich regions, and limited detection of deep intronic and other variants. Additional factors include challenges in variant interpretation and incomplete knowledge of disease-associated genes. <b>Conclusions</b>: Frontline exome sequencing is a valuable diagnostic tool for PCD, particularly when integrated with robust clinical phenotyping. Clinical scoring systems such as PICADAR may help prioritize individuals for genetic testing and optimize diagnostic yield in resource-limited settings.",
+    "ai_summary": "Gene: Not specified (multiple genes implicated in primary ciliary dyskinesia)\nFinding: Frontline exome sequencing confirmed a molecular diagnosis in 37% of a Brazilian pediatric cohort with suspected primary ciliary dyskinesia, with higher PICADAR scores associated with confirmed or likely diagnoses.\nDisease: Primary ciliary dyskinesia",
+    "source_link": "https://doi.org/10.3390/genes17070767",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42511910",
+    "title": "Screening of a Novel Synonymous <i>DNAH5</i> Variant in Histopathologically Confirmed Adenomyosis Cases from Turkiye.",
+    "authors": "Guzelbag B, Aydin S, Eser Ma N, Topbas Selcuki NF, Oral E, Tuncer FN.",
+    "journal": "Biomedicines",
+    "date": "2026-06-24",
+    "abstract": "<b>Background/Objectives:</b> Adenomyosis is a common estrogen-dependent gynecological condition with a largely undefined genetic architecture. Ciliary dysfunction has been implicated in its pathogenesis, positioning genes governing ciliary structure and motility as biologically plausible candidates for investigation. The <i>DNAH5</i> gene encodes a critical component of the outer dynein arms within the ciliary axoneme, and pathogenic variants are among the most common causes of primary ciliary dyskinesia. This study aimed to systematically determine the frequency of a novel synonymous <i>DNAH5</i> variant, NM_001369.3:c.9258C>T, p.(Leu3086=), in a large, histopathologically confirmed sporadic adenomyosis cohort from Turkiye, and to evaluate its occurrence relative to population-level reference data. <b>Methods:</b> A total of 121 women with histopathologically confirmed adenomyosis following hysterectomy were enrolled. Sanger sequencing was performed under stringent quality control conditions, including primer specificity verification by NCBI BLAST and UCSC In Silico PCR. Variant frequency was compared against gnomAD v4.0 and an in-house Turkish exome database (NGS Cloud; ~30,000 sequences) using Fisher's exact test. In silico splice site analysis was performed using SpliceAI, and variant classification followed ACMG/AMP guidelines. <b>Results:</b> The variant was detected in 63 of 121 patients (52.1%; 95% CI: 43.1-61.0%), exclusively in the heterozygous state; no homozygous carriers were identified. The variant was absent from both gnomAD v4.0 across all populations and the NGS Cloud Turkish exome database (MAF: 0.0000), yielding a frequency difference (<i>p</i> < 2.2 × 10<sup>-16</sup>). SpliceAI analysis predicted no significant splice site impact (all delta scores < 0.1). The variant was classified as a variant of uncertain significance (VUS; BP7, PM2_supporting). <b>Conclusions:</b> This study identifies a difference in the frequency of a novel synonymous <i>DNAH5</i> variant between a histopathologically confirmed adenomyosis cohort from Turkiye and population-level reference datasets, in which the variant was absent. Given the unphenotyped nature of the reference dataset, these findings are hypothesis-generating and do not establish a causal genetic association. Replication in independent cohorts and functional studies are warranted to elucidate the biological significance of this variant in adenomyosis susceptibility.",
+    "ai_summary": "Gene: DNAH5\nFinding: A novel synonymous DNAH5 variant (NM_001369.3:c.9258C>T, p.(Leu3086=)) was detected in 52.1% of histopathologically confirmed adenomyosis cases from Turkiye, but was absent from population reference databases, suggesting a potential but unconfirmed association.\nDisease: Adenomyosis",
+    "source_link": "https://doi.org/10.3390/biomedicines14071435",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42518289",
+    "title": "PKD1 upstream open reading frames affect Polycystin-1 expression and polycystic kidney disease phenotypes.",
+    "authors": "Li Z, Guo Z, Cho S, Bhardwaj R, Dong K, Fedeles S, Besse W.",
+    "journal": "The Journal of clinical investigation",
+    "date": "2026-07-28",
+    "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) accounts for 5-10% of prevalent end-stage kidney failure (ESKD). ADPKD cysts result from a loss of sufficient functional expression of PKD1/Polycystin-1 (PC1) in approximately 80% of families. Kidney disease severity correlates with the extent to which PC1 dosage is reduced below a critical level, and evidence suggests therapeutic benefit from increasing PC1 expression in these conditions. Upstream open reading frame (uORF) translation can reduce translation of a protein's coding sequence. Ribosome profiling data and bioinformatic predictions suggested the presence of conserved PKD1 uORFs, so we sought to explore their biological role. We generated luciferase reporters and two humanized PKD1 5'UTR mouse models with or without single nucleotide edits removing uORF start codons (\"delta-uORF\") to define active uORFs and test their impact on PC1 translation. PKD1 uORF start codons can robustly initiate translation and delta-uORF conveys a 2-4-fold increase in PC1 protein expression and resultant prevention of kidney cysts in Dnajb11 as well as in Pkd1 missense models. PKD1 uORF1-blocking steric antisense oligonucleotides (ASOs) substantially increase PC1 expression in vitro. PKD1 uORFs play an important role in the low basal expression of wild-type PKD1, and their inhibition represents an opportunity to therapeutically increase PC1 translation in polycystic kidney and liver disease resulting from reduced dosage of PC1.",
+    "ai_summary": "Gene: PKD1\nFinding: Disruption of conserved PKD1 upstream open reading frames (uORFs) via start codon removal or antisense oligonucleotides increases Polycystin-1 (PC1) protein expression 2-4-fold and prevents kidney cyst formation in Dnajb11 and Pkd1 missense mouse models.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1172/jci203177",
+    "genes": [
+      "DNAJB11",
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42530143",
+    "title": "β-hydroxybutyrate: A Renoprotective Hormone In Polycystic Kidney Disease.",
+    "authors": "Torres JA, Sharpe EH, Weimbs T.",
+    "journal": "American journal of physiology. Endocrinology and metabolism",
+    "date": "2026-07-30",
+    "abstract": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) is a common genetic form of chronic kidney disease characterized by highly variable rates of progression. This variability suggests that nutritional, lifestyle, and environmental factors may significantly influence disease course. Despite its prevalence, pharmacological treatment options for ADPKD remain very limited, underscoring the urgent need for safe and effective therapeutic strategies. Recent research has identified ADPKD as a metabolic disorder at the cellular level, marked by impaired mitochondrial function and a pathological reliance on glucose metabolism in affected cells. Ketogenic Metabolic Therapy (KMT) targets this metabolic vulnerability and has shown promising outcomes in both preclinical models and early clinical studies. KMT encompasses a range of interventions including ketogenic diets, intermittent fasting, time-restricted feeding, and supplementation with the ketone body β-hydroxybutyrate (BHB). Accumulating evidence suggests that BHB is the principal renoprotective mediator underlying the therapeutic benefits of KMT. Beyond serving as an alternative energy substrate, BHB exerts pleiotropic signaling effects that may synergistically contribute to reduced cyst proliferation, inflammation, oxidative stress, and fibrosis, while enhancing mitochondrial function. These attributes position BHB as a renoprotective signaling hormone. Importantly, chronic suppression of endogenous ketogenesis is common in modern societies due to dietary and lifestyle patterns, and may deprive tissues of BHB's pleiotropic signaling functions. In this narrative review, we summarize the current understanding of KMT and BHB in the context of ADPKD, and discuss their potential as safe, non-invasive, and disease-modifying interventions.",
+    "ai_summary": "Gene: Not specified (ADPKD generally)\nFinding: β-hydroxybutyrate (BHB), a ketone body produced during ketogenic metabolic therapy, acts as a renoprotective signaling hormone that reduces cyst proliferation, inflammation, oxidative stress, and fibrosis while enhancing mitochondrial function in polycystic kidney disease.\nDisease: Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+    "source_link": "https://doi.org/10.1152/ajpendo.00067.2026",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42524656",
+    "title": "Compression of the Porta Hepatis in a Patient With Hepatic Cysts Secondary to Autosomal Dominant Polycystic Kidney Disease: A Case Report.",
+    "authors": "Santharam Y, Ali K, Reddy AD, Ali AA, Jaikaransingh V.",
+    "journal": "Cureus",
+    "date": "2026-06-28",
+    "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is a genetic disorder characterized by cyst formation in the kidneys and other organs: most commonly the liver, pancreas, and seminal vesicles. Hepatic cysts are one of the most common extrarenal manifestations of ADPKD, but generally remain asymptomatic. Rarely, they can cause mass effect leading to biliary obstruction, portal hypertension, or compression of adjacent vascular structures. We present the case of a 67-year-old woman with ADPKD, large hepatic cysts causing compression of the porta hepatis, and biliary strictures requiring stenting, in the absence of another accompanying liver disease.",
+    "ai_summary": "Gene: PKD (implied, not specified in text)\nFinding: Large hepatic cysts in ADPKD can cause compression of the porta hepatis and biliary strictures requiring stenting, even without other liver disease.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD) with hepatic cyst-related biliary obstruction",
+    "source_link": "https://doi.org/10.7759/cureus.111667",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42536420",
+    "title": "Peritoneal Dialysis Outcomes in Autosomal Dominant Polycystic Kidney Disease.",
+    "authors": "Gunning S, McGill RL, Chapman AB, Garimella PS.",
+    "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+    "date": "2026-07-31",
+    "abstract": "<h4>Background</h4>Peritoneal dialysis (PD) is a form of home dialysis that is underutilized in the United States. Patients with autosomal dominant polycystic kidney disease (ADPKD) are frequently good PD candidates who are often young and have few comorbid conditions. However, clinicians may be hesitant to recommend PD to ADPKD patients due to perceived concerns for mechanical complications and technique failure. Little is known about outcomes of ADPKD patients undergoing PD in the United States.<h4>Methods</h4>A retrospective cohort of end stage kidney disease (ESKD) patients ≥30 years old registered in the US Renal Data System with a diagnosis of cystic kidney disease from 1/1/2000-12/31/2021 was followed until death or 1/1/2023. A time-dependent variable for kidney treatment modality was created, allowing calculation of hazard ratios (HR) and confidence intervals (CI) based on time-proximity of PD exposure to death and kidney transplantation, compared to hemodialysis (HD). Cox models were adjusted for age, sex, race, body mass index, serum albumin, hemoglobin, year of incident ESKD, insurance status, and comorbid conditions at the time of inclusion.<h4>Results</h4>Among 53,651 incident ADPKD patients with ESKD, 26% received some PD. Over a median follow-up of 75 months, 26,375 (49%) of patients received kidney transplants and 23,427 (44%) died. PD exposure was more likely among ADPKD patients who were younger, female, and who had lower burden of comorbid diseases. In the adjusted models PD was associated with lower mortality [HR: 0.84, 95% CI=0.80-0.88, P<0.001] and higher likelihood of transplant [HR:1.12, 95% CI=1.08-1.16, P<0.001] compared to HD. The associations with lower mortality and higher transplantation became progressively more prominent with each passing year.<h4>Conclusion</h4>These data indicate that PD is a safe and advantageous dialysis option for ADPKD patients that is associated with longer patient survival and opportunities for kidney transplant.",
+    "ai_summary": "Gene: Not specified (ADPKD is polycystic kidney disease, but no specific gene is analyzed)\nFinding: Peritoneal dialysis is associated with lower mortality and greater likelihood of kidney transplantation compared to hemodialysis in patients with autosomal dominant polycystic kidney disease.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD) with end-stage kidney disease.",
+    "source_link": "https://doi.org/10.2215/cjn.0000001134",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42525869",
+    "title": "Modulation of Cyst Growth in Autosomal Dominant Polycystic Kidney Disease: Mechanistic Insights and Therapeutic Opportunities.",
+    "authors": "Ursu R, Buchholz B, Skoczynski K.",
+    "journal": "American journal of physiology. Cell physiology",
+    "date": "2026-07-29",
+    "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is one of the most common inherited kidney disorders and is characterized by the progressive formation and expansion of fluid filled cysts, ultimately leading to kidney failure. Although caused by reduced dosage of the polycystin proteins, the disease phenotype arises from a broad disruption of epithelial physiology rather than a single linear pathway. Loss of polycystin function destabilizes epithelial homeostasis and sensitizes cyst lining cells to proliferative and secretory cues. A central consequence is the emergence of a self reinforcing signaling environment in which cyclic AMP, Ca2+, and purinergic pathways amplify one another, promoting chloride driven fluid secretion and epithelial proliferation. In parallel, cyst epithelia exhibit disturbed cell turnover, including altered proliferation, apoptosis, autophagy, and ferroptotic stress, which reshape luminal architecture and sustain a pro secretory microenvironment. Metabolic reprogramming, characterized by enhanced glycolysis, mitochondrial dysfunction, and redox imbalance, provides energetic support for these processes and further strengthens proliferative and secretory signaling. Hypoxia inducible factor 1α (HIF 1α) integrates hypoxic, metabolic, and mechanical cues into transcriptional programs that reinforce cyst expansion. This review synthesizes these interconnected mechanisms and highlights potential therapeutic strategies, including restoration of polycystin expression, modulation of cAMP and purinergic signaling, inhibition of chloride secretion, metabolic targeting, and HIF 1α pathway intervention. Together, these insights support a model in which cyst growth arises from mutually reinforcing signaling, metabolic, and transcriptional programs. Effective disease modification will likely require multi nodal therapeutic approaches that address this integrated network.",
+    "ai_summary": "Gene: PKD1/PKD2 (polycystin proteins)\nFinding: Reduced polycystin dosage destabilizes epithelial homeostasis, creating a self-reinforcing network of cAMP, Ca2+, and purinergic signaling that drives chloride secretion, proliferation, metabolic reprogramming, and HIF-1α-mediated transcriptional programs, all of which promote cyst growth.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1152/ajpcell.00222.2026",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42531087",
+    "title": "Phosphate and Phosphate Transporters in Polycystic Kidney Disease.",
+    "authors": "Torres VE, Wang X, Hanna C.",
+    "journal": "Kidney360",
+    "date": "2026-07-30",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.34067/kid.0000001274",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42518278",
+    "title": "A cross model single-cell atlas reveals conserved involvement of osteopontin in polycystic kidney disease.",
+    "authors": "Miller SJ, Zhong H, Wu W, Cordova AM, Yashchenko ME, Yashchenko A, Li Z, Jafree DJ, Zimmerman CN, DeVette CI, Do V, Hignite ME, Park Y, Nusrat F, Maryam B, Lu S, Li X, Gipson JR, Li X, Long DA, Weiser-Evans MC, Yoder BK, Cowley BD, Hopp K, Stubbs JR, Ma Q, Ma A, Zimmerman KA.",
+    "journal": "JCI insight",
+    "date": "2026-07-28",
+    "abstract": "Polycystic kidney disease (PKD) arises from mutations in cilia-associated genes, such as PKD1 and PKD2, expressed in renal epithelial cells, leading to progressive kidney dysfunction and end-stage kidney disease (ESKD). PKD patients exhibit significant heterogeneity in disease progression, largely due to genetic and environmental modifiers. Like patients, mouse models of PKD also exhibit significant heterogeneity with regards to the gene mutated, age of disease onset, and rate of disease progression. To elucidate the cellular and molecular consequences of these variables, we constructed an integrated single-cell RNA sequencing atlas across mouse models of PKD, mapping changes in cell type composition, gene expression, and intercellular signaling networks across the whole atlas and within individual models. Across models, single cell RNA sequencing (scRNAseq) data revealed increased Spp1 (osteopontin) expression and signaling from PKD-enriched clusters. Global deletion of Spp1 in Pkd1RC/RC mice resulted in a modest reduction in cyst severity and improved kidney function. From these studies, we created a freely available, searchable website (https://bmblx.bmi.osumc.edu/scPKD/) that can be used to identify cross- and intra-model changes in gene expression, guiding researchers to new therapeutic targets for treating PKD.",
+    "ai_summary": "Gene: PKD1, PKD2 (and Spp1/osteopontin as a modifier)\nFinding: Single-cell RNA sequencing across PKD mouse models revealed conserved upregulation of Spp1 (osteopontin) expression and signaling in PKD-enriched clusters, and global deletion of Spp1 in Pkd1RC/RC mice modestly reduced cyst severity and improved kidney function.\nDisease: Polycystic kidney disease (PKD)",
+    "source_link": "https://doi.org/10.1172/jci.insight.207157",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42530878",
+    "title": "Renal Cyst Sclerotherapy in Autosomal Dominant Polycystic Kidney Disease: Long-Term Follow-Up and Evaluation in a Porcine Bladder Model.",
+    "authors": "Copping RRW, Sabovich S, Li P, Miranda Cam M, Dehkharghanian T, Pei Y, Swanstrom L, Shlomovitz E.",
+    "journal": "Kidney360",
+    "date": "2026-07-29",
+    "abstract": "<h4>Background</h4>Enlarged cystic kidneys, as measured by total kidney volume (TKV), highly correlate with \"mass effect\" symptoms and predict early loss of kidney function in autosomal dominant polycystic kidney disease (ADPKD). Sclerotherapy of large kidney cysts can reduce TKV and the associated mass effect. This study assessed if sodium tetradecyl sulfate sclerotherapy provides effective volume reduction in ADPKD and investigated its mechanism of action using porcine bladder models.<h4>Methods</h4>Retrospective review of 567 cysts treated with sodium tetradecyl sulfate in 306 patients between November 2014 and August 2022 was performed. Cysts were treated with single-stage (cyst<7cm) or two-stage (cyst>7cm) sclerotherapy. TKV and treated renal cyst volumes were calculated on MRI to assess response. Renal function and tolvaptan data was collected. To investigate the action of sodium tetradecyl sulfate, porcine bladder models were evaluated using confocal laser endomicroscopy and formalin-fixed hematoxylin and eosin staining, comparing treated and control tissues.<h4>Results</h4>495 cysts had adequate MRI follow-up to determine volume response; 99% of cysts showed volume reduction on first follow-up (mean 162 days), with mean reduction of 197cm3 (88 ±16%). Larger cysts showed greater volume reduction. Long-term, 80% cysts showed further volume reduction while 18% were stable compared to the first follow-up MRI (mean 1359 days), indicating a sustained response. Mean TKV and mean height-adjusted TKV decreased by 371cm3 and 224cm3 respectively at the final follow-up. Serum creatinine increased by 30.5 ±82.6 mg/dL and eGFR decreased by 8.6 ±14.92 mL/min/1.73m2 at mean follow-up 1460 days. In the porcine bladder models, sodium tetradecyl sulfate showed near complete denudation of the epithelium, superficial inflammatory changes and vascular congestion in the lamina propria without deeper mural injury.<h4>Conclusions</h4>Sodium tetradecyl sulfate sclerotherapy provides effective, sustained long-term volume reduction in treated renal cysts and TKV in ADPKD, and is associated with reduced renal function decline.",
+    "ai_summary": "Gene: Not specified\nFinding: Sodium tetradecyl sulfate sclerotherapy achieves sustained long-term volume reduction in renal cysts and total kidney volume in ADPKD patients, with porcine bladder models showing superficial epithelial denudation and limited tissue injury.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.34067/kid.0000001259",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42513253",
+    "title": "Plasma Amino Acid Signatures Associated with Disease Progression and Hypertension in Autosomal Dominant Polycystic Kidney Disease: A Targeted Metabolomics and Machine Learning Approach.",
+    "authors": "Kianmehr L, Zararsız GE, Cephe A, Sofu N, Demiray A, Özaytürk SG, Doğan HO, Koçyiğit İ, Zararsız G.",
+    "journal": "Journal of clinical medicine",
+    "date": "2026-07-08",
+    "abstract": "<b>Background:</b> Autosomal dominant polycystic kidney disease (ADPKD) is a clinically heterogeneous disorder often leading to end-stage renal disease (ESRD). Prognostication of disease progression remains a major clinical challenge. This study aimed to identify plasma amino acid signatures associated with ADPKD progression and hypertension. <b>Methods:</b> We conducted targeted metabolomic analysis (LC-MS/MS) to quantify 38 plasma amino acids in 203 ADPKD patients, stratified by disease progression (rapid vs. slow) and hypertension status. Support Vector Machine (SVM) models were developed to predict outcomes using clinical data, amino acid profiles, and combined datasets. <b>Results:</b> Our findings revealed that specific amino acid signatures, including valine, glutamic acid, homocitrulline, and methylhistidines, were significantly elevated in both rapid progression and hypertensive groups. Isoleucine and citrulline were elevated only in rapid progressors. Phenylalanine, leucine, asparagine, and arginine were elevated in hypertensive patients. Machine learning analysis showed that integrating clinical and metabolic data modestly improved prediction for progression and hypertension. Proteinuria, glomerular filtration rate (GFR), and uric acid were the top clinical predictors; however, adding arginine, isoleucine, and 3-methylhistidine further enhanced prediction accuracy. Pathway analysis showed shared dysregulation in arginine biosynthesis and branched-chain amino acid (BCAA) metabolism. Specific amino acids were positively correlated with creatinine and uric acid and negatively correlated with GFR, and elevated levels of these metabolites were associated with increased mortality risk in survival analysis. <b>Conclusions:</b> Our results suggest that these plasma amino acid signatures, when combined with clinical markers, may serve as potential biomarkers for early risk stratification and precision prediction of ADPKD progression and hypertension.",
+    "ai_summary": "Gene: Not specified (metabolomic study; no single gene implicated)\nFinding: Plasma amino acid signatures—including valine, glutamic acid, homocitrulline, methylhistidines, isoleucine, citrulline, phenylalanine, leucine, asparagine, and arginine—are associated with rapid disease progression and hypertension in ADPKD, and integrating these metabolites with clinical markers improves prediction of outcomes.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD) with progression to end-stage renal disease and hypertension",
+    "source_link": "https://doi.org/10.3390/jcm15145340",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42541093",
+    "title": "Success of Total Laparoscopic Hysterectomy with Variable-view Rigid Endoscopy for Large Polycystic Liver in a Patient with Autosomal Dominant Polycystic Kidney Disease.",
+    "authors": "Aoki Y, Toyohara Y, Goto T, Kanao H.",
+    "journal": "Gynecology and minimally invasive therapy",
+    "date": "2026-07-17",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.4103/gmit.gmit-d-25-00104",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42518502",
+    "title": "GANAB-related Polycystic Kidney Disease Mimicking the Cutaneous Findings of Neurofibromatosis Type 1.",
+    "authors": "Chaaban MK, Melville D, Womack Y, Strande N, Harris P, Pittelkow M, Babovic-Vuksanovic D, Baudhuin LM, Osundiji MA.",
+    "journal": "Kidney medicine",
+    "date": "2026-06-02",
+    "abstract": "Pathogenic <i>GANAB</i> gene variants are a rare cause of autosomal dominant polycystic kidney disease (ADPKD). With only few reported cases, the phenotypic spectrum of <i>GANAB</i>-related disorders is still emerging. Although kidney and hepatic cysts are well-documented, cutaneous manifestations are not recognized features of <i>GANAB</i>-related ADPKD. Here, we report <i>GANAB</i>-related ADPKD in a 59-year-old woman with multiple café-au-lait macules and axillary freckling. Targeted NF1 and SPRED1 gene testing was negative. Genome sequencing showed a heterozygous pathogenic germline variant, <i>GANAB</i> (c.181C>T, p.Arg61∗). Magnetic resonance imaging confirmed the presence of numerous hepatic cysts and multiple cysts bilaterally in the kidneys. Our findings suggest that the phenotypic spectrum of <i>GANAB</i>-related disorders may include café-au-lait macules and axillary freckling. Because this observation is based on a single individual, the association may be coincidental and should be considered hypothesis-generating. Careful documentation of additional cases will be required to clarify whether pigmentary findings represent a recurrent feature of <i>GANAB</i>-related disease or an incidental finding.",
+    "ai_summary": "Gene: GANAB\nFinding: A pathogenic GANAB variant (c.181C>T, p.Arg61*) was identified in a patient with polycystic kidney disease who also presented with café-au-lait macules and axillary freckling, suggesting these pigmentary findings may be part of the GANAB-related phenotypic spectrum.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD) with possible cutaneous manifestations mimicking neurofibromatosis type 1",
+    "source_link": "https://doi.org/10.1016/j.xkme.2026.101421",
+    "genes": [
+      "GANAB"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42515596",
+    "title": "Evolutionary Analysis Reveals a Single Amino Acid in the AAV Entry Receptor (AAVR) of Cats That Disrupts Binding of a Major Phylogenetic Group of AAVs.",
+    "authors": "Large EE, Mensah I, Kumi G, Chapman MS.",
+    "journal": "Viruses",
+    "date": "2026-07-04",
+    "abstract": "Adeno-associated virus (AAV) is a small ssDNA satellite virus that receives wide attention due to its popularity as a safe and effective gene therapy vector. The AAV cell entry receptor (AAVR) for most serotypes is a glycoprotein containing five polycystic kidney disease (PKD) domains with which AAV interacts. AAV serotypes can be classified into three groups: those that interact primarily with PKD1, those whose interactions with PKD2 are stronger, and AAV4-like serotypes whose transduction is AAVR-independent. A phylogenetic analysis of AAVR and paralog KIAA0319 revealed AAVR amino acid variability in the region of PKD1 that is bound by AAV. We hypothesized that the substitution, in all cat-like animals, of a glutamate at a site that is an arginine (R353) in human AAVR may interfere with the binding of clade H AAVs that interact exclusively with PKD1. Analysis of PKD1 mutations, including ELISA, shows that an R353E substitution of glutamate for arginine affects the binding of the clade H AAVs that interact primarily with PKD1.",
+    "ai_summary": "Gene: PKD1\nFinding: A glutamate substitution at position 353 (R353E) in the PKD1 domain of the AAV entry receptor (AAVR) in cats disrupts binding of clade H AAVs that interact primarily with PKD1.\nDisease: Not applicable (AAV entry receptor function; no disease phenotype described)",
+    "source_link": "https://doi.org/10.3390/v18070744",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42519961",
+    "title": "Comparison of eGFR based on Serum Cystatin C or Creatinine in Autosomal Dominant Polycystic Kidney Disease.",
+    "authors": "Roth J, Vaughan L, Ghanem A, Debeh FGM, Kennedy A, Gregory AV, Kline TL, Chebib FT, Zoghby Z, Titan SM, Dahl NK.",
+    "journal": "Kidney360",
+    "date": "2026-07-28",
+    "abstract": "<h4>Background</h4>Total kidney volume (TKV), a prognostic biomarker in ADPKD, is used to stratify high risk individuals. eGFR measures may carry significant error in ADPKD compared to measured GFR(mGFR). This retrospective study investigates the association between height adjusted TKV (htTKV) and eGFR derived from race-free CKD-EPI equations utilizing creatinine and cystatin C.<h4>Methods</h4>eGFR was calculated using 3 race-free CKD-EPI formulas: creatinine-based (CKD-EPI creatinine), cystatin C (CKD-EPI cys), and creatinine-cystatin C (CKD-EPI creatinine-cystatin C) equations on 697 Mayo Clinic ADPKD patients. Correlations between eGFR and TKV measures were estimated and stratified by MIC class risk groups and CKD. Linear regression models were computed to predict ln(htTKV) from the 3 eGFR data sets. The eGFR measures were compared to iothalamate-based mGFR in a subset of patients (n=50).<h4>Results</h4>A correlation between eGFR measures and htTKV (Pearson correlation r of -0.53 to -0.54), varied by MIC stratification. Pearson correlation was -0.47 to -0.48 for MIC 1A and 1B, -0.67 to -0.71 for MIC 1C, and -0.67 to -0.68 for MIC 1D and 1E. All equations were significantly associated with htTKV levels, with similar adjusted beta values (95% CI) of -0.15 (-0.17 to -0.13), -0.14 (-0.16 to -0.12), -0.15 (-0.16 to -0.13), for CKD-EPI creatinine, CKD-EPI cystatin C, and CKD-EPI creatinine-cystatin C, respectively. Compared to mGFR, the CKD-EPI creatinine-cystatin C equation was the least biased (mean -0.86 (95% CI: -3.09 to 1.37)) versus CKD-EPI creatinine (2.31 (-0.73 to 5.34)) or CKD-EPI cystatin C (-3.54 (-5.86 to -1.21)), and most precise, with 1-P30 of 16% (95% CI 7.2% to 29.1%), compared to 18% (8.6% to 31.4%) for CKD-EPI creatinine, or 20% (10.0% to 33.7%) for CKD-EPI cystatin C.<h4>Conclusion</h4>A moderate correlation between eGFR and htTKV associated with MIC stratification. Associations between htTKV and all 3 CKD-EPI equations were similar. CKDEPIcrcys tended to be the least biased and most precise equation when compared to mGFR and may be a reasonable alternative.",
+    "ai_summary": "Gene: Not applicable (no single gene link established)\nFinding: In ADPKD patients, all three race-free CKD-EPI eGFR equations (creatinine, cystatin C, and combined) showed similar moderate correlations with height-adjusted total kidney volume (htTKV), with correlations varying by Mayo Imaging Class (stronger in higher-risk classes). The combined creatinine-cystatin C equation was the least biased and most precise compared to measured GFR, suggesting it may be a reasonable alternative for estimating kidney function in ADPKD.",
+    "source_link": "https://doi.org/10.34067/kid.0000001294",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42502691",
+    "title": "Genome and transcriptome sequencing reveal pathogenic activation of a pseudoexon in <i>PKD1</i> via a de novo-common variant complex allele.",
+    "authors": "Han ST, Rehman AU, Srinivasa ST, Lam A, Ficurilli M, Felice V, Krithivasan P, Phadke S, Abhyankar A, Bergstrom K, Bassetti JA, Jobanputra V.",
+    "journal": "Genetics in medicine open",
+    "date": "2026-05-26",
+    "abstract": "<h4>Purpose</h4>Despite improvements in and access to clinical genetic testing, many patients with classic phenotypes remain without a molecular diagnosis. Such cases may reflect variants in noncoding regions or complex alleles made up of disparate sequence variants. In this article, we report a patient with autosomal dominant polycystic kidney disease caused by a deep intronic de novo single-nucleotide substitution forming a dinucleotide variant, with an adjacent common single-nucleotide variant (formerly single-nucleotide polymorphism) inherited from an unaffected parent. Although neither variant alone was predicted to be pathogenic, together as a dinucleotide variant, they created a novel splice donor site that activated a pseudoexon within intron 16 of the <i>PKD1</i> gene.<h4>Methods</h4>Genome sequencing was paired with transcriptome sequencing to evaluate the dinucleotide variant within intron 16 of <i>PKD1</i>.<h4>Results</h4>Evaluation of RNA from patient cells confirmed the inclusion of a 114-bp pseudoexon and an in-frame premature termination codon into the <i>PKD1</i> messenger RNA transcript. This case identified a rare scenario in which the combination of 2 independently predicted benign nucleotide substitutions immediately adjacent to one another generated a pathogenic allele.<h4>Conclusion</h4>This case highlights the diagnostic utility of genome sequencing coupled with RNA sequencing to clarify the effects of a deep intronic variant, confirming a molecular diagnosis for a patient with a clear clinical diagnosis who had undergone years of inconclusive testing. Furthermore, this case cautions that similar events may underlie unsolved cases across other genes and disorders.",
+    "ai_summary": "Gene: PKD1\nFinding: A de novo deep intronic single-nucleotide substitution adjacent to an inherited common variant forms a dinucleotide variant that creates a novel splice donor site, activating a 114-bp pseudoexon with an in-frame premature termination codon in PKD1 mRNA.\nDisease: Autosomal dominant polycystic kidney disease",
+    "source_link": "https://doi.org/10.1016/j.gimo.2026.104407",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42525608",
+    "title": "Gene-transcription factor regulatory networks implicate primary cilia in the evolution of vertebrate sex determination and expand models of epigenetic regulation.",
+    "authors": "Gessler TB, Adams DC, Valenzuela N.",
+    "journal": "PloS one",
+    "date": "2026-07-29",
+    "abstract": "The molecular architecture underlying diverse vertebrate sex-determining systems remains elusive despite fragmentary evidence of changes in upstream regulators and downstream mediators. Here we modeled species-specific regulatory networks of urogonadal development for turtles with contrasting mechanisms [Apalone spinifera - ZZ/ZW genotypic sex determination (GSD), and Chrysemys picta - temperature-dependent sex determination (TSD)] using matched data from time-course sampling. We uncovered key steps in the evolutionary transition of sex determination by testing for conservation or divergence of network modular components. Specifically, we tested these alternative hypotheses: first, transcription factor (TF) hubs and their target genes are conserved between species (null H0); second, the same TF hub acquired a new set of target genes in a species, retaining or not ancestral functions (H1 and variants); third, a new TF hub took over the regulation of the former gene targets of an ancestral TF (H2); and finally, complete overhaul occured where both ancestral TF hubs and their target genes were replaced in a species (H3). Results implicate primary cilia as integrators of environmental signals underlying TSD, because known thermosensitive TSD components (e.g., calcium-redox, pSTAT3, Wnt/Rspo1/β-catenin, Dhh) overrepresented in our results are linked to primary cilia. TFs that evolved between species also regulate primary cilia and point to key changes in their sensory machinery that accompanied TSD-GSD transitions (e.g., calcium/ion channels or membrane transport components in Chrysemys versus structural elements and ciliogenesis in Apalone). This novel Primary Cilia Integration hypothesis expands current models of epigenetic regulation of turtle sexual development, the evolution of plasticity versus canalization, and warrants functional validation.",
+    "ai_summary": "Gene: Not specified (network-level analysis)\nFinding: Comparative regulatory network modeling in two turtle species with contrasting sex-determining systems implicates primary cilia as integrators of environmental signals underlying temperature-dependent sex determination, with species-specific transcription factor hubs targeting cilia-related genes (calcium/ion channels in TSD species vs. structural ciliogenesis elements in GSD species).\nDisease: Sex determination and developmental plasticity (non-disease phenotype)",
+    "source_link": "https://doi.org/10.1371/journal.pone.0353280",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42525210",
+    "title": "From cystogenesis to carcinogenesis in ADPKD: risk modeling and a multistep precision surveillance.",
+    "authors": "Margoni A, Papavassiliou KA, Papavassiliou AG.",
+    "journal": "Cellular oncology (Dordrecht, Netherlands)",
+    "date": "2026-07-29",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1007/s13402-026-01271-w",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42519679",
+    "title": "Situs Inversus Totalis and Severe Early-Onset Developmental Epileptic Encephalopathy in a Child With a Homozygous CFAP52 Mutation: A Case Report.",
+    "authors": "Hetta AA, Abughaboosh L, Al-Qasrawi J, Amro B, Alshaer M.",
+    "journal": "Clinical case reports",
+    "date": "2026-07-19",
+    "abstract": "We report a 2-year-old boy with a homozygous CFAP52 mutation presenting with situs inversus totalis, severe epileptic developmental encephalopathy, and global developmental delay, expanding the phenotypic spectrum of CFAP52-related ciliopathies. Clinical findings included multifocal epileptiform discharges, thin corpus callosum, and a small subdural hematoma. Trio whole-exome sequencing also revealed a homozygous NCAPG2 variant of uncertain significance, however, its clinical significance remains unproven and no causal relationship can be established. This case highlights the diagnostic value of comprehensive genomic testing in complex neuro-visceral disorders and underscores the importance of cautious interpretation of co-inherited variants in atypical ciliopathy presentations. The report follows CARE guidelines.",
+    "ai_summary": "Gene: CFAP52\nFinding: A homozygous CFAP52 mutation is associated with situs inversus totalis, severe early-onset developmental epileptic encephalopathy, and global developmental delay in a 2-year-old boy.\nDisease: CFAP52-related ciliopathy with expanded phenotype including neurodevelopmental and visceral manifestations.",
+    "source_link": "https://doi.org/10.1002/ccr3.73165",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Situs inversus"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42524928",
+    "title": "Whole-genome sequencing in Brazilian patients with neurofibromatosis type 1, including novel variants, incidental findings, and dual diagnoses.",
+    "authors": "Angeloni LL, Jorente J, Oliveira Sobrinho RP, Gil-da-Silva-Lopes VL, Vidoti-Nascimento CG, Guaragna MS, Vieira TP, Steiner CE, Brazilian Rare Genomes Project Consortium, Teixeira ACB, Coelho AVC, Quaio CRAC, Moreno CA, Perrone E, Nascimento Junior JBD, Espolaor JGA, Prota JRM, Oliveira Filho JB, Ceroni JRM, Chen K, Ferreira LT, Santana LS, Mofatto LS, Virmond LDA, Silva MFB, Migliavacca MP, Minillo RM, Yamada RY, Sitnik R, Almeida TF, Silva TYT, Cintra VP.",
+    "journal": "Einstein (Sao Paulo, Brazil)",
+    "date": "2026-07-24",
+    "abstract": "<h4>Objective</h4>To describe clinical and molecular aspects of a cohort of Brazilian individuals with neurofibromatosis type 1, a neurocutaneous disorder associated with a predisposition to tumors and inter- and intrafamilial variable expressivity.<h4>Methods</h4>We conducted a retrospective study of 50 patients from 30 unrelated families, with features of Neurofibromatosis type 1, who underwent clinical evaluation and whole genome sequencing.<h4>Results</h4>Patient ages ranged from 9 months to 62 years (mean 21.7 years). The most frequent manifestations were café-au-lait (100%), lentiginous macules (94%), Lisch nodules (62%), cutaneous (62%), and plexiform (38%) neurofibromas. Other findings included neurodevelopmental disorders (14%), congenital pseudarthrosis of the tibia (4%), optic pathway glioma (4%), and sphenoid wing dysplasia (2%). Eight individuals presented with tumors other than neurofibromas, including two with malignant peripheral nerve sheath tumors, two with breast cancer, and one each with a dysembryoplastic neuroepithelial tumor, cholangiocarcinoma, pilocytic astrocytoma, and basal cell carcinoma. All probands, except one, tested positive for pathogenic or likely pathogenic variants, of which three (11.1%) were novel (c.3372del, c.7299del, and c.7457_7457+2del), three were recurrent within this series (c.3826C>T, c.5902C>T, and c.6855C>A), and the others were private. Two families (6.6%) presented incidental findings, one in BRCA1 and the other in TMEM127. Three individuals (6.5%) had a second molecular diagnosis: one each with spinocerebellar ataxia type 19, primary ciliary dyskinesia type 3, and XYY syndrome.<h4>Conclusion</h4>This study presents the largest cohort of Brazilian individuals with neurofibromatosis type 1 to utilize whole-genome sequencing, identifying three novel germline NF1 variants and two previously unreported double diagnoses.",
+    "ai_summary": "Gene: NF1\nFinding: Whole-genome sequencing identified three novel NF1 germline variants (c.3372del, c.7299del, c.7457_7457+2del) and three recurrent variants in Brazilian neurofibromatosis type 1 patients, with two families showing incidental findings (BRCA1, TMEM127) and three individuals having dual molecular diagnoses.\nDisease: Neurofibromatosis type 1",
+    "source_link": "https://doi.org/10.31744/einstein_journal/2026ao2160",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42530367",
+    "title": "Increased Excitability of Renal Sensory Neurons by Vasopressin in Male and Female Sprague Dawley Rats.",
+    "authors": "Hayoz S, Banek CT.",
+    "journal": "American journal of hypertension",
+    "date": "2026-07-30",
+    "abstract": "<h4>Background</h4>Preclinical models of cardiovascular and kidney diseases, such as hypertension and polycystic kidney disease (PKD), are associated with increased vasopressin (AVP) and increased renal afferent nerve activity (ARNA). We have also shown that ablation of renal sensory nerves can mitigate HTN and PKD progression in preclinical models. Yet, the underlying cause of elevated renal sensory nerve activity in disease remains unclear, and the role of vasopressin remains untested. Therefore, we hypothesized that AVP would increase the excitability of renal-specific dorsal root ganglia neurons (rDRGN) in both male and female rats.<h4>Methods</h4>To address this hypothesis, rDRGN were isolated from both male and female Sprague-Dawley (SD) rats and cell excitability changes with AVP were measured by whole-cell patch clamp in current-clamp mode. Excitability was quantified by mean action potential (AP) frequency, rheobase, and multi-firing threshold. Dose-dependent responses to AVP (10-12-10-6M) were measured and compared to vehicle (saline).<h4>Results</h4>Cell excitability was increased by AVP in both male and female cells, increasing AP frequency and lowering rheobase and multi-firing threshold. The effective excitatory range of AVP was 10-10-10-6M in female cells, and 10-8-10-6M in males.<h4>Conclusions</h4>These experiments support our initial hypothesis that AVP would directly increase rDRGN excitability. This excitatory effect may support a novel role through which peripheral sensory nerves interact with and respond to AVP. In turn, this AVP-ARNA interaction may contribute to elevated peripheral sensory nerve activity and disease progression where AVP is elevated, such as hypertension and PKD.",
+    "ai_summary": "Gene: AVP (vasopressin)\nFinding: Vasopressin directly increases excitability of renal-specific dorsal root ganglia neurons in both male and female rats, raising action potential frequency and lowering rheobase and multi-firing threshold.\nDisease: Hypertension and polycystic kidney disease (PKD)",
+    "source_link": "https://doi.org/10.1093/ajh/hpag095",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42512917",
+    "title": "Prenatal Diagnosis and Perinatal Outcomes of Posterior Fossa Anomalies in a Tertiary Referral Center: A Five-Year Experience.",
+    "authors": "Alpay V, Ersan F, Boza B, Makul M, Polat İ, Gümüş AA.",
+    "journal": "Medicina (Kaunas, Lithuania)",
+    "date": "2026-07-17",
+    "abstract": "<i>Background and Objectives</i>: Posterior fossa anomalies (PFAs) represent a heterogeneous group of congenital malformations involving the cerebellum and adjacent structures. Prenatal counseling remains challenging because neurodevelopmental outcomes vary substantially according to the specific anomaly. This study aimed to evaluate ultrasonographic and fetal magnetic resonance imaging (MRI) characteristics, associated anomalies, genetic test results, and perinatal and neurodevelopmental outcomes of prenatally diagnosed PFAs in a tertiary care population. <i>Materials and Methods</i>: This retrospective study included 115 fetuses diagnosed with PFAs between 2020 and 2024. PFAs were categorized into \"simple\" (mega cisterna magna, Blake's pouch cyst [BPC], and arachnoid cyst) and \"complex\" (Dandy-Walker malformation [DWM], vermian agenesis/hypoplasia, cerebellar hypoplasia, Joubert syndrome, Walker-Warburg syndrome, and pontocerebellar hypoplasia). Maternal characteristics, associated cerebral and extracerebral anomalies, fetal MRI findings, genetic test results, and pregnancy and postnatal outcomes were analyzed. <i>Results</i>: Among 115 cases, 44.3% were isolated, and 55.6% were non-isolated. Ventriculomegaly was detected in 35.6% of cases and was significantly more frequent in the complex group (47.9% vs. 14.2%). Fetal MRI was performed in 35.6% (<i>n</i> = 41) of cases and demonstrated a 24.3% discrepancy rate with ultrasound, mainly in differentiating DWM from BPC. Genetic testing was performed in 66.9% of cases, revealing chromosomal abnormalities in 15.6% of the total cohort. Complex anomalies, including cerebellar hypoplasia and vermian agenesis/hypoplasia, were more frequently associated with pathogenic copy-number variants and monogenic disorders. The simple group (<i>n</i> = 42) had favorable outcomes, with an 89.2% survival rate and neurodevelopmental delay in 15.2% of survivors. In contrast, the complex group (<i>n</i> = 73) had significantly poorer outcomes (<i>p</i> < 0.001), with a 38.1% survival rate, 42.5% rate of pregnancy termination, and neurodevelopmental delay in 56.3% of survivors. <i>Conclusions</i>: This study highlights the persistent diagnostic challenges associated with PFAs and underscores the importance of multimodal imaging and comprehensive genetic evaluation. The proposed simple-complex classification provides a clinically meaningful framework for prognostication and parental counseling. Future research should prioritize prospective multicenter studies with higher rates of comprehensive genetic testing coupled with standardized long-term neurodevelopmental follow-up to refine the understanding of the natural history and prognostic trajectory of these complex brain malformations.",
+    "ai_summary": "Gene: Not specified (multiple genes/chromosomal abnormalities implicated)\nFinding: Posterior fossa anomalies classified as \"simple\" (mega cisterna magna, Blake's pouch cyst, arachnoid cyst) have favorable outcomes (89.2% survival, 15.2% neurodevelopmental delay), while \"complex\" anomalies (Dandy-Walker malformation, vermian agenesis/hypoplasia, cerebellar hypoplasia, Joubert syndrome, Walker-Warburg syndrome, pontocerebellar hypoplasia) have significantly poorer outcomes; fetal MRI showed a 24.3% discrepancy with ultrasound, and genetic testing revealed chromosomal abnormalities in 15.6% of cases.\nDisease: Posterior fossa anomalies (prenatally diagnosed)",
+    "source_link": "https://doi.org/10.3390/medicina62071375",
+    "genes": [],
+    "diseases": [
+      "Joubert syndrome"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42525822",
+    "title": "Ciliary ARL13B Is Essential for Body Weight Regulation in Mice.",
+    "authors": "Terry TT, Gigante ED, Alexandre CM, Brewer KM, Yue X, Berbari NF, Vaisse C, Caspary T.",
+    "journal": "Diabetes",
+    "date": "2026-07-29",
+    "abstract": "<h4>Article highlights</h4>The molecular mechanisms by which primary cilia regulate energy homeostasis remain poorly understood. Here, we evaluated whether the ciliary GTPase ARL13B regulates energy homeostasis and whether its localization to cilia is required to control body weight and feeding. Using genetic tools to isolate cilia-specific functions, we found that systemic exclusion of ARL13B from cilia causes hyperphagia and obesity in mice and that ciliary ARL13B is required in the nervous system for weight control. These findings identify ciliary ARL13B as a key regulator of energy homeostasis, contributing to our understanding of how primary cilia act as metabolic signaling hubs.",
+    "ai_summary": "Gene: ARL13B\nFinding: Ciliary localization of ARL13B is required in the nervous system to prevent hyperphagia and obesity in mice, identifying it as a key regulator of energy homeostasis.\nDisease: Obesity (associated with hyperphagia)",
+    "source_link": "https://doi.org/10.2337/db25-1099",
+    "genes": [
+      "ARL13B"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42505398",
+    "title": "Microtubule-Associated Proteins: From Dynamic Regulation of Microtubules to Cellular Architecture.",
+    "authors": "Pais E, Schou KB.",
+    "journal": "Cells",
+    "date": "2026-07-18",
+    "abstract": "Microtubule-associated proteins (MAPs) are key regulators of microtubule architecture and dynamics, orchestrating microtubule stability, post-translational modification, and spatial organization across diverse cellular contexts. Through these activities, MAPs govern essential processes including cell division, intracellular transport, signaling, and differentiation. This review synthesizes current insights into how MAPs regulate a diverse range of cellular processes, including maintenance of structural integrity, centriole assembly, cell division, the dynamic transition between centrosomal and ciliary states, and neuronal growth and connectivity. We discuss advances from structural biology, proteomics, and cell imaging that are redefining the molecular landscape of centriole and cilia regulation, and we highlight emerging themes linking MAP dysfunction to human disease, including cancer, ciliopathies, and neurodegenerative disorders. By integrating these diverse perspectives, the review outlines a unifying framework for understanding how MAPs orchestrate microtubule function and identifies key challenges and opportunities for future research.",
+    "ai_summary": "Microtubule-associated proteins (MAPs) regulate microtubule dynamics, stability, and organization, governing processes such as cell division, centriole assembly, and the transition between centrosomal and ciliary states. The review highlights emerging links between MAP dysfunction and human diseases, including ciliopathies, cancer, and neurodegenerative disorders, and integrates structural, proteomic, and imaging advances to propose a unifying framework for MAP function.",
+    "source_link": "https://doi.org/10.3390/cells15141289",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42504201",
+    "title": "NIMA-related kinase family at the nexus of skeletal development and congenital arthrogryposis: coordinated regulation of cell cycle and ciliary dynamics.",
+    "authors": "Zhao Y, Zheng Y, Chen Q, Yang Y, Zhang L.",
+    "journal": "Frontiers in genetics",
+    "date": "2026-07-13",
+    "abstract": "<h4>Background</h4>The NIMA-related kinase (NEK) family comprises a group of serine/threonine kinases that play pivotal roles in cell cycle control. Emerging evidence has demonstrated that loss-of-function (LOF) mutations in NEK family members, particularly NEK1 and NEK9, cause skeletal and joint developmental abnormalities.<h4>Results</h4>This review synthesizes clinical, genetic, and functional evidence from patient-based studies, cell models, and animal experiments to elucidate the pathogenic mechanisms. Loss-of-function of these two kinases can disrupt cell cycle progression through distinct mechanisms, such as arrest at different phases (e.g., S phase and G2/M phase). Although the arrest stages differ, both can be accompanied by defects in primary cilia formation, which in turn disrupt cilia-dependent Hedgehog and Wnt signaling. The interplay between cell cycle dysregulation and ciliary dysfunction is tightly intertwined in these diseases; however, it remains difficult to clearly distinguish cause from effect between the two. NEK kinases may drive pathology through multiple pathways, including directly affecting cilia assembly and interfering with cell cycle progression. This dual impairment of the cell cycle and cilia leads to chondrocyte proliferation failure, growth plate disorganization, and joint contractures. Genotype-phenotype correlations reveal that missense versus truncating NEK1 mutations cause divergent skeletal phenotypes, while NEK9 mutations underlie lethal congenital contracture syndrome. Emerging evidence also suggests potential modifying roles for NEK7 in inflammation and endosomal trafficking.<h4>Conclusion</h4>In conclusion, NEK-associated skeletal disorders arise from a combination of cell cycle defects and ciliary abnormalities, rather than being caused by either factor alone. Consequently, therapeutic strategies targeting cell cycle regulation or related downstream pathways may offer new avenues for treating these severe pediatric skeletal diseases.",
+    "ai_summary": "Gene: NEK1\nFinding: Loss-of-function mutations in NEK1 disrupt cell cycle progression and primary cilia formation, impairing Hedgehog and Wnt signaling, which leads to chondrocyte proliferation failure, growth plate disorganization, and joint contractures.\nDisease: Skeletal and joint developmental abnormalities, including congenital arthrogryposis",
+    "source_link": "https://doi.org/10.3389/fgene.2026.1883963",
+    "genes": [
+      "NEK1"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42384727",
+    "title": "The tetraspanin disc proteins, peripherin-2 and ROM1, facilitate CNG channel localization to the rod outer segment.",
+    "authors": "Thorson MT, Wei SE, Park J, Martínez-Márquez JY, Ball DG, Willer JR, Spencer WJ, Pearring JN.",
+    "journal": "Molecular biology of the cell",
+    "date": "2026-07-02",
+    "abstract": "The light-responsive outer segment of rod photoreceptors is composed of two distinct membrane subdomains: discs and the plasma membrane. We investigate how the disk protein peripherin-2 is engaged in CNG channel delivery to the outer segment. Instead of forming outer segments, peripherin-2 knockout (<i>Rds<sup>-/-</sup></i>) photoreceptors release ciliary ectosomes, in which CNG channel levels are markedly reduced relative to other outer segment proteins. This is intriguing as downregulation of the CNG channel is not a general feature of degenerative mouse models with dysmorphic outer segments. Overexpression of the β1-subunit of CNG in <i>Rds<sup>-/-</sup></i> rods reveals that the majority is trapped in intracellular membranes, but is restored to the outer segment by co-expressing peripherin-2. We test peripherin-2 chimeras containing either the N-terminus, tetraspanin core, or C-terminus and find that the tetraspanin domain is sufficient to localize CNGβ1 to the outer segment. We further show that the membrane remodeling function of the tetraspanin domain facilitates this process by the redundant action of the tetraspanin domain from ROM1 and the reemergence of the endogenous CNG channel in aged <i>Rds<sup>-/-</sup></i> rods that have produced ciliary membrane protrusions.",
+    "ai_summary": "Gene: PRPH2 (peripherin-2)\nFinding: The tetraspanin domain of peripherin-2 (and ROM1) is sufficient to localize CNG channel subunits to the rod outer segment, likely via membrane remodeling, as loss of peripherin-2 reduces CNG channel levels in ciliary ectosomes and traps overexpressed CNGβ1 in intracellular membranes.\nDisease: Rod photoreceptor degeneration (associated with peripherin-2 knockout, Rds-/-)",
+    "source_link": "https://doi.org/10.1091/mbc.e26-06-0276",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42524841",
+    "title": "Extrinsic Modulation of the Zonular Tension Induces Calcium Influx in Lens Fiber Cells That Is Mediated by Mechanosensitive TRPV1 and TRPV4 Channels.",
+    "authors": "Chen Y, Donaldson PJ.",
+    "journal": "Investigative ophthalmology & visual science",
+    "date": "2026-07-01",
+    "abstract": "<h4>Purpose</h4>The purpose of this study was to determine if changing the tension applied to the rat lens via the zonules increases intracellular Ca²⁺ levels via the activation of mechanosensitive Transient Receptor Potential Vanilloid (TRPV)1 and TRPV4 channels.<h4>Methods</h4>Rat lenses were mounted in a recording chamber with zonular attachments intact and imaged using confocal laser-scanning microscopy. Epithelial cells were loaded with Cal520 AM, whereas fiber cells were microinjected with Fluo-8 pentapotassium salt. Changes in intracellular Ca²⁺ were monitored following pharmacological modulation of ciliary muscle contractility using Tropicamide to increase zonular tension and pilocarpine to decrease zonular tension. The contribution of TRPV1 and TRPV4 channels was assessed using selective inhibitors.<h4>Results</h4>Increasing zonular tension with Tropicamide induced a transient Ca²⁺ increase in epithelial cells and a robust, sustained Ca²⁺ influx in differentiating fiber cells. Decreasing zonular tension with pilocarpine produced minimal epithelial responses but evoked distinct Ca²⁺ elevations in fiber cells. Isolation of the lens from the ciliary muscle abolished these responses, indicating that this influx depends on mechanical coupling through the zonular fibers. Furthermore, pre-incubation of lenses in the presence of TRPV1/4 inhibitors revealed that Tropicamide-induced Ca²⁺ responses in fiber cells are largely transduced by TRPV4, whereas activation of TRPV1 mediates the increase in Ca²⁺ induced by Pilocarpine.<h4>Conclusions</h4>In this study, we have shown that extrinsic modulation of ciliary muscle contractility, through alterations in zonular tension, generates regionally specific influxes of Ca²⁺ mediated by mechanosensitive TRPV1/4 channels which in other studies have been shown to regulate lens water transport and lens power. These findings suggest that lens power may be influenced by extrinsic feedback regulation from other tissues in the eye.",
+    "ai_summary": "Gene: TRPV4\nFinding: Extrinsic modulation of zonular tension via ciliary muscle contractility induces regionally specific calcium influx in lens fiber cells, with TRPV4 mediating tropicamide-induced responses and TRPV1 mediating pilocarpine-induced responses.\nDisease: Lens physiology and accommodation (lens power regulation)",
+    "source_link": "https://doi.org/10.1167/iovs.67.8.60",
+    "genes": [
+      "TRPV4"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-03"
   }
 ]
