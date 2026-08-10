@@ -66326,5 +66326,316 @@
       "Cilia"
     ],
     "first_seen": "2026-08-03"
+  },
+  {
+    "pmid": "42557588",
+    "title": "Assessment of cardiometabolic risk using single point insulin sensitivity estimator (SPISE) in pediatric Bardet-Biedl Syndrome: a pilot study.",
+    "authors": "Kandemir T, Yildiz M, Tercan U, Demirel OB, Yanik H, Karaman V, Aslanger AD, Kardelen AD, Poyrazoglu S, Darendeliler F, Toksoy G, Bas F.",
+    "journal": "Orphanet journal of rare diseases",
+    "date": "2026-08-06",
+    "ai_summary": "Gene: Not applicable (no single gene link established; study includes molecularly confirmed BBS, but gene-specific findings are not reported)\nFinding: In a pilot cohort of 14 children with Bardet-Biedl syndrome, the single-point insulin sensitivity estimator (SPISE) inversely correlated with the metabolic syndrome (MetS) z-score and showed numerically better discrimination for MetS in adolescents than HOMA-IR or TG/HDL, though differences were not statistically significant.\nDisease: Bardet-Biedl syndrome (BBS) with early cardiometabolic risk",
+    "source_link": "https://doi.org/10.1186/s13023-026-04353-y",
+    "genes": [],
+    "diseases": [
+      "Bardet-Biedl syndrome"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42553286",
+    "title": "Lipid ciliology: specialized ciliary membrane lipids in physiology and disease.",
+    "authors": "Hasan A, Morita T, Hirosawa M, Kitamura N, Murakami R, Mikuni M, Kobayashi D, Itabashi T, Miyamoto T.",
+    "journal": "Frontiers in cell and developmental biology",
+    "date": "2026-07-21",
+    "ai_summary": "Gene: Not applicable (review article)\nFinding: This review summarizes the specialized lipid composition of the ciliary membrane—enriched in cholesterol, sphingolipids, and specific phosphoinositides—and describes how dysregulation of lipid metabolism and lipid-modifying enzymes impairs cilia-related signaling, contributing to ciliopathies such as polycystic kidney disease, retinal degeneration, cerebellar hypoplasia, metabolic disorders, Smith-Lemli-Opitz syndrome, and Zellweger spectrum disorders.\nDisease: Ciliopathies (including polycystic kidney disease, retinal degeneration, cerebellar hypoplasia, metabolic disorders, Smith-Lemli-Opitz syndrome, Zellweger spectrum disorders)",
+    "source_link": "https://doi.org/10.3389/fcell.2026.1893158",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42563519",
+    "title": "Systematic Reanalysis of Whole-Exome Sequencing in Genetically Unsolved Pediatric Primary Ciliary Dyskinesia.",
+    "authors": "Hakçıl Öz T, Şişmanlar Eyüboğlu T, Aslan AT, Kula N, Kayhan G.",
+    "journal": "Pediatric pulmonology",
+    "date": "2026-08-01",
+    "ai_summary": "Gene: Multiple (RIBC1, NINL, DNAH14, SPMIP2, USHBP1, CRYBG1, TRIM34, WDR90)\nFinding: Systematic reanalysis of whole-exome sequencing data from 34 previously unsolved pediatric primary ciliary dyskinesia (PCD) cases identified molecular diagnoses in 3 patients (8.8%) via known PCD genes and prioritized rare variants in biologically plausible candidate genes in 8 additional cases (23.5%).\nDisease: Primary ciliary dyskinesia (PCD)",
+    "source_link": "https://doi.org/10.1002/ppul.71776",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42557061",
+    "title": "Unsupervised home spirometry versus supervised clinic spirometry: analysis of longitudinal participant-level data from the CLEAR trial in patients with bronchiectasis.",
+    "authors": "McChrystal R, McLeese RH, O'Neill B, McAuley DF, Elborn JS, Clarke M, Norrie J, Linden D, Stewart J, Jackson A, Man WD, De Soyza A, Chalmers JD, Anand R, Copeland F, Bradley JM, CLEAR Investigator Team.",
+    "journal": "Thorax",
+    "date": "2026-08-05",
+    "ai_summary": "Home spirometry in adults with bronchiectasis showed close agreement with supervised clinic spirometry (mean FEV1 difference 20 mL), with measurement variability decreasing over time. It detected lung function declines during exacerbations, though individual-level variability may limit interpretation. With support to sustain adherence, home spirometry is a viable tool for remote monitoring and decentralised trials in bronchiectasis.",
+    "source_link": "https://doi.org/10.1136/thorax-2026-225189",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42548188",
+    "title": "Papillary Hyperplasia in Autosomal Dominant Polycystic Kidney Disease: A Multi-Institutional Study With Immunohistochemical and Molecular Characterization.",
+    "authors": "Tanaka KS, Williamson SR, Zalles N, Wu DJ, Akgul M, Al-Obaidy K, Chan E, Sangoi AR.",
+    "journal": "The American journal of surgical pathology",
+    "date": "2026-08-04",
+    "ai_summary": "Gene: Not specified (no single gene implicated)\nFinding: Papillary hyperplasia (PH) is a common microscopic lesion in ADPKD kidneys (88% of nephrectomies), characterized by bland low-grade epithelial proliferations with a distinct immunohistochemical profile (KRT7+, GATA3+, L1CAM+, variably AMACR+, CA9-) and no definitive molecular alterations.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1097/pas.0000000000002592",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42568373",
+    "title": "Congenital hepatic fibrosis in an adult female combined with Von Meyenburg complex and autosomal dominant polycystic kidney disease: a case report.",
+    "authors": "Ren X, Cui Y, Song J, Tang Y, Xie X, Zhu W, Yu Z, Huang L, Gao Y.",
+    "journal": "Frontiers in gastroenterology (Lausanne, Switzerland)",
+    "date": "2026-07-24",
+    "ai_summary": "Gene: PKD1\nFinding: A pathogenic variant in PKD1 was identified as the cause of congenital hepatic fibrosis combined with Von Meyenburg complex and autosomal dominant polycystic kidney disease in an adult female presenting with upper gastrointestinal bleeding.\nDisease: Congenital hepatic fibrosis with Von Meyenburg complex and autosomal dominant polycystic kidney disease",
+    "source_link": "https://doi.org/10.3389/fgstr.2026.1876545",
+    "genes": [
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42544557",
+    "title": "Functional vs Structural Renal Outcomes of SGLT2 Inhibitors in Autosomal Dominant Polycystic Kidney Disease: A Systematic Review of Preclinical and Clinical Evidence.",
+    "authors": "Naeem F, Ong SC, Daoud Butt M, Khan AH, Adnan AS, Shaukat S.",
+    "journal": "The Annals of pharmacotherapy",
+    "date": "2026-08-03",
+    "ai_summary": "SGLT2 inhibitors show functional renal benefits in ADPKD—improving blood pressure, proteinuria, and metabolic measures—but their effect on structural outcomes like cyst growth remains inconsistent and unproven. Preclinical rodent models demonstrate reduced cyst load, inflammation, and fibrosis, while clinical data are limited and heterogeneous, preventing meta-analysis. Short-term safety appears reassuring, but long-term efficacy requires validation in randomized controlled trials.",
+    "source_link": "https://doi.org/10.1177/10600280261467689",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42545852",
+    "title": "Prognostication in Autosomal Dominant Polycystic Kidney Disease: Current Tools, Clinical Gaps, and Future Directions.",
+    "authors": "Min J, Zhu C, Palma L, Vena N, Krishna Murthy S, Milo Rasouly H, Han H.",
+    "journal": "Kidney360",
+    "date": "2026-08-03",
+    "ai_summary": "Gene: Not specified (ADPKD is typically caused by PKD1/PKD2, but no specific gene finding is reported here)\nFinding: Current unimodal prognostic tools (imaging-based and genetic scoring) have limitations in ADPKD, and future multimodal frameworks integrating AI-derived imaging, genomic risk, clinical factors, and biomarkers are needed to improve outcome prediction.\nDisease: Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+    "source_link": "https://doi.org/10.34067/kid.0000001356",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42546061",
+    "title": "Deep learning-supported image quantification of epithelial cell shapes and its application to polycystic kidney disease.",
+    "authors": "Jahn J, Hofherr A, Consoli C, Fajen B, Goll R, Liedtke GT, Boehm A, Selbach F, Zeisler PC, Weichselberger V, Classen AK, Westermann L, Busch T, Köttgen M.",
+    "journal": "PLoS computational biology",
+    "date": "2026-08-03",
+    "ai_summary": "Gene: PKD (via genetically modified MDCK cell models of ADPKD)\nFinding: A deep learning-supported image analysis workflow quantifies epithelial cell shape and junctional organization, capturing genotype-associated differences in ADPKD models that conventional shape descriptors miss.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1371/journal.pcbi.1014614",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42569140",
+    "title": "Defining and Diagnosing Primary Ciliary Dyskinesia.",
+    "authors": "McCain MN, Fulcher ML, Clapp PW, Thorp BD, Senior BA, Davis SD, Ferkol TW, Randell SH, Kimple AJ.",
+    "journal": "Rhinology online",
+    "date": "2025-10-11",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.4193/rhinol/25.003",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42557328",
+    "title": "Amygdala astrocyte primary cilium mechanisms contribute to stress behaviours.",
+    "authors": "Pelaz SG, Mitsui K, Kolosowska N, Fritch H, Neupane C, Casha VH, Alonso-Gardón M, Pandey V, Wang L, Kawaguchi R, Wohlschlegel JA, Guo J, McCarroll SA, Berretta S, Khakh BS.",
+    "journal": "Nature",
+    "date": "2026-08-05",
+    "ai_summary": "Gene: S1PR1\nFinding: Activation of amygdala astrocyte sphingosine-1-phosphate receptor 1 restores primary cilia length, corrects molecular alterations, and improves stress-related behaviours in mice.\nDisease: Stress-related behavioural disorders",
+    "source_link": "https://doi.org/10.1038/s41586-026-10874-0",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42557791",
+    "title": "Periodontitis-Associated Clock Signaling Impairs Primary Cilia to Promote Periodontal Stem Cell Senescence.",
+    "authors": "Zhang X, Zhu Y, Ying M, Hu P, Ma J, Chen Y, Zhang X, Chen M, Dai Y, Wang H, Fan X, Hou Y.",
+    "journal": "Journal of periodontal research",
+    "date": "2026-08-05",
+    "ai_summary": "Gene: ARL13B\nFinding: Cortisol-driven circadian disruption reduces BMAL1, which downregulates ARL13B expression, impairing primary cilia and Hedgehog signaling to promote periodontal stem cell senescence.\nDisease: Periodontitis",
+    "source_link": "https://doi.org/10.1111/jre.70162",
+    "genes": [
+      "ARL13B"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42559309",
+    "title": "Magnetofection-mediated siRNA delivery ameliorates cartilage damage in Kashin-Beck disease <i>via</i> targeting SIRT3 and protecting primary cilia.",
+    "authors": "Chen Y, Wang D, Zhang Y, Liu X, Du Z, Chen X, Wan X, Cai Y, Chen A, Chen J, Du H, Zhou Z.",
+    "journal": "Theranostics",
+    "date": "2026-07-22",
+    "ai_summary": "Gene: SIRT3\nFinding: T-2 toxin-induced SIRT3 overexpression disrupts primary cilia integrity and protein acetylation in chondrocytes, and magnetofection-mediated siRNA delivery targeting SIRT3 protects primary cilia and ameliorates cartilage damage.\nDisease: Kashin-Beck disease (KBD)",
+    "source_link": "https://doi.org/10.7150/thno.134335",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42569767",
+    "title": "Exploring the BICC1 Interactome in HEK293T Cells: Insights Into RNA-Mediated Protein Networks and Biomolecular Condensates.",
+    "authors": "do Amaral-Prado HM, Moreira GA, Santos C, Bosso FH, Ciamponi FE, Barbosa GO, Bengtson MH, Massirer KB.",
+    "journal": "FASEB bioAdvances",
+    "date": "2026-08-07",
+    "ai_summary": "Gene: BICC1\nFinding: BICC1 interacts with proteins involved in mRNA splicing, the PRMT5 methylosome complex, and biomolecular condensates, with RNA-dependent interactions and co-localization with stress granule markers.\nDisease: Polycystic kidney disease (associated context; broader roles in cancer suggested)",
+    "source_link": "https://doi.org/10.1096/fba.2026-00035",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42565002",
+    "title": "Metabolism of citrate-mediated PI3K-Akt signaling and primary cilium regulates spatiotemporal craniofacial mineralization.",
+    "authors": "Zhao J, Hao S, Gao N, Zhang H, Yu Y, Chen Y, Gao B, Lai J, Wang Z, Gao Z, Ni Y, Zhang J, Zhang L, Cai W.",
+    "journal": "Bioactive materials",
+    "date": "2026-07-27",
+    "ai_summary": "Citrate accumulation drives regional differences in craniofacial bone mineralization by activating PI3K-Akt signaling in osteoblasts and cooperating with primary cilia to enhance osteogenesis and stabilize amorphous calcium phosphate clusters, revealing a metabolic-signaling-structure mechanism for bone development and regeneration.",
+    "source_link": "https://doi.org/10.1016/j.bioactmat.2026.07.033",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42549838",
+    "title": "WDR34 Deficiency Disrupts Retrograde Intraflagellar Transport and Induces Unfolded Protein Response-Driven Inflammation and Retinal Degeneration.",
+    "authors": "Jia B, Xie J, Zhou X, Tong W, Li D, Fu J.",
+    "journal": "Investigative ophthalmology & visual science",
+    "date": "2026-08-01",
+    "ai_summary": "Gene: WDR34\nFinding: WDR34 deficiency disrupts retrograde intraflagellar transport, causing rhodopsin/opsin mislocalization, endoplasmic reticulum stress, and unfolded protein response-driven inflammation via IRE1α/TRAF2/NF-κB signaling, leading to photoreceptor apoptosis and retinal degeneration.\nDisease: Retinitis pigmentosa (ciliopathy-associated retinal degeneration)",
+    "source_link": "https://doi.org/10.1167/iovs.67.10.9",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Flagella",
+      "Retinitis pigmentosa"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42550226",
+    "title": "Correction to: Primary cilia gene defects in BMSCs induce idiopathic scoliosis.",
+    "authors": "Zhang L, Yang W, Zhao Z, Wang Y, Wang H, Zhao N, Zhou J, Song Z, Zhang Z, Li T, Zhe S, Qian G, Liu Y, Xie J.",
+    "journal": "Cellular and molecular life sciences : CMLS",
+    "date": "2026-08-04",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1007/s00018-026-06251-9",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42551719",
+    "title": "A novel PKHD1 missense variant disrupting splicing in a fetus with Caroli disease.",
+    "authors": "Huang H, Cheng C, Chen P, Yang F, Pan S, Xie F, Zhao S, Chen X.",
+    "journal": "Gene",
+    "date": "2026-08-04",
+    "ai_summary": "Gene: PKHD1\nFinding: A novel maternal missense variant c.6682G>C; p.(Glu2228Gln) disrupts splicing by causing exon 40 skipping, leading to an in-frame deletion that may compromise the structural stability of a β-barrel domain.\nDisease: Caroli disease (with features of autosomal recessive polycystic kidney disease)",
+    "source_link": "https://doi.org/10.1016/j.gene.2026.150340",
+    "genes": [
+      "PKHD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42545752",
+    "title": "Authors' Reply: Nephron-Segment Composition and Apparent Fatty Acid Oxidation Suppression in Pkd1KO+Glis3KO Kidneys.",
+    "authors": "Wei Z, Gu J, Somlo S.",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "date": "2026-03-09",
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1681/asn.0000001038",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42561750",
+    "title": "The trypanosome flagellum as model for parasitology, cell biology and ciliopathies.",
+    "authors": "Hecquet A, Bonnefoy S, Bastin P.",
+    "journal": "Seminars in cell & developmental biology",
+    "date": "2026-08-05",
+    "ai_summary": "Trypanosoma brucei is presented as a powerful model organism for studying cilia and flagella, whose defects cause human ciliopathies. Its flagellum persists throughout the cell cycle, enabling studies of assembly and maintenance, and it is amenable to live imaging, ultrastructural analysis, and genetic manipulation. The review highlights how trypanosome research has advanced understanding of flagellum construction and intraflagellar transport, and how mutations in flagellar genes contribute to ciliopathies.",
+    "source_link": "https://doi.org/10.1016/j.semcdb.2026.103689",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-08-10"
+  },
+  {
+    "pmid": "42563255",
+    "title": "Analysis of Fetal Short Femur: Characteristics That Influence Prenatal Diagnosis.",
+    "authors": "Kumar M, Meena D, Kulshrestha A, Nain S, Siwach A, Sinha A, Aggarwal A, Chaudhary V.",
+    "journal": "Journal of clinical ultrasound : JCU",
+    "date": "2026-08-06",
+    "ai_summary": "Gene: Not specified (ciliopathies as a group)\nFinding: In fetuses with short femur, ciliopathies were the most common skeletal dysplasia group (40% of diagnosed cases), and ultrasound markers such as bent femur, narrow thorax, and visceral anomalies aided diagnosis; combined abnormal FL/AC and TC/AC ratios had 100% sensitivity for predicting lethality.\nDisease: Skeletal dysplasia (including ciliopathies) presenting with fetal short femur",
+    "source_link": "https://doi.org/10.1002/jcu.70362",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-08-10"
   }
 ]
