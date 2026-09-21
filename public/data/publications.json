@@ -77866,5 +77866,201 @@
       "Cilia"
     ],
     "first_seen": "2026-09-14"
+  },
+  {
+    "pmid": "42755537",
+    "title": "Congenital hepatic fibrosis and related ciliopathies across the life course: current management, disease burden, and unmet needs in the era of genomic diagnosis and translational therapeutics.",
+    "authors": "Wang A, He J, Liu K, Fu J, Chen J.",
+    "journal": "Frontiers in pediatrics",
+    "date": "2026-09-03",
+    "ai_summary": "This narrative review covers congenital hepatic fibrosis (CHF), a rare autosomal recessive hepatobiliary developmental disorder marked by portal tract fibrosis and ductal plate malformation that is a major cause of portal hypertension in children and adolescents. It synthesizes current knowledge of pathophysiology, genetics, clinical manifestations, diagnosis, complication management, and therapeutics, and critically appraises the disease burden and gaps in care. The authors highlight the wide clinical heterogeneity (from asymptomatic to severe portal hypertension), the absence of targeted therapies addressing the underlying disease process, and persistent deficiencies in multidisciplinary coordination, individualized treatment, and long-term follow-up. The review's distinctive emphasis is on life-course management, patient burden, and translational gaps in the era of genomic diagnosis, aiming to inform future research and integrated care models.",
+    "source_link": "https://doi.org/10.3389/fped.2026.1928268",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42737637",
+    "title": "Setmelanotide Response Variability in Two Genetically Confirmed Pediatric Kidney Transplant Recipients with Bardet-Biedl Syndrome.",
+    "authors": "Kondou A, Siolos P, Sotiriou G, Agakidis C, Dotis J, Christoforidis A, Printza N.",
+    "journal": "International journal of molecular sciences",
+    "date": "2026-08-29",
+    "ai_summary": "Gene: SDCCAG8\nFinding: In a 17-year-old male kidney transplant recipient with Bardet-Biedl syndrome and a homozygous pathogenic SDCCAG8 exon deletion, 12 months of setmelanotide improved weight, BMI z-score, hunger, and HbA1c, whereas a second patient with a BBS5 splice-site variant showed only transient benefit and continued BMI gain.\nDisease: Bardet-Biedl syndrome",
+    "source_link": "https://doi.org/10.3390/ijms27177740",
+    "genes": [
+      "BBS5",
+      "SDCCAG8"
+    ],
+    "diseases": [
+      "Bardet-Biedl syndrome",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42756616",
+    "title": "Biallelic WDR19 Variants: Systematic Analysis of Genotype-Phenotype Correlations.",
+    "authors": "Webster Z, Woods L, Dalziel R, Drake K, de Valles-Ibáñez G, Poke G.",
+    "journal": "Human mutation",
+    "date": "2026-09-17",
+    "ai_summary": "Gene: WDR19\nFinding: In the largest review of WDR19-associated ciliopathy to date (93 published cases plus one new patient), truncating variants were associated with increased likelihood of skeletal involvement and reduced likelihood of hepatobiliary disease compared with missense-only genotypes, while missense variants outside repeat protein domains correlated with early onset (before age 16) and ocular manifestations, and recurrent variants showed considerable phenotypic variability.\nDisease: WDR19-associated ciliopathies (renal, ocular, skeletal and hepatic manifestations)",
+    "source_link": "https://doi.org/10.1155/humu/9449547",
+    "genes": [
+      "WDR19"
+    ],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42741939",
+    "title": "Evidence for a tubular basement membrane-cilia connection in autosomal dominant polycystic kidney disease pathogenesis.",
+    "authors": "Sussman CR, Harris PC.",
+    "journal": "The Journal of clinical investigation",
+    "date": "2026-09-15",
+    "ai_summary": "Gene: PKD1\nFinding: Cilia-dependent, PKD1-mediated regulation of the tubular basement membrane links cilia-dependent tubule dilation and basement membrane thinning to early cystogenesis, with PC1 loss compromising basement membrane stiffness.\nDisease: Autosomal dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1172/jci210031",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42758533",
+    "title": "Defective neuronal differentiation in Lowe syndrome is associated with mitochondrial dysfunction and impaired cilia-related Sonic Hedgehog signaling.",
+    "authors": "Walkiewicz G, Chen S, Lo C, Zhao J, Liu Z, Wang B, Wang Q, Kowal TJ, Lawson B, Sun Y.",
+    "journal": "eLife",
+    "date": "2026-09-18",
+    "ai_summary": "Gene: OCRL\nFinding: OCRL loss causes reduced mitochondrial activity, mtDNA and mitochondrial content with increased oxidative stress, shifts differentiation toward astrocytes rather than impairing neurogenesis, and impairs cilia-related Sonic Hedgehog signaling, phenotypes conserved across patient iPSC neurons, Ocrl knockout mice, and zebrafish.\nDisease: Lowe syndrome (neurodevelopmental dysfunction)",
+    "source_link": "https://doi.org/10.7554/elife.104055",
+    "genes": [
+      "OCRL"
+    ],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42755296",
+    "title": "Isolated rod-cone dystrophy in homozygous <i>IFT140</i> missense allele p.Tyr923Asp.",
+    "authors": "Eiselen C, Shanks M, Sperring S, Cehajic-Kapetanovic J.",
+    "journal": "Ophthalmic genetics",
+    "date": "2026-09-18",
+    "ai_summary": "Gene: IFT140\nFinding: Homozygosity for the missense variant c.2767T>G (p.Tyr923Asp), absent from gnomAD and classified as likely pathogenic, segregated with autosomal-recessive disease in two consanguineous siblings who showed classic rod-cone dystrophy (parafoveal hyperautofluorescent rings, ellipsoid zone loss, reduced scotopic and photopic ERG responses) but normal renal, skeletal, and auditory function at diagnosis and eight years later.\nDisease: Isolated rod-cone dystrophy (retinal dystrophy without systemic ciliopathy features)",
+    "source_link": "https://doi.org/10.1080/13816810.2026.2709760",
+    "genes": [
+      "IFT140"
+    ],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Flagella"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42742042",
+    "title": "Analysis of motor-based transport in primary cilia by dynamic mode decomposition of live-cell imaging data.",
+    "authors": "Campestre F, Lauritsen L, Pedersen LB, Wüstner D.",
+    "journal": "Journal of cell science",
+    "date": "2026-09-15",
+    "ai_summary": "Gene: KIF13B\nFinding: A KIF13B deletion mutant retaining only the motor domain and part of the FHA domain leaves steady-state IFT velocity and frequency unchanged, but prevents the reduction in both anterograde and retrograde IFT velocities normally seen when retrograde dynein-2 is inhibited by Ciliobrevin D or Tanespimycin; KIF13B localizes to the ciliary membrane, periciliary membrane region, and centriolar subdistal appendages below FBF1.\nDisease: Primary cilia motor-based transport (ciliary protein trafficking)",
+    "source_link": "https://doi.org/10.1242/jcs.264918",
+    "genes": [
+      "IFT172"
+    ],
+    "diseases": [
+      "Cilia",
+      "Flagella"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42739200",
+    "title": "From Guidelines to Practice: Pilot Implementation and Analytical Boundaries of a Focused ADPKD-Spectrum Gene Panel.",
+    "authors": "Babici RG, Ivanov IC, Agavriloaei BD, Mititiuc IL, Dodi G, Dragoș ML, Racoviță S, Savuca A, Apetrii M, Popescu R, Covic AC, Rusu C.",
+    "journal": "Diagnostics (Basel, Switzerland)",
+    "date": "2026-08-28",
+    "ai_summary": "This pilot study evaluated a 28-gene ADPKD-spectrum hybrid-capture panel across 16 samples, using 694 analytical target intervals per sample, with MLPA for dosage assessment and selective whole-exome sequencing for short-read verification. Most interval observations (82.7%) achieved mean depth ≥20×, and nine genes (including GANAB, HNF1B, and TSC2) met mean-depth criteria throughout, though PKD1 exon 1 remained undercovered and nominal depth in duplicated sequence did not confirm authentic-locus callability. Among nine panel-first cases, one HNF1B and one unique-locus PKD1 finding were supported, while four duplicated-sequence PKD1 findings remained confirmation-dependent. The authors conclude that responsible implementation of such panels requires explicit analytical boundaries and staged complementary testing.",
+    "source_link": "https://doi.org/10.3390/diagnostics16172770",
+    "genes": [
+      "GANAB",
+      "HNF1B",
+      "PKD1"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42684893",
+    "title": "Protocol for optogenetic control of cAMP in human telencephalic organoids using an easy-to-build Arduino-driven LED system.",
+    "authors": "Shimada IS, Kato Y.",
+    "journal": "STAR protocols",
+    "date": "2026-09-02",
+    "ai_summary": "This protocol describes a low-cost, Arduino-driven LED stimulation system for optogenetic control of cAMP in human telencephalic organoids. It covers assembly of the hardware, code for regulating LED output, preparation of iPS cells for optogenetic experiments, and photoactivation of cAMP via bPAC to control cell-fate decisions, offering an affordable alternative to commercial optogenetic setups.",
+    "source_link": "https://doi.org/10.1016/j.xpro.2026.104818",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "41406168",
+    "title": "The power of five - inositol polyphosphate 5-phosphatase gene mutations at the intersection of development and disease.",
+    "authors": "McGrath MJ, Davies EM, Ooms LM, Nanayakkara R, Gurung R, Jones EI, Mitchell CA.",
+    "journal": "FEBS letters",
+    "date": "2025-12-17",
+    "ai_summary": "This review covers the inositol polyphosphate 5-phosphatase family (10 mammalian enzymes that dephosphorylate the 5-position phosphate of PtdIns(4,5)P2, PtdIns(3,5)P2, and/or PtdIns(3,4,5)P3). Despite overlapping substrate specificity, family members act nonredundantly, as shown by mouse and zebrafish knockout studies. Mutations in several family members cause multisystem developmental and congenital syndromes, and emerging evidence links gene variants to diabetes and metabolic syndrome, neurodegenerative disease, and, rarely, cancer. The review discusses disease modeling and mechanistic advances.",
+    "source_link": "https://doi.org/10.1002/1873-3468.70247",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42751568",
+    "title": "Emerging roles of the ciliary-mitochondrial axis in cellular homeostasis and neuroprotection.",
+    "authors": "Miller E, Bambakidis P, Templin P, Paul BD, Pieper AA.",
+    "journal": "Molecular neurodegeneration advances",
+    "date": "2025-11-25",
+    "ai_summary": "This review argues that primary cilia and mitochondria should be viewed as a single coupled signaling and metabolic hub rather than separate organelles. The bidirectional ciliary-mitochondrial axis integrates extracellular sensing, calcium dynamics, bioenergetics, and organelle quality control, with ciliary signaling influencing mitochondrial dynamics and mitophagy, and mitochondrial metabolic states in turn affecting cilia. Disruption at any point in this axis is proposed as a potential trigger of neurodegeneration, and the authors highlight the axis as a promising, tractable target for therapeutic strategies aimed at restoring brain homeostasis and neuroprotection.",
+    "source_link": "https://doi.org/10.1186/s44477-025-00005-w",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-09-21"
+  },
+  {
+    "pmid": "42764307",
+    "title": "CFAP100 forms phase-separated condensates required for ciliary transition zone assembly.",
+    "authors": "Sun S, Li K, Sun X, Tian R, Zhu LE, Liu K, Yue Y, Li W, Ran J, Zhou J, Liu M.",
+    "journal": "Nature communications",
+    "date": "2026-08-21",
+    "ai_summary": "Gene: CFAP100\nFinding: CFAP100 forms phase-separated condensates at the distal end of centrioles that stimulate transition zone assembly and recruit NPHP3, with Cfap100 knockout mice showing ciliary defects in brain, trachea, and kidney.\nDisease: Ciliary defects (ciliopathy-associated phenotypes in brain, trachea, and kidney)",
+    "source_link": "https://doi.org/10.1038/s41467-026-76995-2",
+    "genes": [
+      "NPHP3"
+    ],
+    "diseases": [
+      "Cilia",
+      "Flagella"
+    ],
+    "first_seen": "2026-09-21"
   }
 ]
