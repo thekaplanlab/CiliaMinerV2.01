@@ -42,7 +42,7 @@ const GENE_COLUMNS: ReadonlyArray<[string, (g: MasterGene) => unknown]> = [
   ['mouse_ciliopathy_phenotype', (g) => g.mouseCiliopathyPhenotype ?? ''],
   ['evidence_type',              (g) => g.evidenceType ?? ''],
   ['evidence_flag',              (g) => g.evidenceFlag ?? ''],
-  ['curation_notes',             (g) => g.curationNotes ?? g.note ?? ''],
+  ['curation_notes',             (g) => g.curationNotes?.join('; ') ?? g.note ?? ''],
 ]
 
 function buildCsv(rows: ReadonlyArray<ReadonlyArray<unknown>>, header: ReadonlyArray<string>): string {

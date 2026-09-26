@@ -18,7 +18,7 @@ interface RawMaster {
 }
 
 async function readMaster(): Promise<RawMaster> {
-  const file = path.join(process.cwd(), 'public', 'data', 'ciliopathy_genes_v15.json')
+  const file = path.join(process.cwd(), 'public', 'data', 'ciliopathy_genes_v16.json')
   const raw = await fs.readFile(file, 'utf-8')
   return JSON.parse(raw)
 }

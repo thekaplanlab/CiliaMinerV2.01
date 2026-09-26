@@ -78,7 +78,7 @@ function SiteHeader() {
       <span>
         Cilia<span className="text-red-800">Miner</span>
         <span className="ml-1.5 text-[11px] font-normal text-stone-400 font-mono align-baseline">
-          v15
+          v16
         </span>
       </span>
     </Link>

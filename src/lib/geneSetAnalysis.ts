@@ -60,7 +60,7 @@ let inflight:  Promise<RawV15> | null = null
 export async function loadCatalogue(basePath = ''): Promise<RawV15> {
   if (CATALOGUE) return CATALOGUE
   if (inflight) return inflight
-  inflight = fetch(`${basePath}/data/ciliopathy_genes_v15.json`, { cache: 'default' })
+  inflight = fetch(`${basePath}/data/ciliopathy_genes_v16.json`, { cache: 'default' })
     .then((r) => {
       if (!r.ok) throw new Error(`Failed to load v15 catalogue: ${r.status}`)
       return r.json() as Promise<RawV15>

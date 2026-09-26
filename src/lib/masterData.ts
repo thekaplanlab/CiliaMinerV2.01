@@ -52,7 +52,7 @@ export interface MasterGene {
   mouseCiliopathyPhenotype?: string
   evidenceType?: string
   evidenceFlag?: string
-  curationNotes?: string
+  curationNotes?: string[]
   note?: string
 }
 
@@ -107,7 +107,7 @@ interface RawGene {
   mouse_ciliopathy_phenotype?: string
   evidence_type?: string
   evidence_flag?: string
-  curation_notes?: string
+  curation_notes?: string | string[]
   note?: string
 }
 
@@ -154,14 +154,14 @@ export async function loadMaster(): Promise<LoadedMaster> {
   if (cached) return cached
   if (inflight) return inflight
 
-  inflight = fetch(`${basePath()}/data/ciliopathy_genes_v15.json`, {
+  inflight = fetch(`${basePath()}/data/ciliopathy_genes_v16.json`, {
     cache: 'force-cache',
   })
     .then(async (res) => {
       if (!res.ok) {
         throw new Error(
           `Failed to load master data (HTTP ${res.status}). ` +
-          `Make sure public/data/ciliopathy_genes_v15.json exists.`
+          `Make sure public/data/ciliopathy_genes_v16.json exists.`
         )
       }
       const raw = (await res.json()) as RawMaster
@@ -175,6 +175,15 @@ export async function loadMaster(): Promise<LoadedMaster> {
     })
 
   return inflight
+}
+
+/** curation_notes is a list in the master, but older records used a bare string. */
+function curationList(v: string | string[] | undefined): string[] | undefined {
+  if (v === undefined || v === null) return undefined
+  const out = (Array.isArray(v) ? v : [v]).filter(
+    (x): x is string => typeof x === 'string' && x.trim().length > 0,
+  )
+  return out.length > 0 ? out : undefined
 }
 
 function transformMaster(raw: RawMaster): LoadedMaster {
@@ -218,7 +227,7 @@ function transformMaster(raw: RawMaster): LoadedMaster {
       mouseCiliopathyPhenotype: g.mouse_ciliopathy_phenotype,
       evidenceType: g.evidence_type,
       evidenceFlag: g.evidence_flag,
-      curationNotes: g.curation_notes,
+      curationNotes: curationList(g.curation_notes),
       note: g.note,
     })
   }

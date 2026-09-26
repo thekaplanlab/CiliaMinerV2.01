@@ -7,7 +7,7 @@
  * Useful for asking "how many of my RNA-seq hits / CRISPR screen genes /
  * differentially-expressed genes are ciliary?" with class-level breakdown.
  *
- * Self-contained: loads `ciliopathy_genes_v15.json` directly via fetch,
+ * Self-contained: loads `ciliopathy_genes_v16.json` directly via fetch,
  * computes the analysis in-browser, no server roundtrip.  Standard
  * features: example panels, per-gene table, copy unmatched, CSV export.
  */
@@ -184,7 +184,7 @@ function Inner() {
           About Gene Set Analysis
         </p>
         <p className="text-xs text-stone-700 leading-relaxed">
-          Each input symbol is uppercased, deduplicated, and matched against the v15 catalogue&rsquo;s
+          Each input symbol is uppercased, deduplicated, and matched against the v16 catalogue&rsquo;s
           gene index. Matched genes are aggregated by their ciliopathy class assignments
           (Primary, Tissue-restricted, Motile, Secondary), their associated diseases, their
           functional category, and their subcellular localization. Unmatched symbols are
@@ -417,7 +417,7 @@ function ResultsBlock({ result }: { result: AnalysisResult }) {
             ))}
           </ul>
           <p className="text-[11px] text-stone-400 mt-3 leading-relaxed">
-            These symbols don&rsquo;t appear in the v15 catalogue. They may still be ciliary
+            These symbols don&rsquo;t appear in the v16 catalogue. They may still be ciliary
             (the catalogue covers ciliopathy-implicated genes with published evidence, not the
             full ciliary proteome), or they may be typos / synonyms / non-ciliary genes.
           </p>

@@ -4,7 +4,7 @@
  * Gene detail — the full "gene card".
  *
  * Surfaces every field from the v15 master, plus optional enrichment from
- * the ciliahub layer when the gene exists there (561 of 607 v15 genes do):
+ * the ciliahub layer when the gene exists there (all 554 v16 genes do):
  *
  *   v15 sections:
  *     • Header (symbol, description, synonyms, OMIM/Ensembl/UniProt/NCBI/GeneCards)
@@ -88,7 +88,7 @@ function GenePageInner({ symbol }: { symbol: string }) {
           <div className="card text-center py-12">
             <p className="font-display text-2xl text-primary-700 mb-2">No record for {symbol}.</p>
             <p className="text-sm text-primary-500 mb-4">
-              This gene is not in the curated v15 catalogue (607 genes).
+              This gene is not in the curated v16 catalogue (554 genes).
             </p>
             <Link
               href="/advanced-search"
@@ -127,7 +127,7 @@ function GeneCard({ gene, enrich }: { gene: MasterGene; enrich: CiliahubEnrichme
       <header className="card p-6 sm:p-8">
         <div className="flex items-baseline justify-between mb-3 gap-3 flex-wrap">
           <p className="text-[11px] uppercase tracking-[0.18em] font-medium text-accent">
-            Gene · curated entry · v15
+            Gene · curated entry · v16
             {enrich && <span className="text-primary-400 ml-2">+ ciliahub enrichment</span>}
           </p>
           <button
@@ -455,11 +455,13 @@ function GeneCard({ gene, enrich }: { gene: MasterGene; enrich: CiliahubEnrichme
                 </ul>
               </Fact>
             )}
-            {(gene.curationNotes || gene.note) && (
-              <Fact label="Curation note">
-                <p className="text-sm text-primary-600 leading-relaxed italic">
-                  {gene.curationNotes || gene.note}
-                </p>
+            {((gene.curationNotes && gene.curationNotes.length > 0) || gene.note) && (
+              <Fact label={(gene.curationNotes?.length ?? 0) > 1 ? 'Curation notes' : 'Curation note'}>
+                {(gene.curationNotes ?? [gene.note as string]).map((n, i) => (
+                  <p key={i} className="text-sm text-primary-600 leading-relaxed italic mt-1 first:mt-0">
+                    {n}
+                  </p>
+                ))}
               </Fact>
             )}
           </dl>

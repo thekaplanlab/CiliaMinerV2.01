@@ -81,7 +81,7 @@ function HomeInner() {
   // ── Load master JSON once ────────────────────────────────────────────
   useEffect(() => {
     let cancelled = false
-    fetch('/data/ciliopathy_genes_v15.json', { cache: 'default' })
+    fetch('/data/ciliopathy_genes_v16.json', { cache: 'default' })
       .then((r) => r.json())
       .then((d: RawMaster) => { if (!cancelled) setMaster(d) })
       .catch(() => { /* table just stays empty */ })

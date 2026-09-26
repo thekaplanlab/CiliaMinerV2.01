@@ -6,7 +6,7 @@
  * across 5 organisms, ciliogenics screens, publications).
  *
  * The slim file is ~1.9 MB (~270 KB gzipped) and only contains records
- * for the 561 of 607 v15 genes that exist in the ciliahub dataset.
+ * for the v16 genes that exist in the ciliahub dataset (all 554 as of 2026-09-26).
  * Genes outside that intersection silently fall through (the page just
  * doesn't render the augmentation sections for them).
  */

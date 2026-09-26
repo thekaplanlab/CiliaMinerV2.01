@@ -5,13 +5,13 @@ build_search_index.py
 
 Rebuilds the lightweight search index used by the home-page search box.
 
-Reads:   public/data/ciliopathy_genes_v15.json
+Reads:   public/data/ciliopathy_genes_v16.json
          (or pass --src to point at a different master file)
 Writes:  public/data/search_index.json
 
 Usage from repo root:
     python3 scripts/build_search_index.py
-    python3 scripts/build_search_index.py --src public/data/ciliopathy_genes_v15.json
+    python3 scripts/build_search_index.py --src public/data/ciliopathy_genes_v16.json
 
 This script is idempotent. Re-running it overwrites the index with the
 current master file. Run it whenever you replace or update the master
@@ -129,7 +129,7 @@ def build(src_path: str, out_path: str) -> None:
 
 def main() -> int:
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    default_src = os.path.join(repo_root, 'public', 'data', 'ciliopathy_genes_v15.json')
+    default_src = os.path.join(repo_root, 'public', 'data', 'ciliopathy_genes_v16.json')
     default_out = os.path.join(repo_root, 'public', 'data', 'search_index.json')
 
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)

@@ -88,7 +88,7 @@ function Inner({ name }: { name: string }) {
   useEffect(() => {
     let cancelled = false
     Promise.all([
-      fetch('/data/ciliopathy_genes_v15.json', { cache: 'default' }).then((r) => r.json()),
+      fetch('/data/ciliopathy_genes_v16.json', { cache: 'default' }).then((r) => r.json()),
       loadClinical().catch(() => null),
     ])
       .then(([m, cl]: [RawMaster, any]) => {

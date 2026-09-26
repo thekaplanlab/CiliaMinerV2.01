@@ -26,8 +26,8 @@ import { ExternalLink } from 'lucide-react'
 
 // Cilia-related genes that are not yet linked to a specific ciliopathy.
 // CiliaHub catalogue ≈ 2,787 cilia genes; the disease-linked subset is the
-// curated set in v15. Adjust here if the CiliaHub master changes.
-const CANDIDATE_GENES = 2180
+// curated set in v16 (554 genes). Adjust here if the CiliaHub master changes.
+const CANDIDATE_GENES = 2233
 
 // ── Defensive parsing helpers ─────────────────────────────────────────
 function arr(v: unknown): string[] {
@@ -73,7 +73,7 @@ function Inner() {
 
   useEffect(() => {
     let cancelled = false
-    fetch('/data/ciliopathy_genes_v15.json', { cache: 'default' })
+    fetch('/data/ciliopathy_genes_v16.json', { cache: 'default' })
       .then((r) => r.json())
       .then((m) => { if (!cancelled) setMaster(m) })
       .catch(() => {})

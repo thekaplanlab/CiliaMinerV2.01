@@ -4,7 +4,7 @@
  * This file is a server component (no 'use client') so it can export
  * generateStaticParams(), which Next.js requires under output: 'export'.
  *
- * At build time we read public/data/ciliopathy_genes_v15.json from disk and
+ * At build time we read public/data/ciliopathy_genes_v16.json from disk and
  * emit one static page per gene symbol. At runtime the (static) page mounts
  * the client component, which fetches the same JSON over HTTP and renders.
  */
@@ -18,7 +18,7 @@ interface RawMaster {
 }
 
 async function readMaster(): Promise<RawMaster> {
-  const file = path.join(process.cwd(), 'public', 'data', 'ciliopathy_genes_v15.json')
+  const file = path.join(process.cwd(), 'public', 'data', 'ciliopathy_genes_v16.json')
   const raw = await fs.readFile(file, 'utf-8')
   return JSON.parse(raw)
 }
