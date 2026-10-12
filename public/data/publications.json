@@ -82093,5 +82093,187 @@
       "Cilia"
     ],
     "first_seen": "2026-10-05"
+  },
+  {
+    "pmid": "42545927",
+    "title": "Challenges and barriers in pediatric to adult Transition in Chronic Pulmonary Diseases (CPD) in Italy: a nationwide Survey.",
+    "authors": "Mazzoni M, Bove M, D'Anna JA, Onofri A, Paglietti MG, Mautone C, Tenero L, Tranchino V, Indolfi C, Antignani R, Vuilleumier P, Allegorico A.",
+    "journal": "Respiration; international review of thoracic diseases",
+    "date": "2026-08-03",
+    "ai_summary": "A nationwide Italian survey of 51 clinicians from 14 regions found that transition from pediatric to adult care for chronic pulmonary diseases is fragmented and underdeveloped: 64.7% reported no structured transition program at their institution, only 13.8% had dedicated transition clinics, and just 15.7% consistently addressed transition with patients and families. Existing programs mainly targeted severe asthma (60.6%) and PCD or non-CF bronchiectasis (24.2%). Respondents called for specialized clinics (76.5%) and targeted professional training (72.5%), with the authors concluding that standardized protocols, dedicated services, interdisciplinary collaboration, and patient-association involvement are needed to ensure continuity of care.",
+    "source_link": "https://doi.org/10.1159/000551063",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42828365",
+    "title": "Biallelic ABCG8 Variants or Biochemical Evidence of Sitosterolemia: A Case Report.",
+    "authors": "Burns J, Zachariah J.",
+    "journal": "Cureus",
+    "date": "2026-09-02",
+    "ai_summary": "Gene: ABCG8\nFinding: A child with biallelic ABCG8 variants (one pathogenic, one variant of unknown significance) had normal fasting lipids and no circulating phytosterol accumulation, illustrating the limitations of gene-first screening for sitosterolemia.\nDisease: Sitosterolemia",
+    "source_link": "https://doi.org/10.7759/cureus.115644",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "41772384",
+    "title": "Berbamine hydrochloride as a brain penetrant galectin 3 inhibitor in a model of Huntington's disease.",
+    "authors": "Siew JJ, Lee CW, Chen HM, Lin HY, Liu YL, Lee YH, Wu YT, Chen HL, Liu FT, Lin CH, Chern Y.",
+    "journal": "Brain : a journal of neurology",
+    "date": "2026-03-03",
+    "ai_summary": "Gene: LGALS3\nFinding: Screening ~24,000 small molecules with a Gal3-GFP microglial puncta assay identified berbamine hydrochloride as a brain-penetrant allosteric inhibitor of Gal3 oligomerization and Gal3-TREM2 interaction that reduced inflammation in vitro and, in R6/2 mice, improved motor function, reduced mutant huntingtin aggregation, and restored dopaminergic and ciliary signaling.\nDisease: Huntington's disease",
+    "source_link": "https://doi.org/10.1093/brain/awag069",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "41067280",
+    "title": "Effects of type 3 and neutrophilic inflammation on type 2 chronic rhinosinusitis with nasal polyps.",
+    "authors": "Oka A, Klingler AI, Kidoguchi M, Poposki JA, Suh LA, Bai J, Stevens WW, Peters AT, Grammer LC, Welch KC, Smith SS, Conley DB, Schwartz BS, Johnson M, Radwan A, Schleimer RP, Kern RC, Tan BK, Fujieda S, Okano M, Kato A.",
+    "journal": "The Journal of allergy and clinical immunology",
+    "date": "2025-10-09",
+    "ai_summary": "In nasal polyps, which were almost universally type 2 (T2) endotype, coexisting type 3 (T3) and neutrophilic (Vneut) inflammation had distinct clinical and molecular effects. Recurrent nasal polyps were associated with both mixed T2+T3 and T2+Vneut inflammation, whereas sinus CT and nasal polyp scores were associated only with T2+Vneut inflammation. The findings indicate that T3 and neutrophilic inflammation act through different molecular pathways to produce distinct clinical presentations in T2 chronic rhinosinusitis with nasal polyps.",
+    "source_link": "https://doi.org/10.1016/j.jaci.2025.09.023",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "40965251",
+    "title": "Update on Gene Therapy Clinical Trials for Eye Diseases.",
+    "authors": "Lonfat N, Moreno-Leon L, Punzo C, Khanna H.",
+    "journal": "Human gene therapy",
+    "date": "2025-09-18",
+    "ai_summary": "This review surveys the current landscape of gene therapy for inherited and complex retinal degenerative diseases, including retinitis pigmentosa, age-related macular degeneration, and glaucoma, which remain without safe and effective disease-modifying treatments. It updates ongoing and completed clinical trials of gene-specific and gene-agnostic strategies, such as adeno-associated viral vector delivery of full genes, gene editing, and antisense oligonucleotides, and compares ocular delivery routes (subretinal, intravitreal, and suprachoroidal). Although long-term data and refined clinical endpoints are still needed to establish efficacy, safety, and durability, the results so far highlight the substantial potential of gene therapy to transform management of these blinding conditions.",
+    "source_link": "https://doi.org/10.1177/10430342251379824",
+    "genes": [],
+    "diseases": [
+      "Retinitis pigmentosa"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "41061703",
+    "title": "Genetic modifiers and ascertainment drive variable expressivity of complex disorders.",
+    "authors": "Jensen M, Smolen C, Tyryshkina A, Pizzo L, Sun J, Noss S, Banerjee D, Oetjens M, Shimelis H, Taylor CM, Pounraja VK, Song H, Rohan L, Huber E, El Khattabi L, van de Laar I, Tadros R, Bezzina CR, van Slegtenhorst M, Kammeraad J, Prontera P, Caberg JH, Fraser H, Banka S, Van Dijck A, Schwartz C, Voorhoeve E, Callier P, Mosca-Boidron AL, Marle N, Lefebvre M, Pope K, Snell P, Boys A, Lockhart PJ, Ashfaq M, McCready E, Nowacyzk M, Castiglia L, Galesi O, Avola E, Mattina T, Fichera M, Bruccheri MG, Mandarà GML, Mari F, Privitera F, Longo I, Curró A, Renieri A, Keren B, Charles P, Cuinat S, Nizon M, Pichon O, Bénéteau C, Stoeva R, Martin-Coignard D, Blesson S, Le Caignec C, Mercier S, Vincent M, Martin CL, Mannik K, Reymond A, Faivre L, Sistermans E, Kooy RF, Amor DJ, Romano C, Andrieux J, Girirajan S.",
+    "journal": "Cell",
+    "date": "2025-10-07",
+    "ai_summary": "This study examined how secondary genetic variants modify the clinical outcomes of primary disease-associated variants in 2,455 individuals. In 124 families carrying the 16p12.1 deletion, both rare and common modifier variants conferred risk for specific developmental features, including short tandem repeats associated with neurological defects, and network analysis pointed to distinct mechanisms for each proband. Across disease and population cohorts of 976 individuals with the 16p12.1 deletion, secondary variants had opposing effects on clinical features depending on how the cohort was ascertained. Analyses of 1,479 probands with other primary variants (e.g., 16p11.2 deletion, CHD8 variants) and 1,528 probands without primary variants showed that phenotypic associations depended on the primary variant context and involved synergistic interactions between primary and secondary variants. The work offers a framework for dissecting the personalized genomic architecture of complex disorders.",
+    "source_link": "https://doi.org/10.1016/j.cell.2025.09.012",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42471516",
+    "title": "Strømme syndrome: the clinical and molecular spectrum associated with variants in CENPF.",
+    "authors": "Mulligan MR, Mulhall H, Hawarden SRA, Davies-Payne D, Heller R, Bicknell LS.",
+    "journal": "European journal of human genetics : EJHG",
+    "date": "2026-07-18",
+    "ai_summary": "Gene: CENPF\nFinding: Reviewing all 32 reported cases of CENPF-related disease shows neurological abnormalities, especially microcephaly, are the most common feature (91%), followed by gastrointestinal (69%) and ocular (44%) features, while most causal variants are truncating (nonsense, frameshift, or essential splice site) rather than missense.\nDisease: Strømme syndrome (syndromic microcephaly with jejunal atresia and eye abnormalities)",
+    "source_link": "https://doi.org/10.1038/s41431-026-02187-7",
+    "genes": [
+      "CENPF"
+    ],
+    "diseases": [],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "39989340",
+    "title": "A Comprehensive Review of Clinically Applied Adeno-Associated Virus-Based Gene Therapies for Ocular Disease.",
+    "authors": "Hinsch VG, Boye SL, Boye SE.",
+    "journal": "Human gene therapy",
+    "date": "2025-02-24",
+    "ai_summary": "This review surveys all AAV-based ocular gene therapies that have reached clinical testing, covering subretinal, intravitreal, and suprachoroidal delivery routes. It focuses on primary safety and secondary efficacy outcomes, including where these were lacking, and draws lessons for the field. The authors conclude that the ocular gene therapy field is poised for continued momentum and further regulatory approvals, building on the approval of Luxturna for RPE65-associated Leber's congenital amaurosis and extensive successful preclinical work.",
+    "source_link": "https://doi.org/10.1089/hum.2024.252",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42448966",
+    "title": "Unveiling ocular developmental disorders through short-read whole-genome sequencing.",
+    "authors": "AURAGEN consortium.",
+    "journal": "European journal of human genetics : EJHG",
+    "date": "2026-07-14",
+    "ai_summary": "Short-read whole-genome sequencing in 100 families with congenital eye malformations (microphthalmia-anophthalmia, coloboma, anterior segment dysgenesis, congenital cataracts and/or foveal hypoplasia), most of whom had prior non-diagnostic panel testing or chromosomal microarray, identified (likely) pathogenic variants in 18 patients plus candidate variants of uncertain significance in 9. Fourteen of these variants would have been missed by conventional gene panels or CGH-array, showing that WGS substantially improves diagnostic yield in ocular developmental disorders and supporting its integration into their genetic evaluation.",
+    "source_link": "https://doi.org/10.1038/s41431-026-02160-4",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42426885",
+    "title": "Insights into programmed cell death from multiple imaging modalities.",
+    "authors": "Li S, Zhang X, Li D, Hou Y, Qian Y, Xu J, Gu Q, Yang M, Chu M.",
+    "journal": "Journal of translational medicine",
+    "date": "2026-07-09",
+    "ai_summary": "This review compares molecular probes and imaging modalities for detecting and distinguishing major programmed cell death subtypes—apoptosis, necroptosis, and pyroptosis—and offers practical guidance for selecting probes and imaging platforms based on specific biological questions. It emphasizes that in vivo imaging enables real-time monitoring of hallmark markers and deep-tissue dynamics, providing insights into the biological roles of PCD, while noting that the current strength of these technologies lies mainly in detecting and differentiating PCD subtypes, with full spatiotemporal dynamic monitoring still an ongoing challenge.",
+    "source_link": "https://doi.org/10.1186/s12967-026-08568-2",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42822457",
+    "title": "A high-confidence inventory of the proteins in the mitochondrion-related organelle of Giardia.",
+    "authors": "Goyal M, Issa TM, Stefely JA, Venkatraman K, McCoy JG, Lam SS, Chen MZ, Nguyen K, Lian CG, Jean-Beltran PM, Fry MY, Luce BE, MitoCarta Tree of Life Consortium, Chao LH, Carr SA, Udeshi ND, Calvo SE, Mootha VK, Samuelson J.",
+    "journal": "Current biology : CB",
+    "date": "2026-10-01",
+    "ai_summary": "Giardia lamblia retains a mitochondrion-related organelle (MRO) despite lacking a mitochondrial genome and oxidative phosphorylation. Using large-scale culture, density-gradient fractionation, affinity purification, DIA-MS, protein-correlation profiling, and confocal microscopy, the authors produced GlMitoCarta, an inventory of 59 MRO proteins (27 new, 34 of unknown function), expanding on the 32 previously known. Metronidazole unexpectedly upregulated many MRO components. MROX6 and MROX13, both of unknown function, reciprocally interact and share an interactome linked to iron-sulfur cluster biology, and MOMTiP-4 was identified as a likely MRO inner membrane solute transporter that structurally resembles and functionally complements the yeast SLC25A carrier Mtm1. The resource is freely available as a foundation for mechanistic studies of MRO biology and Giardia pathogenesis.",
+    "source_link": "https://doi.org/10.1016/j.cub.2026.07.074",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42443980",
+    "title": "Spatial organization of the TNBC tumor microenvironment: multicellular niches, T-cell bottlenecks, and therapeutic opportunities.",
+    "authors": "Wu J, Fan J, Sha T, Li H.",
+    "journal": "Journal of translational medicine",
+    "date": "2026-07-13",
+    "ai_summary": "This review synthesizes how the spatial organization of the triple-negative breast cancer (TNBC) tumor microenvironment shapes immunosuppression and therapy resistance. Drawing on single-cell sequencing, spatial transcriptomics, and multiplex imaging, it describes how myeloid programs and neutrophil extracellular traps, cancer-associated fibroblast subsets and extracellular matrix barriers, aberrant vasculature and hypoxia-linked metabolism, and tumor-nerve signaling cooperatively restrict T-cell entry, intratumoral positioning, and effector function. It highlights reproducibly identifiable spatial niches across TNBC cohorts—including hypoxic niches, a stromal-myeloid axis of co-localized CA9+ CAFs and SPP1+ macrophages, and tertiary lymphoid structure-associated immune-activated units—and links these to prognosis and treatment response. The authors propose incorporating spatial neighborhood features and interaction signatures into patient stratification and dynamic assessment, and developing combination strategies that relieve myeloid suppression, remodel stromal barriers, and correct vascular/metabolic niches to improve immunotherapy precision and durability in TNBC.",
+    "source_link": "https://doi.org/10.1186/s12967-026-08602-3",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
+  },
+  {
+    "pmid": "42831117",
+    "title": "Emerging genetic mechanisms of glomerular proteinuria: a podocyte-centered multi-layer network perspective.",
+    "authors": "Fu M, Lin J, Wang C, Wang X.",
+    "journal": "Frontiers in genetics",
+    "date": "2026-09-21",
+    "ai_summary": "This review argues that glomerular proteinuria is best understood not as the failure of a single molecular component but as a breakdown of coordinated podocyte homeostasis across interconnected cellular compartments. Next-generation sequencing has expanded the roster of proteinuria-linked genes well beyond slit diaphragm and cytoskeletal structural elements to include pathways for vesicular trafficking, nuclear regulation, mitochondrial function, and extracellular matrix interaction. Because mutations in these functionally diverse pathways converge on overlapping clinical phenotypes, the authors propose a multi-layer network model in which mechanical cues from the glomerular basement membrane, cytoskeletal signaling, membrane trafficking, transcriptional control, and mitochondrial metabolic adaptation are mutually dependent, so that perturbation of any one layer propagates across the others and progressively impairs filtration barrier function.",
+    "source_link": "https://doi.org/10.3389/fgene.2026.1934937",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-10-12"
   }
 ]
