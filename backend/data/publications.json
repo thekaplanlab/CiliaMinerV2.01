@@ -91938,5 +91938,812 @@
       "Cilia"
     ],
     "first_seen": "2026-11-02"
+  },
+  {
+    "pmid": "42961304",
+    "title": "The First 40 Years of Molecular Ophthalmology Part Two: Diseases of the Primary Cilium and Heritable Glaucoma: The 2026 Friedenwald Lecture.",
+    "authors": "Sheffield VC.",
+    "journal": "Investigative ophthalmology & visual science",
+    "date": "2026-10-01",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1167/iovs.67.12.81",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42969949",
+    "title": "ALMS1 stabilizes the proximal centriole to drive transition zone assembly and ciliogenesis.",
+    "authors": "Phan TP, Derderian C, Herranz-Pérez V, Li KH, Burlingame AL, Reiter JF.",
+    "journal": "The Journal of cell biology",
+    "date": "2026-11-02",
+    "abstract": "The human ciliopathy Alström syndrome is caused by mutations in ALMS1. How ALMS1 contributes to cilia function has been unclear. Unlike other ciliopathy-associated proteins, ALMS1 localizes to the proximal end of centrioles, raising the possibility that it contributes to cilia function via a distinct mechanism. We found that, without ALMS1, centrioles are short and frequently break at their proximal ends. Truncated, broken ALMS1 mutant centrioles display reduced microtubule-organizing activity and disrupted centriole linkers. Without ALMS1, Golgi-derived cargos, including transmembrane components of the transition zone, are impaired in their trafficking to the centrosome. Consequently, ALMS1 is important for transition zone assembly, ciliogenesis, and the control of ciliary membrane composition. In mice, disruption of ALMS1 causes progressive, age-dependent loss of cilia in tissues affected in Alström syndrome, including retina, kidney, and brain. We conclude that Alström syndrome is caused by disruption of proximal centriole integrity and centrosome-directed protein trafficking, compromising ciliary assembly and maintenance.",
+    "ai_summary": "Gene: ALMS1\nFinding: Loss of ALMS1 destabilizes the proximal centriole, causing shortened and broken centrioles with reduced microtubule-organizing activity, disrupted centriole linkers, and impaired Golgi-derived trafficking of transition zone components to the centrosome, which compromises transition zone assembly, ciliogenesis, and ciliary membrane composition; in mice, ALMS1 disruption causes progressive age-dependent cilia loss in retina, kidney, and brain.\nDisease: Alström syndrome",
+    "source_link": "https://doi.org/10.1083/jcb.202605019",
+    "genes": [
+      "ALMS1"
+    ],
+    "diseases": [
+      "Alström syndrome",
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42964507",
+    "title": "The lungs in Alström syndrome: a retrospective analysis.",
+    "authors": "Madathil SC, Zhang Q, Geberhiwot T.",
+    "journal": "EClinicalMedicine",
+    "date": "2026-10-24",
+    "abstract": "<h4>Background</h4>Alström syndrome (AS) is a rare multisystemic disorder frequently associated with respiratory complications, which are a major cause of premature death. While fibrosis in multiple organs has been historically suggested as a hallmark of AS, including the lungs, definitive evidence in adult patients remains limited.<h4>Methods</h4>We conducted a retrospective study of adult patients diagnosed as AS seen in our National Multidisciplianry AS clinic from 2010 to 2024. Lung function test and high-resolution computed tomography (HRCT) of the thorax was performed in a subset of patients. Postmortem lung tissue analysis was available from four patients.<h4>Findings</h4>A total of 25/41 (61%) of the patients were unable to complete full lung function testing. Among those who did, 67% exhibited reduced lung volumes, with 47% showing decreased diffusing capacity of the lung for carbon monoxide but normal or elevated transfer coefficient for carbon monoxide, indicating extrapulmonary restrictive physiology. HRCT scans in 39 patients showed no evidence of diffuse interstitial lung fibrosis; however, breathing artefacts were common. Historical infantile cardiomyopathy was identified as a risk factor for adult pulmonary dysfunction. Post-mortem pathology reports were obtained from four patients and no diffuse fibrosis in the lung tissue was identified in any of the patients. Pulmonary hypertension and Acute Respiratory Distress Syndrome were identified as potential causes of respiratory morbidity and mortality, despite the absence of intrinsic interstitial lung disease.<h4>Interpretation</h4>This is the first large cohort study to depict the lung in adult patients with AS. This study provides no evidence for diffuse interstitial lung fibrosis in adult patients with AS, challenging prior assumptions. Pulmonary dysfunction appears mainly due to extrapulmonary restrictive physiology, with infantile cardiomyopathy as a possible risk factor. Pulmonary hypertension and acute respiratory distress syndrome, rather than intrinsic lung disease, likely underlie respiratory morbidity and mortality, highlighting the need for focused cardiopulmonary care. Although this study represents one of the largest single-centre cohorts of patients with AS reported to date, the overall sample size remains limited due to the ultra-rare nature of the disease and findings should be interpreted with caution.<h4>Funding</h4>This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.",
+    "ai_summary": "This retrospective study of 41 adults with Alström syndrome found no evidence of diffuse interstitial lung fibrosis on high-resolution CT or post-mortem tissue, contradicting the long-held assumption that pulmonary fibrosis is a hallmark of the disease. Lung function testing, often incomplete due to patient inability to perform it, showed a restrictive pattern that appeared extrapulmonary in origin, with reduced lung volumes and diffusing capacity but a normal or elevated transfer coefficient. Prior infantile cardiomyopathy was identified as a risk factor for adult pulmonary dysfunction, and pulmonary hypertension and acute respiratory distress syndrome—rather than intrinsic lung disease—were the likely drivers of respiratory morbidity and mortality, pointing to the need for focused cardiopulmonary care.",
+    "source_link": "https://doi.org/10.1016/j.eclinm.2026.104292",
+    "genes": [],
+    "diseases": [
+      "Alström syndrome"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42956090",
+    "title": "Cd47 deficiency in mouse brain under excitotoxic stress.",
+    "authors": "Kiamari M, Perna A, Santoro M, El Ariss A, Berson E, Zhao J, Gajera CR, Fox EJ, Montine KS, Aghaeepour N, Montine TJ.",
+    "journal": "PLoS computational biology",
+    "date": "2026-10-29",
+    "abstract": "CD47, a transmembrane protein with well-established immune and neurodevelopmental roles, was recently identified as an abundant presynaptic protein in humans, non-human primates, and mice. To investigate how Cd47 influences neuronal stress and injury, we performed single-nucleus RNA sequencing of hippocampi from wild-type (WT) and Cd47 knockout (KO) mice exposed to kainic acid (KA) at convulsive (KA25; 25 mg/kg) or subconvulsive (KA3; 3 mg/kg) doses. Integrating cell-type annotations with Weighted Gene Co-expression Network Analysis (WGCNA) revealed distinct neuronal and glial gene modules whose co-expression structure differed by genotype and by KA exposure. Notably, certain modules showed KA-associated changes in co-expression structure only in Cd47-deficient cells. Enrichment analyses of these modules highlighted translational, bioenergetic, and synaptic gene sets. Comparing transcriptome-wide distributions using Wasserstein distance demonstrated that vehicle-treated KO cells most closely resembled WT cells exposed to KA3, of all fifteen pairwise comparisons. These findings suggest that Cd47 loss shifts the hippocampal transcriptome toward a state resembling mild excitotoxic stress, implicating Cd47 as a candidate regulator of neuronal stress adaptation and providing a hypothesis for testing that role.",
+    "ai_summary": "Cd47 loss in mouse hippocampus shifts the single-nucleus transcriptome toward a state resembling mild excitotoxic stress: vehicle-treated Cd47 knockout cells were most similar to wild-type cells given subconvulsive kainic acid, and gene co-expression modules (translational, bioenergetic, synaptic) changed with kainic acid exposure only in Cd47-deficient cells. The findings implicate Cd47 as a candidate regulator of neuronal stress adaptation.",
+    "source_link": "https://doi.org/10.1371/journal.pcbi.1014897",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42991034",
+    "title": "An exploratory Case Report: integrated genomic and transcriptomic profiling of a spontaneous facial tumor in the endangered Milu deer (<i>Elaphurus davidianus</i>).",
+    "authors": "Zhang Y, Cheng Z, Shan Y, Zhang Q, Zhang P, Bai J, Guo Q, Zhong Z.",
+    "journal": "Frontiers in veterinary science",
+    "date": "2026-10-22",
+    "abstract": "The Milu deer (<i>Elaphurus davidianus</i>), also known as Père David's deer, has experienced severe population bottlenecks. While infectious diseases are closely monitored, baseline data on sporadic non-communicable diseases, such as neoplasia, remain scarce for wildlife disease surveillance. To date, the molecular mechanisms driving spontaneous tumorigenesis in this species remain uncharacterized. This study provides the first integrated characterization of a single facial tumor in the Milu deer, combining histopathological analysis, whole-genome sequencing (WGS), and RNA sequencing (RNA-seq). Histopathological analysis confirmed that the tumor is an epithelial neoplasm exhibiting significant mesenchymal features, indicative of epithelial-mesenchymal transition (EMT). RNA-seq differential expression analysis identified 6,537 differentially expressed genes (DEGs), while WGS revealed 114 high-confidence, tumor-specific non-synonymous somatic mutations. Functional enrichment analysis demonstrated that oncogenesis in this specific specimen is potentially driven by dysregulated cell cycle, cytoskeletal reorganization, and metabolic reprogramming mediated by PI3K-Akt and mTOR signaling. Notably, the human papillomavirus (HPV) infection pathway emerged as significantly enriched among the DEGs. We emphasize that this enrichment does not provide evidence of viral involvement, as no direct viral detection was performed; rather, it exclusively reflects the severe dysregulation of highly conserved host cellular networks implicatedin cell cycle, apoptosis, and immune regulation. By integrating mutational and transcriptomic data, we prioritized ten putative tumor-associated genes, including <i>LGALS3, DMBT1, CHAF1A, GON4L</i>, and <i>SIRPA</i>, which are linked to metastasis, immunosuppression, and proliferation. This case study provides the first integrated molecular profile of a facial tumor in the Milu deer, offering critical insights for health management of this endangered species and establishing a novel framework for comparative oncology that will inform future clinical diagnoses of neoplasms in this population.",
+    "ai_summary": "This exploratory case report provides the first integrated histopathological, whole-genome, and transcriptomic characterization of a spontaneous facial tumor in an endangered Milu deer. Histology identified an epithelial neoplasm with mesenchymal features suggesting epithelial-mesenchymal transition; RNA-seq found 6,537 differentially expressed genes and WGS revealed 114 high-confidence tumor-specific non-synonymous somatic mutations. Enrichment analyses implicated cell cycle, cytoskeletal reorganization, and metabolic reprogramming via PI3K-Akt/mTOR signaling, with an HPV infection pathway signature that the authors caution reflects dysregulated conserved host networks rather than evidence of viral involvement (no viral testing was done). Ten candidate tumor-associated genes were prioritized, including LGALS3, DMBT1, CHAF1A, GON4L, and SIRPA, linked to metastasis, immunosuppression, and proliferation.",
+    "source_link": "https://doi.org/10.3389/fvets.2026.1933048",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42992223",
+    "title": "Transplanted human photoreceptors differentially survive, incorporate, and mature in mildly and severely degenerated mouse retinae.",
+    "authors": "Pavlou M, Tessmer K, Hammer J, Kurth T, Makri A, Palitza C, Coll-San Martin B, Rost F, Ader M.",
+    "journal": "Molecular therapy. Advances",
+    "date": "2026-10-14",
+    "abstract": "Photoreceptor transplantation is considered a disease-agnostic therapeutic strategy for retinal degenerative diseases with highly heterogeneous genetic, molecular, and cellular pathologies. While integration of human photoreceptors enriched from stem-cell-derived retinal organoids was noted in previous preclinical studies, the potential influence of retinal degeneration severity on transplantation efficiency has not been systematically assessed. Here, we employed mice presenting mild or severe retinal degeneration as recipients for human induced pluripotent stem cell-derived photoreceptors. Donor cells formed multicellular clusters that started to interact with Müller glia processes from 3 weeks post transplantation (wpt) in mildly degenerated retinae, resulting in structural integration and maturation, characterized by inner/outer segment and synapse formation by 26 wpt. In contrast, in severely degenerated hosts, donor photoreceptors remained mainly scattered and showed limited incorporation or signs of maturation. Differential maturation of donor cells in mild vs. severe hosts was confirmed by single-cell RNA-sequencing analysis. However, transplantation at the beginning of the degeneration process of the severe model allowed structural integration and maturation of donor photoreceptors despite complete loss of endogenous photoreceptors over time. The study thus shows that survival, integration, and maturation of donor photoreceptors depend on the degenerative retinal microenvironment shaping significantly the transplantation efficiency.",
+    "ai_summary": "Transplanted human iPSC-derived photoreceptors were compared in mice with mild versus severe retinal degeneration. In mildly degenerated retinae, donor cells formed multicellular clusters, interacted with Müller glia from 3 weeks post-transplantation, and achieved structural integration and maturation (inner/outer segments and synapses) by 26 weeks; in severely degenerated hosts, they remained scattered with limited incorporation or maturation, as confirmed by single-cell RNA sequencing. However, transplanting at the onset of degeneration in the severe model still permitted integration and maturation despite later complete loss of host photoreceptors, indicating that the degenerative microenvironment strongly shapes transplantation efficiency.",
+    "source_link": "https://doi.org/10.1016/j.omta.2026.201866",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42968629",
+    "title": "Posttranslational Modification Cross-Talk in Vascular Cells: Molecular Mechanisms and Therapeutic Implications for Atherosclerosis.",
+    "authors": "Jiang W, Du H.",
+    "journal": "Cell biochemistry and function",
+    "date": "2026-11-01",
+    "abstract": "Atherosclerosis is driven by coordinated changes in endothelial cells (ECs), macrophages, and vascular smooth muscle cells (VSMCs). Post-translational modifications (PTMs), phosphorylation, acetylation, ubiquitination, SUMOylation, O-GlcNAcylation, palmitoylation, ISGylation, and ADP-ribosylation, integrate metabolic, inflammatory, and mechanical inputs at a limited number of signaling nodes. This review argues that these modifications interact according to four definable relationships rather than merely co-occurring. In competitive cross-talk, two marks contest one acceptor residue, as when O-GlcNAcylation displaces phosphorylation at the Akt site of endothelial nitric oxide synthase. In hierarchical cross-talk, one modification licenses another, as when Ser536 phosphorylation of NF-κB p65 recruits p300 and permits Lys310 acetylation. In enzyme-directed cross-talk, a modification acts on the writer or eraser of a different system, as HDAC9 does on IκB kinases. In cofactor-coupled cross-talk, sirtuin-dependent deacylation and PARP1-dependent ADP-ribosylation draw on one limiting NAD<sup>+</sup> pool. We rank nodes against four stated criteria, grade every finding on a five-level evidence scheme, and apply the framework to phosphorylation-O-GlcNAcylation, ubiquitination-SUMOylation, and acetylation-ubiquitination interactions across the three vascular cell types. Of the cross-talk relationships invoked, five are supported at residue resolution by a substitution experiment, and two of these were obtained in vascular cells; the remainder are inferred from enzyme-level regulation or from pathway convergence. Candidate intervention points include HDAC9, SENP3, OGT, UBA1, and the NAD<sup>+</sup> pool, none of which has been evaluated in a cardiovascular outcome trial.",
+    "ai_summary": "This review proposes a framework in which post-translational modifications in endothelial cells, macrophages, and vascular smooth muscle cells interact through four defined relationships—competitive, hierarchical, enzyme-directed, and cofactor-coupled cross-talk—rather than merely co-occurring, using examples such as O-GlcNAcylation displacing phosphorylation at the Akt site of eNOS and Ser536 phosphorylation of NF-κB p65 licensing Lys310 acetylation. Applying a five-level evidence grading scheme to phosphorylation-O-GlcNAcylation, ubiquitination-SUMOylation, and acetylation-ubiquitination interactions, the authors find that only five of the invoked cross-talk relationships are supported at residue resolution by substitution experiments, and just two of these were obtained in vascular cells, with the rest inferred from enzyme-level regulation or pathway convergence. Candidate intervention points include HDAC9, SENP3, OGT, UBA1, and the NAD+ pool, none of which has yet been evaluated in a cardiovascular outcome trial.",
+    "source_link": "https://doi.org/10.1002/cbf.70329",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42768965",
+    "title": "Conserved C-terminal residues adjacent to the canonical PDX1 homeodomain are required for chromatin occupancy and pancreas development.",
+    "authors": "Wokasch AS, Shamoon M, Campbell C, Wu T, Fuhr JD, Gilbert A, Mehaffey T, Barnes CM, Ahuja N, Gingerich MA, Zhu J, Gadue P, Cleaver O, Mchaourab H, Stoffers DA, Soleimanpour SA, Gannon M.",
+    "journal": "Development (Cambridge, England)",
+    "date": "2026-09-22",
+    "abstract": "Essential roles for the PDX1 transcription factor in pancreatic development and β-cell function are well known, yet the structure-function relationships of domains within its C-terminus remain incompletely defined. We identified a focal intrinsically disordered region (IDR) spanning residues 207-223 of the PDX1 C-terminus and generated mice harboring deletion of this region (Pdx1Δ207). Despite normal protein levels, Pdx1Δ207 homozygous embryos exhibit severe pancreas hypoplasia by embryonic day (E)11.5, with particular impairment in endocrine differentiation. Although Pdx1Δ207 localization was predominantly nuclear in β cells, further biochemical analyses revealed loss of chromatin occupancy at PDX1 target genes and decreased transcriptional activation of the Ins2 promoter. Truncation of the C-terminus beginning at residue 211 had no effect on target gene occupancy, localizing the functional requirement to highly conserved residues 207-210. Interestingly, structural predictions suggest that residues 207-210 incorporate into an extended helical structure immediately adjacent to the PDX1 homeodomain, suggesting potential conformational transitions within this IDR. Taken together, these four conserved residues are required for optimal PDX1 chromatin occupancy and pancreas organogenesis.",
+    "ai_summary": "Gene: PDX1\nFinding: Deleting the intrinsically disordered region spanning residues 207-223 (with the functional requirement localized to conserved residues 207-210 adjacent to the homeodomain) causes loss of chromatin occupancy at PDX1 target genes and reduced Ins2 promoter activation despite normal protein levels and nuclear localization.\nDisease: Pancreas hypoplasia with impaired endocrine differentiation",
+    "source_link": "https://doi.org/10.1242/dev.205842",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42676275",
+    "title": "Cross-species molecular mapping of the photoreceptor sensory cilium and periciliary structures identifies conserved and species-specific architectural features.",
+    "authors": "Takahashi K, Obayashi M, Sudharsan R, Beltran WA.",
+    "journal": "Journal of cell science",
+    "date": "2026-09-02",
+    "abstract": "Photoreceptor sensory cilia comprise a microtubule-based structural core and the phototransductive outer segment. The microtubule-based ciliary axoneme extends from the basal body through the connecting cilium into the outer segment, thereby linking the inner and outer segments. Around this central axis, specialized periciliary structures are distributed across the apical inner segment and basal outer segment. Yet how these ciliary and periciliary structures differ between rods and cones and across mammals remains incompletely defined. Using ultrastructure expansion microscopy, we compared their nanoscale molecular organization across canine, non-human primate and human retinas. Key rod-cone differences in ciliary organization were broadly conserved among all three species, whereas the scale and morphology of individual ciliary subcompartments differed between species. Periciliary structures showed even greater species-specific diversification, particularly in rods. Human photoreceptors shared several structural features with non-human primate photoreceptors but also displayed inter-individual variability in accessory inner segment-like structure. These findings refine current understanding of photoreceptor sensory cilia and associated periciliary structures in large mammals, revealing that conserved rod-cone differences co-exist with pronounced species-specific structural and molecular specializations.",
+    "ai_summary": "Using ultrastructure expansion microscopy across canine, non-human primate and human retinas, this study maps the nanoscale molecular organization of photoreceptor sensory cilia and surrounding periciliary structures. Key rod-versus-cone differences in ciliary organization were conserved across all three species, but the scale and morphology of individual ciliary subcompartments varied between species. Periciliary structures showed even greater species-specific diversification, especially in rods, and human photoreceptors shared several features with non-human primates while also showing inter-individual variability in an accessory inner segment-like structure. The work reveals that conserved rod-cone differences coexist with pronounced species-specific structural and molecular specializations in large mammals.",
+    "source_link": "https://doi.org/10.1242/jcs.265080",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972553",
+    "title": "Asphyxiating thoracic dystrophy associated with IFT74 pathogenic variant: a case report.",
+    "authors": "Abadi A, Ateeq B, Kittaneh H, Ghanem U, Hajji RA.",
+    "journal": "BMC pediatrics",
+    "date": "2026-08-04",
+    "abstract": "<h4>Background</h4>Asphyxiating Thoracic Dystrophy (ATD) is a rare skeletal ciliopathy characterized by a constricted thoracic cage, short ribs, and pulmonary hypoplasia. While typically linked to pathogenic variants in IFT80 or DYNC2H1, recent genomic advancements have identified biallelic variants in IFT74 as a cause of short-rib thoracic dysplasia type 20 (SRTD20). Due to its rarity, the clinical progression and phenotypic spectrum of IFT74-related ATD remain poorly understood.<h4>Case presentation</h4>We report the case of a term male infant presenting at birth with severe respiratory distress, macrocephaly, and a narrow chest with pectus excavatum. Initial radiographic skeletal surveys were inconclusive for classic dysplasia. Despite intensive neonatal care, the patient experienced persistent respiratory failure, recurrent atelectasis, and profound axial hypotonia. Magnetic resonance imaging (MRI) revealed no structural abnormalities. Whole exome sequencing (WES) identified a homozygous pathogenic copy number loss in the IFT74 gene. The clinical course was complicated by severe oropharyngeal dysphagia and recurrent aspiration pneumonia. Despite gastrostomy placement and maximal supportive care, the infant suffered a fatal cardiopulmonary arrest at four months of age.<h4>Conclusions</h4>This case highlights a lethal neonatal phenotype of IFT74-related SRTD20, reinforcing the critical role of IFT74 in ciliary assembly and axonal guidance. Early WES is essential for diagnosing genetically heterogeneous skeletal dysplasias, providing accurate prognostic counseling, and guiding end-of-life discussions in cases of severe thoracic insufficiency.",
+    "ai_summary": "Gene: IFT74\nFinding: A homozygous pathogenic copy number loss in IFT74 was identified by whole exome sequencing in a term infant with a narrow chest, pectus excavatum, macrocephaly, and severe respiratory failure, who developed recurrent aspiration pneumonia and died of cardiopulmonary arrest at four months despite gastrostomy and maximal supportive care.\nDisease: Asphyxiating thoracic dystrophy / short-rib thoracic dysplasia type 20 (SRTD20)",
+    "source_link": "https://doi.org/10.1186/s12887-026-07472-4",
+    "genes": [
+      "DYNC2H1",
+      "IFT74",
+      "IFT80"
+    ],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy",
+      "Short-rib thoracic dysplasia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42974365",
+    "title": "Genome-wide selection signatures in Turkish Awassi sheep: uncovering the genetic basis of production traits and adaptation.",
+    "authors": "Meydan H, Demir E, Bilginer Ü, Doğru H, Kaya S, Argun Karsli B, Aktaş Y, Atmaca V, Perini F, Karsli T.",
+    "journal": "Archives animal breeding",
+    "date": "2026-11-02",
+    "abstract": "The Awassi sheep is one of the leading fat-tailed breeds of the Fertile Crescent, known for its high milk yield and resilience in arid and semi-arid environments. Despite its socio-economic importance, a high-resolution genomic characterization of selection signatures in Turkish Awassi populations remains limited. This study aimed to investigate the genomic diversity, demographic history, and selection signatures of Turkish Awassi sheep using double-digest restriction-site-associated DNA sequencing (ddRADseq). Genome-wide single-nucleotide polymorphism (SNP) discovery was performed on 40 unrelated Awassi sheep. Genetic diversity parameters, historical effective population size ( Ne ), and linkage disequilibrium (LD) decay were assessed. Selection signatures were identified using both runs of homozygosity (ROH) islands and Tajima's D analyses, followed by functional annotation of candidate genes. A total of 397 315 high-quality SNPs were identified. The average minor allele frequency (MAF) was 0.333, and the ROH-based inbreeding coefficient ( FROH ) was low (0.025), indicating high genetic integrity. The historical Ne showed a consistent decline, reaching 147 in the most recent generations. Selection signature analysis identified 21 and 48 protein-coding genes by means of ROH and Tajima's D , respectively. The key candidate genes were associated with milk yield and lactation (<i>AKR1C3</i>, <i>AKR1D1</i>, <i>OXT</i>, <i>AVP</i>, <i>ZNF131</i>), meat production and growth (<i>PBX1</i>, <i>KBTBD8</i>, <i>HOXA</i> cluster, <i>ADGB</i>), fat-tail formation (<i>HOXA</i> cluster, <i>HMGCS1</i>, <i>STARD4</i>), and environmental adaptation (<i>ABCB1</i>, <i>TSLP</i>, <i>IL6</i>). Our findings reveal that the Turkish Awassi genome is a rich genetic reservoir shaped by combined natural and artificial selection. The selection signatures identified in this study provide fundamental genomic targets for future breeding strategies to enhance productivity without compromising environmental resilience. These findings support the use of Turkish Awassi as a genetic resource for breeding programs in arid and semi-arid production systems.",
+    "ai_summary": "This ddRADseq study of 40 unrelated Turkish Awassi sheep identified 397,315 high-quality SNPs and found high genetic integrity (mean MAF 0.333, low FROH of 0.025), though historical effective population size declined steadily to 147 in recent generations. Selection-signature analyses (ROH islands and Tajima's D) uncovered candidate genes linked to milk yield and lactation (e.g., AKR1C3, OXT, AVP), growth and meat production (PBX1, HOXA cluster), fat-tail formation (HMGCS1, STARD4), and environmental adaptation (ABCB1, IL6), indicating the breed's genome has been shaped by combined natural and artificial selection and offering targets for breeding programs in arid and semi-arid systems.",
+    "source_link": "https://doi.org/10.5194/aab-69-605-2026",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42976958",
+    "title": "Genomic mechanisms underlying Bombay duck's rapid population surge.",
+    "authors": "Kang B, Wang L, Yao D, Geng J, Sun Z, Cui R.",
+    "journal": "Proceedings. Biological sciences",
+    "date": "2026-11-01",
+    "abstract": "Bombay duck (Harpadon nehereus), once a minor by-catch in the East China Sea, has bloomed into a dominant species, altering marine ecosystems. This study explored the genomic basis of its mysterious recent success via chromosome-level genome assembly, comparative and population genomics. The genome assemblies of H. nehereus and its closely related outgroup species Saurida undosquamis were of good quality, showing a 96.7-96.8% Benchmarking Universal Single-Copy Orthologues completeness. Population resequencing supports a single panmictic population throughout the coast of China. Expanded gene families and genes under intensified and positive selection are related to osmoregulation, hypoxia tolerance, immune function and reproduction. Recent selective sweeps are mostly related to immune response. These molecular signatures are consistent with long-term adaptations to a hypoxic, polluted and fluctuating environment. These findings suggest that species genomically preadapted to environments affected by global change can suddenly become new native invaders.",
+    "ai_summary": "This study assembled a chromosome-level genome for Bombay duck (Harpadon nehereus) and compared it with the related outgroup Saurida undosquamis, then used population resequencing to investigate the species' recent population surge. Resequencing supported a single panmictic population along the Chinese coast. Expanded gene families and genes under intensified or positive selection were linked to osmoregulation, hypoxia tolerance, immune function and reproduction, while recent selective sweeps were mostly tied to immune response. The authors interpret these signatures as long-term adaptation to a hypoxic, polluted and fluctuating environment, suggesting that species genomically preadapted to global-change conditions can abruptly become new native invaders.",
+    "source_link": "https://doi.org/10.1098/rspb.2026.1106",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42982552",
+    "title": "Diacylglycerol kinase <i>kappa</i> is a target of the Prader-Willi syndrome gene <i>SNORD116</i>.",
+    "authors": "Zhang Y, Guo K, Batzli GF, Zhao H, Burnett LC, LeDuc CA, Stratigopoulos G, Carolan DG, Doege CA, Shen Y, Leibel RL.",
+    "journal": "Life science alliance",
+    "date": "2026-11-04",
+    "abstract": "<i>SNORD116</i> is a small nucleolar RNA deficient in Prader-Willi syndrome individuals. The mechanisms by which <i>SNORD116</i> conveys its effects are unknown. Here, transcriptomic analysis showed that diacylglycerol kinase <i>kappa</i> (<i>Dgkk</i>) expression was elevated in the hypothalamus of <i>Snord116</i>-deficient mice. <i>In silico</i> analyses predicted a strong RNA:RNA interaction between <i>Snord116</i> and <i>Dgkk</i> mRNA that is fully conserved in mouse and human. In vitro experiments in human cellular models demonstrated that <i>SNORD116</i> mediates 2'-O-methylation of <i>DGKK</i> mRNA and regulates <i>DGKK</i> mRNA and protein expression. In <i>Snord116</i>-deficient mouse neurons, increased <i>Dgkk</i> expression was associated with attenuated diacylglycerol-mediated activation of ERK and PKC, critical elements in neuronal signaling cascades. In mice, brain <i>Dgkk</i> expression peaks during late embryonic and early postnatal periods, coinciding with peak rates of neurogenesis; its expression in adults is restricted mainly to brain regions implicated in Prader-Willi syndrome pathophysiology, including the arcuate nucleus of the hypothalamus. Fasting acutely decreased hypothalamic <i>Dgkk</i> expression in wild-type mice. Increased <i>Dgkk</i> expression in <i>Snord116</i>-deficient mice could reflect derangements in this pathway that affects both brain development and cell-specific functions.",
+    "ai_summary": "Gene: DGKK\nFinding: SNORD116 mediates 2'-O-methylation of DGKK mRNA and regulates its expression; loss of Snord116 elevates hypothalamic Dgkk, attenuating diacylglycerol-mediated ERK and PKC activation in neurons.\nDisease: Prader-Willi syndrome",
+    "source_link": "https://doi.org/10.26508/lsa.202603723",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972548",
+    "title": "Orai1 Ca<sup>2+</sup> channel is involved in ciliogenesis and cooperates with Shh signaling during LR asymmetry and limb bud formation.",
+    "authors": "Kweon YC, Jang DG, Lee YY, Lee AR, Park TJ, Park CY.",
+    "journal": "Cell communication and signaling : CCS",
+    "date": "2026-08-06",
+    "abstract": "Cilia are present in most cells and are vital components in signal transduction and developmental control. Although Ca<sup>2+</sup> signaling has been recognized as a key regulator of these ciliary functions, the potential contribution of Store-operated calcium entry (SOCE) to this regulation has not been investigated. In this study, we provide evidence that SOCE is required for ciliogenesis and cilia-dependent signaling. SOCE dysfunction results in a significant reduction in both the percentage of ciliated cells and the average length of cilia. Conversely, SOCE activation enhances the Sonic Hedgehog (Shh) pathway, a crucial cilia-dependent signaling pathway. Impaired SOCE disrupts both ciliogenesis and Shh signaling in Xenopus and mice, leading to abnormal embryonic development, including defective Left-Right (LR) asymmetry and limb bud formation. Our findings establish Orai1 as a key ciliary Ca<sup>2+</sup> channel driving ciliogenesis and Shh signaling, uncovering a fundamental mechanism of developmental regulation and linking Ca<sup>2+</sup> dysregulation to ciliopathies.",
+    "ai_summary": "Gene: Orai1\nFinding: Store-operated calcium entry through Orai1 is required for ciliogenesis and cilia length and cooperates with Shh signaling; its impairment disrupts ciliogenesis and Shh signaling in Xenopus and mice, causing defective left-right asymmetry and limb bud formation.\nDisease: Ciliopathies (developmental defects including abnormal left-right asymmetry and limb bud formation)",
+    "source_link": "https://doi.org/10.1186/s12964-026-03065-x",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Ciliopathy"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42373591",
+    "title": "Dynamic S-palmitoylation of glioma-associated oncogene 1 regulates the incidence and progression of Sonic Hedgehog medulloblastoma.",
+    "authors": "Shen T, Bao H, Wang J, Ji X, Gu W, Tang C, He Q, Luo J, Tan D, Yao J, Xu C, Gong Y, Wu X, Zhang SH, Zeng LH.",
+    "journal": "Cell death & disease",
+    "date": "2026-06-29",
+    "abstract": "Aberrant activation of the Sonic Hedgehog (SHH)-glioma-associated oncogene 1 (GLI1) signaling pathway is a determinant driver of basal cell carcinoma (BCC) and SHH-subgroup medulloblastoma (MB<sub>SHH</sub>). Here, we demonstrate the role of S-palmitoylation and depalmitoylation of GLI1 in the regulation of incidence and progression of MB<sub>SHH</sub>. High expression of acyltransferase ZDHHC13 in MB<sub>SHH</sub> induces S-palmitoylation of human GLI1 at Cys1034, stabilizes GLI1 by preventing its ubiquitin-dependent proteasomal degradation, and in turn activates this signaling pathway to promote the progression of MB<sub>SHH</sub>. Conversely, the deacylase ABHD17A depalmitoylates GLI1 at Cys1034, destabilizes GLI1, and in turn inactivates this signaling pathway. As a result, conditional knockout of Zdhhc13 in cerebellar granule neuron precursors (GNPs) significantly alleviates the severity of MB<sub>SHH</sub> induced by constitutively active Smoothened (Smo-M2) overexpression and markedly extends overall survival, whereas knockout of Abhd17a increases the incidence of MB<sub>SHH</sub> induced by Patched-1 ablation, rather than its progression. Together, these findings uncover the dynamic regulation of GLI1 palmitoylation and depalmitoylation by the ZDHHC13 and ABHD17A and subsequent GLI1 stabilization and destabilization as a hitherto uncharacterized mechanism controlling SHH/GLI1 signaling and may provide additional targets for therapeutic intervention of MB<sub>SHH</sub>.",
+    "ai_summary": "Gene: GLI1\nFinding: ZDHHC13-mediated S-palmitoylation of GLI1 at Cys1034 stabilizes GLI1 by blocking ubiquitin-dependent proteasomal degradation and activates SHH signaling to promote medulloblastoma progression, while ABHD17A depalmitoylates GLI1 at the same residue to destabilize and inactivate it; Zdhhc13 knockout reduces severity and extends survival in Smo-M2-driven tumors, whereas Abhd17a knockout increases tumor incidence after Patched-1 loss.\nDisease: Sonic Hedgehog medulloblastoma (MBSHH)",
+    "source_link": "https://doi.org/10.1038/s41419-026-09051-y",
+    "genes": [
+      "GLI1"
+    ],
+    "diseases": [],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972392",
+    "title": "Structural features and disease-associated functions of ADGRV1: insights from signaling mechanisms.",
+    "authors": "Liu Q, Tian J, Xin L, Liu F, Jiao HY, Li XL, Feng LL, Zhang W, Fan ZH, Li Y, Gong L.",
+    "journal": "Cell communication and signaling : CCS",
+    "date": "2026-08-12",
+    "abstract": "Adhesion G protein-coupled receptor V1 (ADGRV1) is one of the largest and most modular receptors in the adhesion G protein-coupled receptor (aGPCR) family, integrating functions of cell adhesion, mechanosensing, and classical G protein signaling. Its structural domains, including calcium exchanger β (Calx-β) repeats, laminin G-like/ pentraxin (LamG/PTX) domain, epilepsy-associated (EPTP/EAR) repeats, GPCR-autoproteolysis-inducing (GAIN) domain/GPCR proteolytic site (GPS) module with tethered Stachel peptide, seven transmembrane (7TM) helices, and PDZ-binding motif (PBM), jointly shape its activation, intracellular transport, and effector coupling. Recent studies indicate that ADGRV1 exhibits context-dependent signaling, particularly through G protein coupling and ciliary localization, thereby influencing calcium homeostasis, autophagy, and developmental pathways. Genetic and functional evidence links ADGRV1 to Usher syndrome (USH) type II, epilepsy, and emerging associations with Alzheimer's disease (AD), and recurrent somatic alterations in diverse cancers. Variants in ADGRV1 modulate processes such as ankle-link complex (ALC) assembly, synaptic stability, amyloid and tau regulation, chemoresistance, and immune microenvironment remodeling. Despite this progress, many aspects of its signaling mechanisms, ligand interactions, and disease relevance remain poorly understood. Future work combining high-resolution structural studies, systematic mapping of signaling bias, and rigorous translational validation will be essential to clarify the multifaceted roles of ADGRV1 and to evaluate its potential as a biomarker and therapeutic target.",
+    "ai_summary": "Gene: ADGRV1\nFinding: ADGRV1's modular domains (Calx-β repeats, LamG/PTX, EPTP/EAR, GAIN/GPS with tethered Stachel peptide, 7TM, PDZ-binding motif) shape its activation, transport, and effector coupling, and its context-dependent G protein signaling and ciliary localization influence calcium homeostasis, autophagy, and developmental pathways, with variants affecting ankle-link complex assembly, synaptic stability, amyloid/tau regulation, chemoresistance, and immune microenvironment remodeling.\nDisease: Usher syndrome type II, epilepsy, Alzheimer's disease, and diverse cancers",
+    "source_link": "https://doi.org/10.1186/s12964-026-03149-8",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Usher syndrome"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42836342",
+    "title": "GABA<sub>B</sub>R activation alleviates <i>Streptococcus equi</i> subsp. <i>zooepidemicus</i>-induced acute lung injury by suppressing inflammation and oxidative stress in pulmonary macrophages via IRAK3.",
+    "authors": "Deng Z, Liu H, Yang Y, Yi W, Wu D, Cheng X, Lu A, Chen Y, Li Y, Ye Y, Liao J, Huang Y, Fu Q.",
+    "journal": "Microbiology spectrum",
+    "date": "2026-10-06",
+    "abstract": "<i>Streptococcus equi</i> subsp. <i>zooepidemicus</i> (SEZ) infection poses a significant threat to animals and humans, causing acute lung injury driven by excessive inflammation and tissue destruction. The gamma-aminobutyric acid type B receptor (GABA<sub>B</sub>R) has been implicated in modulating inflammatory responses, but its specific role in SEZ-induced acute lung injury remains unexplored. This study aimed to investigate the protective effects of pharmacological GABA<sub>B</sub>R activation against SEZ-triggered pulmonary damage. Employing a mouse model of SEZ infection and MH-S alveolar macrophages, we demonstrated that pretreatment with baclofen downregulated a spectrum of pro-inflammatory mediators (CXCL9, CXCL10, GM-CSF, IL-1β, IL-6, IL-17A, and MCP-1) and counteracted oxidative stress by enhancing the NRF2/HO-1 antioxidant pathway and its downstream effectors (GPX4 and SOD) in both lung tissues and macrophages. Mechanistically, baclofen exerted its effects by elevating the expression of the negative regulator interleukin-1 receptor-associated kinase 3 (IRAK3), which in turn suppressed the NLRP3/caspase-1/gasdermin D (GSDMD) inflammatory axis. Due to the suppression of inflammation and oxidative stress, the pulmonary epithelial barrier was restored in infected mice, as evidenced by the upregulation of tight junction proteins (Claudin-1, Claudin-2, Occludin, and ZO-1) in the lung. These effects collectively markedly attenuated lung histopathological injury, reduced inflammatory cell infiltration, and restored goblet cell morphology and mucin secretion. Conversely, IRAK3 deficiency exacerbated SEZ-induced lung injury, barrier disruption, oxidative stress, and NLRP3/caspase-1/GSDMD pathway activation. Collectively, our findings establish that GABA<sub>B</sub>R activation protects against SEZ-induced acute lung injury by enhancing barrier integrity, reprogramming macrophage antioxidant responses, and inhibiting inflammatory signaling through an IRAK3-dependent mechanism, identifying GABA<sub>B</sub>R as a promising therapeutic target for bacterial pneumonia.<h4>Importance</h4><i>Streptococcus equi</i> subsp. <i>zooepidemicus</i> (SEZ) is a major zoonotic pathogen responsible for severe animal outbreaks and occasional life-threatening human infections, creating an urgent need for effective interventions. Gamma-aminobutyric acid type B receptor (GABA<sub>B</sub>R) represents a promising immunomodulatory target, as it is known to help limit inflammation during bacterial infections. In this study, we demonstrate that activating GABA<sub>B</sub>R pharmacologically protects against SEZ-induced acute lung injury by increasing interleukin-1 receptor-associated kinase 3 (IRAK3) expression in macrophages. This elevation of IRAK3 serves a dual function, suppressing the NLRP3/caspase-1/gasdermin D pathway while also strengthening antioxidant defenses and epithelial barrier integrity. Further support for this mechanism comes from the observation that IRAK3 deletion leads to exacerbated tissue injury. Taken together, these findings reveal a previously unrecognized GABA<sub>B</sub>R-IRAK3 regulatory axis that plays a central role in SEZ pathogenesis, highlighting a promising host-directed target for therapeutic development.",
+    "ai_summary": "Gene: GPX4\nFinding: Activating GABABR with baclofen raised IRAK3, which suppressed the NLRP3/caspase-1/GSDMD axis and boosted NRF2/HO-1-driven antioxidant effectors including GPX4 and SOD, reducing inflammation, oxidative stress, and barrier damage in SEZ-infected lungs and macrophages.\nDisease: Streptococcus equi subsp. zooepidemicus-induced acute lung injury",
+    "source_link": "https://doi.org/10.1128/spectrum.01040-26",
+    "genes": [
+      "GPX4"
+    ],
+    "diseases": [],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42985451",
+    "title": "m6A modification in allergic airway diseases: a narrative review from a cellular perspective.",
+    "authors": "Zheng L, Duan S, Jia Z, Xu Z, Wu Y, Han S, Xue J.",
+    "journal": "Frontiers in immunology",
+    "date": "2026-10-21",
+    "abstract": "N6-methyladenosine (m6A) represents the most prevalent modification on eukaryotic RNA and plays a critical role in nearly all stages of RNA expression regulation. Extensive research demonstrates that the dysregulation of m6A modification plays a significant role in the disruption of epithelial barriers, the induction of oxidative stress, the activation of inflammatory cells, and the remodeling of airways, all of which are characteristic pathological features of allergic airway diseases (AADs). Given the distinct roles of various cell types in the progression and resolution of AADs, understanding how m6A functions across cellular contexts is essential for a comprehensive understanding of the disease's pathological mechanisms. This review begins by outlining the fundamental biological characteristics of m6A modification. Subsequently, we explore how dynamic m6A modifications affect AADs progression from the perspectives of airway epithelial cells, innate immune cells, and adaptive immune cells, emphasizing the pivotal regulatory role of m6A in epithelial-immune crosstalk. We then summarize how cellular context shapes the functional heterogeneity of m6A modification and discuss the potential underlying mechanisms. Finally, we summarize the latest progress in the use of m6A-related enzymes as tools for disease prediction, therapeutic intervention, and evaluation of allergen immunotherapy efficacy, and discuss the opportunities and challenges associated with the clinical translation of m6A-targeted therapeutic strategies.",
+    "ai_summary": "This narrative review examines how dynamic N6-methyladenosine (m6A) RNA modification contributes to allergic airway diseases (AADs) across distinct cell types. It outlines the basic biology of m6A and then discusses its roles in airway epithelial cells, innate immune cells, and adaptive immune cells, highlighting m6A as a key regulator of epithelial–immune crosstalk and linking its dysregulation to epithelial barrier disruption, oxidative stress, inflammatory cell activation, and airway remodeling. The authors emphasize that cellular context shapes the functional heterogeneity of m6A modification, and they summarize emerging progress in using m6A-related enzymes for disease prediction, therapeutic intervention, and evaluation of allergen immunotherapy efficacy, along with challenges for clinical translation of m6A-targeted strategies.",
+    "source_link": "https://doi.org/10.3389/fimmu.2026.1943431",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42989135",
+    "title": "STK36: a potential prognostic biomarker in hepatocellular carcinoma.",
+    "authors": "Liu T, Ma Y, Li Z, Zhou X.",
+    "journal": "BMC cancer",
+    "date": "2026-08-10",
+    "abstract": "<h4>Background</h4>STK36, a member of the serine/threonine kinase family, has been reported to be highly expressed in cancers. However, there have been fewer reports on the expression and role of STK36 in hepatocellular carcinoma (HCC).<h4>Methods</h4>We used the Cancer Genome Atlas (TCGA) and International Cancer Genome Consortium (ICGC) databases to evaluate the differential expression of STK36 in HCC and normal tissues. Immunohistochemistry (IHC) and quantitative real-time reverse transcription polymerase chain reaction(qRT-PCR) validated the expression of STK36 in HCC. The chi-square test was employed to study the relationship between STK36 and clinical characteristics. The prognostic significance of STK36 expression was analyzed using Kaplan-Meier and Cox regression methods. We also studied the association between STK36 and immunity. We discussed STK36 expression at the single-cell and spatial transcriptome distribution levels. Drug sensitivity analysis was utilized to discuss the link between STK36 expression and small-molecule drugs. Gene Set Enrichment Analysis (GSEA) was used to discuss the function of STK36 in HCC.<h4>Results</h4>STK36 expression was elevated in HCC from the TCGA and ICGC databases. IHC and qRT-PCR confirmed the overexpression of STK36 in HCC. STK36 expression had a positive correlation with T stage (tumor stage). STK36 expression was an independent prognostic factor affecting HCC patients' outcomes. A relationship existed between STK36 expression and the infiltration of immune cells as well as immune checkpoints. Single-cell and spatial transcriptome analyses demonstrated that STK36 was upregulated in HCC. GSEA showed that STK36 was involved in some pathways, including ECM-receptor interaction, cell cycle, etc. CONCLUSION: STK36 acts as a potential prognostic index in HCC, serves as a potential biomarker for predicting response to immunotherapy, and provides a rationale for further functional studies.",
+    "ai_summary": "Gene: STK36\nFinding: STK36 is overexpressed in hepatocellular carcinoma, correlates with T stage and immune cell infiltration/checkpoints, and is an independent prognostic factor for patient outcomes.\nDisease: Hepatocellular carcinoma",
+    "source_link": "https://doi.org/10.1186/s12885-026-16691-y",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42429557",
+    "title": "Heat stress in spermatogenesis: a redox-dependent decision network linking ROS, autophagy, and regulated cell death.",
+    "authors": "Batista RITP.",
+    "journal": "Biological reviews of the Cambridge Philosophical Society",
+    "date": "2026-07-10",
+    "abstract": "Heat stress (HS) is an increasing threat to male reproductive health, disrupting spermatogenesis through complex and interdependent cellular responses within the seminiferous epithelium. Although excessive reactive oxygen species (ROS) production is a hallmark of HS, ROS also act as central regulators of cell fate decisions beyond their role in oxidative damage. Here, we propose a unified framework in which spermatogenic outcomes under HS are governed by a redox-dependent decision network, whereby ROS dynamics determine the balance between adaptive responses and regulated cell death (RCD). At moderate levels, ROS activate cytoprotective mechanisms, including antioxidant defences and autophagy, thereby promoting proteostasis and preserving cellular homeostasis. In contrast, excessive or sustained ROS accumulation induces lipid peroxidation, mitochondrial dysfunction, and impaired autophagic flux, driving the transition toward interconnected RCD pathways, including apoptosis, ferroptosis, and pyroptosis. Autophagy emerges as a central regulatory checkpoint in this network, acting as a molecular rheostat that modulates the shift between adaptation and cell death. Importantly, HS effects are stage-specific across spermatogenesis. Spermatogonia exhibit relative resilience due to efficient redox buffering and autophagic competence, whereas spermatocytes represent a critical vulnerability point, marked by heightened oxidative sensitivity and a strong propensity toward apoptosis. Post-meiotic germ cells are particularly susceptible to disruptions in structural remodelling and membrane integrity, while Sertoli cells act as key regulators of the redox microenvironment and amplifiers of HS-induced damage. Finally, we highlight redox balance modulation as a promising strategy to mitigate HS-induced reproductive damage. However, effective antioxidant interventions must be precisely calibrated to preserve physiological redox signalling and autophagic function rather than indiscriminately suppress ROS. Together, this framework provides a mechanistic basis for understanding how HS regulates germ cell fate and identifies potential targets for preserving male fertility under environmental and physiological thermal stress.",
+    "ai_summary": "This review proposes a unified mechanistic framework in which heat stress disrupts spermatogenesis through a redox-dependent decision network: moderate ROS levels trigger cytoprotective antioxidant and autophagic responses that preserve homeostasis, whereas excessive or sustained ROS cause lipid peroxidation, mitochondrial dysfunction, and impaired autophagic flux, shifting cells toward interconnected regulated cell death pathways (apoptosis, ferroptosis, pyroptosis). Autophagy is positioned as a central molecular rheostat governing the balance between adaptation and death. The response is stage-specific: spermatogonia are relatively resilient, spermatocytes are a critical vulnerability point prone to apoptosis, post-meiotic germ cells are susceptible to structural and membrane disruption, and Sertoli cells regulate the redox microenvironment and amplify damage. The authors conclude that redox modulation is a promising protective strategy, but antioxidant interventions must be carefully calibrated to preserve physiological ROS signalling and autophagy rather than broadly suppressing ROS.",
+    "source_link": "https://doi.org/10.1002/brv.70200",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42965132",
+    "title": "Natural polysaccharide microspheres for ocular drug delivery: Sources, design strategies, and therapeutic applications.",
+    "authors": "Liu S, Sun P, Liu X, Tan J, Gong Y, Chen J, Xu Q, Huang Y, Yang F, Wang X, Li C, Jin C, Dong S, Ma X, Lu T.",
+    "journal": "Asian journal of pharmaceutical sciences",
+    "date": "2026-09-01",
+    "abstract": "Ocular drug delivery is constrained by anatomical barriers, continuous clearance, and compartment-specific homeostasis, which together reduce bioavailability and shorten exposure at target tissues. This review focuses on natural polysaccharide microspheres (NPMs), defined as micron-scale particles whose primary matrix or essential crosslinking framework is a natural polysaccharide or its derivative. Rather than treating polysaccharides as a uniform class, we examine how molecular weight, charge, viscosity, and crosslinking behavior affect fabrication, particle properties, ocular retention, and release. We also compare their route-specific uses and limitations with those of other sustained-release systems. Furthermore, the biological functions of polysaccharide excipients and the concept of \"drug-excipient integration\" are critically analyzed. Finally, this review evaluates the biosafety, manufacturing processes (including sterilization and quality control), regulatory considerations, patent landscape, clinical evidence, and translational requirements of NPMs, providing guidance for the development of next-generation safe and effective ocular drug delivery platforms.",
+    "ai_summary": "This review examines natural polysaccharide microspheres (micron-scale particles matrixed or crosslinked with natural polysaccharides or derivatives) as ocular drug delivery systems, addressing how anatomical barriers, clearance, and compartment-specific homeostasis limit bioavailability. It analyzes how polysaccharide molecular weight, charge, viscosity, and crosslinking behavior affect fabrication, particle properties, ocular retention, and drug release, compares route-specific uses and limitations against other sustained-release systems, and critically discusses the biological functions of polysaccharide excipients and \"drug-excipient integration.\" It further evaluates biosafety, manufacturing (including sterilization and quality control), regulatory and patent considerations, clinical evidence, and translational requirements to guide development of next-generation ocular delivery platforms.",
+    "source_link": "https://doi.org/10.1016/j.ajps.2026.101190",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42186554",
+    "title": "Yeast nucleotide enhances barrier function by regulating the intestinal microbiota and metabolic pathways of fish to alleviate virus-induced intestinal damage.",
+    "authors": "Shi Y, Zhang Q, Cheng G, Zhang Y, Yang P, Cai C, Gong F, Yi J, Zhang Q, Kong W, Xu Z.",
+    "journal": "Marine life science & technology",
+    "date": "2025-11-05",
+    "abstract": "Yeast nucleotides are known to modulate host immunity and gut microbiota. In teleosts, the intestinal mucosa represents a principal portal of viral entry, compromising barrier integrity, yet the mechanisms by which yeast nucleotides potentiate antiviral defenses remain to be elucidated. Herein, this study performed an eight-week feeding trial of coho salmon with graded yeast nucleotide levels (0, 125, 250, 500, and 1000 mg/kg), followed by intraperitoneal IHNV challenge with sampling at four days post-infection, and an in vitro assessment of intestinal mucus from the control and 500 mg/kg groups co-incubated with EPC cells and IHNV to evaluate antiviral efficacy. Coho salmon showed a biphasic growth response to dietary yeast nucleotides, with the 500 mg/kg group achieving the highest growth among all treatments. Yeast nucleotide enhanced intestinal tight junction integrity by upregulating proteins, such as Occludin, and potentiated mucosal immunity via modulation of NF-κB p65. Notably, yeast nucleotides reshaped gut microbiota and were associated with changes in lipid metabolism and increased levels of bioactive metabolites, with taxa such as <i>Romboutsia</i>, <i>Bacillus</i>, <i>Turicibacter</i> and <i>Clostridium</i> sensu stricto<i> 1</i> showing significant correlations with these metabolic and immune parameters, although direct functional roles remain to be confirmed. Upon IHNV challenge, the 500 mg/kg group demonstrated significantly reduced cumulative mortality and ameliorated virus-induced disruption of intestinal barrier function compared to the control group. Finally, intestinal mucus from 500 mg/kg yeast nucleotides-fed fish conferred antiviral protection in vitro by upregulating host antiviral gene expression in EPC cells. These findings highlight dietary yeast nucleotides as key modulators of antiviral defense and intestinal barrier integrity potentially through microbiota-associated lipid metabolism and bioactive metabolite profiles, while acknowledging that further functional studies are required to establish causality, offering promising nutritional strategies against virus-induced gut injury.<h4>Supplementary information</h4>The online version contains supplementary material available at 10.1007/s42995-025-00330-9.",
+    "ai_summary": "Dietary yeast nucleotides fed to coho salmon for eight weeks produced a biphasic growth response, with 500 mg/kg giving the best growth. At this dose, nucleotides strengthened intestinal tight junction integrity (e.g., higher Occludin), modulated NF-κB p65-linked mucosal immunity, and reshaped gut microbiota in ways correlated with lipid metabolism and bioactive metabolite changes (taxa such as Romboutsia, Bacillus, Turicibacter and Clostridium sensu stricto 1), though causal roles were not confirmed. After IHNV challenge, the 500 mg/kg group had lower cumulative mortality and less virus-induced barrier disruption, and intestinal mucus from these fish protected EPC cells in vitro by upregulating antiviral gene expression.",
+    "source_link": "https://doi.org/10.1007/s42995-025-00330-9",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42085153",
+    "title": "Single-cell multiomic and spatial landscape of the primate pineal gland reveals circadian and melatonin regulatory architecture.",
+    "authors": "Zheng J, Xiao Y, Lyu J, Xu H, Zhang Y, Li Y, Li Y, Wang T, Liu L, Jin L, Zhou X, Zhang C.",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "date": "2026-05-05",
+    "abstract": "The mammalian pineal gland maintains normal circadian rhythms and homeostasis by secreting melatonin. However, the lack of a single-cell-resolved regulatory map limits our understanding of how these neuroendocrine functions are orchestrated. Here, we constructed a multiomics atlas of the pineal gland from <i>Macaca fascicularis</i> by integrating snRNA-seq, snATAC-seq, and spatial transcriptomics. We identified pinealocytes as the predominant cell type, alongside six glial and vascular lineages. Chromatin accessibility analysis delineated cell-type-specific regions enriched for melatonin synthesis and phototransduction genes. Notably, we resolved a dual-layer regulatory architecture: While melatonin synthesis programs are robustly organized, circadian clock regulators exhibit a distinct, sparse spatial pattern. Coexpression networks further identified core modules and regulatory hubs-including CRX/OTX2, LHX4, and RORA-that integrate these circadian and light-responsive signals. Cell-cell communication analysis identified signaling axes, such as <i>PTN</i>-<i>ALK</i>/<i>SDC2</i>, <i>RA</i>-<i>RORB</i>, and <i>NRG1</i>-<i>ERBB4</i>, that potentially coordinate this spatial functional organization. Integrating genetic traits showed that sleep and neuropsychiatric risk variants preferentially map to these pineal regulatory modules. Specifically, sleep-associated loci converged on <i>MEIS1</i>-linked elements, while bipolar disorder-associated loci highlighted candidate genes of <i>RDH12</i> and <i>SDK2</i>. Overall, this study reveals the cellular diversity and spatial regulatory logic of the primate pineal gland, providing a physiological foundation for investigating circadian and neuroendocrine regulation in healthy and disease models.",
+    "ai_summary": "This study built a single-cell multiomic and spatial atlas of the macaque pineal gland, identifying pinealocytes as the dominant cell type plus six glial and vascular lineages, and mapping cell-type-specific chromatin regions enriched for melatonin synthesis and phototransduction genes. It found a dual-layer regulatory architecture in which melatonin synthesis programs are robustly organized while circadian clock regulators show a sparse spatial pattern, with coexpression hubs (CRX/OTX2, LHX4, RORA) integrating circadian and light-responsive signals and signaling axes (PTN-ALK/SDC2, RA-RORB, NRG1-ERBB4) coordinating spatial organization. Integrating genetic traits showed sleep risk variants converging on MEIS1-linked elements and bipolar disorder loci implicating RDH12 and SDK2, linking pineal regulatory modules to sleep and neuropsychiatric disease.",
+    "source_link": "https://doi.org/10.1073/pnas.2524839123",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42964376",
+    "title": "HNRNPH2-R114W remodels RNA splicing and neurodevelopmental gene programs in isogenic cerebral organoids.",
+    "authors": "Caiaffa CD, Ghousifam N, Watkins SL, Nakaya HI, Bowling RA, Finnell RH, Cabrera RM.",
+    "journal": "Frontiers in bioengineering and biotechnology",
+    "date": "2026-10-16",
+    "abstract": "Autism spectrum disorder has been linked to disrupted RNA processing during corticogenesis, yet variant-specific mechanisms remain difficult to resolve. Isogenic cerebral organoids derived from a patient-derived induced pluripotent stem cell (iPSC) line carrying the HNRNPH2-R114W variant and its CRISPR-corrected counterpart serve as a human developmental model to investigate variant-associated RNA dysregulation. Imaging quantification and exploratory bulk RNA sequencing, performed at a single developmental time point on a pooled organoid RNA from each genotype, identify coordinated remodeling of neuronal and metabolic programs, along with junction-centered splicing dysregulation involving 6,310 differentially used junctions. Computational structural docking situates <i>HNRNPH2</i> RNA recognition motifs (RRMs) 1-3 within a spliceosomal context and locates residue R114 near a predicted RNA-contact interface, indicating that the R114W substitution may alter RNA engagement. Integration of differential expression with event- and isoform-level analyses identifies regulatory hubs enriched for axon guidance and synaptic signaling pathways. Single-cell-reference-based deconvolution suggests modest compositional shifts that are unlikely to account for the extent of transcriptional and splicing alterations observed. Collectively, these findings imply HNRNPH2-R114W in widespread RNA rewiring and define candidate isoform-level endpoints for mechanistic and therapeutic investigation in human cortical organoids. These molecular signatures open new avenues to examine how HNRNPH2-associated RNA dysregulation evolves across developmental time and recurs across independent biological contexts, providing a foundation for further mechanistic studies of this rare neurodevelopmental disorder.",
+    "ai_summary": "Gene: HNRNPH2\nFinding: In isogenic cerebral organoids, the R114W variant caused widespread splicing dysregulation (6,310 differentially used junctions) and coordinated remodeling of neuronal and metabolic gene programs, with structural docking placing R114 near a predicted RNA-contact interface of the RNA recognition motifs.\nDisease: HNRNPH2-associated neurodevelopmental disorder (autism spectrum disorder)",
+    "source_link": "https://doi.org/10.3389/fbioe.2026.1922305",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42964643",
+    "title": "Neutrophil fate in bone infection: Mechanisms, microenvironment, and therapeutic opportunities.",
+    "authors": "Cai C, Ji Y, Mei J, Wang Z, Liu Q, Fan W, Zhao Y, Chen X, Zhu C, Zhu W, Li Q.",
+    "journal": "Journal of orthopaedic translation",
+    "date": "2026-10-24",
+    "abstract": "The clinical challenge of eradicating bone infection stems from microbial persistence within a distinct skeletal niche that is poorly perfused, hypoxic, mineralised, and highly susceptible to collateral damage. Neutrophils are central arbiters of this process and function as a double-edged sword: they are indispensable for initial pathogen containment, yet can become major drivers of chronic osteolysis, biofilm persistence, and inflammation when their effector programmes turn maladaptive. Recent high-resolution single-cell and spatial analyses have overturned the traditional view of neutrophils as short-lived, homogeneous cells, instead revealing a complex spectrum of functional states shaped by the infected bone microenvironment. In this Review, we use a neutrophil fate framework that distinguishes three related but non-equivalent levels: irreversible terminal fates, non-terminal tissue-disposition states and outcomes, and upstream fate-biasing states or processes. Terminal fates include apoptosis with subsequent efferocytic clearance, suicidal NETosis, pyroptosis, necroptosis, ferroptosis, mitochondrial permeability transition-driven necrosis, and secondary necrosis. By contrast, non-lytic (vital) NET release is considered an effector process rather than a terminal fate. Reverse migration is treated as a non-terminal tissue-exit outcome, whereas inflammatory retention is considered a non-terminal persistence state. Upstream fate-biasing factors include phenotypic or activation states, such as cellular ageing, NET-prone activation, and apoptosis delay, as well as regulatory processes including autophagy and metabolic or redox stress; none of these is classified as an independent terminal fate. We further examine how these terminal fates, non-terminal tissue-disposition states and outcomes, and upstream fate-biasing states and processes are spatially organised across osteomyelitic lesions and biofilm-associated interfaces, and how they govern interactions with osteoblasts, osteoclasts, and macrophages to determine the balance between antimicrobial control and progressive skeletal destruction. We also discuss emerging therapeutic paradigms aimed not at broadly suppressing neutrophil recruitment, but at precisely redirecting neutrophil fate, thereby providing a conceptual basis for stage-specific immunomodulation in orthopaedic infection. The Translational Potential of this Article This Review provides a fate-based framework for understanding how neutrophils shape the balance between pathogen control, biofilm persistence, osteolysis, and tissue repair in orthopaedic infection. By linking neutrophil fate programmes to distinct lesion microenvironments, including osteomyelitic lesions, implant-associated biofilms, contiguous soft-tissue infection, and fracture-related infection, this article highlights potential translational opportunities for stage- and compartment-specific immune modulation. These include improving patient stratification, guiding the timing of surgical source control and implant retention or removal, optimising dead-space management and local antimicrobial delivery, supporting vascularised soft-tissue reconstruction, and developing biomarkers that distinguish protective antimicrobial neutrophil responses from destructive inflammatory persistence. This framework may help shift future orthopaedic infection management from nonspecific suppression of inflammation toward precision redirection of maladaptive neutrophil fate while preserving early host defence and tissue repair capacity.",
+    "ai_summary": "This review proposes a \"neutrophil fate\" framework for bone infection (osteomyelitis), distinguishing three non-equivalent levels: irreversible terminal fates (apoptosis with efferocytic clearance, suicidal NETosis, pyroptosis, necroptosis, ferroptosis, mitochondrial permeability transition-driven necrosis, secondary necrosis); non-terminal tissue-disposition states and outcomes (non-lytic/vital NET release as an effector process, reverse migration as tissue exit, inflammatory retention as persistence); and upstream fate-biasing states/processes (cellular ageing, NET-prone activation, apoptosis delay, autophagy, metabolic/redox stress). Drawing on single-cell and spatial analyses that overturn the view of neutrophils as short-lived homogeneous cells, it examines how these fates are spatially organised across osteomyelitic lesions and biofilm interfaces and how they govern interactions with osteoblasts, osteoclasts, and macrophages, tipping the balance between antimicrobial control and skeletal destruction. The authors argue for therapeutics that precisely redirect neutrophil fate rather than broadly suppressing recruitment, enabling stage- and compartment-specific immunomodulation, improved patient stratification, timing of surgical source control and implant decisions, and biomarkers distinguishing protective from destructive neutrophil responses.",
+    "source_link": "https://doi.org/10.1016/j.jot.2026.101232",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42965179",
+    "title": "Tissue engineering strategies from regional functional units to integrated functional reconstruction for intervertebral disc regeneration.",
+    "authors": "Li Z, Zhang Y, Gong J, Zhang H, Zhao Q, Tian Y, Liu Y, Pang Z, Chen S, Wang R, Yang Q.",
+    "journal": "Journal of orthopaedic translation",
+    "date": "2026-10-26",
+    "abstract": "Intervertebral disc degeneration (IVDD) is essentially a process of progressive destabilization of the continuous functional system of the intervertebral disc (IVD), which is formed by the nucleus pulposus (NP), annulus fibrosus (AF), and cartilaginous endplate (CEP). As distinct but interdependent regional functional units, the NP, AF, and CEP jointly maintain disc hydration, mechanical coordination, nutrient supply, and microenvironmental homeostasis. Local tissue degeneration not only disrupts regional function within the IVD but also promotes damage propagation across the disc through structural imbalance and microenvironmental deterioration. With a deeper understanding of regional heterogeneity and functional coupling within the IVD, tissue engineering strategies have evolved from simple tissue replacement toward regenerative approaches that integrate biological features, mechanical requirements, and microenvironmental regulation. According to the distinct tissue morphology, mechanical function, and pathological changes of the NP, AF, and CEP, various therapeutic strategies have been developed for different regions. These strategies provide a crucial foundation for local tissue repair and serve as functional modules that can be further integrated for whole-disc reconstruction. Building on these advances, recent research has increasingly shifted toward multi-region combined repair. Because restoration of disc function depends not on the independent regeneration of a single region, but on coordinated coupling among different regional functional units, integrated strategies place greater emphasis on interfacial continuity, coordinated load transfer, and long-term metabolic support. This review systematically summarizes tissue engineering strategies from regional functional units to integrated functional reconstruction for IVD regeneration, aiming to guide the development of more durable, stable, and function-oriented regenerative therapies for IVDD.<h4>The translational potential of this article</h4>This review provides a clinically oriented framework for translating intervertebral disc (IVD) tissue engineering from region-specific repair toward integrated functional reconstruction. By linking the distinct biological and mechanical requirements of the nucleus pulposus, annulus fibrosus, and cartilaginous endplate with multi-region and whole-IVD strategies, it identifies design principles relevant to patient-specific regenerative therapy. Particular emphasis is placed on therapeutic cell selection, biomaterial functionality, interfacial integration, nutrient transport, mechanical durability, and microenvironmental regulation. The review also highlights key barriers to clinical translation, including human-scale construct fabrication, limited nutrient supply, long-term mechanical failure, manufacturing reproducibility, regulatory complexity, immunogenicity, cost, and safety. By integrating recent preclinical, large-animal, and emerging clinical evidence, this work may help guide the development and evaluation of more durable, scalable, and clinically applicable regenerative strategies for IVDD, while supporting rational progression from experimental proof-of-concept studies toward clinically relevant therapeutic platforms.",
+    "ai_summary": "This review frames intervertebral disc degeneration as progressive destabilization of an interdependent system of three regional functional units—nucleus pulposus, annulus fibrosus, and cartilaginous endplate—that jointly maintain hydration, load transfer, nutrient supply, and microenvironmental homeostasis, with local degeneration propagating damage across the disc. It summarizes region-specific tissue engineering strategies tailored to each unit's morphology, mechanics, and pathology, and argues that these serve as modules for a shift toward multi-region and whole-disc reconstruction, where success depends on interfacial continuity, coordinated load transfer, and long-term metabolic support rather than regeneration of any single region. The review also discusses translational barriers—human-scale construct fabrication, limited nutrient supply, long-term mechanical failure, manufacturing reproducibility, regulatory complexity, immunogenicity, cost, and safety—and proposes design principles for durable, scalable, patient-specific regenerative therapies.",
+    "source_link": "https://doi.org/10.1016/j.jot.2026.101243",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42983473",
+    "title": "Integrated single-nucleus and spatial transcriptomics define tumour cell metaprograms and tumour microenvironment organisation in choroid plexus tumours.",
+    "authors": "Klötergens A, Inserte C, de Faria FW, Verma A, Schüftan E, Roy R, Banerjee V, Albert TK, Lu IN, Kordes U, Obrecht-Sturm D, Thomas C, Kerl K.",
+    "journal": "Genome medicine",
+    "date": "2026-11-03",
+    "abstract": "<h4>Background</h4>Choroid plexus tumours (CPTs) are rare intraventricular brain neoplasms derived from choroid plexus epithelium, predominantly affecting young children. They include benign choroid plexus papilloma (CPP), atypical CPP (aCPP), and malignant choroid plexus carcinoma (CPC) and segregate into three DNA-methylation subgroups: paediatric A (pedA), paediatric B (pedB), and adult.<h4>Methods</h4>To resolve subtype-specific biology, we performed single-nucleus RNA sequencing on 43 CPTs and integrated 12 non-neoplastic foetal, paediatric, and adult choroid plexus references, complemented by spatial transcriptomics in a subset of 16 tumour sections and 2 normal choroid plexus samples.<h4>Results</h4>Tumour embeddings and correlation analyses demonstrated that CPTs cluster by methylation subtype rather than WHO grade, revealing epigenetically driven relationships despite divergent histology. We identified 10 tumour metaprograms spanning epithelial differentiation, ciliogenesis, proliferation, extra cellular matrix remodelling, and stress responses. PedA and adult tumours showed relatively homogeneous program distribution dominated by differentiation or ciliation states, whereas pedB tumours exhibited marked heterogeneity with selective enrichment of hypoxia, interferon signalling, early stress response, and TGF-β signalling. Spatial mapping revealed consistent anticorrelation of these programs with ciliogenesis and differentiation programs, suggesting stress-associated dedifferentiation. Elevated stress and hypoxia scores correlated with poorer survival. PedB tumours showed enrichment of interferon- and lipid-associated myeloid populations, that carried pro-angiogenic signatures. They were spatially co-localised with hypoxic and interferon I expressing tumour areas, that were predicted to interact with myeloid cells via immunosuppressive cues, shaping a pro-angiogenic, pro-tumour environment.<h4>Conclusions</h4>This study identifies stress- and hypoxia-associated dedifferentiation programs that are selectively enriched in pedB tumours, correlate with poor clinical outcome, and antagonise multiciliogenesis and epithelial differentiation. Their spatial co-localisation with immunosuppressive, pro-angiogenic macrophage populations links developmental arrest to microenvironmental remodelling and aggressive behaviour. These findings provide a biologically grounded framework for risk stratification and highlight hypoxia, angiogenesis and macrophage polarisation as candidate therapeutic targets in high-risk CPTs.",
+    "ai_summary": "Integrated single-nucleus RNA sequencing of 43 choroid plexus tumours with spatial transcriptomics showed that tumours cluster by DNA-methylation subtype rather than WHO grade. Ten tumour metaprograms were identified; pedB tumours were notably heterogeneous, enriched for hypoxia, interferon, stress and TGF-β programs that anticorrelated spatially with ciliogenesis and differentiation, suggesting stress-associated dedifferentiation. Elevated stress and hypoxia scores correlated with poorer survival, and pedB tumours contained immunosuppressive, pro-angiogenic myeloid populations co-localised with hypoxic/interferon-expressing tumour regions, implicating hypoxia, angiogenesis and macrophage polarisation as candidate therapeutic targets.",
+    "source_link": "https://doi.org/10.1186/s13073-026-01814-8",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42995603",
+    "title": "SCAN: a cross-species single-cell transcriptome resource for domestic animals-revealing divergent spermatogenesis in avian and mammalian systems.",
+    "authors": "Li Y, Wei Q, Li G, Li R, Li Z, Wang X, Zhang L, Guo Y, Sun G, Li W, Li Z, Tian Y, Kang X, Tian Z, Wang G, Wang Y, Liu Q.",
+    "journal": "Journal of animal science and biotechnology",
+    "date": "2026-11-07",
+    "abstract": "Despite the astonishing growth of livestock single-cell transcriptome data, its full potential is severely limited by the lack of specialized functional databases and annotation tools. The ability to systematically integrate, standardize, and deeply interpret livestock single-cell data remains very limited. This study constructed SCAN, a high-quality resource platform integrating over 2.1 million single-cell datasets from six livestock species (Sus scrofa, Gallus gallus, Bos taurus, Bos grunniens, Ovis aries, and Oryctolagus cuniculus) and a representative model organism (Danio rerio). This dataset covers 33 tissue types and 155 cell types, providing differential gene expression profiles for each cell type. Based on this platform, we developed standardized analysis pipelines and visualization tools, and established a livestock marker gene library and a high-quality chicken single-cell annotation reference dataset (CARD). In addition, to demonstrate the utility of the platform, we used SCAN to perform a cross-species single-cell comparison of spermatogenesis between avian and mammalian species. The analysis showed that the early stages of spermatogenesis were relatively conserved across species, whereas differences increased at the later stages; chicken SPT and sperm were significantly enriched in catabolism-related pathways. These observations suggest that the late stages of chicken spermatogenesis may employ a metabolic strategy distinct from that of mammals, but the underlying mechanisms remain to be validated by functional experiments. This study provides a unified and standardized resource platform (SCAN) for livestock single-cell data, greatly facilitating data access, cell annotation, and downstream biological exploration, thereby enabling downstream biological discovery-as exemplified by the spermatogenesis study presented in this research. The SCAN database is freely and permanently available at http://www.scanimalsdb.bio-zz.cn .",
+    "ai_summary": "The authors built SCAN, a cross-species single-cell transcriptome resource integrating over 2.1 million cells from six livestock species plus zebrafish, spanning 33 tissues and 155 cell types, with standardized pipelines, visualization tools, a marker gene library, and a chicken annotation reference (CARD). Using the platform to compare spermatogenesis across birds and mammals, they found early stages relatively conserved but later stages divergent, with chicken spermatocytes and sperm enriched for catabolism-related pathways, suggesting a distinct metabolic strategy in late avian spermatogenesis that requires functional validation.",
+    "source_link": "https://doi.org/10.1186/s40104-026-01526-4",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42975030",
+    "title": "A validated antibody toolbox for ALS research.",
+    "authors": "Ayoubi R, MacDougall EJ, McDowell I, Biddle MS, Ferreira BT, Zha C, Dorion MF, Ross JP, Bolivar SG, Ruiz Moleon V, Alende C, Francis V, Fotouhi M, Chaineau M, Chen CX, Piscopo VEC, Soubannier V, Shlaifer I, You Z, Nicouleau M, Keates T, Lee WH, Marsden BD, Koukouflis L, Wigren E, Marks CA, Healy LM, Dion PA, Rouleau GA, Fon EA, Virk HS, Gräslund S, Gileadi O, Edwards AM, Durcan TM, McPherson PS, Laflamme C.",
+    "journal": "eLife",
+    "date": "2026-11-03",
+    "abstract": "A substantial fraction of amyotrophic lateral sclerosis (ALS)-associated proteins remains poorly characterized, in part because of the limited availability of validated research antibodies. We established knockout (KO)-based antibody characterization workflows and demonstrated that widely used antibodies against the major ALS-associated protein C9orf72 lacked specificity (Laflamme et al., 2019). We subsequently scaled this framework to systematically benchmark research antibodies, revealing that up to 61% fail to perform as recommended by manufacturers (Ayoubi et al., 2023b). Here, we extend this approach by establishing the ALS-Reproducible Antibody Platform (ALS-RAP), a comprehensive effort to generate a publicly available dataset of KO-validated antibodies targeting proteins encoded by ALS risk genes. In total, we characterized 303 antibodies against 33 ALS-associated proteins to identify high-quality reagents for use in western blot, immunoprecipitation, and immunofluorescence. Using these antibodies, we profiled protein levels across human induced pluripotent stem cell-derived and primary neurological cell types. These analyses revealed diverse cellular distributions and higher levels of several ALS-associated proteins in glial populations, consistent with emerging evidence for immune contributions to ALS. Together, ALS-RAP provides a validated antibody toolbox and protein expression resource to support the study of ALS-associated proteins.",
+    "ai_summary": "A team established the ALS-Reproducible Antibody Platform (ALS-RAP) to create a public dataset of knockout-validated antibodies against ALS-associated proteins, characterizing 303 antibodies targeting 33 such proteins for use in western blot, immunoprecipitation, and immunofluorescence. Using these reagents, they profiled protein levels across human iPSC-derived and primary neurological cell types, finding diverse cellular distributions and higher levels of several ALS-associated proteins in glial populations, consistent with emerging evidence for immune contributions to ALS.",
+    "source_link": "https://doi.org/10.7554/elife.111349",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42969015",
+    "title": "Kinesin motor proteins as host factors regulating viral infection: Mechanisms of exploitation, emerging paradigms, and therapeutic horizons.",
+    "authors": "Aly HH.",
+    "journal": "Fujita medical journal",
+    "date": "2026-09-25",
+    "abstract": "Intracellular transport via microtubules is integral to eukaryotic cell function, and viruses have developed intricate mechanisms to exploit this system at nearly every stage of their replication cycle. The mammalian kinesin superfamily, consisting of 14 distinct families, enables anterograde transport that is used by both DNA and RNA viruses. This review provides a comprehensive analysis of how a wide range of viral pathogens-including herpesviruses, human immunodeficiency virus type 1, vaccinia virus, hepatitis B virus (HBV), influenza virus, and severe acute respiratory syndrome coronavirus-interact with specific kinesin family members to promote viral entry, genome trafficking, organization of replication compartments, assembly, and egress. Recent findings underscore the role of the kinesin-4 family member KIF4A as a novel host factor for HBV. The therapeutic potential of modulating the surface expression of the HBV-entry receptor (NTCP) is discussed, either by suppressing KIF4 expression-necessary for anti-retrograde transport of NTCP to the cell surface-or by disrupting the NTCP-KIF4 interaction. Additionally, emerging pharmacological approaches targeting kinesin-dependent transport are evaluated. By establishing a unified framework that connects motor protein biology to virology, this review identifies key knowledge gaps and outlines future research directions for the development of broad-spectrum, host-targeted, antiviral therapies.",
+    "ai_summary": "This review examines how diverse viruses—including herpesviruses, HIV-1, vaccinia virus, HBV, influenza virus, and SARS-CoV—hijack specific members of the 14-family mammalian kinesin superfamily to drive anterograde microtubule transport during entry, genome trafficking, replication-compartment organization, assembly, and egress. A highlighted recent finding identifies the kinesin-4 family member KIF4A as a novel host factor for HBV, where KIF4 is needed for anti-retrograde transport of the HBV entry receptor NTCP to the cell surface. The authors discuss therapeutic strategies based on suppressing KIF4 expression or disrupting the NTCP–KIF4 interaction to modulate NTCP surface expression, and evaluate emerging pharmacological approaches targeting kinesin-dependent transport, framing these as potential broad-spectrum, host-targeted antivirals.",
+    "source_link": "https://doi.org/10.20407/fmj.2026-014",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972031",
+    "title": "Primary cilium-mediated mechanisms of cyst formation in polycystic kidney disease.",
+    "authors": "Qian F, Mukhopadhyay S.",
+    "journal": "Nature reviews. Nephrology",
+    "date": "2026-11-02",
+    "abstract": "Autosomal-dominant polycystic kidney disease (ADPKD) is characterized by progressive renal cyst formation leading to kidney failure. Mutations in PKD1 or PKD2, encoding polycystins 1 and 2, underlie most cases of ADPKD. Tolvaptan remains the only approved therapy but has limited efficacy and tolerability, underscoring the need for a deeper mechanistic understanding of disease pathogenesis. Polycystins function as cation channels in the primary cilium - a sensory organelle implicated in renal epithelial development and homeostasis. Pioneering genetic studies have established that cilia loss derepresses a cilia-dependent cyst activation programme, revealing the cilium as an active signalling compartment that restrains cystogenesis triggered by polycystin dysfunction. Structural and ciliary trafficking studies have illuminated how cilia-dependent signals drive cystogenesis in development and adult contexts, whereas ciliary length regulation offers a tractable entry point for identifying ciliary effectors. Extraciliary transcriptional and post-transcriptional pathways cooperate with ciliary signalling to modulate disease progression, often through components that serve distinct compartmental functions. Notably, both ciliary and transcriptional effectors converge on mitochondrial metabolism as a critical checkpoint, revealing an integrated cilium-metabolism axis whose disruption facilitates cystogenesis. Together, this integrated structural, functional and regulatory framework for cilia-regulated ADPKD pathogenesis points towards ciliary trafficking machinery and metabolic checkpoints as actionable therapeutic targets.",
+    "ai_summary": "Gene: PKD1, PKD2\nFinding: Polycystins act as cation channels in the primary cilium, and cilia loss derepresses a cilia-dependent cyst activation programme, with ciliary and transcriptional effectors converging on mitochondrial metabolism as a checkpoint whose disruption promotes cystogenesis.\nDisease: Autosomal-dominant polycystic kidney disease (ADPKD)",
+    "source_link": "https://doi.org/10.1038/s41581-026-01139-0",
+    "genes": [
+      "PKD1",
+      "PKD2"
+    ],
+    "diseases": [
+      "Cilia",
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42975616",
+    "title": "Weighted co-expression reveals early circadian and metabolic dysregulation in precystic kidneys.",
+    "authors": "Marino CA, Kunnen SJ, van de Water B, Peters DJM.",
+    "journal": "Journal of molecular medicine (Berlin, Germany)",
+    "date": "2026-11-03",
+    "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) initiates long before cysts appear, yet the molecular triggers of this precystic phase remain poorly defined. To gain more insight into these early alterations, we applied cross-species Weighted Gene Coexpression Network Analysis (WGCNA) to renal transcriptomes from inducible Pkd1-knockout (iKsp-Pkd1<sup>del</sup>) mice across precystic and cystic stages. Instead of constructing a new network, expression profiles were projected onto three hundred and forty-seven curated rat kidney co-expression modules from the TXG-MAPr framework, enabling direct systems-level comparison with conserved injury signatures. Forty-two transcriptionally active modules emerged, including twenty-one already deregulated during the morphologically normal precystic phase. Early upregulated modules showed activation of circadian regulators (Bmal1/Arntl, Per1, Per3, Npas2) and sterol biosynthesis under Srebf2 control, whereas mitochondrial and oxidative-phosphorylation modules were markedly repressed. Transcription-factor enrichment revealed distinct regulatory axes: circadian control by BMAL1, metabolic regulation through SREBP2 (encoded by Srebf2), and inflammatory/cytokine signaling mediated by STAT3, p53, and NF-κB. These regulatory programs diverged transcriptionally within two weeks of Pkd1 loss, establishing an epithelial-driven phase characterized by circadian misalignment, metabolic rewiring, mitochondrial suppression and concomitant low-level inflammatory signaling. Inflammatory and stress-response modules intensified during later cystic stages. Notably, Pkd2 clustered within a small but transcriptionally active high-ranked module suggesting early perturbation of the polycystin complex. Together, these data define precystic ADPKD as a convergence of independent epithelial programs accompanied by early inflammatory engagement that precedes overt cyst expansion, providing a modular framework for early biomarker discovery and therapeutic targeting.",
+    "ai_summary": "Gene: PKD1\nFinding: Cross-species WGCNA of renal transcriptomes from inducible Pkd1-knockout mice showed that within two weeks of Pkd1 loss, 21 of 42 active modules were already deregulated in morphologically normal precystic kidneys, with early upregulation of circadian regulators (Bmal1/Arntl, Per1, Per3, Npas2) and Srebf2-controlled sterol biosynthesis, repression of mitochondrial/oxidative-phosphorylation modules, and STAT3-, p53- and NF-κB-mediated inflammatory signaling that intensified in later cystic stages; Pkd2 clustered in a small active high-ranked module suggesting early perturbation of the polycystin complex.\nDisease: Autosomal dominant polycystic kidney disease (precystic phase)",
+    "source_link": "https://doi.org/10.1007/s00109-026-02731-4",
+    "genes": [
+      "PKD1",
+      "PKD2",
+      "STAT3"
+    ],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42634119",
+    "title": "Rare Novel Genetic Variants of the OFD1 Gene Associated With a Familial Form and a Sporadic Case of Long Bone Atypical Fractures.",
+    "authors": "Boisvert MÈ, Maaroufi H, Laframboise R, Fournier F, Morin SN, Gagnon E, Gagnon C, Mac-Way F, Rouabhia M, Ste-Marie LG, Droit A, Brown JP, Michou L.",
+    "journal": "Clinical genetics",
+    "date": "2026-08-23",
+    "abstract": "We describe a family with 11 members affected by oral, facial and digital findings, as well as adult-onset multiple long bone insufficiency fractures mimicking atypical femur fractures (AFF) on radiographs. The analysis of the pedigree of this family suggested an X-linked dominant inheritance. We performed whole-exome sequencing in this family. A rare novel variant, p.Ala642Asp (NM_003611, c.1925C>A, hg19) of the OFD1 gene was the only candidate on the X chromosome segregating with the phenotype within the family. The OFD1 gene targeted sequencing was carried out on 49 patients with AFF and 100 healthy controls. We detected another rare variant, p.Lys668Asn (NM_003611, c.2004G>C, hg19) of the OFD1 gene, in a woman with AFF. The structure of OFD1 protein has been predicted by AlphaFold 3 (AF3). According to the AF3 model of OFD1, the destabilization of the dimerization of OFD1 by the p.Ala642Asp variant and the breaking of ionic bond by the p.Lys668Asn variant could be pathogenic. This family demonstrates that such insufficiency fractures of long bones may occur in patients with oral-facial-digital syndrome and provides novel insight into the pathophysiology of these fractures and their association with dental and facial hypoplasia.",
+    "ai_summary": "Gene: OFD1\nFinding: A novel segregating OFD1 variant (p.Ala642Asp) was identified by whole-exome sequencing in a family with X-linked dominant oral-facial-digital features and adult-onset long bone insufficiency fractures, and a second rare variant (p.Lys668Asn) was found in a sporadic woman with atypical femur fractures; AlphaFold 3 modeling predicted both variants impair OFD1 dimerization or ionic bonding.\nDisease: Oral-facial-digital syndrome with adult-onset long bone insufficiency/atypical femur fractures",
+    "source_link": "https://doi.org/10.1111/cge.70232",
+    "genes": [
+      "OFD1"
+    ],
+    "diseases": [
+      "Orofaciodigital syndrome"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "41969033",
+    "title": "Sensing of shear stress in vascular endothelial cells - from physiology to pathology.",
+    "authors": "Chuntharpursat-Bon E, Serbanovic-Canic J, Alfaidi M, Jones EAV, Cheng C, White S, Hsiai T, Jo H, Baeyens N, Fang Y, Ebong EE, Reader JS, Tzima E, Xu S, Evans PC.",
+    "journal": "Journal of cell science",
+    "date": "2026-04-13",
+    "abstract": "Sensing of mechanical force is crucial in regulating vascular homeostasis, physiology and disease. Endothelial cells line the lumens of blood vessels and are constantly exposed to flowing blood. This generates mechanical shear stress, which is instrumental in modulating endothelial cell behavior. Mechanosensitive proteins, including ion channels, G protein-coupled receptors (GPCR) and other cell surface receptors, adhesion molecules, integrins, primary cilia, cytoskeletal elements and the glycocalyx, transduce mechanical stimuli into biochemical signals that are essential for maintaining vascular integrity, responding to inflammatory stimuli and facilitating angiogenesis and arteriogenesis. Disruption in shear stress sensing can lead to pathological conditions, such as atherosclerosis or vascular anomalies. This Review article provides an integrated overview of the current knowledge on endothelial shear stress sensing and highlights key unanswered questions that will shape future research in vascular biology and disease.",
+    "ai_summary": "This review integrates current knowledge on how endothelial cells sense shear stress from flowing blood. It covers mechanosensitive proteins — ion channels, GPCRs and other surface receptors, adhesion molecules, integrins, primary cilia, cytoskeletal elements and the glycocalyx — that convert mechanical stimuli into biochemical signals maintaining vascular integrity, inflammatory responses, angiogenesis and arteriogenesis. Disrupted shear sensing is linked to pathologies such as atherosclerosis and vascular anomalies, and the review highlights key unanswered questions for future vascular biology research.",
+    "source_link": "https://doi.org/10.1242/jcs.264456",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42997830",
+    "title": "Joubert syndrome with hippocampal malrotation in a 4-month-old male: A case report.",
+    "authors": "Rutta CA, Kamuzora MCK.",
+    "journal": "Radiology case reports",
+    "date": "2026-10-30",
+    "abstract": "Joubert syndrome is a rare autosomal recessive ciliopathy characterized by a distinctive midbrain-hindbrain malformation, with the \"molar tooth sign\" as its characteristic neuroimaging hallmark, resulting from cerebellar vermian hypoplasia, thickening and horizontalization of the superior cerebellar peduncles, and a deepened interpeduncular fossa. We report a 4-month-old male infant presenting with developmental delay and progressive weight loss. Brain Magnetic Resonance Imaging revealed the characteristic molar tooth sign, vermian hypoplasia, and an associated hippocampal malrotation, a less frequently recognized but increasingly documented supratentorial finding in Joubert syndrome and related disorders. The patient also had retinal degeneration and elevated transaminases, findings that raise concern for multisystem involvement within the Joubert ciliopathy spectrum. Hippocampal malrotation has been described as an associated supratentorial finding in JS, but its clinical significance, including any relationship with epilepsy, remains uncertain. This case emphasizes careful evaluation of both infratentorial and supratentorial structures and systemic assessment in patients with JS.",
+    "ai_summary": "A 4-month-old boy with developmental delay and weight loss was found on MRI to have the classic \"molar tooth sign\" and cerebellar vermian hypoplasia diagnostic of Joubert syndrome, together with hippocampal malrotation—an increasingly recognized but incompletely understood supratentorial feature. Retinal degeneration and elevated transaminases suggested multisystem ciliopathy involvement. The report highlights the need to assess both infra- and supratentorial structures and to screen for systemic disease in Joubert syndrome; the clinical significance of hippocampal malrotation, including any link to epilepsy, remains uncertain.",
+    "source_link": "https://doi.org/10.1016/j.radcr.2026.10.018",
+    "genes": [],
+    "diseases": [
+      "Ciliopathy",
+      "Joubert syndrome"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42985540",
+    "title": "Fibrogenesis Biomarkers and Clinical Disease Progression in ADPKD.",
+    "authors": "Groen SS, Gansevoort RT, Sparding N, Heida JE, Meijer E, Karsdal MA, Frederiksen P, Genovese F, Bais T.",
+    "journal": "Kidney international reports",
+    "date": "2026-09-23",
+    "abstract": "<h4>Introduction</h4>Fibrogenesis contributes to disease progression in patients with autosomal dominant polycystic kidney disease (ADPKD). In this exploratory study, we evaluated the association of protease-generated circulating and urinary collagen fragments (type III collagen degradation [C3M], type III collagen formation [PRO-C3], and type VI collagen formation [PRO-C6]), reflecting fibrogenesis and fibrolysis, with clinical outcomes in ADPKD.<h4>Methods</h4>We included 302 patients from the DIPAK-1 trial (lanreotide vs. standard treatment), with a mean baseline age of 48.9 ± 7.3 years and estimated glomerular filtration rate (eGFR) of 51.3 ± 11.5 ml/min per 1.73 m<sup>2</sup>. Kidney endpoints were eGFR slope, rapid disease progression (eGFR loss ≥3 ml/min per 1.73 m<sup>2</sup> per year), and a composite kidney endpoint (30% eGFR loss or initiation of kidney replacement therapy). Net benefit analysis was performed to assess clinical utility.<h4>Results</h4>During 2.4 ± 0.4 years of follow-up, mean eGFR slope was -4.02 ± 3.64 ml/min per 1.73 m<sup>2</sup> per year, 190 patients (62.9%) had rapid disease progression, and 87 (28.8%) reached the composite endpoint. After adjustment for sex, baseline age, baseline eGFR, Mayo imaging class (MIC), <i>PKD</i> pathogenic variant and treatment group, uPRO-C3/Cr and uPRO-C6/Cr were independently associated with eGFR slope, rapid disease progression, and the composite endpoint. uPRO-C3/Cr was also associated with HtTKV growth rate. Adding uPRO-C3/Cr or uPRO-C6/Cr improved prediction of rapid disease progression, increasing area under curve (AUC) from 0.78 (95% confidence interval [CI], 0.73-0.86) to 0.79 (95% CI, 0.73-0.86) and 0.80 (95% CI, 0.73-0.86), respectively. Decision curve analysis did not show a meaningful net benefit.<h4>Conclusion</h4>These findings demonstrate that uPRO-C3/Cr and uPRO-C6/Cr were independently associated with kidney outcomes in ADPKD, providing clinical evidence that extracellular matrix (ECM) remodeling is associated with ADPKD disease progression.",
+    "ai_summary": "This exploratory analysis of 302 DIPAK-1 trial participants with ADPKD found that urinary collagen formation markers (uPRO-C3/Cr and uPRO-C6/Cr), reflecting extracellular matrix remodeling and fibrogenesis, were independently associated with eGFR slope, rapid disease progression, and a composite kidney endpoint after adjustment for established risk factors including Mayo imaging class and PKD variant. uPRO-C3/Cr was additionally associated with height-adjusted total kidney volume growth. Adding either marker only marginally improved prediction of rapid progression (AUC 0.78 to 0.79-0.80), and decision curve analysis showed no meaningful net benefit, so clinical utility remains unproven despite the mechanistic link between fibrogenesis and ADPKD progression.",
+    "source_link": "https://doi.org/10.1016/j.ekir.2026.107102",
+    "genes": [],
+    "diseases": [
+      "Polycystic kidney disease"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42965905",
+    "title": "Identification of a novel candidate locus at 21q22.3 for isolated intestinal Malrotation.",
+    "authors": "Agam N, Newman N, Dolgin V, Freund O, Jean MM, Safran A, Poleg T, Assi Z, Birk OS.",
+    "journal": "Human molecular genetics",
+    "date": "2026-10-01",
+    "abstract": "Intestinal malrotation (IM) is a relatively common congenital anomaly of the gastrointestinal tract resulting from abnormal rotation during embryonic development. While some cases of IM are part of syndromic manifestations, most are isolated, with their genetic basis remaining largely unknown. We present a familial case of apparently autosomal recessive isolated IM in a consanguineous kindred of Arab-Bedouin descent. Nine individuals from two nuclear families were recruited. Homozygosity mapping and logarithm of odds (LOD) score calculations were performed using single nucleotide polymorphism (SNP) array data. Whole-exome and whole-genome sequencing data were analyzed to identify candidate variants. Various analysis and interpretation tools were applied to evaluate and describe potential disease-associated variants. Homozygosity mapping identified a 2 Mb candidate locus on chromosome 21q22.3. Multipoint linkage analysis identified an overlapping locus on chromosome 21 (maximal LOD score: 3.168). A missense variant in PCNT (Gln1951Pro), along with several other segregating candidates, was evaluated. Our findings demonstrate a novel candidate locus at chromosome 21q22.3 associated with isolated IM, with PCNT emerging as a potential candidate gene. Further studies involving additional affected families and functional validation are required to establish the contribution of this locus and the identified variant to the pathogenesis of isolated IM.",
+    "ai_summary": "A consanguineous Arab-Bedouin kindred with apparently autosomal recessive isolated intestinal malrotation was studied using SNP-array homozygosity mapping and linkage analysis, which identified a shared ~2 Mb candidate locus at chromosome 21q22.3 (maximal multipoint LOD score 3.168). Exome and genome sequencing revealed a segregating missense variant in PCNT (Gln1951Pro) among other candidates, nominating PCNT as a potential gene, though the authors note that additional families and functional validation are needed to confirm the locus and variant's role in isolated intestinal malrotation.",
+    "source_link": "https://doi.org/10.1093/hmg/ddag114",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42985996",
+    "title": "The Role of Mitochondrial Homeostasis in the Pathogenesis of Chronic Rhinosinusitis.",
+    "authors": "Ghalehbaghi B, Fallahpour M, Nabavi M, Jalessi M, Ghanbari H, Khayer N, Taghizadeh-Hesary F.",
+    "journal": "Immunity, inflammation and disease",
+    "date": "2026-11-01",
+    "abstract": "<h4>Background</h4>Chronic rhinosinusitis (CRS) is a common clinical condition characterized by persistent inflammation of the nasal and sinus mucosa. While inflammatory endotypes are well-described, the upstream metabolic dysregulations that initiate and perpetuate inflammation remain poorly defined. This review examines how mitochondrial metabolism, biogenesis, and dysfunction contribute to CRS pathogenesis.<h4>Methods</h4>A comprehensive literature search was performed up to November 2025 using PubMed/MEDLINE, Web of Science, and ScienceDirect. Search terms included \"chronic rhinosinusitis,\" \"mitochondria,\" \"oxidative stress,\" \"reactive oxygen species,\" \"inflammation,\" and \"epithelial barrier,\" together with related keywords and synonyms. Experimental, mechanistic, and translational studies exploring mitochondrial involvement in CRS were included.<h4>Results</h4>Evidence from multiple experimental studies demonstrates that mitochondrial dysfunction is closely intertwined with key pathological processes in CRS. Mitochondria are damaged by diverse CRS-related pathogenic factors leading to excessive reactive oxygen species production, impaired biogenesis, and disrupted membrane potential. These mitochondrial abnormalities amplify epithelial inflammation, oxidative stress, and barrier dysfunction, creating a self-propagating vicious cycle in which mitochondrial injury and inflammation reinforce each other. Mitochondrial dysfunction also contributes to characteristic histopathological changes, including epithelial damage, ciliary impairment, and fibrin deposition.<h4>Conclusions</h4>Mitochondria play a pivotal role in CRS pathogenesis. Targeting this self-amplifying cycle of Inflammation-oxidative stress-mitochondrial dysfunction therefore represents a promising therapeutic strategy for breaking the chronicity of CRS.",
+    "ai_summary": "This narrative review synthesizes experimental evidence that mitochondrial dysfunction is a central upstream driver of chronic rhinosinusitis (CRS). CRS-related pathogenic factors damage mitochondria, causing excessive reactive oxygen species production, impaired biogenesis, and disrupted membrane potential; these abnormalities amplify epithelial inflammation, oxidative stress, and barrier dysfunction in a self-reinforcing cycle that also underlies epithelial damage, ciliary impairment, and fibrin deposition. The authors conclude that targeting this inflammation–oxidative stress–mitochondrial dysfunction cycle is a promising therapeutic strategy, though the abstract reports no specific gene or clinical finding tied to a named disease.",
+    "source_link": "https://doi.org/10.1002/iid3.70579",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972320",
+    "title": "Application of bronchoscopy in children with primary ciliary dyskinesia.",
+    "authors": "Wang X, Zhang J.",
+    "journal": "BMC pediatrics",
+    "date": "2026-08-05",
+    "abstract": "<h4>Background</h4>To evaluate the value of bronchoscopy in the clinical diagnosis and management of primary ciliary dyskinesia (PCD).<h4>Methods</h4>A retrospective analysis was conducted on six genetically confirmed PCD children admitted to the Department of Respiratory Intervention at Jinan Children's Hospital between October 2020 and August 2024. Bronchoscopic procedures were performed, including collection of specimens for microbiological testing, bronchoalveolar lavage (BAL) for cytological analysis, and interventional therapies such as local drug/saline lavage and forceps-assisted clearance. Mucosal biopsies were attempted in selected cases, but ultrastructural analysis was not consistently reliable.<h4>Results</h4>Bronchoscopy revealed copious secretions and a characteristic fish-bone appearance (defined as tortuous, dilated segmental bronchi with prominent transverse ridging of the mucosa, resembling the spine of a fish) in the airways of all six PCD patients. Based on endoscopic assessment and microbiological results from BAL fluid, the anti-infective treatment regimen was adjusted for one patient. All patients underwent forceps-assisted clearance and lavage therapy, with two patients requiring two lavage sessions due to severe infection. BALF cytology revealed a predominantly neutrophilic and lymphocytic inflammation. No severe complications occurred during or after the procedures.<h4>Conclusion</h4>In this small cohort of six pediatric PCD patients, bronchoscopy appeared to be a safe and potentially useful integrated approach, combining disease assessment, and therapeutic intervention (airway clearance). The procedure also provided valuable insights into the airway inflammatory and microbiological phenotype. However, given the preliminary nature of these findings and the limited sample size, larger prospective studies are needed to confirm the role of bronchoscopy in routine PCD management.",
+    "ai_summary": "A retrospective review of six genetically confirmed pediatric PCD patients found that bronchoscopy consistently revealed copious airway secretions and a characteristic \"fish-bone\" appearance (tortuous, dilated segmental bronchi with prominent transverse mucosal ridging). BAL fluid cytology showed predominantly neutrophilic and lymphocytic inflammation, and microbiological results prompted adjustment of anti-infective therapy in one patient. All patients underwent forceps-assisted clearance and lavage (two required repeat lavage for severe infection) without severe complications, suggesting bronchoscopy is a safe, potentially useful tool combining airway assessment and therapeutic clearance, though larger prospective studies are needed.",
+    "source_link": "https://doi.org/10.1186/s12887-026-07462-6",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Kartagener syndrome",
+      "Primary ciliary dyskinesia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42467968",
+    "title": "The Renal \"Mechanome\": Piezo1 as a Transducer of Shear, Tension, and Stiffness in Health and Kidney Disease.",
+    "authors": "Melica ME, Peired AJ, Antonelli G, Conte C, Dafichi T, Angelotti ML, Romagnani P, Lasagni L.",
+    "journal": "Journal of the American Society of Nephrology : JASN",
+    "date": "2026-07-17",
+    "abstract": "The kidney cells operate within a dynamic mechanical environment shaped by tubular fluid shear stress, glomerular capillary tension, and extracellular matrix stiffness. These physical forces are essential regulators of nephron development, epithelial specialization, and structural integrity; yet, the molecular systems that convert mechanical inputs into biologic responses have remained incompletely defined. The discovery of Piezo1 as a mechanosensitive ion channel has reshaped this landscape, identifying a direct pathway through which membrane deformation is translated into intracellular cation flux and downstream signaling, mechanisms increasingly implicated in a spectrum of pediatric and adult disorders. Recent transcriptomic, imaging, and functional studies demonstrate that Piezo1 is broadly distributed along the nephron, where it contributes to flow sensing in tubular epithelia, cytoskeletal adaptation to glomerular pressure in podocytes, and stiffness detection within the interstitium. Emerging evidence indicates that Piezo1 orchestrates key physiologic processes, including electrolyte handling, osmotic regulation, and structural plasticity of the filtration barrier. At the same time, dysregulated Piezo1 signaling links mechanical overload to pathologic outcomes such as podocyte injury, tubular dysfunction, fibrosis, and mechano-inflammation, with additional roles suggested in renal tumor progression. Across these contexts, Piezo1 does not function as a simple on-off switch but rather as a context-dependent integrator in which the magnitude, duration, and cellular setting of calcium signaling determine adaptive versus maladaptive responses. This review synthesizes current understanding of Piezo1 as a system-wide renal mechanostat integrating fluid-, stretch-, and matrix-derived cues across nephron compartments. We discuss how mechanical signaling thresholds shape disease trajectories and explore the emerging concept that therapeutic strategies should aim to retune, rather than silence, mechanotransduction pathways. By placing physical forces at the center of kidney pathophysiology, Piezo1 emerges as both a mechanistic framework for kidney disease and a potential target for future precision interventions.",
+    "ai_summary": "Piezo1 is a mechanosensitive ion channel expressed broadly along the nephron, where it converts tubular fluid shear, glomerular capillary tension, and matrix stiffness into calcium-dependent signaling that regulates electrolyte handling, osmotic regulation, and filtration-barrier structural plasticity. Dysregulated Piezo1 signaling links mechanical overload to podocyte injury, tubular dysfunction, fibrosis, mechano-inflammation, and possibly renal tumor progression, acting as a context-dependent integrator rather than a simple on-off switch. The authors propose that therapeutic strategies should aim to retune rather than silence mechanotransduction.",
+    "source_link": "https://doi.org/10.1681/asn.0000001213",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42969678",
+    "title": "Liver Injury Due to Hormonal Contraceptives in the Modern Era.",
+    "authors": "Vuppalanchi R, Barritt AS, Rai A, Barnhardt H, Gu S, Li YJ, Chalasani N, Drug‐Induced Liver Injury Network.",
+    "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+    "date": "2026-11-03",
+    "abstract": "<h4>Background and aims</h4>Hormonal agents and their association with liver injury remain a concern in clinical practice. This study aimed to characterise the biochemical and clinical features of hormonal agent-associated liver injury and compare them with a control group of age- and gender-matched cases of liver injury caused by non-hormonal drugs.<h4>Methods</h4>Of 2123 adjudicated drug-induced liver injury cases enrolled in the Drug-Induced Liver Injury Network (2004-2024), 20 high-confidence cases (1.3%) were attributed to hormonal agents. These cases were compared with age- and sex-matched non-hormonal drug-induced liver injury (DILI) controls, and analyses assessed clinical features, biochemical patterns, outcomes, HLA alleles and candidate genetic variants associated with cholestatic liver disease.<h4>Results</h4>The median age of women was 22 years. Most presented within 2-12 weeks with jaundice and pruritus, predominantly with cholestatic or mixed patterns of liver enzyme elevations, but a hepatocellular pattern was not uncommon at 28%. The route of administration did not appear to influence DILI risk. Half underwent a liver biopsy, and half required hospitalization, but none died or required liver transplantation. Compared with other DILI cases, hormonal agent-associated liver injury was more often cholestatic, with jaundice and pruritus, and less frequently associated with fever or rash. No HLA association was identified, although the intronic MROH2A variant rs6722064 ranked as the top potential candidate for increased risk [OR (95% CI) = 3.58 (1.67, 7.65), p = 0.001].<h4>Conclusions</h4>Hormonal agent-associated liver injury presents with a distinctive mixed or cholestatic pattern and often lacks the inflammatory features seen in other DILI cases. These findings underscore the need for greater clinical awareness to improve patient outcomes.",
+    "ai_summary": "Hormonal contraceptives and other hormonal agents caused 1.3% of adjudicated drug-induced liver injury cases in the DILI Network, typically in young women (median age 22) presenting within 2–12 weeks with jaundice and pruritus and a cholestatic or mixed enzyme pattern (hepatocellular in 28%). Route of administration did not affect risk; half were hospitalized and half biopsied, but none died or needed transplantation. Compared with matched non-hormonal DILI controls, these cases were more often cholestatic with jaundice and pruritus and less often had fever or rash. No HLA association was found, though the MROH2A variant rs6722064 was the top candidate risk marker (OR 3.58).",
+    "source_link": "https://doi.org/10.1111/liv.70945",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42989404",
+    "title": "Neuroepigenetic programming by the maternal environment. Part B: independent contribution of methylation and hydroxymethylation in the offspring's olfactory bulb following preconceptional weight loss in mice.",
+    "authors": "Badonnel K, Chaulot-Talmon A, Costes V, Frambourg A, Costa-Monteiro-Moreira G, Jouin M, Bourgeois-Brunel L, Gabory A, Kiefer H, Jammes H, Baly C.",
+    "journal": "Clinical epigenetics",
+    "date": "2026-08-10",
+    "abstract": "<h4>Background</h4>Recent studies indicate that inadequate maternal diet can influence offspring physiology, metabolism and cognitive health, but the impact of the preconception period remains largely unexplored. We previously showed that maternal weight loss prior to conception affects metabolic outcomes and olfactory-driven behaviors in mouse offspring. To explore whether these intergenerational effects are linked to epigenetic mechanisms in the olfactory bulb (OB), we investigated changes in DNA methylation, specifically 5-methylcytosine (5mC) and 5-hydroxymethylcytosine (5hmC), the latter being relatively abundant in the brain but still poorly characterized.<h4>Results</h4>We profiled DNA methylation and hydroxymethylation using Reduced Representation Bisulfite Sequencing (RRBS) and oxidative RRBS (oxRRBS) on OBs from offspring born to control or weight loss mothers, to enable a distinct quantification of 5mC and 5hmC levels at the same CpG sites. While 5mC was globally more abundant in the OB, a subset of CpGs showed high 5hmC levels that varied with maternal condition. Differential analysis identified more differential hydroxymethylated CpG (DhMCs, n = 2631) than differential methylated positions (DMC, n = 1834), indicating a stronger impact of maternal WL on hydroxymethylation. Both DMCs and DhMCs were enriched in genes involved in synaptic function, neuronal signaling, and energy metabolism. However, uniquely modified CpGs, i.e. those detected as modified in only one assay (RRBS or oxRRBS), revealed distinct functional profiles: uniquely differentially hydroxymethylated CpGs (uniqDhMCs) were enriched in genes related to neuronal activity and plasticity, while uniquely differentially methylated CpGs (uniqDMCs) were associated with chromatin remodeling and transcriptional regulation. These findings suggest that, although 5mC and 5hmC can impact similar pathways, they contribute differently to gene regulation in response to early-life nutritional environments.<h4>Conclusion</h4>Our study highlights the feasibility of integrating 5mC and 5hmC analyses and uncovers their distinct genomic distributions. The maternal preconceptional weight loss induces lasting and specific epigenetic changes in the OB, notably through 5hmC-specific targeting on genes involved in neuronal activity. By distinguishing between shared and unique DMCs and DhMCs, we reveal complementary and functionally distinct contributions of 5mC and 5hmC to brain plasticity. These findings underscore the importance of integrating both epigenetic marks to fully understand how early-life environmental cues shape neural function and behavior.",
+    "ai_summary": "Maternal preconception weight loss in mice leaves lasting epigenetic marks in offspring olfactory bulb, with hydroxymethylation more affected than methylation: oxidative RRBS profiling found more differentially hydroxymethylated CpGs (2631) than differentially methylated positions (1834). Both marks were enriched in synaptic, neuronal signaling, and energy metabolism genes, but uniquely hydroxymethylated sites mapped to neuronal activity and plasticity genes, while uniquely methylated sites mapped to chromatin remodeling and transcriptional regulation. This suggests 5mC and 5hmC make complementary, functionally distinct contributions to how early-life nutritional environment shapes brain plasticity and behavior.",
+    "source_link": "https://doi.org/10.1186/s13148-026-02175-0",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42990930",
+    "title": "Single-cell transcriptome analysis highlights conserved transcriptional responses across multiple models of Retinitis Pigmentosa.",
+    "authors": "Negueruela S, Di Guida M, Brandi P, Banfi S.",
+    "journal": "Genes & diseases",
+    "date": "2026-05-16",
+    "abstract": null,
+    "ai_summary": null,
+    "source_link": "https://doi.org/10.1016/j.gendis.2026.102241",
+    "genes": [],
+    "diseases": [
+      "Retinitis pigmentosa"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42985556",
+    "title": "Copine proteins and derived bioactive peptides in tissue development and regeneration: from molecular mechanisms to biomaterial functionalization.",
+    "authors": "Tymińska A, Kowalska A, Rogińska M, Pikuła M.",
+    "journal": "Frontiers in bioengineering and biotechnology",
+    "date": "2026-10-21",
+    "abstract": "The Copine (CPNE) family comprises evolutionarily conserved, calcium-dependent phospholipid-binding proteins (CPNE1-CPNE9) that function as intracellular membrane adapters and signaling modulators. In response to intracellular Ca<sup>2+</sup> fluctuations, CPNE proteins translocate to the plasma membrane and recruit specific effector proteins, thereby integrating calcium dynamics with membrane remodeling, vesicular transport, and cell differentiation. While individual members display tissue-specific expression patterns-such as CPNE6 in hippocampal synaptic plasticity and CPNE7 in mesenchymal cell differentiation during odontogenesis-recent translational focus has centered on CPNE-derived bioactive peptides. Short synthetic sequences derived from the CPNE7 C2B-vWA junction region, specifically Cpne7-DP and CDP4, replicate key pro-regenerative functions of full - length proteins without requiring cell - surface receptor binding. When functionalized into biomaterial matrices (such as collagen gels and chitosan hydrogels via modified sequences UG27 and UG28), these peptides stimulate dentin tubule regeneration, osteogenic lineage commitment, biomineralization, and chondrocyte extracellular matrix deposition and angiogenesis. This review synthesizes current knowledge on CPNE structural biology, intracellular membrane translocation mechanisms, physiological tissue development, and oncological diagnostic markers.",
+    "ai_summary": "The review covers the Copine (CPNE1–CPNE9) family of calcium-dependent phospholipid-binding proteins, which act as membrane adapters linking calcium signaling to membrane remodeling, vesicle transport, and differentiation, with tissue-specific roles such as CPNE6 in hippocampal synaptic plasticity and CPNE7 in odontogenic mesenchymal differentiation. Its main translational focus is on short synthetic peptides from the CPNE7 C2B–vWA junction (Cpne7-DP, CDP4) that reproduce pro-regenerative activity without cell-surface receptor binding; when incorporated into biomaterials (e.g., collagen gels, chitosan hydrogels via UG27/UG28), they promote dentin tubule regeneration, osteogenic commitment, biomineralization, chondrocyte matrix deposition, and angiogenesis. It also surveys CPNE structural biology, membrane translocation mechanisms, and use as oncological diagnostic markers.",
+    "source_link": "https://doi.org/10.3389/fbioe.2026.1889849",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42990897",
+    "title": "Airway epithelial cell-lung macrophage crosstalk in type 2-high and low asthma endotypes: mechanisms and therapeutic strategies.",
+    "authors": "Wang Y, Sun Y, Mu S, Wang Y, Guo C, Wang Y.",
+    "journal": "Frontiers in immunology",
+    "date": "2026-10-22",
+    "abstract": "Asthma is a heterogeneous chronic airway disease. Asthma endotypes are mainly classified as type 2-high and type 2-low, based on immunological and molecular mechanisms, providing a more comprehensive framework for understanding the underlying pathological processes. Airway epithelial cells (AECs) and lung macrophages contribute to airway homeostasis and asthmatic inflammation through communication that can support either tissue protection or disease-associated responses. This narrative review integrates their physiological and pathological functions, focusing on AEC-to-macrophage and macrophage-to-AEC signaling within broader multicellular networks across different asthma endotypes. Direct functional evidence for intercellular communication from associations and indirect mechanisms is distinguished and graded. Therapeutic strategies targeting AECs, lung macrophages, and their crosstalk, including both clinically validated and preclinical approaches, are also discussed. The AEC-macrophage axis exhibits context-dependent signaling that may amplify inflammation or support protective regulation, providing a basis for evaluating potential therapeutic interventions.",
+    "ai_summary": "This narrative review examines how airway epithelial cells and lung macrophages communicate in type 2-high versus type 2-low asthma, integrating their physiological and pathological roles within broader multicellular signaling networks. It distinguishes and grades direct functional evidence for intercellular crosstalk from indirect associations, and discusses clinically validated and preclinical therapies targeting these cells and their interactions. The authors conclude that the epithelial-macrophage axis shows context-dependent signaling that can either amplify inflammation or support protective regulation, providing a framework for evaluating therapeutic interventions.",
+    "source_link": "https://doi.org/10.3389/fimmu.2026.1985258",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42816542",
+    "title": "Patient-derived teratomas as a humanized platform for dystrophin restoration by ex vivo cell therapy and in vivo base editing.",
+    "authors": "Park MJ, Kim HB, Hwang Y, Kim YJ, Park JC, Lim HK, Park YG, Moon S, Lee H, Cha HJ.",
+    "journal": "Experimental & molecular medicine",
+    "date": "2026-10-01",
+    "abstract": "Cell and gene therapies hold great promise for treating monogenic disorders, yet their preclinical evaluation remains limited by the lack of scalable, human-specific models. Here we establish a patient-derived teratoma xenograft platform as a proof-of-concept system to evaluate ex vivo and in vivo therapeutic strategies for Duchenne muscular dystrophy (DMD). Teratomas generated from DMD patient-derived induced pluripotent stem cells contained mesodermal derivatives, including skeletal muscle-like tissue, enabling assessment of dystrophin restoration after therapeutic intervention. For ex vivo cell therapy, myogenic progenitors derived from adenine base editor-corrected induced pluripotent stem cells were transplanted into DMD teratomas, resulting in partial restoration of shorter dystrophin isoforms but not reproducible recovery of full-length Dp427m. For in vivo gene editing, local delivery of adenine base editor mRNA encapsulated in lipid nanoparticles induced dose-dependent editing and restoration of shorter dystrophin isoforms, including Dp71. Full-length, muscle-specific Dp427m was detected only in a subset of sequentially matured secondary teratomas with enriched muscle differentiation, indicating that myogenic maturation is a critical determinant of this therapeutic readout. Together, these findings support patient-derived DMD teratomas as an exploratory humanized platform for evaluating patient-specific gene correction and dystrophin isoform restoration, while highlighting the need for further optimization to reproducibly model full-length Dp427m recovery.",
+    "ai_summary": "Patient-derived teratomas from DMD patient iPSCs, containing skeletal muscle-like mesodermal tissue, were used as a humanized xenograft platform to test dystrophin restoration. Ex vivo transplantation of myogenic progenitors from adenine base editor-corrected iPSCs partially restored shorter dystrophin isoforms but did not reproducibly recover full-length Dp427m. In vivo local delivery of adenine base editor mRNA in lipid nanoparticles produced dose-dependent editing and restoration of shorter isoforms including Dp71, while full-length Dp427m appeared only in a subset of sequentially matured secondary teratomas with enriched muscle differentiation, indicating myogenic maturation is a key determinant of the readout. The platform is supported as an exploratory tool for patient-specific gene correction, though further optimization is needed to reproducibly model full-length Dp427m recovery.",
+    "source_link": "https://doi.org/10.1038/s12276-026-01854-5",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42974381",
+    "title": "Astrocyte plasticity shapes brain metastasis progression through tumor-astrocyte crosstalk.",
+    "authors": "Kaur R, Gupta N, Dhawan A.",
+    "journal": "Cancer heterogeneity and plasticity",
+    "date": "2025-01-13",
+    "abstract": "Brain metastases are ten times more common than primary brain tumors and pose a significant clinical challenge. How brain metastatic tumor cells adapt to the unique and hostile brain microenvironment remains unclear. Astrocytes, the most abundant glial cells in the brain, are emerging as key mediators regulating the development of brain metastases. Initially anti-metastatic, astrocytes are reprogrammed by tumor-derived signals, transitioning into a pro-metastatic phenotype. Here, we review the roles of astrocytes in brain metastasis and describe the evidence for their phenotypic plasticity, the basis of astrocyte-tumor interactions, and potential therapeutic strategies targeting these processes.",
+    "ai_summary": "This review examines how astrocytes, the brain's most abundant glial cells, shape brain metastasis through phenotypic plasticity. Although astrocytes are initially anti-metastatic, tumor-derived signals reprogram them into a pro-metastatic state, and reciprocal tumor-astrocyte crosstalk supports metastatic progression in the brain microenvironment. The authors synthesize evidence on the basis of these interactions and discuss potential therapeutic strategies targeting astrocyte reprogramming.",
+    "source_link": "https://doi.org/10.47248/chp2502010002",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42752736",
+    "title": "Bacteria-induced immunity: from homeostasis to immune subversion in periodontitis.",
+    "authors": "Miranda VL, Teixeira MA, Souza JGS, Bezinelli LM, Santos NCCD.",
+    "journal": "Einstein (Sao Paulo, Brazil)",
+    "date": "2026-09-14",
+    "abstract": "This review synthesizes current evidence on host immune responses to bacteria, their roles in the development and progression of periodontitis, and emerging immunomodulatory therapeutic strategies designed to restore periodontal homeostasis. Periodontitis develops through interactions between a dysbiotic bacterial community that disrupts host-microbe homeostasis and a chronic, maladaptive interaction with the host immune system. Key immune subversion microorganisms such as Porphyromonas gingivalis trigger inflammation while subverting immune surveillance by evading complement-mediated clearance and impairing neutrophil function. This dual behavior creates a biological paradox: bacteria induce inflammation to obtain nutrients while simultaneously suppressing effective antimicrobial activity, thereby perpetuating chronic, tissue-destructive immune activation. The osteoimmune response, particularly the Th17/IL-17 axis, is a central pathway linking microbial dysbiosis to persistent inflammation and alveolar bone resorption. These findings suggest that successful periodontal therapy must extend beyond mechanical biofilm removal by addressing underlying immune dysregulation. Potential adjunctive strategies for modulating this response include specialized pro-resolving mediators, complement inhibitors such as Cp40, and selected probiotics with immunoregulatory properties. Collectively, these approaches are intended to restore immune balance, enhance resolution of inflammation, and promote periodontal tissue repair. Current evidence demonstrates that periodontitis is not solely a microbial infection but also involves dysregulated host immunity. Clarifying how bacteria manipulate immune pathways may facilitate the development of therapies that complement bacterial control by targeting the inflammatory mechanisms underlying tissue destruction. Immunomodulatory interventions therefore represent promising candidates for promoting sustained periodontal stability and inflammatory resolution.",
+    "ai_summary": "This review describes periodontitis as a chronic disease driven not simply by bacterial infection but by a dysbiotic microbial community interacting with a maladaptive host immune response. Pathogens such as Porphyromonas gingivalis both provoke inflammation and evade immune clearance by blocking complement-mediated killing and impairing neutrophil function, sustaining tissue-destructive inflammation; the Th17/IL-17 osteoimmune axis is highlighted as a central link between dysbiosis and alveolar bone resorption. Because immune dysregulation underlies tissue destruction, the authors argue that therapy should go beyond mechanical biofilm removal and include immunomodulatory adjuncts such as specialized pro-resolving mediators, complement inhibitors (e.g., Cp40), and immunoregulatory probiotics to restore immune balance and promote periodontal repair.",
+    "source_link": "https://doi.org/10.31744/einstein_journal/2026rw2369",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42924576",
+    "title": "Mechanisms of the interaction between aging of the male reproductive system and obesity, and clinical management strategies (Review).",
+    "authors": "Luo D, Zhang L, Qi X, Guan Q, Xu F, Lu P, Yu C.",
+    "journal": "Molecular medicine reports",
+    "date": "2026-10-23",
+    "abstract": "With the intensification of the aging of the global population, reproductive health problems among middle‑aged and elderly males have emerged as a prominent public health issue. Late‑onset hypogonadism (LOH), primarily induced by an age‑related gradual reduction in serum testosterone, has garnered widespread clinical attention. The present review systematically elaborates the molecular and cellular mechanisms underlying testicular aging. Specifically, age‑dependent alterations in Sertoli cells, interstitial cells and spermatogonial stem cells, as well as an imbalance in the testicular immune microenvironment, constitute the inherent pathological basis of testicular functional deterioration. A vicious cycle exists between obesity and testosterone deficiency: Obesity‑triggered insulin resistance, chronic low‑grade inflammation and oxidative stress directly inhibit testosterone synthesis and accelerate testicular aging; in turn, low testosterone levels promote visceral fat accumulation and insulin resistance, exacerbating obesity and metabolic disorders. Aging, obesity and testosterone deficiency synergistically drive the pathological progression of LOH. In terms of clinical intervention, the present review classifies the therapeutic strategies for testicular dysfunction induced by genetic, developmental and metabolic disorders based on etiological characteristics. The review also summarizes innovative therapeutic approaches targeting the testicular microenvironment and cellular senescence pathways, as well as frontier research hotspots, including natural product interventions and regenerative medicine. By integrating the interactive mechanisms of testicular aging and obesity and summarizing relevant multidimensional intervention strategies, this review provides a systematic theoretical basis for further exploring the pathogenesis and improving the clinical prevention and treatment system of LOH.",
+    "ai_summary": "This review describes how testicular aging arises from age-related changes in Sertoli cells, interstitial (Leydig) cells and spermatogonial stem cells, together with disruption of the testicular immune microenvironment. It emphasizes a bidirectional, self-reinforcing relationship between obesity and testosterone deficiency: obesity-driven insulin resistance, chronic low-grade inflammation and oxidative stress suppress testosterone synthesis and accelerate testicular aging, while low testosterone promotes visceral fat accumulation and worsens insulin resistance, with aging, obesity and hypogonadism acting together to drive late-onset hypogonadism (LOH). The authors also categorize treatment strategies by etiology (genetic, developmental and metabolic) and highlight emerging approaches targeting the testicular microenvironment and cellular senescence, including natural products and regenerative medicine.",
+    "source_link": "https://doi.org/10.3892/mmr.2026.14051",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42966590",
+    "title": "IFT70 facilitates ciliary hedgehog signaling in hindlimb digit patterning.",
+    "authors": "Reynolds K, Vontell A, Stottmann RW.",
+    "journal": "Developmental biology",
+    "date": "2026-10-31",
+    "abstract": "The function of IFT70A has been explored with a combination of loss of function in vitro experiments and Xenopus depletions. These data suggest that primary cilia require IFT70A for full function. Here we employed a mouse model to investigate the consequences of an IFT70A deletion. Using CRISPR/Cas9 gene editing, we targeted the two mouse homologs Ift70a1 and Ift70a2 to generate deletion alleles of each individually (Ift70a1<sup>null</sup>; Ift70a2<sup>null</sup>), and an allele in which both genes are removed (Ift70a1/a2<sup>null</sup>). Ift70a1<sup>null/null</sup> and Ift70a1/a2<sup>null/null</sup> double knockout mice exhibited partially penetrant hindlimb polydactyly, but no other phenotype was observed. Altered hedgehog signaling in the mutant hindlimb indicates the likely downstream mechanism by which IFT70A function contributes to digit patterning.",
+    "ai_summary": "Gene: Ift70a1 (with Ift70a2)\nFinding: Mice lacking Ift70a1, or both Ift70a1 and Ift70a2, show partially penetrant hindlimb polydactyly with altered hedgehog signaling in the mutant hindlimb, but no other phenotype.\nDisease: Hindlimb polydactyly (digit patterning defect)",
+    "source_link": "https://doi.org/10.1016/j.ydbio.2026.10.013",
+    "genes": [],
+    "diseases": [
+      "Cilia",
+      "Flagella",
+      "Polydactyly"
+    ],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42972466",
+    "title": "Mechanobiology in cardiac regenerative medicine: from fundamental principles to therapeutic applications.",
+    "authors": "Rayat Pisheh H, Rayat Pisheh A, Latifi M, Sani F, Masoomkhah SS, Darvishi A.",
+    "journal": "Stem cell research & therapy",
+    "date": "2026-08-05",
+    "abstract": "Cardiovascular diseases remain the leading cause of morbidity and mortality worldwide, with the limited regenerative capacity of the adult myocardium posing a significant therapeutic challenge. Mechanobiology has emerged as a critical discipline for advancing cardiac regenerative medicine by elucidating how mechanical forces regulate cardiac development, homeostasis, disease progression, and, in particular, regeneration. This narrative review provides a comprehensive overview of mechanobiology, specifically in the context of cardiac regeneration. The cardiac mechanical microenvironment, governed by extracellular matrix composition, passive stiffness mediated by collagen and titin, and dynamic mechanical loading, profoundly influences cardiomyocyte behavior, stem cell differentiation toward cardiac lineages, and functional integration of regenerative grafts. Mechanotransduction pathways, mediated through integrins, focal adhesion complexes, mechanosensitive ion channels (TRPV4, TRPC1, TRPC6, K_ATP, CFTR), cytoskeletal remodeling, and YAP/TAZ signaling, convert mechanical stimuli into biochemical signals that regulate gene expression, cardiomyocyte maturation, proliferation, and targeted cardiac remodeling for repair. Substrate stiffness, topography, and viscoelasticity have been demonstrated to direct stem cell differentiation into cardiomyocytes, promote their structural and functional maturation, alignment, and contractile performance, key requirements for effective cell therapy and engineered cardiac tissues. Biomaterial-based strategies (employing polydimethylsiloxane, polyacrylamide hydrogels, and composite scaffolds) and advanced in vitro models (ranging from two-dimensional microcontact printing to three-dimensional engineered heart tissues) are highlighted for their ability to recapitulate the native cardiac mechanical environment and enhance regenerative outcomes. Computational mechanobiology approaches, including finite element analysis and multi-scale simulations, provide quantitative frameworks for optimizing scaffold design and predicting tissue regeneration under complex loading conditions. Despite significant advances, challenges such as the immature phenotype of stem cell-derived cardiomyocytes, incomplete replication of native myocardial mechanics by current biomaterials, and gaps in mechanotransduction understanding persist. Emerging technologies, including organ-on-a-chip platforms, four-dimensional bioprinting, smart dynamically tunable biomaterials, multi-omics integration, and artificial intelligence-driven modeling, offer transformative potential to translate mechanobiological principles into clinically effective cardiac regenerative therapies. This review underscores that mechanobiology constitutes an indispensable pillar for developing next-generation strategies in cardiac regeneration.",
+    "ai_summary": "This narrative review examines how mechanical forces and mechanotransduction shape cardiac regeneration, covering the cardiac mechanical microenvironment (ECM composition, collagen/titin-mediated stiffness, dynamic loading), mechanosensitive pathways (integrins, focal adhesions, mechanosensitive ion channels including TRPV4, TRPC1/6, K_ATP, CFTR, cytoskeletal remodeling, YAP/TAZ), and biomaterial and in vitro strategies (PDMS, polyacrylamide hydrogels, composite scaffolds, engineered heart tissues) that mimic native mechanics to direct stem cell differentiation and cardiomyocyte maturation. It also discusses computational modeling for scaffold optimization and persistent challenges (immature stem cell-derived cardiomyocytes, incomplete biomimicry, gaps in mechanotransduction knowledge), highlighting emerging tools such as organ-on-a-chip, 4D bioprinting, and AI-driven modeling as paths to clinical translation.",
+    "source_link": "https://doi.org/10.1186/s13287-026-05231-x",
+    "genes": [
+      "TRPV4"
+    ],
+    "diseases": [],
+    "first_seen": "2026-11-09"
+  },
+  {
+    "pmid": "42752821",
+    "title": "Genetic principles enabling the creation of bacteria-based therapeutics.",
+    "authors": "Williams AB, Groseclose TM, Holec SAM, Newman D, Mora DSO, Linke L.",
+    "journal": "Genetics",
+    "date": "2026-09-18",
+    "abstract": "Genetic engineering can transform bacteria (including Salmonella, Escherichia coli, Listeria, and Yersinia) from naturally occurring microbes into programmable therapeutics. Unlike passive platforms, engineered bacteria can localize to defined biological niches, sense environmental cues, regulate programmed activity in situ, interact with host tissues in novel ways, and persist for controlled periods. These properties make bacteria versatile medicines but require genetic control of precision, safety, stability, and activity under clinical conditions. Major design layers include strain or \"chassis\" selection, attenuation and biocontainment, control of therapeutic activity, targeting and persistence, and genotype-to-phenotype stability during manufacturing and in vivo use. These features also create liabilities, including off-target behavior, unstable expression, and evolutionary loss of function under selection. Progress depends on safe, clinically translatable chassis with integrated, bounded, and durable behaviors. This review examines the genetic design principles and liabilities of bacteria-based therapeutics, approaches used to produce clinical and near-clinical candidates, and the emergence of programmed bacteria delivering complete gene editing systems to therapeutically relevant cells.",
+    "ai_summary": "This review examines the genetic design principles behind engineering bacteria (Salmonella, E. coli, Listeria, Yersinia) as programmable therapeutics, covering chassis selection, attenuation and biocontainment, control of therapeutic activity, targeting and persistence, and genotype-to-phenotype stability during manufacturing and in vivo use. It highlights the liabilities of these systems—off-target behavior, unstable expression, and evolutionary loss of function under selection—and argues that progress depends on safe, clinically translatable chassis with integrated, bounded, and durable behaviors. It also surveys approaches used to generate clinical and near-clinical candidates and the emergence of programmed bacteria that deliver complete gene editing systems to therapeutically relevant cells.",
+    "source_link": "https://doi.org/10.1093/genetics/iyag235",
+    "genes": [],
+    "diseases": [
+      "Cilia"
+    ],
+    "first_seen": "2026-11-09"
   }
 ]
